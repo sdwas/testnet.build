@@ -1562,7 +1562,8 @@ input[type=number]::-webkit-outer-spin-button {
 
 ._2p_RXB {
   background-color: #fff;
-  color: #000; }
+  color: #000;
+  border: 2px solid #e24d4d; }
   ._2p_RXB:hover {
     background-color: #e1e1e1; }
 
@@ -1838,7 +1839,7 @@ textarea._2HgfFS {
 ._3FIvMD {
   padding: 15px 25px;
   font-size: 18px; }
-.P2ewHX {
+._34omtZ {
   font-family: 'CerebriSans Bold';
   font-weight: 700; }
 .QOGrSh {
