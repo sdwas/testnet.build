@@ -10,8 +10,7 @@ webpackJsonp([0],[
 /* 8 */,
 /* 9 */,
 /* 10 */,
-/* 11 */,
-/* 12 */
+/* 11 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20,39 +19,39 @@ webpackJsonp([0],[
 exports.__esModule = true;
 exports.getScrollBarWidth = exports.getPageOffset = exports.ignoreProps = exports.localStorage = exports.constants = exports.request = exports.links = exports.web3 = exports.btc = undefined;
 
-var _btc = __webpack_require__(381);
+var _btc = __webpack_require__(377);
 
 var _btc2 = _interopRequireDefault(_btc);
 
-var _web = __webpack_require__(78);
+var _web = __webpack_require__(98);
 
 var _web2 = _interopRequireDefault(_web);
 
-var _links = __webpack_require__(581);
+var _links = __webpack_require__(577);
 
 var _links2 = _interopRequireDefault(_links);
 
-var _request = __webpack_require__(582);
+var _request = __webpack_require__(578);
 
 var _request2 = _interopRequireDefault(_request);
 
-var _constants = __webpack_require__(616);
+var _constants = __webpack_require__(612);
 
 var _constants2 = _interopRequireDefault(_constants);
 
-var _localStorage = __webpack_require__(621);
+var _localStorage = __webpack_require__(617);
 
 var _localStorage2 = _interopRequireDefault(_localStorage);
 
-var _ignoreProps = __webpack_require__(623);
+var _ignoreProps = __webpack_require__(619);
 
 var _ignoreProps2 = _interopRequireDefault(_ignoreProps);
 
-var _getPageOffset = __webpack_require__(626);
+var _getPageOffset = __webpack_require__(622);
 
 var _getPageOffset2 = _interopRequireDefault(_getPageOffset);
 
-var _getScrollBarWidth = __webpack_require__(627);
+var _getScrollBarWidth = __webpack_require__(623);
 
 var _getScrollBarWidth2 = _interopRequireDefault(_getScrollBarWidth);
 
@@ -72,8 +71,8 @@ exports.getScrollBarWidth = _getScrollBarWidth2.default;
 // Methods
 
 /***/ }),
-/* 13 */,
-/* 14 */
+/* 12 */,
+/* 13 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -81,47 +80,47 @@ exports.getScrollBarWidth = _getScrollBarWidth2.default;
 
 exports.__esModule = true;
 
-var _modals = __webpack_require__(788);
+var _modals = __webpack_require__(784);
 
 var _modals2 = _interopRequireDefault(_modals);
 
-var _loader = __webpack_require__(831);
+var _loader = __webpack_require__(827);
 
 var _loader2 = _interopRequireDefault(_loader);
 
-var _notifications = __webpack_require__(832);
+var _notifications = __webpack_require__(828);
 
 var _notifications2 = _interopRequireDefault(_notifications);
 
-var _filter = __webpack_require__(833);
+var _filter = __webpack_require__(829);
 
 var _filter2 = _interopRequireDefault(_filter);
 
-var _user = __webpack_require__(834);
+var _user = __webpack_require__(830);
 
 var _user2 = _interopRequireDefault(_user);
 
-var _bitcoin = __webpack_require__(837);
+var _bitcoin = __webpack_require__(833);
 
 var _bitcoin2 = _interopRequireDefault(_bitcoin);
 
-var _ethereum = __webpack_require__(838);
+var _ethereum = __webpack_require__(834);
 
 var _ethereum2 = _interopRequireDefault(_ethereum);
 
-var _token = __webpack_require__(839);
+var _token = __webpack_require__(835);
 
 var _token2 = _interopRequireDefault(_token);
 
-var _nimiq = __webpack_require__(841);
+var _nimiq = __webpack_require__(837);
 
 var _nimiq2 = _interopRequireDefault(_nimiq);
 
-var _feed = __webpack_require__(843);
+var _feed = __webpack_require__(839);
 
 var _feed2 = _interopRequireDefault(_feed);
 
-var _analytics = __webpack_require__(844);
+var _analytics = __webpack_require__(840);
 
 var _analytics2 = _interopRequireDefault(_analytics);
 
@@ -142,10 +141,10 @@ exports.default = {
 };
 
 /***/ }),
+/* 14 */,
 /* 15 */,
 /* 16 */,
-/* 17 */,
-/* 18 */
+/* 17 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -154,31 +153,31 @@ exports.default = {
 exports.__esModule = true;
 exports.util = exports.constants = exports.Events = exports.Collection = exports.SwapInterface = exports.ServiceInterface = undefined;
 
-var _SwapApp = __webpack_require__(331);
+var _SwapApp = __webpack_require__(328);
 
 var _SwapApp2 = _interopRequireDefault(_SwapApp);
 
-var _ServiceInterface = __webpack_require__(856);
+var _ServiceInterface = __webpack_require__(852);
 
 var _ServiceInterface2 = _interopRequireDefault(_ServiceInterface);
 
-var _SwapInterface = __webpack_require__(857);
+var _SwapInterface = __webpack_require__(853);
 
 var _SwapInterface2 = _interopRequireDefault(_SwapInterface);
 
-var _Collection = __webpack_require__(858);
+var _Collection = __webpack_require__(854);
 
 var _Collection2 = _interopRequireDefault(_Collection);
 
-var _Events = __webpack_require__(859);
+var _Events = __webpack_require__(855);
 
 var _Events2 = _interopRequireDefault(_Events);
 
-var _constants = __webpack_require__(332);
+var _constants = __webpack_require__(329);
 
 var _constants2 = _interopRequireDefault(_constants);
 
-var _util = __webpack_require__(860);
+var _util = __webpack_require__(856);
 
 var _util2 = _interopRequireDefault(_util);
 
@@ -193,6 +192,7 @@ exports.constants = _constants2.default;
 exports.util = _util2.default;
 
 /***/ }),
+/* 18 */,
 /* 19 */,
 /* 20 */,
 /* 21 */,
@@ -213,13 +213,13 @@ exports.util = _util2.default;
 
 exports.__esModule = true;
 
-var _redaction = __webpack_require__(27);
+var _redaction = __webpack_require__(26);
 
-var _reduErs = __webpack_require__(327);
+var _reduErs = __webpack_require__(324);
 
 var _reduErs2 = _interopRequireDefault(_reduErs);
 
-var _store = __webpack_require__(190);
+var _store = __webpack_require__(187);
 
 var _store2 = _interopRequireDefault(_store);
 
@@ -248,8 +248,7 @@ exports.default = (0, _redaction.wrapReducers)(_reduErs2.default, _store2.defaul
 /* 49 */,
 /* 50 */,
 /* 51 */,
-/* 52 */,
-/* 53 */
+/* 52 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -258,11 +257,11 @@ exports.default = (0, _redaction.wrapReducers)(_reduErs2.default, _store2.defaul
 exports.__esModule = true;
 exports.Flow = undefined;
 
-var _Swap = __webpack_require__(911);
+var _Swap = __webpack_require__(908);
 
 var _Swap2 = _interopRequireDefault(_Swap);
 
-var _Flow = __webpack_require__(912);
+var _Flow = __webpack_require__(909);
 
 var _Flow2 = _interopRequireDefault(_Flow);
 
@@ -272,6 +271,7 @@ exports.default = _Swap2.default;
 exports.Flow = _Flow2.default;
 
 /***/ }),
+/* 53 */,
 /* 54 */,
 /* 55 */,
 /* 56 */,
@@ -279,8 +279,7 @@ exports.Flow = _Flow2.default;
 /* 58 */,
 /* 59 */,
 /* 60 */,
-/* 61 */,
-/* 62 */
+/* 61 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -291,14 +290,14 @@ exports.__esModule = true;
 exports.default = {"propENV":"testnet.prod","paths":{},"publicPath":"https://testnet.swap.online/","http":{"host":"localhost","port":9001},"i18nDate":{"month":"long","day":"numeric","hour":"numeric","minute":"numeric"},"env":"production","entry":"testnet","base":"https://testnet.swap.online/","services":{"web3":{"provider":"https://rinkeby.infura.io/JCnK5ifEPH9qcQkX0Ahl","noxonToken":"0x60c205722c6c797c725a996cf9cca11291f90749","rate":0.1,"gas":100000,"gasPrice":"20000000000"}},"api":{"blocktrail":"https://api.blocktrail.com/v1/tBTC","bitpay":"https://test-insight.bitpay.com/api","etherscan":"https://rinkeby.etherscan.io/api"},"apiKeys":{"etherscan":"RHHFPNMAZMD6I4ZWBZBF6FA11CMW9AXZNM","blocktrail":"1835368c0fa8e71907ca26f3c978ab742a7db42e"}};
 
 /***/ }),
+/* 62 */,
 /* 63 */,
 /* 64 */,
 /* 65 */,
 /* 66 */,
 /* 67 */,
 /* 68 */,
-/* 69 */,
-/* 70 */
+/* 69 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -322,7 +321,7 @@ var _reactCssModules = __webpack_require__(2);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _Button = __webpack_require__(916);
+var _Button = __webpack_require__(913);
 
 var _Button2 = _interopRequireDefault(_Button);
 
@@ -337,7 +336,9 @@ var Button = function Button(props) {
       white = props.white,
       gray = props.gray,
       disabled = props.disabled,
-      onClick = props.onClick;
+      onClick = props.onClick,
+      _props$id = props.id,
+      id = _props$id === undefined ? '' : _props$id;
 
 
   var styleName = (0, _classnames2.default)('button', {
@@ -355,7 +356,8 @@ var Button = function Button(props) {
       styleName: styleName,
       className: className,
       role: 'button',
-      onClick: onClick
+      onClick: onClick,
+      id: id
     },
     children
   );
@@ -376,201 +378,15 @@ Button.propTypes = {
 exports.default = (0, _reactCssModules2.default)(Button, _Button2.default, { allowMultiple: true });
 
 /***/ }),
+/* 70 */,
 /* 71 */,
 /* 72 */,
 /* 73 */,
-/* 74 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-exports.__esModule = true;
-exports.events = undefined;
-
-var _classCallCheck2 = __webpack_require__(1);
-
-var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var Event = function () {
-
-  /**
-   *
-   * @param name {string}
-   */
-  function Event(name) {
-    (0, _classCallCheck3.default)(this, Event);
-
-    this.name = name;
-    this.handlers = [];
-  }
-
-  /**
-   * Add handler to current Event
-   *
-   * @param handler {function}
-   */
-
-
-  Event.prototype.addHandler = function addHandler(handler) {
-    var _this = this;
-
-    this.handlers.push(handler.bind({
-      unsubscribe: function unsubscribe() {
-        _this.removeHandler(handler);
-      }
-    }));
-  };
-
-  /**
-   * Remove handler from current Event
-   *
-   * @param handler {function}
-   * @returns {Array.<T>|*}
-   */
-
-
-  Event.prototype.removeHandler = function removeHandler(handler) {
-    var handlerIndex = this.handlers.indexOf(handler);
-
-    this.handlers.splice(handlerIndex, 1);
-  };
-
-  /**
-   * Call all handlers in all priorities of current Event
-   *
-   * @param eventArgs {...array}
-   */
-
-
-  Event.prototype.call = function call() {
-    for (var _len = arguments.length, eventArgs = Array(_len), _key = 0; _key < _len; _key++) {
-      eventArgs[_key] = arguments[_key];
-    }
-
-    this.handlers.forEach(function (handler) {
-      try {
-        handler.apply(undefined, eventArgs);
-      } catch (err) {
-        console.error(err);
-      }
-    });
-  };
-
-  return Event;
-}();
-
-var EventAggregator = function () {
-  function EventAggregator() {
-    (0, _classCallCheck3.default)(this, EventAggregator);
-
-    this.events = {};
-  }
-
-  /**
-   * Get Event by name
-   *
-   * @param name
-   * @returns {*}
-   */
-
-
-  EventAggregator.prototype.getEvent = function getEvent(name) {
-    var event = this.events[name];
-
-    if (!event) {
-      event = new Event(name);
-      this.events[name] = event;
-    }
-
-    return event;
-  };
-
-  /**
-   *
-   * @param name {string}
-   * @param handler {function}
-   * @returns {{ event: *, handler: * }}
-   */
-
-
-  EventAggregator.prototype.subscribe = function subscribe(name, handler) {
-    var event = this.getEvent(name);
-
-    event.addHandler(handler);
-
-    return { event: event, handler: handler };
-  };
-
-  /**
-   *
-   * @param eventName {string}
-   * @param handler {function}
-   */
-
-
-  EventAggregator.prototype.unsubscribe = function unsubscribe(eventName, handler) {
-    var event = this.getEvent(eventName);
-
-    event.removeHandler(handler);
-  };
-
-  /**
-   *
-   * @param name {string}
-   * @param eventArgs {...array}
-   */
-
-
-  EventAggregator.prototype.dispatch = function dispatch(name) {
-    var event = this.getEvent(name);
-
-    if (event) {
-      for (var _len2 = arguments.length, eventArgs = Array(_len2 > 1 ? _len2 - 1 : 0), _key2 = 1; _key2 < _len2; _key2++) {
-        eventArgs[_key2 - 1] = arguments[_key2];
-      }
-
-      event.call.apply(event, eventArgs);
-    }
-  };
-
-  return EventAggregator;
-}();
-
-var events = new EventAggregator();
-
-exports.default = EventAggregator;
-exports.events = events;
-
-/***/ }),
+/* 74 */,
 /* 75 */,
 /* 76 */,
 /* 77 */,
-/* 78 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-exports.__esModule = true;
-
-var _web = __webpack_require__(436);
-
-var _web2 = _interopRequireDefault(_web);
-
-var _appConfig = __webpack_require__(62);
-
-var _appConfig2 = _interopRequireDefault(_appConfig);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var web3 = new _web2.default(new _web2.default.providers.HttpProvider(_appConfig2.default.services.web3.provider));
-
-exports.default = web3;
-
-/***/ }),
+/* 78 */,
 /* 79 */,
 /* 80 */,
 /* 81 */,
@@ -580,36 +396,7 @@ exports.default = web3;
 /* 85 */,
 /* 86 */,
 /* 87 */,
-/* 88 */,
-/* 89 */,
-/* 90 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-exports.__esModule = true;
-exports.getState = exports.reducers = undefined;
-
-var _store = __webpack_require__(190);
-
-var _store2 = _interopRequireDefault(_store);
-
-var _reducers = __webpack_require__(31);
-
-var _reducers2 = _interopRequireDefault(_reducers);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var getState = function getState() {
-  return _store2.default.getState();
-};
-
-exports.reducers = _reducers2.default;
-exports.getState = getState;
-
-/***/ }),
-/* 91 */
+/* 88 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -618,35 +405,35 @@ exports.getState = getState;
 exports.__esModule = true;
 exports.swapApp = undefined;
 
-var _web = __webpack_require__(78);
+var _web = __webpack_require__(98);
 
 var _web2 = _interopRequireDefault(_web);
 
-var _bitcoinjsLib = __webpack_require__(100);
+var _bitcoinjsLib = __webpack_require__(134);
 
 var _bitcoinjsLib2 = _interopRequireDefault(_bitcoinjsLib);
 
-var _helpers = __webpack_require__(12);
+var _helpers = __webpack_require__(11);
 
-var _swap = __webpack_require__(18);
+var _swap = __webpack_require__(17);
 
 var _swap2 = _interopRequireDefault(_swap);
 
-var _swap3 = __webpack_require__(127);
+var _swap3 = __webpack_require__(123);
 
 var _swap4 = _interopRequireDefault(_swap3);
 
-var _swap5 = __webpack_require__(336);
+var _swap5 = __webpack_require__(334);
 
 var _swap6 = _interopRequireDefault(_swap5);
 
-var _swap7 = __webpack_require__(867);
+var _swap7 = __webpack_require__(864);
 
 var _swap8 = _interopRequireDefault(_swap7);
 
-var _swap9 = __webpack_require__(879);
+var _swap9 = __webpack_require__(876);
 
-var _actions = __webpack_require__(14);
+var _actions = __webpack_require__(13);
 
 var _actions2 = _interopRequireDefault(_actions);
 
@@ -691,16 +478,16 @@ _swap2.default.setup({
     }
   }), new _swap8.default()],
   swaps: [new _swap9.EthSwap({
-    address: '0xe08907e0e010a339646de2cc56926994f58c4db2',
-    abi: [{ 'constant': false, 'inputs': [{ 'name': '_ownerAddress', 'type': 'address' }], 'name': 'abort', 'outputs': [], 'payable': false, 'stateMutability': 'nonpayable', 'type': 'function' }, { 'constant': false, 'inputs': [{ 'name': '_participantAddress', 'type': 'address' }], 'name': 'close', 'outputs': [], 'payable': false, 'stateMutability': 'nonpayable', 'type': 'function' }, { 'constant': false, 'inputs': [{ 'name': '_secretHash', 'type': 'bytes20' }, { 'name': '_participantAddress', 'type': 'address' }], 'name': 'createSwap', 'outputs': [], 'payable': true, 'stateMutability': 'payable', 'type': 'function' }, { 'constant': false, 'inputs': [{ 'name': '_participantAddress', 'type': 'address' }], 'name': 'refund', 'outputs': [], 'payable': false, 'stateMutability': 'nonpayable', 'type': 'function' }, { 'constant': false, 'inputs': [{ 'name': '_ratingContractAddress', 'type': 'address' }], 'name': 'setReputationAddress', 'outputs': [], 'payable': false, 'stateMutability': 'nonpayable', 'type': 'function' }, { 'constant': false, 'inputs': [{ 'name': '_participantAddress', 'type': 'address' }], 'name': 'sign', 'outputs': [], 'payable': false, 'stateMutability': 'nonpayable', 'type': 'function' }, { 'inputs': [], 'payable': false, 'stateMutability': 'nonpayable', 'type': 'constructor' }, { 'constant': false, 'inputs': [{ 'name': '_secret', 'type': 'bytes32' }, { 'name': '_ownerAddress', 'type': 'address' }], 'name': 'withdraw', 'outputs': [], 'payable': false, 'stateMutability': 'nonpayable', 'type': 'function' }, { 'constant': true, 'inputs': [{ 'name': '_ownerAddress', 'type': 'address' }], 'name': 'checkSign', 'outputs': [{ 'name': '', 'type': 'uint256' }], 'payable': false, 'stateMutability': 'view', 'type': 'function' }, { 'constant': true, 'inputs': [{ 'name': '_ownerAddress', 'type': 'address' }, { 'name': '_participantAddress', 'type': 'address' }], 'name': 'getInfo', 'outputs': [{ 'name': '', 'type': 'bytes32' }, { 'name': '', 'type': 'bytes20' }, { 'name': '', 'type': 'uint256' }, { 'name': '', 'type': 'uint256' }], 'payable': false, 'stateMutability': 'view', 'type': 'function' }, { 'constant': true, 'inputs': [{ 'name': '_participantAddress', 'type': 'address' }], 'name': 'getSecret', 'outputs': [{ 'name': '', 'type': 'bytes32' }], 'payable': false, 'stateMutability': 'view', 'type': 'function' }, { 'constant': true, 'inputs': [], 'name': 'owner', 'outputs': [{ 'name': '', 'type': 'address' }], 'payable': false, 'stateMutability': 'view', 'type': 'function' }, { 'constant': true, 'inputs': [{ 'name': '', 'type': 'address' }, { 'name': '', 'type': 'address' }], 'name': 'participantSigns', 'outputs': [{ 'name': '', 'type': 'uint256' }], 'payable': false, 'stateMutability': 'view', 'type': 'function' }, { 'constant': true, 'inputs': [], 'name': 'ratingContractAddress', 'outputs': [{ 'name': '', 'type': 'address' }], 'payable': false, 'stateMutability': 'view', 'type': 'function' }, { 'constant': true, 'inputs': [{ 'name': '', 'type': 'address' }, { 'name': '', 'type': 'address' }], 'name': 'swaps', 'outputs': [{ 'name': 'secret', 'type': 'bytes32' }, { 'name': 'secretHash', 'type': 'bytes20' }, { 'name': 'createdAt', 'type': 'uint256' }, { 'name': 'balance', 'type': 'uint256' }], 'payable': false, 'stateMutability': 'view', 'type': 'function' }, { 'constant': true, 'inputs': [{ 'name': '_ownerAddress', 'type': 'address' }, { 'name': '_participantAddress', 'type': 'address' }], 'name': 'unsafeGetSecret', 'outputs': [{ 'name': '', 'type': 'bytes32' }], 'payable': false, 'stateMutability': 'view', 'type': 'function' }],
+    address: '0xdbC2395f753968a93465487022B0e5D8730633Ec',
+    abi: [{ "constant": false, "inputs": [{ "name": "_secret", "type": "bytes32" }, { "name": "_ownerAddress", "type": "address" }], "name": "withdraw", "outputs": [], "payable": false, "stateMutability": "nonpayable", "type": "function" }, { "constant": true, "inputs": [{ "name": "_participantAddress", "type": "address" }], "name": "getSecret", "outputs": [{ "name": "", "type": "bytes32" }], "payable": false, "stateMutability": "view", "type": "function" }, { "constant": false, "inputs": [{ "name": "_ratingContractAddress", "type": "address" }], "name": "setReputationAddress", "outputs": [], "payable": false, "stateMutability": "nonpayable", "type": "function" }, { "constant": true, "inputs": [{ "name": "", "type": "address" }, { "name": "", "type": "address" }], "name": "participantSigns", "outputs": [{ "name": "", "type": "uint256" }], "payable": false, "stateMutability": "view", "type": "function" }, { "constant": true, "inputs": [], "name": "owner", "outputs": [{ "name": "", "type": "address" }], "payable": false, "stateMutability": "view", "type": "function" }, { "constant": false, "inputs": [{ "name": "_ownerAddress", "type": "address" }], "name": "abort", "outputs": [], "payable": false, "stateMutability": "nonpayable", "type": "function" }, { "constant": true, "inputs": [{ "name": "", "type": "address" }, { "name": "", "type": "address" }], "name": "swaps", "outputs": [{ "name": "secret", "type": "bytes32" }, { "name": "secretHash", "type": "bytes20" }, { "name": "createdAt", "type": "uint256" }, { "name": "balance", "type": "uint256" }], "payable": false, "stateMutability": "view", "type": "function" }, { "constant": false, "inputs": [{ "name": "_secretHash", "type": "bytes20" }, { "name": "_participantAddress", "type": "address" }], "name": "createSwap", "outputs": [], "payable": true, "stateMutability": "payable", "type": "function" }, { "constant": true, "inputs": [{ "name": "_ownerAddress", "type": "address" }], "name": "checkSign", "outputs": [{ "name": "", "type": "uint256" }], "payable": false, "stateMutability": "view", "type": "function" }, { "constant": false, "inputs": [{ "name": "_participantAddress", "type": "address" }], "name": "close", "outputs": [], "payable": false, "stateMutability": "nonpayable", "type": "function" }, { "constant": true, "inputs": [], "name": "ratingContractAddress", "outputs": [{ "name": "", "type": "address" }], "payable": false, "stateMutability": "view", "type": "function" }, { "constant": false, "inputs": [{ "name": "_participantAddress", "type": "address" }], "name": "sign", "outputs": [], "payable": false, "stateMutability": "nonpayable", "type": "function" }, { "constant": true, "inputs": [{ "name": "_ownerAddress", "type": "address" }], "name": "getBalance", "outputs": [{ "name": "", "type": "uint256" }], "payable": false, "stateMutability": "view", "type": "function" }, { "constant": false, "inputs": [{ "name": "_participantAddress", "type": "address" }], "name": "refund", "outputs": [], "payable": false, "stateMutability": "nonpayable", "type": "function" }, { "inputs": [], "payable": false, "stateMutability": "nonpayable", "type": "constructor" }, { "anonymous": false, "inputs": [], "name": "Sign", "type": "event" }, { "anonymous": false, "inputs": [{ "indexed": false, "name": "createdAt", "type": "uint256" }], "name": "CreateSwap", "type": "event" }, { "anonymous": false, "inputs": [], "name": "Withdraw", "type": "event" }, { "anonymous": false, "inputs": [], "name": "Close", "type": "event" }, { "anonymous": false, "inputs": [], "name": "Refund", "type": "event" }, { "anonymous": false, "inputs": [], "name": "Abort", "type": "event" }],
     fetchBalance: function fetchBalance(address) {
       return _actions2.default.ethereum.fetchBalance(address);
     }
   }), new _swap9.EthTokenSwap({
-    address: '0x527458d3d3a3af763dbe2ccc5688d64161e81d97',
-    abi: [{ 'constant': false, 'inputs': [{ 'name': '_ownerAddress', 'type': 'address' }], 'name': 'abort', 'outputs': [], 'payable': false, 'stateMutability': 'nonpayable', 'type': 'function' }, { 'constant': false, 'inputs': [{ 'name': '_participantAddress', 'type': 'address' }], 'name': 'close', 'outputs': [], 'payable': false, 'stateMutability': 'nonpayable', 'type': 'function' }, { 'constant': false, 'inputs': [{ 'name': '_secretHash', 'type': 'bytes20' }, { 'name': '_participantAddress', 'type': 'address' }, { 'name': '_value', 'type': 'uint256' }, { 'name': '_token', 'type': 'address' }], 'name': 'createSwap', 'outputs': [], 'payable': false, 'stateMutability': 'nonpayable', 'type': 'function' }, { 'constant': false, 'inputs': [{ 'name': '_participantAddress', 'type': 'address' }], 'name': 'refund', 'outputs': [], 'payable': false, 'stateMutability': 'nonpayable', 'type': 'function' }, { 'constant': false, 'inputs': [{ 'name': '_ratingContractAddress', 'type': 'address' }], 'name': 'setReputationAddress', 'outputs': [], 'payable': false, 'stateMutability': 'nonpayable', 'type': 'function' }, { 'constant': false, 'inputs': [{ 'name': '_participantAddress', 'type': 'address' }], 'name': 'sign', 'outputs': [], 'payable': false, 'stateMutability': 'nonpayable', 'type': 'function' }, { 'inputs': [], 'payable': false, 'stateMutability': 'nonpayable', 'type': 'constructor' }, { 'constant': false, 'inputs': [{ 'name': '_secret', 'type': 'bytes32' }, { 'name': '_ownerAddress', 'type': 'address' }], 'name': 'withdraw', 'outputs': [], 'payable': false, 'stateMutability': 'nonpayable', 'type': 'function' }, { 'constant': true, 'inputs': [{ 'name': '_ownerAddress', 'type': 'address' }], 'name': 'checkSign', 'outputs': [{ 'name': '', 'type': 'uint256' }], 'payable': false, 'stateMutability': 'view', 'type': 'function' }, { 'constant': true, 'inputs': [{ 'name': '_ownerAddress', 'type': 'address' }, { 'name': '_participantAddress', 'type': 'address' }], 'name': 'getInfo', 'outputs': [{ 'name': '', 'type': 'address' }, { 'name': '', 'type': 'bytes32' }, { 'name': '', 'type': 'bytes20' }, { 'name': '', 'type': 'uint256' }, { 'name': '', 'type': 'uint256' }], 'payable': false, 'stateMutability': 'view', 'type': 'function' }, { 'constant': true, 'inputs': [{ 'name': '_participantAddress', 'type': 'address' }], 'name': 'getSecret', 'outputs': [{ 'name': '', 'type': 'bytes32' }], 'payable': false, 'stateMutability': 'view', 'type': 'function' }, { 'constant': true, 'inputs': [], 'name': 'owner', 'outputs': [{ 'name': '', 'type': 'address' }], 'payable': false, 'stateMutability': 'view', 'type': 'function' }, { 'constant': true, 'inputs': [{ 'name': '', 'type': 'address' }, { 'name': '', 'type': 'address' }], 'name': 'participantSigns', 'outputs': [{ 'name': '', 'type': 'uint256' }], 'payable': false, 'stateMutability': 'view', 'type': 'function' }, { 'constant': true, 'inputs': [], 'name': 'ratingContractAddress', 'outputs': [{ 'name': '', 'type': 'address' }], 'payable': false, 'stateMutability': 'view', 'type': 'function' }, { 'constant': true, 'inputs': [{ 'name': '', 'type': 'address' }, { 'name': '', 'type': 'address' }], 'name': 'swaps', 'outputs': [{ 'name': 'token', 'type': 'address' }, { 'name': 'secret', 'type': 'bytes32' }, { 'name': 'secretHash', 'type': 'bytes20' }, { 'name': 'createdAt', 'type': 'uint256' }, { 'name': 'balance', 'type': 'uint256' }], 'payable': false, 'stateMutability': 'view', 'type': 'function' }, { 'constant': true, 'inputs': [{ 'name': '_ownerAddress', 'type': 'address' }, { 'name': '_participantAddress', 'type': 'address' }], 'name': 'unsafeGetSecret', 'outputs': [{ 'name': '', 'type': 'bytes32' }], 'payable': false, 'stateMutability': 'view', 'type': 'function' }],
+    address: '0xBA5c6DC3CAcdE8EA754e47c817846f771944518F',
+    abi: [{ "constant": false, "inputs": [{ "name": "_secret", "type": "bytes32" }, { "name": "_ownerAddress", "type": "address" }], "name": "withdraw", "outputs": [], "payable": false, "stateMutability": "nonpayable", "type": "function" }, { "constant": true, "inputs": [{ "name": "_participantAddress", "type": "address" }], "name": "getSecret", "outputs": [{ "name": "", "type": "bytes32" }], "payable": false, "stateMutability": "view", "type": "function" }, { "constant": false, "inputs": [{ "name": "_ratingContractAddress", "type": "address" }], "name": "setReputationAddress", "outputs": [], "payable": false, "stateMutability": "nonpayable", "type": "function" }, { "constant": true, "inputs": [{ "name": "", "type": "address" }, { "name": "", "type": "address" }], "name": "participantSigns", "outputs": [{ "name": "", "type": "uint256" }], "payable": false, "stateMutability": "view", "type": "function" }, { "constant": true, "inputs": [], "name": "owner", "outputs": [{ "name": "", "type": "address" }], "payable": false, "stateMutability": "view", "type": "function" }, { "constant": false, "inputs": [{ "name": "_ownerAddress", "type": "address" }], "name": "abort", "outputs": [], "payable": false, "stateMutability": "nonpayable", "type": "function" }, { "constant": true, "inputs": [{ "name": "", "type": "address" }, { "name": "", "type": "address" }], "name": "swaps", "outputs": [{ "name": "token", "type": "address" }, { "name": "secret", "type": "bytes32" }, { "name": "secretHash", "type": "bytes20" }, { "name": "createdAt", "type": "uint256" }, { "name": "balance", "type": "uint256" }], "payable": false, "stateMutability": "view", "type": "function" }, { "constant": false, "inputs": [{ "name": "_secretHash", "type": "bytes20" }, { "name": "_participantAddress", "type": "address" }, { "name": "_value", "type": "uint256" }, { "name": "_token", "type": "address" }], "name": "createSwap", "outputs": [], "payable": false, "stateMutability": "nonpayable", "type": "function" }, { "constant": true, "inputs": [{ "name": "_ownerAddress", "type": "address" }], "name": "checkSign", "outputs": [{ "name": "", "type": "uint256" }], "payable": false, "stateMutability": "view", "type": "function" }, { "constant": false, "inputs": [{ "name": "_participantAddress", "type": "address" }], "name": "close", "outputs": [], "payable": false, "stateMutability": "nonpayable", "type": "function" }, { "constant": true, "inputs": [], "name": "ratingContractAddress", "outputs": [{ "name": "", "type": "address" }], "payable": false, "stateMutability": "view", "type": "function" }, { "constant": false, "inputs": [{ "name": "_participantAddress", "type": "address" }], "name": "sign", "outputs": [], "payable": false, "stateMutability": "nonpayable", "type": "function" }, { "constant": true, "inputs": [{ "name": "_ownerAddress", "type": "address" }], "name": "getBalance", "outputs": [{ "name": "", "type": "uint256" }], "payable": false, "stateMutability": "view", "type": "function" }, { "constant": false, "inputs": [{ "name": "_participantAddress", "type": "address" }], "name": "refund", "outputs": [], "payable": false, "stateMutability": "nonpayable", "type": "function" }, { "inputs": [], "payable": false, "stateMutability": "nonpayable", "type": "constructor" }, { "anonymous": false, "inputs": [], "name": "Sign", "type": "event" }, { "anonymous": false, "inputs": [{ "indexed": false, "name": "createdAt", "type": "uint256" }], "name": "CreateSwap", "type": "event" }, { "anonymous": false, "inputs": [], "name": "Withdraw", "type": "event" }, { "anonymous": false, "inputs": [], "name": "Close", "type": "event" }, { "anonymous": false, "inputs": [], "name": "Refund", "type": "event" }, { "anonymous": false, "inputs": [], "name": "Abort", "type": "event" }],
     tokenAddress: '0x60c205722c6c797c725a996cf9cca11291f90749',
-    tokenAbi: [{ 'constant': true, 'inputs': [], 'name': 'name', 'outputs': [{ 'name': '', 'type': 'string' }], 'payable': false, 'stateMutability': 'view', 'type': 'function' }, { 'constant': false, 'inputs': [{ 'name': '_spender', 'type': 'address' }, { 'name': '_amount', 'type': 'uint256' }], 'name': 'approve', 'outputs': [{ 'name': 'success', 'type': 'bool' }], 'payable': false, 'stateMutability': 'nonpayable', 'type': 'function' }, { 'constant': true, 'inputs': [], 'name': 'totalSupply', 'outputs': [{ 'name': '', 'type': 'uint256' }], 'payable': false, 'stateMutability': 'view', 'type': 'function' }, { 'constant': false, 'inputs': [{ 'name': '_from', 'type': 'address' }, { 'name': '_to', 'type': 'address' }, { 'name': '_amount', 'type': 'uint256' }], 'name': 'transferFrom', 'outputs': [{ 'name': 'success', 'type': 'bool' }], 'payable': false, 'stateMutability': 'nonpayable', 'type': 'function' }, { 'constant': false, 'inputs': [], 'name': 'getBurnPrice', 'outputs': [{ 'name': '', 'type': 'uint256' }], 'payable': false, 'stateMutability': 'nonpayable', 'type': 'function' }, { 'constant': true, 'inputs': [], 'name': 'decimals', 'outputs': [{ 'name': '', 'type': 'uint8' }], 'payable': false, 'stateMutability': 'view', 'type': 'function' }, { 'constant': true, 'inputs': [], 'name': 'manager', 'outputs': [{ 'name': '', 'type': 'address' }], 'payable': false, 'stateMutability': 'view', 'type': 'function' }, { 'constant': false, 'inputs': [], 'name': 'unlockEmission', 'outputs': [], 'payable': false, 'stateMutability': 'nonpayable', 'type': 'function' }, { 'constant': true, 'inputs': [{ 'name': '_owner', 'type': 'address' }], 'name': 'balanceOf', 'outputs': [{ 'name': 'balance', 'type': 'uint256' }], 'payable': false, 'stateMutability': 'view', 'type': 'function' }, { 'constant': true, 'inputs': [], 'name': 'emissionlocked', 'outputs': [{ 'name': '', 'type': 'bool' }], 'payable': false, 'stateMutability': 'view', 'type': 'function' }, { 'constant': false, 'inputs': [], 'name': 'acceptOwnership', 'outputs': [], 'payable': false, 'stateMutability': 'nonpayable', 'type': 'function' }, { 'constant': false, 'inputs': [], 'name': 'lockEmission', 'outputs': [], 'payable': false, 'stateMutability': 'nonpayable', 'type': 'function' }, { 'constant': true, 'inputs': [], 'name': 'owner', 'outputs': [{ 'name': '', 'type': 'address' }], 'payable': false, 'stateMutability': 'view', 'type': 'function' }, { 'constant': true, 'inputs': [], 'name': 'symbol', 'outputs': [{ 'name': '', 'type': 'string' }], 'payable': false, 'stateMutability': 'view', 'type': 'function' }, { 'constant': false, 'inputs': [], 'name': 'burnAll', 'outputs': [{ 'name': '', 'type': 'bool' }], 'payable': false, 'stateMutability': 'nonpayable', 'type': 'function' }, { 'constant': false, 'inputs': [{ 'name': '_newManager', 'type': 'address' }], 'name': 'changeManager', 'outputs': [], 'payable': false, 'stateMutability': 'nonpayable', 'type': 'function' }, { 'constant': false, 'inputs': [{ 'name': '_newOwner', 'type': 'address' }], 'name': 'changeOwner', 'outputs': [], 'payable': false, 'stateMutability': 'nonpayable', 'type': 'function' }, { 'constant': false, 'inputs': [{ 'name': '_to', 'type': 'address' }, { 'name': '_amount', 'type': 'uint256' }], 'name': 'transfer', 'outputs': [{ 'name': 'success', 'type': 'bool' }], 'payable': false, 'stateMutability': 'nonpayable', 'type': 'function' }, { 'constant': true, 'inputs': [], 'name': 'emissionPrice', 'outputs': [{ 'name': '', 'type': 'uint256' }], 'payable': false, 'stateMutability': 'view', 'type': 'function' }, { 'constant': false, 'inputs': [], 'name': 'addToReserve', 'outputs': [{ 'name': '', 'type': 'bool' }], 'payable': true, 'stateMutability': 'payable', 'type': 'function' }, { 'constant': true, 'inputs': [], 'name': 'burnPrice', 'outputs': [{ 'name': '', 'type': 'uint256' }], 'payable': false, 'stateMutability': 'view', 'type': 'function' }, { 'constant': false, 'inputs': [{ 'name': 'tokenAddress', 'type': 'address' }, { 'name': 'amount', 'type': 'uint256' }], 'name': 'transferAnyERC20Token', 'outputs': [{ 'name': 'success', 'type': 'bool' }], 'payable': false, 'stateMutability': 'nonpayable', 'type': 'function' }, { 'constant': true, 'inputs': [{ 'name': '_owner', 'type': 'address' }, { 'name': '_spender', 'type': 'address' }], 'name': 'allowance', 'outputs': [{ 'name': 'remaining', 'type': 'uint256' }], 'payable': false, 'stateMutability': 'view', 'type': 'function' }, { 'constant': false, 'inputs': [], 'name': 'NoxonInit', 'outputs': [{ 'name': '', 'type': 'bool' }], 'payable': true, 'stateMutability': 'payable', 'type': 'function' }, { 'constant': false, 'inputs': [], 'name': 'acceptManagership', 'outputs': [], 'payable': false, 'stateMutability': 'nonpayable', 'type': 'function' }, { 'inputs': [], 'payable': false, 'stateMutability': 'nonpayable', 'type': 'constructor' }, { 'payable': true, 'stateMutability': 'payable', 'type': 'fallback' }, { 'anonymous': false, 'inputs': [{ 'indexed': true, 'name': 'buyer', 'type': 'address' }, { 'indexed': false, 'name': 'ethers', 'type': 'uint256' }, { 'indexed': false, 'name': '_emissionedPrice', 'type': 'uint256' }, { 'indexed': false, 'name': 'amountOfTokens', 'type': 'uint256' }], 'name': 'TokenBought', 'type': 'event' }, { 'anonymous': false, 'inputs': [{ 'indexed': true, 'name': 'buyer', 'type': 'address' }, { 'indexed': false, 'name': 'ethers', 'type': 'uint256' }, { 'indexed': false, 'name': '_burnedPrice', 'type': 'uint256' }, { 'indexed': false, 'name': 'amountOfTokens', 'type': 'uint256' }], 'name': 'TokenBurned', 'type': 'event' }, { 'anonymous': false, 'inputs': [{ 'indexed': false, 'name': 'etherReserved', 'type': 'uint256' }], 'name': 'EtherReserved', 'type': 'event' }, { 'anonymous': false, 'inputs': [{ 'indexed': true, 'name': '_from', 'type': 'address' }, { 'indexed': true, 'name': '_to', 'type': 'address' }, { 'indexed': false, 'name': '_value', 'type': 'uint256' }], 'name': 'Transfer', 'type': 'event' }, { 'anonymous': false, 'inputs': [{ 'indexed': true, 'name': '_owner', 'type': 'address' }, { 'indexed': true, 'name': '_spender', 'type': 'address' }, { 'indexed': false, 'name': '_value', 'type': 'uint256' }], 'name': 'Approval', 'type': 'event' }],
+    tokenAbi: [{ "constant": true, "inputs": [], "name": "name", "outputs": [{ "name": "", "type": "string" }], "payable": false, "stateMutability": "view", "type": "function" }, { "constant": false, "inputs": [{ "name": "_spender", "type": "address" }, { "name": "_amount", "type": "uint256" }], "name": "approve", "outputs": [{ "name": "success", "type": "bool" }], "payable": false, "stateMutability": "nonpayable", "type": "function" }, { "constant": true, "inputs": [], "name": "totalSupply", "outputs": [{ "name": "", "type": "uint256" }], "payable": false, "stateMutability": "view", "type": "function" }, { "constant": false, "inputs": [{ "name": "_from", "type": "address" }, { "name": "_to", "type": "address" }, { "name": "_amount", "type": "uint256" }], "name": "transferFrom", "outputs": [{ "name": "success", "type": "bool" }], "payable": false, "stateMutability": "nonpayable", "type": "function" }, { "constant": false, "inputs": [], "name": "getBurnPrice", "outputs": [{ "name": "", "type": "uint256" }], "payable": false, "stateMutability": "nonpayable", "type": "function" }, { "constant": true, "inputs": [], "name": "decimals", "outputs": [{ "name": "", "type": "uint8" }], "payable": false, "stateMutability": "view", "type": "function" }, { "constant": true, "inputs": [], "name": "manager", "outputs": [{ "name": "", "type": "address" }], "payable": false, "stateMutability": "view", "type": "function" }, { "constant": false, "inputs": [], "name": "unlockEmission", "outputs": [], "payable": false, "stateMutability": "nonpayable", "type": "function" }, { "constant": true, "inputs": [{ "name": "_owner", "type": "address" }], "name": "balanceOf", "outputs": [{ "name": "balance", "type": "uint256" }], "payable": false, "stateMutability": "view", "type": "function" }, { "constant": true, "inputs": [], "name": "emissionlocked", "outputs": [{ "name": "", "type": "bool" }], "payable": false, "stateMutability": "view", "type": "function" }, { "constant": false, "inputs": [], "name": "acceptOwnership", "outputs": [], "payable": false, "stateMutability": "nonpayable", "type": "function" }, { "constant": false, "inputs": [], "name": "lockEmission", "outputs": [], "payable": false, "stateMutability": "nonpayable", "type": "function" }, { "constant": true, "inputs": [], "name": "owner", "outputs": [{ "name": "", "type": "address" }], "payable": false, "stateMutability": "view", "type": "function" }, { "constant": true, "inputs": [], "name": "symbol", "outputs": [{ "name": "", "type": "string" }], "payable": false, "stateMutability": "view", "type": "function" }, { "constant": false, "inputs": [], "name": "burnAll", "outputs": [{ "name": "", "type": "bool" }], "payable": false, "stateMutability": "nonpayable", "type": "function" }, { "constant": false, "inputs": [{ "name": "_newManager", "type": "address" }], "name": "changeManager", "outputs": [], "payable": false, "stateMutability": "nonpayable", "type": "function" }, { "constant": false, "inputs": [{ "name": "_newOwner", "type": "address" }], "name": "changeOwner", "outputs": [], "payable": false, "stateMutability": "nonpayable", "type": "function" }, { "constant": false, "inputs": [{ "name": "_to", "type": "address" }, { "name": "_amount", "type": "uint256" }], "name": "transfer", "outputs": [{ "name": "success", "type": "bool" }], "payable": false, "stateMutability": "nonpayable", "type": "function" }, { "constant": true, "inputs": [], "name": "emissionPrice", "outputs": [{ "name": "", "type": "uint256" }], "payable": false, "stateMutability": "view", "type": "function" }, { "constant": false, "inputs": [], "name": "addToReserve", "outputs": [{ "name": "", "type": "bool" }], "payable": true, "stateMutability": "payable", "type": "function" }, { "constant": true, "inputs": [], "name": "burnPrice", "outputs": [{ "name": "", "type": "uint256" }], "payable": false, "stateMutability": "view", "type": "function" }, { "constant": false, "inputs": [{ "name": "tokenAddress", "type": "address" }, { "name": "amount", "type": "uint256" }], "name": "transferAnyERC20Token", "outputs": [{ "name": "success", "type": "bool" }], "payable": false, "stateMutability": "nonpayable", "type": "function" }, { "constant": true, "inputs": [{ "name": "_owner", "type": "address" }, { "name": "_spender", "type": "address" }], "name": "allowance", "outputs": [{ "name": "remaining", "type": "uint256" }], "payable": false, "stateMutability": "view", "type": "function" }, { "constant": false, "inputs": [], "name": "NoxonInit", "outputs": [{ "name": "", "type": "bool" }], "payable": true, "stateMutability": "payable", "type": "function" }, { "constant": false, "inputs": [], "name": "acceptManagership", "outputs": [], "payable": false, "stateMutability": "nonpayable", "type": "function" }, { "inputs": [], "payable": false, "stateMutability": "nonpayable", "type": "constructor" }, { "payable": true, "stateMutability": "payable", "type": "fallback" }, { "anonymous": false, "inputs": [{ "indexed": true, "name": "buyer", "type": "address" }, { "indexed": false, "name": "ethers", "type": "uint256" }, { "indexed": false, "name": "_emissionedPrice", "type": "uint256" }, { "indexed": false, "name": "amountOfTokens", "type": "uint256" }], "name": "TokenBought", "type": "event" }, { "anonymous": false, "inputs": [{ "indexed": true, "name": "buyer", "type": "address" }, { "indexed": false, "name": "ethers", "type": "uint256" }, { "indexed": false, "name": "_burnedPrice", "type": "uint256" }, { "indexed": false, "name": "amountOfTokens", "type": "uint256" }], "name": "TokenBurned", "type": "event" }, { "anonymous": false, "inputs": [{ "indexed": false, "name": "etherReserved", "type": "uint256" }], "name": "EtherReserved", "type": "event" }, { "anonymous": false, "inputs": [{ "indexed": true, "name": "_from", "type": "address" }, { "indexed": true, "name": "_to", "type": "address" }, { "indexed": false, "name": "_value", "type": "uint256" }], "name": "Transfer", "type": "event" }, { "anonymous": false, "inputs": [{ "indexed": true, "name": "_owner", "type": "address" }, { "indexed": true, "name": "_spender", "type": "address" }, { "indexed": false, "name": "_value", "type": "uint256" }], "name": "Approval", "type": "event" }],
     fetchBalance: function fetchBalance(address) {
       return _actions2.default.token.fetchBalance(address);
     }
@@ -722,39 +509,7 @@ console.log('swapApp public data', _swap2.default.services.auth.getPublicData())
 exports.swapApp = _swap2.default;
 
 /***/ }),
-/* 92 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-exports.__esModule = true;
-exports.ignoreProps = exports.pullProps = exports.localStorage = exports.setupEnv = exports.env = undefined;
-
-var _localStorage = __webpack_require__(931);
-
-var _localStorage2 = _interopRequireDefault(_localStorage);
-
-var _pullProps = __webpack_require__(932);
-
-var _pullProps2 = _interopRequireDefault(_pullProps);
-
-var _ignoreProps = __webpack_require__(933);
-
-var _ignoreProps2 = _interopRequireDefault(_ignoreProps);
-
-var _env = __webpack_require__(345);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-exports.env = _env.env;
-exports.setupEnv = _env.setupEnv;
-exports.localStorage = _localStorage2.default;
-exports.pullProps = _pullProps2.default;
-exports.ignoreProps = _ignoreProps2.default;
-
-/***/ }),
-/* 93 */
+/* 89 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -763,11 +518,11 @@ exports.ignoreProps = _ignoreProps2.default;
 exports.__esModule = true;
 exports.Select = exports.TextArea = exports.Radio = exports.Checkbox = exports.NumberInput = exports.Input = undefined;
 
-var _keys = __webpack_require__(17);
+var _keys = __webpack_require__(25);
 
 var _keys2 = _interopRequireDefault(_keys);
 
-var _tags = __webpack_require__(982);
+var _tags = __webpack_require__(968);
 
 Object.defineProperty(exports, 'Input', {
   enumerable: true,
@@ -806,7 +561,7 @@ Object.defineProperty(exports, 'Select', {
   }
 });
 
-var _valuelink = __webpack_require__(985);
+var _valuelink = __webpack_require__(971);
 
 var _valuelink2 = _interopRequireDefault(_valuelink);
 
@@ -820,11 +575,37 @@ _valuelink2.default.allFields = function (component) {
 exports.default = _valuelink2.default;
 
 /***/ }),
+/* 90 */,
+/* 91 */,
+/* 92 */,
+/* 93 */,
 /* 94 */,
 /* 95 */,
 /* 96 */,
 /* 97 */,
-/* 98 */,
+/* 98 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+exports.__esModule = true;
+
+var _web = __webpack_require__(432);
+
+var _web2 = _interopRequireDefault(_web);
+
+var _appConfig = __webpack_require__(61);
+
+var _appConfig2 = _interopRequireDefault(_appConfig);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var web3 = new _web2.default(new _web2.default.providers.HttpProvider(_appConfig2.default.services.web3.provider));
+
+exports.default = web3;
+
+/***/ }),
 /* 99 */,
 /* 100 */,
 /* 101 */,
@@ -837,12 +618,7 @@ exports.default = _valuelink2.default;
 /* 108 */,
 /* 109 */,
 /* 110 */,
-/* 111 */,
-/* 112 */,
-/* 113 */,
-/* 114 */,
-/* 115 */,
-/* 116 */
+/* 111 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -862,15 +638,15 @@ var _reactCssModules = __webpack_require__(2);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _PageHeadline = __webpack_require__(768);
+var _PageHeadline = __webpack_require__(764);
 
 var _PageHeadline2 = _interopRequireDefault(_PageHeadline);
 
-var _Title = __webpack_require__(316);
+var _Title = __webpack_require__(313);
 
 var _Title2 = _interopRequireDefault(_Title);
 
-var _SubTitle = __webpack_require__(188);
+var _SubTitle = __webpack_require__(185);
 
 var _SubTitle2 = _interopRequireDefault(_SubTitle);
 
@@ -908,17 +684,44 @@ PageHeadline.propTypes = {
 exports.default = (0, _reactCssModules2.default)(PageHeadline, _PageHeadline2.default);
 
 /***/ }),
+/* 112 */,
+/* 113 */,
+/* 114 */,
+/* 115 */,
+/* 116 */,
 /* 117 */,
 /* 118 */,
 /* 119 */,
 /* 120 */,
 /* 121 */,
-/* 122 */,
-/* 123 */,
-/* 124 */,
-/* 125 */,
-/* 126 */,
-/* 127 */
+/* 122 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+exports.__esModule = true;
+exports.getState = exports.reducers = undefined;
+
+var _store = __webpack_require__(187);
+
+var _store2 = _interopRequireDefault(_store);
+
+var _reducers = __webpack_require__(31);
+
+var _reducers2 = _interopRequireDefault(_reducers);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var getState = function getState() {
+  return _store2.default.getState();
+};
+
+exports.reducers = _reducers2.default;
+exports.getState = getState;
+
+/***/ }),
+/* 123 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -926,7 +729,7 @@ exports.default = (0, _reactCssModules2.default)(PageHeadline, _PageHeadline2.de
 
 exports.__esModule = true;
 
-var _SwapAuth = __webpack_require__(191);
+var _SwapAuth = __webpack_require__(124);
 
 var _SwapAuth2 = _interopRequireDefault(_SwapAuth);
 
@@ -935,7 +738,113 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 exports.default = _SwapAuth2.default;
 
 /***/ }),
-/* 128 */
+/* 124 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+exports.__esModule = true;
+
+var _stringify = __webpack_require__(73);
+
+var _stringify2 = _interopRequireDefault(_stringify);
+
+var _keys = __webpack_require__(25);
+
+var _keys2 = _interopRequireDefault(_keys);
+
+var _classCallCheck2 = __webpack_require__(1);
+
+var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
+
+var _possibleConstructorReturn2 = __webpack_require__(3);
+
+var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
+
+var _createClass2 = __webpack_require__(188);
+
+var _createClass3 = _interopRequireDefault(_createClass2);
+
+var _inherits2 = __webpack_require__(4);
+
+var _inherits3 = _interopRequireDefault(_inherits2);
+
+var _swap = __webpack_require__(17);
+
+var _swap2 = _interopRequireDefault(_swap);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var _privateKeys = void 0;
+var getPublicDataMethods = {};
+
+var SwapAuth = function (_ServiceInterface) {
+  (0, _inherits3.default)(SwapAuth, _ServiceInterface);
+  (0, _createClass3.default)(SwapAuth, null, [{
+    key: 'name',
+    get: function get() {
+      return 'auth';
+    }
+  }]);
+
+  function SwapAuth(privateKeys) {
+    (0, _classCallCheck3.default)(this, SwapAuth);
+
+    var _this = (0, _possibleConstructorReturn3.default)(this, _ServiceInterface.call(this));
+
+    _this._serviceName = 'auth';
+    _this.accounts = {};
+
+    _privateKeys = privateKeys;
+    return _this;
+  }
+
+  SwapAuth.prototype.initService = function initService() {
+    var _this2 = this;
+
+    (0, _keys2.default)(_privateKeys).forEach(function (name) {
+      if (_swap.constants.COINS.indexOf(name) < 0) {
+        var error = 'SwapAuth._initService(): There is no instance with name "' + name + '".';
+        error += 'Only [' + (0, _stringify2.default)(_swap.constants.COINS).replace(/"/g, '\'') + '] available';
+
+        throw new Error(error);
+      }
+
+      try {
+        var instance = __webpack_require__(862)("./" + name);
+        instance = instance.default || instance;
+        var account = instance.login(_privateKeys[name]);
+
+        _this2.accounts[name] = account;
+        getPublicDataMethods[name] = function () {
+          return instance.getPublicData(account);
+        };
+      } catch (err) {
+        throw new Error('SwapAuth._initService(): ' + err);
+      }
+    });
+  };
+
+  SwapAuth.prototype.getPublicData = function getPublicData() {
+    var data = {
+      peer: _swap2.default.services.room.peer
+    };
+
+    (0, _keys2.default)(getPublicDataMethods).forEach(function (name) {
+      data[name] = getPublicDataMethods[name]();
+    });
+
+    return data;
+  };
+
+  return SwapAuth;
+}(_swap.ServiceInterface);
+
+exports.default = SwapAuth;
+
+/***/ }),
+/* 125 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -951,7 +860,7 @@ var _reactCssModules = __webpack_require__(2);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _InlineLoader = __webpack_require__(900);
+var _InlineLoader = __webpack_require__(897);
 
 var _InlineLoader2 = _interopRequireDefault(_InlineLoader);
 
@@ -971,7 +880,7 @@ var InlineLoader = function InlineLoader() {
 exports.default = (0, _reactCssModules2.default)(InlineLoader, _InlineLoader2.default);
 
 /***/ }),
-/* 129 */
+/* 126 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -980,19 +889,19 @@ exports.default = (0, _reactCssModules2.default)(InlineLoader, _InlineLoader2.de
 exports.__esModule = true;
 exports.BTC2ETHTOKEN = exports.ETHTOKEN2BTC = exports.BTC2ETH = exports.ETH2BTC = undefined;
 
-var _ETH2BTC = __webpack_require__(910);
+var _ETH2BTC = __webpack_require__(907);
 
 var _ETH2BTC2 = _interopRequireDefault(_ETH2BTC);
 
-var _BTC2ETH = __webpack_require__(913);
+var _BTC2ETH = __webpack_require__(910);
 
 var _BTC2ETH2 = _interopRequireDefault(_BTC2ETH);
 
-var _ETHTOKEN2BTC = __webpack_require__(914);
+var _ETHTOKEN2BTC = __webpack_require__(911);
 
 var _ETHTOKEN2BTC2 = _interopRequireDefault(_ETHTOKEN2BTC);
 
-var _BTC2ETHTOKEN = __webpack_require__(915);
+var _BTC2ETHTOKEN = __webpack_require__(912);
 
 var _BTC2ETHTOKEN2 = _interopRequireDefault(_BTC2ETHTOKEN);
 
@@ -1004,7 +913,7 @@ exports.ETHTOKEN2BTC = _ETHTOKEN2BTC2.default;
 exports.BTC2ETHTOKEN = _BTC2ETHTOKEN2.default;
 
 /***/ }),
-/* 130 */
+/* 127 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1020,7 +929,7 @@ var _reactCssModules = __webpack_require__(2);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _Loader = __webpack_require__(919);
+var _Loader = __webpack_require__(916);
 
 var _Loader2 = _interopRequireDefault(_Loader);
 
@@ -1047,114 +956,11 @@ var Loader = function Loader(_ref) {
 exports.default = (0, _reactCssModules2.default)(Loader, _Loader2.default, { allowMultiple: true });
 
 /***/ }),
-/* 131 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-exports.__esModule = true;
-
-var _pubSubRoom = __webpack_require__(930);
-
-var _pubSubRoom2 = _interopRequireDefault(_pubSubRoom);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-exports.default = _pubSubRoom2.default;
-
-/***/ }),
-/* 132 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-exports.__esModule = true;
-exports.storage = undefined;
-
-var _keys = __webpack_require__(17);
-
-var _keys2 = _interopRequireDefault(_keys);
-
-var _classCallCheck2 = __webpack_require__(1);
-
-var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
-
-var _Events = __webpack_require__(74);
-
-var _Events2 = _interopRequireDefault(_Events);
-
-var _util = __webpack_require__(92);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var Storage = function () {
-  function Storage() {
-    var _ref = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {},
-        data = _ref.data,
-        storeKey = _ref.storeKey;
-
-    (0, _classCallCheck3.default)(this, Storage);
-
-    this.storeKey = storeKey;
-    this.events = new _Events2.default();
-
-    if (data) {
-      this._update(data);
-    }
-
-    this._persistState();
-  }
-
-  Storage.prototype._persistState = function _persistState() {
-    if (this.storeKey) {
-      var data = _util.localStorage.getItem(this.storeKey);
-
-      this._update(data);
-    }
-  };
-
-  Storage.prototype._update = function _update(values) {
-    var _this = this;
-
-    if (values) {
-      (0, _keys2.default)(values).forEach(function (key) {
-        _this[key] = values[key];
-      });
-    }
-  };
-
-  Storage.prototype.update = function update(values) {
-    this._update(values);
-
-    var data = (0, _util.ignoreProps)(this, 'events', 'storeKey');
-
-    if (this.storeKey) {
-      _util.localStorage.setItem(this.storeKey, data);
-    }
-
-    _Events.events.dispatch('new storage values', values);
-    _Events.events.dispatch('storage update', data);
-  };
-
-  Storage.prototype.on = function on(eventName, handler) {
-    this.events.subscribe(eventName, handler);
-  };
-
-  Storage.prototype.off = function off(eventName, handler) {
-    this.events.unsubscribe(eventName, handler);
-  };
-
-  return Storage;
-}();
-
-var storage = new Storage();
-
-exports.default = Storage;
-exports.storage = storage;
-
-/***/ }),
+/* 128 */,
+/* 129 */,
+/* 130 */,
+/* 131 */,
+/* 132 */,
 /* 133 */,
 /* 134 */,
 /* 135 */,
@@ -1207,10 +1013,7 @@ exports.storage = storage;
 /* 182 */,
 /* 183 */,
 /* 184 */,
-/* 185 */,
-/* 186 */,
-/* 187 */,
-/* 188 */
+/* 185 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1226,7 +1029,7 @@ var _reactCssModules = __webpack_require__(2);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _SubTitle = __webpack_require__(770);
+var _SubTitle = __webpack_require__(766);
 
 var _SubTitle2 = _interopRequireDefault(_SubTitle);
 
@@ -1244,8 +1047,8 @@ var SubTitle = function SubTitle(_ref) {
 exports.default = (0, _reactCssModules2.default)(SubTitle, _SubTitle2.default);
 
 /***/ }),
-/* 189 */,
-/* 190 */
+/* 186 */,
+/* 187 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1254,19 +1057,19 @@ exports.default = (0, _reactCssModules2.default)(SubTitle, _SubTitle2.default);
 exports.__esModule = true;
 exports.history = undefined;
 
-var _assign = __webpack_require__(9);
+var _assign = __webpack_require__(15);
 
 var _assign2 = _interopRequireDefault(_assign);
 
-var _reactRouterRedux = __webpack_require__(328);
+var _reactRouterRedux = __webpack_require__(325);
 
-var _history = __webpack_require__(54);
+var _history = __webpack_require__(53);
 
-var _redaction = __webpack_require__(27);
+var _redaction = __webpack_require__(26);
 
-var _reduxLogger = __webpack_require__(830);
+var _reduxLogger = __webpack_require__(826);
 
-var _reduErs = __webpack_require__(327);
+var _reduErs = __webpack_require__(324);
 
 var _reduErs2 = _interopRequireDefault(_reduErs);
 
@@ -1286,7 +1089,9 @@ var store = (0, _redaction.createStore)({
 exports.default = store;
 
 /***/ }),
-/* 191 */
+/* 188 */,
+/* 189 */,
+/* 190 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1294,116 +1099,7 @@ exports.default = store;
 
 exports.__esModule = true;
 
-var _stringify = __webpack_require__(39);
-
-var _stringify2 = _interopRequireDefault(_stringify);
-
-var _keys = __webpack_require__(17);
-
-var _keys2 = _interopRequireDefault(_keys);
-
-var _classCallCheck2 = __webpack_require__(1);
-
-var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
-
-var _possibleConstructorReturn2 = __webpack_require__(3);
-
-var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
-
-var _createClass2 = __webpack_require__(192);
-
-var _createClass3 = _interopRequireDefault(_createClass2);
-
-var _inherits2 = __webpack_require__(4);
-
-var _inherits3 = _interopRequireDefault(_inherits2);
-
-var _swap = __webpack_require__(18);
-
-var _swap2 = _interopRequireDefault(_swap);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var _privateKeys = void 0;
-
-var SwapAuth = function (_ServiceInterface) {
-  (0, _inherits3.default)(SwapAuth, _ServiceInterface);
-  (0, _createClass3.default)(SwapAuth, null, [{
-    key: 'name',
-    get: function get() {
-      return 'auth';
-    }
-  }]);
-
-  function SwapAuth(privateKeys) {
-    (0, _classCallCheck3.default)(this, SwapAuth);
-
-    var _this = (0, _possibleConstructorReturn3.default)(this, _ServiceInterface.call(this));
-
-    _this._serviceName = 'auth';
-    _this.accounts = {};
-    _this.getPublicDataMethods = {};
-
-    _privateKeys = privateKeys;
-    return _this;
-  }
-
-  SwapAuth.prototype.initService = function initService() {
-    var _this2 = this;
-
-    (0, _keys2.default)(_privateKeys).forEach(function (name) {
-      if (_swap.constants.COINS.indexOf(name) < 0) {
-        var error = 'SwapAuth._initService(): There is no instance with name "' + name + '".';
-        error += 'Only [' + (0, _stringify2.default)(_swap.constants.COINS).replace(/"/g, '\'') + '] available';
-
-        throw new Error(error);
-      }
-
-      try {
-        var instance = __webpack_require__(865)("./" + name);
-        instance = instance.default || instance;
-        var account = instance.login(_privateKeys[name]);
-
-        _this2.accounts[name] = account;
-        _this2.getPublicDataMethods[name] = function () {
-          return instance.getPublicData(account);
-        };
-      } catch (err) {
-        throw new Error('SwapAuth._initService(): ' + err);
-      }
-    });
-  };
-
-  SwapAuth.prototype.getPublicData = function getPublicData() {
-    var _this3 = this;
-
-    var data = {
-      peer: _swap2.default.services.room.peer
-    };
-
-    (0, _keys2.default)(this.getPublicDataMethods).forEach(function (name) {
-      data[name] = _this3.getPublicDataMethods[name]();
-    });
-
-    return data;
-  };
-
-  return SwapAuth;
-}(_swap.ServiceInterface);
-
-exports.default = SwapAuth;
-
-/***/ }),
-/* 192 */,
-/* 193 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-exports.__esModule = true;
-
-var _assign = __webpack_require__(9);
+var _assign = __webpack_require__(15);
 
 var _assign2 = _interopRequireDefault(_assign);
 
@@ -1415,11 +1111,11 @@ var _reactCssModules = __webpack_require__(2);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _Coin = __webpack_require__(885);
+var _Coin = __webpack_require__(882);
 
 var _Coin2 = _interopRequireDefault(_Coin);
 
-var _CurrencyIcon = __webpack_require__(318);
+var _CurrencyIcon = __webpack_require__(315);
 
 var _CurrencyIcon2 = _interopRequireDefault(_CurrencyIcon);
 
@@ -1465,7 +1161,7 @@ var Coin = function Coin(_ref) {
 exports.default = (0, _reactCssModules2.default)(Coin, _Coin2.default);
 
 /***/ }),
-/* 194 */
+/* 191 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1481,7 +1177,7 @@ var _reactCssModules = __webpack_require__(2);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _Table = __webpack_require__(890);
+var _Table = __webpack_require__(887);
 
 var _Table2 = _interopRequireDefault(_Table);
 
@@ -1514,7 +1210,7 @@ var Table = function Table(_ref) {
       null,
       rows.map(function (row, rowIndex) {
         if (typeof rowRender === 'function') {
-          return rowRender(row, row.id || rowIndex);
+          return rowRender(row, rowIndex);
         }
       })
     )
@@ -1524,7 +1220,7 @@ var Table = function Table(_ref) {
 exports.default = (0, _reactCssModules2.default)(Table, _Table2.default);
 
 /***/ }),
-/* 195 */
+/* 192 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1532,11 +1228,11 @@ exports.default = (0, _reactCssModules2.default)(Table, _Table2.default);
 
 exports.__esModule = true;
 
-var _extends2 = __webpack_require__(46);
+var _extends2 = __webpack_require__(45);
 
 var _extends3 = _interopRequireDefault(_extends2);
 
-var _objectWithoutProperties2 = __webpack_require__(25);
+var _objectWithoutProperties2 = __webpack_require__(27);
 
 var _objectWithoutProperties3 = _interopRequireDefault(_objectWithoutProperties2);
 
@@ -1556,7 +1252,7 @@ var _reactCssModules = __webpack_require__(2);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _WidthContainer = __webpack_require__(942);
+var _WidthContainer = __webpack_require__(928);
 
 var _WidthContainer2 = _interopRequireDefault(_WidthContainer);
 
@@ -1613,7 +1309,7 @@ WidthContainer.propTypes = {
 exports.default = (0, _reactCssModules2.default)(WidthContainer, _WidthContainer2.default, { allowMultiple: true });
 
 /***/ }),
-/* 196 */
+/* 193 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1640,7 +1336,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _actions = __webpack_require__(14);
+var _actions = __webpack_require__(13);
 
 var _actions2 = _interopRequireDefault(_actions);
 
@@ -1656,27 +1352,27 @@ var _reactCssModules = __webpack_require__(2);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _Modal = __webpack_require__(963);
+var _Modal = __webpack_require__(949);
 
 var _Modal2 = _interopRequireDefault(_Modal);
 
-var _WidthContainer = __webpack_require__(195);
+var _WidthContainer = __webpack_require__(192);
 
 var _WidthContainer2 = _interopRequireDefault(_WidthContainer);
 
-var _Overlay = __webpack_require__(964);
+var _Overlay = __webpack_require__(950);
 
 var _Overlay2 = _interopRequireDefault(_Overlay);
 
-var _Logo = __webpack_require__(347);
+var _Logo = __webpack_require__(343);
 
 var _Logo2 = _interopRequireDefault(_Logo);
 
-var _Center = __webpack_require__(966);
+var _Center = __webpack_require__(952);
 
 var _Center2 = _interopRequireDefault(_Center);
 
-var _CloseIcon = __webpack_require__(968);
+var _CloseIcon = __webpack_require__(954);
 
 var _CloseIcon2 = _interopRequireDefault(_CloseIcon);
 
@@ -1795,7 +1491,7 @@ var Modal = (_dec = (0, _reactCssModules2.default)(_Modal2.default, { allowMulti
 exports.default = Modal;
 
 /***/ }),
-/* 197 */
+/* 194 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1811,7 +1507,7 @@ var _reactCssModules = __webpack_require__(2);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _Row = __webpack_require__(976);
+var _Row = __webpack_require__(962);
 
 var _Row2 = _interopRequireDefault(_Row);
 
@@ -1839,7 +1535,7 @@ var Row = function Row(_ref) {
 exports.default = (0, _reactCssModules2.default)(Row, _Row2.default);
 
 /***/ }),
-/* 198 */
+/* 195 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1855,7 +1551,7 @@ var _reactCssModules = __webpack_require__(2);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _Value = __webpack_require__(977);
+var _Value = __webpack_require__(963);
 
 var _Value2 = _interopRequireDefault(_Value);
 
@@ -1883,8 +1579,8 @@ var Value = function Value(_ref) {
 exports.default = (0, _reactCssModules2.default)(Value, _Value2.default);
 
 /***/ }),
-/* 199 */,
-/* 200 */
+/* 196 */,
+/* 197 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1893,11 +1589,11 @@ exports.default = (0, _reactCssModules2.default)(Value, _Value2.default);
 exports.__esModule = true;
 exports.default = undefined;
 
-var _assign = __webpack_require__(9);
+var _assign = __webpack_require__(15);
 
 var _assign2 = _interopRequireDefault(_assign);
 
-var _objectWithoutProperties2 = __webpack_require__(25);
+var _objectWithoutProperties2 = __webpack_require__(27);
 
 var _objectWithoutProperties3 = _interopRequireDefault(_objectWithoutProperties2);
 
@@ -1923,23 +1619,23 @@ var _propTypes = __webpack_require__(7);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
-var _swValuelink = __webpack_require__(93);
+var _swValuelink = __webpack_require__(89);
 
 var _classnames = __webpack_require__(34);
 
 var _classnames2 = _interopRequireDefault(_classnames);
 
-var _helpers = __webpack_require__(12);
+var _helpers = __webpack_require__(11);
 
 var _reactCssModules = __webpack_require__(2);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _Input = __webpack_require__(992);
+var _Input = __webpack_require__(978);
 
 var _Input2 = _interopRequireDefault(_Input);
 
-var _TextArea = __webpack_require__(993);
+var _TextArea = __webpack_require__(979);
 
 var _TextArea2 = _interopRequireDefault(_TextArea);
 
@@ -2021,6 +1717,9 @@ var Input = (_dec = (0, _reactCssModules2.default)(_Input2.default, { allowMulti
 exports.default = Input;
 
 /***/ }),
+/* 198 */,
+/* 199 */,
+/* 200 */,
 /* 201 */,
 /* 202 */,
 /* 203 */,
@@ -2133,10 +1832,7 @@ exports.default = Input;
 /* 310 */,
 /* 311 */,
 /* 312 */,
-/* 313 */,
-/* 314 */,
-/* 315 */,
-/* 316 */
+/* 313 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2152,7 +1848,7 @@ var _reactCssModules = __webpack_require__(2);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _Title = __webpack_require__(769);
+var _Title = __webpack_require__(765);
 
 var _Title2 = _interopRequireDefault(_Title);
 
@@ -2170,7 +1866,7 @@ var Title = function Title(_ref) {
 exports.default = (0, _reactCssModules2.default)(Title, _Title2.default);
 
 /***/ }),
-/* 317 */
+/* 314 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2186,15 +1882,15 @@ var _reactCssModules = __webpack_require__(2);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _CurrencySelect = __webpack_require__(775);
+var _CurrencySelect = __webpack_require__(771);
 
 var _CurrencySelect2 = _interopRequireDefault(_CurrencySelect);
 
-var _DropDown = __webpack_require__(776);
+var _DropDown = __webpack_require__(772);
 
 var _DropDown2 = _interopRequireDefault(_DropDown);
 
-var _Option = __webpack_require__(779);
+var _Option = __webpack_require__(775);
 
 var _Option2 = _interopRequireDefault(_Option);
 
@@ -2221,7 +1917,7 @@ var CurrencySelect = function CurrencySelect(_ref) {
 exports.default = (0, _reactCssModules2.default)(CurrencySelect, _CurrencySelect2.default);
 
 /***/ }),
-/* 318 */
+/* 315 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2230,7 +1926,7 @@ exports.default = (0, _reactCssModules2.default)(CurrencySelect, _CurrencySelect
 exports.__esModule = true;
 exports.iconNames = undefined;
 
-var _keys = __webpack_require__(17);
+var _keys = __webpack_require__(25);
 
 var _keys2 = _interopRequireDefault(_keys);
 
@@ -2242,31 +1938,31 @@ var _reactCssModules = __webpack_require__(2);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _CurrencyIcon = __webpack_require__(781);
+var _CurrencyIcon = __webpack_require__(777);
 
 var _CurrencyIcon2 = _interopRequireDefault(_CurrencyIcon);
 
-var _btc = __webpack_require__(782);
+var _btc = __webpack_require__(778);
 
 var _btc2 = _interopRequireDefault(_btc);
 
-var _eth = __webpack_require__(783);
+var _eth = __webpack_require__(779);
 
 var _eth2 = _interopRequireDefault(_eth);
 
-var _icx = __webpack_require__(784);
+var _icx = __webpack_require__(780);
 
 var _icx2 = _interopRequireDefault(_icx);
 
-var _waves = __webpack_require__(785);
+var _waves = __webpack_require__(781);
 
 var _waves2 = _interopRequireDefault(_waves);
 
-var _xrp = __webpack_require__(786);
+var _xrp = __webpack_require__(782);
 
 var _xrp2 = _interopRequireDefault(_xrp);
 
-var _nim = __webpack_require__(787);
+var _nim = __webpack_require__(783);
 
 var _nim2 = _interopRequireDefault(_nim);
 
@@ -2314,15 +2010,15 @@ var CurrencyIcon = function CurrencyIcon(_ref) {
 exports.default = (0, _reactCssModules2.default)(CurrencyIcon, _CurrencyIcon2.default);
 
 /***/ }),
+/* 316 */,
+/* 317 */,
+/* 318 */,
 /* 319 */,
 /* 320 */,
 /* 321 */,
 /* 322 */,
 /* 323 */,
-/* 324 */,
-/* 325 */,
-/* 326 */,
-/* 327 */
+/* 324 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2330,31 +2026,31 @@ exports.default = (0, _reactCssModules2.default)(CurrencyIcon, _CurrencyIcon2.de
 
 exports.__esModule = true;
 
-var _notifications = __webpack_require__(820);
+var _notifications = __webpack_require__(816);
 
 var notifications = _interopRequireWildcard(_notifications);
 
-var _modals = __webpack_require__(821);
+var _modals = __webpack_require__(817);
 
 var modals = _interopRequireWildcard(_modals);
 
-var _history = __webpack_require__(822);
+var _history = __webpack_require__(818);
 
 var history = _interopRequireWildcard(_history);
 
-var _loader = __webpack_require__(823);
+var _loader = __webpack_require__(819);
 
 var loader = _interopRequireWildcard(_loader);
 
-var _user = __webpack_require__(824);
+var _user = __webpack_require__(820);
 
 var user = _interopRequireWildcard(_user);
 
-var _feeds = __webpack_require__(825);
+var _feeds = __webpack_require__(821);
 
 var feeds = _interopRequireWildcard(_feeds);
 
-var _orders = __webpack_require__(826);
+var _orders = __webpack_require__(822);
 
 var orders = _interopRequireWildcard(_orders);
 
@@ -2371,10 +2067,10 @@ exports.default = {
 };
 
 /***/ }),
-/* 328 */,
-/* 329 */,
-/* 330 */,
-/* 331 */
+/* 325 */,
+/* 326 */,
+/* 327 */,
+/* 328 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2382,11 +2078,11 @@ exports.default = {
 
 exports.__esModule = true;
 
-var _stringify = __webpack_require__(39);
+var _stringify = __webpack_require__(73);
 
 var _stringify2 = _interopRequireDefault(_stringify);
 
-var _keys = __webpack_require__(17);
+var _keys = __webpack_require__(25);
 
 var _keys2 = _interopRequireDefault(_keys);
 
@@ -2394,11 +2090,11 @@ var _classCallCheck2 = __webpack_require__(1);
 
 var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
 
-var _constants = __webpack_require__(332);
+var _constants = __webpack_require__(329);
 
 var _constants2 = _interopRequireDefault(_constants);
 
-var _StorageFactory = __webpack_require__(855);
+var _StorageFactory = __webpack_require__(851);
 
 var _StorageFactory2 = _interopRequireDefault(_StorageFactory);
 
@@ -2516,12 +2212,10 @@ var SwapApp = function () {
   return SwapApp;
 }();
 
-window.app = new SwapApp();
-
-exports.default = window.app;
+exports.default = new SwapApp();
 
 /***/ }),
-/* 332 */
+/* 329 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2529,23 +2223,23 @@ exports.default = window.app;
 
 exports.__esModule = true;
 
-var _COINS = __webpack_require__(850);
+var _COINS = __webpack_require__(846);
 
 var _COINS2 = _interopRequireDefault(_COINS);
 
-var _ENV = __webpack_require__(851);
+var _ENV = __webpack_require__(847);
 
 var _ENV2 = _interopRequireDefault(_ENV);
 
-var _SERVICES = __webpack_require__(852);
+var _SERVICES = __webpack_require__(848);
 
 var _SERVICES2 = _interopRequireDefault(_SERVICES);
 
-var _SWAPS = __webpack_require__(853);
+var _SWAPS = __webpack_require__(849);
 
 var _SWAPS2 = _interopRequireDefault(_SWAPS);
 
-var _NETWORKS = __webpack_require__(854);
+var _NETWORKS = __webpack_require__(850);
 
 var _NETWORKS2 = _interopRequireDefault(_NETWORKS);
 
@@ -2560,8 +2254,8 @@ exports.default = {
 };
 
 /***/ }),
-/* 333 */,
-/* 334 */
+/* 330 */,
+/* 331 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2569,7 +2263,7 @@ exports.default = {
 
 exports.__esModule = true;
 
-var _swap = __webpack_require__(18);
+var _swap = __webpack_require__(17);
 
 var _swap2 = _interopRequireDefault(_swap);
 
@@ -2593,10 +2287,12 @@ var login = function login(_privateKey) {
     return privateKey;
   };
 
-  _swap2.default.env.storage.setItem(storageKey, privateKey);
+  if (!_privateKey) {
+    _swap2.default.env.storage.setItem(storageKey, privateKey);
+  }
 
   return account;
-}; /* eslint new-cap: 0, no-proto: 0 */
+};
 
 var getPublicData = function getPublicData(account) {
   return {
@@ -2611,7 +2307,7 @@ exports.default = {
 };
 
 /***/ }),
-/* 335 */
+/* 332 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2619,7 +2315,7 @@ exports.default = {
 
 exports.__esModule = true;
 
-var _swap = __webpack_require__(18);
+var _swap = __webpack_require__(17);
 
 var _swap2 = _interopRequireDefault(_swap);
 
@@ -2636,8 +2332,11 @@ var login = function login(_privateKey) {
     account = _swap2.default.env.web3.eth.accounts.create();
   }
 
-  _swap2.default.env.storage.setItem(storageKey, account.privateKey);
   _swap2.default.env.web3.eth.accounts.wallet.add(account.privateKey);
+
+  if (!_privateKey) {
+    _swap2.default.env.storage.setItem(storageKey, account.privateKey);
+  }
 
   return account;
 };
@@ -2655,7 +2354,25 @@ exports.default = {
 };
 
 /***/ }),
-/* 336 */
+/* 333 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+exports.__esModule = true;
+exports.SwapAuth = undefined;
+
+var _SwapAuth = __webpack_require__(124);
+
+var _SwapAuth2 = _interopRequireDefault(_SwapAuth);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+exports.SwapAuth = _SwapAuth2.default;
+
+/***/ }),
+/* 334 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2663,7 +2380,7 @@ exports.default = {
 
 exports.__esModule = true;
 
-var _SwapRoom = __webpack_require__(866);
+var _SwapRoom = __webpack_require__(863);
 
 var _SwapRoom2 = _interopRequireDefault(_SwapRoom);
 
@@ -2672,7 +2389,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 exports.default = _SwapRoom2.default;
 
 /***/ }),
-/* 337 */
+/* 335 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2680,12 +2397,12 @@ exports.default = _SwapRoom2.default;
 
 exports.__esModule = true;
 
-var _swap = __webpack_require__(18);
+var _swap = __webpack_require__(17);
 
 exports.default = new _swap.Events();
 
 /***/ }),
-/* 338 */
+/* 336 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2701,11 +2418,11 @@ var _reactCssModules = __webpack_require__(2);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _Coins = __webpack_require__(884);
+var _Coins = __webpack_require__(881);
 
 var _Coins2 = _interopRequireDefault(_Coins);
 
-var _Coin = __webpack_require__(193);
+var _Coin = __webpack_require__(190);
 
 var _Coin2 = _interopRequireDefault(_Coin);
 
@@ -2727,18 +2444,18 @@ var Coins = function Coins(_ref) {
 exports.default = (0, _reactCssModules2.default)(Coins, _Coins2.default);
 
 /***/ }),
-/* 339 */
+/* 337 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"history-filter":"_1QKxEw","history-filter__item":"_1L29kz","history-filter__item_active":"_3clnGG"};
 
 /***/ }),
+/* 338 */,
+/* 339 */,
 /* 340 */,
 /* 341 */,
-/* 342 */,
-/* 343 */,
-/* 344 */
+/* 342 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2746,15 +2463,11 @@ module.exports = {"history-filter":"_1QKxEw","history-filter__item":"_1L29kz","h
 
 exports.__esModule = true;
 
-var _assign = __webpack_require__(9);
+var _assign = __webpack_require__(15);
 
 var _assign2 = _interopRequireDefault(_assign);
 
-var _stringify = __webpack_require__(39);
-
-var _stringify2 = _interopRequireDefault(_stringify);
-
-var _objectWithoutProperties2 = __webpack_require__(25);
+var _objectWithoutProperties2 = __webpack_require__(27);
 
 var _objectWithoutProperties3 = _interopRequireDefault(_objectWithoutProperties2);
 
@@ -2762,13 +2475,16 @@ var _classCallCheck2 = __webpack_require__(1);
 
 var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
 
-var _swap = __webpack_require__(18);
+var _swap = __webpack_require__(17);
 
 var _swap2 = _interopRequireDefault(_swap);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var Room = function () {
+
+  // TODO add destroy method with all events unsubscribe (when swap is finished)
+
   function Room(_ref) {
     var swapId = _ref.swapId,
         participantPeer = _ref.participantPeer;
@@ -2781,7 +2497,7 @@ var Room = function () {
   Room.prototype.subscribe = function subscribe(eventName, handler) {
     var _this = this;
 
-    _swap2.default.services.room.events.subscribe(eventName, function (_ref2) {
+    _swap2.default.services.room.subscribe(eventName, function (_ref2) {
       var fromPeer = _ref2.fromPeer,
           swapId = _ref2.swapId,
           values = (0, _objectWithoutProperties3.default)(_ref2, ['fromPeer', 'swapId']);
@@ -2795,14 +2511,12 @@ var Room = function () {
   Room.prototype.once = function once(eventName, handler) {
     var self = this;
 
-    _swap2.default.services.room.events.subscribe(eventName, function (_ref3) {
+    _swap2.default.services.room.subscribe(eventName, function (_ref3) {
       var fromPeer = _ref3.fromPeer,
           swapId = _ref3.swapId,
           values = (0, _objectWithoutProperties3.default)(_ref3, ['fromPeer', 'swapId']);
 
       if (fromPeer === self.peer && swapId === self.swapId) {
-        console.error('INCOME SwapSwapApp.services.room event "' + eventName + '"');
-
         this.unsubscribe();
         handler(values);
       }
@@ -2820,36 +2534,26 @@ var Room = function () {
       // value - eventName
 
       if (typeof value === 'string') {
-        console.error('OUTCOME SwapSwapApp.services.room event "' + value + '"');
-
-        _swap2.default.services.room.connection.sendTo(this.peer, (0, _stringify2.default)([{
+        _swap2.default.services.room.sendMessage(this.peer, [{
           event: value,
           swapId: this.swapId
-        }]));
+        }]);
       }
       // value - messages
       else if (Array.isArray(value)) {
-          value.forEach(function (_ref4) {
-            var event = _ref4.event;
-
-            console.log('OUTCOME SwapSwapApp.services.room event "' + event + '"');
-          });
-
-          _swap2.default.services.room.connection.sendTo(this.peer, (0, _stringify2.default)(value));
+          _swap2.default.services.room.sendMessage(this.peer, value);
         }
     } else {
       var eventName = args[0],
           message = args[1];
 
 
-      console.log('OUTCOME SwapSwapApp.services.room event "' + eventName + '"');
-
-      _swap2.default.services.room.connection.sendTo(this.peer, (0, _stringify2.default)([{
+      _swap2.default.services.room.sendMessage(this.peer, [{
         event: eventName,
         data: (0, _assign2.default)({
           swapId: this.swapId
         }, message)
-      }]));
+      }]);
     }
   };
 
@@ -2859,308 +2563,7 @@ var Room = function () {
 exports.default = Room;
 
 /***/ }),
-/* 345 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-/* WEBPACK VAR INJECTION */(function(global) {
-
-exports.__esModule = true;
-exports.setupEnv = exports.env = undefined;
-
-var _keys = __webpack_require__(17);
-
-var _keys2 = _interopRequireDefault(_keys);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var env = {
-  web3: null,
-  bitcoinJs: null,
-  Ipfs: null,
-  IpfsRoom: null,
-  localStorage: global.localStorage
-};
-
-var setupEnv = function setupEnv(values) {
-  (0, _keys2.default)(values).forEach(function (key) {
-    env[key] = values[key];
-  });
-};
-
-exports.env = env;
-exports.setupEnv = setupEnv;
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(10)))
-
-/***/ }),
-/* 346 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-exports.__esModule = true;
-
-var _assign = __webpack_require__(9);
-
-var _assign2 = _interopRequireDefault(_assign);
-
-var _classCallCheck2 = __webpack_require__(1);
-
-var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
-
-var _possibleConstructorReturn2 = __webpack_require__(3);
-
-var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
-
-var _inherits2 = __webpack_require__(4);
-
-var _inherits3 = _interopRequireDefault(_inherits2);
-
-var _Events = __webpack_require__(74);
-
-var _Collection2 = __webpack_require__(934);
-
-var _Collection3 = _interopRequireDefault(_Collection2);
-
-var _Storage = __webpack_require__(132);
-
-var _Order = __webpack_require__(935);
-
-var _Order2 = _interopRequireDefault(_Order);
-
-var _room = __webpack_require__(131);
-
-var _room2 = _interopRequireDefault(_room);
-
-var _util = __webpack_require__(92);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var OrderCollection = function (_Collection) {
-  (0, _inherits3.default)(OrderCollection, _Collection);
-
-  function OrderCollection() {
-    (0, _classCallCheck3.default)(this, OrderCollection);
-
-    var _this = (0, _possibleConstructorReturn3.default)(this, _Collection.call(this));
-
-    _this._onMount();
-    return _this;
-  }
-
-  OrderCollection.prototype._onMount = function _onMount() {
-    var _this2 = this;
-
-    _room2.default.subscribe('ready', function () {
-      _this2._persistMyOrders();
-    });
-
-    _room2.default.subscribe('user online', function (peer) {
-      var myOrders = _this2.getMyOrders();
-
-      if (myOrders.length) {
-        // clean orders from other additional props
-        myOrders = myOrders.map(function (item) {
-          return (0, _util.pullProps)(item, 'id', 'owner', 'buyCurrency', 'sellCurrency', 'buyAmount', 'sellAmount', 'isRequested', 'isProcessing');
-        });
-
-        console.log('Send my orders to ' + peer, myOrders);
-
-        _room2.default.sendMessage(peer, [{
-          event: 'new orders',
-          data: {
-            orders: myOrders
-          }
-        }]);
-      }
-    });
-
-    _room2.default.subscribe('user offline', function (peer) {
-      var peerOrders = _this2.getPeerOrders(peer);
-
-      if (peerOrders.length) {
-        peerOrders.forEach(function (_ref) {
-          var id = _ref.id;
-
-          _this2._handleRemove(id);
-        });
-      }
-    });
-
-    _room2.default.subscribe('new orders', function (_ref2) {
-      var fromPeer = _ref2.fromPeer,
-          orders = _ref2.orders;
-
-      // ductape to check if such orders already exist
-      var filteredOrders = orders.filter(function (_ref3) {
-        var id = _ref3.id;
-        return !_this2.getByKey(id);
-      });
-
-      console.log('Receive orders from ' + fromPeer, filteredOrders);
-
-      _this2._handleMultipleCreate(filteredOrders);
-    });
-
-    _room2.default.subscribe('new order', function (_ref4) {
-      var data = _ref4.order;
-
-      _this2._handleCreate(data);
-    });
-
-    _room2.default.subscribe('remove order', function (_ref5) {
-      var orderId = _ref5.orderId;
-
-      _this2._handleRemove(orderId);
-    });
-  };
-
-  OrderCollection.prototype._persistMyOrders = function _persistMyOrders() {
-    var _this3 = this;
-
-    this.getMyOrders().forEach(function (orderData) {
-      _this3._handleCreate(orderData);
-    });
-  };
-
-  OrderCollection.prototype._create = function _create(data) {
-    var order = new _Order2.default({
-      collection: this,
-      data: data
-    });
-
-    this.append(order, order.id);
-
-    return order;
-  };
-
-  /**
-   *
-   * @param {object} data
-   * @param {string} data.id
-   * @param {object} data.owner
-   * @param {string} data.owner.peer
-   * @param {number} data.owner.reputation
-   * @param {object} data.owner.<currency>
-   * @param {string} data.owner.<currency>.address
-   * @param {string} data.owner.<currency>.publicKey
-   * @param {string} data.buyCurrency
-   * @param {string} data.sellCurrency
-   * @param {number} data.buyAmount
-   * @param {number} data.sellAmount
-   */
-
-
-  OrderCollection.prototype._handleCreate = function _handleCreate(data) {
-    var order = this._create(data);
-
-    _Events.events.dispatch('new order', order);
-  };
-
-  OrderCollection.prototype._handleMultipleCreate = function _handleMultipleCreate(ordersData) {
-    var _this4 = this;
-
-    var orders = [];
-
-    ordersData.forEach(function (data) {
-      var order = _this4._create(data);
-      orders.push(order);
-    });
-
-    _Events.events.dispatch('new orders', orders);
-  };
-
-  /**
-   *
-   * @param {string} orderId
-   */
-
-
-  OrderCollection.prototype._handleRemove = function _handleRemove(orderId) {
-    var order = this.getByKey(orderId);
-
-    this.removeByKey(orderId);
-    _Events.events.dispatch('remove order', order);
-  };
-
-  OrderCollection.prototype._saveMyOrders = function _saveMyOrders() {
-    var myOrders = this.items.filter(function (_ref6) {
-      var peer = _ref6.owner.peer;
-      return peer === _Storage.storage.me.peer;
-    });
-
-    // clean orders from other additional props
-    // TODO need to add functionality to sync `requests` for users who going offline / online
-    // problem: when I going online and persisting my orders need to show only online users requests,
-    // but then user comes online need to change status. Ofc we can leave this bcs developers can do this themselves
-    // with filters - skip requests where user is offline, but it looks like not very good
-    myOrders = myOrders.map(function (item) {
-      return (0, _util.pullProps)(item, 'id', 'owner', 'buyCurrency', 'sellCurrency', 'buyAmount', 'sellAmount', 'participant', 'requests', 'isRequested', 'isProcessing');
-    });
-
-    _util.localStorage.setItem('myOrders', myOrders);
-  };
-
-  OrderCollection.prototype.getMyOrders = function getMyOrders() {
-    return _util.localStorage.getItem('myOrders') || [];
-  };
-
-  OrderCollection.prototype.getPeerOrders = function getPeerOrders(peer) {
-    return this.items.filter(function (_ref7) {
-      var owner = _ref7.owner;
-      return peer === owner.peer;
-    });
-  };
-
-  /**
-   *
-   * @param {object} data
-   * @param {string} data.buyCurrency
-   * @param {string} data.sellCurrency
-   * @param {number} data.buyAmount
-   * @param {number} data.sellAmount
-   */
-
-
-  OrderCollection.prototype.create = function create(data) {
-    var order = this._create((0, _assign2.default)({}, data, {
-      owner: _Storage.storage.me
-    }));
-    this._saveMyOrders();
-
-    _room2.default.sendMessage([{
-      event: 'new order',
-      data: {
-        order: (0, _util.pullProps)(order, 'id', 'owner', 'buyCurrency', 'sellCurrency', 'buyAmount', 'sellAmount', 'isRequested', 'isProcessing')
-      }
-    }]);
-  };
-
-  /**
-   *
-   * @param {string} orderId
-   */
-
-
-  OrderCollection.prototype.remove = function remove(orderId) {
-    this.removeByKey(orderId);
-    _room2.default.sendMessage([{
-      event: 'remove order',
-      data: {
-        orderId: orderId
-      }
-    }]);
-    this._saveMyOrders();
-  };
-
-  return OrderCollection;
-}(_Collection3.default);
-
-exports.default = new OrderCollection();
-
-/***/ }),
-/* 347 */
+/* 343 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3172,23 +2575,23 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactRouterDom = __webpack_require__(55);
+var _reactRouterDom = __webpack_require__(54);
 
-var _helpers = __webpack_require__(12);
+var _helpers = __webpack_require__(11);
 
 var _reactCssModules = __webpack_require__(2);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _Logo = __webpack_require__(943);
+var _Logo = __webpack_require__(929);
 
 var _Logo2 = _interopRequireDefault(_Logo);
 
-var _logo = __webpack_require__(944);
+var _logo = __webpack_require__(930);
 
 var _logo2 = _interopRequireDefault(_logo);
 
-var _logoColored = __webpack_require__(945);
+var _logoColored = __webpack_require__(931);
 
 var _logoColored2 = _interopRequireDefault(_logoColored);
 
@@ -3218,13 +2621,13 @@ var Logo = function Logo(_ref) {
 exports.default = (0, _reactCssModules2.default)(Logo, _Logo2.default);
 
 /***/ }),
-/* 348 */
+/* 344 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "71af1b68ea0f662eb88996ea7a25bf8a.mp4";
 
 /***/ }),
-/* 349 */
+/* 345 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3244,7 +2647,7 @@ var _reactCssModules = __webpack_require__(2);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _FieldLabel = __webpack_require__(991);
+var _FieldLabel = __webpack_require__(977);
 
 var _FieldLabel2 = _interopRequireDefault(_FieldLabel);
 
@@ -3263,7 +2666,7 @@ var FieldLabel = function FieldLabel(_ref) {
 exports.default = (0, _reactCssModules2.default)(FieldLabel, _FieldLabel2.default, { allowMultiple: true });
 
 /***/ }),
-/* 350 */
+/* 346 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3298,7 +2701,7 @@ var _classnames = __webpack_require__(34);
 
 var _classnames2 = _interopRequireDefault(_classnames);
 
-var _actions = __webpack_require__(14);
+var _actions = __webpack_require__(13);
 
 var _actions2 = _interopRequireDefault(_actions);
 
@@ -3306,11 +2709,11 @@ var _reactCssModules = __webpack_require__(2);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _Notification = __webpack_require__(1006);
+var _Notification = __webpack_require__(992);
 
 var _Notification2 = _interopRequireDefault(_Notification);
 
-var _Sound = __webpack_require__(348);
+var _Sound = __webpack_require__(344);
 
 var _Sound2 = _interopRequireDefault(_Sound);
 
@@ -3407,7 +2810,7 @@ var Notification = (_dec = (0, _reactCssModules2.default)(_Notification2.default
 exports.default = Notification;
 
 /***/ }),
-/* 351 */
+/* 347 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3417,19 +2820,19 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactDom = __webpack_require__(202);
+var _reactDom = __webpack_require__(199);
 
 var _reactDom2 = _interopRequireDefault(_reactDom);
 
-var _routes = __webpack_require__(360);
+var _routes = __webpack_require__(356);
 
 var _routes2 = _interopRequireDefault(_routes);
 
-var _store = __webpack_require__(190);
+var _store = __webpack_require__(187);
 
 var _store2 = _interopRequireDefault(_store);
 
-var _Root = __webpack_require__(925);
+var _Root = __webpack_require__(922);
 
 var _Root2 = _interopRequireDefault(_Root);
 
@@ -3445,15 +2848,15 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 _reactDom2.default.render(_react2.default.createElement(_Root2.default, { history: _store.history, store: _store2.default, routes: _routes2.default }), document.getElementById('root'));
 
 /***/ }),
+/* 348 */,
+/* 349 */,
+/* 350 */,
+/* 351 */,
 /* 352 */,
 /* 353 */,
 /* 354 */,
 /* 355 */,
-/* 356 */,
-/* 357 */,
-/* 358 */,
-/* 359 */,
-/* 360 */
+/* 356 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3465,33 +2868,33 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactRouter = __webpack_require__(95);
+var _reactRouter = __webpack_require__(91);
 
-var _reactRouterDom = __webpack_require__(55);
+var _reactRouterDom = __webpack_require__(54);
 
-var _helpers = __webpack_require__(12);
+var _helpers = __webpack_require__(11);
 
-var _Home = __webpack_require__(628);
+var _Home = __webpack_require__(624);
 
 var _Home2 = _interopRequireDefault(_Home);
 
-var _Balances = __webpack_require__(891);
+var _Balances = __webpack_require__(888);
 
 var _Balances2 = _interopRequireDefault(_Balances);
 
-var _History = __webpack_require__(901);
+var _History = __webpack_require__(898);
 
 var _History2 = _interopRequireDefault(_History);
 
-var _NotFound = __webpack_require__(907);
+var _NotFound = __webpack_require__(904);
 
 var _NotFound2 = _interopRequireDefault(_NotFound);
 
-var _Swap = __webpack_require__(908);
+var _Swap = __webpack_require__(905);
 
 var _Swap2 = _interopRequireDefault(_Swap);
 
-var _Feed = __webpack_require__(921);
+var _Feed = __webpack_require__(918);
 
 var _Feed2 = _interopRequireDefault(_Feed);
 
@@ -3511,6 +2914,10 @@ var routes = _react2.default.createElement(
 exports.default = routes;
 
 /***/ }),
+/* 357 */,
+/* 358 */,
+/* 359 */,
+/* 360 */,
 /* 361 */,
 /* 362 */,
 /* 363 */,
@@ -3527,11 +2934,7 @@ exports.default = routes;
 /* 374 */,
 /* 375 */,
 /* 376 */,
-/* 377 */,
-/* 378 */,
-/* 379 */,
-/* 380 */,
-/* 381 */
+/* 377 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3539,7 +2942,7 @@ exports.default = routes;
 
 exports.__esModule = true;
 
-var _bitcoinjsLib = __webpack_require__(100);
+var _bitcoinjsLib = __webpack_require__(134);
 
 var _bitcoinjsLib2 = _interopRequireDefault(_bitcoinjsLib);
 
@@ -3552,6 +2955,10 @@ exports.default = {
 };
 
 /***/ }),
+/* 378 */,
+/* 379 */,
+/* 380 */,
+/* 381 */,
 /* 382 */,
 /* 383 */,
 /* 384 */,
@@ -3570,23 +2977,23 @@ exports.default = {
 /* 397 */,
 /* 398 */,
 /* 399 */,
-/* 400 */,
+/* 400 */
+/***/ (function(module, exports) {
+
+/* (ignored) */
+
+/***/ }),
 /* 401 */,
-/* 402 */,
+/* 402 */
+/***/ (function(module, exports) {
+
+/* (ignored) */
+
+/***/ }),
 /* 403 */,
-/* 404 */
-/***/ (function(module, exports) {
-
-/* (ignored) */
-
-/***/ }),
+/* 404 */,
 /* 405 */,
-/* 406 */
-/***/ (function(module, exports) {
-
-/* (ignored) */
-
-/***/ }),
+/* 406 */,
 /* 407 */,
 /* 408 */,
 /* 409 */,
@@ -3681,22 +3088,22 @@ exports.default = {
 /* 498 */,
 /* 499 */,
 /* 500 */,
-/* 501 */,
-/* 502 */,
+/* 501 */
+/***/ (function(module, exports) {
+
+/* (ignored) */
+
+/***/ }),
+/* 502 */
+/***/ (function(module, exports) {
+
+/* (ignored) */
+
+/***/ }),
 /* 503 */,
 /* 504 */,
-/* 505 */
-/***/ (function(module, exports) {
-
-/* (ignored) */
-
-/***/ }),
-/* 506 */
-/***/ (function(module, exports) {
-
-/* (ignored) */
-
-/***/ }),
+/* 505 */,
+/* 506 */,
 /* 507 */,
 /* 508 */,
 /* 509 */,
@@ -3767,11 +3174,7 @@ exports.default = {
 /* 574 */,
 /* 575 */,
 /* 576 */,
-/* 577 */,
-/* 578 */,
-/* 579 */,
-/* 580 */,
-/* 581 */
+/* 577 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3787,7 +3190,7 @@ exports.default = {
 };
 
 /***/ }),
-/* 582 */
+/* 578 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3795,7 +3198,7 @@ exports.default = {
 
 exports.__esModule = true;
 
-var _assign = __webpack_require__(9);
+var _assign = __webpack_require__(15);
 
 var _assign2 = _interopRequireDefault(_assign);
 
@@ -3803,7 +3206,7 @@ var _promise = __webpack_require__(33);
 
 var _promise2 = _interopRequireDefault(_promise);
 
-var _superagent = __webpack_require__(610);
+var _superagent = __webpack_require__(606);
 
 var _superagent2 = _interopRequireDefault(_superagent);
 
@@ -3920,6 +3323,10 @@ exports.default = {
 };
 
 /***/ }),
+/* 579 */,
+/* 580 */,
+/* 581 */,
+/* 582 */,
 /* 583 */,
 /* 584 */,
 /* 585 */,
@@ -3949,11 +3356,7 @@ exports.default = {
 /* 609 */,
 /* 610 */,
 /* 611 */,
-/* 612 */,
-/* 613 */,
-/* 614 */,
-/* 615 */,
-/* 616 */
+/* 612 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3961,19 +3364,19 @@ exports.default = {
 
 exports.__esModule = true;
 
-var _localStorage = __webpack_require__(617);
+var _localStorage = __webpack_require__(613);
 
 var _localStorage2 = _interopRequireDefault(_localStorage);
 
-var _privateKeyNames = __webpack_require__(618);
+var _privateKeyNames = __webpack_require__(614);
 
 var _privateKeyNames2 = _interopRequireDefault(_privateKeyNames);
 
-var _notifications = __webpack_require__(619);
+var _notifications = __webpack_require__(615);
 
 var _notifications2 = _interopRequireDefault(_notifications);
 
-var _modals = __webpack_require__(620);
+var _modals = __webpack_require__(616);
 
 var _modals2 = _interopRequireDefault(_modals);
 
@@ -3987,7 +3390,7 @@ exports.default = {
 };
 
 /***/ }),
-/* 617 */
+/* 613 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3999,7 +3402,7 @@ exports.default = {
 };
 
 /***/ }),
-/* 618 */
+/* 614 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4012,7 +3415,7 @@ exports.default = {
 };
 
 /***/ }),
-/* 619 */
+/* 615 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4025,7 +3428,7 @@ exports.default = {
 };
 
 /***/ }),
-/* 620 */
+/* 616 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4039,7 +3442,7 @@ exports.default = {
 };
 
 /***/ }),
-/* 621 */
+/* 617 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4047,7 +3450,7 @@ exports.default = {
 
 exports.__esModule = true;
 
-var _stringify = __webpack_require__(39);
+var _stringify = __webpack_require__(73);
 
 var _stringify2 = _interopRequireDefault(_stringify);
 
@@ -4102,8 +3505,8 @@ exports.default = {
 };
 
 /***/ }),
-/* 622 */,
-/* 623 */
+/* 618 */,
+/* 619 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4111,7 +3514,7 @@ exports.default = {
 
 exports.__esModule = true;
 
-var _keys = __webpack_require__(17);
+var _keys = __webpack_require__(25);
 
 var _keys2 = _interopRequireDefault(_keys);
 
@@ -4138,9 +3541,9 @@ var ignoreProps = function ignoreProps() {
 exports.default = ignoreProps;
 
 /***/ }),
-/* 624 */,
-/* 625 */,
-/* 626 */
+/* 620 */,
+/* 621 */,
+/* 622 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4171,7 +3574,7 @@ var getPageOffset = function getPageOffset() {
 exports.default = getPageOffset;
 
 /***/ }),
-/* 627 */
+/* 623 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4209,7 +3612,7 @@ var getScrollBarWidth = function getScrollBarWidth() {
 exports.default = getScrollBarWidth;
 
 /***/ }),
-/* 628 */
+/* 624 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4236,31 +3639,31 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _PageHeadline = __webpack_require__(116);
+var _PageHeadline = __webpack_require__(111);
 
 var _PageHeadline2 = _interopRequireDefault(_PageHeadline);
 
-var _Title = __webpack_require__(316);
+var _Title = __webpack_require__(313);
 
 var _Title2 = _interopRequireDefault(_Title);
 
-var _SubTitle = __webpack_require__(188);
+var _SubTitle = __webpack_require__(185);
 
 var _SubTitle2 = _interopRequireDefault(_SubTitle);
 
-var _Href = __webpack_require__(771);
+var _Href = __webpack_require__(767);
 
 var _Href2 = _interopRequireDefault(_Href);
 
-var _SearchSwap = __webpack_require__(773);
+var _SearchSwap = __webpack_require__(769);
 
 var _SearchSwap2 = _interopRequireDefault(_SearchSwap);
 
-var _actions = __webpack_require__(14);
+var _actions = __webpack_require__(13);
 
 var _actions2 = _interopRequireDefault(_actions);
 
-var _Orders = __webpack_require__(849);
+var _Orders = __webpack_require__(845);
 
 var _Orders2 = _interopRequireDefault(_Orders);
 
@@ -4370,6 +3773,10 @@ var Home = (_temp = _class = function (_Component) {
 exports.default = Home;
 
 /***/ }),
+/* 625 */,
+/* 626 */,
+/* 627 */,
+/* 628 */,
 /* 629 */,
 /* 630 */,
 /* 631 */,
@@ -4505,32 +3912,28 @@ exports.default = Home;
 /* 761 */,
 /* 762 */,
 /* 763 */,
-/* 764 */,
-/* 765 */,
-/* 766 */,
-/* 767 */,
-/* 768 */
+/* 764 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"headline":"_0kjEr"};
 
 /***/ }),
-/* 769 */
+/* 765 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"title":"_2DXQm_"};
 
 /***/ }),
-/* 770 */
+/* 766 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"subTitle":"_3xZD8p"};
 
 /***/ }),
-/* 771 */
+/* 767 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4542,13 +3945,13 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactRouterDom = __webpack_require__(55);
+var _reactRouterDom = __webpack_require__(54);
 
 var _reactCssModules = __webpack_require__(2);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _Href = __webpack_require__(772);
+var _Href = __webpack_require__(768);
 
 var _Href2 = _interopRequireDefault(_Href);
 
@@ -4578,14 +3981,14 @@ var Href = function Href(_ref) {
 exports.default = (0, _reactCssModules2.default)(Href, _Href2.default);
 
 /***/ }),
-/* 772 */
+/* 768 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"link":"_1RXNDW"};
 
 /***/ }),
-/* 773 */
+/* 769 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4601,11 +4004,11 @@ var _reactCssModules = __webpack_require__(2);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _SearchSwap = __webpack_require__(774);
+var _SearchSwap = __webpack_require__(770);
 
 var _SearchSwap2 = _interopRequireDefault(_SearchSwap);
 
-var _CurrencySelect = __webpack_require__(317);
+var _CurrencySelect = __webpack_require__(314);
 
 var _CurrencySelect2 = _interopRequireDefault(_CurrencySelect);
 
@@ -4652,20 +4055,20 @@ var SearchSwap = function SearchSwap(_ref) {
 exports.default = (0, _reactCssModules2.default)(SearchSwap, _SearchSwap2.default);
 
 /***/ }),
-/* 774 */
+/* 770 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"currencySelect":"_3OWa5t","choice":"_1Emj0F","row":"xJgabA","text":"fFcGkk"};
 
 /***/ }),
-/* 775 */
+/* 771 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
-/* 776 */
+/* 772 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4704,11 +4107,11 @@ var _reactCssModules = __webpack_require__(2);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _DropDown = __webpack_require__(777);
+var _DropDown = __webpack_require__(773);
 
 var _DropDown2 = _interopRequireDefault(_DropDown);
 
-var _toggle = __webpack_require__(778);
+var _toggle = __webpack_require__(774);
 
 var _toggle2 = _interopRequireDefault(_toggle);
 
@@ -4860,14 +4263,14 @@ var DropDown = (_dec = (0, _toggle2.default)(), _dec2 = (0, _reactCssModules2.de
 exports.default = DropDown;
 
 /***/ }),
-/* 777 */
+/* 773 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"dropDown":"_3dP7tS","active":"_2ugFLw","arrow":"_3YMxCM","selectedItem":"_3MyRdn","select":"_369zfM","option":"_2DKZg5"};
 
 /***/ }),
-/* 778 */
+/* 774 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4875,7 +4278,7 @@ module.exports = {"dropDown":"_3dP7tS","active":"_2ugFLw","arrow":"_3YMxCM","sel
 
 exports.__esModule = true;
 
-var _extends2 = __webpack_require__(46);
+var _extends2 = __webpack_require__(45);
 
 var _extends3 = _interopRequireDefault(_extends2);
 
@@ -4958,7 +4361,7 @@ exports.default = function () {
 };
 
 /***/ }),
-/* 779 */
+/* 775 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4974,11 +4377,11 @@ var _reactCssModules = __webpack_require__(2);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _Option = __webpack_require__(780);
+var _Option = __webpack_require__(776);
 
 var _Option2 = _interopRequireDefault(_Option);
 
-var _CurrencyIcon = __webpack_require__(318);
+var _CurrencyIcon = __webpack_require__(315);
 
 var _CurrencyIcon2 = _interopRequireDefault(_CurrencyIcon);
 
@@ -4998,57 +4401,57 @@ var Option = function Option(_ref) {
 exports.default = (0, _reactCssModules2.default)(Option, _Option2.default);
 
 /***/ }),
-/* 780 */
+/* 776 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"icon":"_1ncL6U"};
 
 /***/ }),
-/* 781 */
+/* 777 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"text":"_33KTXr"};
 
 /***/ }),
-/* 782 */
+/* 778 */
 /***/ (function(module, exports) {
 
 module.exports = "https://testnet.swap.online/images/btc_f4b66d.svg";
 
 /***/ }),
-/* 783 */
+/* 779 */
 /***/ (function(module, exports) {
 
 module.exports = "https://testnet.swap.online/images/eth_262e9a.svg";
 
 /***/ }),
-/* 784 */
+/* 780 */
 /***/ (function(module, exports) {
 
 module.exports = "https://testnet.swap.online/images/icx_cda046.svg";
 
 /***/ }),
-/* 785 */
+/* 781 */
 /***/ (function(module, exports) {
 
 module.exports = "https://testnet.swap.online/images/waves_54c731.svg";
 
 /***/ }),
-/* 786 */
+/* 782 */
 /***/ (function(module, exports) {
 
 module.exports = "https://testnet.swap.online/images/xrp_db0377.svg";
 
 /***/ }),
-/* 787 */
+/* 783 */
 /***/ (function(module, exports) {
 
 module.exports = "https://testnet.swap.online/images/nim_954328.svg";
 
 /***/ }),
-/* 788 */
+/* 784 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5076,6 +4479,10 @@ exports.default = {
 };
 
 /***/ }),
+/* 785 */,
+/* 786 */,
+/* 787 */,
+/* 788 */,
 /* 789 */,
 /* 790 */,
 /* 791 */,
@@ -5103,11 +4510,7 @@ exports.default = {
 /* 813 */,
 /* 814 */,
 /* 815 */,
-/* 816 */,
-/* 817 */,
-/* 818 */,
-/* 819 */,
-/* 820 */
+/* 816 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5116,11 +4519,11 @@ exports.default = {
 exports.__esModule = true;
 exports.hide = exports.show = exports.initialState = undefined;
 
-var _objectWithoutProperties2 = __webpack_require__(25);
+var _objectWithoutProperties2 = __webpack_require__(27);
 
 var _objectWithoutProperties3 = _interopRequireDefault(_objectWithoutProperties2);
 
-var _assign = __webpack_require__(9);
+var _assign = __webpack_require__(15);
 
 var _assign2 = _interopRequireDefault(_assign);
 
@@ -5149,7 +4552,7 @@ var hide = function hide(state, name) {
 exports.hide = hide;
 
 /***/ }),
-/* 821 */
+/* 817 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5158,11 +4561,11 @@ exports.hide = hide;
 exports.__esModule = true;
 exports.close = exports.open = exports.initialState = undefined;
 
-var _objectWithoutProperties2 = __webpack_require__(25);
+var _objectWithoutProperties2 = __webpack_require__(27);
 
 var _objectWithoutProperties3 = _interopRequireDefault(_objectWithoutProperties2);
 
-var _assign = __webpack_require__(9);
+var _assign = __webpack_require__(15);
 
 var _assign2 = _interopRequireDefault(_assign);
 
@@ -5198,7 +4601,7 @@ var close = function close(state, name) {
 exports.close = close;
 
 /***/ }),
-/* 822 */
+/* 818 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5207,7 +4610,7 @@ exports.close = close;
 exports.__esModule = true;
 exports.setTransactions = exports.setFilter = exports.initialState = undefined;
 
-var _assign = __webpack_require__(9);
+var _assign = __webpack_require__(15);
 
 var _assign2 = _interopRequireDefault(_assign);
 
@@ -5231,7 +4634,7 @@ var setTransactions = exports.setTransactions = function setTransactions(state, 
 };
 
 /***/ }),
-/* 823 */
+/* 819 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5240,7 +4643,7 @@ var setTransactions = exports.setTransactions = function setTransactions(state, 
 exports.__esModule = true;
 exports.setVisibility = exports.initialState = undefined;
 
-var _assign = __webpack_require__(9);
+var _assign = __webpack_require__(15);
 
 var _assign2 = _interopRequireDefault(_assign);
 
@@ -5257,7 +4660,7 @@ var setVisibility = exports.setVisibility = function setVisibility(state, payloa
 };
 
 /***/ }),
-/* 824 */
+/* 820 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5266,7 +4669,7 @@ var setVisibility = exports.setVisibility = function setVisibility(state, payloa
 exports.__esModule = true;
 exports.setTokenData = exports.setBalance = exports.setAuthData = exports.initialState = undefined;
 
-var _assign = __webpack_require__(9);
+var _assign = __webpack_require__(15);
 
 var _assign2 = _interopRequireDefault(_assign);
 
@@ -5323,7 +4726,7 @@ var setTokenData = exports.setTokenData = function setTokenData(state, _ref3) {
 };
 
 /***/ }),
-/* 825 */
+/* 821 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5332,7 +4735,7 @@ var setTokenData = exports.setTokenData = function setTokenData(state, _ref3) {
 exports.__esModule = true;
 exports.deleteItems = exports.addItems = exports.initialState = undefined;
 
-var _assign = __webpack_require__(9);
+var _assign = __webpack_require__(15);
 
 var _assign2 = _interopRequireDefault(_assign);
 
@@ -5355,7 +4758,7 @@ var deleteItems = exports.deleteItems = function deleteItems(state, payload) {
 };
 
 /***/ }),
-/* 826 */
+/* 822 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5373,11 +4776,11 @@ var ordersFilter = exports.ordersFilter = function ordersFilter(state, payload) 
 };
 
 /***/ }),
-/* 827 */,
-/* 828 */,
-/* 829 */,
-/* 830 */,
-/* 831 */
+/* 823 */,
+/* 824 */,
+/* 825 */,
+/* 826 */,
+/* 827 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5404,7 +4807,7 @@ exports.default = {
 };
 
 /***/ }),
-/* 832 */
+/* 828 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5432,7 +4835,7 @@ exports.default = {
 };
 
 /***/ }),
-/* 833 */
+/* 829 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5460,7 +4863,7 @@ exports.default = {
 };
 
 /***/ }),
-/* 834 */
+/* 830 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5472,17 +4875,17 @@ var _promise = __webpack_require__(33);
 
 var _promise2 = _interopRequireDefault(_promise);
 
-var _regenerator = __webpack_require__(40);
+var _regenerator = __webpack_require__(39);
 
 var _regenerator2 = _interopRequireDefault(_regenerator);
 
-var _asyncToGenerator2 = __webpack_require__(41);
+var _asyncToGenerator2 = __webpack_require__(40);
 
 var _asyncToGenerator3 = _interopRequireDefault(_asyncToGenerator2);
 
-var _helpers = __webpack_require__(12);
+var _helpers = __webpack_require__(11);
 
-var _actions = __webpack_require__(14);
+var _actions = __webpack_require__(13);
 
 var _actions2 = _interopRequireDefault(_actions);
 
@@ -5557,9 +4960,9 @@ exports.default = {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(10)))
 
 /***/ }),
-/* 835 */,
-/* 836 */,
-/* 837 */
+/* 831 */,
+/* 832 */,
+/* 833 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5567,11 +4970,11 @@ exports.default = {
 
 exports.__esModule = true;
 
-var _assign = __webpack_require__(9);
+var _assign = __webpack_require__(15);
 
 var _assign2 = _interopRequireDefault(_assign);
 
-var _stringify = __webpack_require__(39);
+var _stringify = __webpack_require__(73);
 
 var _stringify2 = _interopRequireDefault(_stringify);
 
@@ -5579,15 +4982,15 @@ var _promise = __webpack_require__(33);
 
 var _promise2 = _interopRequireDefault(_promise);
 
-var _bigi = __webpack_require__(49);
+var _bigi = __webpack_require__(48);
 
 var _bigi2 = _interopRequireDefault(_bigi);
 
-var _helpers = __webpack_require__(12);
+var _helpers = __webpack_require__(11);
 
-var _core = __webpack_require__(90);
+var _core = __webpack_require__(122);
 
-var _bitcoinjsLib = __webpack_require__(100);
+var _bitcoinjsLib = __webpack_require__(134);
 
 var _bitcoinjsLib2 = _interopRequireDefault(_bitcoinjsLib);
 
@@ -5595,7 +4998,7 @@ var _reducers = __webpack_require__(31);
 
 var _reducers2 = _interopRequireDefault(_reducers);
 
-var _appConfig = __webpack_require__(62);
+var _appConfig = __webpack_require__(61);
 
 var _appConfig2 = _interopRequireDefault(_appConfig);
 
@@ -5747,7 +5150,7 @@ exports.default = {
 };
 
 /***/ }),
-/* 838 */
+/* 834 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5759,11 +5162,11 @@ var _promise = __webpack_require__(33);
 
 var _promise2 = _interopRequireDefault(_promise);
 
-var _helpers = __webpack_require__(12);
+var _helpers = __webpack_require__(11);
 
-var _core = __webpack_require__(90);
+var _core = __webpack_require__(122);
 
-var _web = __webpack_require__(78);
+var _web = __webpack_require__(98);
 
 var _web2 = _interopRequireDefault(_web);
 
@@ -5771,7 +5174,7 @@ var _reducers = __webpack_require__(31);
 
 var _reducers2 = _interopRequireDefault(_reducers);
 
-var _appConfig = __webpack_require__(62);
+var _appConfig = __webpack_require__(61);
 
 var _appConfig2 = _interopRequireDefault(_appConfig);
 
@@ -5892,7 +5295,7 @@ exports.default = {
 };
 
 /***/ }),
-/* 839 */
+/* 835 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5904,15 +5307,15 @@ var _promise = __webpack_require__(33);
 
 var _promise2 = _interopRequireDefault(_promise);
 
-var _humanStandardTokenAbi = __webpack_require__(840);
+var _humanStandardTokenAbi = __webpack_require__(836);
 
 var _humanStandardTokenAbi2 = _interopRequireDefault(_humanStandardTokenAbi);
 
-var _helpers = __webpack_require__(12);
+var _helpers = __webpack_require__(11);
 
-var _core = __webpack_require__(90);
+var _core = __webpack_require__(122);
 
-var _web = __webpack_require__(78);
+var _web = __webpack_require__(98);
 
 var _web2 = _interopRequireDefault(_web);
 
@@ -5920,7 +5323,7 @@ var _reducers = __webpack_require__(31);
 
 var _reducers2 = _interopRequireDefault(_reducers);
 
-var _appConfig = __webpack_require__(62);
+var _appConfig = __webpack_require__(61);
 
 var _appConfig2 = _interopRequireDefault(_appConfig);
 
@@ -6028,8 +5431,8 @@ exports.default = {
 };
 
 /***/ }),
-/* 840 */,
-/* 841 */
+/* 836 */,
+/* 837 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6037,7 +5440,7 @@ exports.default = {
 
 exports.__esModule = true;
 
-var _regenerator = __webpack_require__(40);
+var _regenerator = __webpack_require__(39);
 
 var _regenerator2 = _interopRequireDefault(_regenerator);
 
@@ -6045,7 +5448,7 @@ var _promise = __webpack_require__(33);
 
 var _promise2 = _interopRequireDefault(_promise);
 
-var _asyncToGenerator2 = __webpack_require__(41);
+var _asyncToGenerator2 = __webpack_require__(40);
 
 var _asyncToGenerator3 = _interopRequireDefault(_asyncToGenerator2);
 
@@ -6158,11 +5561,11 @@ var _reducers = __webpack_require__(31);
 
 var _reducers2 = _interopRequireDefault(_reducers);
 
-var _appConfig = __webpack_require__(62);
+var _appConfig = __webpack_require__(61);
 
 var _appConfig2 = _interopRequireDefault(_appConfig);
 
-var _nimiq = __webpack_require__(842);
+var _nimiq = __webpack_require__(838);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -6357,7 +5760,7 @@ exports.default = {
 };
 
 /***/ }),
-/* 842 */
+/* 838 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6409,7 +5812,7 @@ exports.prepareTransaction = prepareTransaction;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(6).Buffer))
 
 /***/ }),
-/* 843 */
+/* 839 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6417,7 +5820,7 @@ exports.prepareTransaction = prepareTransaction;
 
 exports.__esModule = true;
 
-var _keys = __webpack_require__(17);
+var _keys = __webpack_require__(25);
 
 var _keys2 = _interopRequireDefault(_keys);
 
@@ -6425,7 +5828,7 @@ var _reducers = __webpack_require__(31);
 
 var _reducers2 = _interopRequireDefault(_reducers);
 
-var _core = __webpack_require__(90);
+var _core = __webpack_require__(122);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -6475,7 +5878,7 @@ exports.default = {
 };
 
 /***/ }),
-/* 844 */
+/* 840 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6487,7 +5890,7 @@ var _reducers = __webpack_require__(31);
 
 var _reducers2 = _interopRequireDefault(_reducers);
 
-var _reactGtmModule = __webpack_require__(845);
+var _reactGtmModule = __webpack_require__(841);
 
 var _reactGtmModule2 = _interopRequireDefault(_reactGtmModule);
 
@@ -6517,11 +5920,11 @@ exports.default = {
 };
 
 /***/ }),
-/* 845 */,
-/* 846 */,
-/* 847 */,
-/* 848 */,
-/* 849 */
+/* 841 */,
+/* 842 */,
+/* 843 */,
+/* 844 */,
+/* 845 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6546,17 +5949,17 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _newSwap = __webpack_require__(91);
+var _newSwap = __webpack_require__(88);
 
-var _actions = __webpack_require__(14);
+var _actions = __webpack_require__(13);
 
 var _actions2 = _interopRequireDefault(_actions);
 
-var _Row = __webpack_require__(883);
+var _Row = __webpack_require__(880);
 
 var _Row2 = _interopRequireDefault(_Row);
 
-var _Table = __webpack_require__(194);
+var _Table = __webpack_require__(191);
 
 var _Table2 = _interopRequireDefault(_Table);
 
@@ -6631,7 +6034,7 @@ var Orders = function (_Component) {
 exports.default = Orders;
 
 /***/ }),
-/* 850 */
+/* 846 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6641,7 +6044,7 @@ exports.__esModule = true;
 exports.default = ['eth', 'btc', 'nim'];
 
 /***/ }),
-/* 851 */
+/* 847 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6651,7 +6054,7 @@ exports.__esModule = true;
 exports.default = ['web3', 'bitcoin', 'Ipfs', 'IpfsRoom', 'storage'];
 
 /***/ }),
-/* 852 */
+/* 848 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6661,7 +6064,7 @@ exports.__esModule = true;
 exports.default = ['auth', 'room', 'orders', 'swaps'];
 
 /***/ }),
-/* 853 */
+/* 849 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6671,7 +6074,7 @@ exports.__esModule = true;
 exports.default = ['ethSwap', 'ethTokenSwap', 'btcSwap'];
 
 /***/ }),
-/* 854 */
+/* 850 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6684,7 +6087,7 @@ exports.default = {
 };
 
 /***/ }),
-/* 855 */
+/* 851 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6692,7 +6095,7 @@ exports.default = {
 
 exports.__esModule = true;
 
-var _stringify = __webpack_require__(39);
+var _stringify = __webpack_require__(73);
 
 var _stringify2 = _interopRequireDefault(_stringify);
 
@@ -6728,6 +6131,8 @@ var StorageFactory = function () {
     try {
       return JSON.parse(value);
     } catch (err) {
+      console.error('SwapApp.env.storage.getItem(' + key + ') parse error. Looks like the value was created w/o setItem method');
+      console.error(err);
       return undefined;
     }
   };
@@ -6743,7 +6148,7 @@ exports.default = StorageFactory;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(10)))
 
 /***/ }),
-/* 856 */
+/* 852 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6751,7 +6156,7 @@ exports.default = StorageFactory;
 
 exports.__esModule = true;
 
-var _keys = __webpack_require__(17);
+var _keys = __webpack_require__(25);
 
 var _keys2 = _interopRequireDefault(_keys);
 
@@ -6759,7 +6164,7 @@ var _classCallCheck2 = __webpack_require__(1);
 
 var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
 
-var _SwapApp = __webpack_require__(331);
+var _SwapApp = __webpack_require__(328);
 
 var _SwapApp2 = _interopRequireDefault(_SwapApp);
 
@@ -6832,7 +6237,7 @@ var ServiceInterface = function () {
 exports.default = ServiceInterface;
 
 /***/ }),
-/* 857 */
+/* 853 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6864,7 +6269,7 @@ var SwapInterface = function () {
 exports.default = SwapInterface;
 
 /***/ }),
-/* 858 */
+/* 854 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6872,13 +6277,9 @@ exports.default = SwapInterface;
 
 exports.__esModule = true;
 
-var _keys = __webpack_require__(17);
+var _keys = __webpack_require__(25);
 
 var _keys2 = _interopRequireDefault(_keys);
-
-var _assign = __webpack_require__(9);
-
-var _assign2 = _interopRequireDefault(_assign);
 
 var _classCallCheck2 = __webpack_require__(1);
 
@@ -6958,27 +6359,17 @@ var Collection = function () {
   Collection.prototype.removeByKey = function removeByKey(key) {
     var _this = this;
 
-    console.log('removeByKey', key);
-    console.log('items', [].concat(this.items));
-    console.log('itemIds', (0, _assign2.default)({}, this.itemIds));
-
     var index = this.itemIds[key];
-
-    console.log('index', index);
 
     if (index !== undefined) {
       this.items.splice(index, 1);
       delete this.itemIds[key];
-
-      console.log('items after removing', [].concat(this.items));
 
       (0, _keys2.default)(this.itemIds).forEach(function (key) {
         if (_this.itemIds[key] > index) {
           _this.itemIds[key]--;
         }
       });
-
-      console.log('items after reindexing', [].concat(this.items));
     }
   };
 
@@ -7036,7 +6427,7 @@ var Collection = function () {
 exports.default = Collection;
 
 /***/ }),
-/* 859 */
+/* 855 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7226,7 +6617,7 @@ exports.default = EventAggregator;
 exports.events = events;
 
 /***/ }),
-/* 860 */
+/* 856 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7234,23 +6625,28 @@ exports.events = events;
 
 exports.__esModule = true;
 
-var _pullProps = __webpack_require__(861);
+var _pullProps = __webpack_require__(857);
 
 var _pullProps2 = _interopRequireDefault(_pullProps);
 
-var _ignoreProps = __webpack_require__(862);
+var _ignoreProps = __webpack_require__(858);
 
 var _ignoreProps2 = _interopRequireDefault(_ignoreProps);
+
+var _typeforce = __webpack_require__(859);
+
+var _typeforce2 = _interopRequireDefault(_typeforce);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 exports.default = {
   pullProps: _pullProps2.default,
-  ignoreProps: _ignoreProps2.default
+  ignoreProps: _ignoreProps2.default,
+  typeforce: _typeforce2.default
 };
 
 /***/ }),
-/* 861 */
+/* 857 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7274,7 +6670,7 @@ var pullProps = function pullProps(obj) {
 exports.default = pullProps;
 
 /***/ }),
-/* 862 */
+/* 858 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7282,7 +6678,7 @@ exports.default = pullProps;
 
 exports.__esModule = true;
 
-var _keys = __webpack_require__(17);
+var _keys = __webpack_require__(25);
 
 var _keys2 = _interopRequireDefault(_keys);
 
@@ -7309,21 +6705,56 @@ var ignoreProps = function ignoreProps() {
 exports.default = ignoreProps;
 
 /***/ }),
-/* 863 */,
-/* 864 */,
-/* 865 */
+/* 859 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+exports.__esModule = true;
+
+var _typeforce = __webpack_require__(9);
+
+var _typeforce2 = _interopRequireDefault(_typeforce);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var check = function check() {
+  try {
+    return _typeforce2.default.apply(undefined, arguments);
+  } catch (err) {
+    return false;
+  }
+};
+
+var isNumeric = function isNumeric(value) {
+  return !isNaN(parseFloat(value)) && isFinite(value);
+};
+
+exports.default = {
+  t: _typeforce2.default,
+  check: check,
+  isNumeric: isNumeric
+};
+
+/***/ }),
+/* 860 */,
+/* 861 */,
+/* 862 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	"./": 127,
-	"./SwapAuth": 191,
-	"./SwapAuth.js": 191,
-	"./btc": 334,
-	"./btc.js": 334,
-	"./eth": 335,
-	"./eth.js": 335,
-	"./index": 127,
-	"./index.js": 127
+	"./": 123,
+	"./SwapAuth": 124,
+	"./SwapAuth.js": 124,
+	"./btc": 331,
+	"./btc.js": 331,
+	"./eth": 332,
+	"./eth.js": 332,
+	"./index": 123,
+	"./index.js": 123,
+	"./umd": 333,
+	"./umd.js": 333
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -7339,10 +6770,10 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 865;
+webpackContext.id = 862;
 
 /***/ }),
-/* 866 */
+/* 863 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7350,15 +6781,15 @@ webpackContext.id = 865;
 
 exports.__esModule = true;
 
-var _stringify = __webpack_require__(39);
+var _stringify = __webpack_require__(73);
 
 var _stringify2 = _interopRequireDefault(_stringify);
 
-var _typeof2 = __webpack_require__(115);
+var _typeof2 = __webpack_require__(175);
 
 var _typeof3 = _interopRequireDefault(_typeof2);
 
-var _assign = __webpack_require__(9);
+var _assign = __webpack_require__(15);
 
 var _assign2 = _interopRequireDefault(_assign);
 
@@ -7370,7 +6801,7 @@ var _possibleConstructorReturn2 = __webpack_require__(3);
 
 var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
 
-var _createClass2 = __webpack_require__(192);
+var _createClass2 = __webpack_require__(188);
 
 var _createClass3 = _interopRequireDefault(_createClass2);
 
@@ -7378,7 +6809,7 @@ var _inherits2 = __webpack_require__(4);
 
 var _inherits3 = _interopRequireDefault(_inherits2);
 
-var _swap = __webpack_require__(18);
+var _swap = __webpack_require__(17);
 
 var _swap2 = _interopRequireDefault(_swap);
 
@@ -7398,31 +6829,55 @@ var SwapRoom = function (_ServiceInterface) {
 
     var _this = (0, _possibleConstructorReturn3.default)(this, _ServiceInterface.call(this));
 
-    _this.handleUserOnline = function (peer) {
+    _this._handleUserOnline = function (peer) {
       if (peer !== _this.peer) {
-        _this.events.dispatch('user online', peer);
+        _this._events.dispatch('user online', peer);
       }
     };
 
-    _this.handleUserOffline = function (peer) {
+    _this._handleUserOffline = function (peer) {
       if (peer !== _this.peer) {
-        _this.events.dispatch('user offline', peer);
+        _this._events.dispatch('user offline', peer);
       }
     };
 
-    _this.handleNewMessage = function (message) {
-      if (message.from === _this.peer) {
+    _this._handleNewMessage = function (message) {
+      var from = message.from,
+          data = message.data;
+
+
+      if (from === _this.peer) {
         return;
       }
 
-      var data = JSON.parse(message.data.toString());
+      var parsedData = void 0;
 
-      if (data && data.length) {
-        data.forEach(function (_ref) {
+      try {
+        parsedData = JSON.parse(data.toString());
+      } catch (err) {
+        console.error('parse message data err:', err);
+      }
+
+      var _parsedData = parsedData,
+          fromAddress = _parsedData.fromAddress,
+          messages = _parsedData.messages,
+          sign = _parsedData.sign;
+
+      var recover = _this._recoverMessage(messages, sign);
+
+      if (recover !== fromAddress) {
+        console.error('Wrong message sign! Message from: ' + fromAddress + ', recover: ' + recover);
+        return;
+      }
+
+      if (messages && messages.length) {
+        messages.forEach(function (_ref) {
           var event = _ref.event,
               data = _ref.data;
 
-          _this.events.dispatch(event, (0, _assign2.default)({}, data || {}, { fromPeer: message.from }));
+          _this._events.dispatch(event, (0, _assign2.default)({
+            fromPeer: from
+          }, data || {}));
         });
       }
     };
@@ -7432,9 +6887,10 @@ var SwapRoom = function (_ServiceInterface) {
     }
 
     _this._serviceName = 'room';
-    _this.events = new _swap.Events();
-    _this.config = config;
+    _this._config = config;
+    _this._events = new _swap.Events();
     _this.peer = null;
+    _this.connection = null;
     return _this;
   }
 
@@ -7448,7 +6904,7 @@ var SwapRoom = function (_ServiceInterface) {
       throw new Error('SwapRoomService: IpfsRoom required');
     }
 
-    var ipfs = new _swap2.default.env.Ipfs(this.config);
+    var ipfs = new _swap2.default.env.Ipfs(this._config);
 
     ipfs.once('error', function (err) {
       console.log('IPFS error!', err);
@@ -7456,7 +6912,7 @@ var SwapRoom = function (_ServiceInterface) {
 
     ipfs.once('ready', function () {
       return ipfs.id(function (err, info) {
-        console.info('IPFS ready!', info);
+        console.info('IPFS ready!');
 
         if (err) {
           throw err;
@@ -7476,23 +6932,41 @@ var SwapRoom = function (_ServiceInterface) {
 
     this.peer = peer;
 
-    this.connection = _swap2.default.env.IpfsRoom(ipfsConnection, '../swap.online', {
+    this.connection = _swap2.default.env.IpfsRoom(ipfsConnection, 'swap.online', {
       pollInterval: 5000
     });
 
-    this.connection.on('peer joined', this.handleUserOnline);
-    this.connection.on('peer left', this.handleUserOffline);
-    this.connection.on('message', this.handleNewMessage);
+    this.connection.on('peer joined', this._handleUserOnline);
+    this.connection.on('peer left', this._handleUserOffline);
+    this.connection.on('message', this._handleNewMessage);
 
-    this.events.dispatch('ready');
+    this._events.dispatch('ready');
   };
 
   SwapRoom.prototype.subscribe = function subscribe(eventName, handler) {
-    this.events.subscribe(eventName, handler);
+    this._events.subscribe(eventName, handler);
+  };
+
+  SwapRoom.prototype.unsubscribe = function unsubscribe(eventName, handler) {
+    this._events.unsubscribe(eventName, handler);
   };
 
   SwapRoom.prototype.once = function once(eventName, handler) {
-    this.events.once(eventName, handler);
+    this._events.once(eventName, handler);
+  };
+
+  SwapRoom.prototype._recoverMessage = function _recoverMessage(message, sign) {
+    var hash = _swap2.default.env.web3.utils.soliditySha3((0, _stringify2.default)(message));
+    var recover = _swap2.default.env.web3.eth.accounts.recover(hash, sign.signature);
+
+    return recover;
+  };
+
+  SwapRoom.prototype._signMessage = function _signMessage(message) {
+    var hash = _swap2.default.env.web3.utils.soliditySha3((0, _stringify2.default)(message));
+    var sign = _swap2.default.env.web3.eth.accounts.sign(hash, _swap2.default.services.auth.accounts.eth.privateKey);
+
+    return sign;
   };
 
   SwapRoom.prototype.sendMessage = function sendMessage() {
@@ -7501,16 +6975,26 @@ var SwapRoom = function (_ServiceInterface) {
     }
 
     if (args.length === 1) {
-      var message = args[0];
+      var messages = args[0];
 
+      var sign = this._signMessage(messages);
 
-      this.connection.broadcast((0, _stringify2.default)(message));
+      this.connection.broadcast((0, _stringify2.default)({
+        fromAddress: _swap2.default.services.auth.accounts.eth.address,
+        messages: messages,
+        sign: sign
+      }));
     } else {
       var peer = args[0],
-          _message = args[1];
+          _messages = args[1];
 
+      var _sign = this._signMessage(_messages);
 
-      this.connection.sendTo(peer, (0, _stringify2.default)(_message));
+      this.connection.sendTo(peer, (0, _stringify2.default)({
+        fromAddress: _swap2.default.services.auth.accounts.eth.address,
+        messages: _messages,
+        sign: _sign
+      }));
     }
   };
 
@@ -7520,7 +7004,7 @@ var SwapRoom = function (_ServiceInterface) {
 exports.default = SwapRoom;
 
 /***/ }),
-/* 867 */
+/* 864 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7528,7 +7012,7 @@ exports.default = SwapRoom;
 
 exports.__esModule = true;
 
-var _SwapOrders = __webpack_require__(868);
+var _SwapOrders = __webpack_require__(865);
 
 var _SwapOrders2 = _interopRequireDefault(_SwapOrders);
 
@@ -7537,7 +7021,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 exports.default = _SwapOrders2.default;
 
 /***/ }),
-/* 868 */
+/* 865 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7545,9 +7029,9 @@ exports.default = _SwapOrders2.default;
 
 exports.__esModule = true;
 
-var _assign = __webpack_require__(9);
+var _objectWithoutProperties2 = __webpack_require__(27);
 
-var _assign2 = _interopRequireDefault(_assign);
+var _objectWithoutProperties3 = _interopRequireDefault(_objectWithoutProperties2);
 
 var _classCallCheck2 = __webpack_require__(1);
 
@@ -7557,7 +7041,7 @@ var _possibleConstructorReturn2 = __webpack_require__(3);
 
 var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
 
-var _createClass2 = __webpack_require__(192);
+var _createClass2 = __webpack_require__(188);
 
 var _createClass3 = _interopRequireDefault(_createClass2);
 
@@ -7565,23 +7049,31 @@ var _inherits2 = __webpack_require__(4);
 
 var _inherits3 = _interopRequireDefault(_inherits2);
 
-var _swap = __webpack_require__(18);
+var _assign = __webpack_require__(15);
+
+var _assign2 = _interopRequireDefault(_assign);
+
+var _bignumber = __webpack_require__(189);
+
+var _bignumber2 = _interopRequireDefault(_bignumber);
+
+var _swap = __webpack_require__(17);
 
 var _swap2 = _interopRequireDefault(_swap);
 
-var _swap3 = __webpack_require__(336);
+var _swap3 = __webpack_require__(334);
 
 var _swap4 = _interopRequireDefault(_swap3);
 
-var _aggregation2 = __webpack_require__(869);
+var _aggregation2 = __webpack_require__(866);
 
 var _aggregation3 = _interopRequireDefault(_aggregation2);
 
-var _events = __webpack_require__(337);
+var _events = __webpack_require__(335);
 
 var _events2 = _interopRequireDefault(_events);
 
-var _Order = __webpack_require__(878);
+var _Order = __webpack_require__(875);
 
 var _Order2 = _interopRequireDefault(_Order);
 
@@ -7593,6 +7085,51 @@ var getUniqueId = function () {
     return _swap2.default.services.room.peer + '-' + ++id;
   };
 }();
+
+var checkIncomeOrderFormat = function checkIncomeOrderFormat(order) {
+  var format = {
+    id: '?String',
+    owner: (0, _assign2.default)({
+      peer: 'String',
+      reputation: '?String'
+    }, function () {
+      var result = {};
+      _swap.constants.COINS.forEach(function (coin) {
+        result[coin] = _swap.util.typeforce.t.maybe({
+          address: 'String', // TODO add check address length
+          publicKey: '?String'
+        });
+      });
+      return result;
+    }()),
+    buyCurrency: 'String',
+    sellCurrency: 'String',
+    buyAmount: _swap.util.typeforce.isNumeric,
+    sellAmount: _swap.util.typeforce.isNumeric,
+    isProcessing: '?Boolean',
+    isRequested: '?Boolean'
+  };
+
+  var isValid = _swap.util.typeforce.check(format, order, true);
+
+  if (!isValid) {
+    console.log('Wrong income order format. Excepted:', format, 'got:', order);
+  }
+
+  return isValid;
+};
+
+var checkIncomeOrderOwner = function checkIncomeOrderOwner(_ref, fromPeer) {
+  var peer = _ref.owner.peer;
+  return peer === fromPeer;
+};
+
+var checkIncomeOrder = function checkIncomeOrder(order, fromPeer) {
+  var isFormatValid = checkIncomeOrderFormat(order);
+  var isOwnerValid = checkIncomeOrderOwner(order, fromPeer);
+
+  return isFormatValid && isOwnerValid;
+};
 
 var SwapOrders = function (_aggregation) {
   (0, _inherits3.default)(SwapOrders, _aggregation);
@@ -7608,28 +7145,18 @@ var SwapOrders = function (_aggregation) {
 
     var _this = (0, _possibleConstructorReturn3.default)(this, _aggregation.call(this));
 
-    _this._serviceName = 'orders';
-    _this._dependsOn = [_swap4.default];
-    return _this;
-  }
+    _this._handleReady = function () {
+      _this._persistMyOrders();
+    };
 
-  SwapOrders.prototype.initService = function initService() {
-    var _this2 = this;
-
-    _swap2.default.services.room.subscribe('ready', function () {
-      _this2._persistMyOrders();
-    });
-
-    _swap2.default.services.room.subscribe('user online', function (peer) {
-      var myOrders = _this2.getMyOrders();
+    _this._handleUserOnline = function (peer) {
+      var myOrders = _this.getMyOrders();
 
       if (myOrders.length) {
         // clean orders from other additional props
         myOrders = myOrders.map(function (item) {
           return _swap.util.pullProps(item, 'id', 'owner', 'buyCurrency', 'sellCurrency', 'buyAmount', 'sellAmount', 'isRequested', 'isProcessing');
         });
-
-        console.log('Send my orders to ' + peer, myOrders);
 
         _swap2.default.services.room.sendMessage(peer, [{
           event: 'new orders',
@@ -7638,73 +7165,76 @@ var SwapOrders = function (_aggregation) {
           }
         }]);
       }
-    });
+    };
 
-    _swap2.default.services.room.subscribe('user offline', function (peer) {
-      var peerOrders = _this2.getPeerOrders(peer);
+    _this._handleUserOffline = function (peer) {
+      var peerOrders = _this.getPeerOrders(peer);
 
       if (peerOrders.length) {
-        peerOrders.forEach(function (_ref) {
-          var id = _ref.id;
+        peerOrders.forEach(function (_ref2) {
+          var id = _ref2.id;
 
-          _this2._handleRemove(id);
+          _this._handleRemove(id);
         });
       }
-    });
+    };
 
-    _swap2.default.services.room.subscribe('new orders', function (_ref2) {
-      var fromPeer = _ref2.fromPeer,
-          orders = _ref2.orders;
+    _this._handleNewOrders = function (_ref3) {
+      var fromPeer = _ref3.fromPeer,
+          orders = _ref3.orders;
 
       // ductape to check if such orders already exist
-      var filteredOrders = orders.filter(function (_ref3) {
-        var id = _ref3.id,
-            peer = _ref3.owner.peer;
-        return !_this2.getByKey(id) && peer === fromPeer;
+      var filteredOrders = orders.filter(function (_ref4) {
+        var id = _ref4.id,
+            peer = _ref4.owner.peer;
+        return !_this.getByKey(id) && peer === fromPeer;
       });
 
-      console.log('Receive orders from ' + fromPeer, filteredOrders);
+      _this._handleMultipleCreate({ orders: filteredOrders, fromPeer: fromPeer });
+    };
 
-      _this2._handleMultipleCreate(filteredOrders);
-    });
-
-    _swap2.default.services.room.subscribe('new order', function (_ref4) {
-      var fromPeer = _ref4.fromPeer,
-          order = _ref4.order;
-
-      if (order && order.owner && order.owner.peer === fromPeer) {
-        _this2._handleCreate(order);
-      }
-    });
-
-    _swap2.default.services.room.subscribe('remove order', function (_ref5) {
+    _this._handleNewOrder = function (_ref5) {
       var fromPeer = _ref5.fromPeer,
-          orderId = _ref5.orderId;
-
-      var order = _this2.getByKey(orderId);
+          order = _ref5.order;
 
       if (order && order.owner && order.owner.peer === fromPeer) {
-        _this2._handleRemove(orderId);
+        if (checkIncomeOrder(order, fromPeer)) {
+          _this._handleCreate(order);
+        }
       }
-    });
+    };
+
+    _this._handleRemoveOrder = function (_ref6) {
+      var fromPeer = _ref6.fromPeer,
+          orderId = _ref6.orderId;
+
+      var order = _this.getByKey(orderId);
+
+      if (order && order.owner && order.owner.peer === fromPeer) {
+        _this._handleRemove(orderId);
+      }
+    };
+
+    _this._serviceName = 'orders';
+    _this._dependsOn = [_swap4.default];
+    return _this;
+  }
+
+  SwapOrders.prototype.initService = function initService() {
+    _swap2.default.services.room.subscribe('ready', this._handleReady);
+    _swap2.default.services.room.subscribe('user online', this._handleUserOnline);
+    _swap2.default.services.room.subscribe('user offline', this._handleUserOffline);
+    _swap2.default.services.room.subscribe('new orders', this._handleNewOrders);
+    _swap2.default.services.room.subscribe('new order', this._handleNewOrder);
+    _swap2.default.services.room.subscribe('remove order', this._handleRemoveOrder);
   };
 
   SwapOrders.prototype._persistMyOrders = function _persistMyOrders() {
-    var _this3 = this;
+    var _this2 = this;
 
     this.getMyOrders().forEach(function (orderData) {
-      _this3._handleCreate(orderData);
+      _this2._handleCreate(orderData);
     });
-  };
-
-  SwapOrders.prototype._create = function _create(data) {
-    var order = new _Order2.default(this, (0, _assign2.default)({}, data, {
-      id: data.id || getUniqueId()
-    }));
-
-    this.append(order, order.id);
-
-    return order;
   };
 
   /**
@@ -7721,26 +7251,56 @@ var SwapOrders = function (_aggregation) {
    * @param {string} data.sellCurrency
    * @param {number} data.buyAmount
    * @param {number} data.sellAmount
+   * @param {boolean} data.isProcessing
+   * @param {boolean} data.isRequested
    */
 
+
+  SwapOrders.prototype._create = function _create(data) {
+    var id = data.id,
+        buyAmount = data.buyAmount,
+        sellAmount = data.sellAmount,
+        rest = (0, _objectWithoutProperties3.default)(data, ['id', 'buyAmount', 'sellAmount']);
+
+
+    var order = new _Order2.default(this, (0, _assign2.default)({
+      id: id || getUniqueId(),
+      buyAmount: new _bignumber2.default(String(buyAmount)),
+      sellAmount: new _bignumber2.default(String(sellAmount))
+    }, rest));
+
+    this.append(order, order.id);
+
+    return order;
+  };
 
   SwapOrders.prototype._handleCreate = function _handleCreate(data) {
     var order = this._create(data);
 
-    _events2.default.dispatch('new order', order);
+    if (order) {
+      _events2.default.dispatch('new order', order);
+    }
   };
 
-  SwapOrders.prototype._handleMultipleCreate = function _handleMultipleCreate(ordersData) {
-    var _this4 = this;
+  SwapOrders.prototype._handleMultipleCreate = function _handleMultipleCreate(_ref7) {
+    var _this3 = this;
 
-    var orders = [];
+    var orders = _ref7.orders,
+        fromPeer = _ref7.fromPeer;
 
-    ordersData.forEach(function (data) {
-      var order = _this4._create(data);
-      orders.push(order);
+    var newOrders = [];
+
+    orders.forEach(function (data) {
+      if (checkIncomeOrder(data, fromPeer)) {
+        var order = _this3._create(data);
+
+        newOrders.push(order);
+      }
     });
 
-    _events2.default.dispatch('new orders', orders);
+    if (newOrders.length) {
+      _events2.default.dispatch('new orders', newOrders);
+    }
   };
 
   /**
@@ -7750,15 +7310,19 @@ var SwapOrders = function (_aggregation) {
 
 
   SwapOrders.prototype._handleRemove = function _handleRemove(orderId) {
-    var order = this.getByKey(orderId);
+    try {
+      var order = this.getByKey(orderId);
 
-    this.removeByKey(orderId);
-    _events2.default.dispatch('remove order', order);
+      if (order) {
+        this.removeByKey(orderId);
+        _events2.default.dispatch('remove order', order);
+      }
+    } catch (err) {}
   };
 
   SwapOrders.prototype._saveMyOrders = function _saveMyOrders() {
-    var myOrders = this.items.filter(function (_ref6) {
-      var peer = _ref6.owner.peer;
+    var myOrders = this.items.filter(function (_ref8) {
+      var peer = _ref8.owner.peer;
       return peer === _swap2.default.services.room.peer;
     });
 
@@ -7779,8 +7343,8 @@ var SwapOrders = function (_aggregation) {
   };
 
   SwapOrders.prototype.getPeerOrders = function getPeerOrders(peer) {
-    return this.items.filter(function (_ref7) {
-      var owner = _ref7.owner;
+    return this.items.filter(function (_ref9) {
+      var owner = _ref9.owner;
       return peer === owner.peer;
     });
   };
@@ -7842,7 +7406,7 @@ var SwapOrders = function (_aggregation) {
 exports.default = SwapOrders;
 
 /***/ }),
-/* 869 */
+/* 866 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7850,19 +7414,19 @@ exports.default = SwapOrders;
 
 exports.__esModule = true;
 
-var _getOwnPropertyDescriptor = __webpack_require__(870);
+var _getOwnPropertyDescriptor = __webpack_require__(867);
 
 var _getOwnPropertyDescriptor2 = _interopRequireDefault(_getOwnPropertyDescriptor);
 
-var _defineProperty = __webpack_require__(333);
+var _defineProperty = __webpack_require__(330);
 
 var _defineProperty2 = _interopRequireDefault(_defineProperty);
 
-var _getOwnPropertySymbols = __webpack_require__(873);
+var _getOwnPropertySymbols = __webpack_require__(870);
 
 var _getOwnPropertySymbols2 = _interopRequireDefault(_getOwnPropertySymbols);
 
-var _getOwnPropertyNames = __webpack_require__(875);
+var _getOwnPropertyNames = __webpack_require__(872);
 
 var _getOwnPropertyNames2 = _interopRequireDefault(_getOwnPropertyNames);
 
@@ -7931,15 +7495,15 @@ var aggregation = function aggregation(baseClass) {
 exports.default = aggregation;
 
 /***/ }),
+/* 867 */,
+/* 868 */,
+/* 869 */,
 /* 870 */,
 /* 871 */,
 /* 872 */,
 /* 873 */,
 /* 874 */,
-/* 875 */,
-/* 876 */,
-/* 877 */,
-/* 878 */
+/* 875 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7947,11 +7511,11 @@ exports.default = aggregation;
 
 exports.__esModule = true;
 
-var _keys = __webpack_require__(17);
+var _keys = __webpack_require__(25);
 
 var _keys2 = _interopRequireDefault(_keys);
 
-var _assign = __webpack_require__(9);
+var _assign = __webpack_require__(15);
 
 var _assign2 = _interopRequireDefault(_assign);
 
@@ -7959,11 +7523,11 @@ var _classCallCheck2 = __webpack_require__(1);
 
 var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
 
-var _swap = __webpack_require__(18);
+var _swap = __webpack_require__(17);
 
 var _swap2 = _interopRequireDefault(_swap);
 
-var _events = __webpack_require__(337);
+var _events = __webpack_require__(335);
 
 var _events2 = _interopRequireDefault(_events);
 
@@ -8164,7 +7728,7 @@ var Order = function () {
 exports.default = Order;
 
 /***/ }),
-/* 879 */
+/* 876 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8173,15 +7737,15 @@ exports.default = Order;
 exports.__esModule = true;
 exports.EthTokenSwap = exports.BtcSwap = exports.EthSwap = undefined;
 
-var _EthSwap = __webpack_require__(880);
+var _EthSwap = __webpack_require__(877);
 
 var _EthSwap2 = _interopRequireDefault(_EthSwap);
 
-var _EthTokenSwap = __webpack_require__(881);
+var _EthTokenSwap = __webpack_require__(878);
 
 var _EthTokenSwap2 = _interopRequireDefault(_EthTokenSwap);
 
-var _BtcSwap = __webpack_require__(882);
+var _BtcSwap = __webpack_require__(879);
 
 var _BtcSwap2 = _interopRequireDefault(_BtcSwap);
 
@@ -8192,7 +7756,7 @@ exports.BtcSwap = _BtcSwap2.default;
 exports.EthTokenSwap = _EthTokenSwap2.default;
 
 /***/ }),
-/* 880 */
+/* 877 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8200,11 +7764,11 @@ exports.EthTokenSwap = _EthTokenSwap2.default;
 
 exports.__esModule = true;
 
-var _regenerator = __webpack_require__(40);
+var _regenerator = __webpack_require__(39);
 
 var _regenerator2 = _interopRequireDefault(_regenerator);
 
-var _asyncToGenerator2 = __webpack_require__(41);
+var _asyncToGenerator2 = __webpack_require__(40);
 
 var _asyncToGenerator3 = _interopRequireDefault(_asyncToGenerator2);
 
@@ -8224,7 +7788,7 @@ var _inherits2 = __webpack_require__(4);
 
 var _inherits3 = _interopRequireDefault(_inherits2);
 
-var _swap = __webpack_require__(18);
+var _swap = __webpack_require__(17);
 
 var _swap2 = _interopRequireDefault(_swap);
 
@@ -8354,7 +7918,7 @@ var EthSwap = function (_SwapInterface) {
                 params = {
                   from: _swap2.default.services.auth.accounts.eth.address,
                   gas: _this3.gasLimit,
-                  value: Math.floor(_swap2.default.env.web3.utils.toWei(String(amount)))
+                  value: Math.floor(_swap2.default.env.web3.utils.toWei(amount.toString()))
                 };
                 values = [hash, participantAddress];
                 _context2.next = 5;
@@ -8386,37 +7950,131 @@ var EthSwap = function (_SwapInterface) {
     }());
   };
 
+  EthSwap.prototype.getBalance = function getBalance(_ref3) {
+    var _this4 = this;
+
+    var ownerAddress = _ref3.ownerAddress;
+
+    return new _promise2.default(function () {
+      var _ref4 = (0, _asyncToGenerator3.default)( /*#__PURE__*/_regenerator2.default.mark(function _callee3(resolve, reject) {
+        var balance;
+        return _regenerator2.default.wrap(function _callee3$(_context3) {
+          while (1) {
+            switch (_context3.prev = _context3.next) {
+              case 0:
+                balance = void 0;
+                _context3.prev = 1;
+                _context3.next = 4;
+                return _this4.contract.methods.getBalance(ownerAddress).call({
+                  from: _swap2.default.services.auth.accounts.eth.address
+                });
+
+              case 4:
+                balance = _context3.sent;
+                _context3.next = 10;
+                break;
+
+              case 7:
+                _context3.prev = 7;
+                _context3.t0 = _context3['catch'](1);
+
+                reject(_context3.t0);
+
+              case 10:
+
+                resolve(balance);
+
+              case 11:
+              case 'end':
+                return _context3.stop();
+            }
+          }
+        }, _callee3, _this4, [[1, 7]]);
+      }));
+
+      return function (_x5, _x6) {
+        return _ref4.apply(this, arguments);
+      };
+    }());
+  };
+
+  /**
+   *
+   * @param {object} data
+   * @param {string} data.ownerAddress
+   * @param {BigNumber} data.expectedValue
+   * @returns {Promise.<string>}
+   */
+
+
+  EthSwap.prototype.checkBalance = function () {
+    var _ref5 = (0, _asyncToGenerator3.default)( /*#__PURE__*/_regenerator2.default.mark(function _callee4(data) {
+      var ownerAddress, expectedValue, balance;
+      return _regenerator2.default.wrap(function _callee4$(_context4) {
+        while (1) {
+          switch (_context4.prev = _context4.next) {
+            case 0:
+              ownerAddress = data.ownerAddress, expectedValue = data.expectedValue;
+              _context4.next = 3;
+              return this.getBalance({ ownerAddress: ownerAddress });
+
+            case 3:
+              balance = _context4.sent;
+
+              if (!expectedValue.isGreaterThan(balance)) {
+                _context4.next = 6;
+                break;
+              }
+
+              return _context4.abrupt('return', 'Expected value: ' + expectedValue.toNumber() + ', got: ' + balance);
+
+            case 6:
+            case 'end':
+              return _context4.stop();
+          }
+        }
+      }, _callee4, this);
+    }));
+
+    function checkBalance(_x7) {
+      return _ref5.apply(this, arguments);
+    }
+
+    return checkBalance;
+  }();
+
   /**
    *
    * @param {object} data
    * @param {string} data.secret
    * @param {string} data.ownerAddress
    * @param {function} handleTransactionHash
+   * @returns {Promise}
    */
 
 
   EthSwap.prototype.withdraw = function withdraw(data, handleTransactionHash) {
-    var _this4 = this;
+    var _this5 = this;
 
     var ownerAddress = data.ownerAddress,
         secret = data.secret;
 
 
     return new _promise2.default(function () {
-      var _ref3 = (0, _asyncToGenerator3.default)( /*#__PURE__*/_regenerator2.default.mark(function _callee3(resolve, reject) {
+      var _ref6 = (0, _asyncToGenerator3.default)( /*#__PURE__*/_regenerator2.default.mark(function _callee5(resolve, reject) {
         var _secret, params, receipt;
 
-        return _regenerator2.default.wrap(function _callee3$(_context3) {
+        return _regenerator2.default.wrap(function _callee5$(_context5) {
           while (1) {
-            switch (_context3.prev = _context3.next) {
+            switch (_context5.prev = _context5.next) {
               case 0:
                 _secret = '0x' + secret.replace(/^0x/, '');
                 params = {
                   from: _swap2.default.services.auth.accounts.eth.address,
-                  gas: _this4.gasLimit
+                  gas: _this5.gasLimit
                 };
-                _context3.next = 4;
-                return _this4.contract.methods.withdraw(_secret, ownerAddress).send(params).on('transactionHash', function (hash) {
+                _context5.next = 4;
+                return _this5.contract.methods.withdraw(_secret, ownerAddress).send(params).on('transactionHash', function (hash) {
                   if (typeof handleTransactionHash === 'function') {
                     handleTransactionHash(hash);
                   }
@@ -8425,95 +8083,53 @@ var EthSwap = function (_SwapInterface) {
                 });
 
               case 4:
-                receipt = _context3.sent;
+                receipt = _context5.sent;
 
 
                 resolve(receipt);
 
               case 6:
               case 'end':
-                return _context3.stop();
+                return _context5.stop();
             }
           }
-        }, _callee3, _this4);
+        }, _callee5, _this5);
       }));
 
-      return function (_x5, _x6) {
-        return _ref3.apply(this, arguments);
+      return function (_x8, _x9) {
+        return _ref6.apply(this, arguments);
       };
     }());
   };
 
-  EthSwap.prototype.refund = function refund() {
-    // TODO write refund functional
-  };
+  /**
+   *
+   * @param {object} data
+   * @param {string} data.participantAddress
+   * @param {function} handleTransactionHash
+   * @returns {Promise}
+   */
 
-  EthSwap.prototype.getSecret = function getSecret(_ref4) {
-    var _this5 = this;
 
-    var participantAddress = _ref4.participantAddress;
-
-    return new _promise2.default(function () {
-      var _ref5 = (0, _asyncToGenerator3.default)( /*#__PURE__*/_regenerator2.default.mark(function _callee4(resolve, reject) {
-        var secret;
-        return _regenerator2.default.wrap(function _callee4$(_context4) {
-          while (1) {
-            switch (_context4.prev = _context4.next) {
-              case 0:
-                secret = void 0;
-                _context4.prev = 1;
-                _context4.next = 4;
-                return _this5.contract.methods.getSecret(participantAddress).call({
-                  from: _swap2.default.services.auth.accounts.eth.address
-                });
-
-              case 4:
-                secret = _context4.sent;
-                _context4.next = 10;
-                break;
-
-              case 7:
-                _context4.prev = 7;
-                _context4.t0 = _context4['catch'](1);
-
-                reject(_context4.t0);
-
-              case 10:
-
-                resolve(secret);
-
-              case 11:
-              case 'end':
-                return _context4.stop();
-            }
-          }
-        }, _callee4, _this5, [[1, 7]]);
-      }));
-
-      return function (_x7, _x8) {
-        return _ref5.apply(this, arguments);
-      };
-    }());
-  };
-
-  EthSwap.prototype.close = function close(_ref6, handleTransactionHash) {
+  EthSwap.prototype.refund = function refund(data, handleTransactionHash) {
     var _this6 = this;
 
-    var participantAddress = _ref6.participantAddress;
+    var participantAddress = data.participantAddress;
+
 
     return new _promise2.default(function () {
-      var _ref7 = (0, _asyncToGenerator3.default)( /*#__PURE__*/_regenerator2.default.mark(function _callee5(resolve, reject) {
+      var _ref7 = (0, _asyncToGenerator3.default)( /*#__PURE__*/_regenerator2.default.mark(function _callee6(resolve, reject) {
         var params, receipt;
-        return _regenerator2.default.wrap(function _callee5$(_context5) {
+        return _regenerator2.default.wrap(function _callee6$(_context6) {
           while (1) {
-            switch (_context5.prev = _context5.next) {
+            switch (_context6.prev = _context6.next) {
               case 0:
                 params = {
                   from: _swap2.default.services.auth.accounts.eth.address,
                   gas: _this6.gasLimit
                 };
-                _context5.next = 3;
-                return _this6.contract.methods.close(participantAddress).send(params).on('transactionHash', function (hash) {
+                _context6.next = 3;
+                return _this6.contract.methods.refund(participantAddress).send(params).on('transactionHash', function (hash) {
                   if (typeof handleTransactionHash === 'function') {
                     handleTransactionHash(hash);
                   }
@@ -8522,21 +8138,141 @@ var EthSwap = function (_SwapInterface) {
                 });
 
               case 3:
-                receipt = _context5.sent;
+                receipt = _context6.sent;
 
 
                 resolve(receipt);
 
               case 5:
               case 'end':
-                return _context5.stop();
+                return _context6.stop();
             }
           }
-        }, _callee5, _this6);
+        }, _callee6, _this6);
       }));
 
-      return function (_x9, _x10) {
+      return function (_x10, _x11) {
         return _ref7.apply(this, arguments);
+      };
+    }());
+  };
+
+  /**
+   *
+   * @param {object} data
+   * @param {string} data.participantAddress
+   * @returns {Promise}
+   */
+
+
+  EthSwap.prototype.getSecret = function getSecret(data) {
+    var _this7 = this;
+
+    var participantAddress = data.participantAddress;
+
+
+    return new _promise2.default(function () {
+      var _ref8 = (0, _asyncToGenerator3.default)( /*#__PURE__*/_regenerator2.default.mark(function _callee7(resolve, reject) {
+        var secret, secretValue;
+        return _regenerator2.default.wrap(function _callee7$(_context7) {
+          while (1) {
+            switch (_context7.prev = _context7.next) {
+              case 0:
+                _context7.prev = 0;
+                _context7.next = 3;
+                return _this7.contract.methods.getSecret(participantAddress).call({
+                  from: _swap2.default.services.auth.accounts.eth.address
+                });
+
+              case 3:
+                secret = _context7.sent;
+                secretValue = secret && !/^0x0+/.test(secret) ? secret : null;
+
+
+                resolve(secretValue);
+                _context7.next = 11;
+                break;
+
+              case 8:
+                _context7.prev = 8;
+                _context7.t0 = _context7['catch'](0);
+
+                reject(_context7.t0);
+
+              case 11:
+              case 'end':
+                return _context7.stop();
+            }
+          }
+        }, _callee7, _this7, [[0, 8]]);
+      }));
+
+      return function (_x12, _x13) {
+        return _ref8.apply(this, arguments);
+      };
+    }());
+  };
+
+  /**
+   *
+   * @param {object} data
+   * @param {string} data.participantAddress
+   * @param handleTransactionHash
+   * @returns {Promise}
+   */
+
+
+  EthSwap.prototype.close = function close(data, handleTransactionHash) {
+    var _this8 = this;
+
+    var participantAddress = data.participantAddress;
+
+
+    return new _promise2.default(function () {
+      var _ref9 = (0, _asyncToGenerator3.default)( /*#__PURE__*/_regenerator2.default.mark(function _callee8(resolve, reject) {
+        var params, result;
+        return _regenerator2.default.wrap(function _callee8$(_context8) {
+          while (1) {
+            switch (_context8.prev = _context8.next) {
+              case 0:
+                params = {
+                  from: _swap2.default.services.auth.accounts.eth.address,
+                  gas: _this8.gasLimit
+                };
+                _context8.prev = 1;
+                _context8.next = 4;
+                return _this8.contract.methods.close(participantAddress).send(params).on('transactionHash', function (hash) {
+                  if (typeof handleTransactionHash === 'function') {
+                    handleTransactionHash(hash);
+                  }
+                }).on('error', function (err) {
+                  reject(err);
+                });
+
+              case 4:
+                result = _context8.sent;
+
+
+                resolve(result);
+                _context8.next = 11;
+                break;
+
+              case 8:
+                _context8.prev = 8;
+                _context8.t0 = _context8['catch'](1);
+
+                reject(_context8.t0);
+
+              case 11:
+              case 'end':
+                return _context8.stop();
+            }
+          }
+        }, _callee8, _this8, [[1, 8]]);
+      }));
+
+      return function (_x14, _x15) {
+        return _ref9.apply(this, arguments);
       };
     }());
   };
@@ -8547,7 +8283,7 @@ var EthSwap = function (_SwapInterface) {
 exports.default = EthSwap;
 
 /***/ }),
-/* 881 */
+/* 878 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8555,11 +8291,11 @@ exports.default = EthSwap;
 
 exports.__esModule = true;
 
-var _regenerator = __webpack_require__(40);
+var _regenerator = __webpack_require__(39);
 
 var _regenerator2 = _interopRequireDefault(_regenerator);
 
-var _asyncToGenerator2 = __webpack_require__(41);
+var _asyncToGenerator2 = __webpack_require__(40);
 
 var _asyncToGenerator3 = _interopRequireDefault(_asyncToGenerator2);
 
@@ -8579,7 +8315,7 @@ var _inherits2 = __webpack_require__(4);
 
 var _inherits3 = _interopRequireDefault(_inherits2);
 
-var _swap = __webpack_require__(18);
+var _swap = __webpack_require__(17);
 
 var _swap2 = _interopRequireDefault(_swap);
 
@@ -8696,13 +8432,23 @@ var EthTokenSwap = function (_SwapInterface) {
     }());
   };
 
-  EthTokenSwap.prototype.approve = function approve(_ref2, handleTransactionHash) {
+  /**
+   *
+   * @param {object} data
+   * @param {BigNumber} data.amount
+   * @param {function} handleTransactionHash
+   * @returns {Promise}
+   */
+
+
+  EthTokenSwap.prototype.approve = function approve(data, handleTransactionHash) {
     var _this3 = this;
 
-    var amount = _ref2.amount;
+    var amount = data.amount;
+
 
     return new _promise2.default(function () {
-      var _ref3 = (0, _asyncToGenerator3.default)( /*#__PURE__*/_regenerator2.default.mark(function _callee2(resolve, reject) {
+      var _ref2 = (0, _asyncToGenerator3.default)( /*#__PURE__*/_regenerator2.default.mark(function _callee2(resolve, reject) {
         var result;
         return _regenerator2.default.wrap(function _callee2$(_context2) {
           while (1) {
@@ -8710,7 +8456,7 @@ var EthTokenSwap = function (_SwapInterface) {
               case 0:
                 _context2.prev = 0;
                 _context2.next = 3;
-                return _this3.ERC20.methods.approve(_this3.address, amount).send({
+                return _this3.ERC20.methods.approve(_this3.address, amount.toNumber()).send({
                   from: _swap2.default.services.auth.accounts.eth.address,
                   gas: _this3.gasLimit
                 }).on('transactionHash', function (hash) {
@@ -8744,7 +8490,7 @@ var EthTokenSwap = function (_SwapInterface) {
       }));
 
       return function (_x3, _x4) {
-        return _ref3.apply(this, arguments);
+        return _ref2.apply(this, arguments);
       };
     }());
   };
@@ -8766,7 +8512,7 @@ var EthTokenSwap = function (_SwapInterface) {
 
 
     return new _promise2.default(function () {
-      var _ref4 = (0, _asyncToGenerator3.default)( /*#__PURE__*/_regenerator2.default.mark(function _callee3(resolve, reject) {
+      var _ref3 = (0, _asyncToGenerator3.default)( /*#__PURE__*/_regenerator2.default.mark(function _callee3(resolve, reject) {
         var result;
         return _regenerator2.default.wrap(function _callee3$(_context3) {
           while (1) {
@@ -8801,7 +8547,7 @@ var EthTokenSwap = function (_SwapInterface) {
       }));
 
       return function (_x5, _x6) {
-        return _ref4.apply(this, arguments);
+        return _ref3.apply(this, arguments);
       };
     }());
   };
@@ -8811,7 +8557,7 @@ var EthTokenSwap = function (_SwapInterface) {
    * @param {object} data
    * @param {string} data.secretHash
    * @param {string} data.participantAddress
-   * @param {number} data.amount
+   * @param {BigNumber} data.amount
    * @param {function} handleTransactionHash
    */
 
@@ -8825,7 +8571,7 @@ var EthTokenSwap = function (_SwapInterface) {
 
 
     return new _promise2.default(function () {
-      var _ref5 = (0, _asyncToGenerator3.default)( /*#__PURE__*/_regenerator2.default.mark(function _callee4(resolve, reject) {
+      var _ref4 = (0, _asyncToGenerator3.default)( /*#__PURE__*/_regenerator2.default.mark(function _callee4(resolve, reject) {
         var hash, values, params, _contract$methods, result;
 
         return _regenerator2.default.wrap(function _callee4$(_context4) {
@@ -8833,7 +8579,7 @@ var EthTokenSwap = function (_SwapInterface) {
             switch (_context4.prev = _context4.next) {
               case 0:
                 hash = '0x' + secretHash.replace(/^0x/, '');
-                values = [hash, participantAddress, amount, _this5.tokenAddress];
+                values = [hash, participantAddress, amount.toNumber(), _this5.tokenAddress];
                 params = { from: _swap2.default.services.auth.accounts.eth.address, gas: _this5.gasLimit };
                 _context4.prev = 3;
                 _context4.next = 6;
@@ -8868,7 +8614,7 @@ var EthTokenSwap = function (_SwapInterface) {
       }));
 
       return function (_x7, _x8) {
-        return _ref5.apply(this, arguments);
+        return _ref4.apply(this, arguments);
       };
     }());
   };
@@ -8890,7 +8636,7 @@ var EthTokenSwap = function (_SwapInterface) {
 
 
     return new _promise2.default(function () {
-      var _ref6 = (0, _asyncToGenerator3.default)( /*#__PURE__*/_regenerator2.default.mark(function _callee5(resolve, reject) {
+      var _ref5 = (0, _asyncToGenerator3.default)( /*#__PURE__*/_regenerator2.default.mark(function _callee5(resolve, reject) {
         var _secret, params, result;
 
         return _regenerator2.default.wrap(function _callee5$(_context5) {
@@ -8935,14 +8681,65 @@ var EthTokenSwap = function (_SwapInterface) {
       }));
 
       return function (_x9, _x10) {
-        return _ref6.apply(this, arguments);
+        return _ref5.apply(this, arguments);
       };
     }());
   };
 
-  EthTokenSwap.prototype.refund = function refund() {}
-  // TODO write refund functional
+  /**
+   *
+   * @param {object} data
+   * @param {string} data.participantAddress
+   * @param {function} handleTransactionHash
+   * @returns {Promise}
+   */
 
+
+  EthTokenSwap.prototype.refund = function refund(data, handleTransactionHash) {
+    var _this7 = this;
+
+    var participantAddress = data.participantAddress;
+
+
+    return new _promise2.default(function () {
+      var _ref6 = (0, _asyncToGenerator3.default)( /*#__PURE__*/_regenerator2.default.mark(function _callee6(resolve, reject) {
+        var params, receipt;
+        return _regenerator2.default.wrap(function _callee6$(_context6) {
+          while (1) {
+            switch (_context6.prev = _context6.next) {
+              case 0:
+                params = {
+                  from: _swap2.default.services.auth.accounts.eth.address,
+                  gas: _this7.gasLimit
+                };
+                _context6.next = 3;
+                return _this7.contract.methods.refund(participantAddress).send(params).on('transactionHash', function (hash) {
+                  if (typeof handleTransactionHash === 'function') {
+                    handleTransactionHash(hash);
+                  }
+                }).on('error', function (err) {
+                  reject(err);
+                });
+
+              case 3:
+                receipt = _context6.sent;
+
+
+                resolve(receipt);
+
+              case 5:
+              case 'end':
+                return _context6.stop();
+            }
+          }
+        }, _callee6, _this7);
+      }));
+
+      return function (_x11, _x12) {
+        return _ref6.apply(this, arguments);
+      };
+    }());
+  };
 
   /**
    *
@@ -8950,50 +8747,51 @@ var EthTokenSwap = function (_SwapInterface) {
    * @param {string} data.participantAddress
    * @returns {Promise}
    */
-  ;
+
 
   EthTokenSwap.prototype.getSecret = function getSecret(data) {
-    var _this7 = this;
+    var _this8 = this;
 
     var participantAddress = data.participantAddress;
 
 
     return new _promise2.default(function () {
-      var _ref7 = (0, _asyncToGenerator3.default)( /*#__PURE__*/_regenerator2.default.mark(function _callee6(resolve, reject) {
-        var secret;
-        return _regenerator2.default.wrap(function _callee6$(_context6) {
+      var _ref7 = (0, _asyncToGenerator3.default)( /*#__PURE__*/_regenerator2.default.mark(function _callee7(resolve, reject) {
+        var secret, secretValue;
+        return _regenerator2.default.wrap(function _callee7$(_context7) {
           while (1) {
-            switch (_context6.prev = _context6.next) {
+            switch (_context7.prev = _context7.next) {
               case 0:
-                _context6.prev = 0;
-                _context6.next = 3;
-                return _this7.contract.methods.getSecret(participantAddress).call({
+                _context7.prev = 0;
+                _context7.next = 3;
+                return _this8.contract.methods.getSecret(participantAddress).call({
                   from: _swap2.default.services.auth.accounts.eth.address
                 });
 
               case 3:
-                secret = _context6.sent;
+                secret = _context7.sent;
+                secretValue = secret && !/^0x0+/.test(secret) ? secret : null;
 
 
-                resolve(secret);
-                _context6.next = 10;
+                resolve(secretValue);
+                _context7.next = 11;
                 break;
 
-              case 7:
-                _context6.prev = 7;
-                _context6.t0 = _context6['catch'](0);
+              case 8:
+                _context7.prev = 8;
+                _context7.t0 = _context7['catch'](0);
 
-                reject(_context6.t0);
+                reject(_context7.t0);
 
-              case 10:
+              case 11:
               case 'end':
-                return _context6.stop();
+                return _context7.stop();
             }
           }
-        }, _callee6, _this7, [[0, 7]]);
+        }, _callee7, _this8, [[0, 8]]);
       }));
 
-      return function (_x11, _x12) {
+      return function (_x13, _x14) {
         return _ref7.apply(this, arguments);
       };
     }());
@@ -9009,25 +8807,25 @@ var EthTokenSwap = function (_SwapInterface) {
 
 
   EthTokenSwap.prototype.close = function close(data, handleTransactionHash) {
-    var _this8 = this;
+    var _this9 = this;
 
     var participantAddress = data.participantAddress;
 
 
     return new _promise2.default(function () {
-      var _ref8 = (0, _asyncToGenerator3.default)( /*#__PURE__*/_regenerator2.default.mark(function _callee7(resolve, reject) {
+      var _ref8 = (0, _asyncToGenerator3.default)( /*#__PURE__*/_regenerator2.default.mark(function _callee8(resolve, reject) {
         var params, result;
-        return _regenerator2.default.wrap(function _callee7$(_context7) {
+        return _regenerator2.default.wrap(function _callee8$(_context8) {
           while (1) {
-            switch (_context7.prev = _context7.next) {
+            switch (_context8.prev = _context8.next) {
               case 0:
                 params = {
                   from: _swap2.default.services.auth.accounts.eth.address,
-                  gas: _this8.gasLimit
+                  gas: _this9.gasLimit
                 };
-                _context7.prev = 1;
-                _context7.next = 4;
-                return _this8.contract.methods.close(participantAddress).send(params).on('transactionHash', function (hash) {
+                _context8.prev = 1;
+                _context8.next = 4;
+                return _this9.contract.methods.close(participantAddress).send(params).on('transactionHash', function (hash) {
                   if (typeof handleTransactionHash === 'function') {
                     handleTransactionHash(hash);
                   }
@@ -9036,28 +8834,28 @@ var EthTokenSwap = function (_SwapInterface) {
                 });
 
               case 4:
-                result = _context7.sent;
+                result = _context8.sent;
 
 
                 resolve(result);
-                _context7.next = 11;
+                _context8.next = 11;
                 break;
 
               case 8:
-                _context7.prev = 8;
-                _context7.t0 = _context7['catch'](1);
+                _context8.prev = 8;
+                _context8.t0 = _context8['catch'](1);
 
-                reject(_context7.t0);
+                reject(_context8.t0);
 
               case 11:
               case 'end':
-                return _context7.stop();
+                return _context8.stop();
             }
           }
-        }, _callee7, _this8, [[1, 8]]);
+        }, _callee8, _this9, [[1, 8]]);
       }));
 
-      return function (_x13, _x14) {
+      return function (_x15, _x16) {
         return _ref8.apply(this, arguments);
       };
     }());
@@ -9069,7 +8867,7 @@ var EthTokenSwap = function (_SwapInterface) {
 exports.default = EthTokenSwap;
 
 /***/ }),
-/* 882 */
+/* 879 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9077,17 +8875,17 @@ exports.default = EthTokenSwap;
 
 exports.__esModule = true;
 
-var _regenerator = __webpack_require__(40);
-
-var _regenerator2 = _interopRequireDefault(_regenerator);
-
-var _asyncToGenerator2 = __webpack_require__(41);
-
-var _asyncToGenerator3 = _interopRequireDefault(_asyncToGenerator2);
-
 var _promise = __webpack_require__(33);
 
 var _promise2 = _interopRequireDefault(_promise);
+
+var _regenerator = __webpack_require__(39);
+
+var _regenerator2 = _interopRequireDefault(_regenerator);
+
+var _asyncToGenerator2 = __webpack_require__(40);
+
+var _asyncToGenerator3 = _interopRequireDefault(_asyncToGenerator2);
 
 var _classCallCheck2 = __webpack_require__(1);
 
@@ -9101,7 +8899,7 @@ var _inherits2 = __webpack_require__(4);
 
 var _inherits3 = _interopRequireDefault(_inherits2);
 
-var _swap = __webpack_require__(18);
+var _swap = __webpack_require__(17);
 
 var _swap2 = _interopRequireDefault(_swap);
 
@@ -9172,21 +8970,21 @@ var BtcSwap = function (_SwapInterface) {
    *
    * @param {object} data
    * @param {string} data.secretHash
-   * @param {string} data.btcOwnerPublicKey
-   * @param {string} data.ethOwnerPublicKey
+   * @param {string} data.ownerPublicKey
+   * @param {string} data.recipientPublicKey
    * @param {number} data.lockTime
-   * @returns {{address: *, script: (*|{ignored}), secretHash: *, btcOwnerPublicKey: *, ethOwnerPublicKey: *, lockTime: *}}
+   * @returns {{address: *, script: (*|{ignored}), secretHash: *, ownerPublicKey: *, recipientPublicKey: *, lockTime: *}}
    */
 
 
   BtcSwap.prototype.createScript = function createScript(data) {
     var secretHash = data.secretHash,
-        btcOwnerPublicKey = data.btcOwnerPublicKey,
-        ethOwnerPublicKey = data.ethOwnerPublicKey,
+        ownerPublicKey = data.ownerPublicKey,
+        recipientPublicKey = data.recipientPublicKey,
         lockTime = data.lockTime;
 
 
-    var script = _swap2.default.env.bitcoin.script.compile([_swap2.default.env.bitcoin.opcodes.OP_RIPEMD160, Buffer.from(secretHash, 'hex'), _swap2.default.env.bitcoin.opcodes.OP_EQUALVERIFY, Buffer.from(ethOwnerPublicKey, 'hex'), _swap2.default.env.bitcoin.opcodes.OP_EQUAL, _swap2.default.env.bitcoin.opcodes.OP_IF, Buffer.from(ethOwnerPublicKey, 'hex'), _swap2.default.env.bitcoin.opcodes.OP_CHECKSIG, _swap2.default.env.bitcoin.opcodes.OP_ELSE, _swap2.default.env.bitcoin.script.number.encode(lockTime), _swap2.default.env.bitcoin.opcodes.OP_CHECKLOCKTIMEVERIFY, _swap2.default.env.bitcoin.opcodes.OP_DROP, Buffer.from(btcOwnerPublicKey, 'hex'), _swap2.default.env.bitcoin.opcodes.OP_CHECKSIG, _swap2.default.env.bitcoin.opcodes.OP_ENDIF]);
+    var script = _swap2.default.env.bitcoin.script.compile([_swap2.default.env.bitcoin.opcodes.OP_RIPEMD160, Buffer.from(secretHash, 'hex'), _swap2.default.env.bitcoin.opcodes.OP_EQUALVERIFY, Buffer.from(recipientPublicKey, 'hex'), _swap2.default.env.bitcoin.opcodes.OP_EQUAL, _swap2.default.env.bitcoin.opcodes.OP_IF, Buffer.from(recipientPublicKey, 'hex'), _swap2.default.env.bitcoin.opcodes.OP_CHECKSIG, _swap2.default.env.bitcoin.opcodes.OP_ELSE, _swap2.default.env.bitcoin.script.number.encode(lockTime), _swap2.default.env.bitcoin.opcodes.OP_CHECKLOCKTIMEVERIFY, _swap2.default.env.bitcoin.opcodes.OP_DROP, Buffer.from(ownerPublicKey, 'hex'), _swap2.default.env.bitcoin.opcodes.OP_CHECKSIG, _swap2.default.env.bitcoin.opcodes.OP_ENDIF]);
 
     var scriptPubKey = _swap2.default.env.bitcoin.script.scriptHash.output.encode(_swap2.default.env.bitcoin.crypto.hash160(script));
     var scriptAddress = _swap2.default.env.bitcoin.address.fromOutputScript(scriptPubKey, this.network);
@@ -9200,13 +8998,85 @@ var BtcSwap = function (_SwapInterface) {
   /**
    *
    * @param {object} data
+   * @param {string} data.recipientPublicKey
+   * @param {number} data.lockTime
+   * @param {object} expected
+   * @param {number} expected.value
+   * @param {number} expected.lockTime
+   * @param {string} expected.recipientPublicKey
+   */
+
+
+  BtcSwap.prototype.checkScript = function () {
+    var _ref = (0, _asyncToGenerator3.default)( /*#__PURE__*/_regenerator2.default.mark(function _callee(data, expected) {
+      var recipientPublicKey, lockTime, _createScript, scriptAddress, script, unspents, totalUnspent, expectedValue;
+
+      return _regenerator2.default.wrap(function _callee$(_context) {
+        while (1) {
+          switch (_context.prev = _context.next) {
+            case 0:
+              recipientPublicKey = data.recipientPublicKey, lockTime = data.lockTime;
+              _createScript = this.createScript(data), scriptAddress = _createScript.scriptAddress, script = _createScript.script;
+              _context.next = 4;
+              return this.fetchUnspents(scriptAddress);
+
+            case 4:
+              unspents = _context.sent;
+              totalUnspent = unspents.reduce(function (summ, _ref2) {
+                var satoshis = _ref2.satoshis;
+                return summ + satoshis;
+              }, 0);
+              expectedValue = expected.value.multipliedBy(1e8);
+
+              if (!expectedValue.isGreaterThan(totalUnspent)) {
+                _context.next = 9;
+                break;
+              }
+
+              return _context.abrupt('return', 'Expected script value: ' + expectedValue.toNumber() + ', got: ' + totalUnspent);
+
+            case 9:
+              if (!(expected.lockTime > lockTime)) {
+                _context.next = 11;
+                break;
+              }
+
+              return _context.abrupt('return', 'Expected script lockTime: ' + expected.lockTime + ', got: ' + lockTime);
+
+            case 11:
+              if (!(expected.recipientPublicKey !== recipientPublicKey)) {
+                _context.next = 13;
+                break;
+              }
+
+              return _context.abrupt('return', 'Expected script recipient publicKey: ' + expected.recipientPublicKey + ', got: ' + recipientPublicKey);
+
+            case 13:
+            case 'end':
+              return _context.stop();
+          }
+        }
+      }, _callee, this);
+    }));
+
+    function checkScript(_x, _x2) {
+      return _ref.apply(this, arguments);
+    }
+
+    return checkScript;
+  }();
+
+  /**
+   *
+   * @param {object} data
    * @param {object} data.scriptValues
-   * @param {string} data.amount
+   * @param {BigNumber} data.amount
+   * @param {function} handleTransactionHash
    * @returns {Promise}
    */
 
 
-  BtcSwap.prototype.fundScript = function fundScript(data) {
+  BtcSwap.prototype.fundScript = function fundScript(data, handleTransactionHash) {
     var _this2 = this;
 
     var scriptValues = data.scriptValues,
@@ -9214,34 +9084,35 @@ var BtcSwap = function (_SwapInterface) {
 
 
     return new _promise2.default(function () {
-      var _ref = (0, _asyncToGenerator3.default)( /*#__PURE__*/_regenerator2.default.mark(function _callee(resolve, reject) {
-        var _createScript, scriptAddress, tx, unspents, fundValue, feeValue, totalUnspent, skipValue, txRaw, result;
+      var _ref3 = (0, _asyncToGenerator3.default)( /*#__PURE__*/_regenerator2.default.mark(function _callee2(resolve, reject) {
+        var _createScript2, scriptAddress, tx, unspents, fundValue, feeValue, totalUnspent, skipValue, txRaw, result;
 
-        return _regenerator2.default.wrap(function _callee$(_context) {
+        return _regenerator2.default.wrap(function _callee2$(_context2) {
           while (1) {
-            switch (_context.prev = _context.next) {
+            switch (_context2.prev = _context2.next) {
               case 0:
-                _context.prev = 0;
-                _createScript = _this2.createScript(scriptValues), scriptAddress = _createScript.scriptAddress;
+                _context2.prev = 0;
+                _createScript2 = _this2.createScript(scriptValues), scriptAddress = _createScript2.scriptAddress;
                 tx = new _swap2.default.env.bitcoin.TransactionBuilder(_this2.network);
-                _context.next = 5;
+                _context2.next = 5;
                 return _this2.fetchUnspents(_swap2.default.services.auth.accounts.btc.getAddress());
 
               case 5:
-                unspents = _context.sent;
-                fundValue = Math.floor(Number(amount) * 1e8);
+                unspents = _context2.sent;
+                fundValue = amount.multipliedBy(1e8).toNumber(); // TODO check for number length (if need slice it)
+
                 feeValue = 15000; // TODO how to get this value
 
-                totalUnspent = unspents.reduce(function (summ, _ref2) {
-                  var satoshis = _ref2.satoshis;
+                totalUnspent = unspents.reduce(function (summ, _ref4) {
+                  var satoshis = _ref4.satoshis;
                   return summ + satoshis;
                 }, 0);
                 skipValue = totalUnspent - fundValue - feeValue;
 
 
-                unspents.forEach(function (_ref3) {
-                  var txid = _ref3.txid,
-                      vout = _ref3.vout;
+                unspents.forEach(function (_ref5) {
+                  var txid = _ref5.txid,
+                      vout = _ref5.vout;
                   return tx.addInput(txid, vout);
                 });
                 tx.addOutput(scriptAddress, fundValue);
@@ -9251,44 +9122,50 @@ var BtcSwap = function (_SwapInterface) {
                 });
 
                 txRaw = tx.buildIncomplete();
-                result = void 0;
-                _context.prev = 16;
-                _context.next = 19;
+
+
+                if (typeof handleTransactionHash === 'function') {
+                  handleTransactionHash(txRaw.getId());
+                }
+
+                _context2.prev = 16;
+                _context2.next = 19;
                 return _this2.broadcastTx(txRaw.toHex());
 
               case 19:
-                result = _context.sent;
-                _context.next = 25;
-                break;
+                result = _context2.sent;
 
-              case 22:
-                _context.prev = 22;
-                _context.t0 = _context['catch'](16);
-
-                reject(_context.t0);
-
-              case 25:
 
                 resolve(result);
-                _context.next = 31;
+                _context2.next = 26;
+                break;
+
+              case 23:
+                _context2.prev = 23;
+                _context2.t0 = _context2['catch'](16);
+
+                reject(_context2.t0);
+
+              case 26:
+                _context2.next = 31;
                 break;
 
               case 28:
-                _context.prev = 28;
-                _context.t1 = _context['catch'](0);
+                _context2.prev = 28;
+                _context2.t1 = _context2['catch'](0);
 
-                reject(_context.t1);
+                reject(_context2.t1);
 
               case 31:
               case 'end':
-                return _context.stop();
+                return _context2.stop();
             }
           }
-        }, _callee, _this2, [[0, 28], [16, 22]]);
+        }, _callee2, _this2, [[0, 28], [16, 23]]);
       }));
 
-      return function (_x, _x2) {
-        return _ref.apply(this, arguments);
+      return function (_x3, _x4) {
+        return _ref3.apply(this, arguments);
       };
     }());
   };
@@ -9311,32 +9188,32 @@ var BtcSwap = function (_SwapInterface) {
 
 
     return new _promise2.default(function () {
-      var _ref4 = (0, _asyncToGenerator3.default)( /*#__PURE__*/_regenerator2.default.mark(function _callee2(resolve, reject) {
-        var _createScript2, script, scriptAddress, tx, unspents, feeValue, totalUnspent, txRaw, result;
+      var _ref6 = (0, _asyncToGenerator3.default)( /*#__PURE__*/_regenerator2.default.mark(function _callee3(resolve, reject) {
+        var _createScript3, script, scriptAddress, tx, unspents, feeValue, totalUnspent, txRaw, result;
 
-        return _regenerator2.default.wrap(function _callee2$(_context2) {
+        return _regenerator2.default.wrap(function _callee3$(_context3) {
           while (1) {
-            switch (_context2.prev = _context2.next) {
+            switch (_context3.prev = _context3.next) {
               case 0:
-                _context2.prev = 0;
-                _createScript2 = _this3.createScript(scriptValues), script = _createScript2.script, scriptAddress = _createScript2.scriptAddress;
+                _context3.prev = 0;
+                _createScript3 = _this3.createScript(scriptValues), script = _createScript3.script, scriptAddress = _createScript3.scriptAddress;
                 tx = new _swap2.default.env.bitcoin.TransactionBuilder(_this3.network);
-                _context2.next = 5;
+                _context3.next = 5;
                 return _this3.fetchUnspents(scriptAddress);
 
               case 5:
-                unspents = _context2.sent;
+                unspents = _context3.sent;
                 feeValue = 15000; // TODO how to get this value
 
-                totalUnspent = unspents.reduce(function (summ, _ref5) {
-                  var satoshis = _ref5.satoshis;
+                totalUnspent = unspents.reduce(function (summ, _ref7) {
+                  var satoshis = _ref7.satoshis;
                   return summ + satoshis;
                 }, 0);
 
 
-                unspents.forEach(function (_ref6) {
-                  var txid = _ref6.txid,
-                      vout = _ref6.vout;
+                unspents.forEach(function (_ref8) {
+                  var txid = _ref8.txid,
+                      vout = _ref8.vout;
                   return tx.addInput(txid, vout, 0xfffffffe);
                 });
                 tx.addOutput(_swap2.default.services.auth.accounts.btc.getAddress(), totalUnspent - feeValue);
@@ -9354,33 +9231,44 @@ var BtcSwap = function (_SwapInterface) {
                   handleTransactionHash(txRaw.getId());
                 }
 
-                _context2.next = 15;
+                _context3.prev = 13;
+                _context3.next = 16;
                 return _this3.broadcastTx(txRaw.toHex());
 
-              case 15:
-                result = _context2.sent;
+              case 16:
+                result = _context3.sent;
 
 
                 resolve(result);
-                _context2.next = 22;
+                _context3.next = 23;
                 break;
 
-              case 19:
-                _context2.prev = 19;
-                _context2.t0 = _context2['catch'](0);
+              case 20:
+                _context3.prev = 20;
+                _context3.t0 = _context3['catch'](13);
 
-                reject(_context2.t0);
+                reject(_context3.t0);
 
-              case 22:
+              case 23:
+                _context3.next = 28;
+                break;
+
+              case 25:
+                _context3.prev = 25;
+                _context3.t1 = _context3['catch'](0);
+
+                reject(_context3.t1);
+
+              case 28:
               case 'end':
-                return _context2.stop();
+                return _context3.stop();
             }
           }
-        }, _callee2, _this3, [[0, 19]]);
+        }, _callee3, _this3, [[0, 25], [13, 20]]);
       }));
 
-      return function (_x3, _x4) {
-        return _ref4.apply(this, arguments);
+      return function (_x5, _x6) {
+        return _ref6.apply(this, arguments);
       };
     }());
   };
@@ -9403,33 +9291,33 @@ var BtcSwap = function (_SwapInterface) {
 
 
     return new _promise2.default(function () {
-      var _ref7 = (0, _asyncToGenerator3.default)( /*#__PURE__*/_regenerator2.default.mark(function _callee3(resolve, reject) {
-        var _createScript3, script, scriptAddress, tx, unspents, feeValue, totalUnspent, txRaw, result;
+      var _ref9 = (0, _asyncToGenerator3.default)( /*#__PURE__*/_regenerator2.default.mark(function _callee4(resolve, reject) {
+        var _createScript4, script, scriptAddress, tx, unspents, feeValue, totalUnspent, txRaw, result;
 
-        return _regenerator2.default.wrap(function _callee3$(_context3) {
+        return _regenerator2.default.wrap(function _callee4$(_context4) {
           while (1) {
-            switch (_context3.prev = _context3.next) {
+            switch (_context4.prev = _context4.next) {
               case 0:
-                _context3.prev = 0;
-                _createScript3 = _this4.createScript(scriptValues), script = _createScript3.script, scriptAddress = _createScript3.scriptAddress;
+                _context4.prev = 0;
+                _createScript4 = _this4.createScript(scriptValues), script = _createScript4.script, scriptAddress = _createScript4.scriptAddress;
                 tx = new _swap2.default.env.bitcoin.TransactionBuilder(_this4.network);
-                _context3.next = 5;
+                _context4.next = 5;
                 return _this4.fetchUnspents(scriptAddress);
 
               case 5:
-                unspents = _context3.sent;
+                unspents = _context4.sent;
                 feeValue = 15000; // TODO how to get this value
 
-                totalUnspent = unspents.reduce(function (summ, _ref8) {
-                  var satoshis = _ref8.satoshis;
+                totalUnspent = unspents.reduce(function (summ, _ref10) {
+                  var satoshis = _ref10.satoshis;
                   return summ + satoshis;
                 }, 0);
 
 
                 tx.setLockTime(scriptValues.lockTime);
-                unspents.forEach(function (_ref9) {
-                  var txid = _ref9.txid,
-                      vout = _ref9.vout;
+                unspents.forEach(function (_ref11) {
+                  var txid = _ref11.txid,
+                      vout = _ref11.vout;
                   return tx.addInput(txid, vout, 0xfffffffe);
                 });
                 tx.addOutput(_swap2.default.services.auth.accounts.btc.getAddress(), totalUnspent - feeValue);
@@ -9447,33 +9335,44 @@ var BtcSwap = function (_SwapInterface) {
                   handleTransactionHash(txRaw.getId());
                 }
 
-                _context3.next = 16;
+                _context4.prev = 14;
+                _context4.next = 17;
                 return _this4.broadcastTx(txRaw.toHex());
 
-              case 16:
-                result = _context3.sent;
+              case 17:
+                result = _context4.sent;
 
 
                 resolve(result);
-                _context3.next = 23;
+                _context4.next = 24;
                 break;
 
-              case 20:
-                _context3.prev = 20;
-                _context3.t0 = _context3['catch'](0);
+              case 21:
+                _context4.prev = 21;
+                _context4.t0 = _context4['catch'](14);
 
-                reject(_context3.t0);
+                reject(_context4.t0);
 
-              case 23:
+              case 24:
+                _context4.next = 29;
+                break;
+
+              case 26:
+                _context4.prev = 26;
+                _context4.t1 = _context4['catch'](0);
+
+                reject(_context4.t1);
+
+              case 29:
               case 'end':
-                return _context3.stop();
+                return _context4.stop();
             }
           }
-        }, _callee3, _this4, [[0, 20]]);
+        }, _callee4, _this4, [[0, 26], [14, 21]]);
       }));
 
-      return function (_x5, _x6) {
-        return _ref7.apply(this, arguments);
+      return function (_x7, _x8) {
+        return _ref9.apply(this, arguments);
       };
     }());
   };
@@ -9485,7 +9384,7 @@ exports.default = BtcSwap;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(6).Buffer))
 
 /***/ }),
-/* 883 */
+/* 880 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9512,7 +9411,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _actions = __webpack_require__(14);
+var _actions = __webpack_require__(13);
 
 var _actions2 = _interopRequireDefault(_actions);
 
@@ -9520,21 +9419,21 @@ var _propTypes = __webpack_require__(7);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
-var _newSwap = __webpack_require__(91);
+var _newSwap = __webpack_require__(88);
 
-var _helpers = __webpack_require__(12);
+var _helpers = __webpack_require__(11);
 
-var _reactRouterDom = __webpack_require__(55);
+var _reactRouterDom = __webpack_require__(54);
 
-var _Coins = __webpack_require__(338);
+var _Coins = __webpack_require__(336);
 
 var _Coins2 = _interopRequireDefault(_Coins);
 
-var _RequestButton = __webpack_require__(886);
+var _RequestButton = __webpack_require__(883);
 
 var _RequestButton2 = _interopRequireDefault(_RequestButton);
 
-var _RemoveButton = __webpack_require__(888);
+var _RemoveButton = __webpack_require__(885);
 
 var _RemoveButton2 = _interopRequireDefault(_RemoveButton);
 
@@ -9653,21 +9552,21 @@ var Row = (_temp2 = _class = function (_Component) {
 exports.default = Row;
 
 /***/ }),
-/* 884 */
+/* 881 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"coins":"XQaT-I"};
 
 /***/ }),
-/* 885 */
+/* 882 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"coin":"_1WqrJr","icon":"_3DbGHI","letter":"_213Lpu"};
 
 /***/ }),
-/* 886 */
+/* 883 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9698,7 +9597,7 @@ var _reactCssModules = __webpack_require__(2);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _RequestButton = __webpack_require__(887);
+var _RequestButton = __webpack_require__(884);
 
 var _RequestButton2 = _interopRequireDefault(_RequestButton);
 
@@ -9724,14 +9623,14 @@ var RequestButton = (_dec = (0, _reactCssModules2.default)(_RequestButton2.defau
 exports.default = RequestButton;
 
 /***/ }),
-/* 887 */
+/* 884 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"button":"_2Uhw5O"};
 
 /***/ }),
-/* 888 */
+/* 885 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9762,7 +9661,7 @@ var _reactCssModules = __webpack_require__(2);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _RemoveButton = __webpack_require__(889);
+var _RemoveButton = __webpack_require__(886);
 
 var _RemoveButton2 = _interopRequireDefault(_RemoveButton);
 
@@ -9788,21 +9687,21 @@ var RemoveButton = (_dec = (0, _reactCssModules2.default)(_RemoveButton2.default
 exports.default = RemoveButton;
 
 /***/ }),
-/* 889 */
+/* 886 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"button":"_3iqxx8"};
 
 /***/ }),
-/* 890 */
+/* 887 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"table":"A6cIbx"};
 
 /***/ }),
-/* 891 */
+/* 888 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9811,7 +9710,7 @@ module.exports = {"table":"A6cIbx"};
 exports.__esModule = true;
 exports.default = undefined;
 
-var _extends2 = __webpack_require__(46);
+var _extends2 = __webpack_require__(45);
 
 var _extends3 = _interopRequireDefault(_extends2);
 
@@ -9833,23 +9732,23 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _redaction = __webpack_require__(27);
+var _redaction = __webpack_require__(26);
 
-var _helpers = __webpack_require__(12);
+var _helpers = __webpack_require__(11);
 
-var _actions = __webpack_require__(14);
+var _actions = __webpack_require__(13);
 
 var _actions2 = _interopRequireDefault(_actions);
 
-var _PageHeadline = __webpack_require__(116);
+var _PageHeadline = __webpack_require__(111);
 
 var _PageHeadline2 = _interopRequireDefault(_PageHeadline);
 
-var _Table = __webpack_require__(194);
+var _Table = __webpack_require__(191);
 
 var _Table2 = _interopRequireDefault(_Table);
 
-var _Row = __webpack_require__(892);
+var _Row = __webpack_require__(889);
 
 var _Row2 = _interopRequireDefault(_Row);
 
@@ -9913,7 +9812,7 @@ var Balances = (_dec = (0, _redaction.connect)(function (_ref) {
 exports.default = Balances;
 
 /***/ }),
-/* 892 */
+/* 889 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9940,7 +9839,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _actions = __webpack_require__(14);
+var _actions = __webpack_require__(13);
 
 var _actions2 = _interopRequireDefault(_actions);
 
@@ -9948,23 +9847,23 @@ var _reactCssModules = __webpack_require__(2);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _Row = __webpack_require__(893);
+var _Row = __webpack_require__(890);
 
 var _Row2 = _interopRequireDefault(_Row);
 
-var _Coin = __webpack_require__(193);
+var _Coin = __webpack_require__(190);
 
 var _Coin2 = _interopRequireDefault(_Coin);
 
-var _WithdrawButton = __webpack_require__(894);
+var _WithdrawButton = __webpack_require__(891);
 
 var _WithdrawButton2 = _interopRequireDefault(_WithdrawButton);
 
-var _ReloadButton = __webpack_require__(896);
+var _ReloadButton = __webpack_require__(893);
 
 var _ReloadButton2 = _interopRequireDefault(_ReloadButton);
 
-var _InlineLoader = __webpack_require__(128);
+var _InlineLoader = __webpack_require__(125);
 
 var _InlineLoader2 = _interopRequireDefault(_InlineLoader);
 
@@ -10070,14 +9969,14 @@ var Row = (_dec = (0, _reactCssModules2.default)(_Row2.default), _dec(_class = f
 exports.default = Row;
 
 /***/ }),
-/* 893 */
+/* 890 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"reloadButton":"_2ZNYIs"};
 
 /***/ }),
-/* 894 */
+/* 891 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10089,17 +9988,17 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _actions = __webpack_require__(14);
+var _actions = __webpack_require__(13);
 
 var _actions2 = _interopRequireDefault(_actions);
 
-var _helpers = __webpack_require__(12);
+var _helpers = __webpack_require__(11);
 
 var _reactCssModules = __webpack_require__(2);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _WithdrawButton = __webpack_require__(895);
+var _WithdrawButton = __webpack_require__(892);
 
 var _WithdrawButton2 = _interopRequireDefault(_WithdrawButton);
 
@@ -10124,14 +10023,14 @@ var WithdrawButton = function WithdrawButton(_ref) {
 exports.default = (0, _reactCssModules2.default)(WithdrawButton, _WithdrawButton2.default);
 
 /***/ }),
-/* 895 */
+/* 892 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"withdrawButton":"_2XoYtt"};
 
 /***/ }),
-/* 896 */
+/* 893 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10147,11 +10046,11 @@ var _reactCssModules = __webpack_require__(2);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _ReloadButton = __webpack_require__(897);
+var _ReloadButton = __webpack_require__(894);
 
 var _ReloadButton2 = _interopRequireDefault(_ReloadButton);
 
-var _ReloadIcon = __webpack_require__(898);
+var _ReloadIcon = __webpack_require__(895);
 
 var _ReloadIcon2 = _interopRequireDefault(_ReloadIcon);
 
@@ -10170,14 +10069,14 @@ var ReloadButton = function ReloadButton(_ref) {
 exports.default = (0, _reactCssModules2.default)(ReloadButton, _ReloadButton2.default);
 
 /***/ }),
-/* 897 */
+/* 894 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"reloadButton":"EJezYM","icon":"-QzL6n"};
 
 /***/ }),
-/* 898 */
+/* 895 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10189,7 +10088,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reload = __webpack_require__(899);
+var _reload = __webpack_require__(896);
 
 var _reload2 = _interopRequireDefault(_reload);
 
@@ -10203,20 +10102,20 @@ var ReloadIcon = function ReloadIcon(_ref) {
 exports.default = ReloadIcon;
 
 /***/ }),
-/* 899 */
+/* 896 */
 /***/ (function(module, exports) {
 
 module.exports = "https://testnet.swap.online/images/reload_8f44d7.svg";
 
 /***/ }),
-/* 900 */
+/* 897 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"ellipsis":"_1LrCrR","ellipsis1":"_3E5_Fc","ellipsis2":"_2eaqSt","ellipsis3":"_3fsiCh"};
 
 /***/ }),
-/* 901 */
+/* 898 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10225,7 +10124,7 @@ module.exports = {"ellipsis":"_1LrCrR","ellipsis1":"_3E5_Fc","ellipsis2":"_2eaqS
 exports.__esModule = true;
 exports.default = undefined;
 
-var _extends2 = __webpack_require__(46);
+var _extends2 = __webpack_require__(45);
 
 var _extends3 = _interopRequireDefault(_extends2);
 
@@ -10247,25 +10146,25 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _redaction = __webpack_require__(27);
+var _redaction = __webpack_require__(26);
 
-var _actions = __webpack_require__(14);
+var _actions = __webpack_require__(13);
 
 var _actions2 = _interopRequireDefault(_actions);
 
-var _PageHeadline = __webpack_require__(116);
+var _PageHeadline = __webpack_require__(111);
 
 var _PageHeadline2 = _interopRequireDefault(_PageHeadline);
 
-var _Table = __webpack_require__(194);
+var _Table = __webpack_require__(191);
 
 var _Table2 = _interopRequireDefault(_Table);
 
-var _Filter = __webpack_require__(902);
+var _Filter = __webpack_require__(899);
 
 var _Filter2 = _interopRequireDefault(_Filter);
 
-var _Row = __webpack_require__(904);
+var _Row = __webpack_require__(901);
 
 var _Row2 = _interopRequireDefault(_Row);
 
@@ -10347,7 +10246,7 @@ var History = (_dec = (0, _redaction.connect)(function (_ref3) {
 exports.default = History;
 
 /***/ }),
-/* 902 */
+/* 899 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10378,21 +10277,21 @@ var _propTypes = __webpack_require__(7);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
-var _actions = __webpack_require__(14);
+var _actions = __webpack_require__(13);
 
 var _actions2 = _interopRequireDefault(_actions);
 
-var _redaction = __webpack_require__(27);
+var _redaction = __webpack_require__(26);
 
 var _reactCssModules = __webpack_require__(2);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _Filter = __webpack_require__(339);
+var _Filter = __webpack_require__(337);
 
 var _Filter2 = _interopRequireDefault(_Filter);
 
-var _FilterLink = __webpack_require__(903);
+var _FilterLink = __webpack_require__(900);
 
 var _FilterLink2 = _interopRequireDefault(_FilterLink);
 
@@ -10448,7 +10347,7 @@ Filter.propTypes = {
 };
 
 /***/ }),
-/* 903 */
+/* 900 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10468,7 +10367,7 @@ var _reactCssModules = __webpack_require__(2);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _Filter = __webpack_require__(339);
+var _Filter = __webpack_require__(337);
 
 var _Filter2 = _interopRequireDefault(_Filter);
 
@@ -10504,7 +10403,7 @@ FilterLink.propTypes = {
 exports.default = (0, _reactCssModules2.default)(FilterLink, _Filter2.default, { allowMultiple: true });
 
 /***/ }),
-/* 904 */
+/* 901 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10520,7 +10419,7 @@ var _classnames = __webpack_require__(34);
 
 var _classnames2 = _interopRequireDefault(_classnames);
 
-var _moment = __webpack_require__(69);
+var _moment = __webpack_require__(68);
 
 var _moment2 = _interopRequireDefault(_moment);
 
@@ -10528,11 +10427,11 @@ var _reactCssModules = __webpack_require__(2);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _Row = __webpack_require__(906);
+var _Row = __webpack_require__(903);
 
 var _Row2 = _interopRequireDefault(_Row);
 
-var _Coin = __webpack_require__(193);
+var _Coin = __webpack_require__(190);
 
 var _Coin2 = _interopRequireDefault(_Coin);
 
@@ -10592,15 +10491,15 @@ var Row = function Row(_ref) {
 exports.default = (0, _reactCssModules2.default)(Row, _Row2.default, { allowMultiple: true });
 
 /***/ }),
-/* 905 */,
-/* 906 */
+/* 902 */,
+/* 903 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"status":"_3kv9MC","in":"_2lbJ5g","out":"_1wgwnd","date":"_2-d0NO","address":"_2jfUW_","amount":"hcV54S"};
 
 /***/ }),
-/* 907 */
+/* 904 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10628,7 +10527,7 @@ function NotFound() {
 }
 
 /***/ }),
-/* 908 */
+/* 905 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10653,27 +10552,27 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _swap = __webpack_require__(18);
+var _swap = __webpack_require__(17);
 
 var _swap2 = _interopRequireDefault(_swap);
 
-var _InlineLoader = __webpack_require__(128);
+var _InlineLoader = __webpack_require__(125);
 
 var _InlineLoader2 = _interopRequireDefault(_InlineLoader);
 
-var _BtcToEth = __webpack_require__(909);
+var _BtcToEth = __webpack_require__(906);
 
 var _BtcToEth2 = _interopRequireDefault(_BtcToEth);
 
-var _EthToBtc = __webpack_require__(917);
+var _EthToBtc = __webpack_require__(914);
 
 var _EthToBtc2 = _interopRequireDefault(_EthToBtc);
 
-var _EthTokenToBtc = __webpack_require__(918);
+var _EthTokenToBtc = __webpack_require__(915);
 
 var _EthTokenToBtc2 = _interopRequireDefault(_EthTokenToBtc);
 
-var _BtcToEthToken = __webpack_require__(920);
+var _BtcToEthToken = __webpack_require__(917);
 
 var _BtcToEthToken2 = _interopRequireDefault(_BtcToEthToken);
 
@@ -10682,8 +10581,8 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 var swapComponents = {
   'btceth': _BtcToEth2.default,
   'ethbtc': _EthToBtc2.default,
-  'noxonbtc': _EthTokenToBtc2.default,
-  'btcnoxon': _BtcToEthToken2.default
+  'ethtokenbtc': _EthTokenToBtc2.default,
+  'btcethtoken': _BtcToEthToken2.default
 };
 
 var Swap = function (_PureComponent) {
@@ -10725,7 +10624,7 @@ var Swap = function (_PureComponent) {
 
     return _react2.default.createElement(
       'div',
-      { style: { paddingLeft: '30px' } },
+      { style: { paddingLeft: '30px', paddingTop: '30px' } },
       _react2.default.createElement(SwapComponent, { orderId: this.order.id })
     );
   };
@@ -10736,7 +10635,7 @@ var Swap = function (_PureComponent) {
 exports.default = Swap;
 
 /***/ }),
-/* 909 */
+/* 906 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10761,21 +10660,21 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _appConfig = __webpack_require__(62);
+var _appConfig = __webpack_require__(61);
 
 var _appConfig2 = _interopRequireDefault(_appConfig);
 
-var _swap = __webpack_require__(129);
+var _swap = __webpack_require__(126);
 
-var _swap2 = __webpack_require__(53);
+var _swap2 = __webpack_require__(52);
 
 var _swap3 = _interopRequireDefault(_swap2);
 
-var _InlineLoader = __webpack_require__(128);
+var _InlineLoader = __webpack_require__(125);
 
 var _InlineLoader2 = _interopRequireDefault(_InlineLoader);
 
-var _Button = __webpack_require__(70);
+var _Button = __webpack_require__(69);
 
 var _Button2 = _interopRequireDefault(_Button);
 
@@ -10836,11 +10735,11 @@ var BtcToEth = function (_Component) {
       this.swap.id && _react2.default.createElement(
         'strong',
         null,
-        this.swap.sellAmount,
+        this.swap.sellAmount.toString(),
         ' ',
         this.swap.sellCurrency,
         ' \u27F6 ',
-        this.swap.buyAmount,
+        this.swap.buyAmount.toString(),
         ' ',
         this.swap.buyCurrency
       ),
@@ -11052,7 +10951,7 @@ var BtcToEth = function (_Component) {
 exports.default = BtcToEth;
 
 /***/ }),
-/* 910 */
+/* 907 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11060,11 +10959,11 @@ exports.default = BtcToEth;
 
 exports.__esModule = true;
 
-var _regenerator = __webpack_require__(40);
+var _regenerator = __webpack_require__(39);
 
 var _regenerator2 = _interopRequireDefault(_regenerator);
 
-var _asyncToGenerator2 = __webpack_require__(41);
+var _asyncToGenerator2 = __webpack_require__(40);
 
 var _asyncToGenerator3 = _interopRequireDefault(_asyncToGenerator2);
 
@@ -11080,11 +10979,11 @@ var _inherits2 = __webpack_require__(4);
 
 var _inherits3 = _interopRequireDefault(_inherits2);
 
-var _swap = __webpack_require__(18);
+var _swap = __webpack_require__(17);
 
 var _swap2 = _interopRequireDefault(_swap);
 
-var _swap3 = __webpack_require__(53);
+var _swap3 = __webpack_require__(52);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -11109,7 +11008,7 @@ var ETH2BTC = function (_Flow) {
     _this.state = {
       step: 0,
 
-      signTransactionUrl: null,
+      signTransactionHash: null,
       isSignFetching: false,
       isMeSigned: false,
 
@@ -11122,17 +11021,35 @@ var ETH2BTC = function (_Flow) {
       isBalanceEnough: false,
       balance: null,
 
-      ethSwapCreationTransactionUrl: null,
+      ethSwapCreationTransactionHash: null,
       isEthContractFunded: false,
 
+      secret: null,
+      isEthClosed: false,
+
       isEthWithdrawn: false,
-      isBtcWithdrawn: false
+      isBtcWithdrawn: false,
+
+      refundTransactionHash: null
     };
 
     _Flow.prototype._persistSteps.call(_this);
     _this._persistState();
     return _this;
   }
+
+  ETH2BTC.prototype._persistState = function _persistState() {
+    _Flow.prototype._persistState.call(this);
+
+    // console.log('START GETTING SECRET')
+    //
+    // this.ethSwap.getSecret({
+    //   participantAddress: this.swap.participant.eth.address,
+    // })
+    //   .then((res) => {
+    //     console.log('SECRET', res)
+    //   })
+  };
 
   ETH2BTC.prototype._getSteps = function _getSteps() {
     var _this2 = this;
@@ -11175,26 +11092,57 @@ var ETH2BTC = function (_Flow) {
     // 5. Create ETH Contract
 
     (0, _asyncToGenerator3.default)( /*#__PURE__*/_regenerator2.default.mark(function _callee() {
-      var _flow$swap, participant, sellAmount, swapData;
+      var _flow$swap, participant, buyAmount, sellAmount, utcNow, getLockTime, scriptCheckResult, swapData;
 
       return _regenerator2.default.wrap(function _callee$(_context) {
         while (1) {
           switch (_context.prev = _context.next) {
             case 0:
-              _flow$swap = flow.swap, participant = _flow$swap.participant, sellAmount = _flow$swap.sellAmount;
+              _flow$swap = flow.swap, participant = _flow$swap.participant, buyAmount = _flow$swap.buyAmount, sellAmount = _flow$swap.sellAmount;
+
+              // TODO move this somewhere!
+
+              utcNow = function utcNow() {
+                return Math.floor(Date.now() / 1000);
+              };
+
+              getLockTime = function getLockTime() {
+                return utcNow() + 3600 * 1;
+              }; // 1 hour from now
+
+              _context.next = 5;
+              return flow.btcSwap.checkScript(flow.state.btcScriptValues, {
+                value: buyAmount,
+                recipientPublicKey: _swap2.default.services.auth.accounts.btc.getPublicKey(),
+                lockTime: getLockTime()
+              });
+
+            case 5:
+              scriptCheckResult = _context.sent;
+
+              if (!scriptCheckResult) {
+                _context.next = 10;
+                break;
+              }
+
+              console.error('Btc script check error:', scriptCheckResult);
+              flow.swap.events.dispatch('btc script check error', scriptCheckResult);
+              return _context.abrupt('return');
+
+            case 10:
               swapData = {
                 participantAddress: participant.eth.address,
                 secretHash: flow.state.secretHash,
                 amount: sellAmount
               };
-              _context.next = 4;
-              return _this2.ethSwap.create(swapData, function (transactionUrl) {
+              _context.next = 13;
+              return _this2.ethSwap.create(swapData, function (hash) {
                 flow.setState({
-                  ethSwapCreationTransactionUrl: transactionUrl
+                  ethSwapCreationTransactionHash: hash
                 });
               });
 
-            case 4:
+            case 13:
 
               flow.swap.room.sendMessage('create eth contract');
 
@@ -11202,7 +11150,7 @@ var ETH2BTC = function (_Flow) {
                 isEthContractFunded: true
               });
 
-            case 6:
+            case 15:
             case 'end':
               return _context.stop();
           }
@@ -11213,56 +11161,172 @@ var ETH2BTC = function (_Flow) {
     // 6. Wait participant withdraw
 
     function () {
+      var participant = flow.swap.participant;
+
+      var timer = void 0;
+
+      var checkSecretExist = function checkSecretExist() {
+        timer = setTimeout((0, _asyncToGenerator3.default)( /*#__PURE__*/_regenerator2.default.mark(function _callee2() {
+          var secret;
+          return _regenerator2.default.wrap(function _callee2$(_context2) {
+            while (1) {
+              switch (_context2.prev = _context2.next) {
+                case 0:
+                  secret = void 0;
+                  _context2.prev = 1;
+                  _context2.next = 4;
+                  return flow.ethSwap.getSecret({
+                    participantAddress: participant.eth.address
+                  });
+
+                case 4:
+                  secret = _context2.sent;
+                  _context2.next = 9;
+                  break;
+
+                case 7:
+                  _context2.prev = 7;
+                  _context2.t0 = _context2['catch'](1);
+
+                case 9:
+
+                  if (secret) {
+                    if (!flow.state.isEthWithdrawn) {
+                      // redundant condition but who cares :D
+                      flow.finishStep({
+                        isEthWithdrawn: true,
+                        secret: secret
+                      });
+                    }
+                  } else {
+                    checkSecretExist();
+                  }
+
+                case 10:
+                case 'end':
+                  return _context2.stop();
+              }
+            }
+          }, _callee2, _this2, [[1, 7]]);
+        })), 20 * 1000);
+      };
+
+      checkSecretExist();
+
       flow.swap.room.once('finish eth withdraw', function () {
-        flow.finishStep({
-          isEthWithdrawn: true
-        });
+        if (!flow.state.isEthWithdrawn) {
+          clearTimeout(timer);
+          timer = null;
+
+          flow.finishStep({
+            isEthWithdrawn: true
+          });
+        }
       });
     },
 
     // 7. Withdraw
 
-    (0, _asyncToGenerator3.default)( /*#__PURE__*/_regenerator2.default.mark(function _callee2() {
-      var participant, myAndParticipantData, secret;
-      return _regenerator2.default.wrap(function _callee2$(_context2) {
+    (0, _asyncToGenerator3.default)( /*#__PURE__*/_regenerator2.default.mark(function _callee3() {
+      var participant, _flow$state, secret, isEthClosed, data;
+
+      return _regenerator2.default.wrap(function _callee3$(_context3) {
         while (1) {
-          switch (_context2.prev = _context2.next) {
+          switch (_context3.prev = _context3.next) {
             case 0:
               participant = flow.swap.participant;
-              myAndParticipantData = {
+              _flow$state = flow.state, secret = _flow$state.secret, isEthClosed = _flow$state.isEthClosed;
+              data = {
                 participantAddress: participant.eth.address
-              };
-              _context2.next = 4;
-              return flow.ethSwap.getSecret(myAndParticipantData);
 
-            case 4:
-              secret = _context2.sent;
-              _context2.next = 7;
-              return flow.ethSwap.close(myAndParticipantData);
+                // if there is no secret in state then request it
+              };
+
+              if (secret) {
+                _context3.next = 15;
+                break;
+              }
+
+              _context3.prev = 4;
+              _context3.next = 7;
+              return flow.ethSwap.getSecret(data);
 
             case 7:
-              _context2.next = 9;
+              secret = _context3.sent;
+
+
+              flow.setState({
+                secret: secret
+              });
+              _context3.next = 15;
+              break;
+
+            case 11:
+              _context3.prev = 11;
+              _context3.t0 = _context3['catch'](4);
+
+              // TODO notify user that smth goes wrong
+              console.error(_context3.t0);
+              return _context3.abrupt('return');
+
+            case 15:
+              if (secret) {
+                _context3.next = 18;
+                break;
+              }
+
+              console.error('Secret required! Got ' + secret);
+              return _context3.abrupt('return');
+
+            case 18:
+              if (isEthClosed) {
+                _context3.next = 29;
+                break;
+              }
+
+              _context3.prev = 19;
+              _context3.next = 22;
+              return flow.ethSwap.close(data);
+
+            case 22:
+
+              flow.setState({
+                isEthClosed: true
+              });
+              _context3.next = 29;
+              break;
+
+            case 25:
+              _context3.prev = 25;
+              _context3.t1 = _context3['catch'](19);
+
+              // TODO notify user that smth goes wrong
+              console.error(_context3.t1);
+              return _context3.abrupt('return');
+
+            case 29:
+              _context3.next = 31;
               return flow.btcSwap.withdraw({
                 scriptValues: flow.state.btcScriptValues,
                 secret: secret
-              }, function (transactionUrl) {
+              }, function (hash) {
                 flow.setState({
-                  btcSwapWithdrawTransactionUrl: transactionUrl
+                  btcSwapWithdrawTransactionHash: hash
                 });
               });
 
-            case 9:
+            case 31:
 
               flow.finishStep({
                 isBtcWithdrawn: true
               });
 
-            case 10:
+            case 32:
             case 'end':
-              return _context2.stop();
+              return _context3.stop();
           }
         }
-      }, _callee2, _this2);
+      }, _callee3, _this2, [[4, 11], [19, 25]]);
     })),
 
     // 8. Finish
@@ -11271,13 +11335,13 @@ var ETH2BTC = function (_Flow) {
   };
 
   ETH2BTC.prototype.sign = function () {
-    var _ref4 = (0, _asyncToGenerator3.default)( /*#__PURE__*/_regenerator2.default.mark(function _callee3() {
+    var _ref5 = (0, _asyncToGenerator3.default)( /*#__PURE__*/_regenerator2.default.mark(function _callee4() {
       var _this3 = this;
 
       var participant;
-      return _regenerator2.default.wrap(function _callee3$(_context3) {
+      return _regenerator2.default.wrap(function _callee4$(_context4) {
         while (1) {
-          switch (_context3.prev = _context3.next) {
+          switch (_context4.prev = _context4.next) {
             case 0:
               participant = this.swap.participant;
 
@@ -11286,12 +11350,12 @@ var ETH2BTC = function (_Flow) {
                 isSignFetching: true
               });
 
-              _context3.next = 4;
+              _context4.next = 4;
               return this.ethSwap.sign({
                 participantAddress: participant.eth.address
-              }, function (signTransactionUrl) {
+              }, function (signTransactionHash) {
                 _this3.setState({
-                  signTransactionUrl: signTransactionUrl
+                  signTransactionHash: signTransactionHash
                 });
               });
 
@@ -11305,14 +11369,14 @@ var ETH2BTC = function (_Flow) {
 
             case 6:
             case 'end':
-              return _context3.stop();
+              return _context4.stop();
           }
         }
-      }, _callee3, this);
+      }, _callee4, this);
     }));
 
     function sign() {
-      return _ref4.apply(this, arguments);
+      return _ref5.apply(this, arguments);
     }
 
     return sign;
@@ -11325,11 +11389,11 @@ var ETH2BTC = function (_Flow) {
   };
 
   ETH2BTC.prototype.syncBalance = function () {
-    var _ref5 = (0, _asyncToGenerator3.default)( /*#__PURE__*/_regenerator2.default.mark(function _callee4() {
+    var _ref6 = (0, _asyncToGenerator3.default)( /*#__PURE__*/_regenerator2.default.mark(function _callee5() {
       var sellAmount, balance, isEnoughMoney;
-      return _regenerator2.default.wrap(function _callee4$(_context4) {
+      return _regenerator2.default.wrap(function _callee5$(_context5) {
         while (1) {
-          switch (_context4.prev = _context4.next) {
+          switch (_context5.prev = _context5.next) {
             case 0:
               sellAmount = this.swap.sellAmount;
 
@@ -11338,12 +11402,12 @@ var ETH2BTC = function (_Flow) {
                 isBalanceFetching: true
               });
 
-              _context4.next = 4;
+              _context5.next = 4;
               return this.ethSwap.fetchBalance(_swap2.default.services.auth.accounts.eth.address);
 
             case 4:
-              balance = _context4.sent;
-              isEnoughMoney = sellAmount <= balance;
+              balance = _context5.sent;
+              isEnoughMoney = sellAmount.isLessThanOrEqualTo(balance);
 
 
               if (isEnoughMoney) {
@@ -11362,17 +11426,137 @@ var ETH2BTC = function (_Flow) {
 
             case 7:
             case 'end':
-              return _context4.stop();
+              return _context5.stop();
           }
         }
-      }, _callee4, this);
+      }, _callee5, this);
     }));
 
     function syncBalance() {
-      return _ref5.apply(this, arguments);
+      return _ref6.apply(this, arguments);
     }
 
     return syncBalance;
+  }();
+
+  ETH2BTC.prototype.tryRefund = function () {
+    var _ref7 = (0, _asyncToGenerator3.default)( /*#__PURE__*/_regenerator2.default.mark(function _callee6() {
+      var _this4 = this;
+
+      var participant, _state, secret, btcScriptValues;
+
+      return _regenerator2.default.wrap(function _callee6$(_context6) {
+        while (1) {
+          switch (_context6.prev = _context6.next) {
+            case 0:
+              participant = this.swap.participant;
+              _state = this.state, secret = _state.secret, btcScriptValues = _state.btcScriptValues;
+
+
+              secret = 'c0809ce9f484fdcdfb2d5aabd609768ce0374ee97a1a5618ce4cd3f16c00a078';
+
+              _context6.prev = 3;
+
+              console.log('TRYING REFUND!');
+
+              _context6.prev = 5;
+              _context6.next = 8;
+              return this.ethSwap.refund({
+                participantAddress: participant.eth.address
+              }, function (hash) {
+                _this4.setState({
+                  refundTransactionHash: hash
+                });
+              });
+
+            case 8:
+
+              console.log('SUCCESS REFUND!');
+              return _context6.abrupt('return');
+
+            case 12:
+              _context6.prev = 12;
+              _context6.t0 = _context6['catch'](5);
+
+              console.err('REFUND FAILED!', _context6.t0);
+
+            case 15:
+              _context6.next = 20;
+              break;
+
+            case 17:
+              _context6.prev = 17;
+              _context6.t1 = _context6['catch'](3);
+
+              console.error('Mbe it\'s still under lockTime?! ' + _context6.t1);
+
+            case 20:
+
+              if (!btcScriptValues) {
+                console.error('You can\'t do refund w/o btc script values! Try wait until lockTime expires on eth contract!');
+              }
+
+              if (secret) {
+                _context6.next = 32;
+                break;
+              }
+
+              _context6.prev = 22;
+              _context6.next = 25;
+              return this.ethSwap.getSecret(data);
+
+            case 25:
+              secret = _context6.sent;
+              _context6.next = 32;
+              break;
+
+            case 28:
+              _context6.prev = 28;
+              _context6.t2 = _context6['catch'](22);
+
+              console.error('Can\'t receive secret from contract');
+              return _context6.abrupt('return');
+
+            case 32:
+
+              console.log('TRYING WITHDRAW!');
+
+              _context6.prev = 33;
+              _context6.next = 36;
+              return this.btcSwap.withdraw({
+                scriptValues: this.state.btcScriptValues,
+                secret: secret
+              }, function (hash) {
+                _this4.setState({
+                  btcSwapWithdrawTransactionHash: hash
+                });
+              });
+
+            case 36:
+
+              console.log('SUCCESS WITHDRAW!');
+              _context6.next = 42;
+              break;
+
+            case 39:
+              _context6.prev = 39;
+              _context6.t3 = _context6['catch'](33);
+
+              console.error('WITHDRAW FAILED!', _context6.t3);
+
+            case 42:
+            case 'end':
+              return _context6.stop();
+          }
+        }
+      }, _callee6, this, [[3, 17], [5, 12], [22, 28], [33, 39]]);
+    }));
+
+    function tryRefund() {
+      return _ref7.apply(this, arguments);
+    }
+
+    return tryRefund;
   }();
 
   return ETH2BTC;
@@ -11381,7 +11565,7 @@ var ETH2BTC = function (_Flow) {
 exports.default = ETH2BTC;
 
 /***/ }),
-/* 911 */
+/* 908 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11389,15 +11573,15 @@ exports.default = ETH2BTC;
 
 exports.__esModule = true;
 
-var _keys = __webpack_require__(17);
+var _keys = __webpack_require__(25);
 
 var _keys2 = _interopRequireDefault(_keys);
 
-var _assign = __webpack_require__(9);
+var _assign = __webpack_require__(15);
 
 var _assign2 = _interopRequireDefault(_assign);
 
-var _objectWithoutProperties2 = __webpack_require__(25);
+var _objectWithoutProperties2 = __webpack_require__(27);
 
 var _objectWithoutProperties3 = _interopRequireDefault(_objectWithoutProperties2);
 
@@ -11405,11 +11589,15 @@ var _classCallCheck2 = __webpack_require__(1);
 
 var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
 
-var _swap = __webpack_require__(18);
+var _bignumber = __webpack_require__(189);
+
+var _bignumber2 = _interopRequireDefault(_bignumber);
+
+var _swap = __webpack_require__(17);
 
 var _swap2 = _interopRequireDefault(_swap);
 
-var _Room = __webpack_require__(344);
+var _Room = __webpack_require__(342);
 
 var _Room2 = _interopRequireDefault(_Room);
 
@@ -11428,8 +11616,8 @@ var Swap = function () {
     this.participant = null;
     this.buyCurrency = null;
     this.sellCurrency = null;
-    this.buyAmount = null; // not same as in order - for each user own
-    this.sellAmount = null; // not same as in order - for each user own
+    this.buyAmount = null;
+    this.sellAmount = null;
 
     this._persistState();
 
@@ -11437,46 +11625,50 @@ var Swap = function () {
   }
 
   Swap.prototype._persistState = function _persistState() {
-    var order = _swap2.default.env.storage.getItem('swap.' + this.id) || _swap2.default.services.orders.getByKey(this.id);
+    var swap = _swap2.default.env.storage.getItem('swap.' + this.id);
 
     // if no `order` that means that participant is offline
     // TODO it's better to create swapCollection and store all swaps data there
     // TODO bcs if user offline and I'd like to continue Flow steps I don't need to w8 him
     // TODO so no need to get data from SwapOrders
-    if (order) {
-      var _util$pullProps = _swap.util.pullProps(order, 'isMy', 'owner', 'participant', 'buyCurrency', 'sellCurrency', 'buyAmount', 'sellAmount'),
-          isMy = _util$pullProps.isMy,
-          buyAmount = _util$pullProps.buyAmount,
-          sellAmount = _util$pullProps.sellAmount,
-          buyCurrency = _util$pullProps.buyCurrency,
-          sellCurrency = _util$pullProps.sellCurrency,
-          rest = (0, _objectWithoutProperties3.default)(_util$pullProps, ['isMy', 'buyAmount', 'sellAmount', 'buyCurrency', 'sellCurrency']);
+    if (!swap) {
+      var order = _swap2.default.services.orders.getByKey(this.id);
 
-      var data = (0, _assign2.default)({}, rest, {
-        isMy: isMy,
-        buyAmount: isMy ? buyAmount : sellAmount,
-        sellAmount: isMy ? sellAmount : buyAmount,
-        sellCurrency: isMy ? sellCurrency : buyCurrency,
-        buyCurrency: isMy ? buyCurrency : sellCurrency
-      });
+      if (order) {
+        var _util$pullProps = _swap.util.pullProps(order, 'isMy', 'owner', 'participant', 'buyCurrency', 'sellCurrency', 'buyAmount', 'sellAmount'),
+            isMy = _util$pullProps.isMy,
+            buyCurrency = _util$pullProps.buyCurrency,
+            sellCurrency = _util$pullProps.sellCurrency,
+            buyAmount = _util$pullProps.buyAmount,
+            sellAmount = _util$pullProps.sellAmount,
+            rest = (0, _objectWithoutProperties3.default)(_util$pullProps, ['isMy', 'buyCurrency', 'sellCurrency', 'buyAmount', 'sellAmount']);
 
-      if (!data.participant && !isMy) {
-        data.participant = data.owner;
+        swap = (0, _assign2.default)({}, rest, {
+          isMy: isMy,
+          buyCurrency: isMy ? buyCurrency : sellCurrency,
+          sellCurrency: isMy ? sellCurrency : buyCurrency,
+          buyAmount: isMy ? buyAmount : sellAmount,
+          sellAmount: isMy ? sellAmount : buyAmount
+        });
+
+        if (!swap.participant && !isMy) {
+          swap.participant = swap.owner;
+        }
       }
+    }
 
+    if (swap) {
       this.room = new _Room2.default({
-        participantPeer: data.participant.peer
+        participantPeer: swap.participant.peer
       });
 
-      this.update(data);
+      this.update(swap);
       this._saveState();
     }
   };
 
   Swap.prototype._saveState = function _saveState() {
     var data = _swap.util.pullProps(this, 'id', 'isMy', 'owner', 'participant', 'buyCurrency', 'sellCurrency', 'buyAmount', 'sellAmount');
-
-    console.log('New Swap state:', data);
 
     _swap2.default.env.storage.setItem('swap.' + this.id, data);
   };
@@ -11485,7 +11677,11 @@ var Swap = function () {
     var _this = this;
 
     (0, _keys2.default)(values).forEach(function (key) {
-      _this[key] = values[key];
+      if (key === 'buyAmount' || key === 'sellAmount') {
+        _this[key] = new _bignumber2.default(String(values[key]));
+      } else {
+        _this[key] = values[key];
+      }
     });
     this._saveState();
   };
@@ -11504,7 +11700,7 @@ var Swap = function () {
 exports.default = Swap;
 
 /***/ }),
-/* 912 */
+/* 909 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11512,15 +11708,15 @@ exports.default = Swap;
 
 exports.__esModule = true;
 
-var _regenerator = __webpack_require__(40);
+var _regenerator = __webpack_require__(39);
 
 var _regenerator2 = _interopRequireDefault(_regenerator);
 
-var _asyncToGenerator2 = __webpack_require__(41);
+var _asyncToGenerator2 = __webpack_require__(40);
 
 var _asyncToGenerator3 = _interopRequireDefault(_asyncToGenerator2);
 
-var _assign = __webpack_require__(9);
+var _assign = __webpack_require__(15);
 
 var _assign2 = _interopRequireDefault(_assign);
 
@@ -11528,11 +11724,11 @@ var _classCallCheck2 = __webpack_require__(1);
 
 var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
 
-var _swap2 = __webpack_require__(18);
+var _swap2 = __webpack_require__(17);
 
 var _swap3 = _interopRequireDefault(_swap2);
 
-var _Room = __webpack_require__(344);
+var _Room = __webpack_require__(342);
 
 var _Room2 = _interopRequireDefault(_Room);
 
@@ -11572,8 +11768,6 @@ var Flow = function () {
 
     // wait events placed
     setTimeout(function () {
-      console.log('GO INITIAL STEP', _this2.state.step);
-
       _this2.goStep(_this2.state.step);
     }, 0);
   };
@@ -11690,7 +11884,7 @@ var Flow = function () {
 exports.default = Flow;
 
 /***/ }),
-/* 913 */
+/* 910 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11698,11 +11892,11 @@ exports.default = Flow;
 
 exports.__esModule = true;
 
-var _regenerator = __webpack_require__(40);
+var _regenerator = __webpack_require__(39);
 
 var _regenerator2 = _interopRequireDefault(_regenerator);
 
-var _asyncToGenerator2 = __webpack_require__(41);
+var _asyncToGenerator2 = __webpack_require__(40);
 
 var _asyncToGenerator3 = _interopRequireDefault(_asyncToGenerator2);
 
@@ -11718,15 +11912,15 @@ var _inherits2 = __webpack_require__(4);
 
 var _inherits3 = _interopRequireDefault(_inherits2);
 
-var _crypto = __webpack_require__(47);
+var _crypto = __webpack_require__(46);
 
 var _crypto2 = _interopRequireDefault(_crypto);
 
-var _swap = __webpack_require__(18);
+var _swap = __webpack_require__(17);
 
 var _swap2 = _interopRequireDefault(_swap);
 
-var _swap3 = __webpack_require__(53);
+var _swap3 = __webpack_require__(52);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -11751,10 +11945,11 @@ var BTC2ETH = function (_Flow) {
     _this.state = {
       step: 0,
 
-      signTransactionUrl: null,
+      signTransactionHash: null,
       isSignFetching: false,
       isParticipantSigned: false,
 
+      btcScriptCreatingTransactionHash: null,
       secretHash: null,
       btcScriptValues: null,
 
@@ -11766,8 +11961,8 @@ var BTC2ETH = function (_Flow) {
 
       isEthContractFunded: false,
 
-      isEthWithdrawn: false,
-      isBtcWithdrawn: false
+      ethSwapWithdrawTransactionHash: null,
+      isEthWithdrawn: false
     };
 
     _Flow.prototype._persistSteps.call(_this);
@@ -11777,6 +11972,15 @@ var BTC2ETH = function (_Flow) {
 
   BTC2ETH.prototype._persistState = function _persistState() {
     _Flow.prototype._persistState.call(this);
+
+    // console.log('START GETTING BALANCE')
+    //
+    // this.ethSwap.getBalance({
+    //   ownerAddress: this.swap.participant.eth.address,
+    // })
+    //   .then((res) => {
+    //     console.log('BALANCE', res)
+    //   })
   };
 
   BTC2ETH.prototype._getSteps = function _getSteps() {
@@ -11827,23 +12031,27 @@ var BTC2ETH = function (_Flow) {
 
               getLockTime = function getLockTime() {
                 return utcNow() + 3600 * 3;
-              }; // 3 days from now
+              }; // 3 hours from now
 
               scriptValues = {
                 secretHash: flow.state.secretHash,
-                btcOwnerPublicKey: _swap2.default.services.auth.accounts.btc.getPublicKey(),
-                ethOwnerPublicKey: participant.btc.publicKey,
+                ownerPublicKey: _swap2.default.services.auth.accounts.btc.getPublicKey(),
+                recipientPublicKey: participant.btc.publicKey,
                 lockTime: getLockTime()
               };
               _context.next = 6;
               return flow.btcSwap.fundScript({
                 scriptValues: scriptValues,
                 amount: sellAmount
+              }, function (hash) {
+                flow.setState({
+                  btcScriptCreatingTransactionHash: hash
+                });
               });
 
             case 6:
 
-              _this2.swap.room.sendMessage('create btc script', {
+              flow.swap.room.sendMessage('create btc script', {
                 scriptValues: scriptValues
               });
 
@@ -11863,34 +12071,101 @@ var BTC2ETH = function (_Flow) {
     // 5. Wait participant creates ETH Contract
 
     function () {
+      var participant = flow.swap.participant;
+
+      var timer = void 0;
+
+      var checkEthBalance = function checkEthBalance() {
+        timer = setTimeout((0, _asyncToGenerator3.default)( /*#__PURE__*/_regenerator2.default.mark(function _callee2() {
+          var balance;
+          return _regenerator2.default.wrap(function _callee2$(_context2) {
+            while (1) {
+              switch (_context2.prev = _context2.next) {
+                case 0:
+                  _context2.next = 2;
+                  return flow.ethSwap.getBalance({
+                    ownerAddress: participant.eth.address
+                  });
+
+                case 2:
+                  balance = _context2.sent;
+
+
+                  if (balance > 0) {
+                    if (!flow.state.isEthContractFunded) {
+                      // redundant condition but who cares :D
+                      flow.finishStep({
+                        isEthContractFunded: true
+                      });
+                    }
+                  } else {
+                    checkEthBalance();
+                  }
+
+                case 4:
+                case 'end':
+                  return _context2.stop();
+              }
+            }
+          }, _callee2, _this2);
+        })), 20 * 1000);
+      };
+
+      checkEthBalance();
+
       flow.swap.room.once('create eth contract', function () {
-        flow.finishStep({
-          isEthContractFunded: true
-        });
+        if (!flow.state.isEthContractFunded) {
+          clearTimeout(timer);
+          timer = null;
+
+          flow.finishStep({
+            isEthContractFunded: true
+          });
+        }
       });
     },
 
     // 6. Withdraw
 
-    (0, _asyncToGenerator3.default)( /*#__PURE__*/_regenerator2.default.mark(function _callee2() {
-      var participant, data;
-      return _regenerator2.default.wrap(function _callee2$(_context2) {
+    (0, _asyncToGenerator3.default)( /*#__PURE__*/_regenerator2.default.mark(function _callee3() {
+      var _flow$swap2, buyAmount, participant, data, balanceCheckResult;
+
+      return _regenerator2.default.wrap(function _callee3$(_context3) {
         while (1) {
-          switch (_context2.prev = _context2.next) {
+          switch (_context3.prev = _context3.next) {
             case 0:
-              participant = flow.swap.participant;
+              _flow$swap2 = flow.swap, buyAmount = _flow$swap2.buyAmount, participant = _flow$swap2.participant;
               data = {
                 ownerAddress: participant.eth.address,
                 secret: flow.state.secret
               };
-              _context2.next = 4;
-              return flow.ethSwap.withdraw(data, function (transactionHash) {
-                flow.setState({
-                  ethSwapWithdrawTransactionUrl: transactionHash
-                });
+              _context3.next = 4;
+              return flow.ethSwap.checkBalance({
+                ownerAddress: participant.eth.address,
+                expectedValue: buyAmount
               });
 
             case 4:
+              balanceCheckResult = _context3.sent;
+
+              if (!balanceCheckResult) {
+                _context3.next = 9;
+                break;
+              }
+
+              console.error('Eth balance check error:', balanceCheckResult);
+              flow.swap.events.dispatch('eth balance check error', balanceCheckResult);
+              return _context3.abrupt('return');
+
+            case 9:
+              _context3.next = 11;
+              return flow.ethSwap.withdraw(data, function (hash) {
+                flow.setState({
+                  ethSwapWithdrawTransactionHash: hash
+                });
+              });
+
+            case 11:
 
               flow.swap.room.sendMessage('finish eth withdraw');
 
@@ -11898,12 +12173,12 @@ var BTC2ETH = function (_Flow) {
                 isEthWithdrawn: true
               });
 
-            case 6:
+            case 13:
             case 'end':
-              return _context2.stop();
+              return _context3.stop();
           }
         }
-      }, _callee2, _this2);
+      }, _callee3, _this2);
     })),
 
     // 7. Finish
@@ -11921,11 +12196,11 @@ var BTC2ETH = function (_Flow) {
   };
 
   BTC2ETH.prototype.syncBalance = function () {
-    var _ref3 = (0, _asyncToGenerator3.default)( /*#__PURE__*/_regenerator2.default.mark(function _callee3() {
+    var _ref4 = (0, _asyncToGenerator3.default)( /*#__PURE__*/_regenerator2.default.mark(function _callee4() {
       var sellAmount, balance, isEnoughMoney;
-      return _regenerator2.default.wrap(function _callee3$(_context3) {
+      return _regenerator2.default.wrap(function _callee4$(_context4) {
         while (1) {
-          switch (_context3.prev = _context3.next) {
+          switch (_context4.prev = _context4.next) {
             case 0:
               sellAmount = this.swap.sellAmount;
 
@@ -11934,12 +12209,12 @@ var BTC2ETH = function (_Flow) {
                 isBalanceFetching: true
               });
 
-              _context3.next = 4;
+              _context4.next = 4;
               return this.btcSwap.fetchBalance(_swap2.default.services.auth.accounts.btc.getAddress());
 
             case 4:
-              balance = _context3.sent;
-              isEnoughMoney = sellAmount <= balance;
+              balance = _context4.sent;
+              isEnoughMoney = sellAmount.isLessThanOrEqualTo(balance);
 
 
               if (isEnoughMoney) {
@@ -11958,14 +12233,14 @@ var BTC2ETH = function (_Flow) {
 
             case 7:
             case 'end':
-              return _context3.stop();
+              return _context4.stop();
           }
         }
-      }, _callee3, this);
+      }, _callee4, this);
     }));
 
     function syncBalance() {
-      return _ref3.apply(this, arguments);
+      return _ref4.apply(this, arguments);
     }
 
     return syncBalance;
@@ -11978,7 +12253,7 @@ exports.default = BTC2ETH;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(6).Buffer))
 
 /***/ }),
-/* 914 */
+/* 911 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11986,11 +12261,11 @@ exports.default = BTC2ETH;
 
 exports.__esModule = true;
 
-var _regenerator = __webpack_require__(40);
+var _regenerator = __webpack_require__(39);
 
 var _regenerator2 = _interopRequireDefault(_regenerator);
 
-var _asyncToGenerator2 = __webpack_require__(41);
+var _asyncToGenerator2 = __webpack_require__(40);
 
 var _asyncToGenerator3 = _interopRequireDefault(_asyncToGenerator2);
 
@@ -12006,11 +12281,11 @@ var _inherits2 = __webpack_require__(4);
 
 var _inherits3 = _interopRequireDefault(_inherits2);
 
-var _swap = __webpack_require__(18);
+var _swap = __webpack_require__(17);
 
 var _swap2 = _interopRequireDefault(_swap);
 
-var _swap3 = __webpack_require__(53);
+var _swap3 = __webpack_require__(52);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -12035,7 +12310,7 @@ var ETHTOKEN2BTC = function (_Flow) {
     _this.state = {
       step: 0,
 
-      signTransactionUrl: null,
+      signTransactionHash: null,
       isSignFetching: false,
       isMeSigned: false,
 
@@ -12048,17 +12323,26 @@ var ETHTOKEN2BTC = function (_Flow) {
       isBalanceEnough: false,
       balance: null,
 
-      ethSwapCreationTransactionUrl: null,
+      ethSwapCreationTransactionHash: null,
       isEthContractFunded: false,
 
+      secret: null,
+      isEthClosed: false,
+
       isEthWithdrawn: false,
-      isBtcWithdrawn: false
+      isBtcWithdrawn: false,
+
+      refundTransactionHash: null
     };
 
     _Flow.prototype._persistSteps.call(_this);
     _this._persistState();
     return _this;
   }
+
+  ETHTOKEN2BTC.prototype._persistState = function _persistState() {
+    _Flow.prototype._persistState.call(this);
+  };
 
   ETHTOKEN2BTC.prototype._getSteps = function _getSteps() {
     var _this2 = this;
@@ -12101,32 +12385,63 @@ var ETHTOKEN2BTC = function (_Flow) {
     // 5. Create ETH Contract
 
     (0, _asyncToGenerator3.default)( /*#__PURE__*/_regenerator2.default.mark(function _callee() {
-      var _flow$swap, participant, sellAmount, swapData;
+      var _flow$swap, participant, buyAmount, sellAmount, utcNow, getLockTime, scriptCheckResult, swapData;
 
       return _regenerator2.default.wrap(function _callee$(_context) {
         while (1) {
           switch (_context.prev = _context.next) {
             case 0:
-              _flow$swap = flow.swap, participant = _flow$swap.participant, sellAmount = _flow$swap.sellAmount;
+              _flow$swap = flow.swap, participant = _flow$swap.participant, buyAmount = _flow$swap.buyAmount, sellAmount = _flow$swap.sellAmount;
+
+              // TODO move this somewhere!
+
+              utcNow = function utcNow() {
+                return Math.floor(Date.now() / 1000);
+              };
+
+              getLockTime = function getLockTime() {
+                return utcNow() + 3600 * 1;
+              }; // 1 hour from now
+
+              _context.next = 5;
+              return flow.btcSwap.checkScript(flow.state.btcScriptValues, {
+                value: buyAmount,
+                recipientPublicKey: _swap2.default.services.auth.accounts.btc.getPublicKey(),
+                lockTime: getLockTime()
+              });
+
+            case 5:
+              scriptCheckResult = _context.sent;
+
+              if (!scriptCheckResult) {
+                _context.next = 10;
+                break;
+              }
+
+              console.error('Btc script check error:', scriptCheckResult);
+              flow.swap.events.dispatch('btc script check error', scriptCheckResult);
+              return _context.abrupt('return');
+
+            case 10:
               swapData = {
                 participantAddress: participant.eth.address,
                 secretHash: flow.state.secretHash,
                 amount: sellAmount
               };
-              _context.next = 4;
-              return flow.ethSwap.approve({
+              _context.next = 13;
+              return flow.ethTokenSwap.approve({
                 amount: sellAmount
               });
 
-            case 4:
-              _context.next = 6;
-              return flow.ethSwap.create(swapData, function (transactionUrl) {
+            case 13:
+              _context.next = 15;
+              return flow.ethTokenSwap.create(swapData, function (hash) {
                 flow.setState({
-                  ethSwapCreationTransactionUrl: transactionUrl
+                  ethSwapCreationTransactionHash: hash
                 });
               });
 
-            case 6:
+            case 15:
 
               flow.swap.room.sendMessage('create eth contract');
 
@@ -12134,7 +12449,7 @@ var ETHTOKEN2BTC = function (_Flow) {
                 isEthContractFunded: true
               });
 
-            case 8:
+            case 17:
             case 'end':
               return _context.stop();
           }
@@ -12145,56 +12460,172 @@ var ETHTOKEN2BTC = function (_Flow) {
     // 6. Wait participant withdraw
 
     function () {
+      var participant = flow.swap.participant;
+
+      var timer = void 0;
+
+      var checkSecretExist = function checkSecretExist() {
+        timer = setTimeout((0, _asyncToGenerator3.default)( /*#__PURE__*/_regenerator2.default.mark(function _callee2() {
+          var secret;
+          return _regenerator2.default.wrap(function _callee2$(_context2) {
+            while (1) {
+              switch (_context2.prev = _context2.next) {
+                case 0:
+                  secret = void 0;
+                  _context2.prev = 1;
+                  _context2.next = 4;
+                  return flow.ethTokenSwap.getSecret({
+                    participantAddress: participant.eth.address
+                  });
+
+                case 4:
+                  secret = _context2.sent;
+                  _context2.next = 9;
+                  break;
+
+                case 7:
+                  _context2.prev = 7;
+                  _context2.t0 = _context2['catch'](1);
+
+                case 9:
+
+                  if (secret) {
+                    if (!flow.state.isEthWithdrawn) {
+                      // redundant condition but who cares :D
+                      flow.finishStep({
+                        isEthWithdrawn: true,
+                        secret: secret
+                      });
+                    }
+                  } else {
+                    checkSecretExist();
+                  }
+
+                case 10:
+                case 'end':
+                  return _context2.stop();
+              }
+            }
+          }, _callee2, _this2, [[1, 7]]);
+        })), 20 * 1000);
+      };
+
+      checkSecretExist();
+
       flow.swap.room.once('finish eth withdraw', function () {
-        flow.finishStep({
-          isEthWithdrawn: true
-        });
+        if (!flow.state.isEthWithdrawn) {
+          clearTimeout(timer);
+          timer = null;
+
+          flow.finishStep({
+            isEthWithdrawn: true
+          });
+        }
       });
     },
 
     // 7. Withdraw
 
-    (0, _asyncToGenerator3.default)( /*#__PURE__*/_regenerator2.default.mark(function _callee2() {
-      var participant, myAndParticipantData, secret;
-      return _regenerator2.default.wrap(function _callee2$(_context2) {
+    (0, _asyncToGenerator3.default)( /*#__PURE__*/_regenerator2.default.mark(function _callee3() {
+      var participant, _flow$state, secret, isEthClosed, data;
+
+      return _regenerator2.default.wrap(function _callee3$(_context3) {
         while (1) {
-          switch (_context2.prev = _context2.next) {
+          switch (_context3.prev = _context3.next) {
             case 0:
               participant = flow.swap.participant;
-              myAndParticipantData = {
+              _flow$state = flow.state, secret = _flow$state.secret, isEthClosed = _flow$state.isEthClosed;
+              data = {
                 participantAddress: participant.eth.address
-              };
-              _context2.next = 4;
-              return flow.ethSwap.getSecret(myAndParticipantData);
 
-            case 4:
-              secret = _context2.sent;
-              _context2.next = 7;
-              return flow.ethSwap.close(myAndParticipantData);
+                // if there is no secret in state then request it
+              };
+
+              if (secret) {
+                _context3.next = 15;
+                break;
+              }
+
+              _context3.prev = 4;
+              _context3.next = 7;
+              return flow.ethSwap.getSecret(data);
 
             case 7:
-              _context2.next = 9;
+              secret = _context3.sent;
+
+
+              flow.setState({
+                secret: secret
+              });
+              _context3.next = 15;
+              break;
+
+            case 11:
+              _context3.prev = 11;
+              _context3.t0 = _context3['catch'](4);
+
+              // TODO notify user that smth goes wrong
+              console.error(_context3.t0);
+              return _context3.abrupt('return');
+
+            case 15:
+              if (secret) {
+                _context3.next = 18;
+                break;
+              }
+
+              console.error('Secret required! Got ' + secret);
+              return _context3.abrupt('return');
+
+            case 18:
+              if (isEthClosed) {
+                _context3.next = 29;
+                break;
+              }
+
+              _context3.prev = 19;
+              _context3.next = 22;
+              return flow.ethTokenSwap.close(data);
+
+            case 22:
+
+              flow.setState({
+                isEthClosed: true
+              });
+              _context3.next = 29;
+              break;
+
+            case 25:
+              _context3.prev = 25;
+              _context3.t1 = _context3['catch'](19);
+
+              // TODO notify user that smth goes wrong
+              console.error(_context3.t1);
+              return _context3.abrupt('return');
+
+            case 29:
+              _context3.next = 31;
               return flow.btcSwap.withdraw({
                 scriptValues: flow.state.btcScriptValues,
                 secret: secret
-              }, function (transactionUrl) {
+              }, function (hash) {
                 flow.setState({
-                  btcSwapWithdrawTransactionUrl: transactionUrl
+                  btcSwapWithdrawTransactionHash: hash
                 });
               });
 
-            case 9:
+            case 31:
 
               flow.finishStep({
                 isBtcWithdrawn: true
               });
 
-            case 10:
+            case 32:
             case 'end':
-              return _context2.stop();
+              return _context3.stop();
           }
         }
-      }, _callee2, _this2);
+      }, _callee3, _this2, [[4, 11], [19, 25]]);
     })),
 
     // 8. Finish
@@ -12203,13 +12634,13 @@ var ETHTOKEN2BTC = function (_Flow) {
   };
 
   ETHTOKEN2BTC.prototype.sign = function () {
-    var _ref4 = (0, _asyncToGenerator3.default)( /*#__PURE__*/_regenerator2.default.mark(function _callee3() {
+    var _ref5 = (0, _asyncToGenerator3.default)( /*#__PURE__*/_regenerator2.default.mark(function _callee4() {
       var _this3 = this;
 
       var participant;
-      return _regenerator2.default.wrap(function _callee3$(_context3) {
+      return _regenerator2.default.wrap(function _callee4$(_context4) {
         while (1) {
-          switch (_context3.prev = _context3.next) {
+          switch (_context4.prev = _context4.next) {
             case 0:
               participant = this.swap.participant;
 
@@ -12218,12 +12649,12 @@ var ETHTOKEN2BTC = function (_Flow) {
                 isSignFetching: true
               });
 
-              _context3.next = 4;
-              return this.ethSwap.sign({
+              _context4.next = 4;
+              return this.ethTokenSwap.sign({
                 participantAddress: participant.eth.address
-              }, function (signTransactionUrl) {
+              }, function (hash) {
                 _this3.setState({
-                  signTransactionUrl: signTransactionUrl
+                  hash: hash
                 });
               });
 
@@ -12237,14 +12668,14 @@ var ETHTOKEN2BTC = function (_Flow) {
 
             case 6:
             case 'end':
-              return _context3.stop();
+              return _context4.stop();
           }
         }
-      }, _callee3, this);
+      }, _callee4, this);
     }));
 
     function sign() {
-      return _ref4.apply(this, arguments);
+      return _ref5.apply(this, arguments);
     }
 
     return sign;
@@ -12257,11 +12688,11 @@ var ETHTOKEN2BTC = function (_Flow) {
   };
 
   ETHTOKEN2BTC.prototype.syncBalance = function () {
-    var _ref5 = (0, _asyncToGenerator3.default)( /*#__PURE__*/_regenerator2.default.mark(function _callee4() {
+    var _ref6 = (0, _asyncToGenerator3.default)( /*#__PURE__*/_regenerator2.default.mark(function _callee5() {
       var sellAmount, balance, isEnoughMoney;
-      return _regenerator2.default.wrap(function _callee4$(_context4) {
+      return _regenerator2.default.wrap(function _callee5$(_context5) {
         while (1) {
-          switch (_context4.prev = _context4.next) {
+          switch (_context5.prev = _context5.next) {
             case 0:
               sellAmount = this.swap.sellAmount;
 
@@ -12270,12 +12701,12 @@ var ETHTOKEN2BTC = function (_Flow) {
                 isBalanceFetching: true
               });
 
-              _context4.next = 4;
+              _context5.next = 4;
               return this.ethTokenSwap.fetchBalance(_swap2.default.services.auth.accounts.eth.address);
 
             case 4:
-              balance = _context4.sent;
-              isEnoughMoney = sellAmount <= balance;
+              balance = _context5.sent;
+              isEnoughMoney = sellAmount.isLessThanOrEqualTo(balance);
 
 
               if (isEnoughMoney) {
@@ -12294,17 +12725,137 @@ var ETHTOKEN2BTC = function (_Flow) {
 
             case 7:
             case 'end':
-              return _context4.stop();
+              return _context5.stop();
           }
         }
-      }, _callee4, this);
+      }, _callee5, this);
     }));
 
     function syncBalance() {
-      return _ref5.apply(this, arguments);
+      return _ref6.apply(this, arguments);
     }
 
     return syncBalance;
+  }();
+
+  ETHTOKEN2BTC.prototype.tryRefund = function () {
+    var _ref7 = (0, _asyncToGenerator3.default)( /*#__PURE__*/_regenerator2.default.mark(function _callee6() {
+      var _this4 = this;
+
+      var participant, _state, secret, btcScriptValues;
+
+      return _regenerator2.default.wrap(function _callee6$(_context6) {
+        while (1) {
+          switch (_context6.prev = _context6.next) {
+            case 0:
+              participant = this.swap.participant;
+              _state = this.state, secret = _state.secret, btcScriptValues = _state.btcScriptValues;
+
+
+              secret = 'c0809ce9f484fdcdfb2d5aabd609768ce0374ee97a1a5618ce4cd3f16c00a078';
+
+              _context6.prev = 3;
+
+              console.log('TRYING REFUND!');
+
+              _context6.prev = 5;
+              _context6.next = 8;
+              return this.ethTokenSwap.refund({
+                participantAddress: participant.eth.address
+              }, function (hash) {
+                _this4.setState({
+                  refundTransactionHash: hash
+                });
+              });
+
+            case 8:
+
+              console.log('SUCCESS REFUND!');
+              return _context6.abrupt('return');
+
+            case 12:
+              _context6.prev = 12;
+              _context6.t0 = _context6['catch'](5);
+
+              console.err('REFUND FAILED!', _context6.t0);
+
+            case 15:
+              _context6.next = 20;
+              break;
+
+            case 17:
+              _context6.prev = 17;
+              _context6.t1 = _context6['catch'](3);
+
+              console.error('Mbe it\'s still under lockTime?! ' + _context6.t1);
+
+            case 20:
+
+              if (!btcScriptValues) {
+                console.error('You can\'t do refund w/o btc script values! Try wait until lockTime expires on eth contract!');
+              }
+
+              if (secret) {
+                _context6.next = 32;
+                break;
+              }
+
+              _context6.prev = 22;
+              _context6.next = 25;
+              return this.ethTokenSwap.getSecret(data);
+
+            case 25:
+              secret = _context6.sent;
+              _context6.next = 32;
+              break;
+
+            case 28:
+              _context6.prev = 28;
+              _context6.t2 = _context6['catch'](22);
+
+              console.error('Can\'t receive secret from contract');
+              return _context6.abrupt('return');
+
+            case 32:
+
+              console.log('TRYING WITHDRAW!');
+
+              _context6.prev = 33;
+              _context6.next = 36;
+              return this.btcSwap.withdraw({
+                scriptValues: this.state.btcScriptValues,
+                secret: secret
+              }, function (hash) {
+                _this4.setState({
+                  btcSwapWithdrawTransactionHash: hash
+                });
+              });
+
+            case 36:
+
+              console.log('SUCCESS WITHDRAW!');
+              _context6.next = 42;
+              break;
+
+            case 39:
+              _context6.prev = 39;
+              _context6.t3 = _context6['catch'](33);
+
+              console.error('WITHDRAW FAILED!', _context6.t3);
+
+            case 42:
+            case 'end':
+              return _context6.stop();
+          }
+        }
+      }, _callee6, this, [[3, 17], [5, 12], [22, 28], [33, 39]]);
+    }));
+
+    function tryRefund() {
+      return _ref7.apply(this, arguments);
+    }
+
+    return tryRefund;
   }();
 
   return ETHTOKEN2BTC;
@@ -12313,7 +12864,7 @@ var ETHTOKEN2BTC = function (_Flow) {
 exports.default = ETHTOKEN2BTC;
 
 /***/ }),
-/* 915 */
+/* 912 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12321,11 +12872,11 @@ exports.default = ETHTOKEN2BTC;
 
 exports.__esModule = true;
 
-var _regenerator = __webpack_require__(40);
+var _regenerator = __webpack_require__(39);
 
 var _regenerator2 = _interopRequireDefault(_regenerator);
 
-var _asyncToGenerator2 = __webpack_require__(41);
+var _asyncToGenerator2 = __webpack_require__(40);
 
 var _asyncToGenerator3 = _interopRequireDefault(_asyncToGenerator2);
 
@@ -12341,15 +12892,15 @@ var _inherits2 = __webpack_require__(4);
 
 var _inherits3 = _interopRequireDefault(_inherits2);
 
-var _crypto = __webpack_require__(47);
+var _crypto = __webpack_require__(46);
 
 var _crypto2 = _interopRequireDefault(_crypto);
 
-var _swap = __webpack_require__(18);
+var _swap = __webpack_require__(17);
 
 var _swap2 = _interopRequireDefault(_swap);
 
-var _swap3 = __webpack_require__(53);
+var _swap3 = __webpack_require__(52);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -12365,19 +12916,20 @@ var BTC2ETHTOKEN = function (_Flow) {
     _this.btcSwap = _swap2.default.swaps.btcSwap;
 
     if (!_this.ethTokenSwap) {
-      throw new Error('BTC2ETH failed. "ethTokenSwap" of type object required');
+      throw new Error('BTC2ETH: "ethTokenSwap" of type object required');
     }
     if (!_this.btcSwap) {
-      throw new Error('BTC2ETH failed. "btcSwap" of type object required');
+      throw new Error('BTC2ETH: "btcSwap" of type object required');
     }
 
     _this.state = {
       step: 0,
 
-      signTransactionUrl: null,
+      signTransactionHash: null,
       isSignFetching: false,
       isParticipantSigned: false,
 
+      btcScriptCreatingTransactionHash: null,
       secretHash: null,
       btcScriptValues: null,
 
@@ -12389,8 +12941,8 @@ var BTC2ETHTOKEN = function (_Flow) {
 
       isEthContractFunded: false,
 
-      isEthWithdrawn: false,
-      isBtcWithdrawn: false
+      ethSwapWithdrawTransactionHash: null,
+      isEthWithdrawn: false
     };
 
     _Flow.prototype._persistSteps.call(_this);
@@ -12450,23 +13002,27 @@ var BTC2ETHTOKEN = function (_Flow) {
 
               getLockTime = function getLockTime() {
                 return utcNow() + 3600 * 3;
-              }; // 3 days from now
+              }; // 3 hours from now
 
               scriptValues = {
                 secretHash: flow.state.secretHash,
-                btcOwnerPublicKey: _swap2.default.services.auth.accounts.btc.getPublicKey(),
-                ethOwnerPublicKey: participant.btc.publicKey,
+                ownerPublicKey: _swap2.default.services.auth.accounts.btc.getPublicKey(),
+                recipientPublicKey: participant.btc.publicKey,
                 lockTime: getLockTime()
               };
               _context.next = 6;
               return flow.btcSwap.fundScript({
                 scriptValues: scriptValues,
                 amount: sellAmount
+              }, function (hash) {
+                flow.setState({
+                  btcScriptCreatingTransactionHash: hash
+                });
               });
 
             case 6:
 
-              _this2.swap.room.sendMessage('create btc script', {
+              flow.swap.room.sendMessage('create btc script', {
                 scriptValues: scriptValues
               });
 
@@ -12486,34 +13042,101 @@ var BTC2ETHTOKEN = function (_Flow) {
     // 5. Wait participant creates ETH Contract
 
     function () {
+      var participant = flow.swap.participant;
+
+      var timer = void 0;
+
+      var checkEthBalance = function checkEthBalance() {
+        timer = setTimeout((0, _asyncToGenerator3.default)( /*#__PURE__*/_regenerator2.default.mark(function _callee2() {
+          var balance;
+          return _regenerator2.default.wrap(function _callee2$(_context2) {
+            while (1) {
+              switch (_context2.prev = _context2.next) {
+                case 0:
+                  _context2.next = 2;
+                  return flow.ethTokenSwap.getBalance({
+                    ownerAddress: participant.eth.address
+                  });
+
+                case 2:
+                  balance = _context2.sent;
+
+
+                  if (balance > 0) {
+                    if (!flow.state.isEthContractFunded) {
+                      // redundant condition but who cares :D
+                      flow.finishStep({
+                        isEthContractFunded: true
+                      });
+                    }
+                  } else {
+                    checkEthBalance();
+                  }
+
+                case 4:
+                case 'end':
+                  return _context2.stop();
+              }
+            }
+          }, _callee2, _this2);
+        })), 20 * 1000);
+      };
+
+      checkEthBalance();
+
       flow.swap.room.once('create eth contract', function () {
-        flow.finishStep({
-          isEthContractFunded: true
-        });
+        if (!flow.state.isEthContractFunded) {
+          clearTimeout(timer);
+          timer = null;
+
+          flow.finishStep({
+            isEthContractFunded: true
+          });
+        }
       });
     },
 
     // 6. Withdraw
 
-    (0, _asyncToGenerator3.default)( /*#__PURE__*/_regenerator2.default.mark(function _callee2() {
-      var participant, data;
-      return _regenerator2.default.wrap(function _callee2$(_context2) {
+    (0, _asyncToGenerator3.default)( /*#__PURE__*/_regenerator2.default.mark(function _callee3() {
+      var _flow$swap2, buyAmount, participant, data, balanceCheckResult;
+
+      return _regenerator2.default.wrap(function _callee3$(_context3) {
         while (1) {
-          switch (_context2.prev = _context2.next) {
+          switch (_context3.prev = _context3.next) {
             case 0:
-              participant = flow.swap.participant;
+              _flow$swap2 = flow.swap, buyAmount = _flow$swap2.buyAmount, participant = _flow$swap2.participant;
               data = {
                 ownerAddress: participant.eth.address,
                 secret: flow.state.secret
               };
-              _context2.next = 4;
-              return flow.ethSwap.withdraw(data, function (transactionHash) {
-                flow.setState({
-                  ethSwapWithdrawTransactionUrl: transactionHash
-                });
+              _context3.next = 4;
+              return flow.ethTokenSwap.checkBalance({
+                ownerAddress: participant.eth.address,
+                expectedValue: buyAmount
               });
 
             case 4:
+              balanceCheckResult = _context3.sent;
+
+              if (!balanceCheckResult) {
+                _context3.next = 9;
+                break;
+              }
+
+              console.error('Eth balance check error:', balanceCheckResult);
+              flow.swap.events.dispatch('eth balance check error', balanceCheckResult);
+              return _context3.abrupt('return');
+
+            case 9:
+              _context3.next = 11;
+              return flow.ethTokenSwap.withdraw(data, function (hash) {
+                flow.setState({
+                  ethSwapWithdrawTransactionHash: hash
+                });
+              });
+
+            case 11:
 
               flow.swap.room.sendMessage('finish eth withdraw');
 
@@ -12521,12 +13144,12 @@ var BTC2ETHTOKEN = function (_Flow) {
                 isEthWithdrawn: true
               });
 
-            case 6:
+            case 13:
             case 'end':
-              return _context2.stop();
+              return _context3.stop();
           }
         }
-      }, _callee2, _this2);
+      }, _callee3, _this2);
     })),
 
     // 7. Finish
@@ -12544,11 +13167,11 @@ var BTC2ETHTOKEN = function (_Flow) {
   };
 
   BTC2ETHTOKEN.prototype.syncBalance = function () {
-    var _ref3 = (0, _asyncToGenerator3.default)( /*#__PURE__*/_regenerator2.default.mark(function _callee3() {
+    var _ref4 = (0, _asyncToGenerator3.default)( /*#__PURE__*/_regenerator2.default.mark(function _callee4() {
       var sellAmount, balance, isEnoughMoney;
-      return _regenerator2.default.wrap(function _callee3$(_context3) {
+      return _regenerator2.default.wrap(function _callee4$(_context4) {
         while (1) {
-          switch (_context3.prev = _context3.next) {
+          switch (_context4.prev = _context4.next) {
             case 0:
               sellAmount = this.swap.sellAmount;
 
@@ -12557,12 +13180,12 @@ var BTC2ETHTOKEN = function (_Flow) {
                 isBalanceFetching: true
               });
 
-              _context3.next = 4;
+              _context4.next = 4;
               return this.btcSwap.fetchBalance(_swap2.default.services.auth.accounts.btc.getAddress());
 
             case 4:
-              balance = _context3.sent;
-              isEnoughMoney = sellAmount <= balance;
+              balance = _context4.sent;
+              isEnoughMoney = sellAmount.isLessThanOrEqualTo(balance);
 
 
               if (isEnoughMoney) {
@@ -12581,14 +13204,14 @@ var BTC2ETHTOKEN = function (_Flow) {
 
             case 7:
             case 'end':
-              return _context3.stop();
+              return _context4.stop();
           }
         }
-      }, _callee3, this);
+      }, _callee4, this);
     }));
 
     function syncBalance() {
-      return _ref3.apply(this, arguments);
+      return _ref4.apply(this, arguments);
     }
 
     return syncBalance;
@@ -12601,14 +13224,14 @@ exports.default = BTC2ETHTOKEN;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(6).Buffer))
 
 /***/ }),
-/* 916 */
+/* 913 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"button":"_2LQ20V","fullWidth":"_3JAxiX","brand":"_3sxX__","green":"_1luSAS","white":"_2p_RXB","gray":"_2TQbbx","disabled":"_2fO4Kf"};
 
 /***/ }),
-/* 917 */
+/* 914 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12633,21 +13256,21 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _appConfig = __webpack_require__(62);
+var _appConfig = __webpack_require__(61);
 
 var _appConfig2 = _interopRequireDefault(_appConfig);
 
-var _swap = __webpack_require__(129);
+var _swap = __webpack_require__(126);
 
-var _swap2 = __webpack_require__(53);
+var _swap2 = __webpack_require__(52);
 
 var _swap3 = _interopRequireDefault(_swap2);
 
-var _InlineLoader = __webpack_require__(128);
+var _InlineLoader = __webpack_require__(125);
 
 var _InlineLoader2 = _interopRequireDefault(_InlineLoader);
 
-var _Button = __webpack_require__(70);
+var _Button = __webpack_require__(69);
 
 var _Button2 = _interopRequireDefault(_Button);
 
@@ -12706,13 +13329,13 @@ var EthToBtc = function (_Component) {
       this.swap.id && _react2.default.createElement(
         'strong',
         null,
-        this.swap.sellAmount,
+        this.swap.sellAmount.toString(),
         ' ',
-        this.swap.sellCurrency,
+        this.swap.sellCurrency.toString(),
         ' \u27F6 ',
-        this.swap.buyAmount,
+        this.swap.buyAmount.toString(),
         ' ',
-        this.swap.buyCurrency
+        this.swap.buyCurrency.toString()
       ),
       !this.swap.id && (this.swap.isMy ? _react2.default.createElement(
         'h3',
@@ -12997,7 +13620,7 @@ var EthToBtc = function (_Component) {
 exports.default = EthToBtc;
 
 /***/ }),
-/* 918 */
+/* 915 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13022,13 +13645,13 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _swap = __webpack_require__(129);
+var _swap = __webpack_require__(126);
 
-var _swap2 = __webpack_require__(53);
+var _swap2 = __webpack_require__(52);
 
 var _swap3 = _interopRequireDefault(_swap2);
 
-var _Loader = __webpack_require__(130);
+var _Loader = __webpack_require__(127);
 
 var _Loader2 = _interopRequireDefault(_Loader);
 
@@ -13374,14 +13997,14 @@ var EthToBtc = function (_Component) {
 exports.default = EthToBtc;
 
 /***/ }),
-/* 919 */
+/* 916 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"overlay":"AOfotv","loader":"_2DlhHx","small":"fMD4oL","center":"_2Q-7EU","loader1":"_3xH56a","loader2":"_2bU_0h","loader3":"_2fM_Pw"};
 
 /***/ }),
-/* 920 */
+/* 917 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13406,13 +14029,13 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _swap = __webpack_require__(129);
+var _swap = __webpack_require__(126);
 
-var _swap2 = __webpack_require__(53);
+var _swap2 = __webpack_require__(52);
 
 var _swap3 = _interopRequireDefault(_swap2);
 
-var _Loader = __webpack_require__(130);
+var _Loader = __webpack_require__(127);
 
 var _Loader2 = _interopRequireDefault(_Loader);
 
@@ -13685,7 +14308,7 @@ var BtcToEthToken = function (_Component) {
 exports.default = BtcToEthToken;
 
 /***/ }),
-/* 921 */
+/* 918 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13712,19 +14335,19 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _newSwap = __webpack_require__(91);
+var _newSwap = __webpack_require__(88);
 
-var _redaction = __webpack_require__(27);
+var _redaction = __webpack_require__(26);
 
-var _PageHeadline = __webpack_require__(116);
+var _PageHeadline = __webpack_require__(111);
 
 var _PageHeadline2 = _interopRequireDefault(_PageHeadline);
 
-var _SubTitle = __webpack_require__(188);
+var _SubTitle = __webpack_require__(185);
 
 var _SubTitle2 = _interopRequireDefault(_SubTitle);
 
-var _FeedNotification = __webpack_require__(922);
+var _FeedNotification = __webpack_require__(919);
 
 var _FeedNotification2 = _interopRequireDefault(_FeedNotification);
 
@@ -13787,7 +14410,7 @@ var Feed = (_dec = (0, _redaction.connect)({
 exports.default = Feed;
 
 /***/ }),
-/* 922 */
+/* 919 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13803,19 +14426,19 @@ var _propTypes = __webpack_require__(7);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
-var _helpers = __webpack_require__(12);
+var _helpers = __webpack_require__(11);
 
-var _reactRouterDom = __webpack_require__(55);
+var _reactRouterDom = __webpack_require__(54);
 
 var _reactCssModules = __webpack_require__(2);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _FeedNotificaton = __webpack_require__(923);
+var _FeedNotificaton = __webpack_require__(920);
 
 var _FeedNotificaton2 = _interopRequireDefault(_FeedNotificaton);
 
-var _arrowRight = __webpack_require__(924);
+var _arrowRight = __webpack_require__(921);
 
 var _arrowRight2 = _interopRequireDefault(_arrowRight);
 
@@ -13921,20 +14544,20 @@ FeedNotificaton.propTypes = {
 exports.default = (0, _reactCssModules2.default)(FeedNotificaton, _FeedNotificaton2.default, { allowMultiple: true });
 
 /***/ }),
-/* 923 */
+/* 920 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"userTooltip":"VWwjR0","title":"z_31Kp","currency":"_1Z91so","coin":"_3HQEd8","buttons":"_2btjqE","arrow":"_77iS7G","checked":"-A0fCV","withdrawButton":"_133mOo","icon":"_1NzA4J"};
 
 /***/ }),
-/* 924 */
+/* 921 */
 /***/ (function(module, exports) {
 
 module.exports = "https://testnet.swap.online/images/arrow-right_014b04.svg";
 
 /***/ }),
-/* 925 */
+/* 922 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13961,15 +14584,15 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactRouterRedux = __webpack_require__(328);
+var _reactRouterRedux = __webpack_require__(325);
 
-var _reactRedux = __webpack_require__(320);
+var _reactRedux = __webpack_require__(317);
 
 var _propTypes = __webpack_require__(7);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
-var _App = __webpack_require__(926);
+var _App = __webpack_require__(923);
 
 var _App2 = _interopRequireDefault(_App);
 
@@ -14013,7 +14636,7 @@ var Root = (_temp = _class = function (_React$PureComponent) {
 exports.default = Root;
 
 /***/ }),
-/* 926 */
+/* 923 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14040,57 +14663,55 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactRouter = __webpack_require__(95);
+var _reactRouter = __webpack_require__(91);
 
 var _propTypes = __webpack_require__(7);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
-var _actions = __webpack_require__(14);
+var _actions = __webpack_require__(13);
 
 var _actions2 = _interopRequireDefault(_actions);
 
-var _redaction = __webpack_require__(27);
+var _redaction = __webpack_require__(26);
 
-var _moment = __webpack_require__(69);
+var _moment = __webpack_require__(68);
 
 var _moment2 = _interopRequireDefault(_moment);
 
-var _helpers = __webpack_require__(12);
-
-var _swap = __webpack_require__(927);
+var _helpers = __webpack_require__(11);
 
 var _reactCssModules = __webpack_require__(2);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _App = __webpack_require__(938);
+var _App = __webpack_require__(924);
 
 var _App2 = _interopRequireDefault(_App);
 
-__webpack_require__(939);
+__webpack_require__(925);
 
-var _Header = __webpack_require__(940);
+var _Header = __webpack_require__(926);
 
 var _Header2 = _interopRequireDefault(_Header);
 
-var _Loader = __webpack_require__(130);
+var _Loader = __webpack_require__(127);
 
 var _Loader2 = _interopRequireDefault(_Loader);
 
-var _RequestLoader = __webpack_require__(958);
+var _RequestLoader = __webpack_require__(944);
 
 var _RequestLoader2 = _interopRequireDefault(_RequestLoader);
 
-var _ModalConductor = __webpack_require__(959);
+var _ModalConductor = __webpack_require__(945);
 
 var _ModalConductor2 = _interopRequireDefault(_ModalConductor);
 
-var _WidthContainer = __webpack_require__(195);
+var _WidthContainer = __webpack_require__(192);
 
 var _WidthContainer2 = _interopRequireDefault(_WidthContainer);
 
-var _NotificationConductor = __webpack_require__(1002);
+var _NotificationConductor = __webpack_require__(988);
 
 var _NotificationConductor2 = _interopRequireDefault(_NotificationConductor);
 
@@ -14151,1202 +14772,21 @@ var App = (_dec = (0, _redaction.connect)({
 exports.default = App;
 
 /***/ }),
-/* 927 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-/* WEBPACK VAR INJECTION */(function(global) {
-
-exports.__esModule = true;
-exports.createSwapApp = exports.swapApp = undefined;
-
-var _web = __webpack_require__(78);
-
-var _web2 = _interopRequireDefault(_web);
-
-var _core = __webpack_require__(90);
-
-var _bitcoinjsLib = __webpack_require__(100);
-
-var _bitcoinjsLib2 = _interopRequireDefault(_bitcoinjsLib);
-
-var _swapCore = __webpack_require__(928);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var localClear = localStorage.clear.bind(localStorage);
-
-localStorage.clear = function () {
-  localClear();
-};
-
-var swapApp = void 0;
-
-var createSwapApp = function createSwapApp() {
-  var _getState = (0, _core.getState)(),
-      _getState$user = _getState.user,
-      ethData = _getState$user.ethData,
-      btcData = _getState$user.btcData;
-
-  (0, _swapCore.setupEnv)({
-    web3: _web2.default,
-    bitcoinJs: _bitcoinjsLib2.default,
-    Ipfs: global.Ipfs,
-    IpfsRoom: global.IpfsRoom
-  });
-
-  exports.swapApp = swapApp = new _swapCore.SwapApp({
-    me: {
-      reputation: 10,
-      eth: {
-        address: ethData.address,
-        publicKey: ethData.publicKey
-      },
-      btc: {
-        address: btcData.address,
-        publicKey: btcData.publicKey
-      }
-    },
-    config: {
-      ipfs: {
-        EXPERIMENTAL: {
-          pubsub: true
-        },
-        config: {
-          Addresses: {
-            Swarm: [
-            // '/dns4/ws-star.discovery.libp2p.io/tcp/443/wss/p2p-websocket-star',
-            '/dns4/star.wpmix.net/tcp/443/wss/p2p-websocket-star']
-          }
-        }
-      }
-    }
-  });
-
-  console.log('swapApp', swapApp);
-
-  swapApp.on('ready', function () {
-    console.log('swapApp ready');
-    console.log('initial orders', swapApp.getOrders());
-  });
-
-  swapApp.on('user online', function (peer) {
-    console.log('user online', peer);
-  });
-
-  swapApp.on('user offline', function (peer) {
-    console.log('user offline', peer);
-  });
-
-  swapApp.on('new orders', function (swaps) {
-    console.log('new orders', swaps);
-  });
-
-  swapApp.on('new order', function (swap) {
-    console.log('new order', swap);
-  });
-
-  swapApp.on('remove order', function (swap) {
-    console.log('remove order', swap);
-  });
-
-  swapApp.on('new order request', function (_ref) {
-    var swapId = _ref.swapId,
-        participant = _ref.participant;
-
-    console.error('user ' + participant.peer + ' requesting swap', {
-      swap: swapApp.orderCollection.getByKey(swapId),
-      participant: participant
-    });
-  });
-};
-
-exports.swapApp = swapApp;
-exports.createSwapApp = createSwapApp;
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(10)))
-
-/***/ }),
-/* 928 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-exports.__esModule = true;
-exports.SwapApp = exports.setupEnv = undefined;
-
-var _SwapApp = __webpack_require__(929);
-
-var _SwapApp2 = _interopRequireDefault(_SwapApp);
-
-var _util = __webpack_require__(92);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-exports.setupEnv = _util.setupEnv;
-exports.SwapApp = _SwapApp2.default;
-
-/***/ }),
-/* 929 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-exports.__esModule = true;
-
-var _classCallCheck2 = __webpack_require__(1);
-
-var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
-
-var _Events = __webpack_require__(74);
-
-var _room = __webpack_require__(131);
-
-var _room2 = _interopRequireDefault(_room);
-
-var _Storage = __webpack_require__(132);
-
-var _orderCollection = __webpack_require__(346);
-
-var _orderCollection2 = _interopRequireDefault(_orderCollection);
-
-var _Swap = __webpack_require__(936);
-
-var _Swap2 = _interopRequireDefault(_Swap);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var SwapApp = function () {
-  function SwapApp(_ref) {
-    var me = _ref.me,
-        config = _ref.config;
-    (0, _classCallCheck3.default)(this, SwapApp);
-
-    this.orderCollection = _orderCollection2.default;
-    this.storage = _Storage.storage;
-    this.storage.me = me;
-
-    _room2.default.subscribe('ready', function () {
-      _Events.events.dispatch('ready');
-    });
-
-    _room2.default.init(config.ipfs);
-  }
-
-  SwapApp.prototype.getOrders = function getOrders() {
-    return this.orderCollection.items;
-  };
-
-  SwapApp.prototype.getMyOrders = function getMyOrders() {
-    return this.orderCollection.getMyOrders();
-  };
-
-  /**
-   *
-   * @param {object} data
-   * @param {string} data.id
-   * @param {object} data.owner
-   * @param {string} data.owner.peer
-   * @param {number} data.owner.reputation
-   * @param {object} data.owner.<currency>
-   * @param {string} data.owner.<currency>.address
-   * @param {string} data.owner.<currency>.publicKey
-   * @param {string} data.buyCurrency
-   * @param {string} data.sellCurrency
-   * @param {number} data.buyAmount
-   * @param {number} data.sellAmount
-   */
-
-
-  SwapApp.prototype.createOrder = function createOrder(data) {
-    this.orderCollection.create(data);
-  };
-
-  SwapApp.prototype.removeOrder = function removeOrder(orderId) {
-    _orderCollection2.default.remove(orderId);
-  };
-
-  SwapApp.prototype.createSwap = function createSwap(orderId) {
-    return new _Swap2.default(orderId);
-  };
-
-  SwapApp.prototype.on = function on(eventName, handler) {
-    _Events.events.subscribe(eventName, handler);
-  };
-
-  SwapApp.prototype.off = function off(eventName, handler) {
-    _Events.events.unsubscribe(eventName, handler);
-  };
-
-  return SwapApp;
-}();
-
-exports.default = SwapApp;
-
-/***/ }),
-/* 930 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-exports.__esModule = true;
-
-var _stringify = __webpack_require__(39);
-
-var _stringify2 = _interopRequireDefault(_stringify);
-
-var _typeof2 = __webpack_require__(115);
-
-var _typeof3 = _interopRequireDefault(_typeof2);
-
-var _assign = __webpack_require__(9);
-
-var _assign2 = _interopRequireDefault(_assign);
-
-var _classCallCheck2 = __webpack_require__(1);
-
-var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
-
-var _Events = __webpack_require__(74);
-
-var _Events2 = _interopRequireDefault(_Events);
-
-var _Storage = __webpack_require__(132);
-
-var _util = __webpack_require__(92);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var Room = function () {
-  function Room() {
-    var _this = this;
-
-    (0, _classCallCheck3.default)(this, Room);
-
-    this.handleUserOnline = function (peer) {
-      if (peer !== _Storage.storage.me.peer) {
-        _this.events.dispatch('user online', peer);
-      }
-    };
-
-    this.handleUserOffline = function (peer) {
-      if (peer !== _Storage.storage.me.peer) {
-        _this.events.dispatch('user offline', peer);
-      }
-    };
-
-    this.handleNewMessage = function (message) {
-      if (message.from === _Storage.storage.me.peer) {
-        return;
-      }
-
-      var data = JSON.parse(message.data.toString());
-
-      if (data && data.length) {
-        data.forEach(function (_ref) {
-          var event = _ref.event,
-              data = _ref.data;
-
-          _this.events.dispatch(event, (0, _assign2.default)({}, data || {}, { fromPeer: message.from }));
-        });
-      }
-    };
-
-    this.events = new _Events2.default();
-  }
-
-  /**
-   *
-   * @param {object} config
-   */
-
-
-  Room.prototype.init = function init(config) {
-    var _this2 = this;
-
-    if (!config || (typeof config === 'undefined' ? 'undefined' : (0, _typeof3.default)(config)) !== 'object') {
-      throw new Error('Room failed. "config" of type object required.');
-    }
-
-    var ipfs = new _util.env.Ipfs(config);
-
-    ipfs.once('error', function (err) {
-      console.log('IPFS error!', err);
-    });
-
-    ipfs.once('ready', function () {
-      return ipfs.id(function (err, info) {
-        console.info('IPFS ready!', info);
-
-        if (err) {
-          throw err;
-        }
-
-        _this2._init({
-          peer: info.id,
-          ipfsConnection: ipfs
-        });
-      });
-    });
-  };
-
-  Room.prototype._init = function _init(_ref2) {
-    var peer = _ref2.peer,
-        ipfsConnection = _ref2.ipfsConnection;
-
-    _Storage.storage.me.peer = peer;
-
-    this.connection = _util.env.IpfsRoom(ipfsConnection, 'jswaps', {
-      pollInterval: 5000
-    });
-
-    this.connection.on('peer joined', this.handleUserOnline);
-    this.connection.on('peer left', this.handleUserOffline);
-    this.connection.on('message', this.handleNewMessage);
-
-    this.events.dispatch('ready');
-  };
-
-  Room.prototype.subscribe = function subscribe(eventName, handler) {
-    this.events.subscribe(eventName, handler);
-  };
-
-  Room.prototype.once = function once(eventName, handler) {
-    this.events.once(eventName, handler);
-  };
-
-  Room.prototype.sendMessage = function sendMessage() {
-    for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {
-      args[_key] = arguments[_key];
-    }
-
-    if (args.length === 1) {
-      var message = args[0];
-
-
-      this.connection.broadcast((0, _stringify2.default)(message));
-    } else {
-      var peer = args[0],
-          _message = args[1];
-
-
-      this.connection.sendTo(peer, (0, _stringify2.default)(_message));
-    }
-  };
-
-  return Room;
-}();
-
-exports.default = new Room();
-
-/***/ }),
-/* 931 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-exports.__esModule = true;
-
-var _stringify = __webpack_require__(39);
-
-var _stringify2 = _interopRequireDefault(_stringify);
-
-var _env = __webpack_require__(345);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var _isLocalStorageEnabled = null;
-
-var isLocalStorageEnabled = function isLocalStorageEnabled() {
-  if (_isLocalStorageEnabled === null) {
-    try {
-      _env.env.localStorage.setItem('test', 'test');
-      _env.env.localStorage.removeItem('test');
-      _isLocalStorageEnabled = true;
-    } catch (e) {
-      _isLocalStorageEnabled = false;
-    }
-  }
-
-  return _isLocalStorageEnabled;
-};
-
-var setItem = function setItem(key, value) {
-  if (isLocalStorageEnabled()) {
-    _env.env.localStorage.setItem(key, (0, _stringify2.default)(value));
-  }
-};
-
-var getItem = function getItem(key) {
-  if (isLocalStorageEnabled()) {
-    var value = _env.env.localStorage.getItem(key);
-
-    try {
-      return JSON.parse(value);
-    } catch (err) {
-      return value;
-    }
-  }
-  return undefined;
-};
-
-var removeItem = function removeItem(key) {
-  if (isLocalStorageEnabled()) {
-    return _env.env.localStorage.removeItem(key);
-  }
-};
-
-var clear = function clear() {
-  if (isLocalStorageEnabled()) {
-    _env.env.localStorage.clear();
-  }
-};
-
-exports.default = {
-  setItem: setItem,
-  getItem: getItem,
-  removeItem: removeItem,
-  clear: clear
-};
-
-/***/ }),
-/* 932 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-exports.__esModule = true;
-var pullProps = function pullProps(obj) {
-  for (var _len = arguments.length, props = Array(_len > 1 ? _len - 1 : 0), _key = 1; _key < _len; _key++) {
-    props[_key - 1] = arguments[_key];
-  }
-
-  var result = {};
-
-  props.forEach(function (propName) {
-    result[propName] = obj[propName];
-  });
-
-  return result;
-};
-
-exports.default = pullProps;
-
-/***/ }),
-/* 933 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-exports.__esModule = true;
-
-var _keys = __webpack_require__(17);
-
-var _keys2 = _interopRequireDefault(_keys);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var ignoreProps = function ignoreProps() {
-  for (var _len = arguments.length, ignored = Array(_len > 1 ? _len - 1 : 0), _key = 1; _key < _len; _key++) {
-    ignored[_key - 1] = arguments[_key];
-  }
-
-  var props = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
-
-  var list = {};
-
-  (0, _keys2.default)(props).forEach(function (key) {
-    if (!ignored.includes(key)) {
-      list[key] = props[key];
-    }
-  });
-
-  return list;
-};
-
-exports.default = ignoreProps;
-
-/***/ }),
-/* 934 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-exports.__esModule = true;
-
-var _keys = __webpack_require__(17);
-
-var _keys2 = _interopRequireDefault(_keys);
-
-var _assign = __webpack_require__(9);
-
-var _assign2 = _interopRequireDefault(_assign);
-
-var _classCallCheck2 = __webpack_require__(1);
-
-var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var Collection = function () {
-  function Collection() {
-    (0, _classCallCheck3.default)(this, Collection);
-
-    this.items = [];
-    this.itemIds = {};
-  }
-
-  /**
-   * Add item at the start of current collection
-   * @param item
-   * @param key {string|number}
-   * @returns {*}
-   */
-
-
-  Collection.prototype.prepend = function prepend(item, key) {
-    this.items.unshift(item);
-    if (key) {
-      for (var _key in this.itemIds) {
-        if (this.itemIds.hasOwnProperty(_key)) {
-          this.itemIds[_key] += 1;
-        }
-      }
-      this.itemIds[key] = 0;
-    }
-    return item;
-  };
-
-  /**
-   * Add item at the end of current collection
-   * @param item
-   * @param key {string|number}
-   * @returns {*}
-   */
-
-
-  Collection.prototype.append = function append(item, key) {
-    this.items.push(item);
-    if (key) {
-      this.itemIds[key] = this.items.length - 1;
-    }
-    return item;
-  };
-
-  /**
-   * Remove item by index from current collection
-   * @param index
-   * @returns {*}
-   */
-
-
-  Collection.prototype.removeByIndex = function removeByIndex(index) {
-    this.items = this.items.splice(index, 1);
-  };
-
-  /**
-   * Remove item by key [id] from current collection
-   * @param key {string|number}
-   * @returns {*}
-   */
-
-
-  Collection.prototype.removeByKey = function removeByKey(key) {
-    var _this = this;
-
-    console.log('removeByKey', key);
-    console.log('items', [].concat(this.items));
-    console.log('itemIds', (0, _assign2.default)({}, this.itemIds));
-
-    var index = this.itemIds[key];
-
-    console.log('index', index);
-
-    if (index !== undefined) {
-      this.items.splice(index, 1);
-      delete this.itemIds[key];
-
-      console.log('items after removing', [].concat(this.items));
-
-      (0, _keys2.default)(this.itemIds).forEach(function (key) {
-        if (_this.itemIds[key] > index) {
-          _this.itemIds[key]--;
-        }
-      });
-
-      console.log('items after reindexing', [].concat(this.items));
-    }
-  };
-
-  /**
-   * Get index of item in current collection
-   * @param item
-   * @returns {number}
-   */
-
-
-  Collection.prototype.indexOf = function indexOf(item) {
-    return this.items.indexOf(item);
-  };
-
-  /**
-   * Get item by index from current collection
-   * @param index
-   * @returns {*}
-   */
-
-
-  Collection.prototype.getByIndex = function getByIndex(index) {
-    return this.items[index];
-  };
-
-  /**
-   * Get item by key [id] from current collection
-   * @param key {string|number}
-   * @returns {*}
-   */
-
-
-  Collection.prototype.getByKey = function getByKey(key) {
-    return this.items[this.itemIds[key]];
-  };
-
-  Collection.prototype.isExist = function isExist(item) {
-    return this.items.includes(item);
-  };
-
-  /**
-   * Check if item with such name exists in current collection
-   * @param key {string|number}
-   * @returns {boolean}
-   */
-
-
-  Collection.prototype.isExistByKey = function isExistByKey(key) {
-    return Boolean(this.getByKey(key));
-  };
-
-  return Collection;
-}();
-
-exports.default = Collection;
-
-/***/ }),
-/* 935 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-exports.__esModule = true;
-
-var _keys = __webpack_require__(17);
-
-var _keys2 = _interopRequireDefault(_keys);
-
-var _assign = __webpack_require__(9);
-
-var _assign2 = _interopRequireDefault(_assign);
-
-var _classCallCheck2 = __webpack_require__(1);
-
-var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
-
-var _Events = __webpack_require__(74);
-
-var _Storage = __webpack_require__(132);
-
-var _room = __webpack_require__(131);
-
-var _room2 = _interopRequireDefault(_room);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var getUniqueId = function () {
-  var id = Date.now();
-
-  return function () {
-    return _Storage.storage.me.peer + '-' + ++id;
-  };
-}();
-
-var Order = function () {
-
-  /**
-   *
-   * @param {object}  collection
-   * @param {object}  data
-   * @param {string}  data.id
-   * @param {object}  data.owner
-   * @param {string}  data.owner.peer
-   * @param {number}  data.owner.reputation
-   * @param {object}  data.owner.<currency>
-   * @param {string}  data.owner.<currency>.address
-   * @param {string}  data.owner.<currency>.publicKey
-   * @param {string}  data.buyCurrency
-   * @param {string}  data.sellCurrency
-   * @param {number}  data.buyAmount
-   * @param {number}  data.sellAmount
-   */
-  function Order(_ref) {
-    var collection = _ref.collection,
-        data = _ref.data;
-    (0, _classCallCheck3.default)(this, Order);
-
-    this.id = data.id || getUniqueId();
-    this.isMy = null;
-    this.owner = null;
-    this.participant = null;
-    this.buyCurrency = null;
-    this.sellCurrency = null;
-    this.buyAmount = null;
-    this.sellAmount = null;
-
-    this.collection = collection;
-    this.requests = []; // income requests
-    this.isRequested = false; // outcome request status
-    this.isProcessing = false; // if swap isProcessing
-
-    this._update((0, _assign2.default)({}, data, {
-      isMy: data.owner.peer === _Storage.storage.me.peer
-    }));
-
-    this._onMount();
-  }
-
-  Order.prototype._onMount = function _onMount() {
-    var _this = this;
-
-    // Someone wants to start swap with you
-    _room2.default.subscribe('request swap', function (_ref2) {
-      var swapId = _ref2.swapId,
-          participant = _ref2.participant;
-
-      if (swapId === _this.id && !_this.requests.find(function (_ref3) {
-        var peer = _ref3.peer;
-        return peer === participant.peer;
-      })) {
-        _this.requests.push(participant);
-
-        _Events.events.dispatch('new order request', {
-          swapId: swapId,
-          participant: participant
-        });
-      }
-    });
-  };
-
-  Order.prototype._update = function _update(values) {
-    var _this2 = this;
-
-    (0, _keys2.default)(values).forEach(function (key) {
-      _this2[key] = values[key];
-    });
-  };
-
-  Order.prototype.update = function update(values) {
-    this._update(values);
-    this.collection._saveMyOrders();
-
-    _Events.events.dispatch('swap update', this, values);
-  };
-
-  /**
-   *
-   * @param callback - awaiting for response - accept / decline
-   */
-
-
-  Order.prototype.sendRequest = function sendRequest(callback) {
-    var self = this;
-
-    if (_Storage.storage.me.peer === this.owner.peer) {
-      console.warn('You are the owner of this Order. You can\'t send request to yourself.');
-      return;
-    }
-
-    if (this.isRequested) {
-      console.warn('You have already requested this swap.');
-      return;
-    }
-
-    this.update({
-      isRequested: true
-    });
-
-    _room2.default.sendMessage(this.owner.peer, [{
-      event: 'request swap',
-      data: {
-        swapId: this.id,
-        participant: _Storage.storage.me
-      }
-    }]);
-
-    _room2.default.subscribe('accept swap request', function (_ref4) {
-      var swapId = _ref4.swapId;
-
-      if (swapId === self.id) {
-        this.unsubscribe();
-
-        self.update({
-          isProcessing: true,
-          isRequested: false
-        });
-
-        callback(true);
-      }
-    });
-
-    _room2.default.subscribe('decline swap request', function (_ref5) {
-      var swapId = _ref5.swapId;
-
-      if (swapId === self.id) {
-        this.unsubscribe();
-
-        self.update({
-          isRequested: false
-        });
-
-        // TODO think about preventing user from sent requests every N seconds
-        callback(false);
-      }
-    });
-  };
-
-  Order.prototype.acceptRequest = function acceptRequest(participantPeer) {
-    var participant = this.requests.find(function (_ref6) {
-      var peer = _ref6.peer;
-      return peer === participantPeer;
-    });
-
-    this.update({
-      isRequested: false,
-      isProcessing: true,
-      participant: participant,
-      requests: []
-    });
-
-    _room2.default.sendMessage(participantPeer, [{
-      event: 'accept swap request',
-      data: {
-        swapId: this.id
-      }
-    }]);
-  };
-
-  Order.prototype.declineRequest = function declineRequest(participantPeer) {
-    var index = void 0;
-
-    this.requests.some(function (_ref7, _index) {
-      var peer = _ref7.peer;
-
-      if (peer === participantPeer) {
-        index = _index;
-      }
-      return index !== undefined;
-    });
-
-    var requests = [].concat(this.requests.slice(0, index), this.requests.slice(index + 1));
-
-    this.update({
-      isRequested: false,
-      requests: requests
-    });
-
-    _room2.default.sendMessage(participantPeer, [{
-      event: 'decline swap request',
-      data: {
-        swapId: this.id
-      }
-    }]);
-  };
-
-  return Order;
-}();
-
-exports.default = Order;
-
-/***/ }),
-/* 936 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-exports.__esModule = true;
-
-var _keys = __webpack_require__(17);
-
-var _keys2 = _interopRequireDefault(_keys);
-
-var _assign = __webpack_require__(9);
-
-var _assign2 = _interopRequireDefault(_assign);
-
-var _objectWithoutProperties2 = __webpack_require__(25);
-
-var _objectWithoutProperties3 = _interopRequireDefault(_objectWithoutProperties2);
-
-var _classCallCheck2 = __webpack_require__(1);
-
-var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
-
-var _Events = __webpack_require__(74);
-
-var _Events2 = _interopRequireDefault(_Events);
-
-var _SwapRoom = __webpack_require__(937);
-
-var _SwapRoom2 = _interopRequireDefault(_SwapRoom);
-
-var _orderCollection = __webpack_require__(346);
-
-var _orderCollection2 = _interopRequireDefault(_orderCollection);
-
-var _util = __webpack_require__(92);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var Swap = function () {
-  function Swap(_ref) {
-    var orderId = _ref.orderId;
-    (0, _classCallCheck3.default)(this, Swap);
-
-    this.events = new _Events2.default();
-    this.room = null;
-    this.flow = null;
-
-    this.id = orderId;
-    this.isMy = null;
-    this.owner = null;
-    this.participant = null;
-    this.buyCurrency = null;
-    this.sellCurrency = null;
-    this.buyAmount = null; // not same as in order - for each user own
-    this.sellAmount = null; // not same as in order - for each user own
-
-    this._persistState();
-  }
-
-  Swap.prototype._persistState = function _persistState() {
-    var order = _util.localStorage.getItem('swap.' + this.id) || _orderCollection2.default.getByKey(this.id);
-
-    console.log('ORDER SWAP', order);
-
-    if (order) {
-      var _pullProps = (0, _util.pullProps)(order, 'isMy', 'owner', 'participant', 'buyCurrency', 'sellCurrency', 'buyAmount', 'sellAmount'),
-          isMy = _pullProps.isMy,
-          buyAmount = _pullProps.buyAmount,
-          sellAmount = _pullProps.sellAmount,
-          buyCurrency = _pullProps.buyCurrency,
-          sellCurrency = _pullProps.sellCurrency,
-          rest = (0, _objectWithoutProperties3.default)(_pullProps, ['isMy', 'buyAmount', 'sellAmount', 'buyCurrency', 'sellCurrency']);
-
-      var data = (0, _assign2.default)({}, rest, {
-        isMy: isMy,
-        buyAmount: isMy ? buyAmount : sellAmount,
-        sellAmount: isMy ? sellAmount : buyAmount,
-        buyCurrency: isMy ? buyCurrency : sellCurrency,
-        sellCurrency: isMy ? sellCurrency : buyCurrency
-      });
-
-      console.log('ORDER SWAP', data);
-
-      if (!data.participant && !isMy) {
-        data.participant = data.owner;
-      }
-
-      this.room = new _SwapRoom2.default({
-        participantPeer: data.participant.peer
-      });
-
-      this.update(data);
-      this._saveState();
-    }
-  };
-
-  Swap.prototype._saveState = function _saveState() {
-    var data = (0, _util.pullProps)(this, 'id', 'isMy', 'owner', 'participant', 'buyCurrency', 'sellCurrency', 'buyAmount', 'sellAmount');
-
-    console.log('New Swap state:', data);
-
-    _util.localStorage.setItem('swap.' + this.id, data);
-  };
-
-  Swap.prototype.setFlow = function setFlow(Flow, options) {
-    this.flow = new Flow({
-      swap: this,
-      options: options
-    });
-
-    return this.flow;
-  };
-
-  Swap.prototype.update = function update(values) {
-    var _this = this;
-
-    (0, _keys2.default)(values).forEach(function (key) {
-      _this[key] = values[key];
-    });
-    this._saveState();
-  };
-
-  Swap.prototype.on = function on(eventName, handler) {
-    this.events.subscribe(eventName, handler);
-  };
-
-  Swap.prototype.off = function off(eventName, handler) {
-    this.events.unsubscribe(eventName, handler);
-  };
-
-  return Swap;
-}();
-
-exports.default = Swap;
-
-/***/ }),
-/* 937 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-exports.__esModule = true;
-
-var _assign = __webpack_require__(9);
-
-var _assign2 = _interopRequireDefault(_assign);
-
-var _stringify = __webpack_require__(39);
-
-var _stringify2 = _interopRequireDefault(_stringify);
-
-var _objectWithoutProperties2 = __webpack_require__(25);
-
-var _objectWithoutProperties3 = _interopRequireDefault(_objectWithoutProperties2);
-
-var _classCallCheck2 = __webpack_require__(1);
-
-var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
-
-var _room = __webpack_require__(131);
-
-var _room2 = _interopRequireDefault(_room);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var SwapRoom = function () {
-  function SwapRoom(_ref) {
-    var swapId = _ref.swapId,
-        participantPeer = _ref.participantPeer;
-    (0, _classCallCheck3.default)(this, SwapRoom);
-
-    this.swapId = swapId;
-    this.peer = participantPeer;
-  }
-
-  SwapRoom.prototype.subscribe = function subscribe(eventName, handler) {
-    var _this = this;
-
-    _room2.default.events.subscribe(eventName, function (_ref2) {
-      var fromPeer = _ref2.fromPeer,
-          swapId = _ref2.swapId,
-          values = (0, _objectWithoutProperties3.default)(_ref2, ['fromPeer', 'swapId']);
-
-      if (fromPeer === _this.peer && swapId === _this.swapId) {
-        handler(values);
-      }
-    });
-  };
-
-  SwapRoom.prototype.once = function once(eventName, handler) {
-    var self = this;
-
-    _room2.default.events.subscribe(eventName, function (_ref3) {
-      var fromPeer = _ref3.fromPeer,
-          swapId = _ref3.swapId,
-          values = (0, _objectWithoutProperties3.default)(_ref3, ['fromPeer', 'swapId']);
-
-      if (fromPeer === self.peer && swapId === self.swapId) {
-        console.error('INCOME SwapRoom event "' + eventName + '"');
-
-        this.unsubscribe();
-        handler(values);
-      }
-    });
-  };
-
-  SwapRoom.prototype.sendMessage = function sendMessage() {
-    for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {
-      args[_key] = arguments[_key];
-    }
-
-    if (args.length === 1) {
-      var value = args[0];
-
-      // value - eventName
-
-      if (typeof value === 'string') {
-        console.error('OUTCOME SwapRoom event "' + value + '"');
-
-        _room2.default.connection.sendTo(this.peer, (0, _stringify2.default)([{
-          event: value,
-          swapId: this.swapId
-        }]));
-      }
-      // value - messages
-      else if (Array.isArray(value)) {
-          value.forEach(function (_ref4) {
-            var event = _ref4.event;
-
-            console.log('OUTCOME SwapRoom event "' + event + '"');
-          });
-
-          _room2.default.connection.sendTo(this.peer, (0, _stringify2.default)(value));
-        }
-    } else {
-      var eventName = args[0],
-          message = args[1];
-
-
-      console.log('OUTCOME SwapRoom event "' + eventName + '"');
-
-      _room2.default.connection.sendTo(this.peer, (0, _stringify2.default)([{
-        event: eventName,
-        data: (0, _assign2.default)({
-          swapId: this.swapId
-        }, message)
-      }]));
-    }
-  };
-
-  return SwapRoom;
-}();
-
-exports.default = SwapRoom;
-
-/***/ }),
-/* 938 */
+/* 924 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"main":"_1ywAGt"};
 
 /***/ }),
-/* 939 */
+/* 925 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"modal":"_2bSI7R","btn":"_3hjQqv"};
 
 /***/ }),
-/* 940 */
+/* 926 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -15377,23 +14817,23 @@ var _reactCssModules = __webpack_require__(2);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _Header = __webpack_require__(941);
+var _Header = __webpack_require__(927);
 
 var _Header2 = _interopRequireDefault(_Header);
 
-var _WidthContainer = __webpack_require__(195);
+var _WidthContainer = __webpack_require__(192);
 
 var _WidthContainer2 = _interopRequireDefault(_WidthContainer);
 
-var _Logo = __webpack_require__(347);
+var _Logo = __webpack_require__(343);
 
 var _Logo2 = _interopRequireDefault(_Logo);
 
-var _Nav = __webpack_require__(946);
+var _Nav = __webpack_require__(932);
 
 var _Nav2 = _interopRequireDefault(_Nav);
 
-var _User = __webpack_require__(948);
+var _User = __webpack_require__(934);
 
 var _User2 = _interopRequireDefault(_User);
 
@@ -15426,40 +14866,40 @@ var Header = (_dec = (0, _reactCssModules2.default)(_Header2.default), _dec(_cla
 exports.default = Header;
 
 /***/ }),
-/* 941 */
+/* 927 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"header":"-QJzcI","container":"_1uduwC"};
 
 /***/ }),
-/* 942 */
+/* 928 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"widthContainer":"_2MQxGl","widthContainerIn":"_3YeKUt","relative":"_1za6i8","fullHeight":"p3bGwA","centeringContent":"_2hBTXS","main":"_7Imqyr"};
 
 /***/ }),
-/* 943 */
+/* 929 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"logo":"_3ywc1I"};
 
 /***/ }),
-/* 944 */
+/* 930 */
 /***/ (function(module, exports) {
 
 module.exports = "https://testnet.swap.online/images/logo_ab387e.svg";
 
 /***/ }),
-/* 945 */
+/* 931 */
 /***/ (function(module, exports) {
 
 module.exports = "https://testnet.swap.online/images/logo-colored_2cd869.svg";
 
 /***/ }),
-/* 946 */
+/* 932 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -15471,19 +14911,19 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _actions = __webpack_require__(14);
+var _actions = __webpack_require__(13);
 
 var _actions2 = _interopRequireDefault(_actions);
 
-var _reactRouterDom = __webpack_require__(55);
+var _reactRouterDom = __webpack_require__(54);
 
-var _helpers = __webpack_require__(12);
+var _helpers = __webpack_require__(11);
 
 var _reactCssModules = __webpack_require__(2);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _Nav = __webpack_require__(947);
+var _Nav = __webpack_require__(933);
 
 var _Nav2 = _interopRequireDefault(_Nav);
 
@@ -15545,14 +14985,14 @@ var Nav = function Nav() {
 exports.default = (0, _reactCssModules2.default)(Nav, _Nav2.default);
 
 /***/ }),
-/* 947 */
+/* 933 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"nav":"_32xpDs","link":"_2q3iYI","active":"_2X-K5z"};
 
 /***/ }),
-/* 948 */
+/* 934 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -15582,11 +15022,11 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _redaction = __webpack_require__(27);
+var _redaction = __webpack_require__(26);
 
-var _newSwap = __webpack_require__(91);
+var _newSwap = __webpack_require__(88);
 
-var _actions = __webpack_require__(14);
+var _actions = __webpack_require__(13);
 
 var _actions2 = _interopRequireDefault(_actions);
 
@@ -15594,23 +15034,23 @@ var _reactCssModules = __webpack_require__(2);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _User = __webpack_require__(949);
+var _User = __webpack_require__(935);
 
 var _User2 = _interopRequireDefault(_User);
 
-var _Sound = __webpack_require__(348);
+var _Sound = __webpack_require__(344);
 
 var _Sound2 = _interopRequireDefault(_Sound);
 
-var _AddOfferButton = __webpack_require__(950);
+var _AddOfferButton = __webpack_require__(936);
 
 var _AddOfferButton2 = _interopRequireDefault(_AddOfferButton);
 
-var _UserAvatar = __webpack_require__(952);
+var _UserAvatar = __webpack_require__(938);
 
 var _UserAvatar2 = _interopRequireDefault(_UserAvatar);
 
-var _UserTooltip = __webpack_require__(955);
+var _UserTooltip = __webpack_require__(941);
 
 var _UserTooltip2 = _interopRequireDefault(_UserTooltip);
 
@@ -15702,14 +15142,14 @@ var User = (_dec = (0, _redaction.connect)({
 exports.default = User;
 
 /***/ }),
-/* 949 */
+/* 935 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"user-cont":"_2pmz1I","hidden":"DHHm8V"};
 
 /***/ }),
-/* 950 */
+/* 936 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -15736,17 +15176,17 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _actions = __webpack_require__(14);
+var _actions = __webpack_require__(13);
 
 var _actions2 = _interopRequireDefault(_actions);
 
-var _helpers = __webpack_require__(12);
+var _helpers = __webpack_require__(11);
 
 var _reactCssModules = __webpack_require__(2);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _AddOfferButton = __webpack_require__(951);
+var _AddOfferButton = __webpack_require__(937);
 
 var _AddOfferButton2 = _interopRequireDefault(_AddOfferButton);
 
@@ -15787,14 +15227,14 @@ var AddOfferButton = (_dec = (0, _reactCssModules2.default)(_AddOfferButton2.def
 exports.default = AddOfferButton;
 
 /***/ }),
-/* 951 */
+/* 937 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"createOffer":"_3sDCI2"};
 
 /***/ }),
-/* 952 */
+/* 938 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -15825,11 +15265,11 @@ var _reactCssModules = __webpack_require__(2);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _UserAvatar = __webpack_require__(953);
+var _UserAvatar = __webpack_require__(939);
 
 var _UserAvatar2 = _interopRequireDefault(_UserAvatar);
 
-var _avatar = __webpack_require__(954);
+var _avatar = __webpack_require__(940);
 
 var _avatar2 = _interopRequireDefault(_avatar);
 
@@ -15902,20 +15342,20 @@ var UserAvatar = (_dec = (0, _reactCssModules2.default)(_UserAvatar2.default, { 
 exports.default = UserAvatar;
 
 /***/ }),
-/* 953 */
+/* 939 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"user":"_2RGag8","bell":"_1kxsPB","status":"_1HA8Rs","new":"_3pPu-T","shake":"_2JMEzu"};
 
 /***/ }),
-/* 954 */
+/* 940 */
 /***/ (function(module, exports) {
 
 module.exports = "https://testnet.swap.online/images/avatar_33edf0.svg";
 
 /***/ }),
-/* 955 */
+/* 941 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -15931,19 +15371,19 @@ var _propTypes = __webpack_require__(7);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
-var _helpers = __webpack_require__(12);
+var _helpers = __webpack_require__(11);
 
-var _reactRouterDom = __webpack_require__(55);
+var _reactRouterDom = __webpack_require__(54);
 
 var _reactCssModules = __webpack_require__(2);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _UserTooltip = __webpack_require__(956);
+var _UserTooltip = __webpack_require__(942);
 
 var _UserTooltip2 = _interopRequireDefault(_UserTooltip);
 
-var _arrowRight = __webpack_require__(957);
+var _arrowRight = __webpack_require__(943);
 
 var _arrowRight2 = _interopRequireDefault(_arrowRight);
 
@@ -15993,7 +15433,7 @@ var UserTooltip = function UserTooltip(_ref) {
               _react2.default.createElement(
                 'span',
                 null,
-                buyAmount,
+                buyAmount.toString(),
                 ' ',
                 _react2.default.createElement(
                   'span',
@@ -16009,7 +15449,7 @@ var UserTooltip = function UserTooltip(_ref) {
               _react2.default.createElement(
                 'span',
                 null,
-                sellAmount,
+                sellAmount.toString(),
                 ' ',
                 _react2.default.createElement(
                   'span',
@@ -16049,20 +15489,20 @@ UserTooltip.propTypes = {
 exports.default = (0, _reactCssModules2.default)(UserTooltip, _UserTooltip2.default, { allowMultiple: true });
 
 /***/ }),
-/* 956 */
+/* 942 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"column":"_3rHFm5","feed":"_2wHzlm","userTooltip":"v8POQM","title":"_3DK_1S","currency":"_1qKKUr","coin":"X934On","arrow":"_1T0JYa","checked":"_3RrmBT","icon":"_2etP7N"};
 
 /***/ }),
-/* 957 */
+/* 943 */
 /***/ (function(module, exports) {
 
 module.exports = "https://testnet.swap.online/images/arrow-right_014b04.svg";
 
 /***/ }),
-/* 958 */
+/* 944 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -16074,9 +15514,9 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _redaction = __webpack_require__(27);
+var _redaction = __webpack_require__(26);
 
-var _Loader = __webpack_require__(130);
+var _Loader = __webpack_require__(127);
 
 var _Loader2 = _interopRequireDefault(_Loader);
 
@@ -16092,7 +15532,7 @@ exports.default = (0, _redaction.connect)({
 })(RequestLoader);
 
 /***/ }),
-/* 959 */
+/* 945 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -16101,7 +15541,7 @@ exports.default = (0, _redaction.connect)({
 exports.__esModule = true;
 exports.default = undefined;
 
-var _keys = __webpack_require__(17);
+var _keys = __webpack_require__(25);
 
 var _keys2 = _interopRequireDefault(_keys);
 
@@ -16127,11 +15567,11 @@ var _propTypes = __webpack_require__(7);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
-var _redaction = __webpack_require__(27);
+var _redaction = __webpack_require__(26);
 
-var _helpers = __webpack_require__(12);
+var _helpers = __webpack_require__(11);
 
-var _modals = __webpack_require__(960);
+var _modals = __webpack_require__(946);
 
 var _modals2 = _interopRequireDefault(_modals);
 
@@ -16139,7 +15579,7 @@ var _reactCssModules = __webpack_require__(2);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _ModalConductor = __webpack_require__(1001);
+var _ModalConductor = __webpack_require__(987);
 
 var _ModalConductor2 = _interopRequireDefault(_ModalConductor);
 
@@ -16231,7 +15671,7 @@ var ModalConductor = (_dec = (0, _redaction.connect)({
 exports.default = ModalConductor;
 
 /***/ }),
-/* 960 */
+/* 946 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -16239,15 +15679,15 @@ exports.default = ModalConductor;
 
 exports.__esModule = true;
 
-var _OfferModal = __webpack_require__(961);
+var _OfferModal = __webpack_require__(947);
 
 var _OfferModal2 = _interopRequireDefault(_OfferModal);
 
-var _WithdrawModal = __webpack_require__(995);
+var _WithdrawModal = __webpack_require__(981);
 
 var _WithdrawModal2 = _interopRequireDefault(_WithdrawModal);
 
-var _PrivateKeysModal = __webpack_require__(997);
+var _PrivateKeysModal = __webpack_require__(983);
 
 var _PrivateKeysModal2 = _interopRequireDefault(_PrivateKeysModal);
 
@@ -16260,7 +15700,7 @@ exports.default = {
 };
 
 /***/ }),
-/* 961 */
+/* 947 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -16295,23 +15735,23 @@ var _reactCssModules = __webpack_require__(2);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _OfferModal = __webpack_require__(962);
+var _OfferModal = __webpack_require__(948);
 
 var _OfferModal2 = _interopRequireDefault(_OfferModal);
 
-var _actions = __webpack_require__(14);
+var _actions = __webpack_require__(13);
 
 var _actions2 = _interopRequireDefault(_actions);
 
-var _Modal = __webpack_require__(196);
+var _Modal = __webpack_require__(193);
 
 var _Modal2 = _interopRequireDefault(_Modal);
 
-var _ConfirmOffer = __webpack_require__(970);
+var _ConfirmOffer = __webpack_require__(956);
 
 var _ConfirmOffer2 = _interopRequireDefault(_ConfirmOffer);
 
-var _AddOffer = __webpack_require__(981);
+var _AddOffer = __webpack_require__(967);
 
 var _AddOffer2 = _interopRequireDefault(_AddOffer);
 
@@ -16372,21 +15812,21 @@ var Offer = (_dec = (0, _reactCssModules2.default)(_OfferModal2.default), _dec(_
 exports.default = Offer;
 
 /***/ }),
-/* 962 */
+/* 948 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"content":"_35EvSl"};
 
 /***/ }),
-/* 963 */
+/* 949 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"modal":"_18Zuzz","header":"_247oHD","headerContent":"_1nj0x3","title":"_1fyulC","uppercase":"_2k_g2m","closeButton":"HHCosS","contentContainer":"_2zEN0h","content":"_10IWir"};
 
 /***/ }),
-/* 964 */
+/* 950 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -16394,11 +15834,11 @@ module.exports = {"modal":"_18Zuzz","header":"_247oHD","headerContent":"_1nj0x3"
 
 exports.__esModule = true;
 
-var _extends2 = __webpack_require__(46);
+var _extends2 = __webpack_require__(45);
 
 var _extends3 = _interopRequireDefault(_extends2);
 
-var _objectWithoutProperties2 = __webpack_require__(25);
+var _objectWithoutProperties2 = __webpack_require__(27);
 
 var _objectWithoutProperties3 = _interopRequireDefault(_objectWithoutProperties2);
 
@@ -16410,13 +15850,13 @@ var _propTypes = __webpack_require__(7);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
-var _helpers = __webpack_require__(12);
+var _helpers = __webpack_require__(11);
 
 var _reactCssModules = __webpack_require__(2);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _Overlay = __webpack_require__(965);
+var _Overlay = __webpack_require__(951);
 
 var _Overlay2 = _interopRequireDefault(_Overlay);
 
@@ -16442,14 +15882,14 @@ Overlay.propTypes = {
 exports.default = (0, _reactCssModules2.default)(Overlay, _Overlay2.default);
 
 /***/ }),
-/* 965 */
+/* 951 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"overlay":"ctI9Nl"};
 
 /***/ }),
-/* 966 */
+/* 952 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -16457,11 +15897,11 @@ module.exports = {"overlay":"ctI9Nl"};
 
 exports.__esModule = true;
 
-var _extends2 = __webpack_require__(46);
+var _extends2 = __webpack_require__(45);
 
 var _extends3 = _interopRequireDefault(_extends2);
 
-var _objectWithoutProperties2 = __webpack_require__(25);
+var _objectWithoutProperties2 = __webpack_require__(27);
 
 var _objectWithoutProperties3 = _interopRequireDefault(_objectWithoutProperties2);
 
@@ -16481,7 +15921,7 @@ var _reactCssModules = __webpack_require__(2);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _Center = __webpack_require__(967);
+var _Center = __webpack_require__(953);
 
 var _Center2 = _interopRequireDefault(_Center);
 
@@ -16520,14 +15960,14 @@ Center.defaultProps = {
 exports.default = (0, _reactCssModules2.default)(Center, _Center2.default, { allowMultiple: true });
 
 /***/ }),
-/* 967 */
+/* 953 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"centringContainer":"_1MHV1x","scrollable":"_3_xp05","centringContent":"_1MbRzk"};
 
 /***/ }),
-/* 968 */
+/* 954 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -16535,11 +15975,11 @@ module.exports = {"centringContainer":"_1MHV1x","scrollable":"_3_xp05","centring
 
 exports.__esModule = true;
 
-var _extends2 = __webpack_require__(46);
+var _extends2 = __webpack_require__(45);
 
 var _extends3 = _interopRequireDefault(_extends2);
 
-var _objectWithoutProperties2 = __webpack_require__(25);
+var _objectWithoutProperties2 = __webpack_require__(27);
 
 var _objectWithoutProperties3 = _interopRequireDefault(_objectWithoutProperties2);
 
@@ -16559,7 +15999,7 @@ var _reactCssModules = __webpack_require__(2);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _CloseIcon = __webpack_require__(969);
+var _CloseIcon = __webpack_require__(955);
 
 var _CloseIcon2 = _interopRequireDefault(_CloseIcon);
 
@@ -16590,14 +16030,14 @@ CloseIcon.propTypes = {
 exports.default = (0, _reactCssModules2.default)(CloseIcon, _CloseIcon2.default, { allowMultiple: true });
 
 /***/ }),
-/* 969 */
+/* 955 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"button":"_3DuKEL","whiteColor":"_1cHfwF","icon":"IZktJv","brandColor":"LyalG8"};
 
 /***/ }),
-/* 970 */
+/* 956 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -16624,41 +16064,41 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _actions = __webpack_require__(14);
+var _actions = __webpack_require__(13);
 
 var _actions2 = _interopRequireDefault(_actions);
 
-var _newSwap = __webpack_require__(91);
+var _newSwap = __webpack_require__(88);
 
 var _reactCssModules = __webpack_require__(2);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _ConfirmOffer = __webpack_require__(971);
+var _ConfirmOffer = __webpack_require__(957);
 
 var _ConfirmOffer2 = _interopRequireDefault(_ConfirmOffer);
 
-var _ButtonsInRow = __webpack_require__(972);
+var _ButtonsInRow = __webpack_require__(958);
 
 var _ButtonsInRow2 = _interopRequireDefault(_ButtonsInRow);
 
-var _Button = __webpack_require__(70);
+var _Button = __webpack_require__(69);
 
 var _Button2 = _interopRequireDefault(_Button);
 
-var _Coins = __webpack_require__(338);
+var _Coins = __webpack_require__(336);
 
 var _Coins2 = _interopRequireDefault(_Coins);
 
-var _Amounts = __webpack_require__(974);
+var _Amounts = __webpack_require__(960);
 
 var _Amounts2 = _interopRequireDefault(_Amounts);
 
-var _ExchangeRate = __webpack_require__(978);
+var _ExchangeRate = __webpack_require__(964);
 
 var _ExchangeRate2 = _interopRequireDefault(_ExchangeRate);
 
-var _Fee = __webpack_require__(980);
+var _Fee = __webpack_require__(966);
 
 var _Fee2 = _interopRequireDefault(_Fee);
 
@@ -16725,8 +16165,8 @@ var ConfirmOffer = (_dec = (0, _reactCssModules2.default)(_ConfirmOffer2.default
         ),
         _react2.default.createElement(
           _Button2.default,
-          { styleName: 'button', brand: true, onClick: this.handleConfirm },
-          'Confirm'
+          { styleName: 'button', id: 'confirm', brand: true, onClick: this.handleConfirm },
+          'Add'
         )
       )
     );
@@ -16737,14 +16177,14 @@ var ConfirmOffer = (_dec = (0, _reactCssModules2.default)(_ConfirmOffer2.default
 exports.default = ConfirmOffer;
 
 /***/ }),
-/* 971 */
+/* 957 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"coins":"_2RjWU2","buttonsInRow":"_3mrqw4","button":"_1vanZm"};
 
 /***/ }),
-/* 972 */
+/* 958 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -16752,7 +16192,7 @@ module.exports = {"coins":"_2RjWU2","buttonsInRow":"_3mrqw4","button":"_1vanZm"}
 
 exports.__esModule = true;
 
-var _objectWithoutProperties2 = __webpack_require__(25);
+var _objectWithoutProperties2 = __webpack_require__(27);
 
 var _objectWithoutProperties3 = _interopRequireDefault(_objectWithoutProperties2);
 
@@ -16768,7 +16208,7 @@ var _reactCssModules = __webpack_require__(2);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _ButtonsInRow = __webpack_require__(973);
+var _ButtonsInRow = __webpack_require__(959);
 
 var _ButtonsInRow2 = _interopRequireDefault(_ButtonsInRow);
 
@@ -16795,14 +16235,14 @@ ButtonsInRow.propTypes = {
 exports.default = (0, _reactCssModules2.default)(ButtonsInRow, _ButtonsInRow2.default);
 
 /***/ }),
-/* 973 */
+/* 959 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"twoButtonsInRow":"_9_lDxo"};
 
 /***/ }),
-/* 974 */
+/* 960 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -16818,15 +16258,15 @@ var _reactCssModules = __webpack_require__(2);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _Amounts = __webpack_require__(975);
+var _Amounts = __webpack_require__(961);
 
 var _Amounts2 = _interopRequireDefault(_Amounts);
 
-var _Row = __webpack_require__(197);
+var _Row = __webpack_require__(194);
 
 var _Row2 = _interopRequireDefault(_Row);
 
-var _Value = __webpack_require__(198);
+var _Value = __webpack_require__(195);
 
 var _Value2 = _interopRequireDefault(_Value);
 
@@ -16849,28 +16289,28 @@ var Amounts = function Amounts(_ref) {
 exports.default = (0, _reactCssModules2.default)(Amounts, _Amounts2.default);
 
 /***/ }),
-/* 975 */
+/* 961 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"arrow":"_2HWTjJ"};
 
 /***/ }),
-/* 976 */
+/* 962 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"row":"_1y3vOI","title":"LetDhR","content":"_1XWdvY"};
 
 /***/ }),
-/* 977 */
+/* 963 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"value":"_2bAMgW","currency":"_1Z5jPl"};
 
 /***/ }),
-/* 978 */
+/* 964 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -16886,15 +16326,15 @@ var _reactCssModules = __webpack_require__(2);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _ExchangeRate = __webpack_require__(979);
+var _ExchangeRate = __webpack_require__(965);
 
 var _ExchangeRate2 = _interopRequireDefault(_ExchangeRate);
 
-var _Row = __webpack_require__(197);
+var _Row = __webpack_require__(194);
 
 var _Row2 = _interopRequireDefault(_Row);
 
-var _Value = __webpack_require__(198);
+var _Value = __webpack_require__(195);
 
 var _Value2 = _interopRequireDefault(_Value);
 
@@ -16920,14 +16360,14 @@ var ExchangeRate = function ExchangeRate(_ref) {
 exports.default = (0, _reactCssModules2.default)(ExchangeRate, _ExchangeRate2.default);
 
 /***/ }),
-/* 979 */
+/* 965 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"equal":"_3RggZJ"};
 
 /***/ }),
-/* 980 */
+/* 966 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -16939,11 +16379,11 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _Row = __webpack_require__(197);
+var _Row = __webpack_require__(194);
 
 var _Row2 = _interopRequireDefault(_Row);
 
-var _Value = __webpack_require__(198);
+var _Value = __webpack_require__(195);
 
 var _Value2 = _interopRequireDefault(_Value);
 
@@ -16962,7 +16402,7 @@ var Fee = function Fee(_ref) {
 exports.default = Fee;
 
 /***/ }),
-/* 981 */
+/* 967 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -16983,37 +16423,42 @@ var _inherits2 = __webpack_require__(4);
 
 var _inherits3 = _interopRequireDefault(_inherits2);
 
-var _dec, _class, _class2, _temp, _initialiseProps;
+var _dec, _class, _class2, _temp, _initialiseProps; /* eslint-disable */
+
 
 var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _swValuelink = __webpack_require__(93);
+var _swValuelink = __webpack_require__(89);
 
 var _swValuelink2 = _interopRequireDefault(_swValuelink);
 
-var _actions = __webpack_require__(14);
+var _actions = __webpack_require__(13);
 
 var _actions2 = _interopRequireDefault(_actions);
+
+var _bignumber = __webpack_require__(189);
 
 var _reactCssModules = __webpack_require__(2);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _AddOffer = __webpack_require__(988);
+var _AddOffer = __webpack_require__(974);
 
 var _AddOffer2 = _interopRequireDefault(_AddOffer);
 
-var _Button = __webpack_require__(70);
+var _Button = __webpack_require__(69);
 
 var _Button2 = _interopRequireDefault(_Button);
 
-var _Group = __webpack_require__(989);
+var _Group = __webpack_require__(975);
 
 var _Group2 = _interopRequireDefault(_Group);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+_bignumber.BigNumber.config({ DECIMAL_PLACES: 4, ROUNDING_MODE: 4, EXPONENTIAL_AT: [-7, 14], RANGE: 1e+7, CRYPTO: true });
 
 var exchangeRates = {
   'ethbtc': 0.001,
@@ -17079,7 +16524,8 @@ var AddOffer = (_dec = (0, _reactCssModules2.default)(_AddOffer2.default, { allo
         label: 'Buy',
         inputValueLink: linked.buyAmount.onChange(this.handleBuyAmountChange),
         selectedCurrencyValue: buyCurrency,
-        onCurrencySelect: this.handleBuyCurrencySelect
+        onCurrencySelect: this.handleBuyCurrencySelect,
+        id: 'Buy'
       }),
       _react2.default.createElement(_Group2.default, {
         label: 'Sell',
@@ -17115,8 +16561,8 @@ var AddOffer = (_dec = (0, _reactCssModules2.default)(_AddOffer2.default, { allo
         sellAmount = _state2.sellAmount;
 
 
-    buyAmount = buyAmount || 0;
-    sellAmount = buyAmount * Number(value || 0);
+    buyAmount = new _bignumber.BigNumber(String(buyAmount) || 0);
+    sellAmount = buyAmount.multipliedBy(new _bignumber.BigNumber(String(value) || 0));
 
     _this2.setState({
       buyAmount: buyAmount,
@@ -17144,7 +16590,7 @@ var AddOffer = (_dec = (0, _reactCssModules2.default)(_AddOffer2.default, { allo
     var exchangeRate = _this2.getExchangeRate(buyCurrency, sellCurrency);
 
     if (buyAmount) {
-      sellAmount = buyAmount * exchangeRate;
+      sellAmount = new _bignumber.BigNumber(String(buyAmount)).multipliedBy(exchangeRate).toNumber();
     }
 
     _this2.setState({
@@ -17173,7 +16619,7 @@ var AddOffer = (_dec = (0, _reactCssModules2.default)(_AddOffer2.default, { allo
     var exchangeRate = _this2.getExchangeRate(buyCurrency, sellCurrency);
 
     if (buyAmount) {
-      sellAmount = buyAmount * exchangeRate;
+      sellAmount = new _bignumber.BigNumber(String(buyAmount)).multipliedBy(exchangeRate).toNumber();
     }
 
     _this2.setState({
@@ -17192,8 +16638,9 @@ var AddOffer = (_dec = (0, _reactCssModules2.default)(_AddOffer2.default, { allo
       _actions2.default.analytics.dataEvent('orderbook-addoffer-enter-ordervalue');
       _this2.EventWasSend = true;
     }
+
     _this2.setState({
-      sellAmount: value * exchangeRate
+      sellAmount: new _bignumber.BigNumber(String(value) || 0).multipliedBy(exchangeRate).toNumber()
     });
   };
 
@@ -17207,7 +16654,7 @@ var AddOffer = (_dec = (0, _reactCssModules2.default)(_AddOffer2.default, { allo
     }
 
     _this2.setState({
-      buyAmount: value / exchangeRate
+      buyAmount: new _bignumber.BigNumber(String(value) || 0).dividedBy(exchangeRate).toNumber()
     });
   };
 
@@ -17227,6 +16674,8 @@ var AddOffer = (_dec = (0, _reactCssModules2.default)(_AddOffer2.default, { allo
 
     var isDisabled = !exchangeRate || !buyAmount || !sellAmount || forbidden;
 
+    console.log(_this2.state);
+
     if (!isDisabled) {
       onNext(_this2.state);
     }
@@ -17235,7 +16684,7 @@ var AddOffer = (_dec = (0, _reactCssModules2.default)(_AddOffer2.default, { allo
 exports.default = AddOffer;
 
 /***/ }),
-/* 982 */
+/* 968 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -17256,15 +16705,15 @@ var _inherits2 = __webpack_require__(4);
 
 var _inherits3 = _interopRequireDefault(_inherits2);
 
-var _assign = __webpack_require__(9);
+var _assign = __webpack_require__(15);
 
 var _assign2 = _interopRequireDefault(_assign);
 
-var _extends2 = __webpack_require__(46);
+var _extends2 = __webpack_require__(45);
 
 var _extends3 = _interopRequireDefault(_extends2);
 
-var _objectWithoutProperties2 = __webpack_require__(25);
+var _objectWithoutProperties2 = __webpack_require__(27);
 
 var _objectWithoutProperties3 = _interopRequireDefault(_objectWithoutProperties2);
 
@@ -17272,7 +16721,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactInputMask = __webpack_require__(983);
+var _reactInputMask = __webpack_require__(969);
 
 var _reactInputMask2 = _interopRequireDefault(_reactInputMask);
 
@@ -17280,7 +16729,7 @@ var _classnames = __webpack_require__(34);
 
 var _classnames2 = _interopRequireDefault(_classnames);
 
-var _helpers = __webpack_require__(12);
+var _helpers = __webpack_require__(11);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -17555,19 +17004,19 @@ exports.Checkbox = Checkbox;
 exports.NumberInput = NumberInput;
 
 /***/ }),
-/* 983 */,
-/* 984 */,
-/* 985 */,
-/* 986 */,
-/* 987 */,
-/* 988 */
+/* 969 */,
+/* 970 */,
+/* 971 */,
+/* 972 */,
+/* 973 */,
+/* 974 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"buyGroup":"EzYW8A","button":"_2cpQT4"};
 
 /***/ }),
-/* 989 */
+/* 975 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -17583,19 +17032,19 @@ var _reactCssModules = __webpack_require__(2);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _Group = __webpack_require__(990);
+var _Group = __webpack_require__(976);
 
 var _Group2 = _interopRequireDefault(_Group);
 
-var _FieldLabel = __webpack_require__(349);
+var _FieldLabel = __webpack_require__(345);
 
 var _FieldLabel2 = _interopRequireDefault(_FieldLabel);
 
-var _Input = __webpack_require__(200);
+var _Input = __webpack_require__(197);
 
 var _Input2 = _interopRequireDefault(_Input);
 
-var _CurrencySelect = __webpack_require__(317);
+var _CurrencySelect = __webpack_require__(314);
 
 var _CurrencySelect2 = _interopRequireDefault(_CurrencySelect);
 
@@ -17604,6 +17053,8 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 var Group = function Group(_ref) {
   var className = _ref.className,
       label = _ref.label,
+      _ref$id = _ref.id,
+      id = _ref$id === undefined ? '' : _ref$id,
       inputValueLink = _ref.inputValueLink,
       _ref$currency = _ref.currency,
       currency = _ref$currency === undefined ? true : _ref$currency,
@@ -17624,7 +17075,8 @@ var Group = function Group(_ref) {
         styleName: 'inputRoot',
         inputContainerClassName: _Group2.default.inputContainer,
         valueLink: inputValueLink,
-        pattern: '0-9\\.'
+        pattern: '0-9\\.',
+        id: id
       }),
       currency && _react2.default.createElement(_CurrencySelect2.default, {
         styleName: 'currencySelect',
@@ -17638,28 +17090,28 @@ var Group = function Group(_ref) {
 exports.default = (0, _reactCssModules2.default)(Group, _Group2.default);
 
 /***/ }),
-/* 990 */
+/* 976 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"groupField":"m1Yt0g","inputRoot":"_1rUUNY","inputContainer":"_1qVKWE","currencySelect":"_2Otm6-"};
 
 /***/ }),
-/* 991 */
+/* 977 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"label":"_1Grvg1","inRow":"_2anvtg"};
 
 /***/ }),
-/* 992 */
+/* 978 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"root":"_2B8dk-","inputContainer":"_2MfSxb","disabled":"_34MQUG","withError":"_1bE9ra","input":"_2HgfFS","label":"n728cD","error":"_1KSgUc"};
 
 /***/ }),
-/* 993 */
+/* 979 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -17668,11 +17120,11 @@ module.exports = {"root":"_2B8dk-","inputContainer":"_2MfSxb","disabled":"_34MQU
 exports.__esModule = true;
 exports.default = undefined;
 
-var _extends2 = __webpack_require__(46);
+var _extends2 = __webpack_require__(45);
 
 var _extends3 = _interopRequireDefault(_extends2);
 
-var _objectWithoutProperties2 = __webpack_require__(25);
+var _objectWithoutProperties2 = __webpack_require__(27);
 
 var _objectWithoutProperties3 = _interopRequireDefault(_objectWithoutProperties2);
 
@@ -17698,7 +17150,7 @@ var _propTypes = __webpack_require__(7);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
-var _autosize = __webpack_require__(994);
+var _autosize = __webpack_require__(980);
 
 var _autosize2 = _interopRequireDefault(_autosize);
 
@@ -17793,8 +17245,8 @@ var TextareaAutosize = (_temp2 = _class = function (_Component) {
 exports.default = TextareaAutosize;
 
 /***/ }),
-/* 994 */,
-/* 995 */
+/* 980 */,
+/* 981 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -17825,15 +17277,15 @@ var _propTypes = __webpack_require__(7);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
-var _redaction = __webpack_require__(27);
+var _redaction = __webpack_require__(26);
 
-var _helpers = __webpack_require__(12);
+var _helpers = __webpack_require__(11);
 
-var _actions = __webpack_require__(14);
+var _actions = __webpack_require__(13);
 
 var _actions2 = _interopRequireDefault(_actions);
 
-var _swValuelink = __webpack_require__(93);
+var _swValuelink = __webpack_require__(89);
 
 var _swValuelink2 = _interopRequireDefault(_swValuelink);
 
@@ -17841,23 +17293,23 @@ var _reactCssModules = __webpack_require__(2);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _WithdrawModal = __webpack_require__(996);
+var _WithdrawModal = __webpack_require__(982);
 
 var _WithdrawModal2 = _interopRequireDefault(_WithdrawModal);
 
-var _Modal = __webpack_require__(196);
+var _Modal = __webpack_require__(193);
 
 var _Modal2 = _interopRequireDefault(_Modal);
 
-var _FieldLabel = __webpack_require__(349);
+var _FieldLabel = __webpack_require__(345);
 
 var _FieldLabel2 = _interopRequireDefault(_FieldLabel);
 
-var _Input = __webpack_require__(200);
+var _Input = __webpack_require__(197);
 
 var _Input2 = _interopRequireDefault(_Input);
 
-var _Button = __webpack_require__(70);
+var _Button = __webpack_require__(69);
 
 var _Button2 = _interopRequireDefault(_Button);
 
@@ -18001,14 +17453,14 @@ var WithdrawModal = (_dec = (0, _redaction.connect)({
 exports.default = WithdrawModal;
 
 /***/ }),
-/* 996 */
+/* 982 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"note":"_1A5qTh","button":"_2Wr1o_"};
 
 /***/ }),
-/* 997 */
+/* 983 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -18039,39 +17491,39 @@ var _propTypes = __webpack_require__(7);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
-var _redaction = __webpack_require__(27);
+var _redaction = __webpack_require__(26);
 
-var _moment = __webpack_require__(69);
+var _moment = __webpack_require__(68);
 
 var _moment2 = _interopRequireDefault(_moment);
 
-var _actions = __webpack_require__(14);
+var _actions = __webpack_require__(13);
 
 var _actions2 = _interopRequireDefault(_actions);
 
-var _swValuelink = __webpack_require__(93);
+var _swValuelink = __webpack_require__(89);
 
 var _swValuelink2 = _interopRequireDefault(_swValuelink);
 
-var _helpers = __webpack_require__(12);
+var _helpers = __webpack_require__(11);
 
 var _reactCssModules = __webpack_require__(2);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _PrivateKeysModal = __webpack_require__(998);
+var _PrivateKeysModal = __webpack_require__(984);
 
 var _PrivateKeysModal2 = _interopRequireDefault(_PrivateKeysModal);
 
-var _Field = __webpack_require__(999);
+var _Field = __webpack_require__(985);
 
 var _Field2 = _interopRequireDefault(_Field);
 
-var _Modal = __webpack_require__(196);
+var _Modal = __webpack_require__(193);
 
 var _Modal2 = _interopRequireDefault(_Modal);
 
-var _Button = __webpack_require__(70);
+var _Button = __webpack_require__(69);
 
 var _Button2 = _interopRequireDefault(_Button);
 
@@ -18223,14 +17675,14 @@ var PrivateKeysModal = (_dec = (0, _redaction.connect)({
 exports.default = PrivateKeysModal;
 
 /***/ }),
-/* 998 */
+/* 984 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"modal":"_3EyIsk","content":"_13sdCy","title":"TLE3XR","subTitle":"_3u-G2a","button":"_265YTK"};
 
 /***/ }),
-/* 999 */
+/* 985 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -18261,7 +17713,7 @@ var _propTypes = __webpack_require__(7);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
-var _swValuelink = __webpack_require__(93);
+var _swValuelink = __webpack_require__(89);
 
 var _swValuelink2 = _interopRequireDefault(_swValuelink);
 
@@ -18269,15 +17721,15 @@ var _reactCssModules = __webpack_require__(2);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _Field = __webpack_require__(1000);
+var _Field = __webpack_require__(986);
 
 var _Field2 = _interopRequireDefault(_Field);
 
-var _Input = __webpack_require__(200);
+var _Input = __webpack_require__(197);
 
 var _Input2 = _interopRequireDefault(_Input);
 
-var _Button = __webpack_require__(70);
+var _Button = __webpack_require__(69);
 
 var _Button2 = _interopRequireDefault(_Button);
 
@@ -18379,21 +17831,21 @@ var Field2 = (_dec = (0, _reactCssModules2.default)(_Field2.default), _dec(_clas
 exports.default = Field2;
 
 /***/ }),
-/* 1000 */
+/* 986 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"container":"_2sawde","section":"_3I8NoW","label":"_9MIala","input":"B6rjvz","button":"_8Hxxx_","error":"_37HJh_"};
 
 /***/ }),
-/* 1001 */
+/* 987 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"modalConductor":"_8Hhrkg"};
 
 /***/ }),
-/* 1002 */
+/* 988 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -18402,7 +17854,7 @@ module.exports = {"modalConductor":"_8Hhrkg"};
 exports.__esModule = true;
 exports.default = undefined;
 
-var _keys = __webpack_require__(17);
+var _keys = __webpack_require__(25);
 
 var _keys2 = _interopRequireDefault(_keys);
 
@@ -18428,9 +17880,9 @@ var _propTypes = __webpack_require__(7);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
-var _redaction = __webpack_require__(27);
+var _redaction = __webpack_require__(26);
 
-var _notifications = __webpack_require__(1003);
+var _notifications = __webpack_require__(989);
 
 var _notifications2 = _interopRequireDefault(_notifications);
 
@@ -18438,7 +17890,7 @@ var _reactCssModules = __webpack_require__(2);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _NotificationConductor = __webpack_require__(1009);
+var _NotificationConductor = __webpack_require__(995);
 
 var _NotificationConductor2 = _interopRequireDefault(_NotificationConductor);
 
@@ -18487,7 +17939,7 @@ var NotificationConductor = (_dec = (0, _redaction.connect)({
 exports.default = NotificationConductor;
 
 /***/ }),
-/* 1003 */
+/* 989 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -18495,11 +17947,11 @@ exports.default = NotificationConductor;
 
 exports.__esModule = true;
 
-var _SuccessWithdraw = __webpack_require__(1004);
+var _SuccessWithdraw = __webpack_require__(990);
 
 var _SuccessWithdraw2 = _interopRequireDefault(_SuccessWithdraw);
 
-var _Message = __webpack_require__(1007);
+var _Message = __webpack_require__(993);
 
 var _Message2 = _interopRequireDefault(_Message);
 
@@ -18511,7 +17963,7 @@ exports.default = {
 };
 
 /***/ }),
-/* 1004 */
+/* 990 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -18542,11 +17994,11 @@ var _reactCssModules = __webpack_require__(2);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _SuccessWithdraw = __webpack_require__(1005);
+var _SuccessWithdraw = __webpack_require__(991);
 
 var _SuccessWithdraw2 = _interopRequireDefault(_SuccessWithdraw);
 
-var _Notification = __webpack_require__(350);
+var _Notification = __webpack_require__(346);
 
 var _Notification2 = _interopRequireDefault(_Notification);
 
@@ -18590,21 +18042,21 @@ var SuccessWithdraw = (_dec = (0, _reactCssModules2.default)(_SuccessWithdraw2.d
 exports.default = SuccessWithdraw;
 
 /***/ }),
-/* 1005 */
+/* 991 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"value":"_2JfWob"};
 
 /***/ }),
-/* 1006 */
+/* 992 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"container":"_288JHo","mounted":"NHOOb_","removed":"_3iSWGm","notification":"_2wSt7r","content":"_3FIvMD"};
 
 /***/ }),
-/* 1007 */
+/* 993 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -18635,11 +18087,11 @@ var _reactCssModules = __webpack_require__(2);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _Message = __webpack_require__(1008);
+var _Message = __webpack_require__(994);
 
 var _Message2 = _interopRequireDefault(_Message);
 
-var _Notification = __webpack_require__(350);
+var _Notification = __webpack_require__(346);
 
 var _Notification2 = _interopRequireDefault(_Notification);
 
@@ -18675,18 +18127,18 @@ var Message = (_dec = (0, _reactCssModules2.default)(_Message2.default), _dec(_c
 exports.default = Message;
 
 /***/ }),
-/* 1008 */
+/* 994 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"value":"_34omtZ"};
 
 /***/ }),
-/* 1009 */
+/* 995 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"notificationConductor":"QOGrSh"};
 
 /***/ })
-],[351]);
+],[347]);
