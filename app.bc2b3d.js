@@ -19,39 +19,39 @@ webpackJsonp([0],[
 exports.__esModule = true;
 exports.getScrollBarWidth = exports.getPageOffset = exports.ignoreProps = exports.localStorage = exports.constants = exports.request = exports.links = exports.web3 = exports.btc = undefined;
 
-var _btc = __webpack_require__(377);
+var _btc = __webpack_require__(378);
 
 var _btc2 = _interopRequireDefault(_btc);
 
-var _web = __webpack_require__(98);
+var _web = __webpack_require__(99);
 
 var _web2 = _interopRequireDefault(_web);
 
-var _links = __webpack_require__(577);
+var _links = __webpack_require__(578);
 
 var _links2 = _interopRequireDefault(_links);
 
-var _request = __webpack_require__(578);
+var _request = __webpack_require__(579);
 
 var _request2 = _interopRequireDefault(_request);
 
-var _constants = __webpack_require__(612);
+var _constants = __webpack_require__(613);
 
 var _constants2 = _interopRequireDefault(_constants);
 
-var _localStorage = __webpack_require__(617);
+var _localStorage = __webpack_require__(618);
 
 var _localStorage2 = _interopRequireDefault(_localStorage);
 
-var _ignoreProps = __webpack_require__(619);
+var _ignoreProps = __webpack_require__(620);
 
 var _ignoreProps2 = _interopRequireDefault(_ignoreProps);
 
-var _getPageOffset = __webpack_require__(622);
+var _getPageOffset = __webpack_require__(623);
 
 var _getPageOffset2 = _interopRequireDefault(_getPageOffset);
 
-var _getScrollBarWidth = __webpack_require__(623);
+var _getScrollBarWidth = __webpack_require__(624);
 
 var _getScrollBarWidth2 = _interopRequireDefault(_getScrollBarWidth);
 
@@ -80,47 +80,47 @@ exports.getScrollBarWidth = _getScrollBarWidth2.default;
 
 exports.__esModule = true;
 
-var _modals = __webpack_require__(784);
+var _modals = __webpack_require__(788);
 
 var _modals2 = _interopRequireDefault(_modals);
 
-var _loader = __webpack_require__(827);
+var _loader = __webpack_require__(831);
 
 var _loader2 = _interopRequireDefault(_loader);
 
-var _notifications = __webpack_require__(828);
+var _notifications = __webpack_require__(832);
 
 var _notifications2 = _interopRequireDefault(_notifications);
 
-var _filter = __webpack_require__(829);
+var _filter = __webpack_require__(833);
 
 var _filter2 = _interopRequireDefault(_filter);
 
-var _user = __webpack_require__(830);
+var _user = __webpack_require__(834);
 
 var _user2 = _interopRequireDefault(_user);
 
-var _bitcoin = __webpack_require__(833);
+var _bitcoin = __webpack_require__(837);
 
 var _bitcoin2 = _interopRequireDefault(_bitcoin);
 
-var _ethereum = __webpack_require__(834);
+var _ethereum = __webpack_require__(838);
 
 var _ethereum2 = _interopRequireDefault(_ethereum);
 
-var _token = __webpack_require__(835);
+var _token = __webpack_require__(839);
 
 var _token2 = _interopRequireDefault(_token);
 
-var _nimiq = __webpack_require__(837);
+var _nimiq = __webpack_require__(841);
 
 var _nimiq2 = _interopRequireDefault(_nimiq);
 
-var _feed = __webpack_require__(839);
+var _feed = __webpack_require__(843);
 
 var _feed2 = _interopRequireDefault(_feed);
 
-var _analytics = __webpack_require__(840);
+var _analytics = __webpack_require__(844);
 
 var _analytics2 = _interopRequireDefault(_analytics);
 
@@ -153,31 +153,31 @@ exports.default = {
 exports.__esModule = true;
 exports.util = exports.constants = exports.Events = exports.Collection = exports.SwapInterface = exports.ServiceInterface = undefined;
 
-var _SwapApp = __webpack_require__(328);
+var _SwapApp = __webpack_require__(329);
 
 var _SwapApp2 = _interopRequireDefault(_SwapApp);
 
-var _ServiceInterface = __webpack_require__(852);
+var _ServiceInterface = __webpack_require__(856);
 
 var _ServiceInterface2 = _interopRequireDefault(_ServiceInterface);
 
-var _SwapInterface = __webpack_require__(853);
+var _SwapInterface = __webpack_require__(857);
 
 var _SwapInterface2 = _interopRequireDefault(_SwapInterface);
 
-var _Collection = __webpack_require__(854);
+var _Collection = __webpack_require__(858);
 
 var _Collection2 = _interopRequireDefault(_Collection);
 
-var _Events = __webpack_require__(855);
+var _Events = __webpack_require__(859);
 
 var _Events2 = _interopRequireDefault(_Events);
 
-var _constants = __webpack_require__(329);
+var _constants = __webpack_require__(330);
 
 var _constants2 = _interopRequireDefault(_constants);
 
-var _util = __webpack_require__(856);
+var _util = __webpack_require__(860);
 
 var _util2 = _interopRequireDefault(_util);
 
@@ -215,7 +215,7 @@ exports.__esModule = true;
 
 var _redaction = __webpack_require__(26);
 
-var _reduErs = __webpack_require__(324);
+var _reduErs = __webpack_require__(325);
 
 var _reduErs2 = _interopRequireDefault(_reduErs);
 
@@ -257,11 +257,11 @@ exports.default = (0, _redaction.wrapReducers)(_reduErs2.default, _store2.defaul
 exports.__esModule = true;
 exports.Flow = undefined;
 
-var _Swap = __webpack_require__(908);
+var _Swap = __webpack_require__(912);
 
 var _Swap2 = _interopRequireDefault(_Swap);
 
-var _Flow = __webpack_require__(909);
+var _Flow = __webpack_require__(913);
 
 var _Flow2 = _interopRequireDefault(_Flow);
 
@@ -297,7 +297,47 @@ exports.default = {"propENV":"testnet.prod","paths":{},"publicPath":"https://tes
 /* 66 */,
 /* 67 */,
 /* 68 */,
-/* 69 */
+/* 69 */,
+/* 70 */,
+/* 71 */,
+/* 72 */,
+/* 73 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+exports.__esModule = true;
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _reactCssModules = __webpack_require__(2);
+
+var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
+
+var _InlineLoader = __webpack_require__(901);
+
+var _InlineLoader2 = _interopRequireDefault(_InlineLoader);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var InlineLoader = function InlineLoader() {
+  return _react2.default.createElement(
+    'div',
+    { styleName: 'ellipsis' },
+    _react2.default.createElement('div', null),
+    _react2.default.createElement('div', null),
+    _react2.default.createElement('div', null),
+    _react2.default.createElement('div', null)
+  );
+};
+
+exports.default = (0, _reactCssModules2.default)(InlineLoader, _InlineLoader2.default);
+
+/***/ }),
+/* 74 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -321,7 +361,7 @@ var _reactCssModules = __webpack_require__(2);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _Button = __webpack_require__(913);
+var _Button = __webpack_require__(917);
 
 var _Button2 = _interopRequireDefault(_Button);
 
@@ -378,11 +418,6 @@ Button.propTypes = {
 exports.default = (0, _reactCssModules2.default)(Button, _Button2.default, { allowMultiple: true });
 
 /***/ }),
-/* 70 */,
-/* 71 */,
-/* 72 */,
-/* 73 */,
-/* 74 */,
 /* 75 */,
 /* 76 */,
 /* 77 */,
@@ -396,7 +431,8 @@ exports.default = (0, _reactCssModules2.default)(Button, _Button2.default, { all
 /* 85 */,
 /* 86 */,
 /* 87 */,
-/* 88 */
+/* 88 */,
+/* 89 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -405,7 +441,7 @@ exports.default = (0, _reactCssModules2.default)(Button, _Button2.default, { all
 exports.__esModule = true;
 exports.swapApp = undefined;
 
-var _web = __webpack_require__(98);
+var _web = __webpack_require__(99);
 
 var _web2 = _interopRequireDefault(_web);
 
@@ -419,19 +455,19 @@ var _swap = __webpack_require__(17);
 
 var _swap2 = _interopRequireDefault(_swap);
 
-var _swap3 = __webpack_require__(123);
+var _swap3 = __webpack_require__(124);
 
 var _swap4 = _interopRequireDefault(_swap3);
 
-var _swap5 = __webpack_require__(334);
+var _swap5 = __webpack_require__(335);
 
 var _swap6 = _interopRequireDefault(_swap5);
 
-var _swap7 = __webpack_require__(864);
+var _swap7 = __webpack_require__(868);
 
 var _swap8 = _interopRequireDefault(_swap7);
 
-var _swap9 = __webpack_require__(876);
+var _swap9 = __webpack_require__(880);
 
 var _actions = __webpack_require__(13);
 
@@ -509,7 +545,7 @@ console.log('swapApp public data', _swap2.default.services.auth.getPublicData())
 exports.swapApp = _swap2.default;
 
 /***/ }),
-/* 89 */
+/* 90 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -522,7 +558,7 @@ var _keys = __webpack_require__(25);
 
 var _keys2 = _interopRequireDefault(_keys);
 
-var _tags = __webpack_require__(968);
+var _tags = __webpack_require__(972);
 
 Object.defineProperty(exports, 'Input', {
   enumerable: true,
@@ -561,7 +597,7 @@ Object.defineProperty(exports, 'Select', {
   }
 });
 
-var _valuelink = __webpack_require__(971);
+var _valuelink = __webpack_require__(975);
 
 var _valuelink2 = _interopRequireDefault(_valuelink);
 
@@ -575,7 +611,6 @@ _valuelink2.default.allFields = function (component) {
 exports.default = _valuelink2.default;
 
 /***/ }),
-/* 90 */,
 /* 91 */,
 /* 92 */,
 /* 93 */,
@@ -583,7 +618,8 @@ exports.default = _valuelink2.default;
 /* 95 */,
 /* 96 */,
 /* 97 */,
-/* 98 */
+/* 98 */,
+/* 99 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -591,7 +627,7 @@ exports.default = _valuelink2.default;
 
 exports.__esModule = true;
 
-var _web = __webpack_require__(432);
+var _web = __webpack_require__(433);
 
 var _web2 = _interopRequireDefault(_web);
 
@@ -606,7 +642,6 @@ var web3 = new _web2.default(new _web2.default.providers.HttpProvider(_appConfig
 exports.default = web3;
 
 /***/ }),
-/* 99 */,
 /* 100 */,
 /* 101 */,
 /* 102 */,
@@ -618,7 +653,8 @@ exports.default = web3;
 /* 108 */,
 /* 109 */,
 /* 110 */,
-/* 111 */
+/* 111 */,
+/* 112 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -638,11 +674,11 @@ var _reactCssModules = __webpack_require__(2);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _PageHeadline = __webpack_require__(764);
+var _PageHeadline = __webpack_require__(765);
 
 var _PageHeadline2 = _interopRequireDefault(_PageHeadline);
 
-var _Title = __webpack_require__(313);
+var _Title = __webpack_require__(314);
 
 var _Title2 = _interopRequireDefault(_Title);
 
@@ -684,7 +720,6 @@ PageHeadline.propTypes = {
 exports.default = (0, _reactCssModules2.default)(PageHeadline, _PageHeadline2.default);
 
 /***/ }),
-/* 112 */,
 /* 113 */,
 /* 114 */,
 /* 115 */,
@@ -694,7 +729,8 @@ exports.default = (0, _reactCssModules2.default)(PageHeadline, _PageHeadline2.de
 /* 119 */,
 /* 120 */,
 /* 121 */,
-/* 122 */
+/* 122 */,
+/* 123 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -721,23 +757,6 @@ exports.reducers = _reducers2.default;
 exports.getState = getState;
 
 /***/ }),
-/* 123 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-exports.__esModule = true;
-
-var _SwapAuth = __webpack_require__(124);
-
-var _SwapAuth2 = _interopRequireDefault(_SwapAuth);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-exports.default = _SwapAuth2.default;
-
-/***/ }),
 /* 124 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -746,7 +765,24 @@ exports.default = _SwapAuth2.default;
 
 exports.__esModule = true;
 
-var _stringify = __webpack_require__(73);
+var _SwapAuth = __webpack_require__(125);
+
+var _SwapAuth2 = _interopRequireDefault(_SwapAuth);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+exports.default = _SwapAuth2.default;
+
+/***/ }),
+/* 125 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+exports.__esModule = true;
+
+var _stringify = __webpack_require__(72);
 
 var _stringify2 = _interopRequireDefault(_stringify);
 
@@ -812,7 +848,7 @@ var SwapAuth = function (_ServiceInterface) {
       }
 
       try {
-        var instance = __webpack_require__(862)("./" + name);
+        var instance = __webpack_require__(866)("./" + name);
         instance = instance.default || instance;
         var account = instance.login(_privateKeys[name]);
 
@@ -844,42 +880,6 @@ var SwapAuth = function (_ServiceInterface) {
 exports.default = SwapAuth;
 
 /***/ }),
-/* 125 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-exports.__esModule = true;
-
-var _react = __webpack_require__(0);
-
-var _react2 = _interopRequireDefault(_react);
-
-var _reactCssModules = __webpack_require__(2);
-
-var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
-
-var _InlineLoader = __webpack_require__(897);
-
-var _InlineLoader2 = _interopRequireDefault(_InlineLoader);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var InlineLoader = function InlineLoader() {
-  return _react2.default.createElement(
-    'div',
-    { styleName: 'ellipsis' },
-    _react2.default.createElement('div', null),
-    _react2.default.createElement('div', null),
-    _react2.default.createElement('div', null),
-    _react2.default.createElement('div', null)
-  );
-};
-
-exports.default = (0, _reactCssModules2.default)(InlineLoader, _InlineLoader2.default);
-
-/***/ }),
 /* 126 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -889,19 +889,19 @@ exports.default = (0, _reactCssModules2.default)(InlineLoader, _InlineLoader2.de
 exports.__esModule = true;
 exports.BTC2ETHTOKEN = exports.ETHTOKEN2BTC = exports.BTC2ETH = exports.ETH2BTC = undefined;
 
-var _ETH2BTC = __webpack_require__(907);
+var _ETH2BTC = __webpack_require__(911);
 
 var _ETH2BTC2 = _interopRequireDefault(_ETH2BTC);
 
-var _BTC2ETH = __webpack_require__(910);
+var _BTC2ETH = __webpack_require__(914);
 
 var _BTC2ETH2 = _interopRequireDefault(_BTC2ETH);
 
-var _ETHTOKEN2BTC = __webpack_require__(911);
+var _ETHTOKEN2BTC = __webpack_require__(915);
 
 var _ETHTOKEN2BTC2 = _interopRequireDefault(_ETHTOKEN2BTC);
 
-var _BTC2ETHTOKEN = __webpack_require__(912);
+var _BTC2ETHTOKEN = __webpack_require__(916);
 
 var _BTC2ETHTOKEN2 = _interopRequireDefault(_BTC2ETHTOKEN);
 
@@ -920,40 +920,111 @@ exports.BTC2ETHTOKEN = _BTC2ETHTOKEN2.default;
 
 
 exports.__esModule = true;
+exports.default = undefined;
+
+var _classCallCheck2 = __webpack_require__(1);
+
+var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
+
+var _possibleConstructorReturn2 = __webpack_require__(3);
+
+var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
+
+var _inherits2 = __webpack_require__(4);
+
+var _inherits3 = _interopRequireDefault(_inherits2);
+
+var _class, _temp, _initialiseProps;
 
 var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactCssModules = __webpack_require__(2);
+var _propTypes = __webpack_require__(7);
 
-var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
+var _propTypes2 = _interopRequireDefault(_propTypes);
 
-var _Loader = __webpack_require__(916);
+var _Button = __webpack_require__(74);
 
-var _Loader2 = _interopRequireDefault(_Loader);
+var _Button2 = _interopRequireDefault(_Button);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var Loader = function Loader(_ref) {
-  var overlayClassName = _ref.overlayClassName,
-      className = _ref.className,
-      _ref$overlay = _ref.overlay,
-      overlay = _ref$overlay === undefined ? true : _ref$overlay;
-  return _react2.default.createElement(
-    'div',
-    { styleName: overlay ? 'overlay' : '', className: overlayClassName },
-    _react2.default.createElement(
-      'div',
-      { styleName: overlay ? 'loader center' : 'loader', className: className },
-      _react2.default.createElement('div', { styleName: 'loader1' }),
-      _react2.default.createElement('div', { styleName: 'loader2' }),
-      _react2.default.createElement('div', { styleName: 'loader3' })
-    )
-  );
-};
+var TimerButton = (_temp = _class = function (_Component) {
+  (0, _inherits3.default)(TimerButton, _Component);
 
-exports.default = (0, _reactCssModules2.default)(Loader, _Loader2.default, { allowMultiple: true });
+  function TimerButton(_ref) {
+    var timeLeft = _ref.timeLeft;
+    (0, _classCallCheck3.default)(this, TimerButton);
+
+    var _this = (0, _possibleConstructorReturn3.default)(this, _Component.call(this));
+
+    _initialiseProps.call(_this);
+
+    _this.state = {
+      timeLeft: timeLeft
+    };
+    return _this;
+  }
+
+  TimerButton.prototype.componentDidMount = function componentDidMount() {
+    this.tick();
+  };
+
+  TimerButton.prototype.componentWillUnmount = function componentWillUnmount() {
+    clearTimeout(this.timer);
+  };
+
+  TimerButton.prototype.render = function render() {
+    var timeLeft = this.state.timeLeft;
+    var children = this.props.children;
+
+
+    return _react2.default.createElement(
+      _Button2.default,
+      { brand: true, onClick: this.handleClick },
+      children,
+      ' ',
+      timeLeft,
+      's'
+    );
+  };
+
+  return TimerButton;
+}(_react.Component), _class.propTypes = {
+  timeLeft: _propTypes2.default.number, // seconds
+  onClick: _propTypes2.default.func.isRequired
+}, _class.defaultProps = {
+  timeLeft: 10
+}, _initialiseProps = function _initialiseProps() {
+  var _this2 = this;
+
+  this.timer = null;
+
+  this.tick = function () {
+    var timeLeft = _this2.state.timeLeft;
+
+    var newTimeLeft = timeLeft - 1;
+
+    if (newTimeLeft <= 0) {
+      _this2.handleClick();
+    } else {
+      _this2.timer = setTimeout(_this2.tick, 1000);
+      _this2.setState({
+        timeLeft: newTimeLeft
+      });
+    }
+  };
+
+  this.handleClick = function () {
+    var onClick = _this2.props.onClick;
+
+
+    clearTimeout(_this2.timer);
+    onClick();
+  };
+}, _temp);
+exports.default = TimerButton;
 
 /***/ }),
 /* 128 */,
@@ -1029,7 +1100,7 @@ var _reactCssModules = __webpack_require__(2);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _SubTitle = __webpack_require__(766);
+var _SubTitle = __webpack_require__(767);
 
 var _SubTitle2 = _interopRequireDefault(_SubTitle);
 
@@ -1061,15 +1132,15 @@ var _assign = __webpack_require__(15);
 
 var _assign2 = _interopRequireDefault(_assign);
 
-var _reactRouterRedux = __webpack_require__(325);
+var _reactRouterRedux = __webpack_require__(326);
 
 var _history = __webpack_require__(53);
 
 var _redaction = __webpack_require__(26);
 
-var _reduxLogger = __webpack_require__(826);
+var _reduxLogger = __webpack_require__(830);
 
-var _reduErs = __webpack_require__(324);
+var _reduErs = __webpack_require__(325);
 
 var _reduErs2 = _interopRequireDefault(_reduErs);
 
@@ -1111,11 +1182,11 @@ var _reactCssModules = __webpack_require__(2);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _Coin = __webpack_require__(882);
+var _Coin = __webpack_require__(886);
 
 var _Coin2 = _interopRequireDefault(_Coin);
 
-var _CurrencyIcon = __webpack_require__(315);
+var _CurrencyIcon = __webpack_require__(316);
 
 var _CurrencyIcon2 = _interopRequireDefault(_CurrencyIcon);
 
@@ -1177,7 +1248,7 @@ var _reactCssModules = __webpack_require__(2);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _Table = __webpack_require__(887);
+var _Table = __webpack_require__(891);
 
 var _Table2 = _interopRequireDefault(_Table);
 
@@ -1252,7 +1323,7 @@ var _reactCssModules = __webpack_require__(2);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _WidthContainer = __webpack_require__(928);
+var _WidthContainer = __webpack_require__(931);
 
 var _WidthContainer2 = _interopRequireDefault(_WidthContainer);
 
@@ -1316,6 +1387,47 @@ exports.default = (0, _reactCssModules2.default)(WidthContainer, _WidthContainer
 
 
 exports.__esModule = true;
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _reactCssModules = __webpack_require__(2);
+
+var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
+
+var _Loader = __webpack_require__(947);
+
+var _Loader2 = _interopRequireDefault(_Loader);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var Loader = function Loader(_ref) {
+  var overlayClassName = _ref.overlayClassName,
+      className = _ref.className;
+  return _react2.default.createElement(
+    'div',
+    { styleName: 'overlay', className: overlayClassName },
+    _react2.default.createElement(
+      'div',
+      { styleName: 'loader center', className: className },
+      _react2.default.createElement('div', { styleName: 'loader1' }),
+      _react2.default.createElement('div', { styleName: 'loader2' }),
+      _react2.default.createElement('div', { styleName: 'loader3' })
+    )
+  );
+};
+
+exports.default = (0, _reactCssModules2.default)(Loader, _Loader2.default, { allowMultiple: true });
+
+/***/ }),
+/* 194 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+exports.__esModule = true;
 exports.default = undefined;
 
 var _classCallCheck2 = __webpack_require__(1);
@@ -1352,7 +1464,7 @@ var _reactCssModules = __webpack_require__(2);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _Modal = __webpack_require__(949);
+var _Modal = __webpack_require__(953);
 
 var _Modal2 = _interopRequireDefault(_Modal);
 
@@ -1360,19 +1472,19 @@ var _WidthContainer = __webpack_require__(192);
 
 var _WidthContainer2 = _interopRequireDefault(_WidthContainer);
 
-var _Overlay = __webpack_require__(950);
+var _Overlay = __webpack_require__(954);
 
 var _Overlay2 = _interopRequireDefault(_Overlay);
 
-var _Logo = __webpack_require__(343);
+var _Logo = __webpack_require__(344);
 
 var _Logo2 = _interopRequireDefault(_Logo);
 
-var _Center = __webpack_require__(952);
+var _Center = __webpack_require__(956);
 
 var _Center2 = _interopRequireDefault(_Center);
 
-var _CloseIcon = __webpack_require__(954);
+var _CloseIcon = __webpack_require__(958);
 
 var _CloseIcon2 = _interopRequireDefault(_CloseIcon);
 
@@ -1491,7 +1603,7 @@ var Modal = (_dec = (0, _reactCssModules2.default)(_Modal2.default, { allowMulti
 exports.default = Modal;
 
 /***/ }),
-/* 194 */
+/* 195 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1507,7 +1619,7 @@ var _reactCssModules = __webpack_require__(2);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _Row = __webpack_require__(962);
+var _Row = __webpack_require__(966);
 
 var _Row2 = _interopRequireDefault(_Row);
 
@@ -1535,7 +1647,7 @@ var Row = function Row(_ref) {
 exports.default = (0, _reactCssModules2.default)(Row, _Row2.default);
 
 /***/ }),
-/* 195 */
+/* 196 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1551,7 +1663,7 @@ var _reactCssModules = __webpack_require__(2);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _Value = __webpack_require__(963);
+var _Value = __webpack_require__(967);
 
 var _Value2 = _interopRequireDefault(_Value);
 
@@ -1579,8 +1691,8 @@ var Value = function Value(_ref) {
 exports.default = (0, _reactCssModules2.default)(Value, _Value2.default);
 
 /***/ }),
-/* 196 */,
-/* 197 */
+/* 197 */,
+/* 198 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1619,7 +1731,7 @@ var _propTypes = __webpack_require__(7);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
-var _swValuelink = __webpack_require__(89);
+var _swValuelink = __webpack_require__(90);
 
 var _classnames = __webpack_require__(34);
 
@@ -1631,11 +1743,11 @@ var _reactCssModules = __webpack_require__(2);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _Input = __webpack_require__(978);
+var _Input = __webpack_require__(982);
 
 var _Input2 = _interopRequireDefault(_Input);
 
-var _TextArea = __webpack_require__(979);
+var _TextArea = __webpack_require__(983);
 
 var _TextArea2 = _interopRequireDefault(_TextArea);
 
@@ -1717,7 +1829,6 @@ var Input = (_dec = (0, _reactCssModules2.default)(_Input2.default, { allowMulti
 exports.default = Input;
 
 /***/ }),
-/* 198 */,
 /* 199 */,
 /* 200 */,
 /* 201 */,
@@ -1832,7 +1943,8 @@ exports.default = Input;
 /* 310 */,
 /* 311 */,
 /* 312 */,
-/* 313 */
+/* 313 */,
+/* 314 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1848,7 +1960,7 @@ var _reactCssModules = __webpack_require__(2);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _Title = __webpack_require__(765);
+var _Title = __webpack_require__(766);
 
 var _Title2 = _interopRequireDefault(_Title);
 
@@ -1866,7 +1978,7 @@ var Title = function Title(_ref) {
 exports.default = (0, _reactCssModules2.default)(Title, _Title2.default);
 
 /***/ }),
-/* 314 */
+/* 315 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1882,15 +1994,15 @@ var _reactCssModules = __webpack_require__(2);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _CurrencySelect = __webpack_require__(771);
+var _CurrencySelect = __webpack_require__(772);
 
 var _CurrencySelect2 = _interopRequireDefault(_CurrencySelect);
 
-var _DropDown = __webpack_require__(772);
+var _DropDown = __webpack_require__(773);
 
 var _DropDown2 = _interopRequireDefault(_DropDown);
 
-var _Option = __webpack_require__(775);
+var _Option = __webpack_require__(776);
 
 var _Option2 = _interopRequireDefault(_Option);
 
@@ -1917,7 +2029,7 @@ var CurrencySelect = function CurrencySelect(_ref) {
 exports.default = (0, _reactCssModules2.default)(CurrencySelect, _CurrencySelect2.default);
 
 /***/ }),
-/* 315 */
+/* 316 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1938,31 +2050,31 @@ var _reactCssModules = __webpack_require__(2);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _CurrencyIcon = __webpack_require__(777);
+var _CurrencyIcon = __webpack_require__(778);
 
 var _CurrencyIcon2 = _interopRequireDefault(_CurrencyIcon);
 
-var _btc = __webpack_require__(778);
+var _btc = __webpack_require__(779);
 
 var _btc2 = _interopRequireDefault(_btc);
 
-var _eth = __webpack_require__(779);
+var _eth = __webpack_require__(780);
 
 var _eth2 = _interopRequireDefault(_eth);
 
-var _icx = __webpack_require__(780);
+var _icx = __webpack_require__(781);
 
 var _icx2 = _interopRequireDefault(_icx);
 
-var _waves = __webpack_require__(781);
+var _waves = __webpack_require__(782);
 
 var _waves2 = _interopRequireDefault(_waves);
 
-var _xrp = __webpack_require__(782);
+var _xrp = __webpack_require__(783);
 
 var _xrp2 = _interopRequireDefault(_xrp);
 
-var _nim = __webpack_require__(783);
+var _nim = __webpack_require__(784);
 
 var _nim2 = _interopRequireDefault(_nim);
 
@@ -2010,7 +2122,6 @@ var CurrencyIcon = function CurrencyIcon(_ref) {
 exports.default = (0, _reactCssModules2.default)(CurrencyIcon, _CurrencyIcon2.default);
 
 /***/ }),
-/* 316 */,
 /* 317 */,
 /* 318 */,
 /* 319 */,
@@ -2018,7 +2129,8 @@ exports.default = (0, _reactCssModules2.default)(CurrencyIcon, _CurrencyIcon2.de
 /* 321 */,
 /* 322 */,
 /* 323 */,
-/* 324 */
+/* 324 */,
+/* 325 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2026,31 +2138,31 @@ exports.default = (0, _reactCssModules2.default)(CurrencyIcon, _CurrencyIcon2.de
 
 exports.__esModule = true;
 
-var _notifications = __webpack_require__(816);
+var _notifications = __webpack_require__(820);
 
 var notifications = _interopRequireWildcard(_notifications);
 
-var _modals = __webpack_require__(817);
+var _modals = __webpack_require__(821);
 
 var modals = _interopRequireWildcard(_modals);
 
-var _history = __webpack_require__(818);
+var _history = __webpack_require__(822);
 
 var history = _interopRequireWildcard(_history);
 
-var _loader = __webpack_require__(819);
+var _loader = __webpack_require__(823);
 
 var loader = _interopRequireWildcard(_loader);
 
-var _user = __webpack_require__(820);
+var _user = __webpack_require__(824);
 
 var user = _interopRequireWildcard(_user);
 
-var _feeds = __webpack_require__(821);
+var _feeds = __webpack_require__(825);
 
 var feeds = _interopRequireWildcard(_feeds);
 
-var _orders = __webpack_require__(822);
+var _orders = __webpack_require__(826);
 
 var orders = _interopRequireWildcard(_orders);
 
@@ -2067,10 +2179,10 @@ exports.default = {
 };
 
 /***/ }),
-/* 325 */,
 /* 326 */,
 /* 327 */,
-/* 328 */
+/* 328 */,
+/* 329 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2078,7 +2190,7 @@ exports.default = {
 
 exports.__esModule = true;
 
-var _stringify = __webpack_require__(73);
+var _stringify = __webpack_require__(72);
 
 var _stringify2 = _interopRequireDefault(_stringify);
 
@@ -2090,11 +2202,11 @@ var _classCallCheck2 = __webpack_require__(1);
 
 var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
 
-var _constants = __webpack_require__(329);
+var _constants = __webpack_require__(330);
 
 var _constants2 = _interopRequireDefault(_constants);
 
-var _StorageFactory = __webpack_require__(851);
+var _StorageFactory = __webpack_require__(855);
 
 var _StorageFactory2 = _interopRequireDefault(_StorageFactory);
 
@@ -2215,7 +2327,7 @@ var SwapApp = function () {
 exports.default = new SwapApp();
 
 /***/ }),
-/* 329 */
+/* 330 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2223,23 +2335,23 @@ exports.default = new SwapApp();
 
 exports.__esModule = true;
 
-var _COINS = __webpack_require__(846);
+var _COINS = __webpack_require__(850);
 
 var _COINS2 = _interopRequireDefault(_COINS);
 
-var _ENV = __webpack_require__(847);
+var _ENV = __webpack_require__(851);
 
 var _ENV2 = _interopRequireDefault(_ENV);
 
-var _SERVICES = __webpack_require__(848);
+var _SERVICES = __webpack_require__(852);
 
 var _SERVICES2 = _interopRequireDefault(_SERVICES);
 
-var _SWAPS = __webpack_require__(849);
+var _SWAPS = __webpack_require__(853);
 
 var _SWAPS2 = _interopRequireDefault(_SWAPS);
 
-var _NETWORKS = __webpack_require__(850);
+var _NETWORKS = __webpack_require__(854);
 
 var _NETWORKS2 = _interopRequireDefault(_NETWORKS);
 
@@ -2254,8 +2366,8 @@ exports.default = {
 };
 
 /***/ }),
-/* 330 */,
-/* 331 */
+/* 331 */,
+/* 332 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2307,7 +2419,7 @@ exports.default = {
 };
 
 /***/ }),
-/* 332 */
+/* 333 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2354,7 +2466,7 @@ exports.default = {
 };
 
 /***/ }),
-/* 333 */
+/* 334 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2363,7 +2475,7 @@ exports.default = {
 exports.__esModule = true;
 exports.SwapAuth = undefined;
 
-var _SwapAuth = __webpack_require__(124);
+var _SwapAuth = __webpack_require__(125);
 
 var _SwapAuth2 = _interopRequireDefault(_SwapAuth);
 
@@ -2372,7 +2484,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 exports.SwapAuth = _SwapAuth2.default;
 
 /***/ }),
-/* 334 */
+/* 335 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2380,7 +2492,7 @@ exports.SwapAuth = _SwapAuth2.default;
 
 exports.__esModule = true;
 
-var _SwapRoom = __webpack_require__(863);
+var _SwapRoom = __webpack_require__(867);
 
 var _SwapRoom2 = _interopRequireDefault(_SwapRoom);
 
@@ -2389,7 +2501,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 exports.default = _SwapRoom2.default;
 
 /***/ }),
-/* 335 */
+/* 336 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2402,7 +2514,7 @@ var _swap = __webpack_require__(17);
 exports.default = new _swap.Events();
 
 /***/ }),
-/* 336 */
+/* 337 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2418,7 +2530,7 @@ var _reactCssModules = __webpack_require__(2);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _Coins = __webpack_require__(881);
+var _Coins = __webpack_require__(885);
 
 var _Coins2 = _interopRequireDefault(_Coins);
 
@@ -2444,18 +2556,18 @@ var Coins = function Coins(_ref) {
 exports.default = (0, _reactCssModules2.default)(Coins, _Coins2.default);
 
 /***/ }),
-/* 337 */
+/* 338 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"history-filter":"_1QKxEw","history-filter__item":"_1L29kz","history-filter__item_active":"_3clnGG"};
 
 /***/ }),
-/* 338 */,
 /* 339 */,
 /* 340 */,
 /* 341 */,
-/* 342 */
+/* 342 */,
+/* 343 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2563,7 +2675,7 @@ var Room = function () {
 exports.default = Room;
 
 /***/ }),
-/* 343 */
+/* 344 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2583,15 +2695,15 @@ var _reactCssModules = __webpack_require__(2);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _Logo = __webpack_require__(929);
+var _Logo = __webpack_require__(932);
 
 var _Logo2 = _interopRequireDefault(_Logo);
 
-var _logo = __webpack_require__(930);
+var _logo = __webpack_require__(933);
 
 var _logo2 = _interopRequireDefault(_logo);
 
-var _logoColored = __webpack_require__(931);
+var _logoColored = __webpack_require__(934);
 
 var _logoColored2 = _interopRequireDefault(_logoColored);
 
@@ -2621,13 +2733,13 @@ var Logo = function Logo(_ref) {
 exports.default = (0, _reactCssModules2.default)(Logo, _Logo2.default);
 
 /***/ }),
-/* 344 */
+/* 345 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "71af1b68ea0f662eb88996ea7a25bf8a.mp4";
 
 /***/ }),
-/* 345 */
+/* 346 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2647,7 +2759,7 @@ var _reactCssModules = __webpack_require__(2);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _FieldLabel = __webpack_require__(977);
+var _FieldLabel = __webpack_require__(981);
 
 var _FieldLabel2 = _interopRequireDefault(_FieldLabel);
 
@@ -2666,7 +2778,7 @@ var FieldLabel = function FieldLabel(_ref) {
 exports.default = (0, _reactCssModules2.default)(FieldLabel, _FieldLabel2.default, { allowMultiple: true });
 
 /***/ }),
-/* 346 */
+/* 347 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2709,11 +2821,11 @@ var _reactCssModules = __webpack_require__(2);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _Notification = __webpack_require__(992);
+var _Notification = __webpack_require__(996);
 
 var _Notification2 = _interopRequireDefault(_Notification);
 
-var _Sound = __webpack_require__(344);
+var _Sound = __webpack_require__(345);
 
 var _Sound2 = _interopRequireDefault(_Sound);
 
@@ -2810,7 +2922,7 @@ var Notification = (_dec = (0, _reactCssModules2.default)(_Notification2.default
 exports.default = Notification;
 
 /***/ }),
-/* 347 */
+/* 348 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2820,11 +2932,11 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactDom = __webpack_require__(199);
+var _reactDom = __webpack_require__(200);
 
 var _reactDom2 = _interopRequireDefault(_reactDom);
 
-var _routes = __webpack_require__(356);
+var _routes = __webpack_require__(357);
 
 var _routes2 = _interopRequireDefault(_routes);
 
@@ -2832,23 +2944,25 @@ var _store = __webpack_require__(187);
 
 var _store2 = _interopRequireDefault(_store);
 
-var _Root = __webpack_require__(922);
+var _Root = __webpack_require__(925);
 
 var _Root2 = _interopRequireDefault(_Root);
 
+var _Loader = __webpack_require__(193);
+
+var _Loader2 = _interopRequireDefault(_Loader);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-// import './ipfs'
-// import IpfsRoom from './ipfs-pubsub-room'
+_reactDom2.default.render(_react2.default.createElement(_Loader2.default, null), document.getElementById('root'));
 
+var ipfsRoom = window.document.getElementById('ipfsRoom');
 
-// window.IpfsRoom = IpfsRoom
-
-
-_reactDom2.default.render(_react2.default.createElement(_Root2.default, { history: _store.history, store: _store2.default, routes: _routes2.default }), document.getElementById('root'));
+setInterval(ipfsRoom.onload = function () {
+  _reactDom2.default.render(_react2.default.createElement(_Root2.default, { history: _store.history, store: _store2.default, routes: _routes2.default }), document.getElementById('root'));
+}, 500);
 
 /***/ }),
-/* 348 */,
 /* 349 */,
 /* 350 */,
 /* 351 */,
@@ -2856,7 +2970,8 @@ _reactDom2.default.render(_react2.default.createElement(_Root2.default, { histor
 /* 353 */,
 /* 354 */,
 /* 355 */,
-/* 356 */
+/* 356 */,
+/* 357 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2868,33 +2983,33 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactRouter = __webpack_require__(91);
+var _reactRouter = __webpack_require__(92);
 
 var _reactRouterDom = __webpack_require__(54);
 
 var _helpers = __webpack_require__(11);
 
-var _Home = __webpack_require__(624);
+var _Home = __webpack_require__(625);
 
 var _Home2 = _interopRequireDefault(_Home);
 
-var _Balances = __webpack_require__(888);
+var _Balances = __webpack_require__(892);
 
 var _Balances2 = _interopRequireDefault(_Balances);
 
-var _History = __webpack_require__(898);
+var _History = __webpack_require__(902);
 
 var _History2 = _interopRequireDefault(_History);
 
-var _NotFound = __webpack_require__(904);
+var _NotFound = __webpack_require__(908);
 
 var _NotFound2 = _interopRequireDefault(_NotFound);
 
-var _Swap = __webpack_require__(905);
+var _Swap = __webpack_require__(909);
 
 var _Swap2 = _interopRequireDefault(_Swap);
 
-var _Feed = __webpack_require__(918);
+var _Feed = __webpack_require__(921);
 
 var _Feed2 = _interopRequireDefault(_Feed);
 
@@ -2914,7 +3029,6 @@ var routes = _react2.default.createElement(
 exports.default = routes;
 
 /***/ }),
-/* 357 */,
 /* 358 */,
 /* 359 */,
 /* 360 */,
@@ -2934,7 +3048,8 @@ exports.default = routes;
 /* 374 */,
 /* 375 */,
 /* 376 */,
-/* 377 */
+/* 377 */,
+/* 378 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2955,7 +3070,6 @@ exports.default = {
 };
 
 /***/ }),
-/* 378 */,
 /* 379 */,
 /* 380 */,
 /* 381 */,
@@ -2977,20 +3091,20 @@ exports.default = {
 /* 397 */,
 /* 398 */,
 /* 399 */,
-/* 400 */
+/* 400 */,
+/* 401 */
 /***/ (function(module, exports) {
 
 /* (ignored) */
 
 /***/ }),
-/* 401 */,
-/* 402 */
+/* 402 */,
+/* 403 */
 /***/ (function(module, exports) {
 
 /* (ignored) */
 
 /***/ }),
-/* 403 */,
 /* 404 */,
 /* 405 */,
 /* 406 */,
@@ -3088,19 +3202,19 @@ exports.default = {
 /* 498 */,
 /* 499 */,
 /* 500 */,
-/* 501 */
-/***/ (function(module, exports) {
-
-/* (ignored) */
-
-/***/ }),
+/* 501 */,
 /* 502 */
 /***/ (function(module, exports) {
 
 /* (ignored) */
 
 /***/ }),
-/* 503 */,
+/* 503 */
+/***/ (function(module, exports) {
+
+/* (ignored) */
+
+/***/ }),
 /* 504 */,
 /* 505 */,
 /* 506 */,
@@ -3174,7 +3288,8 @@ exports.default = {
 /* 574 */,
 /* 575 */,
 /* 576 */,
-/* 577 */
+/* 577 */,
+/* 578 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3190,7 +3305,7 @@ exports.default = {
 };
 
 /***/ }),
-/* 578 */
+/* 579 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3206,7 +3321,7 @@ var _promise = __webpack_require__(33);
 
 var _promise2 = _interopRequireDefault(_promise);
 
-var _superagent = __webpack_require__(606);
+var _superagent = __webpack_require__(607);
 
 var _superagent2 = _interopRequireDefault(_superagent);
 
@@ -3323,7 +3438,6 @@ exports.default = {
 };
 
 /***/ }),
-/* 579 */,
 /* 580 */,
 /* 581 */,
 /* 582 */,
@@ -3356,7 +3470,8 @@ exports.default = {
 /* 609 */,
 /* 610 */,
 /* 611 */,
-/* 612 */
+/* 612 */,
+/* 613 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3364,19 +3479,19 @@ exports.default = {
 
 exports.__esModule = true;
 
-var _localStorage = __webpack_require__(613);
+var _localStorage = __webpack_require__(614);
 
 var _localStorage2 = _interopRequireDefault(_localStorage);
 
-var _privateKeyNames = __webpack_require__(614);
+var _privateKeyNames = __webpack_require__(615);
 
 var _privateKeyNames2 = _interopRequireDefault(_privateKeyNames);
 
-var _notifications = __webpack_require__(615);
+var _notifications = __webpack_require__(616);
 
 var _notifications2 = _interopRequireDefault(_notifications);
 
-var _modals = __webpack_require__(616);
+var _modals = __webpack_require__(617);
 
 var _modals2 = _interopRequireDefault(_modals);
 
@@ -3390,7 +3505,7 @@ exports.default = {
 };
 
 /***/ }),
-/* 613 */
+/* 614 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3402,7 +3517,7 @@ exports.default = {
 };
 
 /***/ }),
-/* 614 */
+/* 615 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3415,7 +3530,7 @@ exports.default = {
 };
 
 /***/ }),
-/* 615 */
+/* 616 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3428,7 +3543,7 @@ exports.default = {
 };
 
 /***/ }),
-/* 616 */
+/* 617 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3442,7 +3557,7 @@ exports.default = {
 };
 
 /***/ }),
-/* 617 */
+/* 618 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3450,7 +3565,7 @@ exports.default = {
 
 exports.__esModule = true;
 
-var _stringify = __webpack_require__(73);
+var _stringify = __webpack_require__(72);
 
 var _stringify2 = _interopRequireDefault(_stringify);
 
@@ -3505,8 +3620,8 @@ exports.default = {
 };
 
 /***/ }),
-/* 618 */,
-/* 619 */
+/* 619 */,
+/* 620 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3541,9 +3656,9 @@ var ignoreProps = function ignoreProps() {
 exports.default = ignoreProps;
 
 /***/ }),
-/* 620 */,
 /* 621 */,
-/* 622 */
+/* 622 */,
+/* 623 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3574,7 +3689,7 @@ var getPageOffset = function getPageOffset() {
 exports.default = getPageOffset;
 
 /***/ }),
-/* 623 */
+/* 624 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3612,7 +3727,7 @@ var getScrollBarWidth = function getScrollBarWidth() {
 exports.default = getScrollBarWidth;
 
 /***/ }),
-/* 624 */
+/* 625 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3639,11 +3754,11 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _PageHeadline = __webpack_require__(111);
+var _PageHeadline = __webpack_require__(112);
 
 var _PageHeadline2 = _interopRequireDefault(_PageHeadline);
 
-var _Title = __webpack_require__(313);
+var _Title = __webpack_require__(314);
 
 var _Title2 = _interopRequireDefault(_Title);
 
@@ -3651,11 +3766,11 @@ var _SubTitle = __webpack_require__(185);
 
 var _SubTitle2 = _interopRequireDefault(_SubTitle);
 
-var _Href = __webpack_require__(767);
+var _Href = __webpack_require__(768);
 
 var _Href2 = _interopRequireDefault(_Href);
 
-var _SearchSwap = __webpack_require__(769);
+var _SearchSwap = __webpack_require__(770);
 
 var _SearchSwap2 = _interopRequireDefault(_SearchSwap);
 
@@ -3663,7 +3778,7 @@ var _actions = __webpack_require__(13);
 
 var _actions2 = _interopRequireDefault(_actions);
 
-var _Orders = __webpack_require__(845);
+var _Orders = __webpack_require__(849);
 
 var _Orders2 = _interopRequireDefault(_Orders);
 
@@ -3731,7 +3846,8 @@ var Home = (_temp = _class = function (_Component) {
       _react2.default.createElement(_SearchSwap2.default, {
         updateFilter: this.handleSellCurrencySelect,
         buyCurrency: buyCurrency,
-        sellCurrency: sellCurrency
+        sellCurrency: sellCurrency,
+        flipCurrency: this.flipCurrency
       }),
       _react2.default.createElement(_Orders2.default, { filter: filterOrders })
     );
@@ -3760,6 +3876,18 @@ var Home = (_temp = _class = function (_Component) {
     });
   };
 
+  this.flipCurrency = function () {
+    var _state3 = _this2.state,
+        buyCurrency = _state3.buyCurrency,
+        sellCurrency = _state3.sellCurrency;
+
+
+    _this2.setState({
+      buyCurrency: sellCurrency,
+      sellCurrency: buyCurrency
+    });
+  };
+
   this.handleClickTelegram = function () {
     _actions2.default.analytics.dataEvent('orders-click-telegram-group');
     _actions2.default.analytics.dataEvent('orders-click-start-swap');
@@ -3773,7 +3901,6 @@ var Home = (_temp = _class = function (_Component) {
 exports.default = Home;
 
 /***/ }),
-/* 625 */,
 /* 626 */,
 /* 627 */,
 /* 628 */,
@@ -3912,28 +4039,29 @@ exports.default = Home;
 /* 761 */,
 /* 762 */,
 /* 763 */,
-/* 764 */
+/* 764 */,
+/* 765 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"headline":"_0kjEr"};
 
 /***/ }),
-/* 765 */
+/* 766 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"title":"_2DXQm_"};
 
 /***/ }),
-/* 766 */
+/* 767 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"subTitle":"_3xZD8p"};
 
 /***/ }),
-/* 767 */
+/* 768 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3951,7 +4079,7 @@ var _reactCssModules = __webpack_require__(2);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _Href = __webpack_require__(768);
+var _Href = __webpack_require__(769);
 
 var _Href2 = _interopRequireDefault(_Href);
 
@@ -3981,14 +4109,14 @@ var Href = function Href(_ref) {
 exports.default = (0, _reactCssModules2.default)(Href, _Href2.default);
 
 /***/ }),
-/* 768 */
+/* 769 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"link":"_1RXNDW"};
 
 /***/ }),
-/* 769 */
+/* 770 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4004,20 +4132,25 @@ var _reactCssModules = __webpack_require__(2);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _SearchSwap = __webpack_require__(770);
+var _SearchSwap = __webpack_require__(771);
 
 var _SearchSwap2 = _interopRequireDefault(_SearchSwap);
 
-var _CurrencySelect = __webpack_require__(314);
+var _CurrencySelect = __webpack_require__(315);
 
 var _CurrencySelect2 = _interopRequireDefault(_CurrencySelect);
+
+var _Flip = __webpack_require__(785);
+
+var _Flip2 = _interopRequireDefault(_Flip);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var SearchSwap = function SearchSwap(_ref) {
   var buyCurrency = _ref.buyCurrency,
       sellCurrency = _ref.sellCurrency,
-      updateFilter = _ref.updateFilter;
+      updateFilter = _ref.updateFilter,
+      flipCurrency = _ref.flipCurrency;
   return _react2.default.createElement(
     'div',
     { styleName: 'choice' },
@@ -4035,6 +4168,7 @@ var SearchSwap = function SearchSwap(_ref) {
         onSelect: updateFilter
       })
     ),
+    _react2.default.createElement(_Flip2.default, { onClick: flipCurrency }),
     _react2.default.createElement(
       'div',
       { styleName: 'row' },
@@ -4055,20 +4189,20 @@ var SearchSwap = function SearchSwap(_ref) {
 exports.default = (0, _reactCssModules2.default)(SearchSwap, _SearchSwap2.default);
 
 /***/ }),
-/* 770 */
+/* 771 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"currencySelect":"_3OWa5t","choice":"_1Emj0F","row":"xJgabA","text":"fFcGkk"};
 
 /***/ }),
-/* 771 */
+/* 772 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
-/* 772 */
+/* 773 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4107,11 +4241,11 @@ var _reactCssModules = __webpack_require__(2);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _DropDown = __webpack_require__(773);
+var _DropDown = __webpack_require__(774);
 
 var _DropDown2 = _interopRequireDefault(_DropDown);
 
-var _toggle = __webpack_require__(774);
+var _toggle = __webpack_require__(775);
 
 var _toggle2 = _interopRequireDefault(_toggle);
 
@@ -4263,14 +4397,14 @@ var DropDown = (_dec = (0, _toggle2.default)(), _dec2 = (0, _reactCssModules2.de
 exports.default = DropDown;
 
 /***/ }),
-/* 773 */
+/* 774 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"dropDown":"_3dP7tS","active":"_2ugFLw","arrow":"_3YMxCM","selectedItem":"_3MyRdn","select":"_369zfM","option":"_2DKZg5"};
 
 /***/ }),
-/* 774 */
+/* 775 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4361,7 +4495,7 @@ exports.default = function () {
 };
 
 /***/ }),
-/* 775 */
+/* 776 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4377,11 +4511,11 @@ var _reactCssModules = __webpack_require__(2);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _Option = __webpack_require__(776);
+var _Option = __webpack_require__(777);
 
 var _Option2 = _interopRequireDefault(_Option);
 
-var _CurrencyIcon = __webpack_require__(315);
+var _CurrencyIcon = __webpack_require__(316);
 
 var _CurrencyIcon2 = _interopRequireDefault(_CurrencyIcon);
 
@@ -4401,57 +4535,105 @@ var Option = function Option(_ref) {
 exports.default = (0, _reactCssModules2.default)(Option, _Option2.default);
 
 /***/ }),
-/* 776 */
+/* 777 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"icon":"_1ncL6U"};
 
 /***/ }),
-/* 777 */
+/* 778 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"text":"_33KTXr"};
 
 /***/ }),
-/* 778 */
+/* 779 */
 /***/ (function(module, exports) {
 
 module.exports = "https://testnet.swap.online/images/btc_f4b66d.svg";
 
 /***/ }),
-/* 779 */
+/* 780 */
 /***/ (function(module, exports) {
 
 module.exports = "https://testnet.swap.online/images/eth_262e9a.svg";
 
 /***/ }),
-/* 780 */
+/* 781 */
 /***/ (function(module, exports) {
 
 module.exports = "https://testnet.swap.online/images/icx_cda046.svg";
 
 /***/ }),
-/* 781 */
+/* 782 */
 /***/ (function(module, exports) {
 
 module.exports = "https://testnet.swap.online/images/waves_54c731.svg";
 
 /***/ }),
-/* 782 */
+/* 783 */
 /***/ (function(module, exports) {
 
 module.exports = "https://testnet.swap.online/images/xrp_db0377.svg";
 
 /***/ }),
-/* 783 */
+/* 784 */
 /***/ (function(module, exports) {
 
 module.exports = "https://testnet.swap.online/images/nim_954328.svg";
 
 /***/ }),
-/* 784 */
+/* 785 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+exports.__esModule = true;
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _reactCssModules = __webpack_require__(2);
+
+var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
+
+var _Flip = __webpack_require__(786);
+
+var _Flip2 = _interopRequireDefault(_Flip);
+
+var _flip = __webpack_require__(787);
+
+var _flip2 = _interopRequireDefault(_flip);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function Flip(_ref) {
+  var onClick = _ref.onClick;
+
+  return _react2.default.createElement('img', { src: _flip2.default, alt: '', onClick: onClick, styleName: 'trade-panel__change' });
+}
+
+exports.default = (0, _reactCssModules2.default)(Flip, _Flip2.default);
+
+/***/ }),
+/* 786 */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+module.exports = {"trade-panel__change":"_1RiAD5"};
+
+/***/ }),
+/* 787 */
+/***/ (function(module, exports) {
+
+module.exports = "https://testnet.swap.online/images/flip_ac0462.svg";
+
+/***/ }),
+/* 788 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4479,10 +4661,6 @@ exports.default = {
 };
 
 /***/ }),
-/* 785 */,
-/* 786 */,
-/* 787 */,
-/* 788 */,
 /* 789 */,
 /* 790 */,
 /* 791 */,
@@ -4510,7 +4688,11 @@ exports.default = {
 /* 813 */,
 /* 814 */,
 /* 815 */,
-/* 816 */
+/* 816 */,
+/* 817 */,
+/* 818 */,
+/* 819 */,
+/* 820 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4552,7 +4734,7 @@ var hide = function hide(state, name) {
 exports.hide = hide;
 
 /***/ }),
-/* 817 */
+/* 821 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4601,7 +4783,7 @@ var close = function close(state, name) {
 exports.close = close;
 
 /***/ }),
-/* 818 */
+/* 822 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4634,7 +4816,7 @@ var setTransactions = exports.setTransactions = function setTransactions(state, 
 };
 
 /***/ }),
-/* 819 */
+/* 823 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4660,7 +4842,7 @@ var setVisibility = exports.setVisibility = function setVisibility(state, payloa
 };
 
 /***/ }),
-/* 820 */
+/* 824 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4726,7 +4908,7 @@ var setTokenData = exports.setTokenData = function setTokenData(state, _ref3) {
 };
 
 /***/ }),
-/* 821 */
+/* 825 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4758,7 +4940,7 @@ var deleteItems = exports.deleteItems = function deleteItems(state, payload) {
 };
 
 /***/ }),
-/* 822 */
+/* 826 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4776,11 +4958,11 @@ var ordersFilter = exports.ordersFilter = function ordersFilter(state, payload) 
 };
 
 /***/ }),
-/* 823 */,
-/* 824 */,
-/* 825 */,
-/* 826 */,
-/* 827 */
+/* 827 */,
+/* 828 */,
+/* 829 */,
+/* 830 */,
+/* 831 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4807,7 +4989,7 @@ exports.default = {
 };
 
 /***/ }),
-/* 828 */
+/* 832 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4835,7 +5017,7 @@ exports.default = {
 };
 
 /***/ }),
-/* 829 */
+/* 833 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4863,7 +5045,7 @@ exports.default = {
 };
 
 /***/ }),
-/* 830 */
+/* 834 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4960,9 +5142,9 @@ exports.default = {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(10)))
 
 /***/ }),
-/* 831 */,
-/* 832 */,
-/* 833 */
+/* 835 */,
+/* 836 */,
+/* 837 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4974,7 +5156,7 @@ var _assign = __webpack_require__(15);
 
 var _assign2 = _interopRequireDefault(_assign);
 
-var _stringify = __webpack_require__(73);
+var _stringify = __webpack_require__(72);
 
 var _stringify2 = _interopRequireDefault(_stringify);
 
@@ -4988,7 +5170,7 @@ var _bigi2 = _interopRequireDefault(_bigi);
 
 var _helpers = __webpack_require__(11);
 
-var _core = __webpack_require__(122);
+var _core = __webpack_require__(123);
 
 var _bitcoinjsLib = __webpack_require__(134);
 
@@ -5150,7 +5332,7 @@ exports.default = {
 };
 
 /***/ }),
-/* 834 */
+/* 838 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5164,9 +5346,9 @@ var _promise2 = _interopRequireDefault(_promise);
 
 var _helpers = __webpack_require__(11);
 
-var _core = __webpack_require__(122);
+var _core = __webpack_require__(123);
 
-var _web = __webpack_require__(98);
+var _web = __webpack_require__(99);
 
 var _web2 = _interopRequireDefault(_web);
 
@@ -5295,7 +5477,7 @@ exports.default = {
 };
 
 /***/ }),
-/* 835 */
+/* 839 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5307,15 +5489,15 @@ var _promise = __webpack_require__(33);
 
 var _promise2 = _interopRequireDefault(_promise);
 
-var _humanStandardTokenAbi = __webpack_require__(836);
+var _humanStandardTokenAbi = __webpack_require__(840);
 
 var _humanStandardTokenAbi2 = _interopRequireDefault(_humanStandardTokenAbi);
 
 var _helpers = __webpack_require__(11);
 
-var _core = __webpack_require__(122);
+var _core = __webpack_require__(123);
 
-var _web = __webpack_require__(98);
+var _web = __webpack_require__(99);
 
 var _web2 = _interopRequireDefault(_web);
 
@@ -5431,8 +5613,8 @@ exports.default = {
 };
 
 /***/ }),
-/* 836 */,
-/* 837 */
+/* 840 */,
+/* 841 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5565,7 +5747,7 @@ var _appConfig = __webpack_require__(61);
 
 var _appConfig2 = _interopRequireDefault(_appConfig);
 
-var _nimiq = __webpack_require__(838);
+var _nimiq = __webpack_require__(842);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -5760,7 +5942,7 @@ exports.default = {
 };
 
 /***/ }),
-/* 838 */
+/* 842 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5812,7 +5994,7 @@ exports.prepareTransaction = prepareTransaction;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(6).Buffer))
 
 /***/ }),
-/* 839 */
+/* 843 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5828,7 +6010,7 @@ var _reducers = __webpack_require__(31);
 
 var _reducers2 = _interopRequireDefault(_reducers);
 
-var _core = __webpack_require__(122);
+var _core = __webpack_require__(123);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -5878,7 +6060,7 @@ exports.default = {
 };
 
 /***/ }),
-/* 840 */
+/* 844 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5890,7 +6072,7 @@ var _reducers = __webpack_require__(31);
 
 var _reducers2 = _interopRequireDefault(_reducers);
 
-var _reactGtmModule = __webpack_require__(841);
+var _reactGtmModule = __webpack_require__(845);
 
 var _reactGtmModule2 = _interopRequireDefault(_reactGtmModule);
 
@@ -5920,11 +6102,11 @@ exports.default = {
 };
 
 /***/ }),
-/* 841 */,
-/* 842 */,
-/* 843 */,
-/* 844 */,
-/* 845 */
+/* 845 */,
+/* 846 */,
+/* 847 */,
+/* 848 */,
+/* 849 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5949,13 +6131,13 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _newSwap = __webpack_require__(88);
+var _newSwap = __webpack_require__(89);
 
 var _actions = __webpack_require__(13);
 
 var _actions2 = _interopRequireDefault(_actions);
 
-var _Row = __webpack_require__(880);
+var _Row = __webpack_require__(884);
 
 var _Row2 = _interopRequireDefault(_Row);
 
@@ -6034,7 +6216,7 @@ var Orders = function (_Component) {
 exports.default = Orders;
 
 /***/ }),
-/* 846 */
+/* 850 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6044,7 +6226,7 @@ exports.__esModule = true;
 exports.default = ['eth', 'btc', 'nim'];
 
 /***/ }),
-/* 847 */
+/* 851 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6054,7 +6236,7 @@ exports.__esModule = true;
 exports.default = ['web3', 'bitcoin', 'Ipfs', 'IpfsRoom', 'storage'];
 
 /***/ }),
-/* 848 */
+/* 852 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6064,7 +6246,7 @@ exports.__esModule = true;
 exports.default = ['auth', 'room', 'orders', 'swaps'];
 
 /***/ }),
-/* 849 */
+/* 853 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6074,7 +6256,7 @@ exports.__esModule = true;
 exports.default = ['ethSwap', 'ethTokenSwap', 'btcSwap'];
 
 /***/ }),
-/* 850 */
+/* 854 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6087,7 +6269,7 @@ exports.default = {
 };
 
 /***/ }),
-/* 851 */
+/* 855 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6095,7 +6277,7 @@ exports.default = {
 
 exports.__esModule = true;
 
-var _stringify = __webpack_require__(73);
+var _stringify = __webpack_require__(72);
 
 var _stringify2 = _interopRequireDefault(_stringify);
 
@@ -6148,7 +6330,7 @@ exports.default = StorageFactory;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(10)))
 
 /***/ }),
-/* 852 */
+/* 856 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6164,7 +6346,7 @@ var _classCallCheck2 = __webpack_require__(1);
 
 var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
 
-var _SwapApp = __webpack_require__(328);
+var _SwapApp = __webpack_require__(329);
 
 var _SwapApp2 = _interopRequireDefault(_SwapApp);
 
@@ -6237,7 +6419,7 @@ var ServiceInterface = function () {
 exports.default = ServiceInterface;
 
 /***/ }),
-/* 853 */
+/* 857 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6269,7 +6451,7 @@ var SwapInterface = function () {
 exports.default = SwapInterface;
 
 /***/ }),
-/* 854 */
+/* 858 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6427,7 +6609,7 @@ var Collection = function () {
 exports.default = Collection;
 
 /***/ }),
-/* 855 */
+/* 859 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6617,7 +6799,7 @@ exports.default = EventAggregator;
 exports.events = events;
 
 /***/ }),
-/* 856 */
+/* 860 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6625,15 +6807,15 @@ exports.events = events;
 
 exports.__esModule = true;
 
-var _pullProps = __webpack_require__(857);
+var _pullProps = __webpack_require__(861);
 
 var _pullProps2 = _interopRequireDefault(_pullProps);
 
-var _ignoreProps = __webpack_require__(858);
+var _ignoreProps = __webpack_require__(862);
 
 var _ignoreProps2 = _interopRequireDefault(_ignoreProps);
 
-var _typeforce = __webpack_require__(859);
+var _typeforce = __webpack_require__(863);
 
 var _typeforce2 = _interopRequireDefault(_typeforce);
 
@@ -6646,7 +6828,7 @@ exports.default = {
 };
 
 /***/ }),
-/* 857 */
+/* 861 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6670,7 +6852,7 @@ var pullProps = function pullProps(obj) {
 exports.default = pullProps;
 
 /***/ }),
-/* 858 */
+/* 862 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6705,7 +6887,7 @@ var ignoreProps = function ignoreProps() {
 exports.default = ignoreProps;
 
 /***/ }),
-/* 859 */
+/* 863 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6738,23 +6920,23 @@ exports.default = {
 };
 
 /***/ }),
-/* 860 */,
-/* 861 */,
-/* 862 */
+/* 864 */,
+/* 865 */,
+/* 866 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	"./": 123,
-	"./SwapAuth": 124,
-	"./SwapAuth.js": 124,
-	"./btc": 331,
-	"./btc.js": 331,
-	"./eth": 332,
-	"./eth.js": 332,
-	"./index": 123,
-	"./index.js": 123,
-	"./umd": 333,
-	"./umd.js": 333
+	"./": 124,
+	"./SwapAuth": 125,
+	"./SwapAuth.js": 125,
+	"./btc": 332,
+	"./btc.js": 332,
+	"./eth": 333,
+	"./eth.js": 333,
+	"./index": 124,
+	"./index.js": 124,
+	"./umd": 334,
+	"./umd.js": 334
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -6770,10 +6952,10 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 862;
+webpackContext.id = 866;
 
 /***/ }),
-/* 863 */
+/* 867 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6781,7 +6963,7 @@ webpackContext.id = 862;
 
 exports.__esModule = true;
 
-var _stringify = __webpack_require__(73);
+var _stringify = __webpack_require__(72);
 
 var _stringify2 = _interopRequireDefault(_stringify);
 
@@ -7004,7 +7186,7 @@ var SwapRoom = function (_ServiceInterface) {
 exports.default = SwapRoom;
 
 /***/ }),
-/* 864 */
+/* 868 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7012,7 +7194,7 @@ exports.default = SwapRoom;
 
 exports.__esModule = true;
 
-var _SwapOrders = __webpack_require__(865);
+var _SwapOrders = __webpack_require__(869);
 
 var _SwapOrders2 = _interopRequireDefault(_SwapOrders);
 
@@ -7021,7 +7203,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 exports.default = _SwapOrders2.default;
 
 /***/ }),
-/* 865 */
+/* 869 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7061,19 +7243,19 @@ var _swap = __webpack_require__(17);
 
 var _swap2 = _interopRequireDefault(_swap);
 
-var _swap3 = __webpack_require__(334);
+var _swap3 = __webpack_require__(335);
 
 var _swap4 = _interopRequireDefault(_swap3);
 
-var _aggregation2 = __webpack_require__(866);
+var _aggregation2 = __webpack_require__(870);
 
 var _aggregation3 = _interopRequireDefault(_aggregation2);
 
-var _events = __webpack_require__(335);
+var _events = __webpack_require__(336);
 
 var _events2 = _interopRequireDefault(_events);
 
-var _Order = __webpack_require__(875);
+var _Order = __webpack_require__(879);
 
 var _Order2 = _interopRequireDefault(_Order);
 
@@ -7406,7 +7588,7 @@ var SwapOrders = function (_aggregation) {
 exports.default = SwapOrders;
 
 /***/ }),
-/* 866 */
+/* 870 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7414,19 +7596,19 @@ exports.default = SwapOrders;
 
 exports.__esModule = true;
 
-var _getOwnPropertyDescriptor = __webpack_require__(867);
+var _getOwnPropertyDescriptor = __webpack_require__(871);
 
 var _getOwnPropertyDescriptor2 = _interopRequireDefault(_getOwnPropertyDescriptor);
 
-var _defineProperty = __webpack_require__(330);
+var _defineProperty = __webpack_require__(331);
 
 var _defineProperty2 = _interopRequireDefault(_defineProperty);
 
-var _getOwnPropertySymbols = __webpack_require__(870);
+var _getOwnPropertySymbols = __webpack_require__(874);
 
 var _getOwnPropertySymbols2 = _interopRequireDefault(_getOwnPropertySymbols);
 
-var _getOwnPropertyNames = __webpack_require__(872);
+var _getOwnPropertyNames = __webpack_require__(876);
 
 var _getOwnPropertyNames2 = _interopRequireDefault(_getOwnPropertyNames);
 
@@ -7495,15 +7677,15 @@ var aggregation = function aggregation(baseClass) {
 exports.default = aggregation;
 
 /***/ }),
-/* 867 */,
-/* 868 */,
-/* 869 */,
-/* 870 */,
 /* 871 */,
 /* 872 */,
 /* 873 */,
 /* 874 */,
-/* 875 */
+/* 875 */,
+/* 876 */,
+/* 877 */,
+/* 878 */,
+/* 879 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7527,7 +7709,7 @@ var _swap = __webpack_require__(17);
 
 var _swap2 = _interopRequireDefault(_swap);
 
-var _events = __webpack_require__(335);
+var _events = __webpack_require__(336);
 
 var _events2 = _interopRequireDefault(_events);
 
@@ -7728,7 +7910,7 @@ var Order = function () {
 exports.default = Order;
 
 /***/ }),
-/* 876 */
+/* 880 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7737,15 +7919,15 @@ exports.default = Order;
 exports.__esModule = true;
 exports.EthTokenSwap = exports.BtcSwap = exports.EthSwap = undefined;
 
-var _EthSwap = __webpack_require__(877);
+var _EthSwap = __webpack_require__(881);
 
 var _EthSwap2 = _interopRequireDefault(_EthSwap);
 
-var _EthTokenSwap = __webpack_require__(878);
+var _EthTokenSwap = __webpack_require__(882);
 
 var _EthTokenSwap2 = _interopRequireDefault(_EthTokenSwap);
 
-var _BtcSwap = __webpack_require__(879);
+var _BtcSwap = __webpack_require__(883);
 
 var _BtcSwap2 = _interopRequireDefault(_BtcSwap);
 
@@ -7756,7 +7938,7 @@ exports.BtcSwap = _BtcSwap2.default;
 exports.EthTokenSwap = _EthTokenSwap2.default;
 
 /***/ }),
-/* 877 */
+/* 881 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8085,7 +8267,6 @@ var EthSwap = function (_SwapInterface) {
               case 4:
                 receipt = _context5.sent;
 
-
                 resolve(receipt);
 
               case 6:
@@ -8283,7 +8464,7 @@ var EthSwap = function (_SwapInterface) {
 exports.default = EthSwap;
 
 /***/ }),
-/* 878 */
+/* 882 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8867,7 +9048,7 @@ var EthTokenSwap = function (_SwapInterface) {
 exports.default = EthTokenSwap;
 
 /***/ }),
-/* 879 */
+/* 883 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9384,7 +9565,7 @@ exports.default = BtcSwap;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(6).Buffer))
 
 /***/ }),
-/* 880 */
+/* 884 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9419,21 +9600,21 @@ var _propTypes = __webpack_require__(7);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
-var _newSwap = __webpack_require__(88);
+var _newSwap = __webpack_require__(89);
 
 var _helpers = __webpack_require__(11);
 
 var _reactRouterDom = __webpack_require__(54);
 
-var _Coins = __webpack_require__(336);
+var _Coins = __webpack_require__(337);
 
 var _Coins2 = _interopRequireDefault(_Coins);
 
-var _RequestButton = __webpack_require__(883);
+var _RequestButton = __webpack_require__(887);
 
 var _RequestButton2 = _interopRequireDefault(_RequestButton);
 
-var _RemoveButton = __webpack_require__(885);
+var _RemoveButton = __webpack_require__(889);
 
 var _RemoveButton2 = _interopRequireDefault(_RemoveButton);
 
@@ -9552,21 +9733,21 @@ var Row = (_temp2 = _class = function (_Component) {
 exports.default = Row;
 
 /***/ }),
-/* 881 */
+/* 885 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"coins":"XQaT-I"};
 
 /***/ }),
-/* 882 */
+/* 886 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"coin":"_1WqrJr","icon":"_3DbGHI","letter":"_213Lpu"};
 
 /***/ }),
-/* 883 */
+/* 887 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9597,7 +9778,7 @@ var _reactCssModules = __webpack_require__(2);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _RequestButton = __webpack_require__(884);
+var _RequestButton = __webpack_require__(888);
 
 var _RequestButton2 = _interopRequireDefault(_RequestButton);
 
@@ -9623,14 +9804,14 @@ var RequestButton = (_dec = (0, _reactCssModules2.default)(_RequestButton2.defau
 exports.default = RequestButton;
 
 /***/ }),
-/* 884 */
+/* 888 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"button":"_2Uhw5O"};
 
 /***/ }),
-/* 885 */
+/* 889 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9661,7 +9842,7 @@ var _reactCssModules = __webpack_require__(2);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _RemoveButton = __webpack_require__(886);
+var _RemoveButton = __webpack_require__(890);
 
 var _RemoveButton2 = _interopRequireDefault(_RemoveButton);
 
@@ -9687,21 +9868,21 @@ var RemoveButton = (_dec = (0, _reactCssModules2.default)(_RemoveButton2.default
 exports.default = RemoveButton;
 
 /***/ }),
-/* 886 */
+/* 890 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"button":"_3iqxx8"};
 
 /***/ }),
-/* 887 */
+/* 891 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"table":"A6cIbx"};
 
 /***/ }),
-/* 888 */
+/* 892 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9740,7 +9921,7 @@ var _actions = __webpack_require__(13);
 
 var _actions2 = _interopRequireDefault(_actions);
 
-var _PageHeadline = __webpack_require__(111);
+var _PageHeadline = __webpack_require__(112);
 
 var _PageHeadline2 = _interopRequireDefault(_PageHeadline);
 
@@ -9748,7 +9929,7 @@ var _Table = __webpack_require__(191);
 
 var _Table2 = _interopRequireDefault(_Table);
 
-var _Row = __webpack_require__(889);
+var _Row = __webpack_require__(893);
 
 var _Row2 = _interopRequireDefault(_Row);
 
@@ -9812,7 +9993,7 @@ var Balances = (_dec = (0, _redaction.connect)(function (_ref) {
 exports.default = Balances;
 
 /***/ }),
-/* 889 */
+/* 893 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9847,7 +10028,7 @@ var _reactCssModules = __webpack_require__(2);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _Row = __webpack_require__(890);
+var _Row = __webpack_require__(894);
 
 var _Row2 = _interopRequireDefault(_Row);
 
@@ -9855,15 +10036,15 @@ var _Coin = __webpack_require__(190);
 
 var _Coin2 = _interopRequireDefault(_Coin);
 
-var _WithdrawButton = __webpack_require__(891);
+var _WithdrawButton = __webpack_require__(895);
 
 var _WithdrawButton2 = _interopRequireDefault(_WithdrawButton);
 
-var _ReloadButton = __webpack_require__(893);
+var _ReloadButton = __webpack_require__(897);
 
 var _ReloadButton2 = _interopRequireDefault(_ReloadButton);
 
-var _InlineLoader = __webpack_require__(125);
+var _InlineLoader = __webpack_require__(73);
 
 var _InlineLoader2 = _interopRequireDefault(_InlineLoader);
 
@@ -9969,14 +10150,14 @@ var Row = (_dec = (0, _reactCssModules2.default)(_Row2.default), _dec(_class = f
 exports.default = Row;
 
 /***/ }),
-/* 890 */
+/* 894 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"reloadButton":"_2ZNYIs"};
 
 /***/ }),
-/* 891 */
+/* 895 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9998,7 +10179,7 @@ var _reactCssModules = __webpack_require__(2);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _WithdrawButton = __webpack_require__(892);
+var _WithdrawButton = __webpack_require__(896);
 
 var _WithdrawButton2 = _interopRequireDefault(_WithdrawButton);
 
@@ -10023,14 +10204,14 @@ var WithdrawButton = function WithdrawButton(_ref) {
 exports.default = (0, _reactCssModules2.default)(WithdrawButton, _WithdrawButton2.default);
 
 /***/ }),
-/* 892 */
+/* 896 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"withdrawButton":"_2XoYtt"};
 
 /***/ }),
-/* 893 */
+/* 897 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10046,11 +10227,11 @@ var _reactCssModules = __webpack_require__(2);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _ReloadButton = __webpack_require__(894);
+var _ReloadButton = __webpack_require__(898);
 
 var _ReloadButton2 = _interopRequireDefault(_ReloadButton);
 
-var _ReloadIcon = __webpack_require__(895);
+var _ReloadIcon = __webpack_require__(899);
 
 var _ReloadIcon2 = _interopRequireDefault(_ReloadIcon);
 
@@ -10069,14 +10250,14 @@ var ReloadButton = function ReloadButton(_ref) {
 exports.default = (0, _reactCssModules2.default)(ReloadButton, _ReloadButton2.default);
 
 /***/ }),
-/* 894 */
+/* 898 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"reloadButton":"EJezYM","icon":"-QzL6n"};
 
 /***/ }),
-/* 895 */
+/* 899 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10088,7 +10269,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reload = __webpack_require__(896);
+var _reload = __webpack_require__(900);
 
 var _reload2 = _interopRequireDefault(_reload);
 
@@ -10102,20 +10283,20 @@ var ReloadIcon = function ReloadIcon(_ref) {
 exports.default = ReloadIcon;
 
 /***/ }),
-/* 896 */
+/* 900 */
 /***/ (function(module, exports) {
 
 module.exports = "https://testnet.swap.online/images/reload_8f44d7.svg";
 
 /***/ }),
-/* 897 */
+/* 901 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"ellipsis":"_1LrCrR","ellipsis1":"_3E5_Fc","ellipsis2":"_2eaqSt","ellipsis3":"_3fsiCh"};
 
 /***/ }),
-/* 898 */
+/* 902 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10152,7 +10333,7 @@ var _actions = __webpack_require__(13);
 
 var _actions2 = _interopRequireDefault(_actions);
 
-var _PageHeadline = __webpack_require__(111);
+var _PageHeadline = __webpack_require__(112);
 
 var _PageHeadline2 = _interopRequireDefault(_PageHeadline);
 
@@ -10160,11 +10341,11 @@ var _Table = __webpack_require__(191);
 
 var _Table2 = _interopRequireDefault(_Table);
 
-var _Filter = __webpack_require__(899);
+var _Filter = __webpack_require__(903);
 
 var _Filter2 = _interopRequireDefault(_Filter);
 
-var _Row = __webpack_require__(901);
+var _Row = __webpack_require__(905);
 
 var _Row2 = _interopRequireDefault(_Row);
 
@@ -10246,7 +10427,7 @@ var History = (_dec = (0, _redaction.connect)(function (_ref3) {
 exports.default = History;
 
 /***/ }),
-/* 899 */
+/* 903 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10287,11 +10468,11 @@ var _reactCssModules = __webpack_require__(2);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _Filter = __webpack_require__(337);
+var _Filter = __webpack_require__(338);
 
 var _Filter2 = _interopRequireDefault(_Filter);
 
-var _FilterLink = __webpack_require__(900);
+var _FilterLink = __webpack_require__(904);
 
 var _FilterLink2 = _interopRequireDefault(_FilterLink);
 
@@ -10347,7 +10528,7 @@ Filter.propTypes = {
 };
 
 /***/ }),
-/* 900 */
+/* 904 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10367,7 +10548,7 @@ var _reactCssModules = __webpack_require__(2);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _Filter = __webpack_require__(337);
+var _Filter = __webpack_require__(338);
 
 var _Filter2 = _interopRequireDefault(_Filter);
 
@@ -10403,7 +10584,7 @@ FilterLink.propTypes = {
 exports.default = (0, _reactCssModules2.default)(FilterLink, _Filter2.default, { allowMultiple: true });
 
 /***/ }),
-/* 901 */
+/* 905 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10427,7 +10608,7 @@ var _reactCssModules = __webpack_require__(2);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _Row = __webpack_require__(903);
+var _Row = __webpack_require__(907);
 
 var _Row2 = _interopRequireDefault(_Row);
 
@@ -10491,15 +10672,15 @@ var Row = function Row(_ref) {
 exports.default = (0, _reactCssModules2.default)(Row, _Row2.default, { allowMultiple: true });
 
 /***/ }),
-/* 902 */,
-/* 903 */
+/* 906 */,
+/* 907 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"status":"_3kv9MC","in":"_2lbJ5g","out":"_1wgwnd","date":"_2-d0NO","address":"_2jfUW_","amount":"hcV54S"};
 
 /***/ }),
-/* 904 */
+/* 908 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10527,7 +10708,7 @@ function NotFound() {
 }
 
 /***/ }),
-/* 905 */
+/* 909 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10556,23 +10737,23 @@ var _swap = __webpack_require__(17);
 
 var _swap2 = _interopRequireDefault(_swap);
 
-var _InlineLoader = __webpack_require__(125);
+var _InlineLoader = __webpack_require__(73);
 
 var _InlineLoader2 = _interopRequireDefault(_InlineLoader);
 
-var _BtcToEth = __webpack_require__(906);
+var _BtcToEth = __webpack_require__(910);
 
 var _BtcToEth2 = _interopRequireDefault(_BtcToEth);
 
-var _EthToBtc = __webpack_require__(914);
+var _EthToBtc = __webpack_require__(918);
 
 var _EthToBtc2 = _interopRequireDefault(_EthToBtc);
 
-var _EthTokenToBtc = __webpack_require__(915);
+var _EthTokenToBtc = __webpack_require__(919);
 
 var _EthTokenToBtc2 = _interopRequireDefault(_EthTokenToBtc);
 
-var _BtcToEthToken = __webpack_require__(917);
+var _BtcToEthToken = __webpack_require__(920);
 
 var _BtcToEthToken2 = _interopRequireDefault(_BtcToEthToken);
 
@@ -10635,7 +10816,7 @@ var Swap = function (_PureComponent) {
 exports.default = Swap;
 
 /***/ }),
-/* 906 */
+/* 910 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10670,13 +10851,13 @@ var _swap2 = __webpack_require__(52);
 
 var _swap3 = _interopRequireDefault(_swap2);
 
-var _InlineLoader = __webpack_require__(125);
+var _InlineLoader = __webpack_require__(73);
 
 var _InlineLoader2 = _interopRequireDefault(_InlineLoader);
 
-var _Button = __webpack_require__(69);
+var _TimerButton = __webpack_require__(127);
 
-var _Button2 = _interopRequireDefault(_Button);
+var _TimerButton2 = _interopRequireDefault(_TimerButton);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -10791,7 +10972,7 @@ var BtcToEth = function (_Component) {
           _react2.default.createElement('input', { type: 'text', placeholder: 'Secret Key', defaultValue: secret }),
           _react2.default.createElement('br', null),
           _react2.default.createElement(
-            _Button2.default,
+            _TimerButton2.default,
             { brand: true, onClick: this.submitSecret },
             'Confirm'
           )
@@ -10854,7 +11035,7 @@ var BtcToEth = function (_Component) {
               _react2.default.createElement(
                 'strong',
                 null,
-                this.swap.sellAmount
+                this.swap.sellAmount.toString()
               ),
               ' ',
               this.swap.sellCurrency
@@ -10868,7 +11049,7 @@ var BtcToEth = function (_Component) {
           ),
           _react2.default.createElement('br', null),
           _react2.default.createElement(
-            _Button2.default,
+            _TimerButton2.default,
             { brand: true, onClick: this.updateBalance },
             'Continue'
           )
@@ -10951,7 +11132,7 @@ var BtcToEth = function (_Component) {
 exports.default = BtcToEth;
 
 /***/ }),
-/* 907 */
+/* 911 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11565,7 +11746,7 @@ var ETH2BTC = function (_Flow) {
 exports.default = ETH2BTC;
 
 /***/ }),
-/* 908 */
+/* 912 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11597,7 +11778,7 @@ var _swap = __webpack_require__(17);
 
 var _swap2 = _interopRequireDefault(_swap);
 
-var _Room = __webpack_require__(342);
+var _Room = __webpack_require__(343);
 
 var _Room2 = _interopRequireDefault(_Room);
 
@@ -11700,7 +11881,7 @@ var Swap = function () {
 exports.default = Swap;
 
 /***/ }),
-/* 909 */
+/* 913 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11728,7 +11909,7 @@ var _swap2 = __webpack_require__(17);
 
 var _swap3 = _interopRequireDefault(_swap2);
 
-var _Room = __webpack_require__(342);
+var _Room = __webpack_require__(343);
 
 var _Room2 = _interopRequireDefault(_Room);
 
@@ -11884,7 +12065,7 @@ var Flow = function () {
 exports.default = Flow;
 
 /***/ }),
-/* 910 */
+/* 914 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12253,7 +12434,7 @@ exports.default = BTC2ETH;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(6).Buffer))
 
 /***/ }),
-/* 911 */
+/* 915 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12864,7 +13045,7 @@ var ETHTOKEN2BTC = function (_Flow) {
 exports.default = ETHTOKEN2BTC;
 
 /***/ }),
-/* 912 */
+/* 916 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13224,14 +13405,14 @@ exports.default = BTC2ETHTOKEN;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(6).Buffer))
 
 /***/ }),
-/* 913 */
+/* 917 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"button":"_2LQ20V","fullWidth":"_3JAxiX","brand":"_3sxX__","green":"_1luSAS","white":"_2p_RXB","gray":"_2TQbbx","disabled":"_2fO4Kf"};
 
 /***/ }),
-/* 914 */
+/* 918 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13266,13 +13447,13 @@ var _swap2 = __webpack_require__(52);
 
 var _swap3 = _interopRequireDefault(_swap2);
 
-var _InlineLoader = __webpack_require__(125);
+var _InlineLoader = __webpack_require__(73);
 
 var _InlineLoader2 = _interopRequireDefault(_InlineLoader);
 
-var _Button = __webpack_require__(69);
+var _TimerButton = __webpack_require__(127);
 
-var _Button2 = _interopRequireDefault(_Button);
+var _TimerButton2 = _interopRequireDefault(_TimerButton);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -13379,7 +13560,7 @@ var EthToBtc = function (_Component) {
           null,
           _react2.default.createElement('br', null),
           _react2.default.createElement(
-            _Button2.default,
+            _TimerButton2.default,
             { brand: true, onClick: this.signSwap },
             'Confirm'
           )
@@ -13473,7 +13654,7 @@ var EthToBtc = function (_Component) {
             null,
             _react2.default.createElement('br', null),
             _react2.default.createElement(
-              _Button2.default,
+              _TimerButton2.default,
               { brand: true, onClick: this.confirmBTCScriptChecked },
               'Everything is OK. Continue'
             )
@@ -13509,7 +13690,7 @@ var EthToBtc = function (_Component) {
               _react2.default.createElement(
                 'strong',
                 null,
-                this.swap.sellAmount
+                this.swap.sellAmount.toString()
               ),
               ' ',
               this.swap.sellCurrency
@@ -13523,7 +13704,7 @@ var EthToBtc = function (_Component) {
           ),
           _react2.default.createElement('br', null),
           _react2.default.createElement(
-            _Button2.default,
+            _TimerButton2.default,
             { brand: true, onClick: this.updateBalance },
             'Continue'
           )
@@ -13620,7 +13801,7 @@ var EthToBtc = function (_Component) {
 exports.default = EthToBtc;
 
 /***/ }),
-/* 915 */
+/* 919 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13651,9 +13832,13 @@ var _swap2 = __webpack_require__(52);
 
 var _swap3 = _interopRequireDefault(_swap2);
 
-var _Loader = __webpack_require__(127);
+var _InlineLoader = __webpack_require__(73);
 
-var _Loader2 = _interopRequireDefault(_Loader);
+var _InlineLoader2 = _interopRequireDefault(_InlineLoader);
+
+var _TimerButton = __webpack_require__(127);
+
+var _TimerButton2 = _interopRequireDefault(_TimerButton);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -13710,11 +13895,11 @@ var EthToBtc = function (_Component) {
       this.swap.id && _react2.default.createElement(
         'strong',
         null,
-        this.swap.sellAmount,
+        this.swap.sellAmount.toString(),
         ' ',
         this.swap.sellCurrency,
         ' \u27F6 ',
-        this.swap.buyAmount,
+        this.swap.buyAmount.toString(),
         ' ',
         this.swap.buyCurrency
       ),
@@ -13730,7 +13915,7 @@ var EthToBtc = function (_Component) {
           null,
           'The order creator is offline. Waiting for him..'
         ),
-        _react2.default.createElement(_Loader2.default, { overlay: false })
+        _react2.default.createElement(_InlineLoader2.default, null)
       )),
       flow.isWaitingForOwner && _react2.default.createElement(
         _react.Fragment,
@@ -13740,7 +13925,7 @@ var EthToBtc = function (_Component) {
           null,
           'Waiting for other user when he connect to the order'
         ),
-        _react2.default.createElement(_Loader2.default, { overlay: false })
+        _react2.default.createElement(_InlineLoader2.default, null)
       ),
       (flow.step === 1 || flow.isMeSigned) && _react2.default.createElement(
         'h3',
@@ -13760,7 +13945,7 @@ var EthToBtc = function (_Component) {
           null,
           _react2.default.createElement('br', null),
           _react2.default.createElement(
-            'button',
+            _TimerButton2.default,
             { onClick: this.signSwap },
             'Confirm'
           )
@@ -13787,7 +13972,7 @@ var EthToBtc = function (_Component) {
               )
             )
           ),
-          flow.isSignFetching && _react2.default.createElement(_Loader2.default, { overlay: false })
+          flow.isSignFetching && _react2.default.createElement(_InlineLoader2.default, null)
         )
       ),
       flow.isMeSigned && _react2.default.createElement(
@@ -13798,7 +13983,7 @@ var EthToBtc = function (_Component) {
           null,
           '2. Waiting BTC Owner creates Secret Key, creates BTC Script and charges it'
         ),
-        flow.step === 2 && _react2.default.createElement(_Loader2.default, { overlay: false }),
+        flow.step === 2 && _react2.default.createElement(_InlineLoader2.default, null),
         flow.secretHash && flow.btcScriptValues && _react2.default.createElement(
           _react.Fragment,
           null,
@@ -13850,7 +14035,7 @@ var EthToBtc = function (_Component) {
             null,
             _react2.default.createElement('br', null),
             _react2.default.createElement(
-              'button',
+              _TimerButton2.default,
               { onClick: this.confirmBTCScriptChecked },
               'Everything is OK. Continue'
             )
@@ -13886,7 +14071,7 @@ var EthToBtc = function (_Component) {
               _react2.default.createElement(
                 'strong',
                 null,
-                this.swap.sellAmount
+                this.swap.sellAmount.toString()
               ),
               ' ',
               this.swap.sellCurrency
@@ -13900,7 +14085,7 @@ var EthToBtc = function (_Component) {
           ),
           _react2.default.createElement('br', null),
           _react2.default.createElement(
-            'button',
+            _TimerButton2.default,
             { type: 'button', onClick: this.updateBalance },
             'Continue'
           )
@@ -13913,7 +14098,7 @@ var EthToBtc = function (_Component) {
             null,
             'Checking balance..'
           ),
-          _react2.default.createElement(_Loader2.default, { overlay: false })
+          _react2.default.createElement(_InlineLoader2.default, null)
         ),
         (flow.step === 5 || flow.isEthContractFunded) && _react2.default.createElement(
           'h3',
@@ -13938,7 +14123,7 @@ var EthToBtc = function (_Component) {
             )
           )
         ),
-        flow.step === 5 && _react2.default.createElement(_Loader2.default, { overlay: false }),
+        flow.step === 5 && _react2.default.createElement(_InlineLoader2.default, null),
         (flow.step === 6 || flow.isEthWithdrawn) && _react2.default.createElement(
           _react.Fragment,
           null,
@@ -13947,7 +14132,7 @@ var EthToBtc = function (_Component) {
             null,
             '5. Waiting BTC Owner adds Secret Key to ETH Contact'
           ),
-          !flow.isEthWithdrawn && _react2.default.createElement(_Loader2.default, { overlay: false })
+          !flow.isEthWithdrawn && _react2.default.createElement(_InlineLoader2.default, null)
         ),
         (flow.step === 7 || flow.isBtcWithdrawn) && _react2.default.createElement(
           'h3',
@@ -13972,7 +14157,7 @@ var EthToBtc = function (_Component) {
             )
           )
         ),
-        flow.step === 7 && _react2.default.createElement(_Loader2.default, { overlay: false }),
+        flow.step === 7 && _react2.default.createElement(_InlineLoader2.default, null),
         flow.isBtcWithdrawn && _react2.default.createElement(
           _react.Fragment,
           null,
@@ -13997,14 +14182,7 @@ var EthToBtc = function (_Component) {
 exports.default = EthToBtc;
 
 /***/ }),
-/* 916 */
-/***/ (function(module, exports) {
-
-// removed by extract-text-webpack-plugin
-module.exports = {"overlay":"AOfotv","loader":"_2DlhHx","small":"fMD4oL","center":"_2Q-7EU","loader1":"_3xH56a","loader2":"_2bU_0h","loader3":"_2fM_Pw"};
-
-/***/ }),
-/* 917 */
+/* 920 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14035,9 +14213,13 @@ var _swap2 = __webpack_require__(52);
 
 var _swap3 = _interopRequireDefault(_swap2);
 
-var _Loader = __webpack_require__(127);
+var _InlineLoader = __webpack_require__(73);
 
-var _Loader2 = _interopRequireDefault(_Loader);
+var _InlineLoader2 = _interopRequireDefault(_InlineLoader);
+
+var _TimerButton = __webpack_require__(127);
+
+var _TimerButton2 = _interopRequireDefault(_TimerButton);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -14096,11 +14278,11 @@ var BtcToEthToken = function (_Component) {
       this.swap.id && _react2.default.createElement(
         'strong',
         null,
-        this.swap.sellAmount,
+        this.swap.sellAmount.toString(),
         ' ',
         this.swap.sellCurrency,
         ' \u27F6 ',
-        this.swap.buyAmount,
+        this.swap.buyAmount.toString(),
         ' ',
         this.swap.buyCurrency
       ),
@@ -14116,7 +14298,7 @@ var BtcToEthToken = function (_Component) {
           null,
           'The order creator is offline. Waiting for him..'
         ),
-        _react2.default.createElement(_Loader2.default, { overlay: false })
+        _react2.default.createElement(_InlineLoader2.default, null)
       )),
       flow.isWaitingForOwner && _react2.default.createElement(
         _react.Fragment,
@@ -14126,7 +14308,7 @@ var BtcToEthToken = function (_Component) {
           null,
           'Waiting for other user when he connect to the order'
         ),
-        _react2.default.createElement(_Loader2.default, { overlay: false })
+        _react2.default.createElement(_InlineLoader2.default, null)
       ),
       (flow.step === 1 || flow.isMeSigned) && _react2.default.createElement(
         _react.Fragment,
@@ -14136,7 +14318,7 @@ var BtcToEthToken = function (_Component) {
           null,
           '1. Waiting participant confirm this swap'
         ),
-        _react2.default.createElement(_Loader2.default, { overlay: false })
+        _react2.default.createElement(_InlineLoader2.default, null)
       ),
       flow.isParticipantSigned && _react2.default.createElement(
         _react.Fragment,
@@ -14152,7 +14334,7 @@ var BtcToEthToken = function (_Component) {
           _react2.default.createElement('input', { type: 'text', placeholder: 'Secret Key', defaultValue: secret }),
           _react2.default.createElement('br', null),
           _react2.default.createElement(
-            'button',
+            _TimerButton2.default,
             { onClick: this.submitSecret },
             'Confirm'
           )
@@ -14215,7 +14397,7 @@ var BtcToEthToken = function (_Component) {
               _react2.default.createElement(
                 'strong',
                 null,
-                this.swap.sellAmount
+                this.swap.sellAmount.toString()
               ),
               ' ',
               this.swap.sellCurrency
@@ -14229,7 +14411,7 @@ var BtcToEthToken = function (_Component) {
           ),
           _react2.default.createElement('br', null),
           _react2.default.createElement(
-            'button',
+            _TimerButton2.default,
             { type: 'button', onClick: this.updateBalance },
             'Continue'
           )
@@ -14242,7 +14424,7 @@ var BtcToEthToken = function (_Component) {
             null,
             'Checking balance..'
           ),
-          _react2.default.createElement(_Loader2.default, { overlay: false })
+          _react2.default.createElement(_InlineLoader2.default, null)
         ),
         (flow.step === 4 || flow.btcScriptValues) && _react2.default.createElement(
           _react.Fragment,
@@ -14252,7 +14434,7 @@ var BtcToEthToken = function (_Component) {
             null,
             '3. Creating Bitcoin Script. Please wait, it will take a while'
           ),
-          !flow.btcScriptValues && _react2.default.createElement(_Loader2.default, { overlay: false })
+          !flow.btcScriptValues && _react2.default.createElement(_InlineLoader2.default, null)
         ),
         (flow.step === 5 || flow.isEthContractFunded) && _react2.default.createElement(
           _react.Fragment,
@@ -14262,7 +14444,7 @@ var BtcToEthToken = function (_Component) {
             null,
             '4. ETH Owner received Bitcoin Script and Secret Hash. Waiting when he creates ETH Contract'
           ),
-          !flow.isEthContractFunded && _react2.default.createElement(_Loader2.default, { overlay: false })
+          !flow.isEthContractFunded && _react2.default.createElement(_InlineLoader2.default, null)
         ),
         (flow.step === 6 || flow.isEthWithdrawn) && _react2.default.createElement(
           'h3',
@@ -14283,7 +14465,7 @@ var BtcToEthToken = function (_Component) {
             )
           )
         ),
-        flow.step === 6 && _react2.default.createElement(_Loader2.default, { overlay: false }),
+        flow.step === 6 && _react2.default.createElement(_InlineLoader2.default, null),
         flow.isEthWithdrawn && _react2.default.createElement(
           _react.Fragment,
           null,
@@ -14308,7 +14490,7 @@ var BtcToEthToken = function (_Component) {
 exports.default = BtcToEthToken;
 
 /***/ }),
-/* 918 */
+/* 921 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14335,11 +14517,11 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _newSwap = __webpack_require__(88);
+var _newSwap = __webpack_require__(89);
 
 var _redaction = __webpack_require__(26);
 
-var _PageHeadline = __webpack_require__(111);
+var _PageHeadline = __webpack_require__(112);
 
 var _PageHeadline2 = _interopRequireDefault(_PageHeadline);
 
@@ -14347,7 +14529,7 @@ var _SubTitle = __webpack_require__(185);
 
 var _SubTitle2 = _interopRequireDefault(_SubTitle);
 
-var _FeedNotification = __webpack_require__(919);
+var _FeedNotification = __webpack_require__(922);
 
 var _FeedNotification2 = _interopRequireDefault(_FeedNotification);
 
@@ -14410,7 +14592,7 @@ var Feed = (_dec = (0, _redaction.connect)({
 exports.default = Feed;
 
 /***/ }),
-/* 919 */
+/* 922 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14434,11 +14616,11 @@ var _reactCssModules = __webpack_require__(2);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _FeedNotificaton = __webpack_require__(920);
+var _FeedNotificaton = __webpack_require__(923);
 
 var _FeedNotificaton2 = _interopRequireDefault(_FeedNotificaton);
 
-var _arrowRight = __webpack_require__(921);
+var _arrowRight = __webpack_require__(924);
 
 var _arrowRight2 = _interopRequireDefault(_arrowRight);
 
@@ -14544,20 +14726,20 @@ FeedNotificaton.propTypes = {
 exports.default = (0, _reactCssModules2.default)(FeedNotificaton, _FeedNotificaton2.default, { allowMultiple: true });
 
 /***/ }),
-/* 920 */
+/* 923 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"userTooltip":"VWwjR0","title":"z_31Kp","currency":"_1Z91so","coin":"_3HQEd8","buttons":"_2btjqE","arrow":"_77iS7G","checked":"-A0fCV","withdrawButton":"_133mOo","icon":"_1NzA4J"};
 
 /***/ }),
-/* 921 */
+/* 924 */
 /***/ (function(module, exports) {
 
 module.exports = "https://testnet.swap.online/images/arrow-right_014b04.svg";
 
 /***/ }),
-/* 922 */
+/* 925 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14584,15 +14766,15 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactRouterRedux = __webpack_require__(325);
+var _reactRouterRedux = __webpack_require__(326);
 
-var _reactRedux = __webpack_require__(317);
+var _reactRedux = __webpack_require__(318);
 
 var _propTypes = __webpack_require__(7);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
-var _App = __webpack_require__(923);
+var _App = __webpack_require__(926);
 
 var _App2 = _interopRequireDefault(_App);
 
@@ -14636,7 +14818,7 @@ var Root = (_temp = _class = function (_React$PureComponent) {
 exports.default = Root;
 
 /***/ }),
-/* 923 */
+/* 926 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14663,7 +14845,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactRouter = __webpack_require__(91);
+var _reactRouter = __webpack_require__(92);
 
 var _propTypes = __webpack_require__(7);
 
@@ -14685,25 +14867,25 @@ var _reactCssModules = __webpack_require__(2);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _App = __webpack_require__(924);
+var _App = __webpack_require__(927);
 
 var _App2 = _interopRequireDefault(_App);
 
-__webpack_require__(925);
+__webpack_require__(928);
 
-var _Header = __webpack_require__(926);
+var _Header = __webpack_require__(929);
 
 var _Header2 = _interopRequireDefault(_Header);
 
-var _Loader = __webpack_require__(127);
+var _Loader = __webpack_require__(193);
 
 var _Loader2 = _interopRequireDefault(_Loader);
 
-var _RequestLoader = __webpack_require__(944);
+var _RequestLoader = __webpack_require__(948);
 
 var _RequestLoader2 = _interopRequireDefault(_RequestLoader);
 
-var _ModalConductor = __webpack_require__(945);
+var _ModalConductor = __webpack_require__(949);
 
 var _ModalConductor2 = _interopRequireDefault(_ModalConductor);
 
@@ -14711,7 +14893,7 @@ var _WidthContainer = __webpack_require__(192);
 
 var _WidthContainer2 = _interopRequireDefault(_WidthContainer);
 
-var _NotificationConductor = __webpack_require__(988);
+var _NotificationConductor = __webpack_require__(992);
 
 var _NotificationConductor2 = _interopRequireDefault(_NotificationConductor);
 
@@ -14772,21 +14954,21 @@ var App = (_dec = (0, _redaction.connect)({
 exports.default = App;
 
 /***/ }),
-/* 924 */
+/* 927 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"main":"_1ywAGt"};
 
 /***/ }),
-/* 925 */
+/* 928 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"modal":"_2bSI7R","btn":"_3hjQqv"};
 
 /***/ }),
-/* 926 */
+/* 929 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14817,7 +14999,7 @@ var _reactCssModules = __webpack_require__(2);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _Header = __webpack_require__(927);
+var _Header = __webpack_require__(930);
 
 var _Header2 = _interopRequireDefault(_Header);
 
@@ -14825,15 +15007,15 @@ var _WidthContainer = __webpack_require__(192);
 
 var _WidthContainer2 = _interopRequireDefault(_WidthContainer);
 
-var _Logo = __webpack_require__(343);
+var _Logo = __webpack_require__(344);
 
 var _Logo2 = _interopRequireDefault(_Logo);
 
-var _Nav = __webpack_require__(932);
+var _Nav = __webpack_require__(935);
 
 var _Nav2 = _interopRequireDefault(_Nav);
 
-var _User = __webpack_require__(934);
+var _User = __webpack_require__(937);
 
 var _User2 = _interopRequireDefault(_User);
 
@@ -14866,40 +15048,40 @@ var Header = (_dec = (0, _reactCssModules2.default)(_Header2.default), _dec(_cla
 exports.default = Header;
 
 /***/ }),
-/* 927 */
+/* 930 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"header":"-QJzcI","container":"_1uduwC"};
 
 /***/ }),
-/* 928 */
+/* 931 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"widthContainer":"_2MQxGl","widthContainerIn":"_3YeKUt","relative":"_1za6i8","fullHeight":"p3bGwA","centeringContent":"_2hBTXS","main":"_7Imqyr"};
 
 /***/ }),
-/* 929 */
+/* 932 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"logo":"_3ywc1I"};
 
 /***/ }),
-/* 930 */
+/* 933 */
 /***/ (function(module, exports) {
 
 module.exports = "https://testnet.swap.online/images/logo_ab387e.svg";
 
 /***/ }),
-/* 931 */
+/* 934 */
 /***/ (function(module, exports) {
 
 module.exports = "https://testnet.swap.online/images/logo-colored_2cd869.svg";
 
 /***/ }),
-/* 932 */
+/* 935 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14923,7 +15105,7 @@ var _reactCssModules = __webpack_require__(2);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _Nav = __webpack_require__(933);
+var _Nav = __webpack_require__(936);
 
 var _Nav2 = _interopRequireDefault(_Nav);
 
@@ -14985,14 +15167,14 @@ var Nav = function Nav() {
 exports.default = (0, _reactCssModules2.default)(Nav, _Nav2.default);
 
 /***/ }),
-/* 933 */
+/* 936 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"nav":"_32xpDs","link":"_2q3iYI","active":"_2X-K5z"};
 
 /***/ }),
-/* 934 */
+/* 937 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -15024,7 +15206,7 @@ var _react2 = _interopRequireDefault(_react);
 
 var _redaction = __webpack_require__(26);
 
-var _newSwap = __webpack_require__(88);
+var _newSwap = __webpack_require__(89);
 
 var _actions = __webpack_require__(13);
 
@@ -15034,23 +15216,23 @@ var _reactCssModules = __webpack_require__(2);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _User = __webpack_require__(935);
+var _User = __webpack_require__(938);
 
 var _User2 = _interopRequireDefault(_User);
 
-var _Sound = __webpack_require__(344);
+var _Sound = __webpack_require__(345);
 
 var _Sound2 = _interopRequireDefault(_Sound);
 
-var _AddOfferButton = __webpack_require__(936);
+var _AddOfferButton = __webpack_require__(939);
 
 var _AddOfferButton2 = _interopRequireDefault(_AddOfferButton);
 
-var _UserAvatar = __webpack_require__(938);
+var _UserAvatar = __webpack_require__(941);
 
 var _UserAvatar2 = _interopRequireDefault(_UserAvatar);
 
-var _UserTooltip = __webpack_require__(941);
+var _UserTooltip = __webpack_require__(944);
 
 var _UserTooltip2 = _interopRequireDefault(_UserTooltip);
 
@@ -15071,7 +15253,7 @@ var User = (_dec = (0, _redaction.connect)({
     }
 
     return _ret = (_temp = (_this = (0, _possibleConstructorReturn3.default)(this, _React$Component.call.apply(_React$Component, [this].concat(args))), _this), _this.state = {
-      view: false
+      view: true
     }, _this.updateOrders = function () {
       _this.setState({
         orders: _newSwap.swapApp.services.orders.items
@@ -15142,14 +15324,14 @@ var User = (_dec = (0, _redaction.connect)({
 exports.default = User;
 
 /***/ }),
-/* 935 */
+/* 938 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"user-cont":"_2pmz1I","hidden":"DHHm8V"};
 
 /***/ }),
-/* 936 */
+/* 939 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -15186,7 +15368,7 @@ var _reactCssModules = __webpack_require__(2);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _AddOfferButton = __webpack_require__(937);
+var _AddOfferButton = __webpack_require__(940);
 
 var _AddOfferButton2 = _interopRequireDefault(_AddOfferButton);
 
@@ -15227,14 +15409,14 @@ var AddOfferButton = (_dec = (0, _reactCssModules2.default)(_AddOfferButton2.def
 exports.default = AddOfferButton;
 
 /***/ }),
-/* 937 */
+/* 940 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"createOffer":"_3sDCI2"};
 
 /***/ }),
-/* 938 */
+/* 941 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -15265,11 +15447,11 @@ var _reactCssModules = __webpack_require__(2);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _UserAvatar = __webpack_require__(939);
+var _UserAvatar = __webpack_require__(942);
 
 var _UserAvatar2 = _interopRequireDefault(_UserAvatar);
 
-var _avatar = __webpack_require__(940);
+var _avatar = __webpack_require__(943);
 
 var _avatar2 = _interopRequireDefault(_avatar);
 
@@ -15342,20 +15524,20 @@ var UserAvatar = (_dec = (0, _reactCssModules2.default)(_UserAvatar2.default, { 
 exports.default = UserAvatar;
 
 /***/ }),
-/* 939 */
+/* 942 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"user":"_2RGag8","bell":"_1kxsPB","status":"_1HA8Rs","new":"_3pPu-T","shake":"_2JMEzu"};
 
 /***/ }),
-/* 940 */
+/* 943 */
 /***/ (function(module, exports) {
 
 module.exports = "https://testnet.swap.online/images/avatar_33edf0.svg";
 
 /***/ }),
-/* 941 */
+/* 944 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -15379,11 +15561,11 @@ var _reactCssModules = __webpack_require__(2);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _UserTooltip = __webpack_require__(942);
+var _UserTooltip = __webpack_require__(945);
 
 var _UserTooltip2 = _interopRequireDefault(_UserTooltip);
 
-var _arrowRight = __webpack_require__(943);
+var _arrowRight = __webpack_require__(946);
 
 var _arrowRight2 = _interopRequireDefault(_arrowRight);
 
@@ -15489,20 +15671,27 @@ UserTooltip.propTypes = {
 exports.default = (0, _reactCssModules2.default)(UserTooltip, _UserTooltip2.default, { allowMultiple: true });
 
 /***/ }),
-/* 942 */
+/* 945 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"column":"_3rHFm5","feed":"_2wHzlm","userTooltip":"v8POQM","title":"_3DK_1S","currency":"_1qKKUr","coin":"X934On","arrow":"_1T0JYa","checked":"_3RrmBT","icon":"_2etP7N"};
 
 /***/ }),
-/* 943 */
+/* 946 */
 /***/ (function(module, exports) {
 
 module.exports = "https://testnet.swap.online/images/arrow-right_014b04.svg";
 
 /***/ }),
-/* 944 */
+/* 947 */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+module.exports = {"overlay":"AOfotv","loader":"_2DlhHx","small":"fMD4oL","center":"_2Q-7EU","loader1":"_3xH56a","loader2":"_2bU_0h","loader3":"_2fM_Pw"};
+
+/***/ }),
+/* 948 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -15516,7 +15705,7 @@ var _react2 = _interopRequireDefault(_react);
 
 var _redaction = __webpack_require__(26);
 
-var _Loader = __webpack_require__(127);
+var _Loader = __webpack_require__(193);
 
 var _Loader2 = _interopRequireDefault(_Loader);
 
@@ -15532,7 +15721,7 @@ exports.default = (0, _redaction.connect)({
 })(RequestLoader);
 
 /***/ }),
-/* 945 */
+/* 949 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -15571,7 +15760,7 @@ var _redaction = __webpack_require__(26);
 
 var _helpers = __webpack_require__(11);
 
-var _modals = __webpack_require__(946);
+var _modals = __webpack_require__(950);
 
 var _modals2 = _interopRequireDefault(_modals);
 
@@ -15579,7 +15768,7 @@ var _reactCssModules = __webpack_require__(2);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _ModalConductor = __webpack_require__(987);
+var _ModalConductor = __webpack_require__(991);
 
 var _ModalConductor2 = _interopRequireDefault(_ModalConductor);
 
@@ -15671,7 +15860,7 @@ var ModalConductor = (_dec = (0, _redaction.connect)({
 exports.default = ModalConductor;
 
 /***/ }),
-/* 946 */
+/* 950 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -15679,15 +15868,15 @@ exports.default = ModalConductor;
 
 exports.__esModule = true;
 
-var _OfferModal = __webpack_require__(947);
+var _OfferModal = __webpack_require__(951);
 
 var _OfferModal2 = _interopRequireDefault(_OfferModal);
 
-var _WithdrawModal = __webpack_require__(981);
+var _WithdrawModal = __webpack_require__(985);
 
 var _WithdrawModal2 = _interopRequireDefault(_WithdrawModal);
 
-var _PrivateKeysModal = __webpack_require__(983);
+var _PrivateKeysModal = __webpack_require__(987);
 
 var _PrivateKeysModal2 = _interopRequireDefault(_PrivateKeysModal);
 
@@ -15700,7 +15889,7 @@ exports.default = {
 };
 
 /***/ }),
-/* 947 */
+/* 951 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -15735,7 +15924,7 @@ var _reactCssModules = __webpack_require__(2);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _OfferModal = __webpack_require__(948);
+var _OfferModal = __webpack_require__(952);
 
 var _OfferModal2 = _interopRequireDefault(_OfferModal);
 
@@ -15743,15 +15932,15 @@ var _actions = __webpack_require__(13);
 
 var _actions2 = _interopRequireDefault(_actions);
 
-var _Modal = __webpack_require__(193);
+var _Modal = __webpack_require__(194);
 
 var _Modal2 = _interopRequireDefault(_Modal);
 
-var _ConfirmOffer = __webpack_require__(956);
+var _ConfirmOffer = __webpack_require__(960);
 
 var _ConfirmOffer2 = _interopRequireDefault(_ConfirmOffer);
 
-var _AddOffer = __webpack_require__(967);
+var _AddOffer = __webpack_require__(971);
 
 var _AddOffer2 = _interopRequireDefault(_AddOffer);
 
@@ -15812,21 +16001,21 @@ var Offer = (_dec = (0, _reactCssModules2.default)(_OfferModal2.default), _dec(_
 exports.default = Offer;
 
 /***/ }),
-/* 948 */
+/* 952 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"content":"_35EvSl"};
 
 /***/ }),
-/* 949 */
+/* 953 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"modal":"_18Zuzz","header":"_247oHD","headerContent":"_1nj0x3","title":"_1fyulC","uppercase":"_2k_g2m","closeButton":"HHCosS","contentContainer":"_2zEN0h","content":"_10IWir"};
 
 /***/ }),
-/* 950 */
+/* 954 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -15856,7 +16045,7 @@ var _reactCssModules = __webpack_require__(2);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _Overlay = __webpack_require__(951);
+var _Overlay = __webpack_require__(955);
 
 var _Overlay2 = _interopRequireDefault(_Overlay);
 
@@ -15882,14 +16071,14 @@ Overlay.propTypes = {
 exports.default = (0, _reactCssModules2.default)(Overlay, _Overlay2.default);
 
 /***/ }),
-/* 951 */
+/* 955 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"overlay":"ctI9Nl"};
 
 /***/ }),
-/* 952 */
+/* 956 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -15921,7 +16110,7 @@ var _reactCssModules = __webpack_require__(2);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _Center = __webpack_require__(953);
+var _Center = __webpack_require__(957);
 
 var _Center2 = _interopRequireDefault(_Center);
 
@@ -15960,14 +16149,14 @@ Center.defaultProps = {
 exports.default = (0, _reactCssModules2.default)(Center, _Center2.default, { allowMultiple: true });
 
 /***/ }),
-/* 953 */
+/* 957 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"centringContainer":"_1MHV1x","scrollable":"_3_xp05","centringContent":"_1MbRzk"};
 
 /***/ }),
-/* 954 */
+/* 958 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -15999,7 +16188,7 @@ var _reactCssModules = __webpack_require__(2);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _CloseIcon = __webpack_require__(955);
+var _CloseIcon = __webpack_require__(959);
 
 var _CloseIcon2 = _interopRequireDefault(_CloseIcon);
 
@@ -16030,14 +16219,14 @@ CloseIcon.propTypes = {
 exports.default = (0, _reactCssModules2.default)(CloseIcon, _CloseIcon2.default, { allowMultiple: true });
 
 /***/ }),
-/* 955 */
+/* 959 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"button":"_3DuKEL","whiteColor":"_1cHfwF","icon":"IZktJv","brandColor":"LyalG8"};
 
 /***/ }),
-/* 956 */
+/* 960 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -16068,37 +16257,37 @@ var _actions = __webpack_require__(13);
 
 var _actions2 = _interopRequireDefault(_actions);
 
-var _newSwap = __webpack_require__(88);
+var _newSwap = __webpack_require__(89);
 
 var _reactCssModules = __webpack_require__(2);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _ConfirmOffer = __webpack_require__(957);
+var _ConfirmOffer = __webpack_require__(961);
 
 var _ConfirmOffer2 = _interopRequireDefault(_ConfirmOffer);
 
-var _ButtonsInRow = __webpack_require__(958);
+var _ButtonsInRow = __webpack_require__(962);
 
 var _ButtonsInRow2 = _interopRequireDefault(_ButtonsInRow);
 
-var _Button = __webpack_require__(69);
+var _Button = __webpack_require__(74);
 
 var _Button2 = _interopRequireDefault(_Button);
 
-var _Coins = __webpack_require__(336);
+var _Coins = __webpack_require__(337);
 
 var _Coins2 = _interopRequireDefault(_Coins);
 
-var _Amounts = __webpack_require__(960);
+var _Amounts = __webpack_require__(964);
 
 var _Amounts2 = _interopRequireDefault(_Amounts);
 
-var _ExchangeRate = __webpack_require__(964);
+var _ExchangeRate = __webpack_require__(968);
 
 var _ExchangeRate2 = _interopRequireDefault(_ExchangeRate);
 
-var _Fee = __webpack_require__(966);
+var _Fee = __webpack_require__(970);
 
 var _Fee2 = _interopRequireDefault(_Fee);
 
@@ -16177,14 +16366,14 @@ var ConfirmOffer = (_dec = (0, _reactCssModules2.default)(_ConfirmOffer2.default
 exports.default = ConfirmOffer;
 
 /***/ }),
-/* 957 */
+/* 961 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"coins":"_2RjWU2","buttonsInRow":"_3mrqw4","button":"_1vanZm"};
 
 /***/ }),
-/* 958 */
+/* 962 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -16208,7 +16397,7 @@ var _reactCssModules = __webpack_require__(2);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _ButtonsInRow = __webpack_require__(959);
+var _ButtonsInRow = __webpack_require__(963);
 
 var _ButtonsInRow2 = _interopRequireDefault(_ButtonsInRow);
 
@@ -16235,14 +16424,14 @@ ButtonsInRow.propTypes = {
 exports.default = (0, _reactCssModules2.default)(ButtonsInRow, _ButtonsInRow2.default);
 
 /***/ }),
-/* 959 */
+/* 963 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"twoButtonsInRow":"_9_lDxo"};
 
 /***/ }),
-/* 960 */
+/* 964 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -16258,15 +16447,15 @@ var _reactCssModules = __webpack_require__(2);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _Amounts = __webpack_require__(961);
+var _Amounts = __webpack_require__(965);
 
 var _Amounts2 = _interopRequireDefault(_Amounts);
 
-var _Row = __webpack_require__(194);
+var _Row = __webpack_require__(195);
 
 var _Row2 = _interopRequireDefault(_Row);
 
-var _Value = __webpack_require__(195);
+var _Value = __webpack_require__(196);
 
 var _Value2 = _interopRequireDefault(_Value);
 
@@ -16289,28 +16478,28 @@ var Amounts = function Amounts(_ref) {
 exports.default = (0, _reactCssModules2.default)(Amounts, _Amounts2.default);
 
 /***/ }),
-/* 961 */
+/* 965 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"arrow":"_2HWTjJ"};
 
 /***/ }),
-/* 962 */
+/* 966 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"row":"_1y3vOI","title":"LetDhR","content":"_1XWdvY"};
 
 /***/ }),
-/* 963 */
+/* 967 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"value":"_2bAMgW","currency":"_1Z5jPl"};
 
 /***/ }),
-/* 964 */
+/* 968 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -16326,15 +16515,15 @@ var _reactCssModules = __webpack_require__(2);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _ExchangeRate = __webpack_require__(965);
+var _ExchangeRate = __webpack_require__(969);
 
 var _ExchangeRate2 = _interopRequireDefault(_ExchangeRate);
 
-var _Row = __webpack_require__(194);
+var _Row = __webpack_require__(195);
 
 var _Row2 = _interopRequireDefault(_Row);
 
-var _Value = __webpack_require__(195);
+var _Value = __webpack_require__(196);
 
 var _Value2 = _interopRequireDefault(_Value);
 
@@ -16360,14 +16549,14 @@ var ExchangeRate = function ExchangeRate(_ref) {
 exports.default = (0, _reactCssModules2.default)(ExchangeRate, _ExchangeRate2.default);
 
 /***/ }),
-/* 965 */
+/* 969 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"equal":"_3RggZJ"};
 
 /***/ }),
-/* 966 */
+/* 970 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -16379,11 +16568,11 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _Row = __webpack_require__(194);
+var _Row = __webpack_require__(195);
 
 var _Row2 = _interopRequireDefault(_Row);
 
-var _Value = __webpack_require__(195);
+var _Value = __webpack_require__(196);
 
 var _Value2 = _interopRequireDefault(_Value);
 
@@ -16402,7 +16591,7 @@ var Fee = function Fee(_ref) {
 exports.default = Fee;
 
 /***/ }),
-/* 967 */
+/* 971 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -16430,7 +16619,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _swValuelink = __webpack_require__(89);
+var _swValuelink = __webpack_require__(90);
 
 var _swValuelink2 = _interopRequireDefault(_swValuelink);
 
@@ -16444,15 +16633,15 @@ var _reactCssModules = __webpack_require__(2);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _AddOffer = __webpack_require__(974);
+var _AddOffer = __webpack_require__(978);
 
 var _AddOffer2 = _interopRequireDefault(_AddOffer);
 
-var _Button = __webpack_require__(69);
+var _Button = __webpack_require__(74);
 
 var _Button2 = _interopRequireDefault(_Button);
 
-var _Group = __webpack_require__(975);
+var _Group = __webpack_require__(979);
 
 var _Group2 = _interopRequireDefault(_Group);
 
@@ -16684,7 +16873,7 @@ var AddOffer = (_dec = (0, _reactCssModules2.default)(_AddOffer2.default, { allo
 exports.default = AddOffer;
 
 /***/ }),
-/* 968 */
+/* 972 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -16721,7 +16910,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactInputMask = __webpack_require__(969);
+var _reactInputMask = __webpack_require__(973);
 
 var _reactInputMask2 = _interopRequireDefault(_reactInputMask);
 
@@ -17004,19 +17193,19 @@ exports.Checkbox = Checkbox;
 exports.NumberInput = NumberInput;
 
 /***/ }),
-/* 969 */,
-/* 970 */,
-/* 971 */,
-/* 972 */,
 /* 973 */,
-/* 974 */
+/* 974 */,
+/* 975 */,
+/* 976 */,
+/* 977 */,
+/* 978 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"buyGroup":"EzYW8A","button":"_2cpQT4"};
 
 /***/ }),
-/* 975 */
+/* 979 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -17032,19 +17221,19 @@ var _reactCssModules = __webpack_require__(2);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _Group = __webpack_require__(976);
+var _Group = __webpack_require__(980);
 
 var _Group2 = _interopRequireDefault(_Group);
 
-var _FieldLabel = __webpack_require__(345);
+var _FieldLabel = __webpack_require__(346);
 
 var _FieldLabel2 = _interopRequireDefault(_FieldLabel);
 
-var _Input = __webpack_require__(197);
+var _Input = __webpack_require__(198);
 
 var _Input2 = _interopRequireDefault(_Input);
 
-var _CurrencySelect = __webpack_require__(314);
+var _CurrencySelect = __webpack_require__(315);
 
 var _CurrencySelect2 = _interopRequireDefault(_CurrencySelect);
 
@@ -17090,28 +17279,28 @@ var Group = function Group(_ref) {
 exports.default = (0, _reactCssModules2.default)(Group, _Group2.default);
 
 /***/ }),
-/* 976 */
+/* 980 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"groupField":"m1Yt0g","inputRoot":"_1rUUNY","inputContainer":"_1qVKWE","currencySelect":"_2Otm6-"};
 
 /***/ }),
-/* 977 */
+/* 981 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"label":"_1Grvg1","inRow":"_2anvtg"};
 
 /***/ }),
-/* 978 */
+/* 982 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"root":"_2B8dk-","inputContainer":"_2MfSxb","disabled":"_34MQUG","withError":"_1bE9ra","input":"_2HgfFS","label":"n728cD","error":"_1KSgUc"};
 
 /***/ }),
-/* 979 */
+/* 983 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -17150,7 +17339,7 @@ var _propTypes = __webpack_require__(7);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
-var _autosize = __webpack_require__(980);
+var _autosize = __webpack_require__(984);
 
 var _autosize2 = _interopRequireDefault(_autosize);
 
@@ -17245,8 +17434,8 @@ var TextareaAutosize = (_temp2 = _class = function (_Component) {
 exports.default = TextareaAutosize;
 
 /***/ }),
-/* 980 */,
-/* 981 */
+/* 984 */,
+/* 985 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -17285,7 +17474,7 @@ var _actions = __webpack_require__(13);
 
 var _actions2 = _interopRequireDefault(_actions);
 
-var _swValuelink = __webpack_require__(89);
+var _swValuelink = __webpack_require__(90);
 
 var _swValuelink2 = _interopRequireDefault(_swValuelink);
 
@@ -17293,23 +17482,23 @@ var _reactCssModules = __webpack_require__(2);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _WithdrawModal = __webpack_require__(982);
+var _WithdrawModal = __webpack_require__(986);
 
 var _WithdrawModal2 = _interopRequireDefault(_WithdrawModal);
 
-var _Modal = __webpack_require__(193);
+var _Modal = __webpack_require__(194);
 
 var _Modal2 = _interopRequireDefault(_Modal);
 
-var _FieldLabel = __webpack_require__(345);
+var _FieldLabel = __webpack_require__(346);
 
 var _FieldLabel2 = _interopRequireDefault(_FieldLabel);
 
-var _Input = __webpack_require__(197);
+var _Input = __webpack_require__(198);
 
 var _Input2 = _interopRequireDefault(_Input);
 
-var _Button = __webpack_require__(69);
+var _Button = __webpack_require__(74);
 
 var _Button2 = _interopRequireDefault(_Button);
 
@@ -17453,14 +17642,14 @@ var WithdrawModal = (_dec = (0, _redaction.connect)({
 exports.default = WithdrawModal;
 
 /***/ }),
-/* 982 */
+/* 986 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"note":"_1A5qTh","button":"_2Wr1o_"};
 
 /***/ }),
-/* 983 */
+/* 987 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -17501,7 +17690,7 @@ var _actions = __webpack_require__(13);
 
 var _actions2 = _interopRequireDefault(_actions);
 
-var _swValuelink = __webpack_require__(89);
+var _swValuelink = __webpack_require__(90);
 
 var _swValuelink2 = _interopRequireDefault(_swValuelink);
 
@@ -17511,19 +17700,19 @@ var _reactCssModules = __webpack_require__(2);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _PrivateKeysModal = __webpack_require__(984);
+var _PrivateKeysModal = __webpack_require__(988);
 
 var _PrivateKeysModal2 = _interopRequireDefault(_PrivateKeysModal);
 
-var _Field = __webpack_require__(985);
+var _Field = __webpack_require__(989);
 
 var _Field2 = _interopRequireDefault(_Field);
 
-var _Modal = __webpack_require__(193);
+var _Modal = __webpack_require__(194);
 
 var _Modal2 = _interopRequireDefault(_Modal);
 
-var _Button = __webpack_require__(69);
+var _Button = __webpack_require__(74);
 
 var _Button2 = _interopRequireDefault(_Button);
 
@@ -17675,14 +17864,14 @@ var PrivateKeysModal = (_dec = (0, _redaction.connect)({
 exports.default = PrivateKeysModal;
 
 /***/ }),
-/* 984 */
+/* 988 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"modal":"_3EyIsk","content":"_13sdCy","title":"TLE3XR","subTitle":"_3u-G2a","button":"_265YTK"};
 
 /***/ }),
-/* 985 */
+/* 989 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -17713,7 +17902,7 @@ var _propTypes = __webpack_require__(7);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
-var _swValuelink = __webpack_require__(89);
+var _swValuelink = __webpack_require__(90);
 
 var _swValuelink2 = _interopRequireDefault(_swValuelink);
 
@@ -17721,15 +17910,15 @@ var _reactCssModules = __webpack_require__(2);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _Field = __webpack_require__(986);
+var _Field = __webpack_require__(990);
 
 var _Field2 = _interopRequireDefault(_Field);
 
-var _Input = __webpack_require__(197);
+var _Input = __webpack_require__(198);
 
 var _Input2 = _interopRequireDefault(_Input);
 
-var _Button = __webpack_require__(69);
+var _Button = __webpack_require__(74);
 
 var _Button2 = _interopRequireDefault(_Button);
 
@@ -17831,21 +18020,21 @@ var Field2 = (_dec = (0, _reactCssModules2.default)(_Field2.default), _dec(_clas
 exports.default = Field2;
 
 /***/ }),
-/* 986 */
+/* 990 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"container":"_2sawde","section":"_3I8NoW","label":"_9MIala","input":"B6rjvz","button":"_8Hxxx_","error":"_37HJh_"};
 
 /***/ }),
-/* 987 */
+/* 991 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"modalConductor":"_8Hhrkg"};
 
 /***/ }),
-/* 988 */
+/* 992 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -17882,7 +18071,7 @@ var _propTypes2 = _interopRequireDefault(_propTypes);
 
 var _redaction = __webpack_require__(26);
 
-var _notifications = __webpack_require__(989);
+var _notifications = __webpack_require__(993);
 
 var _notifications2 = _interopRequireDefault(_notifications);
 
@@ -17890,7 +18079,7 @@ var _reactCssModules = __webpack_require__(2);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _NotificationConductor = __webpack_require__(995);
+var _NotificationConductor = __webpack_require__(999);
 
 var _NotificationConductor2 = _interopRequireDefault(_NotificationConductor);
 
@@ -17939,7 +18128,7 @@ var NotificationConductor = (_dec = (0, _redaction.connect)({
 exports.default = NotificationConductor;
 
 /***/ }),
-/* 989 */
+/* 993 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -17947,11 +18136,11 @@ exports.default = NotificationConductor;
 
 exports.__esModule = true;
 
-var _SuccessWithdraw = __webpack_require__(990);
+var _SuccessWithdraw = __webpack_require__(994);
 
 var _SuccessWithdraw2 = _interopRequireDefault(_SuccessWithdraw);
 
-var _Message = __webpack_require__(993);
+var _Message = __webpack_require__(997);
 
 var _Message2 = _interopRequireDefault(_Message);
 
@@ -17963,7 +18152,7 @@ exports.default = {
 };
 
 /***/ }),
-/* 990 */
+/* 994 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -17994,11 +18183,11 @@ var _reactCssModules = __webpack_require__(2);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _SuccessWithdraw = __webpack_require__(991);
+var _SuccessWithdraw = __webpack_require__(995);
 
 var _SuccessWithdraw2 = _interopRequireDefault(_SuccessWithdraw);
 
-var _Notification = __webpack_require__(346);
+var _Notification = __webpack_require__(347);
 
 var _Notification2 = _interopRequireDefault(_Notification);
 
@@ -18042,21 +18231,21 @@ var SuccessWithdraw = (_dec = (0, _reactCssModules2.default)(_SuccessWithdraw2.d
 exports.default = SuccessWithdraw;
 
 /***/ }),
-/* 991 */
+/* 995 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"value":"_2JfWob"};
 
 /***/ }),
-/* 992 */
+/* 996 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"container":"_288JHo","mounted":"NHOOb_","removed":"_3iSWGm","notification":"_2wSt7r","content":"_3FIvMD"};
 
 /***/ }),
-/* 993 */
+/* 997 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -18087,11 +18276,11 @@ var _reactCssModules = __webpack_require__(2);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _Message = __webpack_require__(994);
+var _Message = __webpack_require__(998);
 
 var _Message2 = _interopRequireDefault(_Message);
 
-var _Notification = __webpack_require__(346);
+var _Notification = __webpack_require__(347);
 
 var _Notification2 = _interopRequireDefault(_Notification);
 
@@ -18127,18 +18316,18 @@ var Message = (_dec = (0, _reactCssModules2.default)(_Message2.default), _dec(_c
 exports.default = Message;
 
 /***/ }),
-/* 994 */
+/* 998 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"value":"_34omtZ"};
 
 /***/ }),
-/* 995 */
+/* 999 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"notificationConductor":"QOGrSh"};
 
 /***/ })
-],[347]);
+],[348]);
