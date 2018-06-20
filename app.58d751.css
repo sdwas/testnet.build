@@ -1735,6 +1735,31 @@ textarea._2HgfFS {
     color: inherit !important;
     vertical-align: inherit !important;
     text-decoration: underline !important; }
+.Hx1rT8 {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  box-shadow: rgba(0, 0, 0, 0.08) 0 3px 9px 0;
+  border-radius: 6px;
+  height: 56px;
+  margin-top: 20px;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around; }
+  .Hx1rT8 p {
+    margin: 0; }
+
+._36frnt {
+  color: #3b95ff;
+  cursor: pointer; }
+  ._36frnt:hover {
+    color: #3692ff; }
 ._1A5qTh {
   margin-top: 6px;
   font-size: 14px;
