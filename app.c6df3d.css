@@ -550,6 +550,80 @@
   color: #2181F7 !important; }
   ._1RXNDW:hover {
     color: #3b95ff !important; }
+._20k4XX {
+  display: inline-block;
+  vertical-align: top;
+  zoom: 1;
+  height: 40px;
+  background: #f8f3fe;
+  padding: 0 25px;
+  cursor: pointer;
+  line-height: 40px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #7c1de9;
+  border-radius: 20px; }
+  ._20k4XX:hover {
+    color: #7c1de9;
+    background: #dfc5ff; }
+input, textarea {
+  background: none;
+  outline: none;
+  border: 0;
+  border-radius: 0; }
+
+._2B8dk- {
+  display: block; }
+
+._2MfSxb {
+  position: relative;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.08) 0 3px 9px 0;
+  border-radius: 6px; }
+  ._2MfSxb._34MQUG {
+    background-color: #fafafa; }
+  ._2MfSxb._1bE9ra {
+    border-color: #e32950; }
+    ._2MfSxb._1bE9ra ._2HgfFS ~ .n728cD {
+      color: #e32950; }
+
+._2HgfFS {
+  width: 100%;
+  height: 56px;
+  padding: 0 16px;
+  vertical-align: top;
+  line-height: 16px;
+  font-size: 16px;
+  font-family: 'CerebriSans';
+  font-weight: normal;
+  color: #000; }
+  ._2HgfFS:focus {
+    border-color: #6F8BC2; }
+
+textarea._2HgfFS {
+  line-height: 18px;
+  padding: 11px 12px;
+  font-size: 16px;
+  -webkit-transition: padding 0.13s linear;
+  transition: padding 0.13s linear; }
+  textarea._2HgfFS::-webkit-input-placeholder {
+    line-height: 18px; }
+  textarea._2HgfFS:-moz-placeholder {
+    line-height: 18px; }
+  textarea._2HgfFS::-moz-placeholder {
+    line-height: 18px; }
+  textarea._2HgfFS:-ms-input-placeholder {
+    line-height: 18px; }
+
+._1KSgUc {
+  margin-top: 6px;
+  font-size: 14px;
+  color: #e32950; }
+  ._1KSgUc [role="errorLink"] {
+    display: inline !important;
+    color: inherit !important;
+    vertical-align: inherit !important;
+    text-decoration: underline !important; }
 ._1QKxEw {
   margin-bottom: 40px; }
 
@@ -1953,64 +2027,6 @@ input[type=number]::-webkit-outer-spin-button {
   margin-top: 20px; }
   ._2anvtg:first-child {
     margin-top: 0; }
-input, textarea {
-  background: none;
-  outline: none;
-  border: 0;
-  border-radius: 0; }
-
-._2B8dk- {
-  display: block; }
-
-._2MfSxb {
-  position: relative;
-  background-color: #fff;
-  box-shadow: rgba(0, 0, 0, 0.08) 0 3px 9px 0;
-  border-radius: 6px; }
-  ._2MfSxb._34MQUG {
-    background-color: #fafafa; }
-  ._2MfSxb._1bE9ra {
-    border-color: #e32950; }
-    ._2MfSxb._1bE9ra ._2HgfFS ~ .n728cD {
-      color: #e32950; }
-
-._2HgfFS {
-  width: 100%;
-  height: 56px;
-  padding: 0 16px;
-  vertical-align: top;
-  line-height: 16px;
-  font-size: 16px;
-  font-family: 'CerebriSans';
-  font-weight: normal;
-  color: #000; }
-  ._2HgfFS:focus {
-    border-color: #6F8BC2; }
-
-textarea._2HgfFS {
-  line-height: 18px;
-  padding: 11px 12px;
-  font-size: 16px;
-  -webkit-transition: padding 0.13s linear;
-  transition: padding 0.13s linear; }
-  textarea._2HgfFS::-webkit-input-placeholder {
-    line-height: 18px; }
-  textarea._2HgfFS:-moz-placeholder {
-    line-height: 18px; }
-  textarea._2HgfFS::-moz-placeholder {
-    line-height: 18px; }
-  textarea._2HgfFS:-ms-input-placeholder {
-    line-height: 18px; }
-
-._1KSgUc {
-  margin-top: 6px;
-  font-size: 14px;
-  color: #e32950; }
-  ._1KSgUc [role="errorLink"] {
-    display: inline !important;
-    color: inherit !important;
-    vertical-align: inherit !important;
-    text-decoration: underline !important; }
 .Hx1rT8 {
   width: 100%;
   display: -webkit-box;
