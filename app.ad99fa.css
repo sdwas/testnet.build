@@ -1434,13 +1434,10 @@ input[type=number]::-webkit-outer-spin-button {
   font-weight: 500;
   font-size: 18px;
   text-decoration: none;
-  color: #dccef7; }
+  color: #E72BB3; }
   .AWJqPV:hover {
-    color: #E72BB3; }
-  .AWJqPV._3470Y1 {
-    border-bottom: 2px solid #E72BB3;
-    font-weight: 800;
-    color: #E72BB3; }
+    color: #e700ab;
+    font-weight: bold; }
 
 ._3d3RNi {
   padding: 0 16px;

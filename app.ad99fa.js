@@ -15755,7 +15755,7 @@ exports.default = (0, _reactCssModules2.default)(NavMobile, _NavMobile2.default,
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
-module.exports = {"nav":"_3bj5TS","open":"_2KAVg4","hide":"idt-1r","link":"AWJqPV","active":"_3470Y1","button":"_3d3RNi"};
+module.exports = {"nav":"_3bj5TS","open":"_2KAVg4","hide":"idt-1r","link":"AWJqPV","button":"_3d3RNi"};
 
 /***/ }),
 /* 967 */
