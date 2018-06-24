@@ -4863,20 +4863,20 @@ var fetchBalance = function fetchBalance(address) {
 var getTransaction = function getTransaction(address) {
   return new _promise2.default(function (resolve) {
 
-    var url = _appConfig2.default.api.blocktrail + '/address/' + address + '/transactions?api_key=' + _appConfig2.default.apiKeys.blocktrail;
+    var url = _appConfig2.default.api.bitpay + '/txs/?address=' + address;
     var transactions = void 0;
 
     _helpers.request.get(url).then(function (res) {
-      if (res.total) {
-        transactions = res.data.map(function (item) {
+      console.log('BTC', res);
+      if (res) {
+        transactions = res.txs.map(function (item) {
           return {
             type: 'btc',
-            hash: item.hash,
-            status: item.block_hash != null ? 1 : 0,
-            value: item.outputs[0].value / 1e8,
-            address: item.outputs[0].address,
-            date: new Date(Date.parse(item.time)).getTime(),
-            direction: address.toLocaleLowerCase() === item.outputs[0].address.toLocaleLowerCase() ? 'in' : 'out'
+            hash: item.txid,
+            confirmations: item.confirmations > 0 ? 'Confirm' : 'Unconfirmed',
+            value: item.vout[0].value,
+            date: item.time * 1000,
+            direction: address.toLocaleLowerCase() === item.vout[0].scriptPubKey.addresses[0].toLocaleLowerCase() ? 'in' : 'out'
           };
         });
         resolve(transactions);
@@ -5046,12 +5046,14 @@ var getTransaction = function getTransaction(address) {
     var transactions = void 0;
 
     _helpers.request.get(url).then(function (res) {
+      console.log(res);
       if (res.status) {
         transactions = res.result.filter(function (item) {
           return item.value > 0;
         }).map(function (item) {
           return {
             type: 'eth',
+            confirmations: item.confirmations > 0 ? 'Confirm' : 'Unconfirmed',
             hash: item.hash,
             status: item.blockHash != null ? 1 : 0,
             value: _web2.default.utils.fromWei(item.value),
@@ -5198,6 +5200,7 @@ var getTransaction = function getTransaction(address) {
           return item.value > 0;
         }).map(function (item) {
           return {
+            confirmations: item.confirmations > 0 ? 'Confirm' : 'Unconfirmed',
             type: item.tokenName,
             hash: item.hash,
             contractAddress: item.contractAddress,
@@ -11165,7 +11168,8 @@ var Row = function Row(_ref) {
       date = _ref.date,
       direction = _ref.direction,
       hash = _ref.hash,
-      value = _ref.value;
+      value = _ref.value,
+      confirmations = _ref.confirmations;
 
   var statusStyleName = (0, _classnames2.default)('status', {
     'in': direction === 'in',
@@ -11186,7 +11190,12 @@ var Row = function Row(_ref) {
       _react2.default.createElement(
         'div',
         { styleName: statusStyleName },
-        direction === 'in' ? 'Received' : 'Sent'
+        direction === 'in' ? 'Received ' : 'Sent '
+      ),
+      _react2.default.createElement(
+        'div',
+        { styleName: confirmations === 'Confirm' ? 'confirm' : 'unconfirmed' },
+        confirmations
       ),
       _react2.default.createElement(
         'div',
@@ -11218,7 +11227,7 @@ exports.default = (0, _reactCssModules2.default)(Row, _Row2.default, { allowMult
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
-module.exports = {"status":"_3kv9MC","in":"_2lbJ5g","out":"_1wgwnd","date":"_2-d0NO","address":"_2jfUW_","amount":"hcV54S"};
+module.exports = {"status":"_3kv9MC","in":"_2lbJ5g","out":"_1wgwnd","confirm":"_3Ir8F2","unconfirmed":"_49Oo0D","date":"_2-d0NO","address":"_2jfUW_","amount":"hcV54S"};
 
 /***/ }),
 /* 996 */
@@ -18017,7 +18026,7 @@ var WithdrawModal = (_dec = (0, _redaction.connect)({
 
     return _ret = (_temp = (_this = (0, _possibleConstructorReturn3.default)(this, _React$Component.call.apply(_React$Component, [this].concat(args))), _this), _this.state = {
       isSubmitted: false,
-      address: ' ',
+      address: '',
       amount: ''
     }, _this.handleSubmit = function () {
       var _this$state = _this.state,

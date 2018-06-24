@@ -435,7 +435,7 @@
   font-size: 14px;
   position: absolute;
   padding: 5px 15px;
-  background: rgba(59, 149, 255, 0.1);
+  background: #f8f3fe;
   top: -16px;
   left: calc(10%);
   border-radius: 20px; }
@@ -601,6 +601,12 @@
     color: #3bb33b; }
   ._3kv9MC._1wgwnd {
     color: #ff4e34; }
+
+._3Ir8F2 {
+  color: #3bb33b; }
+
+._49Oo0D {
+  color: #ff354b; }
 
 ._2-d0NO {
   margin-top: 5px;
