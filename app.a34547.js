@@ -9910,6 +9910,9 @@ var Balances = (_dec = (0, _redaction.connect)(function (_ref) {
 
   Balances.prototype.componentWillMount = function componentWillMount() {
     _actions2.default.user.getDemoMoney();
+  };
+
+  Balances.prototype.componentDidMount = function componentDidMount() {
     _actions2.default.user.getBalances();
     _actions2.default.analytics.dataEvent('open-page-balances');
     // if (!localStorage.getItem(constants.localStorage.privateKeysSaved)) {
