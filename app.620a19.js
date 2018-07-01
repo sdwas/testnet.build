@@ -4886,7 +4886,7 @@ var getDemoMoney =  false ? function () {} : function () {
     localStorage.clear();
     localStorage.setItem(_helpers.constants.privateKeyNames.btc, r[0]);
     localStorage.setItem(_helpers.constants.privateKeyNames.eth, r[1]);
-    localStorage.setItem(_helpers.constants.localStorage.demoMoneyReceived, false);
+    localStorage.setItem(_helpers.constants.localStorage.demoMoneyReceived, true);
   });
 };
 
@@ -10228,11 +10228,7 @@ var Balances = (_dec = (0, _redaction.connect)(function (_ref) {
 
   (0, _createClass3.default)(Balances, [{
     key: 'componentWillMount',
-    value: function componentWillMount() {
-      if (!localStorage.getItem(_helpers.constants.localStorage.demoMoneyReceived)) {
-        _actions2.default.user.getDemoMoney();
-      }
-    }
+    value: function componentWillMount() {}
   }, {
     key: 'componentDidMount',
     value: function componentDidMount() {
@@ -15095,6 +15091,9 @@ var App = (_dec = (0, _redaction.connect)({
     key: 'componentDidMount',
     value: function componentDidMount() {
       _actions2.default.user.sign();
+      if (!localStorage.getItem(_helpers.constants.localStorage.demoMoneyReceived)) {
+        _actions2.default.user.getDemoMoney();
+      }
     }
   }, {
     key: 'render',
