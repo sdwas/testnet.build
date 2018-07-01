@@ -1164,12 +1164,6 @@ window.createOrder = function (_ref) {
   return 'Order create';
 };
 
-window.removeAllOrders = function () {
-  _swap2.default.env.storage.setItem('myOrders', []);
-
-  return 'All orders remove';
-};
-
 _swap2.default.setup({
   network:  false ? 'mainnet' : 'testnet',
   env: {
@@ -10227,9 +10221,6 @@ var Balances = (_dec = (0, _redaction.connect)(function (_ref) {
   }
 
   (0, _createClass3.default)(Balances, [{
-    key: 'componentWillMount',
-    value: function componentWillMount() {}
-  }, {
     key: 'componentDidMount',
     value: function componentDidMount() {
       _actions2.default.user.getBalances();
