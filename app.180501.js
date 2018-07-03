@@ -29,7 +29,7 @@ var _btc = __webpack_require__(395);
 
 var _btc2 = _interopRequireDefault(_btc);
 
-var _web = __webpack_require__(106);
+var _web = __webpack_require__(105);
 
 var _web2 = _interopRequireDefault(_web);
 
@@ -78,7 +78,8 @@ exports.getScrollBarWidth = _getScrollBarWidth2.default;
 // Methods
 
 /***/ }),
-/* 12 */
+/* 12 */,
+/* 13 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -89,7 +90,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.util = exports.constants = exports.Events = exports.Collection = exports.SwapInterface = exports.ServiceInterface = undefined;
 
-var _SwapApp = __webpack_require__(342);
+var _SwapApp = __webpack_require__(343);
 
 var _SwapApp2 = _interopRequireDefault(_SwapApp);
 
@@ -128,7 +129,6 @@ exports.constants = _constants2.default;
 exports.util = _util2.default;
 
 /***/ }),
-/* 13 */,
 /* 14 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -240,7 +240,7 @@ Object.defineProperty(exports, "__esModule", {
 
 var _redaction = __webpack_require__(28);
 
-var _reduErs = __webpack_require__(307);
+var _reduErs = __webpack_require__(308);
 
 var _reduErs2 = _interopRequireDefault(_reduErs);
 
@@ -468,25 +468,6 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _SwapAuth = __webpack_require__(192);
-
-var _SwapAuth2 = _interopRequireDefault(_SwapAuth);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-exports.default = _SwapAuth2.default;
-
-/***/ }),
-/* 95 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
 var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
@@ -538,7 +519,7 @@ var Table = function Table(_ref) {
 exports.default = (0, _reactCssModules2.default)(Table, _Table2.default);
 
 /***/ }),
-/* 96 */
+/* 95 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -553,7 +534,7 @@ var _keys = __webpack_require__(46);
 
 var _keys2 = _interopRequireDefault(_keys);
 
-var _toConsumableArray2 = __webpack_require__(119);
+var _toConsumableArray2 = __webpack_require__(118);
 
 var _toConsumableArray3 = _interopRequireDefault(_toConsumableArray2);
 
@@ -610,6 +591,7 @@ _valuelink2.default.allFields = function (component) {
 exports.default = _valuelink2.default;
 
 /***/ }),
+/* 96 */,
 /* 97 */,
 /* 98 */,
 /* 99 */,
@@ -618,8 +600,7 @@ exports.default = _valuelink2.default;
 /* 102 */,
 /* 103 */,
 /* 104 */,
-/* 105 */,
-/* 106 */
+/* 105 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -644,6 +625,7 @@ var web3 = new _web2.default(new _web2.default.providers.HttpProvider(_appConfig
 exports.default = web3;
 
 /***/ }),
+/* 106 */,
 /* 107 */,
 /* 108 */,
 /* 109 */,
@@ -656,8 +638,7 @@ exports.default = web3;
 /* 116 */,
 /* 117 */,
 /* 118 */,
-/* 119 */,
-/* 120 */
+/* 119 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -686,6 +667,7 @@ exports.reducers = _reducers2.default;
 exports.getState = getState;
 
 /***/ }),
+/* 120 */,
 /* 121 */,
 /* 122 */,
 /* 123 */,
@@ -695,7 +677,25 @@ exports.getState = getState;
 /* 127 */,
 /* 128 */,
 /* 129 */,
-/* 130 */,
+/* 130 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _SwapAuth = __webpack_require__(193);
+
+var _SwapAuth2 = _interopRequireDefault(_SwapAuth);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+exports.default = _SwapAuth2.default;
+
+/***/ }),
 /* 131 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -718,7 +718,7 @@ var _Coins = __webpack_require__(879);
 
 var _Coins2 = _interopRequireDefault(_Coins);
 
-var _Coin = __webpack_require__(193);
+var _Coin = __webpack_require__(194);
 
 var _Coin2 = _interopRequireDefault(_Coin);
 
@@ -1055,7 +1055,7 @@ var _assign = __webpack_require__(26);
 
 var _assign2 = _interopRequireDefault(_assign);
 
-var _reactRouterRedux = __webpack_require__(308);
+var _reactRouterRedux = __webpack_require__(309);
 
 var _history = __webpack_require__(58);
 
@@ -1063,7 +1063,7 @@ var _redaction = __webpack_require__(28);
 
 var _reduxLogger = __webpack_require__(705);
 
-var _reduErs = __webpack_require__(307);
+var _reduErs = __webpack_require__(308);
 
 var _reduErs2 = _interopRequireDefault(_reduErs);
 
@@ -1109,7 +1109,7 @@ var _PageHeadline = __webpack_require__(848);
 
 var _PageHeadline2 = _interopRequireDefault(_PageHeadline);
 
-var _Title = __webpack_require__(341);
+var _Title = __webpack_require__(342);
 
 var _Title2 = _interopRequireDefault(_Title);
 
@@ -1244,10 +1244,134 @@ exports.default = {
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
+exports.createSwapApp = exports.swapApp = undefined;
+
+var _web = __webpack_require__(105);
+
+var _web2 = _interopRequireDefault(_web);
+
+var _bitcoinjsLib = __webpack_require__(139);
+
+var _bitcoinjsLib2 = _interopRequireDefault(_bitcoinjsLib);
+
+var _helpers = __webpack_require__(11);
+
+var _swap = __webpack_require__(13);
+
+var _swap2 = _interopRequireDefault(_swap);
+
+var _swap3 = __webpack_require__(130);
+
+var _swap4 = _interopRequireDefault(_swap3);
+
+var _swap5 = __webpack_require__(347);
+
+var _swap6 = _interopRequireDefault(_swap5);
+
+var _swap7 = __webpack_require__(871);
+
+var _swap8 = _interopRequireDefault(_swap7);
+
+var _swap9 = __webpack_require__(875);
+
+var _actions = __webpack_require__(14);
+
+var _actions2 = _interopRequireDefault(_actions);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+window.createOrder = function (_ref) {
+  var buyCurrency = _ref.buyCurrency,
+      sellCurrency = _ref.sellCurrency,
+      buyAmount = _ref.buyAmount,
+      sellAmount = _ref.sellAmount;
+
+  var data = {
+    buyCurrency: '' + buyCurrency,
+    sellCurrency: '' + sellCurrency,
+    buyAmount: Number(buyAmount),
+    sellAmount: Number(sellAmount)
+  };
+
+  _swap2.default.services.orders.create(data);
+
+  return 'Order create';
+}; /* eslint-disable import/no-mutable-exports,max-len */
+
+
+var createSwapApp = function createSwapApp() {
+  _swap2.default.setup({
+    network:  false ? 'mainnet' : 'testnet',
+    env: {
+      web3: _web2.default,
+      bitcoin: _bitcoinjsLib2.default,
+      Ipfs: window.Ipfs,
+      IpfsRoom: window.IpfsRoom,
+      storage: window.localStorage
+    },
+    services: [new _swap4.default({
+      // TODO need init swapApp only after private keys created!!!!!!!!!!!!!!!!!!!
+      eth: localStorage.getItem(_helpers.constants.privateKeyNames.eth),
+      btc: localStorage.getItem(_helpers.constants.privateKeyNames.btc)
+    }), new _swap6.default({
+      EXPERIMENTAL: {
+        pubsub: true
+      },
+      config: {
+        Addresses: {
+          Swarm: [
+          // '/dns4/ws-star.discovery.libp2p.io/tcp/443/wss/p2p-websocket-star',
+          '/dns4/star.wpmix.net/tcp/443/wss/p2p-websocket-star']
+        }
+      }
+    }), new _swap8.default()],
+    swaps: [new _swap9.EthSwap({
+      address: '0xdbC2395f753968a93465487022B0e5D8730633Ec', // 0x025dce2d39a46296766db7cac8c322e8f59cd5d9 mainnet
+      abi: [{ "constant": false, "inputs": [{ "name": "_secret", "type": "bytes32" }, { "name": "_ownerAddress", "type": "address" }], "name": "withdraw", "outputs": [], "payable": false, "stateMutability": "nonpayable", "type": "function" }, { "constant": true, "inputs": [{ "name": "_participantAddress", "type": "address" }], "name": "getSecret", "outputs": [{ "name": "", "type": "bytes32" }], "payable": false, "stateMutability": "view", "type": "function" }, { "constant": false, "inputs": [{ "name": "_ratingContractAddress", "type": "address" }], "name": "setReputationAddress", "outputs": [], "payable": false, "stateMutability": "nonpayable", "type": "function" }, { "constant": true, "inputs": [{ "name": "", "type": "address" }, { "name": "", "type": "address" }], "name": "participantSigns", "outputs": [{ "name": "", "type": "uint256" }], "payable": false, "stateMutability": "view", "type": "function" }, { "constant": true, "inputs": [], "name": "owner", "outputs": [{ "name": "", "type": "address" }], "payable": false, "stateMutability": "view", "type": "function" }, { "constant": false, "inputs": [{ "name": "_ownerAddress", "type": "address" }], "name": "abort", "outputs": [], "payable": false, "stateMutability": "nonpayable", "type": "function" }, { "constant": true, "inputs": [{ "name": "", "type": "address" }, { "name": "", "type": "address" }], "name": "swaps", "outputs": [{ "name": "secret", "type": "bytes32" }, { "name": "secretHash", "type": "bytes20" }, { "name": "createdAt", "type": "uint256" }, { "name": "balance", "type": "uint256" }], "payable": false, "stateMutability": "view", "type": "function" }, { "constant": false, "inputs": [{ "name": "_secretHash", "type": "bytes20" }, { "name": "_participantAddress", "type": "address" }], "name": "createSwap", "outputs": [], "payable": true, "stateMutability": "payable", "type": "function" }, { "constant": true, "inputs": [{ "name": "_ownerAddress", "type": "address" }], "name": "checkSign", "outputs": [{ "name": "", "type": "uint256" }], "payable": false, "stateMutability": "view", "type": "function" }, { "constant": false, "inputs": [{ "name": "_participantAddress", "type": "address" }], "name": "close", "outputs": [], "payable": false, "stateMutability": "nonpayable", "type": "function" }, { "constant": true, "inputs": [], "name": "ratingContractAddress", "outputs": [{ "name": "", "type": "address" }], "payable": false, "stateMutability": "view", "type": "function" }, { "constant": false, "inputs": [{ "name": "_participantAddress", "type": "address" }], "name": "sign", "outputs": [], "payable": false, "stateMutability": "nonpayable", "type": "function" }, { "constant": true, "inputs": [{ "name": "_ownerAddress", "type": "address" }], "name": "getBalance", "outputs": [{ "name": "", "type": "uint256" }], "payable": false, "stateMutability": "view", "type": "function" }, { "constant": false, "inputs": [{ "name": "_participantAddress", "type": "address" }], "name": "refund", "outputs": [], "payable": false, "stateMutability": "nonpayable", "type": "function" }, { "inputs": [], "payable": false, "stateMutability": "nonpayable", "type": "constructor" }, { "anonymous": false, "inputs": [], "name": "Sign", "type": "event" }, { "anonymous": false, "inputs": [{ "indexed": false, "name": "createdAt", "type": "uint256" }], "name": "CreateSwap", "type": "event" }, { "anonymous": false, "inputs": [], "name": "Withdraw", "type": "event" }, { "anonymous": false, "inputs": [], "name": "Close", "type": "event" }, { "anonymous": false, "inputs": [], "name": "Refund", "type": "event" }, { "anonymous": false, "inputs": [], "name": "Abort", "type": "event" }],
+      fetchBalance: function fetchBalance(address) {
+        return _actions2.default.ethereum.fetchBalance(address);
+      }
+    }), new _swap9.EthTokenSwap({
+      address: '0xBA5c6DC3CAcdE8EA754e47c817846f771944518F',
+      abi: [{ "constant": false, "inputs": [{ "name": "_secret", "type": "bytes32" }, { "name": "_ownerAddress", "type": "address" }], "name": "withdraw", "outputs": [], "payable": false, "stateMutability": "nonpayable", "type": "function" }, { "constant": true, "inputs": [{ "name": "_participantAddress", "type": "address" }], "name": "getSecret", "outputs": [{ "name": "", "type": "bytes32" }], "payable": false, "stateMutability": "view", "type": "function" }, { "constant": false, "inputs": [{ "name": "_ratingContractAddress", "type": "address" }], "name": "setReputationAddress", "outputs": [], "payable": false, "stateMutability": "nonpayable", "type": "function" }, { "constant": true, "inputs": [{ "name": "", "type": "address" }, { "name": "", "type": "address" }], "name": "participantSigns", "outputs": [{ "name": "", "type": "uint256" }], "payable": false, "stateMutability": "view", "type": "function" }, { "constant": true, "inputs": [], "name": "owner", "outputs": [{ "name": "", "type": "address" }], "payable": false, "stateMutability": "view", "type": "function" }, { "constant": false, "inputs": [{ "name": "_ownerAddress", "type": "address" }], "name": "abort", "outputs": [], "payable": false, "stateMutability": "nonpayable", "type": "function" }, { "constant": true, "inputs": [{ "name": "", "type": "address" }, { "name": "", "type": "address" }], "name": "swaps", "outputs": [{ "name": "token", "type": "address" }, { "name": "secret", "type": "bytes32" }, { "name": "secretHash", "type": "bytes20" }, { "name": "createdAt", "type": "uint256" }, { "name": "balance", "type": "uint256" }], "payable": false, "stateMutability": "view", "type": "function" }, { "constant": false, "inputs": [{ "name": "_secretHash", "type": "bytes20" }, { "name": "_participantAddress", "type": "address" }, { "name": "_value", "type": "uint256" }, { "name": "_token", "type": "address" }], "name": "createSwap", "outputs": [], "payable": false, "stateMutability": "nonpayable", "type": "function" }, { "constant": true, "inputs": [{ "name": "_ownerAddress", "type": "address" }], "name": "checkSign", "outputs": [{ "name": "", "type": "uint256" }], "payable": false, "stateMutability": "view", "type": "function" }, { "constant": false, "inputs": [{ "name": "_participantAddress", "type": "address" }], "name": "close", "outputs": [], "payable": false, "stateMutability": "nonpayable", "type": "function" }, { "constant": true, "inputs": [], "name": "ratingContractAddress", "outputs": [{ "name": "", "type": "address" }], "payable": false, "stateMutability": "view", "type": "function" }, { "constant": false, "inputs": [{ "name": "_participantAddress", "type": "address" }], "name": "sign", "outputs": [], "payable": false, "stateMutability": "nonpayable", "type": "function" }, { "constant": true, "inputs": [{ "name": "_ownerAddress", "type": "address" }], "name": "getBalance", "outputs": [{ "name": "", "type": "uint256" }], "payable": false, "stateMutability": "view", "type": "function" }, { "constant": false, "inputs": [{ "name": "_participantAddress", "type": "address" }], "name": "refund", "outputs": [], "payable": false, "stateMutability": "nonpayable", "type": "function" }, { "inputs": [], "payable": false, "stateMutability": "nonpayable", "type": "constructor" }, { "anonymous": false, "inputs": [], "name": "Sign", "type": "event" }, { "anonymous": false, "inputs": [{ "indexed": false, "name": "createdAt", "type": "uint256" }], "name": "CreateSwap", "type": "event" }, { "anonymous": false, "inputs": [], "name": "Withdraw", "type": "event" }, { "anonymous": false, "inputs": [], "name": "Close", "type": "event" }, { "anonymous": false, "inputs": [], "name": "Refund", "type": "event" }, { "anonymous": false, "inputs": [], "name": "Abort", "type": "event" }],
+      tokenAddress: '0x9E4AD79049282F942c1b4c9b418F0357A0637017',
+      tokenAbi: [{ "constant": true, "inputs": [], "name": "name", "outputs": [{ "name": "", "type": "string" }], "payable": false, "stateMutability": "view", "type": "function" }, { "constant": false, "inputs": [{ "name": "_spender", "type": "address" }, { "name": "_amount", "type": "uint256" }], "name": "approve", "outputs": [{ "name": "success", "type": "bool" }], "payable": false, "stateMutability": "nonpayable", "type": "function" }, { "constant": true, "inputs": [], "name": "totalSupply", "outputs": [{ "name": "", "type": "uint256" }], "payable": false, "stateMutability": "view", "type": "function" }, { "constant": false, "inputs": [{ "name": "_from", "type": "address" }, { "name": "_to", "type": "address" }, { "name": "_amount", "type": "uint256" }], "name": "transferFrom", "outputs": [{ "name": "success", "type": "bool" }], "payable": false, "stateMutability": "nonpayable", "type": "function" }, { "constant": false, "inputs": [], "name": "getBurnPrice", "outputs": [{ "name": "", "type": "uint256" }], "payable": false, "stateMutability": "nonpayable", "type": "function" }, { "constant": true, "inputs": [], "name": "decimals", "outputs": [{ "name": "", "type": "uint8" }], "payable": false, "stateMutability": "view", "type": "function" }, { "constant": true, "inputs": [], "name": "manager", "outputs": [{ "name": "", "type": "address" }], "payable": false, "stateMutability": "view", "type": "function" }, { "constant": false, "inputs": [], "name": "unlockEmission", "outputs": [], "payable": false, "stateMutability": "nonpayable", "type": "function" }, { "constant": true, "inputs": [{ "name": "_owner", "type": "address" }], "name": "balanceOf", "outputs": [{ "name": "balance", "type": "uint256" }], "payable": false, "stateMutability": "view", "type": "function" }, { "constant": true, "inputs": [], "name": "emissionlocked", "outputs": [{ "name": "", "type": "bool" }], "payable": false, "stateMutability": "view", "type": "function" }, { "constant": false, "inputs": [], "name": "acceptOwnership", "outputs": [], "payable": false, "stateMutability": "nonpayable", "type": "function" }, { "constant": false, "inputs": [], "name": "lockEmission", "outputs": [], "payable": false, "stateMutability": "nonpayable", "type": "function" }, { "constant": true, "inputs": [], "name": "owner", "outputs": [{ "name": "", "type": "address" }], "payable": false, "stateMutability": "view", "type": "function" }, { "constant": true, "inputs": [], "name": "symbol", "outputs": [{ "name": "", "type": "string" }], "payable": false, "stateMutability": "view", "type": "function" }, { "constant": false, "inputs": [], "name": "burnAll", "outputs": [{ "name": "", "type": "bool" }], "payable": false, "stateMutability": "nonpayable", "type": "function" }, { "constant": false, "inputs": [{ "name": "_newManager", "type": "address" }], "name": "changeManager", "outputs": [], "payable": false, "stateMutability": "nonpayable", "type": "function" }, { "constant": false, "inputs": [{ "name": "_newOwner", "type": "address" }], "name": "changeOwner", "outputs": [], "payable": false, "stateMutability": "nonpayable", "type": "function" }, { "constant": false, "inputs": [{ "name": "_to", "type": "address" }, { "name": "_amount", "type": "uint256" }], "name": "transfer", "outputs": [{ "name": "success", "type": "bool" }], "payable": false, "stateMutability": "nonpayable", "type": "function" }, { "constant": true, "inputs": [], "name": "emissionPrice", "outputs": [{ "name": "", "type": "uint256" }], "payable": false, "stateMutability": "view", "type": "function" }, { "constant": false, "inputs": [], "name": "addToReserve", "outputs": [{ "name": "", "type": "bool" }], "payable": true, "stateMutability": "payable", "type": "function" }, { "constant": true, "inputs": [], "name": "burnPrice", "outputs": [{ "name": "", "type": "uint256" }], "payable": false, "stateMutability": "view", "type": "function" }, { "constant": false, "inputs": [{ "name": "tokenAddress", "type": "address" }, { "name": "amount", "type": "uint256" }], "name": "transferAnyERC20Token", "outputs": [{ "name": "success", "type": "bool" }], "payable": false, "stateMutability": "nonpayable", "type": "function" }, { "constant": true, "inputs": [{ "name": "_owner", "type": "address" }, { "name": "_spender", "type": "address" }], "name": "allowance", "outputs": [{ "name": "remaining", "type": "uint256" }], "payable": false, "stateMutability": "view", "type": "function" }, { "constant": false, "inputs": [], "name": "NoxonInit", "outputs": [{ "name": "", "type": "bool" }], "payable": true, "stateMutability": "payable", "type": "function" }, { "constant": false, "inputs": [], "name": "acceptManagership", "outputs": [], "payable": false, "stateMutability": "nonpayable", "type": "function" }, { "inputs": [], "payable": false, "stateMutability": "nonpayable", "type": "constructor" }, { "payable": true, "stateMutability": "payable", "type": "fallback" }, { "anonymous": false, "inputs": [{ "indexed": true, "name": "buyer", "type": "address" }, { "indexed": false, "name": "ethers", "type": "uint256" }, { "indexed": false, "name": "_emissionedPrice", "type": "uint256" }, { "indexed": false, "name": "amountOfTokens", "type": "uint256" }], "name": "TokenBought", "type": "event" }, { "anonymous": false, "inputs": [{ "indexed": true, "name": "buyer", "type": "address" }, { "indexed": false, "name": "ethers", "type": "uint256" }, { "indexed": false, "name": "_burnedPrice", "type": "uint256" }, { "indexed": false, "name": "amountOfTokens", "type": "uint256" }], "name": "TokenBurned", "type": "event" }, { "anonymous": false, "inputs": [{ "indexed": false, "name": "etherReserved", "type": "uint256" }], "name": "EtherReserved", "type": "event" }, { "anonymous": false, "inputs": [{ "indexed": true, "name": "_from", "type": "address" }, { "indexed": true, "name": "_to", "type": "address" }, { "indexed": false, "name": "_value", "type": "uint256" }], "name": "Transfer", "type": "event" }, { "anonymous": false, "inputs": [{ "indexed": true, "name": "_owner", "type": "address" }, { "indexed": true, "name": "_spender", "type": "address" }, { "indexed": false, "name": "_value", "type": "uint256" }], "name": "Approval", "type": "event" }],
+      fetchBalance: function fetchBalance(address) {
+        return _actions2.default.token.fetchBalance(address);
+      }
+    }), new _swap9.BtcSwap({
+      fetchBalance: function fetchBalance(address) {
+        return _actions2.default.bitcoin.fetchBalance(address);
+      },
+      fetchUnspents: function fetchUnspents(scriptAddress) {
+        return _actions2.default.bitcoin.fetchUnspents(scriptAddress);
+      },
+      broadcastTx: function broadcastTx(txRaw) {
+        return _actions2.default.bitcoin.broadcastTx(txRaw);
+      }
+    })]
+  });
+
+  console.log('swapApp public data', _swap2.default.services.auth.getPublicData());
+};
+
+exports.swapApp = _swap2.default;
+exports.createSwapApp = createSwapApp;
+
+/***/ }),
+/* 193 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _swap = __webpack_require__(12);
+var _swap = __webpack_require__(13);
 
 var _swap2 = _interopRequireDefault(_swap);
 
@@ -1332,7 +1456,7 @@ var SwapAuth = function (_ServiceInterface) {
 exports.default = SwapAuth;
 
 /***/ }),
-/* 193 */
+/* 194 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1404,7 +1528,7 @@ var Coin = function Coin(_ref) {
 exports.default = (0, _reactCssModules2.default)(Coin, _Coin2.default);
 
 /***/ }),
-/* 194 */
+/* 195 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1447,7 +1571,7 @@ var Loader = function Loader(_ref) {
 exports.default = (0, _reactCssModules2.default)(Loader, _Loader2.default, { allowMultiple: true });
 
 /***/ }),
-/* 195 */
+/* 196 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1643,7 +1767,7 @@ var Modal = (_dec = (0, _reactCssModules2.default)(_Modal2.default, { allowMulti
 exports.default = Modal;
 
 /***/ }),
-/* 196 */
+/* 197 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1689,7 +1813,7 @@ var Row = function Row(_ref) {
 exports.default = (0, _reactCssModules2.default)(Row, _Row2.default);
 
 /***/ }),
-/* 197 */
+/* 198 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1735,8 +1859,8 @@ var Value = function Value(_ref) {
 exports.default = (0, _reactCssModules2.default)(Value, _Value2.default);
 
 /***/ }),
-/* 198 */,
-/* 199 */
+/* 199 */,
+/* 200 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1785,7 +1909,7 @@ var _propTypes = __webpack_require__(4);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
-var _swValuelink = __webpack_require__(96);
+var _swValuelink = __webpack_require__(95);
 
 var _classnames = __webpack_require__(35);
 
@@ -1885,7 +2009,6 @@ var Input = (_dec = (0, _reactCssModules2.default)(_Input2.default, { allowMulti
 exports.default = Input;
 
 /***/ }),
-/* 200 */,
 /* 201 */,
 /* 202 */,
 /* 203 */,
@@ -1992,7 +2115,8 @@ exports.default = Input;
 /* 304 */,
 /* 305 */,
 /* 306 */,
-/* 307 */
+/* 307 */,
+/* 308 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2038,7 +2162,6 @@ exports.default = {
 };
 
 /***/ }),
-/* 308 */,
 /* 309 */,
 /* 310 */,
 /* 311 */,
@@ -2071,7 +2194,8 @@ exports.default = {
 /* 338 */,
 /* 339 */,
 /* 340 */,
-/* 341 */
+/* 341 */,
+/* 342 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2107,7 +2231,7 @@ var Title = function Title(_ref) {
 exports.default = (0, _reactCssModules2.default)(Title, _Title2.default);
 
 /***/ }),
-/* 342 */
+/* 343 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2260,132 +2384,7 @@ var SwapApp = function () {
 exports.default = new SwapApp();
 
 /***/ }),
-/* 343 */,
-/* 344 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.swapApp = undefined;
-
-var _web = __webpack_require__(106);
-
-var _web2 = _interopRequireDefault(_web);
-
-var _bitcoinjsLib = __webpack_require__(139);
-
-var _bitcoinjsLib2 = _interopRequireDefault(_bitcoinjsLib);
-
-var _helpers = __webpack_require__(11);
-
-var _swap = __webpack_require__(12);
-
-var _swap2 = _interopRequireDefault(_swap);
-
-var _swap3 = __webpack_require__(94);
-
-var _swap4 = _interopRequireDefault(_swap3);
-
-var _swap5 = __webpack_require__(347);
-
-var _swap6 = _interopRequireDefault(_swap5);
-
-var _swap7 = __webpack_require__(871);
-
-var _swap8 = _interopRequireDefault(_swap7);
-
-var _swap9 = __webpack_require__(875);
-
-var _actions = __webpack_require__(14);
-
-var _actions2 = _interopRequireDefault(_actions);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-window.createOrder = function (_ref) {
-  var buyCurrency = _ref.buyCurrency,
-      sellCurrency = _ref.sellCurrency,
-      buyAmount = _ref.buyAmount,
-      sellAmount = _ref.sellAmount;
-
-  var data = {
-    buyCurrency: '' + buyCurrency,
-    sellCurrency: '' + sellCurrency,
-    buyAmount: Number(buyAmount),
-    sellAmount: Number(sellAmount)
-  };
-
-  _swap2.default.services.orders.create(data);
-
-  return 'Order create';
-}; /* eslint-disable import/no-mutable-exports,max-len */
-
-
-window.deleteOrder = function (orderId) {
-  _swap2.default.services.orders.remove(orderId);
-};
-
-_swap2.default.setup({
-  network:  false ? 'mainnet' : 'testnet',
-  env: {
-    web3: _web2.default,
-    bitcoin: _bitcoinjsLib2.default,
-    Ipfs: window.Ipfs,
-    IpfsRoom: window.IpfsRoom,
-    storage: window.localStorage
-  },
-  services: [new _swap4.default({
-    // TODO need init swapApp only after private keys created!!!!!!!!!!!!!!!!!!!
-    eth: localStorage.getItem(_helpers.constants.privateKeyNames.eth),
-    btc: localStorage.getItem(_helpers.constants.privateKeyNames.btc)
-  }), new _swap6.default({
-    EXPERIMENTAL: {
-      pubsub: true
-    },
-    config: {
-      Addresses: {
-        Swarm: [
-        // '/dns4/ws-star.discovery.libp2p.io/tcp/443/wss/p2p-websocket-star',
-        '/dns4/star.wpmix.net/tcp/443/wss/p2p-websocket-star']
-      }
-    }
-  }), new _swap8.default()],
-  swaps: [new _swap9.EthSwap({
-    address: '0xdbC2395f753968a93465487022B0e5D8730633Ec', // 0x025dce2d39a46296766db7cac8c322e8f59cd5d9 mainnet
-    abi: [{ "constant": false, "inputs": [{ "name": "_secret", "type": "bytes32" }, { "name": "_ownerAddress", "type": "address" }], "name": "withdraw", "outputs": [], "payable": false, "stateMutability": "nonpayable", "type": "function" }, { "constant": true, "inputs": [{ "name": "_participantAddress", "type": "address" }], "name": "getSecret", "outputs": [{ "name": "", "type": "bytes32" }], "payable": false, "stateMutability": "view", "type": "function" }, { "constant": false, "inputs": [{ "name": "_ratingContractAddress", "type": "address" }], "name": "setReputationAddress", "outputs": [], "payable": false, "stateMutability": "nonpayable", "type": "function" }, { "constant": true, "inputs": [{ "name": "", "type": "address" }, { "name": "", "type": "address" }], "name": "participantSigns", "outputs": [{ "name": "", "type": "uint256" }], "payable": false, "stateMutability": "view", "type": "function" }, { "constant": true, "inputs": [], "name": "owner", "outputs": [{ "name": "", "type": "address" }], "payable": false, "stateMutability": "view", "type": "function" }, { "constant": false, "inputs": [{ "name": "_ownerAddress", "type": "address" }], "name": "abort", "outputs": [], "payable": false, "stateMutability": "nonpayable", "type": "function" }, { "constant": true, "inputs": [{ "name": "", "type": "address" }, { "name": "", "type": "address" }], "name": "swaps", "outputs": [{ "name": "secret", "type": "bytes32" }, { "name": "secretHash", "type": "bytes20" }, { "name": "createdAt", "type": "uint256" }, { "name": "balance", "type": "uint256" }], "payable": false, "stateMutability": "view", "type": "function" }, { "constant": false, "inputs": [{ "name": "_secretHash", "type": "bytes20" }, { "name": "_participantAddress", "type": "address" }], "name": "createSwap", "outputs": [], "payable": true, "stateMutability": "payable", "type": "function" }, { "constant": true, "inputs": [{ "name": "_ownerAddress", "type": "address" }], "name": "checkSign", "outputs": [{ "name": "", "type": "uint256" }], "payable": false, "stateMutability": "view", "type": "function" }, { "constant": false, "inputs": [{ "name": "_participantAddress", "type": "address" }], "name": "close", "outputs": [], "payable": false, "stateMutability": "nonpayable", "type": "function" }, { "constant": true, "inputs": [], "name": "ratingContractAddress", "outputs": [{ "name": "", "type": "address" }], "payable": false, "stateMutability": "view", "type": "function" }, { "constant": false, "inputs": [{ "name": "_participantAddress", "type": "address" }], "name": "sign", "outputs": [], "payable": false, "stateMutability": "nonpayable", "type": "function" }, { "constant": true, "inputs": [{ "name": "_ownerAddress", "type": "address" }], "name": "getBalance", "outputs": [{ "name": "", "type": "uint256" }], "payable": false, "stateMutability": "view", "type": "function" }, { "constant": false, "inputs": [{ "name": "_participantAddress", "type": "address" }], "name": "refund", "outputs": [], "payable": false, "stateMutability": "nonpayable", "type": "function" }, { "inputs": [], "payable": false, "stateMutability": "nonpayable", "type": "constructor" }, { "anonymous": false, "inputs": [], "name": "Sign", "type": "event" }, { "anonymous": false, "inputs": [{ "indexed": false, "name": "createdAt", "type": "uint256" }], "name": "CreateSwap", "type": "event" }, { "anonymous": false, "inputs": [], "name": "Withdraw", "type": "event" }, { "anonymous": false, "inputs": [], "name": "Close", "type": "event" }, { "anonymous": false, "inputs": [], "name": "Refund", "type": "event" }, { "anonymous": false, "inputs": [], "name": "Abort", "type": "event" }],
-    fetchBalance: function fetchBalance(address) {
-      return _actions2.default.ethereum.fetchBalance(address);
-    }
-  }), new _swap9.EthTokenSwap({
-    address: '0xBA5c6DC3CAcdE8EA754e47c817846f771944518F',
-    abi: [{ "constant": false, "inputs": [{ "name": "_secret", "type": "bytes32" }, { "name": "_ownerAddress", "type": "address" }], "name": "withdraw", "outputs": [], "payable": false, "stateMutability": "nonpayable", "type": "function" }, { "constant": true, "inputs": [{ "name": "_participantAddress", "type": "address" }], "name": "getSecret", "outputs": [{ "name": "", "type": "bytes32" }], "payable": false, "stateMutability": "view", "type": "function" }, { "constant": false, "inputs": [{ "name": "_ratingContractAddress", "type": "address" }], "name": "setReputationAddress", "outputs": [], "payable": false, "stateMutability": "nonpayable", "type": "function" }, { "constant": true, "inputs": [{ "name": "", "type": "address" }, { "name": "", "type": "address" }], "name": "participantSigns", "outputs": [{ "name": "", "type": "uint256" }], "payable": false, "stateMutability": "view", "type": "function" }, { "constant": true, "inputs": [], "name": "owner", "outputs": [{ "name": "", "type": "address" }], "payable": false, "stateMutability": "view", "type": "function" }, { "constant": false, "inputs": [{ "name": "_ownerAddress", "type": "address" }], "name": "abort", "outputs": [], "payable": false, "stateMutability": "nonpayable", "type": "function" }, { "constant": true, "inputs": [{ "name": "", "type": "address" }, { "name": "", "type": "address" }], "name": "swaps", "outputs": [{ "name": "token", "type": "address" }, { "name": "secret", "type": "bytes32" }, { "name": "secretHash", "type": "bytes20" }, { "name": "createdAt", "type": "uint256" }, { "name": "balance", "type": "uint256" }], "payable": false, "stateMutability": "view", "type": "function" }, { "constant": false, "inputs": [{ "name": "_secretHash", "type": "bytes20" }, { "name": "_participantAddress", "type": "address" }, { "name": "_value", "type": "uint256" }, { "name": "_token", "type": "address" }], "name": "createSwap", "outputs": [], "payable": false, "stateMutability": "nonpayable", "type": "function" }, { "constant": true, "inputs": [{ "name": "_ownerAddress", "type": "address" }], "name": "checkSign", "outputs": [{ "name": "", "type": "uint256" }], "payable": false, "stateMutability": "view", "type": "function" }, { "constant": false, "inputs": [{ "name": "_participantAddress", "type": "address" }], "name": "close", "outputs": [], "payable": false, "stateMutability": "nonpayable", "type": "function" }, { "constant": true, "inputs": [], "name": "ratingContractAddress", "outputs": [{ "name": "", "type": "address" }], "payable": false, "stateMutability": "view", "type": "function" }, { "constant": false, "inputs": [{ "name": "_participantAddress", "type": "address" }], "name": "sign", "outputs": [], "payable": false, "stateMutability": "nonpayable", "type": "function" }, { "constant": true, "inputs": [{ "name": "_ownerAddress", "type": "address" }], "name": "getBalance", "outputs": [{ "name": "", "type": "uint256" }], "payable": false, "stateMutability": "view", "type": "function" }, { "constant": false, "inputs": [{ "name": "_participantAddress", "type": "address" }], "name": "refund", "outputs": [], "payable": false, "stateMutability": "nonpayable", "type": "function" }, { "inputs": [], "payable": false, "stateMutability": "nonpayable", "type": "constructor" }, { "anonymous": false, "inputs": [], "name": "Sign", "type": "event" }, { "anonymous": false, "inputs": [{ "indexed": false, "name": "createdAt", "type": "uint256" }], "name": "CreateSwap", "type": "event" }, { "anonymous": false, "inputs": [], "name": "Withdraw", "type": "event" }, { "anonymous": false, "inputs": [], "name": "Close", "type": "event" }, { "anonymous": false, "inputs": [], "name": "Refund", "type": "event" }, { "anonymous": false, "inputs": [], "name": "Abort", "type": "event" }],
-    tokenAddress: '0x9E4AD79049282F942c1b4c9b418F0357A0637017',
-    tokenAbi: [{ "constant": true, "inputs": [], "name": "name", "outputs": [{ "name": "", "type": "string" }], "payable": false, "stateMutability": "view", "type": "function" }, { "constant": false, "inputs": [{ "name": "_spender", "type": "address" }, { "name": "_amount", "type": "uint256" }], "name": "approve", "outputs": [{ "name": "success", "type": "bool" }], "payable": false, "stateMutability": "nonpayable", "type": "function" }, { "constant": true, "inputs": [], "name": "totalSupply", "outputs": [{ "name": "", "type": "uint256" }], "payable": false, "stateMutability": "view", "type": "function" }, { "constant": false, "inputs": [{ "name": "_from", "type": "address" }, { "name": "_to", "type": "address" }, { "name": "_amount", "type": "uint256" }], "name": "transferFrom", "outputs": [{ "name": "success", "type": "bool" }], "payable": false, "stateMutability": "nonpayable", "type": "function" }, { "constant": false, "inputs": [], "name": "getBurnPrice", "outputs": [{ "name": "", "type": "uint256" }], "payable": false, "stateMutability": "nonpayable", "type": "function" }, { "constant": true, "inputs": [], "name": "decimals", "outputs": [{ "name": "", "type": "uint8" }], "payable": false, "stateMutability": "view", "type": "function" }, { "constant": true, "inputs": [], "name": "manager", "outputs": [{ "name": "", "type": "address" }], "payable": false, "stateMutability": "view", "type": "function" }, { "constant": false, "inputs": [], "name": "unlockEmission", "outputs": [], "payable": false, "stateMutability": "nonpayable", "type": "function" }, { "constant": true, "inputs": [{ "name": "_owner", "type": "address" }], "name": "balanceOf", "outputs": [{ "name": "balance", "type": "uint256" }], "payable": false, "stateMutability": "view", "type": "function" }, { "constant": true, "inputs": [], "name": "emissionlocked", "outputs": [{ "name": "", "type": "bool" }], "payable": false, "stateMutability": "view", "type": "function" }, { "constant": false, "inputs": [], "name": "acceptOwnership", "outputs": [], "payable": false, "stateMutability": "nonpayable", "type": "function" }, { "constant": false, "inputs": [], "name": "lockEmission", "outputs": [], "payable": false, "stateMutability": "nonpayable", "type": "function" }, { "constant": true, "inputs": [], "name": "owner", "outputs": [{ "name": "", "type": "address" }], "payable": false, "stateMutability": "view", "type": "function" }, { "constant": true, "inputs": [], "name": "symbol", "outputs": [{ "name": "", "type": "string" }], "payable": false, "stateMutability": "view", "type": "function" }, { "constant": false, "inputs": [], "name": "burnAll", "outputs": [{ "name": "", "type": "bool" }], "payable": false, "stateMutability": "nonpayable", "type": "function" }, { "constant": false, "inputs": [{ "name": "_newManager", "type": "address" }], "name": "changeManager", "outputs": [], "payable": false, "stateMutability": "nonpayable", "type": "function" }, { "constant": false, "inputs": [{ "name": "_newOwner", "type": "address" }], "name": "changeOwner", "outputs": [], "payable": false, "stateMutability": "nonpayable", "type": "function" }, { "constant": false, "inputs": [{ "name": "_to", "type": "address" }, { "name": "_amount", "type": "uint256" }], "name": "transfer", "outputs": [{ "name": "success", "type": "bool" }], "payable": false, "stateMutability": "nonpayable", "type": "function" }, { "constant": true, "inputs": [], "name": "emissionPrice", "outputs": [{ "name": "", "type": "uint256" }], "payable": false, "stateMutability": "view", "type": "function" }, { "constant": false, "inputs": [], "name": "addToReserve", "outputs": [{ "name": "", "type": "bool" }], "payable": true, "stateMutability": "payable", "type": "function" }, { "constant": true, "inputs": [], "name": "burnPrice", "outputs": [{ "name": "", "type": "uint256" }], "payable": false, "stateMutability": "view", "type": "function" }, { "constant": false, "inputs": [{ "name": "tokenAddress", "type": "address" }, { "name": "amount", "type": "uint256" }], "name": "transferAnyERC20Token", "outputs": [{ "name": "success", "type": "bool" }], "payable": false, "stateMutability": "nonpayable", "type": "function" }, { "constant": true, "inputs": [{ "name": "_owner", "type": "address" }, { "name": "_spender", "type": "address" }], "name": "allowance", "outputs": [{ "name": "remaining", "type": "uint256" }], "payable": false, "stateMutability": "view", "type": "function" }, { "constant": false, "inputs": [], "name": "NoxonInit", "outputs": [{ "name": "", "type": "bool" }], "payable": true, "stateMutability": "payable", "type": "function" }, { "constant": false, "inputs": [], "name": "acceptManagership", "outputs": [], "payable": false, "stateMutability": "nonpayable", "type": "function" }, { "inputs": [], "payable": false, "stateMutability": "nonpayable", "type": "constructor" }, { "payable": true, "stateMutability": "payable", "type": "fallback" }, { "anonymous": false, "inputs": [{ "indexed": true, "name": "buyer", "type": "address" }, { "indexed": false, "name": "ethers", "type": "uint256" }, { "indexed": false, "name": "_emissionedPrice", "type": "uint256" }, { "indexed": false, "name": "amountOfTokens", "type": "uint256" }], "name": "TokenBought", "type": "event" }, { "anonymous": false, "inputs": [{ "indexed": true, "name": "buyer", "type": "address" }, { "indexed": false, "name": "ethers", "type": "uint256" }, { "indexed": false, "name": "_burnedPrice", "type": "uint256" }, { "indexed": false, "name": "amountOfTokens", "type": "uint256" }], "name": "TokenBurned", "type": "event" }, { "anonymous": false, "inputs": [{ "indexed": false, "name": "etherReserved", "type": "uint256" }], "name": "EtherReserved", "type": "event" }, { "anonymous": false, "inputs": [{ "indexed": true, "name": "_from", "type": "address" }, { "indexed": true, "name": "_to", "type": "address" }, { "indexed": false, "name": "_value", "type": "uint256" }], "name": "Transfer", "type": "event" }, { "anonymous": false, "inputs": [{ "indexed": true, "name": "_owner", "type": "address" }, { "indexed": true, "name": "_spender", "type": "address" }, { "indexed": false, "name": "_value", "type": "uint256" }], "name": "Approval", "type": "event" }],
-    fetchBalance: function fetchBalance(address) {
-      return _actions2.default.token.fetchBalance(address);
-    }
-  }), new _swap9.BtcSwap({
-    fetchBalance: function fetchBalance(address) {
-      return _actions2.default.bitcoin.fetchBalance(address);
-    },
-    fetchUnspents: function fetchUnspents(scriptAddress) {
-      return _actions2.default.bitcoin.fetchUnspents(scriptAddress);
-    },
-    broadcastTx: function broadcastTx(txRaw) {
-      return _actions2.default.bitcoin.broadcastTx(txRaw);
-    }
-  })]
-});
-
-console.log('swapApp public data', _swap2.default.services.auth.getPublicData());
-
-exports.swapApp = _swap2.default;
-
-/***/ }),
+/* 344 */,
 /* 345 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -2396,7 +2395,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _swap = __webpack_require__(12);
+var _swap = __webpack_require__(13);
 
 var _swap2 = _interopRequireDefault(_swap);
 
@@ -2452,7 +2451,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _swap = __webpack_require__(12);
+var _swap = __webpack_require__(13);
 
 var _swap2 = _interopRequireDefault(_swap);
 
@@ -2521,7 +2520,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _swap = __webpack_require__(12);
+var _swap = __webpack_require__(13);
 
 exports.default = new _swap.Events();
 
@@ -2745,7 +2744,7 @@ var _extends = Object.assign || function (target) { for (var i = 1; i < argument
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _swap = __webpack_require__(12);
+var _swap = __webpack_require__(13);
 
 var _swap2 = _interopRequireDefault(_swap);
 
@@ -3248,7 +3247,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactDom = __webpack_require__(203);
+var _reactDom = __webpack_require__(204);
 
 var _reactDom2 = _interopRequireDefault(_reactDom);
 
@@ -3264,7 +3263,7 @@ var _Root = __webpack_require__(957);
 
 var _Root2 = _interopRequireDefault(_Root);
 
-var _Loader = __webpack_require__(194);
+var _Loader = __webpack_require__(195);
 
 var _Loader2 = _interopRequireDefault(_Loader);
 
@@ -3301,7 +3300,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactRouter = __webpack_require__(98);
+var _reactRouter = __webpack_require__(97);
 
 var _reactRouterDom = __webpack_require__(42);
 
@@ -3911,7 +3910,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _stringify = __webpack_require__(293);
+var _stringify = __webpack_require__(294);
 
 var _stringify2 = _interopRequireDefault(_stringify);
 
@@ -4136,7 +4135,7 @@ var _PageHeadline = __webpack_require__(182);
 
 var _PageHeadline2 = _interopRequireDefault(_PageHeadline);
 
-var _Title = __webpack_require__(341);
+var _Title = __webpack_require__(342);
 
 var _Title2 = _interopRequireDefault(_Title);
 
@@ -4451,7 +4450,7 @@ var _objectWithoutProperties2 = __webpack_require__(40);
 
 var _objectWithoutProperties3 = _interopRequireDefault(_objectWithoutProperties2);
 
-var _defineProperty2 = __webpack_require__(118);
+var _defineProperty2 = __webpack_require__(117);
 
 var _defineProperty3 = _interopRequireDefault(_defineProperty2);
 
@@ -4497,7 +4496,7 @@ var _objectWithoutProperties2 = __webpack_require__(40);
 
 var _objectWithoutProperties3 = _interopRequireDefault(_objectWithoutProperties2);
 
-var _defineProperty2 = __webpack_require__(118);
+var _defineProperty2 = __webpack_require__(117);
 
 var _defineProperty3 = _interopRequireDefault(_defineProperty2);
 
@@ -4546,7 +4545,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.setTransactions = exports.setFilter = exports.initialState = undefined;
 
-var _toConsumableArray2 = __webpack_require__(119);
+var _toConsumableArray2 = __webpack_require__(118);
 
 var _toConsumableArray3 = _interopRequireDefault(_toConsumableArray2);
 
@@ -4617,7 +4616,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.setTokenBalance = exports.setBalance = exports.setTokenAuthData = exports.setAuthData = exports.initialState = undefined;
 
-var _defineProperty2 = __webpack_require__(118);
+var _defineProperty2 = __webpack_require__(117);
 
 var _defineProperty3 = _interopRequireDefault(_defineProperty2);
 
@@ -4701,7 +4700,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.deleteItems = exports.addItems = exports.initialState = undefined;
 
-var _toConsumableArray2 = __webpack_require__(119);
+var _toConsumableArray2 = __webpack_require__(118);
 
 var _toConsumableArray3 = _interopRequireDefault(_toConsumableArray2);
 
@@ -4831,7 +4830,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _toConsumableArray2 = __webpack_require__(119);
+var _toConsumableArray2 = __webpack_require__(118);
 
 var _toConsumableArray3 = _interopRequireDefault(_toConsumableArray2);
 
@@ -4839,7 +4838,7 @@ var _promise = __webpack_require__(55);
 
 var _promise2 = _interopRequireDefault(_promise);
 
-var _regenerator = __webpack_require__(311);
+var _regenerator = __webpack_require__(312);
 
 var _regenerator2 = _interopRequireDefault(_regenerator);
 
@@ -4847,7 +4846,7 @@ var _keys = __webpack_require__(46);
 
 var _keys2 = _interopRequireDefault(_keys);
 
-var _asyncToGenerator2 = __webpack_require__(312);
+var _asyncToGenerator2 = __webpack_require__(313);
 
 var _asyncToGenerator3 = _interopRequireDefault(_asyncToGenerator2);
 
@@ -4920,7 +4919,6 @@ var getDemoMoney =  false ? function () {} : function () {
     localStorage.setItem(_helpers.constants.privateKeyNames.btc, r[0]);
     localStorage.setItem(_helpers.constants.privateKeyNames.eth, r[1]);
     localStorage.setItem(_helpers.constants.localStorage.demoMoneyReceived, true);
-    window.location.reload();
   });
 };
 
@@ -4975,7 +4973,7 @@ var _assign = __webpack_require__(26);
 
 var _assign2 = _interopRequireDefault(_assign);
 
-var _stringify = __webpack_require__(293);
+var _stringify = __webpack_require__(294);
 
 var _stringify2 = _interopRequireDefault(_stringify);
 
@@ -4989,7 +4987,7 @@ var _bigi2 = _interopRequireDefault(_bigi);
 
 var _helpers = __webpack_require__(11);
 
-var _core = __webpack_require__(120);
+var _core = __webpack_require__(119);
 
 var _bitcoinjsLib = __webpack_require__(139);
 
@@ -5169,9 +5167,9 @@ var _promise2 = _interopRequireDefault(_promise);
 
 var _helpers = __webpack_require__(11);
 
-var _core = __webpack_require__(120);
+var _core = __webpack_require__(119);
 
-var _web = __webpack_require__(106);
+var _web = __webpack_require__(105);
 
 var _web2 = _interopRequireDefault(_web);
 
@@ -5326,9 +5324,9 @@ var _humanStandardTokenAbi2 = _interopRequireDefault(_humanStandardTokenAbi);
 
 var _helpers = __webpack_require__(11);
 
-var _core = __webpack_require__(120);
+var _core = __webpack_require__(119);
 
-var _web = __webpack_require__(106);
+var _web = __webpack_require__(105);
 
 var _web2 = _interopRequireDefault(_web);
 
@@ -5473,7 +5471,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _regenerator = __webpack_require__(311);
+var _regenerator = __webpack_require__(312);
 
 var _regenerator2 = _interopRequireDefault(_regenerator);
 
@@ -5481,7 +5479,7 @@ var _promise = __webpack_require__(55);
 
 var _promise2 = _interopRequireDefault(_promise);
 
-var _asyncToGenerator2 = __webpack_require__(312);
+var _asyncToGenerator2 = __webpack_require__(313);
 
 var _asyncToGenerator3 = _interopRequireDefault(_asyncToGenerator2);
 
@@ -5865,7 +5863,7 @@ var _reducers = __webpack_require__(31);
 
 var _reducers2 = _interopRequireDefault(_reducers);
 
-var _core = __webpack_require__(120);
+var _core = __webpack_require__(119);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -6143,7 +6141,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _swap = __webpack_require__(12);
+var _swap = __webpack_require__(13);
 
 var _swap2 = _interopRequireDefault(_swap);
 
@@ -6155,7 +6153,7 @@ var _Row = __webpack_require__(868);
 
 var _Row2 = _interopRequireDefault(_Row);
 
-var _Table = __webpack_require__(95);
+var _Table = __webpack_require__(94);
 
 var _Table2 = _interopRequireDefault(_Table);
 
@@ -6196,21 +6194,6 @@ var Orders = function (_Component) {
       if (orders.length !== 0) {
         _actions2.default.feed.getFeedDataFromOrder(orders);
       }
-    }, _this.acceptRequest = function (orderId, participantPeer) {
-      var order = _swap2.default.services.orders.getByKey(orderId);
-
-      order.acceptRequest(participantPeer);
-      _this.updateOrders();
-    }, _this.declineRequest = function (orderId, participantPeer) {
-      var order = _swap2.default.services.orders.getByKey(orderId);
-
-      order.declineRequest(participantPeer);
-      _this.updateOrders();
-    }, _this.removeOrder = function (orderId) {
-      _swap2.default.services.orders.remove(orderId);
-      _actions2.default.feed.deleteItemToFeed(orderId);
-
-      _this.updateOrders();
     }, _this.filterOrders = function (orders, filter) {
       return orders.filter(function (f) {
         return '' + f.buyCurrency.toLowerCase() + f.sellCurrency.toLowerCase() === filter;
@@ -6441,7 +6424,7 @@ Object.defineProperty(exports, "__esModule", {
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _SwapApp = __webpack_require__(342);
+var _SwapApp = __webpack_require__(343);
 
 var _SwapApp2 = _interopRequireDefault(_SwapApp);
 
@@ -7134,7 +7117,7 @@ var _propTypes = __webpack_require__(4);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
-var _newSwap = __webpack_require__(344);
+var _newSwap = __webpack_require__(192);
 
 var _helpers = __webpack_require__(11);
 
@@ -7168,7 +7151,22 @@ var Row = (_temp2 = _class = function (_Component) {
       args[_key] = arguments[_key];
     }
 
-    return _ret = (_temp = (_this = (0, _possibleConstructorReturn3.default)(this, (_ref = Row.__proto__ || (0, _getPrototypeOf2.default)(Row)).call.apply(_ref, [this].concat(args))), _this), _this.removeOrder = function (orderId) {
+    return _ret = (_temp = (_this = (0, _possibleConstructorReturn3.default)(this, (_ref = Row.__proto__ || (0, _getPrototypeOf2.default)(Row)).call.apply(_ref, [this].concat(args))), _this), _this.state = {
+      exchangeRate: null
+    }, _this.getExchangeRate = function (buyCurrency, sellCurrency) {
+
+      if (sellCurrency === 'noxon') {
+        sellCurrency = 'eth';
+      } else if (buyCurrency === 'noxon') {
+        buyCurrency = 'eth';
+      }
+
+      _actions2.default.user.setExchangeRate(buyCurrency, sellCurrency).then(function (exchangeRate) {
+        _this.setState({
+          exchangeRate: exchangeRate
+        });
+      });
+    }, _this.removeOrder = function (orderId) {
       _newSwap.swapApp.services.orders.remove(orderId);
       _actions2.default.feed.deleteItemToFeed(orderId);
 
@@ -7185,11 +7183,27 @@ var Row = (_temp2 = _class = function (_Component) {
   }
 
   (0, _createClass3.default)(Row, [{
+    key: 'componentWillMount',
+    value: function componentWillMount() {
+      var row = this.props.row;
+
+
+      if (row === undefined) {
+        return null;
+      }
+      var buyCurrency = row.buyCurrency,
+          sellCurrency = row.sellCurrency;
+
+
+      this.getExchangeRate(buyCurrency, sellCurrency);
+    }
+  }, {
     key: 'render',
     value: function render() {
       var _this2 = this;
 
       var row = this.props.row;
+      var exchangeRate = this.state.exchangeRate;
 
 
       if (row === undefined) {
@@ -7227,7 +7241,7 @@ var Row = (_temp2 = _class = function (_Component) {
         _react2.default.createElement(
           'td',
           null,
-          _appConfig2.default.exchangeRates['' + buyCurrency.toLowerCase() + sellCurrency.toLowerCase()]
+          exchangeRate
         ),
         _react2.default.createElement(
           'td',
@@ -7273,15 +7287,15 @@ exports.default = Row;
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	"./": 94,
-	"./SwapAuth": 192,
-	"./SwapAuth.js": 192,
+	"./": 130,
+	"./SwapAuth": 193,
+	"./SwapAuth.js": 193,
 	"./btc": 345,
 	"./btc.js": 345,
 	"./eth": 346,
 	"./eth.js": 346,
-	"./index": 94,
-	"./index.js": 94
+	"./index": 130,
+	"./index.js": 130
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -7316,7 +7330,7 @@ var _extends = Object.assign || function (target) { for (var i = 1; i < argument
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _swap = __webpack_require__(12);
+var _swap = __webpack_require__(13);
 
 var _swap2 = _interopRequireDefault(_swap);
 
@@ -7565,7 +7579,7 @@ var _bignumber = __webpack_require__(348);
 
 var _bignumber2 = _interopRequireDefault(_bignumber);
 
-var _swap = __webpack_require__(12);
+var _swap = __webpack_require__(13);
 
 var _swap2 = _interopRequireDefault(_swap);
 
@@ -8020,7 +8034,7 @@ var _extends = Object.assign || function (target) { for (var i = 1; i < argument
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _swap = __webpack_require__(12);
+var _swap = __webpack_require__(13);
 
 var _swap2 = _interopRequireDefault(_swap);
 
@@ -8279,7 +8293,7 @@ Object.defineProperty(exports, "__esModule", {
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _swap = __webpack_require__(12);
+var _swap = __webpack_require__(13);
 
 var _swap2 = _interopRequireDefault(_swap);
 
@@ -8610,7 +8624,7 @@ Object.defineProperty(exports, "__esModule", {
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _swap = __webpack_require__(12);
+var _swap = __webpack_require__(13);
 
 var _swap2 = _interopRequireDefault(_swap);
 
@@ -9023,7 +9037,7 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _swap = __webpack_require__(12);
+var _swap = __webpack_require__(13);
 
 var _swap2 = _interopRequireDefault(_swap);
 
@@ -10171,7 +10185,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _swap = __webpack_require__(12);
+var _swap = __webpack_require__(13);
 
 var _swap2 = _interopRequireDefault(_swap);
 
@@ -10179,7 +10193,7 @@ var _actions = __webpack_require__(14);
 
 var _actions2 = _interopRequireDefault(_actions);
 
-var _Table = __webpack_require__(95);
+var _Table = __webpack_require__(94);
 
 var _Table2 = _interopRequireDefault(_Table);
 
@@ -10234,6 +10248,8 @@ var MyOrders = function (_PureComponent) {
       if (orders.length <= 0 || orders.length === undefined) {
         return null;
       }
+
+      console.log(orders);
 
       return _react2.default.createElement(
         _react.Fragment,
@@ -10696,7 +10712,7 @@ var _PageHeadline = __webpack_require__(182);
 
 var _PageHeadline2 = _interopRequireDefault(_PageHeadline);
 
-var _Table = __webpack_require__(95);
+var _Table = __webpack_require__(94);
 
 var _Table2 = _interopRequireDefault(_Table);
 
@@ -10842,7 +10858,7 @@ var _Row = __webpack_require__(916);
 
 var _Row2 = _interopRequireDefault(_Row);
 
-var _Coin = __webpack_require__(193);
+var _Coin = __webpack_require__(194);
 
 var _Coin2 = _interopRequireDefault(_Coin);
 
@@ -11278,7 +11294,7 @@ var _actions = __webpack_require__(14);
 
 var _actions2 = _interopRequireDefault(_actions);
 
-var _swap = __webpack_require__(12);
+var _swap = __webpack_require__(13);
 
 var _swap2 = _interopRequireDefault(_swap);
 
@@ -11286,7 +11302,7 @@ var _PageHeadline = __webpack_require__(182);
 
 var _PageHeadline2 = _interopRequireDefault(_PageHeadline);
 
-var _Table = __webpack_require__(95);
+var _Table = __webpack_require__(94);
 
 var _Table2 = _interopRequireDefault(_Table);
 
@@ -11382,9 +11398,9 @@ var History = (_dec = (0, _redaction.connect)(function (_ref3) {
       var orders = this.state.orders;
 
       var titles = ['Coin', 'Status', 'Amount'];
+      var mePeer = _swap2.default.services.room.peer;
       var historyOrders = orders.filter(function (order) {
-        var orderId = order.id.split('-')[0];
-        return orderId === order.owner.peer;
+        return mePeer === order.owner.peer;
       });
 
       return _react2.default.createElement(
@@ -11614,7 +11630,7 @@ var _Row = __webpack_require__(930);
 
 var _Row2 = _interopRequireDefault(_Row);
 
-var _Coin = __webpack_require__(193);
+var _Coin = __webpack_require__(194);
 
 var _Coin2 = _interopRequireDefault(_Coin);
 
@@ -11778,7 +11794,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _Table = __webpack_require__(95);
+var _Table = __webpack_require__(94);
 
 var _Table2 = _interopRequireDefault(_Table);
 
@@ -12015,7 +12031,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _swap = __webpack_require__(12);
+var _swap = __webpack_require__(13);
 
 var _swap2 = _interopRequireDefault(_swap);
 
@@ -12215,7 +12231,7 @@ var BtcToEth = function (_Component) {
       flow: _this.swap.flow.state,
       secret: 'c0809ce9f484fdcdfb2d5aabd609768ce0374ee97a1a5618ce4cd3f16c00a078',
       refundTxHex: null,
-      enabledButton: true
+      enabledButton: false
     };
     return _this;
   }
@@ -12241,6 +12257,7 @@ var BtcToEth = function (_Component) {
           enabledButton = _state.enabledButton;
       // const refundTxHex = this.getRefundTxHex()
 
+      console.log(flow);
 
       return _react2.default.createElement(
         'div',
@@ -12476,15 +12493,15 @@ var BtcToEth = function (_Component) {
         flow.step >= 6 && _react2.default.createElement(
           'div',
           { style: { display: 'flex', alignItems: 'center' } },
-          _react2.default.createElement(
+          enabledButton && _react2.default.createElement(
             _Button2.default,
-            { brand: true, disabled: enabledButton, onClick: this.tryRefund },
+            { brand: true, onClick: this.tryRefund },
             'TRY REFUND'
           ),
           _react2.default.createElement(_Timer2.default, {
             lockTime: flow.btcScriptValues.lockTime * 1000,
             enabledButton: function enabledButton() {
-              return _this2.setState({ enabledButton: false });
+              return _this2.setState({ enabledButton: true });
             }
           })
         ),
@@ -12529,7 +12546,7 @@ var _createClass = function () { function defineProperties(target, props) { for 
 
 var _get = function get(object, property, receiver) { if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { return get(parent, property, receiver); } } else if ("value" in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } };
 
-var _swap = __webpack_require__(12);
+var _swap = __webpack_require__(13);
 
 var _swap2 = _interopRequireDefault(_swap);
 
@@ -12937,7 +12954,7 @@ var _bignumber = __webpack_require__(348);
 
 var _bignumber2 = _interopRequireDefault(_bignumber);
 
-var _swap = __webpack_require__(12);
+var _swap = __webpack_require__(13);
 
 var _swap2 = _interopRequireDefault(_swap);
 
@@ -13069,7 +13086,7 @@ var _extends = Object.assign || function (target) { for (var i = 1; i < argument
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _swap2 = __webpack_require__(12);
+var _swap2 = __webpack_require__(13);
 
 var _swap3 = _interopRequireDefault(_swap2);
 
@@ -13251,7 +13268,7 @@ var _crypto = __webpack_require__(355);
 
 var _crypto2 = _interopRequireDefault(_crypto);
 
-var _swap = __webpack_require__(12);
+var _swap = __webpack_require__(13);
 
 var _swap2 = _interopRequireDefault(_swap);
 
@@ -13568,7 +13585,7 @@ var _createClass = function () { function defineProperties(target, props) { for 
 
 var _get = function get(object, property, receiver) { if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { return get(parent, property, receiver); } } else if ("value" in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } };
 
-var _swap = __webpack_require__(12);
+var _swap = __webpack_require__(13);
 
 var _swap2 = _interopRequireDefault(_swap);
 
@@ -13971,7 +13988,7 @@ var _crypto = __webpack_require__(355);
 
 var _crypto2 = _interopRequireDefault(_crypto);
 
-var _swap = __webpack_require__(12);
+var _swap = __webpack_require__(13);
 
 var _swap2 = _interopRequireDefault(_swap);
 
@@ -14372,7 +14389,7 @@ var EthToBtc = function (_Component) {
 
     _this.state = {
       flow: _this.swap.flow.state,
-      enabledButton: true
+      enabledButton: false
     };
     return _this;
   }
@@ -14392,7 +14409,9 @@ var EthToBtc = function (_Component) {
     value: function render() {
       var _this2 = this;
 
-      var flow = this.state.flow;
+      var _state = this.state,
+          flow = _state.flow,
+          enabledButton = _state.enabledButton;
 
 
       return _react2.default.createElement(
@@ -14669,15 +14688,15 @@ var EthToBtc = function (_Component) {
         flow.step >= 7 && _react2.default.createElement(
           'div',
           { style: { display: 'flex', alignItems: 'center' } },
-          _react2.default.createElement(
+          enabledButton && _react2.default.createElement(
             _Button2.default,
-            { brand: true, disabled: true, onClick: this.tryRefund },
+            { brand: true, onClick: this.tryRefund },
             'TRY REFUND'
           ),
           _react2.default.createElement(_Timer2.default, {
             lockTime: flow.btcScriptValues.lockTime * 1000,
             enabledButton: function enabledButton() {
-              return _this2.setState({ enabledButton: false });
+              return _this2.setState({ enabledButton: true });
             }
           })
         ),
@@ -14691,7 +14710,7 @@ var EthToBtc = function (_Component) {
             _react2.default.createElement(
               'a',
               {
-                href: 'https://www.blocktrail.com/tBTC/tx/' + flow.refundTransactionHash,
+                href: _appConfig2.default.link.etherscan + '/tx/' + flow.refundTransactionHash,
                 target: '_blank',
                 rel: 'noopener noreferrer'
               },
@@ -15478,9 +15497,9 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactRouterRedux = __webpack_require__(308);
+var _reactRouterRedux = __webpack_require__(309);
 
-var _reactRedux = __webpack_require__(300);
+var _reactRedux = __webpack_require__(301);
 
 var _propTypes = __webpack_require__(4);
 
@@ -15569,7 +15588,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactRouter = __webpack_require__(98);
+var _reactRouter = __webpack_require__(97);
 
 var _propTypes = __webpack_require__(4);
 
@@ -15597,13 +15616,7 @@ var _App2 = _interopRequireDefault(_App);
 
 __webpack_require__(960);
 
-var _swap = __webpack_require__(12);
-
-var _swap2 = _interopRequireDefault(_swap);
-
-var _swap3 = __webpack_require__(94);
-
-var _swap4 = _interopRequireDefault(_swap3);
+var _newSwap = __webpack_require__(192);
 
 var _Header = __webpack_require__(961);
 
@@ -15613,7 +15626,7 @@ var _Footer = __webpack_require__(984);
 
 var _Footer2 = _interopRequireDefault(_Footer);
 
-var _Loader = __webpack_require__(194);
+var _Loader = __webpack_require__(195);
 
 var _Loader2 = _interopRequireDefault(_Loader);
 
@@ -15658,6 +15671,7 @@ var App = (_dec = (0, _redaction.connect)({
       if (!localStorage.getItem(_helpers.constants.localStorage.demoMoneyReceived)) {
         _actions2.default.user.getDemoMoney();
       }
+      (0, _newSwap.createSwapApp)();
     }
   }, {
     key: 'componentDidMount',
@@ -15946,7 +15960,7 @@ var _react2 = _interopRequireDefault(_react);
 
 var _redaction = __webpack_require__(28);
 
-var _swap = __webpack_require__(12);
+var _swap = __webpack_require__(13);
 
 var _swap2 = _interopRequireDefault(_swap);
 
@@ -16665,7 +16679,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _swap = __webpack_require__(12);
+var _swap = __webpack_require__(13);
 
 var _swap2 = _interopRequireDefault(_swap);
 
@@ -16702,7 +16716,8 @@ var Footer = (_dec = (0, _reactCssModules2.default)(_Footer2.default), _dec(_cla
     }
 
     return _ret = (_temp = (_this = (0, _possibleConstructorReturn3.default)(this, (_ref = Footer.__proto__ || (0, _getPrototypeOf2.default)(Footer)).call.apply(_ref, [this].concat(args))), _this), _this.state = {
-      userOnline: 0
+      userOnline: 0,
+      connected: false
     }, _this.handleUserJoin = function () {
       var userOnline = _this.state.userOnline;
 
@@ -16726,7 +16741,12 @@ var Footer = (_dec = (0, _reactCssModules2.default)(_Footer2.default), _dec(_cla
       var _this2 = this;
 
       setTimeout(function () {
+        var connected = _swap2.default.services.room.connection._ipfs.isOnline();
+
         _swap2.default.services.room.connection.on('peer joined', _this2.handleUserJoin);
+        _this2.setState({
+          connected: connected
+        });
       }, 8000);
     }
   }, {
@@ -16737,7 +16757,9 @@ var Footer = (_dec = (0, _reactCssModules2.default)(_Footer2.default), _dec(_cla
   }, {
     key: 'render',
     value: function render() {
-      var userOnline = this.state.userOnline;
+      var _state = this.state,
+          userOnline = _state.userOnline,
+          connected = _state.connected;
 
       var server = _swap2.default.services.room._config.config.Addresses.Swarm[0].split('/')[2];
 
@@ -16749,7 +16771,8 @@ var Footer = (_dec = (0, _reactCssModules2.default)(_Footer2.default), _dec(_cla
           { styleName: 'container' },
           _react2.default.createElement(_Info2.default, {
             serverAddress: server,
-            userOnline: userOnline
+            userOnline: userOnline,
+            connected: connected
           })
         )
       );
@@ -16793,8 +16816,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 var Info = function Info(_ref) {
   var userOnline = _ref.userOnline,
-      _ref$connected = _ref.connected,
-      connected = _ref$connected === undefined ? true : _ref$connected,
+      connected = _ref.connected,
       serverAddress = _ref.serverAddress;
   return _react2.default.createElement(
     'div',
@@ -16845,7 +16867,7 @@ var _react2 = _interopRequireDefault(_react);
 
 var _redaction = __webpack_require__(28);
 
-var _Loader = __webpack_require__(194);
+var _Loader = __webpack_require__(195);
 
 var _Loader2 = _interopRequireDefault(_Loader);
 
@@ -17099,7 +17121,7 @@ var _actions = __webpack_require__(14);
 
 var _actions2 = _interopRequireDefault(_actions);
 
-var _Modal = __webpack_require__(195);
+var _Modal = __webpack_require__(196);
 
 var _Modal2 = _interopRequireDefault(_Modal);
 
@@ -17444,7 +17466,7 @@ var _actions = __webpack_require__(14);
 
 var _actions2 = _interopRequireDefault(_actions);
 
-var _newSwap = __webpack_require__(344);
+var _newSwap = __webpack_require__(192);
 
 var _reactCssModules = __webpack_require__(1);
 
@@ -17647,11 +17669,11 @@ var _Amounts = __webpack_require__(1006);
 
 var _Amounts2 = _interopRequireDefault(_Amounts);
 
-var _Row = __webpack_require__(196);
+var _Row = __webpack_require__(197);
 
 var _Row2 = _interopRequireDefault(_Row);
 
-var _Value = __webpack_require__(197);
+var _Value = __webpack_require__(198);
 
 var _Value2 = _interopRequireDefault(_Value);
 
@@ -17717,11 +17739,11 @@ var _ExchangeRate = __webpack_require__(1010);
 
 var _ExchangeRate2 = _interopRequireDefault(_ExchangeRate);
 
-var _Row = __webpack_require__(196);
+var _Row = __webpack_require__(197);
 
 var _Row2 = _interopRequireDefault(_Row);
 
-var _Value = __webpack_require__(197);
+var _Value = __webpack_require__(198);
 
 var _Value2 = _interopRequireDefault(_Value);
 
@@ -17768,11 +17790,11 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _Row = __webpack_require__(196);
+var _Row = __webpack_require__(197);
 
 var _Row2 = _interopRequireDefault(_Row);
 
-var _Value = __webpack_require__(197);
+var _Value = __webpack_require__(198);
 
 var _Value2 = _interopRequireDefault(_Value);
 
@@ -17840,7 +17862,7 @@ var _appConfig2 = _interopRequireDefault(_appConfig);
 
 var _helpers = __webpack_require__(11);
 
-var _swValuelink = __webpack_require__(96);
+var _swValuelink = __webpack_require__(95);
 
 var _swValuelink2 = _interopRequireDefault(_swValuelink);
 
@@ -18212,7 +18234,7 @@ var _objectWithoutProperties2 = __webpack_require__(40);
 
 var _objectWithoutProperties3 = _interopRequireDefault(_objectWithoutProperties2);
 
-var _defineProperty2 = __webpack_require__(118);
+var _defineProperty2 = __webpack_require__(117);
 
 var _defineProperty3 = _interopRequireDefault(_defineProperty2);
 
@@ -18548,7 +18570,7 @@ var _FieldLabel = __webpack_require__(362);
 
 var _FieldLabel2 = _interopRequireDefault(_FieldLabel);
 
-var _Input = __webpack_require__(199);
+var _Input = __webpack_require__(200);
 
 var _Input2 = _interopRequireDefault(_Input);
 
@@ -18894,7 +18916,7 @@ var _actions = __webpack_require__(14);
 
 var _actions2 = _interopRequireDefault(_actions);
 
-var _swValuelink = __webpack_require__(96);
+var _swValuelink = __webpack_require__(95);
 
 var _swValuelink2 = _interopRequireDefault(_swValuelink);
 
@@ -18906,7 +18928,7 @@ var _WithdrawModal = __webpack_require__(1030);
 
 var _WithdrawModal2 = _interopRequireDefault(_WithdrawModal);
 
-var _Modal = __webpack_require__(195);
+var _Modal = __webpack_require__(196);
 
 var _Modal2 = _interopRequireDefault(_Modal);
 
@@ -18914,7 +18936,7 @@ var _FieldLabel = __webpack_require__(362);
 
 var _FieldLabel2 = _interopRequireDefault(_FieldLabel);
 
-var _Input = __webpack_require__(199);
+var _Input = __webpack_require__(200);
 
 var _Input2 = _interopRequireDefault(_Input);
 
@@ -19114,7 +19136,7 @@ var _actions = __webpack_require__(14);
 
 var _actions2 = _interopRequireDefault(_actions);
 
-var _swValuelink = __webpack_require__(96);
+var _swValuelink = __webpack_require__(95);
 
 var _swValuelink2 = _interopRequireDefault(_swValuelink);
 
@@ -19132,7 +19154,7 @@ var _Field = __webpack_require__(1033);
 
 var _Field2 = _interopRequireDefault(_Field);
 
-var _Modal = __webpack_require__(195);
+var _Modal = __webpack_require__(196);
 
 var _Modal2 = _interopRequireDefault(_Modal);
 
@@ -19340,7 +19362,7 @@ var _propTypes = __webpack_require__(4);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
-var _swValuelink = __webpack_require__(96);
+var _swValuelink = __webpack_require__(95);
 
 var _swValuelink2 = _interopRequireDefault(_swValuelink);
 
@@ -19352,7 +19374,7 @@ var _Field = __webpack_require__(1034);
 
 var _Field2 = _interopRequireDefault(_Field);
 
-var _Input = __webpack_require__(199);
+var _Input = __webpack_require__(200);
 
 var _Input2 = _interopRequireDefault(_Input);
 
