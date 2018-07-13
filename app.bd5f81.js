@@ -11117,6 +11117,53 @@ var EthToBtc = function (_Component) {
           ),
           _react2.default.createElement(_InlineLoader2.default, null)
         )),
+        flow.isWaitingForOwner && _react2.default.createElement(
+          _react.Fragment,
+          null,
+          _react2.default.createElement(
+            'h3',
+            null,
+            'Waiting for other user when he connect to the order'
+          ),
+          _react2.default.createElement(_InlineLoader2.default, null)
+        ),
+        flow.step === 1 && _react2.default.createElement(
+          _react.Fragment,
+          null,
+          _react2.default.createElement(
+            'div',
+            null,
+            'Confirmation of the transaction is necessary for crediting the reputation. If a user does not bring the deal to the end he gets a negative reputation.'
+          ),
+          (flow.isSignFetching || flow.signTransactionHash) && _react2.default.createElement(
+            _react.Fragment,
+            null,
+            _react2.default.createElement(
+              'h4',
+              null,
+              'Please wait. Confirmation processing'
+            ),
+            flow.signTransactionHash && _react2.default.createElement(
+              'div',
+              null,
+              'Transaction:',
+              _react2.default.createElement(
+                'strong',
+                null,
+                _react2.default.createElement(
+                  'a',
+                  {
+                    href: _appConfig2.default.link.etherscan + '/tx/' + flow.signTransactionHash,
+                    target: '_blank',
+                    rel: 'noopener noreferrer'
+                  },
+                  flow.signTransactionHash
+                )
+              )
+            ),
+            flow.isSignFetching && _react2.default.createElement(_InlineLoader2.default, null)
+          )
+        ),
         flow.isMeSigned && _react2.default.createElement(
           _react.Fragment,
           null,
@@ -14605,7 +14652,7 @@ var EthSwap = function (_SwapInterface) {
         var _ref2 = (0, _asyncToGenerator3.default)( /*#__PURE__*/_regenerator2.default.mark(function _callee2(resolve, reject) {
           var _contract$methods;
 
-          var hash, creator, nonce, gas, params, values, receipt;
+          var hash, creator, nonce, params, values, receipt;
           return _regenerator2.default.wrap(function _callee2$(_context2) {
             while (1) {
               switch (_context2.prev = _context2.next) {
@@ -14617,11 +14664,9 @@ var EthSwap = function (_SwapInterface) {
 
                 case 4:
                   nonce = _context2.sent;
-                  _context2.next = 7;
-                  return _swap2.default.env.web3.eth.gasPrice();
 
-                case 7:
-                  gas = _context2.sent;
+                  // const gas = await SwapApp.env.web3.eth.gasPrice()
+
                   params = {
                     from: creator,
                     gas: _this3.gasLimit,
@@ -14629,7 +14674,7 @@ var EthSwap = function (_SwapInterface) {
                     value: Math.floor(_swap2.default.env.web3.utils.toWei(amount.toString()))
                   };
                   values = [hash, participantAddress];
-                  _context2.next = 12;
+                  _context2.next = 9;
                   return (_contract$methods = _this3.contract.methods).createSwap.apply(_contract$methods, values).send(params).on('transactionHash', function (hash) {
                     if (typeof handleTransactionHash === 'function') {
                       handleTransactionHash(hash);
@@ -14638,13 +14683,13 @@ var EthSwap = function (_SwapInterface) {
                     reject(err);
                   });
 
-                case 12:
+                case 9:
                   receipt = _context2.sent;
 
 
                   resolve(receipt);
 
-                case 14:
+                case 11:
                 case 'end':
                   return _context2.stop();
               }
@@ -14840,22 +14885,18 @@ var EthSwap = function (_SwapInterface) {
 
       return new _promise2.default(function () {
         var _ref6 = (0, _asyncToGenerator3.default)( /*#__PURE__*/_regenerator2.default.mark(function _callee6(resolve, reject) {
-          var gas, params, receipt;
+          var params, receipt;
           return _regenerator2.default.wrap(function _callee6$(_context6) {
             while (1) {
               switch (_context6.prev = _context6.next) {
                 case 0:
-                  _context6.next = 2;
-                  return _swap2.default.env.web3.eth.gasPrice();
+                  // const gas = await SwapApp.env.web3.eth.gasPrice()
 
-                case 2:
-                  gas = _context6.sent;
                   params = {
                     from: _swap2.default.services.auth.accounts.eth.address,
-                    gas: _this6.gasLimit,
-                    gasPrice: new _bignumber.BigNumber(2).multipliedBy(gas)
+                    gas: _this6.gasLimit
                   };
-                  _context6.next = 6;
+                  _context6.next = 3;
                   return _this6.contract.methods.refund(participantAddress).send(params).on('transactionHash', function (hash) {
                     if (typeof handleTransactionHash === 'function') {
                       handleTransactionHash(hash);
@@ -14864,13 +14905,13 @@ var EthSwap = function (_SwapInterface) {
                     reject(err);
                   });
 
-                case 6:
+                case 3:
                   receipt = _context6.sent;
 
 
                   resolve(receipt);
 
-                case 8:
+                case 5:
                 case 'end':
                   return _context6.stop();
               }
@@ -14959,23 +15000,19 @@ var EthSwap = function (_SwapInterface) {
 
       return new _promise2.default(function () {
         var _ref8 = (0, _asyncToGenerator3.default)( /*#__PURE__*/_regenerator2.default.mark(function _callee8(resolve, reject) {
-          var gas, params, result;
+          var params, result;
           return _regenerator2.default.wrap(function _callee8$(_context8) {
             while (1) {
               switch (_context8.prev = _context8.next) {
                 case 0:
-                  _context8.next = 2;
-                  return _swap2.default.env.web3.eth.gasPrice();
+                  // const gas = await SwapApp.env.web3.eth.gasPrice()
 
-                case 2:
-                  gas = _context8.sent;
                   params = {
                     from: _swap2.default.services.auth.accounts.eth.address,
-                    gas: _this8.gasLimit,
-                    gasPrice: new _bignumber.BigNumber(2).multipliedBy(gas)
+                    gas: _this8.gasLimit
                   };
-                  _context8.prev = 4;
-                  _context8.next = 7;
+                  _context8.prev = 1;
+                  _context8.next = 4;
                   return _this8.contract.methods.close(participantAddress).send(params).on('transactionHash', function (hash) {
                     if (typeof handleTransactionHash === 'function') {
                       handleTransactionHash(hash);
@@ -14984,26 +15021,26 @@ var EthSwap = function (_SwapInterface) {
                     reject(err);
                   });
 
-                case 7:
+                case 4:
                   result = _context8.sent;
 
 
                   resolve(result);
-                  _context8.next = 14;
+                  _context8.next = 11;
                   break;
 
-                case 11:
-                  _context8.prev = 11;
-                  _context8.t0 = _context8['catch'](4);
+                case 8:
+                  _context8.prev = 8;
+                  _context8.t0 = _context8['catch'](1);
 
                   reject(_context8.t0);
 
-                case 14:
+                case 11:
                 case 'end':
                   return _context8.stop();
               }
             }
-          }, _callee8, _this8, [[4, 11]]);
+          }, _callee8, _this8, [[1, 8]]);
         }));
 
         return function (_x14, _x15) {
@@ -16562,7 +16599,9 @@ var ETH2BTC = function (_Flow) {
       // 1. Sign swap to start
 
       function () {
-        // this.sign()
+        _this2.finishStep({
+          isMeSigned: true
+        });
       },
 
       // 2. Wait participant create, fund BTC Script
@@ -16839,55 +16878,6 @@ var ETH2BTC = function (_Flow) {
       function () {}];
     }
   }, {
-    key: 'sign',
-    value: function () {
-      var _ref5 = (0, _asyncToGenerator3.default)( /*#__PURE__*/_regenerator2.default.mark(function _callee4() {
-        var _this3 = this;
-
-        var participant;
-        return _regenerator2.default.wrap(function _callee4$(_context4) {
-          while (1) {
-            switch (_context4.prev = _context4.next) {
-              case 0:
-                participant = this.swap.participant;
-
-
-                this.setState({
-                  isSignFetching: true
-                });
-
-                _context4.next = 4;
-                return this.ethSwap.sign({
-                  participantAddress: participant.eth.address
-                }, function (signTransactionHash) {
-                  _this3.setState({
-                    signTransactionHash: signTransactionHash
-                  });
-                });
-
-              case 4:
-
-                this.swap.room.sendMessage('swap sign');
-
-                this.finishStep({
-                  isMeSigned: true
-                });
-
-              case 6:
-              case 'end':
-                return _context4.stop();
-            }
-          }
-        }, _callee4, this);
-      }));
-
-      function sign() {
-        return _ref5.apply(this, arguments);
-      }
-
-      return sign;
-    }()
-  }, {
     key: 'verifyBtcScript',
     value: function verifyBtcScript() {
       this.finishStep({
@@ -16897,11 +16887,11 @@ var ETH2BTC = function (_Flow) {
   }, {
     key: 'syncBalance',
     value: function () {
-      var _ref6 = (0, _asyncToGenerator3.default)( /*#__PURE__*/_regenerator2.default.mark(function _callee5() {
+      var _ref5 = (0, _asyncToGenerator3.default)( /*#__PURE__*/_regenerator2.default.mark(function _callee4() {
         var sellAmount, balance, isEnoughMoney;
-        return _regenerator2.default.wrap(function _callee5$(_context5) {
+        return _regenerator2.default.wrap(function _callee4$(_context4) {
           while (1) {
-            switch (_context5.prev = _context5.next) {
+            switch (_context4.prev = _context4.next) {
               case 0:
                 sellAmount = this.swap.sellAmount;
 
@@ -16910,11 +16900,11 @@ var ETH2BTC = function (_Flow) {
                   isBalanceFetching: true
                 });
 
-                _context5.next = 4;
+                _context4.next = 4;
                 return this.ethSwap.fetchBalance(_swap2.default.services.auth.accounts.eth.address);
 
               case 4:
-                balance = _context5.sent;
+                balance = _context4.sent;
                 isEnoughMoney = sellAmount.isLessThanOrEqualTo(balance);
 
 
@@ -16934,14 +16924,14 @@ var ETH2BTC = function (_Flow) {
 
               case 7:
               case 'end':
-                return _context5.stop();
+                return _context4.stop();
             }
           }
-        }, _callee5, this);
+        }, _callee4, this);
       }));
 
       function syncBalance() {
-        return _ref6.apply(this, arguments);
+        return _ref5.apply(this, arguments);
       }
 
       return syncBalance;
@@ -16949,7 +16939,7 @@ var ETH2BTC = function (_Flow) {
   }, {
     key: 'tryRefund',
     value: function tryRefund() {
-      var _this4 = this;
+      var _this3 = this;
 
       var participant = this.swap.participant;
 
@@ -16957,11 +16947,11 @@ var ETH2BTC = function (_Flow) {
       this.ethSwap.refund({
         participantAddress: participant.eth.address
       }, function (hash) {
-        _this4.setState({
+        _this3.setState({
           refundTransactionHash: hash
         });
       }).then(function () {
-        _this4.setState({
+        _this3.setState({
           isRefunded: true
         });
       });
