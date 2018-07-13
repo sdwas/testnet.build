@@ -6,11 +6,11 @@ webpackJsonp([0],{
 "use strict";
 
 
-var _regenerator = __webpack_require__(105);
+var _regenerator = __webpack_require__(135);
 
 var _regenerator2 = _interopRequireDefault(_regenerator);
 
-var _typeof2 = __webpack_require__(264);
+var _typeof2 = __webpack_require__(265);
 
 var _typeof3 = _interopRequireDefault(_typeof2);
 
@@ -456,7 +456,7 @@ function checkChainId(network, chainId, logger) {
 
 
 var createHash = __webpack_require__(54);
-var createHmac = __webpack_require__(106);
+var createHmac = __webpack_require__(105);
 
 /** @namespace hash */
 
@@ -701,7 +701,7 @@ PublicKey.fromStringHex = function (hex) {
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
 
-var base58 = __webpack_require__(266);
+var base58 = __webpack_require__(267);
 var assert = __webpack_require__(25);
 var randomBytes = __webpack_require__(55);
 
@@ -1474,7 +1474,7 @@ var _slicedToArray2 = __webpack_require__(1236);
 
 var _slicedToArray3 = _interopRequireDefault(_slicedToArray2);
 
-var _typeof2 = __webpack_require__(264);
+var _typeof2 = __webpack_require__(265);
 
 var _typeof3 = _interopRequireDefault(_typeof2);
 
@@ -2256,7 +2256,7 @@ exports.default = function () {
 
 var randomBytes = __webpack_require__(55);
 var ByteBuffer = __webpack_require__(465);
-var crypto = __webpack_require__(137);
+var crypto = __webpack_require__(136);
 var assert = __webpack_require__(25);
 var PublicKey = __webpack_require__(1230);
 var PrivateKey = __webpack_require__(1232);
@@ -2968,7 +2968,7 @@ var _slicedToArray2 = __webpack_require__(1236);
 
 var _slicedToArray3 = _interopRequireDefault(_slicedToArray2);
 
-var _typeof2 = __webpack_require__(264);
+var _typeof2 = __webpack_require__(265);
 
 var _typeof3 = _interopRequireDefault(_typeof2);
 
@@ -6780,7 +6780,7 @@ module.exports = { "default": __webpack_require__(1268), __esModule: true };
 /***/ 1268:
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(265);
+__webpack_require__(266);
 __webpack_require__(185);
 module.exports = __webpack_require__(1269);
 
@@ -6790,9 +6790,9 @@ module.exports = __webpack_require__(1269);
 /***/ 1269:
 /***/ (function(module, exports, __webpack_require__) {
 
-var classof = __webpack_require__(267);
+var classof = __webpack_require__(268);
 var ITERATOR = __webpack_require__(34)('iterator');
-var Iterators = __webpack_require__(107);
+var Iterators = __webpack_require__(106);
 module.exports = __webpack_require__(20).isIterable = function (it) {
   var O = Object(it);
   return O[ITERATOR] !== undefined
@@ -6814,7 +6814,7 @@ module.exports = { "default": __webpack_require__(1271), __esModule: true };
 /***/ 1271:
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(265);
+__webpack_require__(266);
 __webpack_require__(185);
 module.exports = __webpack_require__(1272);
 
@@ -6825,7 +6825,7 @@ module.exports = __webpack_require__(1272);
 /***/ (function(module, exports, __webpack_require__) {
 
 var anObject = __webpack_require__(56);
-var get = __webpack_require__(268);
+var get = __webpack_require__(269);
 module.exports = __webpack_require__(20).getIterator = function (it) {
   var iterFn = get(it);
   if (typeof iterFn != 'function') throw TypeError(it + ' is not iterable!');
@@ -6862,7 +6862,7 @@ module.exports = {"account":{"base":"","fields":{"balance":"asset"}},"account_na
 "use strict";
 /* WEBPACK VAR INJECTION */(function(Buffer) {
 
-var _typeof2 = __webpack_require__(264);
+var _typeof2 = __webpack_require__(265);
 
 var _typeof3 = _interopRequireDefault(_typeof2);
 
@@ -6997,11 +6997,11 @@ var _slicedToArray2 = __webpack_require__(1236);
 
 var _slicedToArray3 = _interopRequireDefault(_slicedToArray2);
 
-var _regenerator = __webpack_require__(105);
+var _regenerator = __webpack_require__(135);
 
 var _regenerator2 = _interopRequireDefault(_regenerator);
 
-var _typeof2 = __webpack_require__(264);
+var _typeof2 = __webpack_require__(265);
 
 var _typeof3 = _interopRequireDefault(_typeof2);
 

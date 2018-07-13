@@ -25,7 +25,7 @@ var _btc = __webpack_require__(496);
 
 var _btc2 = _interopRequireDefault(_btc);
 
-var _web = __webpack_require__(146);
+var _web = __webpack_require__(145);
 
 var _web2 = _interopRequireDefault(_web);
 
@@ -37,7 +37,7 @@ var _request = __webpack_require__(696);
 
 var _request2 = _interopRequireDefault(_request);
 
-var _constants = __webpack_require__(359);
+var _constants = __webpack_require__(360);
 
 var _constants2 = _interopRequireDefault(_constants);
 
@@ -84,7 +84,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.util = exports.constants = exports.Events = exports.Collection = exports.SwapInterface = exports.ServiceInterface = undefined;
 
-var _SwapApp = __webpack_require__(413);
+var _SwapApp = __webpack_require__(414);
 
 var _SwapApp2 = _interopRequireDefault(_SwapApp);
 
@@ -218,7 +218,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 // resolve object in webpack
-exports.default = {"propENV":"testnet.prod","paths":{},"publicPath":"https://testnet.swap.online/","http":{"host":"localhost","port":9001},"i18nDate":{"month":"long","day":"numeric","hour":"numeric","minute":"numeric"},"exchangeRates":{"etheth":1,"ethbtc":0.07,"btceth":14,"ethnoxon":1,"noxoneth":1,"btcnoxon":14,"noxonbtc":0.07},"env":"production","entry":"testnet","base":"https://testnet.swap.online/","services":{"web3":{"provider":"https://rinkeby.infura.io/JCnK5ifEPH9qcQkX0Ahl","rate":0.1,"gas":100000,"gasPrice":"20000000000"},"eos":{"chainId":"038f4b0fc8ff18a4f0842a8f0564611f6e96e8535901dd45e43ac8691a1c4dca","httpEndpoint":"https://jungle.eosio.cr"}},"token":{"contract":"0xBA5c6DC3CAcdE8EA754e47c817846f771944518F"},"eth":{"contract":"0xdbC2395f753968a93465487022B0e5D8730633Ec"},"tokens":{"swap":{"address":"0x5f53dc58cad6101d943b26ffb9427723aeb816f9","decimals":18},"noxon":{"address":"0x60c205722c6c797c725a996cf9cca11291f90749","decimals":0}},"link":{"bitpay":"https://test-insight.bitpay.com","etherscan":"https://rinkeby.etherscan.io","eos":"http://jungle.cryptolions.io/#accountInfo"},"api":{"blocktrail":"https://api.blocktrail.com/v1/tBTC","bitpay":"https://test-insight.bitpay.com/api","etherscan":"https://rinkeby.etherscan.io/api"},"apiKeys":{"etherscan":"RHHFPNMAZMD6I4ZWBZBF6FA11CMW9AXZNM","blocktrail":"1835368c0fa8e71907ca26f3c978ab742a7db42e"}};
+exports.default = {"propENV":"testnet.prod","paths":{},"publicPath":"https://testnet.swap.online/","http":{"host":"localhost","port":9001},"i18nDate":{"month":"long","day":"numeric","hour":"numeric","minute":"numeric"},"exchangeRates":{"etheth":1,"ethbtc":0.07,"btceth":14,"ethnoxon":1,"noxoneth":1,"btcnoxon":14,"noxonbtc":0.07},"env":"production","entry":"testnet","base":"https://testnet.swap.online/","services":{"web3":{"provider":"https://rinkeby.infura.io/JCnK5ifEPH9qcQkX0Ahl","rate":0.1,"gas":100000,"gasPrice":"20000000000"},"eos":{"chainId":"038f4b0fc8ff18a4f0842a8f0564611f6e96e8535901dd45e43ac8691a1c4dca","httpEndpoint":"https://jungle.eosio.cr"}},"token":{"contract":"0xBA5c6DC3CAcdE8EA754e47c817846f771944518F"},"eth":{"contract":"0x830aef165b900fa7dc6b219f062c5784f6436d67"},"tokens":{"swap":{"address":"0x5f53dc58cad6101d943b26ffb9427723aeb816f9","decimals":18},"noxon":{"address":"0x60c205722c6c797c725a996cf9cca11291f90749","decimals":0}},"link":{"bitpay":"https://test-insight.bitpay.com","etherscan":"https://rinkeby.etherscan.io","eos":"http://jungle.cryptolions.io/#accountInfo"},"api":{"blocktrail":"https://api.blocktrail.com/v1/tBTC","bitpay":"https://test-insight.bitpay.com/api","etherscan":"https://rinkeby.etherscan.io/api"},"apiKeys":{"etherscan":"RHHFPNMAZMD6I4ZWBZBF6FA11CMW9AXZNM","blocktrail":"1835368c0fa8e71907ca26f3c978ab742a7db42e"}};
 
 /***/ }),
 /* 24 */,
@@ -245,7 +245,7 @@ Object.defineProperty(exports, "__esModule", {
 
 var _redaction = __webpack_require__(30);
 
-var _reduErs = __webpack_require__(373);
+var _reduErs = __webpack_require__(374);
 
 var _reduErs2 = _interopRequireDefault(_reduErs);
 
@@ -487,7 +487,7 @@ var _keys = __webpack_require__(60);
 
 var _keys2 = _interopRequireDefault(_keys);
 
-var _toConsumableArray2 = __webpack_require__(160);
+var _toConsumableArray2 = __webpack_require__(159);
 
 var _toConsumableArray3 = _interopRequireDefault(_toConsumableArray2);
 
@@ -564,9 +564,7 @@ exports.default = _valuelink2.default;
 /* 122 */,
 /* 123 */,
 /* 124 */,
-/* 125 */,
-/* 126 */,
-/* 127 */
+/* 125 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -602,12 +600,12 @@ var SubTitle = function SubTitle(_ref) {
 exports.default = (0, _reactCssModules2.default)(SubTitle, _SubTitle2.default);
 
 /***/ }),
+/* 126 */,
+/* 127 */,
 /* 128 */,
 /* 129 */,
 /* 130 */,
-/* 131 */,
-/* 132 */,
-/* 133 */
+/* 131 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -668,7 +666,7 @@ var Table = function Table(_ref) {
 exports.default = (0, _reactCssModules2.default)(Table, _Table2.default);
 
 /***/ }),
-/* 134 */
+/* 132 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -693,8 +691,8 @@ exports.default = _Swap2.default;
 exports.Flow = _Flow2.default;
 
 /***/ }),
-/* 135 */,
-/* 136 */
+/* 133 */,
+/* 134 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -822,6 +820,8 @@ var TimerButton = (_temp = _class = function (_Component) {
 exports.default = TimerButton;
 
 /***/ }),
+/* 135 */,
+/* 136 */,
 /* 137 */,
 /* 138 */,
 /* 139 */,
@@ -830,8 +830,7 @@ exports.default = TimerButton;
 /* 142 */,
 /* 143 */,
 /* 144 */,
-/* 145 */,
-/* 146 */
+/* 145 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -856,6 +855,7 @@ var web3 = new _web2.default(new _web2.default.providers.HttpProvider(_appConfig
 exports.default = web3;
 
 /***/ }),
+/* 146 */,
 /* 147 */,
 /* 148 */,
 /* 149 */,
@@ -897,11 +897,11 @@ var _PageHeadline = __webpack_require__(968);
 
 var _PageHeadline2 = _interopRequireDefault(_PageHeadline);
 
-var _Title = __webpack_require__(412);
+var _Title = __webpack_require__(413);
 
 var _Title2 = _interopRequireDefault(_Title);
 
-var _SubTitle = __webpack_require__(127);
+var _SubTitle = __webpack_require__(125);
 
 var _SubTitle2 = _interopRequireDefault(_SubTitle);
 
@@ -1008,7 +1008,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _SwapAuth = __webpack_require__(255);
+var _SwapAuth = __webpack_require__(256);
 
 var _SwapAuth2 = _interopRequireDefault(_SwapAuth);
 
@@ -1512,7 +1512,7 @@ var _assign = __webpack_require__(31);
 
 var _assign2 = _interopRequireDefault(_assign);
 
-var _reactRouterRedux = __webpack_require__(374);
+var _reactRouterRedux = __webpack_require__(375);
 
 var _history = __webpack_require__(57);
 
@@ -1520,7 +1520,7 @@ var _redaction = __webpack_require__(30);
 
 var _reduxLogger = __webpack_require__(804);
 
-var _reduErs = __webpack_require__(373);
+var _reduErs = __webpack_require__(374);
 
 var _reduErs2 = _interopRequireDefault(_reduErs);
 
@@ -1622,7 +1622,7 @@ var _Coin = __webpack_require__(1000);
 
 var _Coin2 = _interopRequireDefault(_Coin);
 
-var _CurrencyIcon = __webpack_require__(418);
+var _CurrencyIcon = __webpack_require__(419);
 
 var _CurrencyIcon2 = _interopRequireDefault(_CurrencyIcon);
 
@@ -1673,7 +1673,8 @@ exports.default = (0, _reactCssModules2.default)(Coin, _Coin2.default);
 /* 252 */,
 /* 253 */,
 /* 254 */,
-/* 255 */
+/* 255 */,
+/* 256 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1788,10 +1789,10 @@ var SwapAuth = function (_ServiceInterface) {
 exports.default = SwapAuth;
 
 /***/ }),
-/* 256 */,
 /* 257 */,
 /* 258 */,
-/* 259 */
+/* 259 */,
+/* 260 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1834,7 +1835,7 @@ var Loader = function Loader(_ref) {
 exports.default = (0, _reactCssModules2.default)(Loader, _Loader2.default, { allowMultiple: true });
 
 /***/ }),
-/* 260 */
+/* 261 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1880,7 +1881,7 @@ var Row = function Row(_ref) {
 exports.default = (0, _reactCssModules2.default)(Row, _Row2.default);
 
 /***/ }),
-/* 261 */
+/* 262 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1928,8 +1929,8 @@ var Value = function Value(_ref) {
 exports.default = (0, _reactCssModules2.default)(Value, _Value2.default);
 
 /***/ }),
-/* 262 */,
-/* 263 */
+/* 263 */,
+/* 264 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1970,7 +1971,6 @@ var FieldLabel = function FieldLabel(_ref) {
 exports.default = (0, _reactCssModules2.default)(FieldLabel, _FieldLabel2.default, { allowMultiple: true });
 
 /***/ }),
-/* 264 */,
 /* 265 */,
 /* 266 */,
 /* 267 */,
@@ -2065,7 +2065,8 @@ exports.default = (0, _reactCssModules2.default)(FieldLabel, _FieldLabel2.defaul
 /* 356 */,
 /* 357 */,
 /* 358 */,
-/* 359 */
+/* 359 */,
+/* 360 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2101,7 +2102,6 @@ exports.default = {
 };
 
 /***/ }),
-/* 360 */,
 /* 361 */,
 /* 362 */,
 /* 363 */,
@@ -2114,7 +2114,8 @@ exports.default = {
 /* 370 */,
 /* 371 */,
 /* 372 */,
-/* 373 */
+/* 373 */,
+/* 374 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2160,7 +2161,6 @@ exports.default = {
 };
 
 /***/ }),
-/* 374 */,
 /* 375 */,
 /* 376 */,
 /* 377 */,
@@ -2198,7 +2198,8 @@ exports.default = {
 /* 409 */,
 /* 410 */,
 /* 411 */,
-/* 412 */
+/* 412 */,
+/* 413 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2234,7 +2235,7 @@ var Title = function Title(_ref) {
 exports.default = (0, _reactCssModules2.default)(Title, _Title2.default);
 
 /***/ }),
-/* 413 */
+/* 414 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2419,11 +2420,11 @@ var SwapApp = function () {
 exports.default = new SwapApp();
 
 /***/ }),
-/* 414 */,
 /* 415 */,
 /* 416 */,
 /* 417 */,
-/* 418 */
+/* 418 */,
+/* 419 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2518,7 +2519,7 @@ var CurrencyIcon = function CurrencyIcon(_ref) {
 exports.default = (0, _reactCssModules2.default)(CurrencyIcon, _CurrencyIcon2.default);
 
 /***/ }),
-/* 419 */
+/* 420 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2587,7 +2588,7 @@ var RemoveButton = (_dec = (0, _reactCssModules2.default)(_RemoveButton2.default
 exports.default = RemoveButton;
 
 /***/ }),
-/* 420 */
+/* 421 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2640,7 +2641,7 @@ var CurrencySelect = function CurrencySelect(_ref) {
 exports.default = (0, _reactCssModules2.default)(CurrencySelect, _CurrencySelect2.default);
 
 /***/ }),
-/* 421 */
+/* 422 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2677,7 +2678,7 @@ function Flip(_ref) {
 exports.default = (0, _reactCssModules2.default)(Flip, _Flip2.default);
 
 /***/ }),
-/* 422 */
+/* 423 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2725,7 +2726,7 @@ var WithdrawButton = function WithdrawButton(_ref) {
 exports.default = (0, _reactCssModules2.default)(WithdrawButton, _WithdrawButton2.default);
 
 /***/ }),
-/* 423 */
+/* 424 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2766,7 +2767,7 @@ var ReloadButton = function ReloadButton(_ref) {
 exports.default = (0, _reactCssModules2.default)(ReloadButton, _ReloadButton2.default);
 
 /***/ }),
-/* 424 */
+/* 425 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2816,7 +2817,6 @@ var Href = function Href(_ref) {
 exports.default = (0, _reactCssModules2.default)(Href, _Href2.default);
 
 /***/ }),
-/* 425 */,
 /* 426 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -3955,7 +3955,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactDom = __webpack_require__(272);
+var _reactDom = __webpack_require__(273);
 
 var _reactDom2 = _interopRequireDefault(_reactDom);
 
@@ -3971,7 +3971,7 @@ var _Root = __webpack_require__(1088);
 
 var _Root2 = _interopRequireDefault(_Root);
 
-var _Loader = __webpack_require__(259);
+var _Loader = __webpack_require__(260);
 
 var _Loader2 = _interopRequireDefault(_Loader);
 
@@ -4008,7 +4008,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactRouter = __webpack_require__(139);
+var _reactRouter = __webpack_require__(138);
 
 var _reactRouterDom = __webpack_require__(58);
 
@@ -4571,7 +4571,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _stringify = __webpack_require__(360);
+var _stringify = __webpack_require__(361);
 
 var _stringify2 = _interopRequireDefault(_stringify);
 
@@ -4786,11 +4786,11 @@ var _PageHeadline = __webpack_require__(162);
 
 var _PageHeadline2 = _interopRequireDefault(_PageHeadline);
 
-var _Title = __webpack_require__(412);
+var _Title = __webpack_require__(413);
 
 var _Title2 = _interopRequireDefault(_Title);
 
-var _SubTitle = __webpack_require__(127);
+var _SubTitle = __webpack_require__(125);
 
 var _SubTitle2 = _interopRequireDefault(_SubTitle);
 
@@ -5029,7 +5029,7 @@ var _objectWithoutProperties2 = __webpack_require__(53);
 
 var _objectWithoutProperties3 = _interopRequireDefault(_objectWithoutProperties2);
 
-var _defineProperty2 = __webpack_require__(159);
+var _defineProperty2 = __webpack_require__(158);
 
 var _defineProperty3 = _interopRequireDefault(_defineProperty2);
 
@@ -5075,7 +5075,7 @@ var _objectWithoutProperties2 = __webpack_require__(53);
 
 var _objectWithoutProperties3 = _interopRequireDefault(_objectWithoutProperties2);
 
-var _defineProperty2 = __webpack_require__(159);
+var _defineProperty2 = __webpack_require__(158);
 
 var _defineProperty3 = _interopRequireDefault(_defineProperty2);
 
@@ -5124,7 +5124,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.setTransactions = exports.setFilter = exports.initialState = undefined;
 
-var _toConsumableArray2 = __webpack_require__(160);
+var _toConsumableArray2 = __webpack_require__(159);
 
 var _toConsumableArray3 = _interopRequireDefault(_toConsumableArray2);
 
@@ -5195,7 +5195,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.setTokenBalance = exports.setBalance = exports.setTokenAuthData = exports.setAuthData = exports.initialState = undefined;
 
-var _defineProperty2 = __webpack_require__(159);
+var _defineProperty2 = __webpack_require__(158);
 
 var _defineProperty3 = _interopRequireDefault(_defineProperty2);
 
@@ -5279,7 +5279,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.deleteItems = exports.addItems = exports.initialState = undefined;
 
-var _toConsumableArray2 = __webpack_require__(160);
+var _toConsumableArray2 = __webpack_require__(159);
 
 var _toConsumableArray3 = _interopRequireDefault(_toConsumableArray2);
 
@@ -5409,7 +5409,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _toConsumableArray2 = __webpack_require__(160);
+var _toConsumableArray2 = __webpack_require__(159);
 
 var _toConsumableArray3 = _interopRequireDefault(_toConsumableArray2);
 
@@ -5417,7 +5417,7 @@ var _promise = __webpack_require__(70);
 
 var _promise2 = _interopRequireDefault(_promise);
 
-var _regenerator = __webpack_require__(105);
+var _regenerator = __webpack_require__(135);
 
 var _regenerator2 = _interopRequireDefault(_regenerator);
 
@@ -5425,7 +5425,7 @@ var _keys = __webpack_require__(60);
 
 var _keys2 = _interopRequireDefault(_keys);
 
-var _asyncToGenerator2 = __webpack_require__(121);
+var _asyncToGenerator2 = __webpack_require__(160);
 
 var _asyncToGenerator3 = _interopRequireDefault(_asyncToGenerator2);
 
@@ -5606,7 +5606,7 @@ var _assign = __webpack_require__(31);
 
 var _assign2 = _interopRequireDefault(_assign);
 
-var _stringify = __webpack_require__(360);
+var _stringify = __webpack_require__(361);
 
 var _stringify2 = _interopRequireDefault(_stringify);
 
@@ -5680,15 +5680,13 @@ var getBalance = function getBalance() {
 
     console.log('BTC Balance:', balance);
     _reducers2.default.user.setBalance({ name: 'btcData', amount: balance });
+    return balance;
   }, function () {
     return _promise2.default.reject();
   });
 };
 
-var fetchBalance = function fetchBalance() {
-  var _getState2 = (0, _core.getState)(),
-      address = _getState2.user.btcData.address;
-
+var fetchBalance = function fetchBalance(address) {
   return _helpers.request.get(_appConfig2.default.api.bitpay + '/addr/' + address).then(function (_ref2) {
     var balance = _ref2.balance;
     return balance;
@@ -5697,8 +5695,8 @@ var fetchBalance = function fetchBalance() {
 
 var getTransaction = function getTransaction() {
   return new _promise2.default(function (resolve) {
-    var _getState3 = (0, _core.getState)(),
-        address = _getState3.user.btcData.address;
+    var _getState2 = (0, _core.getState)(),
+        address = _getState2.user.btcData.address;
 
     var url = _appConfig2.default.api.bitpay + '/txs/?address=' + address;
     var transactions = void 0;
@@ -5726,8 +5724,8 @@ var getTransaction = function getTransaction() {
 
 var send = function send(from, to, amount) {
   return new _promise2.default(function (resolve, reject) {
-    var _getState4 = (0, _core.getState)(),
-        privateKey = _getState4.user.btcData.privateKey;
+    var _getState3 = (0, _core.getState)(),
+        privateKey = _getState3.user.btcData.privateKey;
 
     var newtx = {
       inputs: [{
@@ -5805,7 +5803,7 @@ var _helpers = __webpack_require__(11);
 
 var _core = __webpack_require__(97);
 
-var _web = __webpack_require__(146);
+var _web = __webpack_require__(145);
 
 var _web2 = _interopRequireDefault(_web);
 
@@ -5853,17 +5851,14 @@ var getBalance = function getBalance() {
     var result = _ref.result;
 
     var amount = Number(_web2.default.utils.fromWei(result));
-
     _reducers2.default.user.setBalance({ name: 'ethData', amount: amount });
+    return result;
   }).catch(function () {
     console.log('app:showError', 'Ethereum service isn\'t available, try later');
   });
 };
 
-var fetchBalance = function fetchBalance() {
-  var _getState2 = (0, _core.getState)(),
-      address = _getState2.user.ethData.address;
-
+var fetchBalance = function fetchBalance(address) {
   var url = _appConfig2.default.api.etherscan + '?module=account&action=balance&address=' + address + '&tag=latest&apikey=' + _appConfig2.default.apiKeys.etherscan;
   return _helpers.request.get(url).then(function (_ref2) {
     var result = _ref2.result;
@@ -5883,8 +5878,8 @@ var fetchBalance = function fetchBalance() {
 
 var getTransaction = function getTransaction() {
   return new _promise2.default(function (resolve) {
-    var _getState3 = (0, _core.getState)(),
-        address = _getState3.user.ethData.address;
+    var _getState2 = (0, _core.getState)(),
+        address = _getState2.user.ethData.address;
 
     var url = _appConfig2.default.api.etherscan + '?module=account&action=txlist&address=' + address + '&startblock=0&endblock=99999999&sort=asc&apikey=' + _appConfig2.default.apiKeys.etherscan;
     var transactions = void 0;
@@ -5916,8 +5911,8 @@ var getTransaction = function getTransaction() {
 
 var send = function send(from, to, amount) {
   return new _promise2.default(function (resolve, reject) {
-    var _getState4 = (0, _core.getState)(),
-        privateKey = _getState4.user.ethData.privateKey;
+    var _getState3 = (0, _core.getState)(),
+        privateKey = _getState3.user.ethData.privateKey;
 
     var params = {
       to: String(to).trim(),
@@ -5965,7 +5960,7 @@ var _helpers = __webpack_require__(11);
 
 var _core = __webpack_require__(97);
 
-var _web = __webpack_require__(146);
+var _web = __webpack_require__(145);
 
 var _web2 = _interopRequireDefault(_web);
 
@@ -5977,7 +5972,7 @@ var _appConfig = __webpack_require__(23);
 
 var _appConfig2 = _interopRequireDefault(_appConfig);
 
-var _bignumber = __webpack_require__(381);
+var _bignumber = __webpack_require__(382);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -6119,7 +6114,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _regenerator = __webpack_require__(105);
+var _regenerator = __webpack_require__(135);
 
 var _regenerator2 = _interopRequireDefault(_regenerator);
 
@@ -6127,7 +6122,7 @@ var _promise = __webpack_require__(70);
 
 var _promise2 = _interopRequireDefault(_promise);
 
-var _asyncToGenerator2 = __webpack_require__(121);
+var _asyncToGenerator2 = __webpack_require__(160);
 
 var _asyncToGenerator3 = _interopRequireDefault(_asyncToGenerator2);
 
@@ -6511,11 +6506,11 @@ var _assign = __webpack_require__(31);
 
 var _assign2 = _interopRequireDefault(_assign);
 
-var _regenerator = __webpack_require__(105);
+var _regenerator = __webpack_require__(135);
 
 var _regenerator2 = _interopRequireDefault(_regenerator);
 
-var _asyncToGenerator2 = __webpack_require__(121);
+var _asyncToGenerator2 = __webpack_require__(160);
 
 var _asyncToGenerator3 = _interopRequireDefault(_asyncToGenerator2);
 
@@ -6529,7 +6524,7 @@ var _reducers = __webpack_require__(36);
 
 var _reducers2 = _interopRequireDefault(_reducers);
 
-var _constants = __webpack_require__(359);
+var _constants = __webpack_require__(360);
 
 var _constants2 = _interopRequireDefault(_constants);
 
@@ -7127,7 +7122,7 @@ var _Row = __webpack_require__(998);
 
 var _Row2 = _interopRequireDefault(_Row);
 
-var _Table = __webpack_require__(133);
+var _Table = __webpack_require__(131);
 
 var _Table2 = _interopRequireDefault(_Table);
 
@@ -7419,7 +7414,7 @@ var _createClass2 = __webpack_require__(19);
 
 var _createClass3 = _interopRequireDefault(_createClass2);
 
-var _SwapApp = __webpack_require__(413);
+var _SwapApp = __webpack_require__(414);
 
 var _SwapApp2 = _interopRequireDefault(_SwapApp);
 
@@ -8103,14 +8098,6 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = undefined;
 
-var _regenerator = __webpack_require__(105);
-
-var _regenerator2 = _interopRequireDefault(_regenerator);
-
-var _asyncToGenerator2 = __webpack_require__(121);
-
-var _asyncToGenerator3 = _interopRequireDefault(_asyncToGenerator2);
-
 var _getPrototypeOf = __webpack_require__(4);
 
 var _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);
@@ -8161,7 +8148,7 @@ var _RequestButton = __webpack_require__(1008);
 
 var _RequestButton2 = _interopRequireDefault(_RequestButton);
 
-var _RemoveButton = __webpack_require__(419);
+var _RemoveButton = __webpack_require__(420);
 
 var _RemoveButton2 = _interopRequireDefault(_RemoveButton);
 
@@ -8171,8 +8158,7 @@ var Row = (_temp2 = _class = function (_Component) {
   (0, _inherits3.default)(Row, _Component);
 
   function Row() {
-    var _ref,
-        _this2 = this;
+    var _ref;
 
     var _temp, _this, _ret;
 
@@ -8204,41 +8190,22 @@ var Row = (_temp2 = _class = function (_Component) {
       _actions2.default.feed.deleteItemToFeed(orderId);
 
       _this.props.update();
-    }, _this.sendRequest = function () {
-      var _ref2 = (0, _asyncToGenerator3.default)( /*#__PURE__*/_regenerator2.default.mark(function _callee(orderId) {
-        var order;
-        return _regenerator2.default.wrap(function _callee$(_context) {
-          while (1) {
-            switch (_context.prev = _context.next) {
-              case 0:
-                order = _swap2.default.services.orders.getByKey(orderId);
+    }, _this.sendRequest = function (orderId) {
+      var order = _swap2.default.services.orders.getByKey(orderId);
 
+      order.sendRequest(function (isAccepted) {
+        console.log('user ' + order.owner.peer + ' ' + (isAccepted ? 'accepted' : 'declined') + ' your request');
+      });
 
-                order.sendRequest(function (isAccepted) {
-                  console.log('user ' + order.owner.peer + ' ' + (isAccepted ? 'accepted' : 'declined') + ' your request');
-                });
-
-                _this.props.update();
-                // actions.analytics.dataEvent('orders-click-start-swap')
-
-              case 3:
-              case 'end':
-                return _context.stop();
-            }
-          }
-        }, _callee, _this2);
-      }));
-
-      return function (_x) {
-        return _ref2.apply(this, arguments);
-      };
-    }(), _temp), (0, _possibleConstructorReturn3.default)(_this, _ret);
+      _this.props.update();
+      // actions.analytics.dataEvent('orders-click-start-swap')
+    }, _temp), (0, _possibleConstructorReturn3.default)(_this, _ret);
   }
 
   (0, _createClass3.default)(Row, [{
     key: 'componentWillMount',
     value: function componentWillMount() {
-      var _this3 = this;
+      var _this2 = this;
 
       var row = this.props.row;
 
@@ -8256,14 +8223,14 @@ var Row = (_temp2 = _class = function (_Component) {
       var currency = isMy ? buyCurrency : sellCurrency;
 
       if (currency.toLowerCase() === 'eth') {
-        _actions2.default.ethereum.fetchBalance().then(function (balance) {
-          _this3.setState({
+        _actions2.default.ethereum.getBalance().then(function (balance) {
+          _this2.setState({
             balance: balance
           });
         });
       } else {
-        _actions2.default.bitcoin.fetchBalance().then(function (balance) {
-          _this3.setState({
+        _actions2.default.bitcoin.getBalance().then(function (balance) {
+          _this2.setState({
             balance: balance
           });
         });
@@ -8278,7 +8245,7 @@ var Row = (_temp2 = _class = function (_Component) {
   }, {
     key: 'render',
     value: function render() {
-      var _this4 = this;
+      var _this3 = this;
 
       var row = this.props.row;
       var _state = this.state,
@@ -8329,7 +8296,7 @@ var Row = (_temp2 = _class = function (_Component) {
           'td',
           null,
           mePeer === ownerPeer ? _react2.default.createElement(_RemoveButton2.default, { removeOrder: function removeOrder() {
-              return _this4.removeOrder(id);
+              return _this3.removeOrder(id);
             } }) : _react2.default.createElement(
             _react.Fragment,
             null,
@@ -8350,12 +8317,12 @@ var Row = (_temp2 = _class = function (_Component) {
               _reactRouterDom.Link,
               { to: _helpers.links.swap + '/' + buyCurrency + '-' + sellCurrency + '/' + id },
               _react2.default.createElement(_RequestButton2.default, { sendRequest: function sendRequest() {
-                  return _this4.sendRequest(id);
+                  return _this3.sendRequest(id);
                 } })
             ) : _react2.default.createElement(
-              'p',
+              'span',
               null,
-              'Your no enough money'
+              'Insufficient funds'
             )
           )
         )
@@ -8538,11 +8505,11 @@ var _SearchSwap = __webpack_require__(1013);
 
 var _SearchSwap2 = _interopRequireDefault(_SearchSwap);
 
-var _CurrencySelect = __webpack_require__(420);
+var _CurrencySelect = __webpack_require__(421);
 
 var _CurrencySelect2 = _interopRequireDefault(_CurrencySelect);
 
-var _Flip = __webpack_require__(421);
+var _Flip = __webpack_require__(422);
 
 var _Flip2 = _interopRequireDefault(_Flip);
 
@@ -8945,7 +8912,7 @@ var _Option = __webpack_require__(1019);
 
 var _Option2 = _interopRequireDefault(_Option);
 
-var _CurrencyIcon = __webpack_require__(418);
+var _CurrencyIcon = __webpack_require__(419);
 
 var _CurrencyIcon2 = _interopRequireDefault(_CurrencyIcon);
 
@@ -9028,7 +8995,7 @@ var _actions = __webpack_require__(14);
 
 var _actions2 = _interopRequireDefault(_actions);
 
-var _Table = __webpack_require__(133);
+var _Table = __webpack_require__(131);
 
 var _Table2 = _interopRequireDefault(_Table);
 
@@ -9328,7 +9295,7 @@ var _PageHeadline = __webpack_require__(162);
 
 var _PageHeadline2 = _interopRequireDefault(_PageHeadline);
 
-var _SubTitle = __webpack_require__(127);
+var _SubTitle = __webpack_require__(125);
 
 var _SubTitle2 = _interopRequireDefault(_SubTitle);
 
@@ -9336,7 +9303,7 @@ var _SaveKeys = __webpack_require__(1026);
 
 var _SaveKeys2 = _interopRequireDefault(_SaveKeys);
 
-var _Table = __webpack_require__(133);
+var _Table = __webpack_require__(131);
 
 var _Table2 = _interopRequireDefault(_Table);
 
@@ -9693,7 +9660,7 @@ var _Confirm = __webpack_require__(1032);
 
 var _Confirm2 = _interopRequireDefault(_Confirm);
 
-var _SubTitle = __webpack_require__(127);
+var _SubTitle = __webpack_require__(125);
 
 var _SubTitle2 = _interopRequireDefault(_SubTitle);
 
@@ -9798,11 +9765,11 @@ var _Coin = __webpack_require__(249);
 
 var _Coin2 = _interopRequireDefault(_Coin);
 
-var _WithdrawButton = __webpack_require__(422);
+var _WithdrawButton = __webpack_require__(423);
 
 var _WithdrawButton2 = _interopRequireDefault(_WithdrawButton);
 
-var _ReloadButton = __webpack_require__(423);
+var _ReloadButton = __webpack_require__(424);
 
 var _ReloadButton2 = _interopRequireDefault(_ReloadButton);
 
@@ -10053,7 +10020,7 @@ var _appConfig = __webpack_require__(23);
 
 var _appConfig2 = _interopRequireDefault(_appConfig);
 
-var _Href = __webpack_require__(424);
+var _Href = __webpack_require__(425);
 
 var _Href2 = _interopRequireDefault(_Href);
 
@@ -10139,7 +10106,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _swap = __webpack_require__(134);
+var _swap = __webpack_require__(132);
 
 var _swap2 = _interopRequireDefault(_swap);
 
@@ -10247,7 +10214,7 @@ var _createClass2 = __webpack_require__(19);
 
 var _createClass3 = _interopRequireDefault(_createClass2);
 
-var _bignumber = __webpack_require__(425);
+var _bignumber = __webpack_require__(252);
 
 var _bignumber2 = _interopRequireDefault(_bignumber);
 
@@ -10647,7 +10614,7 @@ var _InlineLoader = __webpack_require__(101);
 
 var _InlineLoader2 = _interopRequireDefault(_InlineLoader);
 
-var _TimerButton = __webpack_require__(136);
+var _TimerButton = __webpack_require__(134);
 
 var _TimerButton2 = _interopRequireDefault(_TimerButton);
 
@@ -10748,31 +10715,6 @@ var BtcToEth = function (_Component) {
       return _react2.default.createElement(
         'div',
         null,
-        _react2.default.createElement(
-          'button',
-          { onClick: this.tryRefund },
-          'TRY REFUND'
-        ),
-        flow.refundTransactionHash && _react2.default.createElement(
-          'div',
-          null,
-          'Transaction:',
-          _react2.default.createElement(
-            'strong',
-            null,
-            _react2.default.createElement(
-              'a',
-              {
-                href: _appConfig2.default.link.bitpay + '/tx/' + flow.refundTransactionHash,
-                target: '_blank',
-                rel: 'noopener noreferrer'
-              },
-              flow.refundTransactionHash
-            )
-          )
-        ),
-        _react2.default.createElement('br', null),
-        _react2.default.createElement('br', null),
         this.swap.id && _react2.default.createElement(
           'strong',
           null,
@@ -10952,15 +10894,23 @@ var BtcToEth = function (_Component) {
             ),
             !flow.btcScriptValues && _react2.default.createElement(_InlineLoader2.default, null)
           ),
-          refundTxHex && _react2.default.createElement(
+          flow.refundTransactionHash && _react2.default.createElement(
             'div',
             null,
+            'Transaction:',
             _react2.default.createElement(
-              'h3',
+              'strong',
               null,
-              'Refund hex transaction:'
-            ),
-            refundTxHex
+              _react2.default.createElement(
+                'a',
+                {
+                  href: _appConfig2.default.link.bitpay + '/tx/' + flow.refundTransactionHash,
+                  target: '_blank',
+                  rel: 'noopener noreferrer'
+                },
+                flow.refundTransactionHash
+              )
+            )
           ),
           (flow.step === 5 || flow.isEthContractFunded) && _react2.default.createElement(
             _react.Fragment,
@@ -11085,7 +11035,7 @@ var _InlineLoader = __webpack_require__(101);
 
 var _InlineLoader2 = _interopRequireDefault(_InlineLoader);
 
-var _TimerButton = __webpack_require__(136);
+var _TimerButton = __webpack_require__(134);
 
 var _TimerButton2 = _interopRequireDefault(_TimerButton);
 
@@ -11158,36 +11108,10 @@ var EthToBtc = function (_Component) {
           flow = _state.flow,
           enabledButton = _state.enabledButton;
 
-      console.log('FLOW', flow);
 
       return _react2.default.createElement(
         'div',
         null,
-        _react2.default.createElement(
-          'button',
-          { onClick: this.tryRefund },
-          'TRY REFUND'
-        ),
-        flow.refundTransactionHash && _react2.default.createElement(
-          'div',
-          null,
-          'Transaction:',
-          _react2.default.createElement(
-            'strong',
-            null,
-            _react2.default.createElement(
-              'a',
-              {
-                href: _appConfig2.default.link.etherscan + '/tx/' + flow.refundTransactionHash,
-                target: '_blank',
-                rel: 'noopener noreferrer'
-              },
-              flow.refundTransactionHash
-            )
-          )
-        ),
-        _react2.default.createElement('br', null),
-        _react2.default.createElement('br', null),
         this.swap.id && _react2.default.createElement(
           'strong',
           null,
@@ -11536,7 +11460,7 @@ var _InlineLoader = __webpack_require__(101);
 
 var _InlineLoader2 = _interopRequireDefault(_InlineLoader);
 
-var _TimerButton = __webpack_require__(136);
+var _TimerButton = __webpack_require__(134);
 
 var _TimerButton2 = _interopRequireDefault(_TimerButton);
 
@@ -11919,7 +11843,7 @@ var _InlineLoader = __webpack_require__(101);
 
 var _InlineLoader2 = _interopRequireDefault(_InlineLoader);
 
-var _TimerButton = __webpack_require__(136);
+var _TimerButton = __webpack_require__(134);
 
 var _TimerButton2 = _interopRequireDefault(_TimerButton);
 
@@ -12273,7 +12197,7 @@ var _PageHeadline = __webpack_require__(162);
 
 var _PageHeadline2 = _interopRequireDefault(_PageHeadline);
 
-var _Table = __webpack_require__(133);
+var _Table = __webpack_require__(131);
 
 var _Table2 = _interopRequireDefault(_Table);
 
@@ -12700,7 +12624,7 @@ var _appConfig = __webpack_require__(23);
 
 var _appConfig2 = _interopRequireDefault(_appConfig);
 
-var _Href = __webpack_require__(424);
+var _Href = __webpack_require__(425);
 
 var _Href2 = _interopRequireDefault(_Href);
 
@@ -12769,7 +12693,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _Table = __webpack_require__(133);
+var _Table = __webpack_require__(131);
 
 var _Table2 = _interopRequireDefault(_Table);
 
@@ -13013,7 +12937,7 @@ var _PageHeadline = __webpack_require__(162);
 
 var _PageHeadline2 = _interopRequireDefault(_PageHeadline);
 
-var _SubTitle = __webpack_require__(127);
+var _SubTitle = __webpack_require__(125);
 
 var _SubTitle2 = _interopRequireDefault(_SubTitle);
 
@@ -13096,9 +13020,9 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactRouterRedux = __webpack_require__(374);
+var _reactRouterRedux = __webpack_require__(375);
 
-var _reactRedux = __webpack_require__(366);
+var _reactRedux = __webpack_require__(367);
 
 var _propTypes = __webpack_require__(9);
 
@@ -13187,7 +13111,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactRouter = __webpack_require__(139);
+var _reactRouter = __webpack_require__(138);
 
 var _propTypes = __webpack_require__(9);
 
@@ -13225,7 +13149,7 @@ var _Footer = __webpack_require__(1165);
 
 var _Footer2 = _interopRequireDefault(_Footer);
 
-var _Loader = __webpack_require__(259);
+var _Loader = __webpack_require__(260);
 
 var _Loader2 = _interopRequireDefault(_Loader);
 
@@ -13359,7 +13283,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.createSwapApp = undefined;
 
-var _web = __webpack_require__(146);
+var _web = __webpack_require__(145);
 
 var _web2 = _interopRequireDefault(_web);
 
@@ -13441,9 +13365,7 @@ var createSwapApp = function createSwapApp() {
       },
       config: {
         Addresses: {
-          Swarm: [
-          // '/dns4/ws-star.discovery.libp2p.io/tcp/443/wss/p2p-websocket-star',
-          '/dns4/discovery.libp2p.array.io/tcp/9091/wss/p2p-websocket-star/']
+          Swarm: [ false ? '/dns4/discovery.libp2p.array.io/tcp/9091/wss/p2p-websocket-star/' : '/dns4/star.wpmix.net/tcp/443/wss/p2p-websocket-star']
         }
       }
     }), new _swap8.default()],
@@ -13514,8 +13436,8 @@ exports.createSwapApp = createSwapApp;
 
 var map = {
 	"./": 179,
-	"./SwapAuth": 255,
-	"./SwapAuth.js": 255,
+	"./SwapAuth": 256,
+	"./SwapAuth.js": 256,
 	"./btc": 448,
 	"./btc.js": 448,
 	"./eth": 449,
@@ -13847,7 +13769,7 @@ var _extends2 = __webpack_require__(102);
 
 var _extends3 = _interopRequireDefault(_extends2);
 
-var _bignumber = __webpack_require__(425);
+var _bignumber = __webpack_require__(252);
 
 var _bignumber2 = _interopRequireDefault(_bignumber);
 
@@ -14640,6 +14562,8 @@ var _swap = __webpack_require__(12);
 
 var _swap2 = _interopRequireDefault(_swap);
 
+var _bignumber = __webpack_require__(252);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var EthSwap = function (_SwapInterface) {
@@ -14763,7 +14687,7 @@ var EthSwap = function (_SwapInterface) {
         var _ref2 = (0, _asyncToGenerator3.default)( /*#__PURE__*/_regenerator2.default.mark(function _callee2(resolve, reject) {
           var _contract$methods;
 
-          var hash, creator, nonce, params, values, receipt;
+          var hash, creator, nonce, gas, params, values, receipt;
           return _regenerator2.default.wrap(function _callee2$(_context2) {
             while (1) {
               switch (_context2.prev = _context2.next) {
@@ -14775,6 +14699,11 @@ var EthSwap = function (_SwapInterface) {
 
                 case 4:
                   nonce = _context2.sent;
+                  _context2.next = 7;
+                  return _swap2.default.env.web3.eth.gasPrice();
+
+                case 7:
+                  gas = _context2.sent;
                   params = {
                     from: creator,
                     gas: _this3.gasLimit,
@@ -14782,7 +14711,7 @@ var EthSwap = function (_SwapInterface) {
                     value: Math.floor(_swap2.default.env.web3.utils.toWei(amount.toString()))
                   };
                   values = [hash, participantAddress];
-                  _context2.next = 9;
+                  _context2.next = 12;
                   return (_contract$methods = _this3.contract.methods).createSwap.apply(_contract$methods, values).send(params).on('transactionHash', function (hash) {
                     if (typeof handleTransactionHash === 'function') {
                       handleTransactionHash(hash);
@@ -14791,13 +14720,13 @@ var EthSwap = function (_SwapInterface) {
                     reject(err);
                   });
 
-                case 9:
+                case 12:
                   receipt = _context2.sent;
 
 
                   resolve(receipt);
 
-                case 11:
+                case 14:
                 case 'end':
                   return _context2.stop();
               }
@@ -14932,7 +14861,7 @@ var EthSwap = function (_SwapInterface) {
       var ownerAddress = data.ownerAddress,
           secret = data.secret;
 
-
+      console.log('data', data);
       return new _promise2.default(function () {
         var _ref5 = (0, _asyncToGenerator3.default)( /*#__PURE__*/_regenerator2.default.mark(function _callee5(resolve, reject) {
           var _secret, params, receipt;
@@ -14993,16 +14922,22 @@ var EthSwap = function (_SwapInterface) {
 
       return new _promise2.default(function () {
         var _ref6 = (0, _asyncToGenerator3.default)( /*#__PURE__*/_regenerator2.default.mark(function _callee6(resolve, reject) {
-          var params, receipt;
+          var gas, params, receipt;
           return _regenerator2.default.wrap(function _callee6$(_context6) {
             while (1) {
               switch (_context6.prev = _context6.next) {
                 case 0:
+                  _context6.next = 2;
+                  return _swap2.default.env.web3.eth.gasPrice();
+
+                case 2:
+                  gas = _context6.sent;
                   params = {
                     from: _swap2.default.services.auth.accounts.eth.address,
-                    gas: _this6.gasLimit
+                    gas: _this6.gasLimit,
+                    gasPrice: new _bignumber.BigNumber(2).multipliedBy(gas)
                   };
-                  _context6.next = 3;
+                  _context6.next = 6;
                   return _this6.contract.methods.refund(participantAddress).send(params).on('transactionHash', function (hash) {
                     if (typeof handleTransactionHash === 'function') {
                       handleTransactionHash(hash);
@@ -15011,13 +14946,13 @@ var EthSwap = function (_SwapInterface) {
                     reject(err);
                   });
 
-                case 3:
+                case 6:
                   receipt = _context6.sent;
 
 
                   resolve(receipt);
 
-                case 5:
+                case 8:
                 case 'end':
                   return _context6.stop();
               }
@@ -15106,17 +15041,23 @@ var EthSwap = function (_SwapInterface) {
 
       return new _promise2.default(function () {
         var _ref8 = (0, _asyncToGenerator3.default)( /*#__PURE__*/_regenerator2.default.mark(function _callee8(resolve, reject) {
-          var params, result;
+          var gas, params, result;
           return _regenerator2.default.wrap(function _callee8$(_context8) {
             while (1) {
               switch (_context8.prev = _context8.next) {
                 case 0:
+                  _context8.next = 2;
+                  return _swap2.default.env.web3.eth.gasPrice();
+
+                case 2:
+                  gas = _context8.sent;
                   params = {
                     from: _swap2.default.services.auth.accounts.eth.address,
-                    gas: _this8.gasLimit
+                    gas: _this8.gasLimit,
+                    gasPrice: new _bignumber.BigNumber(2).multipliedBy(gas)
                   };
-                  _context8.prev = 1;
-                  _context8.next = 4;
+                  _context8.prev = 4;
+                  _context8.next = 7;
                   return _this8.contract.methods.close(participantAddress).send(params).on('transactionHash', function (hash) {
                     if (typeof handleTransactionHash === 'function') {
                       handleTransactionHash(hash);
@@ -15125,26 +15066,26 @@ var EthSwap = function (_SwapInterface) {
                     reject(err);
                   });
 
-                case 4:
+                case 7:
                   result = _context8.sent;
 
 
                   resolve(result);
-                  _context8.next = 11;
+                  _context8.next = 14;
                   break;
 
-                case 8:
-                  _context8.prev = 8;
-                  _context8.t0 = _context8['catch'](1);
+                case 11:
+                  _context8.prev = 11;
+                  _context8.t0 = _context8['catch'](4);
 
                   reject(_context8.t0);
 
-                case 11:
+                case 14:
                 case 'end':
                   return _context8.stop();
               }
             }
-          }, _callee8, _this8, [[1, 8]]);
+          }, _callee8, _this8, [[4, 11]]);
         }));
 
         return function (_x14, _x15) {
@@ -16070,14 +16011,22 @@ var BtcSwap = function (_SwapInterface) {
                 return _context.abrupt('return', 'Expected script value: ' + expectedValue.toNumber() + ', got: ' + totalUnspent);
 
               case 9:
-                if (!(expected.recipientPublicKey !== recipientPublicKey)) {
+                if (!(expected.lockTime > lockTime)) {
                   _context.next = 11;
+                  break;
+                }
+
+                return _context.abrupt('return', 'Expected script lockTime: ' + expected.lockTime + ', got: ' + lockTime);
+
+              case 11:
+                if (!(expected.recipientPublicKey !== recipientPublicKey)) {
+                  _context.next = 13;
                   break;
                 }
 
                 return _context.abrupt('return', 'Expected script recipient publicKey: ' + expected.recipientPublicKey + ', got: ' + recipientPublicKey);
 
-              case 11:
+              case 13:
               case 'end':
                 return _context.stop();
             }
@@ -16605,7 +16554,7 @@ var _swap = __webpack_require__(12);
 
 var _swap2 = _interopRequireDefault(_swap);
 
-var _swap3 = __webpack_require__(134);
+var _swap3 = __webpack_require__(132);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -16741,7 +16690,7 @@ var ETH2BTC = function (_Flow) {
                 };
 
                 getLockTime = function getLockTime() {
-                  return utcNow() + 60;
+                  return utcNow() + 3600 * 1;
                 }; // 1 hour from now
 
                 _context.next = 5;
@@ -16943,35 +16892,7 @@ var ETH2BTC = function (_Flow) {
                 return _context3.abrupt('return');
 
               case 28:
-                if (isEthClosed) {
-                  _context3.next = 39;
-                  break;
-                }
-
-                _context3.prev = 29;
-                _context3.next = 32;
-                return flow.ethSwap.close({
-                  participantAddress: participant.eth.address
-                });
-
-              case 32:
-
-                flow.setState({
-                  isEthClosed: true
-                });
-                _context3.next = 39;
-                break;
-
-              case 35:
-                _context3.prev = 35;
-                _context3.t1 = _context3['catch'](29);
-
-                // TODO notify user that smth goes wrong
-                console.error(_context3.t1);
-                return _context3.abrupt('return');
-
-              case 39:
-                _context3.next = 41;
+                _context3.next = 30;
                 return flow.btcSwap.withdraw({
                   scriptValues: flow.state.btcScriptValues,
                   secret: secret
@@ -16981,18 +16902,18 @@ var ETH2BTC = function (_Flow) {
                   });
                 });
 
-              case 41:
+              case 30:
 
                 flow.finishStep({
                   isBtcWithdrawn: true
                 });
 
-              case 42:
+              case 31:
               case 'end':
                 return _context3.stop();
             }
           }
-        }, _callee3, _this2, [[6, 13], [29, 35]]);
+        }, _callee3, _this2, [[6, 13]]);
       })),
 
       // 8. Finish
@@ -17184,7 +17105,7 @@ var _swap = __webpack_require__(12);
 
 var _swap2 = _interopRequireDefault(_swap);
 
-var _swap3 = __webpack_require__(134);
+var _swap3 = __webpack_require__(132);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -17220,7 +17141,7 @@ var BTC2ETH = function (_Flow) {
 
       signTransactionHash: null,
       isSignFetching: false,
-      isParticipantSigned: false,
+      isParticipantSigned: true,
 
       btcScriptCreatingTransactionHash: null,
       secretHash: null,
@@ -17270,13 +17191,12 @@ var BTC2ETH = function (_Flow) {
       // 1. Signs
 
       function () {
-        flow.swap.room.once('swap sign', function () {
-          flow.finishStep({
-            isParticipantSigned: true
-          });
-        });
+        // flow.swap.room.once('swap sign', () => {
+        //   flow.finishStep({
+        //     isParticipantSigned: true,
+        //   })
+        // })
       },
-
       // 2. Create secret, secret hash
 
       function () {
@@ -17307,7 +17227,7 @@ var BTC2ETH = function (_Flow) {
                 };
 
                 getLockTime = function getLockTime() {
-                  return utcNow() + 60;
+                  return utcNow() + 3600 * 3;
                 }; // 3 hours from now
 
                 scriptValues = {
@@ -17435,14 +17355,15 @@ var BTC2ETH = function (_Flow) {
                 return _context3.abrupt('return');
 
               case 9:
-                _context3.next = 11;
+                console.log('flow', flow);
+                _context3.next = 12;
                 return flow.ethSwap.withdraw(data, function (hash) {
                   flow.setState({
                     ethSwapWithdrawTransactionHash: hash
                   });
                 });
 
-              case 11:
+              case 12:
 
                 flow.swap.room.sendMessage('finish eth withdraw');
 
@@ -17450,7 +17371,7 @@ var BTC2ETH = function (_Flow) {
                   isEthWithdrawn: true
                 });
 
-              case 13:
+              case 14:
               case 'end':
                 return _context3.stop();
             }
@@ -17605,7 +17526,7 @@ var _swap = __webpack_require__(12);
 
 var _swap2 = _interopRequireDefault(_swap);
 
-var _swap3 = __webpack_require__(134);
+var _swap3 = __webpack_require__(132);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -18251,7 +18172,7 @@ var _swap = __webpack_require__(12);
 
 var _swap2 = _interopRequireDefault(_swap);
 
-var _swap3 = __webpack_require__(134);
+var _swap3 = __webpack_require__(132);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -19778,7 +19699,7 @@ var _react2 = _interopRequireDefault(_react);
 
 var _redaction = __webpack_require__(30);
 
-var _Loader = __webpack_require__(259);
+var _Loader = __webpack_require__(260);
 
 var _Loader2 = _interopRequireDefault(_Loader);
 
@@ -20280,11 +20201,11 @@ var _Amounts = __webpack_require__(1183);
 
 var _Amounts2 = _interopRequireDefault(_Amounts);
 
-var _Row = __webpack_require__(260);
+var _Row = __webpack_require__(261);
 
 var _Row2 = _interopRequireDefault(_Row);
 
-var _Value = __webpack_require__(261);
+var _Value = __webpack_require__(262);
 
 var _Value2 = _interopRequireDefault(_Value);
 
@@ -20350,11 +20271,11 @@ var _ExchangeRate = __webpack_require__(1187);
 
 var _ExchangeRate2 = _interopRequireDefault(_ExchangeRate);
 
-var _Row = __webpack_require__(260);
+var _Row = __webpack_require__(261);
 
 var _Row2 = _interopRequireDefault(_Row);
 
-var _Value = __webpack_require__(261);
+var _Value = __webpack_require__(262);
 
 var _Value2 = _interopRequireDefault(_Value);
 
@@ -20401,11 +20322,11 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _Row = __webpack_require__(260);
+var _Row = __webpack_require__(261);
 
 var _Row2 = _interopRequireDefault(_Row);
 
-var _Value = __webpack_require__(261);
+var _Value = __webpack_require__(262);
 
 var _Value2 = _interopRequireDefault(_Value);
 
@@ -20481,7 +20402,7 @@ var _actions = __webpack_require__(14);
 
 var _actions2 = _interopRequireDefault(_actions);
 
-var _bignumber = __webpack_require__(381);
+var _bignumber = __webpack_require__(382);
 
 var _reactCssModules = __webpack_require__(1);
 
@@ -20833,7 +20754,7 @@ var _objectWithoutProperties2 = __webpack_require__(53);
 
 var _objectWithoutProperties3 = _interopRequireDefault(_objectWithoutProperties2);
 
-var _defineProperty2 = __webpack_require__(159);
+var _defineProperty2 = __webpack_require__(158);
 
 var _defineProperty3 = _interopRequireDefault(_defineProperty2);
 
@@ -21164,7 +21085,7 @@ var _Group = __webpack_require__(1198);
 
 var _Group2 = _interopRequireDefault(_Group);
 
-var _FieldLabel = __webpack_require__(263);
+var _FieldLabel = __webpack_require__(264);
 
 var _FieldLabel2 = _interopRequireDefault(_FieldLabel);
 
@@ -21172,7 +21093,7 @@ var _Input = __webpack_require__(184);
 
 var _Input2 = _interopRequireDefault(_Input);
 
-var _CurrencySelect = __webpack_require__(420);
+var _CurrencySelect = __webpack_require__(421);
 
 var _CurrencySelect2 = _interopRequireDefault(_CurrencySelect);
 
@@ -21381,7 +21302,7 @@ var _Modal = __webpack_require__(183);
 
 var _Modal2 = _interopRequireDefault(_Modal);
 
-var _FieldLabel = __webpack_require__(263);
+var _FieldLabel = __webpack_require__(264);
 
 var _FieldLabel2 = _interopRequireDefault(_FieldLabel);
 
@@ -21966,11 +21887,11 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = undefined;
 
-var _regenerator = __webpack_require__(105);
+var _regenerator = __webpack_require__(135);
 
 var _regenerator2 = _interopRequireDefault(_regenerator);
 
-var _asyncToGenerator2 = __webpack_require__(121);
+var _asyncToGenerator2 = __webpack_require__(160);
 
 var _asyncToGenerator3 = _interopRequireDefault(_asyncToGenerator2);
 
@@ -22343,15 +22264,15 @@ var _ButtonsInRow = __webpack_require__(462);
 
 var _ButtonsInRow2 = _interopRequireDefault(_ButtonsInRow);
 
-var _Flip = __webpack_require__(421);
+var _Flip = __webpack_require__(422);
 
 var _Flip2 = _interopRequireDefault(_Flip);
 
-var _ReloadButton = __webpack_require__(423);
+var _ReloadButton = __webpack_require__(424);
 
 var _ReloadButton2 = _interopRequireDefault(_ReloadButton);
 
-var _RemoveButton = __webpack_require__(419);
+var _RemoveButton = __webpack_require__(420);
 
 var _RemoveButton2 = _interopRequireDefault(_RemoveButton);
 
@@ -22359,11 +22280,11 @@ var _Swap = __webpack_require__(1215);
 
 var _Swap2 = _interopRequireDefault(_Swap);
 
-var _TimerButton = __webpack_require__(136);
+var _TimerButton = __webpack_require__(134);
 
 var _TimerButton2 = _interopRequireDefault(_TimerButton);
 
-var _WithdrawButton = __webpack_require__(422);
+var _WithdrawButton = __webpack_require__(423);
 
 var _WithdrawButton2 = _interopRequireDefault(_WithdrawButton);
 
@@ -22443,7 +22364,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.TextArea = exports.Input = exports.FieldLabel = undefined;
 
-var _FieldLabel = __webpack_require__(263);
+var _FieldLabel = __webpack_require__(264);
 
 var _FieldLabel2 = _interopRequireDefault(_FieldLabel);
 
