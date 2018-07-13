@@ -16293,8 +16293,10 @@ var BtcSwap = function (_SwapInterface) {
                 }, 0);
 
 
+                console.log('SCRIPT ADDRESS', scriptAddress);
+                console.log('UNSPENTS', unspents);
+
                 if (isRefund) {
-                  console.log('TX', tx);
                   tx.setLockTime(scriptValues.lockTime);
                 }
 
@@ -16304,6 +16306,8 @@ var BtcSwap = function (_SwapInterface) {
                   return tx.addInput(txid, vout, 0xfffffffe);
                 });
                 tx.addOutput(_swap2.default.services.auth.accounts.btc.getAddress(), totalUnspent - feeValue);
+
+                console.log('TX AFTER ADD OUTPUT', tx);
 
                 txRaw = tx.buildIncomplete();
 
@@ -16316,7 +16320,7 @@ var BtcSwap = function (_SwapInterface) {
 
                 return _context4.abrupt('return', txRaw);
 
-              case 14:
+              case 17:
               case 'end':
                 return _context4.stop();
             }
