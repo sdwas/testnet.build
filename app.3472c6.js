@@ -10743,8 +10743,7 @@ var BtcToEth = function (_Component) {
           flow = _state.flow,
           enabledButton = _state.enabledButton;
 
-      console.log('FLOW', flow);
-      // const refundTxHex = this.getRefundTxHex()
+      var refundTxHex = this.getRefundTxHex();
 
       return _react2.default.createElement(
         'div',
@@ -10952,6 +10951,16 @@ var BtcToEth = function (_Component) {
               )
             ),
             !flow.btcScriptValues && _react2.default.createElement(_InlineLoader2.default, null)
+          ),
+          refundTxHex && _react2.default.createElement(
+            'div',
+            null,
+            _react2.default.createElement(
+              'h3',
+              null,
+              'Refund hex transaction:'
+            ),
+            refundTxHex
           ),
           (flow.step === 5 || flow.isEthContractFunded) && _react2.default.createElement(
             _react.Fragment,
