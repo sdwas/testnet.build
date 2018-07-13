@@ -10740,26 +10740,6 @@ var BtcToEth = function (_Component) {
           ),
           _react2.default.createElement(_InlineLoader2.default, null)
         )),
-        flow.isWaitingForOwner && _react2.default.createElement(
-          _react.Fragment,
-          null,
-          _react2.default.createElement(
-            'h3',
-            null,
-            'Waiting for other user when he connect to the order'
-          ),
-          _react2.default.createElement(_InlineLoader2.default, null)
-        ),
-        (flow.step === 1 || flow.isMeSigned) && _react2.default.createElement(
-          _react.Fragment,
-          null,
-          _react2.default.createElement(
-            'h3',
-            null,
-            '1. Waiting participant confirm this swap'
-          ),
-          _react2.default.createElement(_InlineLoader2.default, null)
-        ),
         flow.isParticipantSigned && _react2.default.createElement(
           _react.Fragment,
           null,
@@ -11137,68 +11117,6 @@ var EthToBtc = function (_Component) {
           ),
           _react2.default.createElement(_InlineLoader2.default, null)
         )),
-        flow.isWaitingForOwner && _react2.default.createElement(
-          _react.Fragment,
-          null,
-          _react2.default.createElement(
-            'h3',
-            null,
-            'Waiting for other user when he connect to the order'
-          ),
-          _react2.default.createElement(_InlineLoader2.default, null)
-        ),
-        (flow.step === 1 || flow.isMeSigned) && _react2.default.createElement(
-          'h3',
-          null,
-          '1. Please confirm your participation to begin the deal'
-        ),
-        flow.step === 1 && _react2.default.createElement(
-          _react.Fragment,
-          null,
-          _react2.default.createElement(
-            'div',
-            null,
-            'Confirmation of the transaction is necessary for crediting the reputation. If a user does not bring the deal to the end he gets a negative reputation.'
-          ),
-          !flow.isSignFetching && !flow.isMeSigned && _react2.default.createElement(
-            _react.Fragment,
-            null,
-            _react2.default.createElement('br', null),
-            _react2.default.createElement(
-              _TimerButton2.default,
-              { brand: true, onClick: this.signSwap },
-              'Confirm'
-            )
-          ),
-          (flow.isSignFetching || flow.signTransactionHash) && _react2.default.createElement(
-            _react.Fragment,
-            null,
-            _react2.default.createElement(
-              'h4',
-              null,
-              'Please wait. Confirmation processing'
-            ),
-            flow.signTransactionHash && _react2.default.createElement(
-              'div',
-              null,
-              'Transaction:',
-              _react2.default.createElement(
-                'strong',
-                null,
-                _react2.default.createElement(
-                  'a',
-                  {
-                    href: _appConfig2.default.link.etherscan + '/tx/' + flow.signTransactionHash,
-                    target: '_blank',
-                    rel: 'noopener noreferrer'
-                  },
-                  flow.signTransactionHash
-                )
-              )
-            ),
-            flow.isSignFetching && _react2.default.createElement(_InlineLoader2.default, null)
-          )
-        ),
         flow.isMeSigned && _react2.default.createElement(
           _react.Fragment,
           null,
@@ -17191,11 +17109,9 @@ var BTC2ETH = function (_Flow) {
       // 1. Signs
 
       function () {
-        // flow.swap.room.once('swap sign', () => {
-        //   flow.finishStep({
-        //     isParticipantSigned: true,
-        //   })
-        // })
+        flow.finishStep({
+          isParticipantSigned: true
+        });
       },
       // 2. Create secret, secret hash
 
