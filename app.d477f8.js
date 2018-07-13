@@ -13010,9 +13010,10 @@ var _SubTitle2 = _interopRequireDefault(_SubTitle);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var Affiliate = (_dec = (0, _redaction.connect)(function (_ref) {
-  var address = _ref.user.ethData.address;
-  return address;
+var Affiliate = (_dec = (0, _redaction.connect)(function (state) {
+  return {
+    address: state.user.ethData.address
+  };
 }), _dec(_class = function (_PureComponent) {
   (0, _inherits3.default)(Affiliate, _PureComponent);
 
@@ -13026,6 +13027,7 @@ var Affiliate = (_dec = (0, _redaction.connect)(function (_ref) {
     value: function render() {
       var address = this.props.address;
 
+      console.log(address);
 
       return _react2.default.createElement(
         'section',
