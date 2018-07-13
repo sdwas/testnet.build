@@ -16732,7 +16732,7 @@ var ETH2BTC = function (_Flow) {
                 };
 
                 getLockTime = function getLockTime() {
-                  return utcNow();
+                  return utcNow() + 60;
                 }; // 1 hour from now
 
                 _context.next = 5;
@@ -17298,7 +17298,7 @@ var BTC2ETH = function (_Flow) {
                 };
 
                 getLockTime = function getLockTime() {
-                  return utcNow();
+                  return utcNow() + 60;
                 }; // 3 hours from now
 
                 scriptValues = {
