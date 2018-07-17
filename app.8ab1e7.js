@@ -223,7 +223,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 // resolve object in webpack
-exports.default = {"propENV":"testnet.prod","paths":{},"referral":{"url":"https://wiki.swap.online/affiliate.php"},"publicPath":"https://testnet.swap.online/","http":{"host":"localhost","port":9001},"i18nDate":{"month":"long","day":"numeric","hour":"numeric","minute":"numeric"},"exchangeRates":{"etheth":1,"ethbtc":0.07,"btceth":14,"ethnoxon":1,"noxoneth":1,"btcnoxon":14,"noxonbtc":0.07},"env":"production","entry":"testnet","base":"https://testnet.swap.online/","services":{"web3":{"provider":"https://rinkeby.infura.io/JCnK5ifEPH9qcQkX0Ahl","rate":0.1,"gas":2000000,"gasPrice":"20000000000"},"eos":{"chainId":"038f4b0fc8ff18a4f0842a8f0564611f6e96e8535901dd45e43ac8691a1c4dca","httpEndpoint":"https://jungle.eosio.cr"}},"token":{"contract":"0xc87C2668F05803F60EF75b176eea0CCE80D0009C"},"eth":{"contract":"0x830aef165b900fa7dc6b219f062c5784f6436d67"},"tokens":{"swap":{"address":"0x5f53dc58cad6101d943b26ffb9427723aeb816f9","decimals":18},"noxon":{"address":"0x60c205722c6c797c725a996cf9cca11291f90749","decimals":0}},"link":{"bitpay":"https://test-insight.bitpay.com","etherscan":"https://rinkeby.etherscan.io","eos":"http://jungle.cryptolions.io/#accountInfo"},"api":{"blocktrail":"https://api.blocktrail.com/v1/tBTC","bitpay":"https://test-insight.bitpay.com/api","etherscan":"https://rinkeby.etherscan.io/api"},"apiKeys":{"etherscan":"RHHFPNMAZMD6I4ZWBZBF6FA11CMW9AXZNM","blocktrail":"1835368c0fa8e71907ca26f3c978ab742a7db42e"}};
+exports.default = {"propENV":"testnet.prod","paths":{},"referral":{"url":"https://wiki.swap.online/affiliate.php"},"publicPath":"https://testnet.swap.online/","http":{"host":"localhost","port":9001},"i18nDate":{"month":"long","day":"numeric","hour":"numeric","minute":"numeric"},"exchangeRates":{"etheth":1,"ethbtc":0.07,"btceth":14,"ethnoxon":1,"noxoneth":1,"btcnoxon":14,"noxonbtc":0.07},"env":"production","entry":"testnet","base":"https://testnet.swap.online/","services":{"web3":{"provider":"https://rinkeby.infura.io/JCnK5ifEPH9qcQkX0Ahl","rate":0.1,"gas":2000000,"gasPrice":"20000000000"},"eos":{"chainId":"038f4b0fc8ff18a4f0842a8f0564611f6e96e8535901dd45e43ac8691a1c4dca","httpEndpoint":"https://jungle.eosio.cr"}},"token":{"contract":"0xc87C2668F05803F60EF75b176eea0CCE80D0009C"},"eth":{"contract":"0x830aef165b900fa7dc6b219f062c5784f6436d67"},"tokens":{"swap":{"address":"0xbaa3fa2ed111f3e8488c21861ea7b7dbb5a7b121","decimals":18},"noxon":{"address":"0x60c205722c6c797c725a996cf9cca11291f90749","decimals":0}},"link":{"bitpay":"https://test-insight.bitpay.com","etherscan":"https://rinkeby.etherscan.io","eos":"http://jungle.cryptolions.io/#accountInfo"},"api":{"blocktrail":"https://api.blocktrail.com/v1/tBTC","bitpay":"https://test-insight.bitpay.com/api","etherscan":"https://rinkeby.etherscan.io/api"},"apiKeys":{"etherscan":"RHHFPNMAZMD6I4ZWBZBF6FA11CMW9AXZNM","blocktrail":"1835368c0fa8e71907ca26f3c978ab742a7db42e"}};
 
 /***/ }),
 /* 24 */,
@@ -6147,7 +6147,7 @@ var send = function send(from, to, amount, decimals) {
 
   tokenContract = new _web2.default.eth.Contract(_humanStandardTokenAbi2.default, from, options);
 
-  var newAmount = new _bignumber.BigNumber(String(amount)).times(new _bignumber.BigNumber('10').pow(new _bignumber.BigNumber(String(decimals))));
+  var newAmount = new _bignumber.BigNumber(String(amount)).times(new _bignumber.BigNumber(10).pow(decimals)).decimalPlaces(decimals).toNumber();
 
   return new _promise2.default(function (resolve, reject) {
     return tokenContract.methods.transfer(to, newAmount).send().then(function (receipt) {
@@ -9499,8 +9499,8 @@ var Wallet = (_dec = (0, _redaction.connect)(function (_ref) {
           ),
           _react2.default.createElement(
             'p',
-            { style: { fontSize: '20px' } },
-            'Please notice, that you need to have minimum 0.01 amount of the ETH on your wallet, to use it for GWEI'
+            { style: { fontSize: '18px' } },
+            'Please notice, that you need to have minimum 0.01 amount of the ETH on your wallet, to use it for Ethereum miners fee'
           ),
           view === 'off' && _react2.default.createElement(_SaveKeys2.default, { isDownload: this.handleDownload, isChange: function isChange() {
               return _this2.changeView('on');
@@ -15328,7 +15328,7 @@ var EthTokenSwap = function (_SwapInterface) {
 
       var amount = data.amount;
 
-      var amountWithDecimlas = amount.times(new _bignumber2.default('10').pow(new _bignumber2.default(String(this.decimals))));
+      var newAmount = new _bignumber2.default(String(amount)).times(new _bignumber2.default(10).pow(this.decimals)).decimalPlaces(this.decimals).toNumber();
 
       return new _promise2.default(function () {
         var _ref = (0, _asyncToGenerator3.default)( /*#__PURE__*/_regenerator2.default.mark(function _callee(resolve, reject) {
@@ -15339,7 +15339,7 @@ var EthTokenSwap = function (_SwapInterface) {
                 case 0:
                   _context.prev = 0;
                   _context.next = 3;
-                  return _this2.ERC20.methods.approve(_this2.address, amountWithDecimlas).send({
+                  return _this2.ERC20.methods.approve(_this2.address, newAmount).send({
                     from: _swap2.default.services.auth.accounts.eth.address,
                     gas: _this2.gasLimit
                   }).on('transactionHash', function (hash) {
@@ -15455,7 +15455,7 @@ var EthTokenSwap = function (_SwapInterface) {
           participantAddress = data.participantAddress,
           amount = data.amount;
 
-      var amountWithDecimlas = amount.times(new _bignumber2.default('10').pow(new _bignumber2.default(String(this.decimals))));
+      var newAmount = new _bignumber2.default(String(amount)).times(new _bignumber2.default(10).pow(this.decimals)).decimalPlaces(this.decimals).toNumber();
 
       return new _promise2.default(function () {
         var _ref3 = (0, _asyncToGenerator3.default)( /*#__PURE__*/_regenerator2.default.mark(function _callee3(resolve, reject) {
@@ -15466,7 +15466,7 @@ var EthTokenSwap = function (_SwapInterface) {
               switch (_context3.prev = _context3.next) {
                 case 0:
                   hash = '0x' + secretHash.replace(/^0x/, '');
-                  values = [hash, participantAddress, amountWithDecimlas, _this4.tokenAddress];
+                  values = [hash, participantAddress, newAmount, _this4.tokenAddress];
                   params = { from: _swap2.default.services.auth.accounts.eth.address, gas: _this4.gasLimit };
 
 
