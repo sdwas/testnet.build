@@ -37,7 +37,7 @@ var _request = __webpack_require__(697);
 
 var _request2 = _interopRequireDefault(_request);
 
-var _constants = __webpack_require__(360);
+var _constants = __webpack_require__(361);
 
 var _constants2 = _interopRequireDefault(_constants);
 
@@ -84,7 +84,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.util = exports.constants = exports.Events = exports.Collection = exports.SwapInterface = exports.ServiceInterface = undefined;
 
-var _SwapApp = __webpack_require__(415);
+var _SwapApp = __webpack_require__(416);
 
 var _SwapApp2 = _interopRequireDefault(_SwapApp);
 
@@ -183,7 +183,7 @@ var _analytics = __webpack_require__(843);
 
 var _analytics2 = _interopRequireDefault(_analytics);
 
-var _referral = __webpack_require__(382);
+var _referral = __webpack_require__(383);
 
 var _referral2 = _interopRequireDefault(_referral);
 
@@ -250,7 +250,7 @@ Object.defineProperty(exports, "__esModule", {
 
 var _redaction = __webpack_require__(31);
 
-var _reduErs = __webpack_require__(374);
+var _reduErs = __webpack_require__(375);
 
 var _reduErs2 = _interopRequireDefault(_reduErs);
 
@@ -774,7 +774,7 @@ var _PageHeadline = __webpack_require__(971);
 
 var _PageHeadline2 = _interopRequireDefault(_PageHeadline);
 
-var _Title = __webpack_require__(414);
+var _Title = __webpack_require__(415);
 
 var _Title2 = _interopRequireDefault(_Title);
 
@@ -885,7 +885,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _SwapAuth = __webpack_require__(255);
+var _SwapAuth = __webpack_require__(256);
 
 var _SwapAuth2 = _interopRequireDefault(_SwapAuth);
 
@@ -1390,7 +1390,7 @@ var _assign = __webpack_require__(30);
 
 var _assign2 = _interopRequireDefault(_assign);
 
-var _reactRouterRedux = __webpack_require__(375);
+var _reactRouterRedux = __webpack_require__(376);
 
 var _history = __webpack_require__(56);
 
@@ -1398,7 +1398,7 @@ var _redaction = __webpack_require__(31);
 
 var _reduxLogger = __webpack_require__(804);
 
-var _reduErs = __webpack_require__(374);
+var _reduErs = __webpack_require__(375);
 
 var _reduErs2 = _interopRequireDefault(_reduErs);
 
@@ -1501,7 +1501,7 @@ var _Coin = __webpack_require__(1003);
 
 var _Coin2 = _interopRequireDefault(_Coin);
 
-var _CurrencyIcon = __webpack_require__(420);
+var _CurrencyIcon = __webpack_require__(421);
 
 var _CurrencyIcon2 = _interopRequireDefault(_CurrencyIcon);
 
@@ -1552,7 +1552,8 @@ exports.default = (0, _reactCssModules2.default)(Coin, _Coin2.default);
 /* 251 */,
 /* 252 */,
 /* 253 */,
-/* 254 */
+/* 254 */,
+/* 255 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1680,7 +1681,7 @@ var TimerButton = (_temp = _class = function (_Component) {
 exports.default = TimerButton;
 
 /***/ }),
-/* 255 */
+/* 256 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1796,10 +1797,10 @@ exports.default = SwapAuth;
 module.exports = exports['default'];
 
 /***/ }),
-/* 256 */,
 /* 257 */,
 /* 258 */,
-/* 259 */
+/* 259 */,
+/* 260 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1842,7 +1843,7 @@ var Loader = function Loader(_ref) {
 exports.default = (0, _reactCssModules2.default)(Loader, _Loader2.default, { allowMultiple: true });
 
 /***/ }),
-/* 260 */
+/* 261 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1888,7 +1889,7 @@ var Row = function Row(_ref) {
 exports.default = (0, _reactCssModules2.default)(Row, _Row2.default);
 
 /***/ }),
-/* 261 */
+/* 262 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1936,8 +1937,8 @@ var Value = function Value(_ref) {
 exports.default = (0, _reactCssModules2.default)(Value, _Value2.default);
 
 /***/ }),
-/* 262 */,
-/* 263 */
+/* 263 */,
+/* 264 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1978,7 +1979,6 @@ var FieldLabel = function FieldLabel(_ref) {
 exports.default = (0, _reactCssModules2.default)(FieldLabel, _FieldLabel2.default, { allowMultiple: true });
 
 /***/ }),
-/* 264 */,
 /* 265 */,
 /* 266 */,
 /* 267 */,
@@ -2074,7 +2074,8 @@ exports.default = (0, _reactCssModules2.default)(FieldLabel, _FieldLabel2.defaul
 /* 357 */,
 /* 358 */,
 /* 359 */,
-/* 360 */
+/* 360 */,
+/* 361 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2110,7 +2111,6 @@ exports.default = {
 };
 
 /***/ }),
-/* 361 */,
 /* 362 */,
 /* 363 */,
 /* 364 */,
@@ -2123,7 +2123,8 @@ exports.default = {
 /* 371 */,
 /* 372 */,
 /* 373 */,
-/* 374 */
+/* 374 */,
+/* 375 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2169,14 +2170,14 @@ exports.default = {
 };
 
 /***/ }),
-/* 375 */,
 /* 376 */,
 /* 377 */,
 /* 378 */,
 /* 379 */,
 /* 380 */,
 /* 381 */,
-/* 382 */
+/* 382 */,
+/* 383 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2211,7 +2212,6 @@ exports.default = {
 };
 
 /***/ }),
-/* 383 */,
 /* 384 */,
 /* 385 */,
 /* 386 */,
@@ -2242,7 +2242,8 @@ exports.default = {
 /* 411 */,
 /* 412 */,
 /* 413 */,
-/* 414 */
+/* 414 */,
+/* 415 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2278,7 +2279,7 @@ var Title = function Title(_ref) {
 exports.default = (0, _reactCssModules2.default)(Title, _Title2.default);
 
 /***/ }),
-/* 415 */
+/* 416 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2464,11 +2465,11 @@ exports.default = new SwapApp();
 module.exports = exports['default'];
 
 /***/ }),
-/* 416 */,
 /* 417 */,
 /* 418 */,
 /* 419 */,
-/* 420 */
+/* 420 */,
+/* 421 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2563,7 +2564,7 @@ var CurrencyIcon = function CurrencyIcon(_ref) {
 exports.default = (0, _reactCssModules2.default)(CurrencyIcon, _CurrencyIcon2.default);
 
 /***/ }),
-/* 421 */
+/* 422 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2632,7 +2633,7 @@ var RemoveButton = (_dec = (0, _reactCssModules2.default)(_RemoveButton2.default
 exports.default = RemoveButton;
 
 /***/ }),
-/* 422 */
+/* 423 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2685,7 +2686,7 @@ var CurrencySelect = function CurrencySelect(_ref) {
 exports.default = (0, _reactCssModules2.default)(CurrencySelect, _CurrencySelect2.default);
 
 /***/ }),
-/* 423 */
+/* 424 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2722,7 +2723,7 @@ function Flip(_ref) {
 exports.default = (0, _reactCssModules2.default)(Flip, _Flip2.default);
 
 /***/ }),
-/* 424 */
+/* 425 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2770,7 +2771,7 @@ var WithdrawButton = function WithdrawButton(_ref) {
 exports.default = (0, _reactCssModules2.default)(WithdrawButton, _WithdrawButton2.default);
 
 /***/ }),
-/* 425 */
+/* 426 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2811,7 +2812,7 @@ var ReloadButton = function ReloadButton(_ref) {
 exports.default = (0, _reactCssModules2.default)(ReloadButton, _ReloadButton2.default);
 
 /***/ }),
-/* 426 */
+/* 427 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2861,7 +2862,6 @@ var Href = function Href(_ref) {
 exports.default = (0, _reactCssModules2.default)(Href, _Href2.default);
 
 /***/ }),
-/* 427 */,
 /* 428 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -4005,7 +4005,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactDom = __webpack_require__(271);
+var _reactDom = __webpack_require__(272);
 
 var _reactDom2 = _interopRequireDefault(_reactDom);
 
@@ -4021,7 +4021,7 @@ var _Root = __webpack_require__(1091);
 
 var _Root2 = _interopRequireDefault(_Root);
 
-var _Loader = __webpack_require__(259);
+var _Loader = __webpack_require__(260);
 
 var _Loader2 = _interopRequireDefault(_Loader);
 
@@ -4620,7 +4620,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _stringify = __webpack_require__(361);
+var _stringify = __webpack_require__(362);
 
 var _stringify2 = _interopRequireDefault(_stringify);
 
@@ -4835,7 +4835,7 @@ var _PageHeadline = __webpack_require__(161);
 
 var _PageHeadline2 = _interopRequireDefault(_PageHeadline);
 
-var _Title = __webpack_require__(414);
+var _Title = __webpack_require__(415);
 
 var _Title2 = _interopRequireDefault(_Title);
 
@@ -5655,7 +5655,7 @@ var _assign = __webpack_require__(30);
 
 var _assign2 = _interopRequireDefault(_assign);
 
-var _stringify = __webpack_require__(361);
+var _stringify = __webpack_require__(362);
 
 var _stringify2 = _interopRequireDefault(_stringify);
 
@@ -5864,7 +5864,7 @@ var _appConfig = __webpack_require__(23);
 
 var _appConfig2 = _interopRequireDefault(_appConfig);
 
-var _referral = __webpack_require__(382);
+var _referral = __webpack_require__(383);
 
 var _referral2 = _interopRequireDefault(_referral);
 
@@ -6030,7 +6030,7 @@ var _appConfig = __webpack_require__(23);
 
 var _appConfig2 = _interopRequireDefault(_appConfig);
 
-var _bignumber = __webpack_require__(383);
+var _bignumber = __webpack_require__(384);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -6586,7 +6586,7 @@ var _reducers = __webpack_require__(36);
 
 var _reducers2 = _interopRequireDefault(_reducers);
 
-var _constants = __webpack_require__(360);
+var _constants = __webpack_require__(361);
 
 var _constants2 = _interopRequireDefault(_constants);
 
@@ -7483,7 +7483,7 @@ var _createClass2 = __webpack_require__(19);
 
 var _createClass3 = _interopRequireDefault(_createClass2);
 
-var _SwapApp = __webpack_require__(415);
+var _SwapApp = __webpack_require__(416);
 
 var _SwapApp2 = _interopRequireDefault(_SwapApp);
 
@@ -8232,7 +8232,7 @@ var _RequestButton = __webpack_require__(1011);
 
 var _RequestButton2 = _interopRequireDefault(_RequestButton);
 
-var _RemoveButton = __webpack_require__(421);
+var _RemoveButton = __webpack_require__(422);
 
 var _RemoveButton2 = _interopRequireDefault(_RemoveButton);
 
@@ -8600,11 +8600,11 @@ var _SearchSwap = __webpack_require__(1016);
 
 var _SearchSwap2 = _interopRequireDefault(_SearchSwap);
 
-var _CurrencySelect = __webpack_require__(422);
+var _CurrencySelect = __webpack_require__(423);
 
 var _CurrencySelect2 = _interopRequireDefault(_CurrencySelect);
 
-var _Flip = __webpack_require__(423);
+var _Flip = __webpack_require__(424);
 
 var _Flip2 = _interopRequireDefault(_Flip);
 
@@ -9007,7 +9007,7 @@ var _Option = __webpack_require__(1022);
 
 var _Option2 = _interopRequireDefault(_Option);
 
-var _CurrencyIcon = __webpack_require__(420);
+var _CurrencyIcon = __webpack_require__(421);
 
 var _CurrencyIcon2 = _interopRequireDefault(_CurrencyIcon);
 
@@ -9865,11 +9865,11 @@ var _Coin = __webpack_require__(248);
 
 var _Coin2 = _interopRequireDefault(_Coin);
 
-var _WithdrawButton = __webpack_require__(424);
+var _WithdrawButton = __webpack_require__(425);
 
 var _WithdrawButton2 = _interopRequireDefault(_WithdrawButton);
 
-var _ReloadButton = __webpack_require__(425);
+var _ReloadButton = __webpack_require__(426);
 
 var _ReloadButton2 = _interopRequireDefault(_ReloadButton);
 
@@ -10121,7 +10121,7 @@ var _appConfig = __webpack_require__(23);
 
 var _appConfig2 = _interopRequireDefault(_appConfig);
 
-var _Href = __webpack_require__(426);
+var _Href = __webpack_require__(427);
 
 var _Href2 = _interopRequireDefault(_Href);
 
@@ -10306,7 +10306,7 @@ var _createClass2 = __webpack_require__(19);
 
 var _createClass3 = _interopRequireDefault(_createClass2);
 
-var _bignumber = __webpack_require__(427);
+var _bignumber = __webpack_require__(251);
 
 var _bignumber2 = _interopRequireDefault(_bignumber);
 
@@ -10708,7 +10708,7 @@ var _InlineLoader = __webpack_require__(101);
 
 var _InlineLoader2 = _interopRequireDefault(_InlineLoader);
 
-var _TimerButton = __webpack_require__(254);
+var _TimerButton = __webpack_require__(255);
 
 var _TimerButton2 = _interopRequireDefault(_TimerButton);
 
@@ -11137,7 +11137,7 @@ var _InlineLoader = __webpack_require__(101);
 
 var _InlineLoader2 = _interopRequireDefault(_InlineLoader);
 
-var _TimerButton = __webpack_require__(254);
+var _TimerButton = __webpack_require__(255);
 
 var _TimerButton2 = _interopRequireDefault(_TimerButton);
 
@@ -12737,7 +12737,7 @@ var _appConfig = __webpack_require__(23);
 
 var _appConfig2 = _interopRequireDefault(_appConfig);
 
-var _Href = __webpack_require__(426);
+var _Href = __webpack_require__(427);
 
 var _Href2 = _interopRequireDefault(_Href);
 
@@ -13133,9 +13133,9 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactRouterRedux = __webpack_require__(375);
+var _reactRouterRedux = __webpack_require__(376);
 
-var _reactRedux = __webpack_require__(367);
+var _reactRedux = __webpack_require__(368);
 
 var _propTypes = __webpack_require__(9);
 
@@ -13262,7 +13262,7 @@ var _Footer = __webpack_require__(1168);
 
 var _Footer2 = _interopRequireDefault(_Footer);
 
-var _Loader = __webpack_require__(259);
+var _Loader = __webpack_require__(260);
 
 var _Loader2 = _interopRequireDefault(_Loader);
 
@@ -13502,6 +13502,7 @@ var createSwapApp = function createSwapApp() {
     }), new _swap9.EthTokenSwap({
       name: _swap.constants.COINS.noxon,
       address: _appConfig2.default.token.contract,
+      decimals: _appConfig2.default.tokens.noxon.decimals,
       abi: [{ "constant": false, "inputs": [{ "name": "_secret", "type": "bytes32" }, { "name": "_ownerAddress", "type": "address" }], "name": "withdraw", "outputs": [], "payable": false, "stateMutability": "nonpayable", "type": "function" }, { "constant": true, "inputs": [{ "name": "_participantAddress", "type": "address" }], "name": "getSecret", "outputs": [{ "name": "", "type": "bytes32" }], "payable": false, "stateMutability": "view", "type": "function" }, { "constant": false, "inputs": [{ "name": "_ratingContractAddress", "type": "address" }], "name": "setReputationAddress", "outputs": [], "payable": false, "stateMutability": "nonpayable", "type": "function" }, { "constant": true, "inputs": [{ "name": "", "type": "address" }, { "name": "", "type": "address" }], "name": "participantSigns", "outputs": [{ "name": "", "type": "uint256" }], "payable": false, "stateMutability": "view", "type": "function" }, { "constant": true, "inputs": [], "name": "owner", "outputs": [{ "name": "", "type": "address" }], "payable": false, "stateMutability": "view", "type": "function" }, { "constant": false, "inputs": [{ "name": "_ownerAddress", "type": "address" }], "name": "abort", "outputs": [], "payable": false, "stateMutability": "nonpayable", "type": "function" }, { "constant": true, "inputs": [{ "name": "", "type": "address" }, { "name": "", "type": "address" }], "name": "swaps", "outputs": [{ "name": "token", "type": "address" }, { "name": "secret", "type": "bytes32" }, { "name": "secretHash", "type": "bytes20" }, { "name": "createdAt", "type": "uint256" }, { "name": "balance", "type": "uint256" }], "payable": false, "stateMutability": "view", "type": "function" }, { "constant": false, "inputs": [{ "name": "_secretHash", "type": "bytes20" }, { "name": "_participantAddress", "type": "address" }, { "name": "_value", "type": "uint256" }, { "name": "_token", "type": "address" }], "name": "createSwap", "outputs": [], "payable": false, "stateMutability": "nonpayable", "type": "function" }, { "constant": true, "inputs": [{ "name": "_ownerAddress", "type": "address" }], "name": "checkSign", "outputs": [{ "name": "", "type": "uint256" }], "payable": false, "stateMutability": "view", "type": "function" }, { "constant": false, "inputs": [{ "name": "_participantAddress", "type": "address" }], "name": "close", "outputs": [], "payable": false, "stateMutability": "nonpayable", "type": "function" }, { "constant": true, "inputs": [], "name": "ratingContractAddress", "outputs": [{ "name": "", "type": "address" }], "payable": false, "stateMutability": "view", "type": "function" }, { "constant": false, "inputs": [{ "name": "_participantAddress", "type": "address" }], "name": "sign", "outputs": [], "payable": false, "stateMutability": "nonpayable", "type": "function" }, { "constant": true, "inputs": [{ "name": "_ownerAddress", "type": "address" }], "name": "getBalance", "outputs": [{ "name": "", "type": "uint256" }], "payable": false, "stateMutability": "view", "type": "function" }, { "constant": false, "inputs": [{ "name": "_participantAddress", "type": "address" }], "name": "refund", "outputs": [], "payable": false, "stateMutability": "nonpayable", "type": "function" }, { "inputs": [], "payable": false, "stateMutability": "nonpayable", "type": "constructor" }, { "anonymous": false, "inputs": [], "name": "Sign", "type": "event" }, { "anonymous": false, "inputs": [{ "indexed": false, "name": "createdAt", "type": "uint256" }], "name": "CreateSwap", "type": "event" }, { "anonymous": false, "inputs": [], "name": "Withdraw", "type": "event" }, { "anonymous": false, "inputs": [], "name": "Close", "type": "event" }, { "anonymous": false, "inputs": [], "name": "Refund", "type": "event" }, { "anonymous": false, "inputs": [], "name": "Abort", "type": "event" }],
       tokenAddress: _appConfig2.default.tokens.noxon.address,
       tokenAbi: [{ "constant": true, "inputs": [], "name": "name", "outputs": [{ "name": "", "type": "string" }], "payable": false, "stateMutability": "view", "type": "function" }, { "constant": false, "inputs": [{ "name": "_spender", "type": "address" }, { "name": "_amount", "type": "uint256" }], "name": "approve", "outputs": [{ "name": "success", "type": "bool" }], "payable": false, "stateMutability": "nonpayable", "type": "function" }, { "constant": true, "inputs": [], "name": "totalSupply", "outputs": [{ "name": "", "type": "uint256" }], "payable": false, "stateMutability": "view", "type": "function" }, { "constant": false, "inputs": [{ "name": "_from", "type": "address" }, { "name": "_to", "type": "address" }, { "name": "_amount", "type": "uint256" }], "name": "transferFrom", "outputs": [{ "name": "success", "type": "bool" }], "payable": false, "stateMutability": "nonpayable", "type": "function" }, { "constant": false, "inputs": [], "name": "getBurnPrice", "outputs": [{ "name": "", "type": "uint256" }], "payable": false, "stateMutability": "nonpayable", "type": "function" }, { "constant": true, "inputs": [], "name": "decimals", "outputs": [{ "name": "", "type": "uint8" }], "payable": false, "stateMutability": "view", "type": "function" }, { "constant": true, "inputs": [], "name": "manager", "outputs": [{ "name": "", "type": "address" }], "payable": false, "stateMutability": "view", "type": "function" }, { "constant": false, "inputs": [], "name": "unlockEmission", "outputs": [], "payable": false, "stateMutability": "nonpayable", "type": "function" }, { "constant": true, "inputs": [{ "name": "_owner", "type": "address" }], "name": "balanceOf", "outputs": [{ "name": "balance", "type": "uint256" }], "payable": false, "stateMutability": "view", "type": "function" }, { "constant": true, "inputs": [], "name": "emissionlocked", "outputs": [{ "name": "", "type": "bool" }], "payable": false, "stateMutability": "view", "type": "function" }, { "constant": false, "inputs": [], "name": "acceptOwnership", "outputs": [], "payable": false, "stateMutability": "nonpayable", "type": "function" }, { "constant": false, "inputs": [], "name": "lockEmission", "outputs": [], "payable": false, "stateMutability": "nonpayable", "type": "function" }, { "constant": true, "inputs": [], "name": "owner", "outputs": [{ "name": "", "type": "address" }], "payable": false, "stateMutability": "view", "type": "function" }, { "constant": true, "inputs": [], "name": "symbol", "outputs": [{ "name": "", "type": "string" }], "payable": false, "stateMutability": "view", "type": "function" }, { "constant": false, "inputs": [], "name": "burnAll", "outputs": [{ "name": "", "type": "bool" }], "payable": false, "stateMutability": "nonpayable", "type": "function" }, { "constant": false, "inputs": [{ "name": "_newManager", "type": "address" }], "name": "changeManager", "outputs": [], "payable": false, "stateMutability": "nonpayable", "type": "function" }, { "constant": false, "inputs": [{ "name": "_newOwner", "type": "address" }], "name": "changeOwner", "outputs": [], "payable": false, "stateMutability": "nonpayable", "type": "function" }, { "constant": false, "inputs": [{ "name": "_to", "type": "address" }, { "name": "_amount", "type": "uint256" }], "name": "transfer", "outputs": [{ "name": "success", "type": "bool" }], "payable": false, "stateMutability": "nonpayable", "type": "function" }, { "constant": true, "inputs": [], "name": "emissionPrice", "outputs": [{ "name": "", "type": "uint256" }], "payable": false, "stateMutability": "view", "type": "function" }, { "constant": false, "inputs": [], "name": "addToReserve", "outputs": [{ "name": "", "type": "bool" }], "payable": true, "stateMutability": "payable", "type": "function" }, { "constant": true, "inputs": [], "name": "burnPrice", "outputs": [{ "name": "", "type": "uint256" }], "payable": false, "stateMutability": "view", "type": "function" }, { "constant": false, "inputs": [{ "name": "tokenAddress", "type": "address" }, { "name": "amount", "type": "uint256" }], "name": "transferAnyERC20Token", "outputs": [{ "name": "success", "type": "bool" }], "payable": false, "stateMutability": "nonpayable", "type": "function" }, { "constant": true, "inputs": [{ "name": "_owner", "type": "address" }, { "name": "_spender", "type": "address" }], "name": "allowance", "outputs": [{ "name": "remaining", "type": "uint256" }], "payable": false, "stateMutability": "view", "type": "function" }, { "constant": false, "inputs": [], "name": "NoxonInit", "outputs": [{ "name": "", "type": "bool" }], "payable": true, "stateMutability": "payable", "type": "function" }, { "constant": false, "inputs": [], "name": "acceptManagership", "outputs": [], "payable": false, "stateMutability": "nonpayable", "type": "function" }, { "inputs": [], "payable": false, "stateMutability": "nonpayable", "type": "constructor" }, { "payable": true, "stateMutability": "payable", "type": "fallback" }, { "anonymous": false, "inputs": [{ "indexed": true, "name": "buyer", "type": "address" }, { "indexed": false, "name": "ethers", "type": "uint256" }, { "indexed": false, "name": "_emissionedPrice", "type": "uint256" }, { "indexed": false, "name": "amountOfTokens", "type": "uint256" }], "name": "TokenBought", "type": "event" }, { "anonymous": false, "inputs": [{ "indexed": true, "name": "buyer", "type": "address" }, { "indexed": false, "name": "ethers", "type": "uint256" }, { "indexed": false, "name": "_burnedPrice", "type": "uint256" }, { "indexed": false, "name": "amountOfTokens", "type": "uint256" }], "name": "TokenBurned", "type": "event" }, { "anonymous": false, "inputs": [{ "indexed": false, "name": "etherReserved", "type": "uint256" }], "name": "EtherReserved", "type": "event" }, { "anonymous": false, "inputs": [{ "indexed": true, "name": "_from", "type": "address" }, { "indexed": true, "name": "_to", "type": "address" }, { "indexed": false, "name": "_value", "type": "uint256" }], "name": "Transfer", "type": "event" }, { "anonymous": false, "inputs": [{ "indexed": true, "name": "_owner", "type": "address" }, { "indexed": true, "name": "_spender", "type": "address" }, { "indexed": false, "name": "_value", "type": "uint256" }], "name": "Approval", "type": "event" }],
@@ -13511,6 +13512,7 @@ var createSwapApp = function createSwapApp() {
     }), new _swap9.EthTokenSwap({
       name: _swap.constants.COINS.swap,
       address: _appConfig2.default.token.contract,
+      decimals: _appConfig2.default.tokens.swap.decimals,
       abi: [{ "constant": false, "inputs": [{ "name": "_secret", "type": "bytes32" }, { "name": "_ownerAddress", "type": "address" }], "name": "withdraw", "outputs": [], "payable": false, "stateMutability": "nonpayable", "type": "function" }, { "constant": true, "inputs": [{ "name": "_participantAddress", "type": "address" }], "name": "getSecret", "outputs": [{ "name": "", "type": "bytes32" }], "payable": false, "stateMutability": "view", "type": "function" }, { "constant": false, "inputs": [{ "name": "_ratingContractAddress", "type": "address" }], "name": "setReputationAddress", "outputs": [], "payable": false, "stateMutability": "nonpayable", "type": "function" }, { "constant": true, "inputs": [{ "name": "", "type": "address" }, { "name": "", "type": "address" }], "name": "participantSigns", "outputs": [{ "name": "", "type": "uint256" }], "payable": false, "stateMutability": "view", "type": "function" }, { "constant": true, "inputs": [], "name": "owner", "outputs": [{ "name": "", "type": "address" }], "payable": false, "stateMutability": "view", "type": "function" }, { "constant": false, "inputs": [{ "name": "_ownerAddress", "type": "address" }], "name": "abort", "outputs": [], "payable": false, "stateMutability": "nonpayable", "type": "function" }, { "constant": true, "inputs": [{ "name": "", "type": "address" }, { "name": "", "type": "address" }], "name": "swaps", "outputs": [{ "name": "token", "type": "address" }, { "name": "secret", "type": "bytes32" }, { "name": "secretHash", "type": "bytes20" }, { "name": "createdAt", "type": "uint256" }, { "name": "balance", "type": "uint256" }], "payable": false, "stateMutability": "view", "type": "function" }, { "constant": false, "inputs": [{ "name": "_secretHash", "type": "bytes20" }, { "name": "_participantAddress", "type": "address" }, { "name": "_value", "type": "uint256" }, { "name": "_token", "type": "address" }], "name": "createSwap", "outputs": [], "payable": false, "stateMutability": "nonpayable", "type": "function" }, { "constant": true, "inputs": [{ "name": "_ownerAddress", "type": "address" }], "name": "checkSign", "outputs": [{ "name": "", "type": "uint256" }], "payable": false, "stateMutability": "view", "type": "function" }, { "constant": false, "inputs": [{ "name": "_participantAddress", "type": "address" }], "name": "close", "outputs": [], "payable": false, "stateMutability": "nonpayable", "type": "function" }, { "constant": true, "inputs": [], "name": "ratingContractAddress", "outputs": [{ "name": "", "type": "address" }], "payable": false, "stateMutability": "view", "type": "function" }, { "constant": false, "inputs": [{ "name": "_participantAddress", "type": "address" }], "name": "sign", "outputs": [], "payable": false, "stateMutability": "nonpayable", "type": "function" }, { "constant": true, "inputs": [{ "name": "_ownerAddress", "type": "address" }], "name": "getBalance", "outputs": [{ "name": "", "type": "uint256" }], "payable": false, "stateMutability": "view", "type": "function" }, { "constant": false, "inputs": [{ "name": "_participantAddress", "type": "address" }], "name": "refund", "outputs": [], "payable": false, "stateMutability": "nonpayable", "type": "function" }, { "inputs": [], "payable": false, "stateMutability": "nonpayable", "type": "constructor" }, { "anonymous": false, "inputs": [], "name": "Sign", "type": "event" }, { "anonymous": false, "inputs": [{ "indexed": false, "name": "createdAt", "type": "uint256" }], "name": "CreateSwap", "type": "event" }, { "anonymous": false, "inputs": [], "name": "Withdraw", "type": "event" }, { "anonymous": false, "inputs": [], "name": "Close", "type": "event" }, { "anonymous": false, "inputs": [], "name": "Refund", "type": "event" }, { "anonymous": false, "inputs": [], "name": "Abort", "type": "event" }],
       tokenAddress: _appConfig2.default.tokens.swap.address,
       tokenAbi: [{ "constant": true, "inputs": [], "name": "name", "outputs": [{ "name": "", "type": "string" }], "payable": false, "stateMutability": "view", "type": "function" }, { "constant": false, "inputs": [{ "name": "_spender", "type": "address" }, { "name": "_amount", "type": "uint256" }], "name": "approve", "outputs": [{ "name": "success", "type": "bool" }], "payable": false, "stateMutability": "nonpayable", "type": "function" }, { "constant": true, "inputs": [], "name": "totalSupply", "outputs": [{ "name": "", "type": "uint256" }], "payable": false, "stateMutability": "view", "type": "function" }, { "constant": false, "inputs": [{ "name": "_from", "type": "address" }, { "name": "_to", "type": "address" }, { "name": "_amount", "type": "uint256" }], "name": "transferFrom", "outputs": [{ "name": "success", "type": "bool" }], "payable": false, "stateMutability": "nonpayable", "type": "function" }, { "constant": false, "inputs": [], "name": "getBurnPrice", "outputs": [{ "name": "", "type": "uint256" }], "payable": false, "stateMutability": "nonpayable", "type": "function" }, { "constant": true, "inputs": [], "name": "decimals", "outputs": [{ "name": "", "type": "uint8" }], "payable": false, "stateMutability": "view", "type": "function" }, { "constant": true, "inputs": [], "name": "manager", "outputs": [{ "name": "", "type": "address" }], "payable": false, "stateMutability": "view", "type": "function" }, { "constant": false, "inputs": [], "name": "unlockEmission", "outputs": [], "payable": false, "stateMutability": "nonpayable", "type": "function" }, { "constant": true, "inputs": [{ "name": "_owner", "type": "address" }], "name": "balanceOf", "outputs": [{ "name": "balance", "type": "uint256" }], "payable": false, "stateMutability": "view", "type": "function" }, { "constant": true, "inputs": [], "name": "emissionlocked", "outputs": [{ "name": "", "type": "bool" }], "payable": false, "stateMutability": "view", "type": "function" }, { "constant": false, "inputs": [], "name": "acceptOwnership", "outputs": [], "payable": false, "stateMutability": "nonpayable", "type": "function" }, { "constant": false, "inputs": [], "name": "lockEmission", "outputs": [], "payable": false, "stateMutability": "nonpayable", "type": "function" }, { "constant": true, "inputs": [], "name": "owner", "outputs": [{ "name": "", "type": "address" }], "payable": false, "stateMutability": "view", "type": "function" }, { "constant": true, "inputs": [], "name": "symbol", "outputs": [{ "name": "", "type": "string" }], "payable": false, "stateMutability": "view", "type": "function" }, { "constant": false, "inputs": [], "name": "burnAll", "outputs": [{ "name": "", "type": "bool" }], "payable": false, "stateMutability": "nonpayable", "type": "function" }, { "constant": false, "inputs": [{ "name": "_newManager", "type": "address" }], "name": "changeManager", "outputs": [], "payable": false, "stateMutability": "nonpayable", "type": "function" }, { "constant": false, "inputs": [{ "name": "_newOwner", "type": "address" }], "name": "changeOwner", "outputs": [], "payable": false, "stateMutability": "nonpayable", "type": "function" }, { "constant": false, "inputs": [{ "name": "_to", "type": "address" }, { "name": "_amount", "type": "uint256" }], "name": "transfer", "outputs": [{ "name": "success", "type": "bool" }], "payable": false, "stateMutability": "nonpayable", "type": "function" }, { "constant": true, "inputs": [], "name": "emissionPrice", "outputs": [{ "name": "", "type": "uint256" }], "payable": false, "stateMutability": "view", "type": "function" }, { "constant": false, "inputs": [], "name": "addToReserve", "outputs": [{ "name": "", "type": "bool" }], "payable": true, "stateMutability": "payable", "type": "function" }, { "constant": true, "inputs": [], "name": "burnPrice", "outputs": [{ "name": "", "type": "uint256" }], "payable": false, "stateMutability": "view", "type": "function" }, { "constant": false, "inputs": [{ "name": "tokenAddress", "type": "address" }, { "name": "amount", "type": "uint256" }], "name": "transferAnyERC20Token", "outputs": [{ "name": "success", "type": "bool" }], "payable": false, "stateMutability": "nonpayable", "type": "function" }, { "constant": true, "inputs": [{ "name": "_owner", "type": "address" }, { "name": "_spender", "type": "address" }], "name": "allowance", "outputs": [{ "name": "remaining", "type": "uint256" }], "payable": false, "stateMutability": "view", "type": "function" }, { "constant": false, "inputs": [], "name": "NoxonInit", "outputs": [{ "name": "", "type": "bool" }], "payable": true, "stateMutability": "payable", "type": "function" }, { "constant": false, "inputs": [], "name": "acceptManagership", "outputs": [], "payable": false, "stateMutability": "nonpayable", "type": "function" }, { "inputs": [], "payable": false, "stateMutability": "nonpayable", "type": "constructor" }, { "payable": true, "stateMutability": "payable", "type": "fallback" }, { "anonymous": false, "inputs": [{ "indexed": true, "name": "buyer", "type": "address" }, { "indexed": false, "name": "ethers", "type": "uint256" }, { "indexed": false, "name": "_emissionedPrice", "type": "uint256" }, { "indexed": false, "name": "amountOfTokens", "type": "uint256" }], "name": "TokenBought", "type": "event" }, { "anonymous": false, "inputs": [{ "indexed": true, "name": "buyer", "type": "address" }, { "indexed": false, "name": "ethers", "type": "uint256" }, { "indexed": false, "name": "_burnedPrice", "type": "uint256" }, { "indexed": false, "name": "amountOfTokens", "type": "uint256" }], "name": "TokenBurned", "type": "event" }, { "anonymous": false, "inputs": [{ "indexed": false, "name": "etherReserved", "type": "uint256" }], "name": "EtherReserved", "type": "event" }, { "anonymous": false, "inputs": [{ "indexed": true, "name": "_from", "type": "address" }, { "indexed": true, "name": "_to", "type": "address" }, { "indexed": false, "name": "_value", "type": "uint256" }], "name": "Transfer", "type": "event" }, { "anonymous": false, "inputs": [{ "indexed": true, "name": "_owner", "type": "address" }, { "indexed": true, "name": "_spender", "type": "address" }, { "indexed": false, "name": "_value", "type": "uint256" }], "name": "Approval", "type": "event" }],
@@ -13549,8 +13551,8 @@ exports.createSwapApp = createSwapApp;
 
 var map = {
 	"./": 178,
-	"./SwapAuth": 255,
-	"./SwapAuth.js": 255,
+	"./SwapAuth": 256,
+	"./SwapAuth.js": 256,
 	"./btc": 450,
 	"./btc.js": 450,
 	"./eth": 451,
@@ -13888,7 +13890,7 @@ var _extends2 = __webpack_require__(102);
 
 var _extends3 = _interopRequireDefault(_extends2);
 
-var _bignumber = __webpack_require__(427);
+var _bignumber = __webpack_require__(251);
 
 var _bignumber2 = _interopRequireDefault(_bignumber);
 
@@ -15247,6 +15249,10 @@ var _swap = __webpack_require__(12);
 
 var _swap2 = _interopRequireDefault(_swap);
 
+var _bignumber = __webpack_require__(251);
+
+var _bignumber2 = _interopRequireDefault(_bignumber);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var EthTokenSwap = function (_SwapInterface) {
@@ -15291,6 +15297,7 @@ var EthTokenSwap = function (_SwapInterface) {
 
     _this.address = options.address;
     _this.abi = options.abi;
+    _this.decimals = options.decimals;
     _this.tokenAddress = options.tokenAddress;
     _this.tokenAbi = options.tokenAbi;
 
@@ -15309,33 +15316,33 @@ var EthTokenSwap = function (_SwapInterface) {
     /**
      *
      * @param {object} data
-     * @param {string} data.participantAddress
+     * @param {BigNumber} data.amount
      * @param {function} handleTransactionHash
      * @returns {Promise}
      */
 
   }, {
-    key: 'sign',
-    value: function sign(data, handleTransactionHash) {
+    key: 'approve',
+    value: function approve(data, handleTransactionHash) {
       var _this2 = this;
 
-      var participantAddress = data.participantAddress;
+      var amount = data.amount;
 
+      var amountWithDecimlas = amount.times(new _bignumber2.default('10').pow(new _bignumber2.default(String(this.decimals))));
 
       return new _promise2.default(function () {
         var _ref = (0, _asyncToGenerator3.default)( /*#__PURE__*/_regenerator2.default.mark(function _callee(resolve, reject) {
-          var params, result;
+          var result;
           return _regenerator2.default.wrap(function _callee$(_context) {
             while (1) {
               switch (_context.prev = _context.next) {
                 case 0:
-                  params = {
+                  _context.prev = 0;
+                  _context.next = 3;
+                  return _this2.ERC20.methods.approve(_this2.address, amountWithDecimlas).send({
                     from: _swap2.default.services.auth.accounts.eth.address,
                     gas: _this2.gasLimit
-                  };
-                  _context.prev = 1;
-                  _context.next = 4;
-                  return _this2.contract.methods.sign(participantAddress).send(params).on('transactionHash', function (hash) {
+                  }).on('transactionHash', function (hash) {
                     if (typeof handleTransactionHash === 'function') {
                       handleTransactionHash(hash);
                     }
@@ -15343,26 +15350,26 @@ var EthTokenSwap = function (_SwapInterface) {
                     reject(err);
                   });
 
-                case 4:
+                case 3:
                   result = _context.sent;
 
 
                   resolve(result);
-                  _context.next = 11;
+                  _context.next = 10;
                   break;
 
-                case 8:
-                  _context.prev = 8;
-                  _context.t0 = _context['catch'](1);
+                case 7:
+                  _context.prev = 7;
+                  _context.t0 = _context['catch'](0);
 
                   reject(_context.t0);
 
-                case 11:
+                case 10:
                 case 'end':
                   return _context.stop();
               }
             }
-          }, _callee, _this2, [[1, 8]]);
+          }, _callee, _this2, [[0, 7]]);
         }));
 
         return function (_x, _x2) {
@@ -15374,17 +15381,18 @@ var EthTokenSwap = function (_SwapInterface) {
     /**
      *
      * @param {object} data
-     * @param {BigNumber} data.amount
-     * @param {function} handleTransactionHash
+     * @param {string} data.owner
+     * @param {string} data.spender
      * @returns {Promise}
      */
 
   }, {
-    key: 'approve',
-    value: function approve(data, handleTransactionHash) {
+    key: 'checkAllowance',
+    value: function checkAllowance(data) {
       var _this3 = this;
 
-      var amount = data.amount;
+      var owner = data.owner,
+          spender = data.spender;
 
 
       return new _promise2.default(function () {
@@ -15396,15 +15404,8 @@ var EthTokenSwap = function (_SwapInterface) {
                 case 0:
                   _context2.prev = 0;
                   _context2.next = 3;
-                  return _this3.ERC20.methods.approve(_this3.address, amount.toNumber()).send({
-                    from: _swap2.default.services.auth.accounts.eth.address,
-                    gas: _this3.gasLimit
-                  }).on('transactionHash', function (hash) {
-                    if (typeof handleTransactionHash === 'function') {
-                      handleTransactionHash(hash);
-                    }
-                  }).on('error', function (err) {
-                    reject(err);
+                  return _this3.ERC20.methods.allowance(owner, spender).call({
+                    from: _swap2.default.services.auth.accounts.eth.address
                   });
 
                 case 3:
@@ -15438,64 +15439,6 @@ var EthTokenSwap = function (_SwapInterface) {
     /**
      *
      * @param {object} data
-     * @param {string} data.owner
-     * @param {string} data.spender
-     * @returns {Promise}
-     */
-
-  }, {
-    key: 'checkAllowance',
-    value: function checkAllowance(data) {
-      var _this4 = this;
-
-      var owner = data.owner,
-          spender = data.spender;
-
-
-      return new _promise2.default(function () {
-        var _ref3 = (0, _asyncToGenerator3.default)( /*#__PURE__*/_regenerator2.default.mark(function _callee3(resolve, reject) {
-          var result;
-          return _regenerator2.default.wrap(function _callee3$(_context3) {
-            while (1) {
-              switch (_context3.prev = _context3.next) {
-                case 0:
-                  _context3.prev = 0;
-                  _context3.next = 3;
-                  return _this4.ERC20.methods.allowance(owner, spender).call({
-                    from: _swap2.default.services.auth.accounts.eth.address
-                  });
-
-                case 3:
-                  result = _context3.sent;
-
-
-                  resolve(result);
-                  _context3.next = 10;
-                  break;
-
-                case 7:
-                  _context3.prev = 7;
-                  _context3.t0 = _context3['catch'](0);
-
-                  reject(_context3.t0);
-
-                case 10:
-                case 'end':
-                  return _context3.stop();
-              }
-            }
-          }, _callee3, _this4, [[0, 7]]);
-        }));
-
-        return function (_x5, _x6) {
-          return _ref3.apply(this, arguments);
-        };
-      }());
-    }
-
-    /**
-     *
-     * @param {object} data
      * @param {string} data.secretHash
      * @param {string} data.participantAddress
      * @param {BigNumber} data.amount
@@ -15506,33 +15449,34 @@ var EthTokenSwap = function (_SwapInterface) {
   }, {
     key: 'create',
     value: function create(data, handleTransactionHash) {
-      var _this5 = this;
+      var _this4 = this;
 
       var secretHash = data.secretHash,
           participantAddress = data.participantAddress,
           amount = data.amount;
 
+      var amountWithDecimlas = amount.times(new _bignumber2.default('10').pow(new _bignumber2.default(String(this.decimals))));
 
       return new _promise2.default(function () {
-        var _ref4 = (0, _asyncToGenerator3.default)( /*#__PURE__*/_regenerator2.default.mark(function _callee4(resolve, reject) {
+        var _ref3 = (0, _asyncToGenerator3.default)( /*#__PURE__*/_regenerator2.default.mark(function _callee3(resolve, reject) {
           var hash, values, params, _contract$methods, result;
 
-          return _regenerator2.default.wrap(function _callee4$(_context4) {
+          return _regenerator2.default.wrap(function _callee3$(_context3) {
             while (1) {
-              switch (_context4.prev = _context4.next) {
+              switch (_context3.prev = _context3.next) {
                 case 0:
                   hash = '0x' + secretHash.replace(/^0x/, '');
-                  values = [hash, participantAddress, amount.toNumber(), _this5.tokenAddress];
-                  params = { from: _swap2.default.services.auth.accounts.eth.address, gas: _this5.gasLimit };
+                  values = [hash, participantAddress, amountWithDecimlas, _this4.tokenAddress];
+                  params = { from: _swap2.default.services.auth.accounts.eth.address, gas: _this4.gasLimit };
 
 
                   console.log('hash', hash);
                   console.log('values', values);
                   console.log('params', params);
 
-                  _context4.prev = 6;
-                  _context4.next = 9;
-                  return (_contract$methods = _this5.contract.methods).createSwap.apply(_contract$methods, values).send(params).on('transactionHash', function (hash) {
+                  _context3.prev = 6;
+                  _context3.next = 9;
+                  return (_contract$methods = _this4.contract.methods).createSwap.apply(_contract$methods, values).send(params).on('transactionHash', function (hash) {
                     if (typeof handleTransactionHash === 'function') {
                       handleTransactionHash(hash);
                     }
@@ -15541,29 +15485,29 @@ var EthTokenSwap = function (_SwapInterface) {
                   });
 
                 case 9:
-                  result = _context4.sent;
+                  result = _context3.sent;
 
                   console.log('result', result);
                   resolve(result);
-                  _context4.next = 17;
+                  _context3.next = 17;
                   break;
 
                 case 14:
-                  _context4.prev = 14;
-                  _context4.t0 = _context4['catch'](6);
+                  _context3.prev = 14;
+                  _context3.t0 = _context3['catch'](6);
 
-                  reject(_context4.t0);
+                  reject(_context3.t0);
 
                 case 17:
                 case 'end':
-                  return _context4.stop();
+                  return _context3.stop();
               }
             }
-          }, _callee4, _this5, [[6, 14]]);
+          }, _callee3, _this4, [[6, 14]]);
         }));
 
-        return function (_x7, _x8) {
-          return _ref4.apply(this, arguments);
+        return function (_x5, _x6) {
+          return _ref3.apply(this, arguments);
         };
       }());
     }
@@ -15578,35 +15522,35 @@ var EthTokenSwap = function (_SwapInterface) {
   }, {
     key: 'getBalance',
     value: function getBalance(data) {
-      var _this6 = this;
+      var _this5 = this;
 
       var ownerAddress = data.ownerAddress;
 
 
       return new _promise2.default(function () {
-        var _ref5 = (0, _asyncToGenerator3.default)( /*#__PURE__*/_regenerator2.default.mark(function _callee5(resolve, reject) {
+        var _ref4 = (0, _asyncToGenerator3.default)( /*#__PURE__*/_regenerator2.default.mark(function _callee4(resolve, reject) {
           var balance;
-          return _regenerator2.default.wrap(function _callee5$(_context5) {
+          return _regenerator2.default.wrap(function _callee4$(_context4) {
             while (1) {
-              switch (_context5.prev = _context5.next) {
+              switch (_context4.prev = _context4.next) {
                 case 0:
                   balance = void 0;
-                  _context5.prev = 1;
-                  _context5.next = 4;
-                  return _this6.contract.methods.getBalance(ownerAddress).call({
+                  _context4.prev = 1;
+                  _context4.next = 4;
+                  return _this5.contract.methods.getBalance(ownerAddress).call({
                     from: _swap2.default.services.auth.accounts.eth.address
                   });
 
                 case 4:
-                  balance = _context5.sent;
-                  _context5.next = 10;
+                  balance = _context4.sent;
+                  _context4.next = 10;
                   break;
 
                 case 7:
-                  _context5.prev = 7;
-                  _context5.t0 = _context5['catch'](1);
+                  _context4.prev = 7;
+                  _context4.t0 = _context4['catch'](1);
 
-                  reject(_context5.t0);
+                  reject(_context4.t0);
 
                 case 10:
 
@@ -15614,14 +15558,14 @@ var EthTokenSwap = function (_SwapInterface) {
 
                 case 11:
                 case 'end':
-                  return _context5.stop();
+                  return _context4.stop();
               }
             }
-          }, _callee5, _this6, [[1, 7]]);
+          }, _callee4, _this5, [[1, 7]]);
         }));
 
-        return function (_x9, _x10) {
-          return _ref5.apply(this, arguments);
+        return function (_x7, _x8) {
+          return _ref4.apply(this, arguments);
         };
       }());
     }
@@ -15637,36 +15581,36 @@ var EthTokenSwap = function (_SwapInterface) {
   }, {
     key: 'checkBalance',
     value: function () {
-      var _ref6 = (0, _asyncToGenerator3.default)( /*#__PURE__*/_regenerator2.default.mark(function _callee6(data) {
+      var _ref5 = (0, _asyncToGenerator3.default)( /*#__PURE__*/_regenerator2.default.mark(function _callee5(data) {
         var ownerAddress, expectedValue, balance;
-        return _regenerator2.default.wrap(function _callee6$(_context6) {
+        return _regenerator2.default.wrap(function _callee5$(_context5) {
           while (1) {
-            switch (_context6.prev = _context6.next) {
+            switch (_context5.prev = _context5.next) {
               case 0:
                 ownerAddress = data.ownerAddress, expectedValue = data.expectedValue;
-                _context6.next = 3;
+                _context5.next = 3;
                 return this.getBalance({ ownerAddress: ownerAddress });
 
               case 3:
-                balance = _context6.sent;
+                balance = _context5.sent;
 
                 if (!expectedValue.isGreaterThan(balance)) {
-                  _context6.next = 6;
+                  _context5.next = 6;
                   break;
                 }
 
-                return _context6.abrupt('return', 'Expected value: ' + expectedValue.toNumber() + ', got: ' + balance);
+                return _context5.abrupt('return', 'Expected value: ' + expectedValue.toNumber() + ', got: ' + balance);
 
               case 6:
               case 'end':
-                return _context6.stop();
+                return _context5.stop();
             }
           }
-        }, _callee6, this);
+        }, _callee5, this);
       }));
 
-      function checkBalance(_x11) {
-        return _ref6.apply(this, arguments);
+      function checkBalance(_x9) {
+        return _ref5.apply(this, arguments);
       }
 
       return checkBalance;
@@ -15684,28 +15628,28 @@ var EthTokenSwap = function (_SwapInterface) {
   }, {
     key: 'withdraw',
     value: function withdraw(data, handleTransactionHash) {
-      var _this7 = this;
+      var _this6 = this;
 
       var ownerAddress = data.ownerAddress,
           secret = data.secret;
 
 
       return new _promise2.default(function () {
-        var _ref7 = (0, _asyncToGenerator3.default)( /*#__PURE__*/_regenerator2.default.mark(function _callee7(resolve, reject) {
+        var _ref6 = (0, _asyncToGenerator3.default)( /*#__PURE__*/_regenerator2.default.mark(function _callee6(resolve, reject) {
           var _secret, params, result;
 
-          return _regenerator2.default.wrap(function _callee7$(_context7) {
+          return _regenerator2.default.wrap(function _callee6$(_context6) {
             while (1) {
-              switch (_context7.prev = _context7.next) {
+              switch (_context6.prev = _context6.next) {
                 case 0:
                   _secret = '0x' + secret.replace(/^0x/, '');
                   params = {
                     from: _swap2.default.services.auth.accounts.eth.address,
-                    gas: _this7.gasLimit
+                    gas: _this6.gasLimit
                   };
-                  _context7.prev = 2;
-                  _context7.next = 5;
-                  return _this7.contract.methods.withdraw(_secret, ownerAddress).send(params).on('transactionHash', function (hash) {
+                  _context6.prev = 2;
+                  _context6.next = 5;
+                  return _this6.contract.methods.withdraw(_secret, ownerAddress).send(params).on('transactionHash', function (hash) {
                     if (typeof handleTransactionHash === 'function') {
                       handleTransactionHash(hash);
                     }
@@ -15714,29 +15658,29 @@ var EthTokenSwap = function (_SwapInterface) {
                   });
 
                 case 5:
-                  result = _context7.sent;
+                  result = _context6.sent;
 
 
                   resolve(result);
-                  _context7.next = 12;
+                  _context6.next = 12;
                   break;
 
                 case 9:
-                  _context7.prev = 9;
-                  _context7.t0 = _context7['catch'](2);
+                  _context6.prev = 9;
+                  _context6.t0 = _context6['catch'](2);
 
-                  reject(_context7.t0);
+                  reject(_context6.t0);
 
                 case 12:
                 case 'end':
-                  return _context7.stop();
+                  return _context6.stop();
               }
             }
-          }, _callee7, _this7, [[2, 9]]);
+          }, _callee6, _this6, [[2, 9]]);
         }));
 
-        return function (_x12, _x13) {
-          return _ref7.apply(this, arguments);
+        return function (_x10, _x11) {
+          return _ref6.apply(this, arguments);
         };
       }());
     }
@@ -15752,24 +15696,24 @@ var EthTokenSwap = function (_SwapInterface) {
   }, {
     key: 'refund',
     value: function refund(data, handleTransactionHash) {
-      var _this8 = this;
+      var _this7 = this;
 
       var participantAddress = data.participantAddress;
 
 
       return new _promise2.default(function () {
-        var _ref8 = (0, _asyncToGenerator3.default)( /*#__PURE__*/_regenerator2.default.mark(function _callee8(resolve, reject) {
+        var _ref7 = (0, _asyncToGenerator3.default)( /*#__PURE__*/_regenerator2.default.mark(function _callee7(resolve, reject) {
           var params, receipt;
-          return _regenerator2.default.wrap(function _callee8$(_context8) {
+          return _regenerator2.default.wrap(function _callee7$(_context7) {
             while (1) {
-              switch (_context8.prev = _context8.next) {
+              switch (_context7.prev = _context7.next) {
                 case 0:
                   params = {
                     from: _swap2.default.services.auth.accounts.eth.address,
-                    gas: _this8.gasLimit
+                    gas: _this7.gasLimit
                   };
-                  _context8.next = 3;
-                  return _this8.contract.methods.refund(participantAddress).send(params).on('transactionHash', function (hash) {
+                  _context7.next = 3;
+                  return _this7.contract.methods.refund(participantAddress).send(params).on('transactionHash', function (hash) {
                     if (typeof handleTransactionHash === 'function') {
                       handleTransactionHash(hash);
                     }
@@ -15778,21 +15722,21 @@ var EthTokenSwap = function (_SwapInterface) {
                   });
 
                 case 3:
-                  receipt = _context8.sent;
+                  receipt = _context7.sent;
 
 
                   resolve(receipt);
 
                 case 5:
                 case 'end':
-                  return _context8.stop();
+                  return _context7.stop();
               }
             }
-          }, _callee8, _this8);
+          }, _callee7, _this7);
         }));
 
-        return function (_x14, _x15) {
-          return _ref8.apply(this, arguments);
+        return function (_x12, _x13) {
+          return _ref7.apply(this, arguments);
         };
       }());
     }
@@ -15807,49 +15751,49 @@ var EthTokenSwap = function (_SwapInterface) {
   }, {
     key: 'getSecret',
     value: function getSecret(data) {
-      var _this9 = this;
+      var _this8 = this;
 
       var participantAddress = data.participantAddress;
 
 
       return new _promise2.default(function () {
-        var _ref9 = (0, _asyncToGenerator3.default)( /*#__PURE__*/_regenerator2.default.mark(function _callee9(resolve, reject) {
+        var _ref8 = (0, _asyncToGenerator3.default)( /*#__PURE__*/_regenerator2.default.mark(function _callee8(resolve, reject) {
           var secret, secretValue;
-          return _regenerator2.default.wrap(function _callee9$(_context9) {
+          return _regenerator2.default.wrap(function _callee8$(_context8) {
             while (1) {
-              switch (_context9.prev = _context9.next) {
+              switch (_context8.prev = _context8.next) {
                 case 0:
-                  _context9.prev = 0;
-                  _context9.next = 3;
-                  return _this9.contract.methods.getSecret(participantAddress).call({
+                  _context8.prev = 0;
+                  _context8.next = 3;
+                  return _this8.contract.methods.getSecret(participantAddress).call({
                     from: _swap2.default.services.auth.accounts.eth.address
                   });
 
                 case 3:
-                  secret = _context9.sent;
+                  secret = _context8.sent;
                   secretValue = secret && !/^0x0+/.test(secret) ? secret : null;
 
 
                   resolve(secretValue);
-                  _context9.next = 11;
+                  _context8.next = 11;
                   break;
 
                 case 8:
-                  _context9.prev = 8;
-                  _context9.t0 = _context9['catch'](0);
+                  _context8.prev = 8;
+                  _context8.t0 = _context8['catch'](0);
 
-                  reject(_context9.t0);
+                  reject(_context8.t0);
 
                 case 11:
                 case 'end':
-                  return _context9.stop();
+                  return _context8.stop();
               }
             }
-          }, _callee9, _this9, [[0, 8]]);
+          }, _callee8, _this8, [[0, 8]]);
         }));
 
-        return function (_x16, _x17) {
-          return _ref9.apply(this, arguments);
+        return function (_x14, _x15) {
+          return _ref8.apply(this, arguments);
         };
       }());
     }
@@ -15858,6 +15802,42 @@ var EthTokenSwap = function (_SwapInterface) {
 }(_swap.SwapInterface);
 
 exports.default = EthTokenSwap;
+
+// /**
+//  *
+//  * @param {object} data
+//  * @param {string} data.participantAddress
+//  * @param {function} handleTransactionHash
+//  * @returns {Promise}
+//  */
+// sign(data, handleTransactionHash) {
+//   const { participantAddress } = data
+//
+//   return new Promise(async (resolve, reject) => {
+//     const params = {
+//       from: SwapApp.services.auth.accounts.eth.address,
+//       gas: this.gasLimit,
+//     }
+//
+//     try {
+//       const result = await this.contract.methods.sign(participantAddress).send(params)
+//         .on('transactionHash', (hash) => {
+//           if (typeof handleTransactionHash === 'function') {
+//             handleTransactionHash(hash)
+//           }
+//         })
+//         .on('error', (err) => {
+//           reject(err)
+//         })
+//
+//       resolve(result)
+//     }
+//     catch (err) {
+//       reject(err)
+//     }
+//   })
+// }
+
 module.exports = exports['default'];
 
 /***/ }),
@@ -17673,6 +17653,7 @@ exports.default = function (tokenName) {
         var _this2 = this;
 
         var flow = this;
+        console.log('FLOW', flow);
 
         return [
 
@@ -19754,7 +19735,7 @@ var _react2 = _interopRequireDefault(_react);
 
 var _redaction = __webpack_require__(31);
 
-var _Loader = __webpack_require__(259);
+var _Loader = __webpack_require__(260);
 
 var _Loader2 = _interopRequireDefault(_Loader);
 
@@ -20256,11 +20237,11 @@ var _Amounts = __webpack_require__(1186);
 
 var _Amounts2 = _interopRequireDefault(_Amounts);
 
-var _Row = __webpack_require__(260);
+var _Row = __webpack_require__(261);
 
 var _Row2 = _interopRequireDefault(_Row);
 
-var _Value = __webpack_require__(261);
+var _Value = __webpack_require__(262);
 
 var _Value2 = _interopRequireDefault(_Value);
 
@@ -20326,11 +20307,11 @@ var _ExchangeRate = __webpack_require__(1190);
 
 var _ExchangeRate2 = _interopRequireDefault(_ExchangeRate);
 
-var _Row = __webpack_require__(260);
+var _Row = __webpack_require__(261);
 
 var _Row2 = _interopRequireDefault(_Row);
 
-var _Value = __webpack_require__(261);
+var _Value = __webpack_require__(262);
 
 var _Value2 = _interopRequireDefault(_Value);
 
@@ -20377,11 +20358,11 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _Row = __webpack_require__(260);
+var _Row = __webpack_require__(261);
 
 var _Row2 = _interopRequireDefault(_Row);
 
-var _Value = __webpack_require__(261);
+var _Value = __webpack_require__(262);
 
 var _Value2 = _interopRequireDefault(_Value);
 
@@ -20457,7 +20438,7 @@ var _actions = __webpack_require__(15);
 
 var _actions2 = _interopRequireDefault(_actions);
 
-var _bignumber = __webpack_require__(383);
+var _bignumber = __webpack_require__(384);
 
 var _reactCssModules = __webpack_require__(1);
 
@@ -21140,7 +21121,7 @@ var _Group = __webpack_require__(1201);
 
 var _Group2 = _interopRequireDefault(_Group);
 
-var _FieldLabel = __webpack_require__(263);
+var _FieldLabel = __webpack_require__(264);
 
 var _FieldLabel2 = _interopRequireDefault(_FieldLabel);
 
@@ -21148,7 +21129,7 @@ var _Input = __webpack_require__(183);
 
 var _Input2 = _interopRequireDefault(_Input);
 
-var _CurrencySelect = __webpack_require__(422);
+var _CurrencySelect = __webpack_require__(423);
 
 var _CurrencySelect2 = _interopRequireDefault(_CurrencySelect);
 
@@ -21355,7 +21336,7 @@ var _Modal = __webpack_require__(182);
 
 var _Modal2 = _interopRequireDefault(_Modal);
 
-var _FieldLabel = __webpack_require__(263);
+var _FieldLabel = __webpack_require__(264);
 
 var _FieldLabel2 = _interopRequireDefault(_FieldLabel);
 
@@ -22312,15 +22293,15 @@ var _ButtonsInRow = __webpack_require__(464);
 
 var _ButtonsInRow2 = _interopRequireDefault(_ButtonsInRow);
 
-var _Flip = __webpack_require__(423);
+var _Flip = __webpack_require__(424);
 
 var _Flip2 = _interopRequireDefault(_Flip);
 
-var _ReloadButton = __webpack_require__(425);
+var _ReloadButton = __webpack_require__(426);
 
 var _ReloadButton2 = _interopRequireDefault(_ReloadButton);
 
-var _RemoveButton = __webpack_require__(421);
+var _RemoveButton = __webpack_require__(422);
 
 var _RemoveButton2 = _interopRequireDefault(_RemoveButton);
 
@@ -22328,11 +22309,11 @@ var _Swap = __webpack_require__(1218);
 
 var _Swap2 = _interopRequireDefault(_Swap);
 
-var _TimerButton = __webpack_require__(254);
+var _TimerButton = __webpack_require__(255);
 
 var _TimerButton2 = _interopRequireDefault(_TimerButton);
 
-var _WithdrawButton = __webpack_require__(424);
+var _WithdrawButton = __webpack_require__(425);
 
 var _WithdrawButton2 = _interopRequireDefault(_WithdrawButton);
 
@@ -22412,7 +22393,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.TextArea = exports.Input = exports.FieldLabel = undefined;
 
-var _FieldLabel = __webpack_require__(263);
+var _FieldLabel = __webpack_require__(264);
 
 var _FieldLabel2 = _interopRequireDefault(_FieldLabel);
 
