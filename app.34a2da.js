@@ -25,7 +25,7 @@ var _btc = __webpack_require__(497);
 
 var _btc2 = _interopRequireDefault(_btc);
 
-var _web = __webpack_require__(143);
+var _web = __webpack_require__(145);
 
 var _web2 = _interopRequireDefault(_web);
 
@@ -37,7 +37,7 @@ var _request = __webpack_require__(697);
 
 var _request2 = _interopRequireDefault(_request);
 
-var _constants = __webpack_require__(361);
+var _constants = __webpack_require__(363);
 
 var _constants2 = _interopRequireDefault(_constants);
 
@@ -84,7 +84,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.util = exports.constants = exports.Events = exports.Collection = exports.SwapInterface = exports.ServiceInterface = undefined;
 
-var _SwapApp = __webpack_require__(416);
+var _SwapApp = __webpack_require__(418);
 
 var _SwapApp2 = _interopRequireDefault(_SwapApp);
 
@@ -104,7 +104,7 @@ var _Events = __webpack_require__(993);
 
 var _Events2 = _interopRequireDefault(_Events);
 
-var _constants = __webpack_require__(245);
+var _constants = __webpack_require__(247);
 
 var _constants2 = _interopRequireDefault(_constants);
 
@@ -183,7 +183,7 @@ var _analytics = __webpack_require__(843);
 
 var _analytics2 = _interopRequireDefault(_analytics);
 
-var _referral = __webpack_require__(383);
+var _referral = __webpack_require__(385);
 
 var _referral2 = _interopRequireDefault(_referral);
 
@@ -212,8 +212,7 @@ exports.default = {
 /* 19 */,
 /* 20 */,
 /* 21 */,
-/* 22 */,
-/* 23 */
+/* 22 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -226,6 +225,7 @@ Object.defineProperty(exports, "__esModule", {
 exports.default = {"propENV":"testnet.prod","paths":{},"referral":{"url":"https://wiki.swap.online/affiliate.php"},"publicPath":"https://testnet.swap.online/","http":{"host":"localhost","port":9001},"i18nDate":{"month":"long","day":"numeric","hour":"numeric","minute":"numeric"},"exchangeRates":{"etheth":1,"ethbtc":0.07,"btceth":14,"ethnoxon":1,"noxoneth":1,"btcnoxon":14,"noxonbtc":0.07},"env":"production","entry":"testnet","base":"https://testnet.swap.online/","services":{"web3":{"provider":"https://rinkeby.infura.io/JCnK5ifEPH9qcQkX0Ahl","rate":0.1,"gas":2000000,"gasPrice":"20000000000"},"eos":{"chainId":"038f4b0fc8ff18a4f0842a8f0564611f6e96e8535901dd45e43ac8691a1c4dca","httpEndpoint":"https://jungle.eosio.cr"}},"token":{"contract":"0xc87C2668F05803F60EF75b176eea0CCE80D0009C"},"eth":{"contract":"0x830aef165b900fa7dc6b219f062c5784f6436d67"},"tokens":{"swap":{"address":"0xbaa3fa2ed111f3e8488c21861ea7b7dbb5a7b121","decimals":18},"noxon":{"address":"0x60c205722c6c797c725a996cf9cca11291f90749","decimals":0}},"link":{"bitpay":"https://test-insight.bitpay.com","etherscan":"https://rinkeby.etherscan.io","eos":"http://jungle.cryptolions.io/#accountInfo"},"api":{"blocktrail":"https://api.blocktrail.com/v1/tBTC","bitpay":"https://test-insight.bitpay.com/api","etherscan":"https://rinkeby.etherscan.io/api"},"apiKeys":{"etherscan":"RHHFPNMAZMD6I4ZWBZBF6FA11CMW9AXZNM","blocktrail":"1835368c0fa8e71907ca26f3c978ab742a7db42e"}};
 
 /***/ }),
+/* 23 */,
 /* 24 */,
 /* 25 */,
 /* 26 */,
@@ -250,11 +250,11 @@ Object.defineProperty(exports, "__esModule", {
 
 var _redaction = __webpack_require__(31);
 
-var _reduErs = __webpack_require__(375);
+var _reduErs = __webpack_require__(377);
 
 var _reduErs2 = _interopRequireDefault(_reduErs);
 
-var _store = __webpack_require__(226);
+var _store = __webpack_require__(228);
 
 var _store2 = _interopRequireDefault(_store);
 
@@ -263,15 +263,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 exports.default = (0, _redaction.wrapReducers)(_reduErs2.default, _store2.default.dispatch);
 
 /***/ }),
-/* 37 */,
-/* 38 */,
-/* 39 */,
-/* 40 */,
-/* 41 */,
-/* 42 */,
-/* 43 */,
-/* 44 */,
-/* 45 */
+/* 37 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -289,7 +281,7 @@ var _propTypes = __webpack_require__(9);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
-var _classnames = __webpack_require__(42);
+var _classnames = __webpack_require__(43);
 
 var _classnames2 = _interopRequireDefault(_classnames);
 
@@ -354,6 +346,14 @@ Button.propTypes = {
 exports.default = (0, _reactCssModules2.default)(Button, _Button2.default, { allowMultiple: true });
 
 /***/ }),
+/* 38 */,
+/* 39 */,
+/* 40 */,
+/* 41 */,
+/* 42 */,
+/* 43 */,
+/* 44 */,
+/* 45 */,
 /* 46 */,
 /* 47 */,
 /* 48 */,
@@ -416,7 +416,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.getState = exports.reducers = undefined;
 
-var _store = __webpack_require__(226);
+var _store = __webpack_require__(228);
 
 var _store2 = _interopRequireDefault(_store);
 
@@ -434,10 +434,46 @@ exports.reducers = _reducers2.default;
 exports.getState = getState;
 
 /***/ }),
-/* 98 */,
+/* 98 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _reactCssModules = __webpack_require__(1);
+
+var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
+
+var _SubTitle = __webpack_require__(973);
+
+var _SubTitle2 = _interopRequireDefault(_SubTitle);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var SubTitle = function SubTitle(_ref) {
+  var children = _ref.children;
+  return _react2.default.createElement(
+    'div',
+    { styleName: 'subTitle' },
+    children
+  );
+};
+
+exports.default = (0, _reactCssModules2.default)(SubTitle, _SubTitle2.default);
+
+/***/ }),
 /* 99 */,
 /* 100 */,
-/* 101 */
+/* 101 */,
+/* 102 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -475,9 +511,9 @@ var InlineLoader = function InlineLoader() {
 exports.default = (0, _reactCssModules2.default)(InlineLoader, _InlineLoader2.default);
 
 /***/ }),
-/* 102 */,
 /* 103 */,
-/* 104 */
+/* 104 */,
+/* 105 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -492,11 +528,11 @@ var _keys = __webpack_require__(60);
 
 var _keys2 = _interopRequireDefault(_keys);
 
-var _toConsumableArray2 = __webpack_require__(158);
+var _toConsumableArray2 = __webpack_require__(160);
 
 var _toConsumableArray3 = _interopRequireDefault(_toConsumableArray2);
 
-var _tags = __webpack_require__(1193);
+var _tags = __webpack_require__(1196);
 
 Object.defineProperty(exports, 'Input', {
   enumerable: true,
@@ -535,7 +571,7 @@ Object.defineProperty(exports, 'Select', {
   }
 });
 
-var _valuelink = __webpack_require__(1196);
+var _valuelink = __webpack_require__(1199);
 
 var _valuelink2 = _interopRequireDefault(_valuelink);
 
@@ -549,7 +585,6 @@ _valuelink2.default.allFields = function (component) {
 exports.default = _valuelink2.default;
 
 /***/ }),
-/* 105 */,
 /* 106 */,
 /* 107 */,
 /* 108 */,
@@ -568,8 +603,7 @@ exports.default = _valuelink2.default;
 /* 121 */,
 /* 122 */,
 /* 123 */,
-/* 124 */,
-/* 125 */
+/* 124 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -583,34 +617,68 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
+var _propTypes = __webpack_require__(9);
+
+var _propTypes2 = _interopRequireDefault(_propTypes);
+
 var _reactCssModules = __webpack_require__(1);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _SubTitle = __webpack_require__(973);
+var _PageHeadline = __webpack_require__(971);
+
+var _PageHeadline2 = _interopRequireDefault(_PageHeadline);
+
+var _Title = __webpack_require__(417);
+
+var _Title2 = _interopRequireDefault(_Title);
+
+var _SubTitle = __webpack_require__(98);
 
 var _SubTitle2 = _interopRequireDefault(_SubTitle);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var SubTitle = function SubTitle(_ref) {
-  var children = _ref.children;
+var PageHeadline = function PageHeadline(_ref) {
+  var children = _ref.children,
+      title = _ref.title,
+      subTitle = _ref.subTitle;
   return _react2.default.createElement(
     'div',
-    { styleName: 'subTitle' },
-    children
+    { styleName: 'headline' },
+    children || _react2.default.createElement(
+      _react.Fragment,
+      null,
+      title && _react2.default.createElement(
+        _Title2.default,
+        null,
+        title
+      ),
+      subTitle && _react2.default.createElement(
+        _SubTitle2.default,
+        null,
+        subTitle
+      )
+    )
   );
 };
 
-exports.default = (0, _reactCssModules2.default)(SubTitle, _SubTitle2.default);
+PageHeadline.propTypes = {
+  title: _propTypes2.default.string,
+  subTitle: _propTypes2.default.string
+};
+
+exports.default = (0, _reactCssModules2.default)(PageHeadline, _PageHeadline2.default);
 
 /***/ }),
+/* 125 */,
 /* 126 */,
 /* 127 */,
 /* 128 */,
 /* 129 */,
 /* 130 */,
-/* 131 */
+/* 131 */,
+/* 132 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -671,7 +739,7 @@ var Table = function Table(_ref) {
 exports.default = (0, _reactCssModules2.default)(Table, _Table2.default);
 
 /***/ }),
-/* 132 */
+/* 133 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -696,9 +764,135 @@ exports.default = _Swap2.default;
 exports.Flow = _Flow2.default;
 
 /***/ }),
-/* 133 */,
 /* 134 */,
-/* 135 */,
+/* 135 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = undefined;
+
+var _getPrototypeOf = __webpack_require__(3);
+
+var _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);
+
+var _classCallCheck2 = __webpack_require__(4);
+
+var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
+
+var _createClass2 = __webpack_require__(5);
+
+var _createClass3 = _interopRequireDefault(_createClass2);
+
+var _possibleConstructorReturn2 = __webpack_require__(6);
+
+var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
+
+var _inherits2 = __webpack_require__(7);
+
+var _inherits3 = _interopRequireDefault(_inherits2);
+
+var _class, _temp, _initialiseProps;
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _propTypes = __webpack_require__(9);
+
+var _propTypes2 = _interopRequireDefault(_propTypes);
+
+var _Button = __webpack_require__(37);
+
+var _Button2 = _interopRequireDefault(_Button);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var TimerButton = (_temp = _class = function (_Component) {
+  (0, _inherits3.default)(TimerButton, _Component);
+
+  function TimerButton(_ref) {
+    var timeLeft = _ref.timeLeft;
+    (0, _classCallCheck3.default)(this, TimerButton);
+
+    var _this = (0, _possibleConstructorReturn3.default)(this, (TimerButton.__proto__ || (0, _getPrototypeOf2.default)(TimerButton)).call(this));
+
+    _initialiseProps.call(_this);
+
+    _this.state = {
+      timeLeft: timeLeft
+    };
+    return _this;
+  }
+
+  (0, _createClass3.default)(TimerButton, [{
+    key: 'componentDidMount',
+    value: function componentDidMount() {
+      this.tick();
+    }
+  }, {
+    key: 'componentWillUnmount',
+    value: function componentWillUnmount() {
+      clearTimeout(this.timer);
+    }
+  }, {
+    key: 'render',
+    value: function render() {
+      var timeLeft = this.state.timeLeft;
+      var children = this.props.children;
+
+
+      return _react2.default.createElement(
+        _Button2.default,
+        { brand: true, onClick: this.handleClick },
+        children,
+        ' ',
+        timeLeft,
+        's'
+      );
+    }
+  }]);
+  return TimerButton;
+}(_react.Component), _class.propTypes = {
+  timeLeft: _propTypes2.default.number, // seconds
+  onClick: _propTypes2.default.func.isRequired
+}, _class.defaultProps = {
+  timeLeft: 10
+}, _initialiseProps = function _initialiseProps() {
+  var _this2 = this;
+
+  this.timer = null;
+
+  this.tick = function () {
+    var timeLeft = _this2.state.timeLeft;
+
+    var newTimeLeft = timeLeft - 1;
+
+    if (newTimeLeft <= 0) {
+      _this2.handleClick();
+    } else {
+      _this2.timer = setTimeout(_this2.tick, 1000);
+      _this2.setState({
+        timeLeft: newTimeLeft
+      });
+    }
+  };
+
+  this.handleClick = function () {
+    var onClick = _this2.props.onClick;
+
+
+    clearTimeout(_this2.timer);
+    onClick();
+  };
+}, _temp);
+exports.default = TimerButton;
+
+/***/ }),
 /* 136 */,
 /* 137 */,
 /* 138 */,
@@ -706,7 +900,9 @@ exports.Flow = _Flow2.default;
 /* 140 */,
 /* 141 */,
 /* 142 */,
-/* 143 */
+/* 143 */,
+/* 144 */,
+/* 145 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -720,7 +916,7 @@ var _web = __webpack_require__(551);
 
 var _web2 = _interopRequireDefault(_web);
 
-var _appConfig = __webpack_require__(23);
+var _appConfig = __webpack_require__(22);
 
 var _appConfig2 = _interopRequireDefault(_appConfig);
 
@@ -731,8 +927,6 @@ var web3 = new _web2.default(new _web2.default.providers.HttpProvider(_appConfig
 exports.default = web3;
 
 /***/ }),
-/* 144 */,
-/* 145 */,
 /* 146 */,
 /* 147 */,
 /* 148 */,
@@ -748,74 +942,7 @@ exports.default = web3;
 /* 158 */,
 /* 159 */,
 /* 160 */,
-/* 161 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _react = __webpack_require__(0);
-
-var _react2 = _interopRequireDefault(_react);
-
-var _propTypes = __webpack_require__(9);
-
-var _propTypes2 = _interopRequireDefault(_propTypes);
-
-var _reactCssModules = __webpack_require__(1);
-
-var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
-
-var _PageHeadline = __webpack_require__(971);
-
-var _PageHeadline2 = _interopRequireDefault(_PageHeadline);
-
-var _Title = __webpack_require__(415);
-
-var _Title2 = _interopRequireDefault(_Title);
-
-var _SubTitle = __webpack_require__(125);
-
-var _SubTitle2 = _interopRequireDefault(_SubTitle);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var PageHeadline = function PageHeadline(_ref) {
-  var children = _ref.children,
-      title = _ref.title,
-      subTitle = _ref.subTitle;
-  return _react2.default.createElement(
-    'div',
-    { styleName: 'headline' },
-    children || _react2.default.createElement(
-      _react.Fragment,
-      null,
-      title && _react2.default.createElement(
-        _Title2.default,
-        null,
-        title
-      ),
-      subTitle && _react2.default.createElement(
-        _SubTitle2.default,
-        null,
-        subTitle
-      )
-    )
-  );
-};
-
-PageHeadline.propTypes = {
-  title: _propTypes2.default.string,
-  subTitle: _propTypes2.default.string
-};
-
-exports.default = (0, _reactCssModules2.default)(PageHeadline, _PageHeadline2.default);
-
-/***/ }),
+/* 161 */,
 /* 162 */,
 /* 163 */,
 /* 164 */,
@@ -829,7 +956,8 @@ exports.default = (0, _reactCssModules2.default)(PageHeadline, _PageHeadline2.de
 /* 172 */,
 /* 173 */,
 /* 174 */,
-/* 175 */
+/* 175 */,
+/* 176 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -851,7 +979,7 @@ var _Coins = __webpack_require__(1002);
 
 var _Coins2 = _interopRequireDefault(_Coins);
 
-var _Coin = __webpack_require__(248);
+var _Coin = __webpack_require__(250);
 
 var _Coin2 = _interopRequireDefault(_Coin);
 
@@ -873,9 +1001,134 @@ var Coins = function Coins(_ref) {
 exports.default = (0, _reactCssModules2.default)(Coins, _Coins2.default);
 
 /***/ }),
-/* 176 */,
 /* 177 */,
-/* 178 */
+/* 178 */,
+/* 179 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = undefined;
+
+var _getPrototypeOf = __webpack_require__(3);
+
+var _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);
+
+var _classCallCheck2 = __webpack_require__(4);
+
+var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
+
+var _createClass2 = __webpack_require__(5);
+
+var _createClass3 = _interopRequireDefault(_createClass2);
+
+var _possibleConstructorReturn2 = __webpack_require__(6);
+
+var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
+
+var _inherits2 = __webpack_require__(7);
+
+var _inherits3 = _interopRequireDefault(_inherits2);
+
+var _dec, _class, _class2, _temp;
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _propTypes = __webpack_require__(9);
+
+var _propTypes2 = _interopRequireDefault(_propTypes);
+
+var _reactCssModules = __webpack_require__(1);
+
+var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
+
+var _Timer = __webpack_require__(1076);
+
+var _Timer2 = _interopRequireDefault(_Timer);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var Timer = (_dec = (0, _reactCssModules2.default)(_Timer2.default), _dec(_class = (_temp = _class2 = function (_React$Component) {
+  (0, _inherits3.default)(Timer, _React$Component);
+
+  function Timer(_ref) {
+    var lockTime = _ref.lockTime;
+    (0, _classCallCheck3.default)(this, Timer);
+
+    var _this = (0, _possibleConstructorReturn3.default)(this, (Timer.__proto__ || (0, _getPrototypeOf2.default)(Timer)).call(this));
+
+    _this.timer = null;
+
+    _this.tick = function () {
+      var timeLeft = _this.state.timeLeft;
+
+      var newTimeLeft = timeLeft - 1000;
+
+      if (newTimeLeft <= 0) {
+        _this.props.enabledButton();
+      } else {
+        _this.timer = setTimeout(_this.tick, 1000);
+        _this.setState({
+          timeLeft: newTimeLeft
+        });
+      }
+    };
+
+    _this.state = {
+      lockTime: lockTime,
+      timeLeft: null
+    };
+    return _this;
+  }
+
+  (0, _createClass3.default)(Timer, [{
+    key: 'componentDidMount',
+    value: function componentDidMount() {
+      this.tick();
+    }
+  }, {
+    key: 'componentWillMount',
+    value: function componentWillMount() {
+      var lockTime = this.state.lockTime;
+
+      console.log(lockTime);
+
+      var dateNow = new Date().getTime();
+      var timeLeft = lockTime - dateNow;
+
+      this.setState({
+        timeLeft: timeLeft
+      });
+    }
+  }, {
+    key: 'render',
+    value: function render() {
+      var timeLeft = this.state.timeLeft;
+
+      var min = Math.ceil(timeLeft / 1000 / 60);
+
+      return _react2.default.createElement(
+        'div',
+        { styleName: 'timer' },
+        min,
+        ' minute left for refund'
+      );
+    }
+  }]);
+  return Timer;
+}(_react2.default.Component), _class2.propTypes = {
+  lockTime: _propTypes2.default.number
+}, _temp)) || _class);
+exports.default = Timer;
+
+/***/ }),
+/* 180 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -885,7 +1138,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _SwapAuth = __webpack_require__(256);
+var _SwapAuth = __webpack_require__(258);
 
 var _SwapAuth2 = _interopRequireDefault(_SwapAuth);
 
@@ -895,9 +1148,9 @@ exports.default = _SwapAuth2.default;
 module.exports = exports['default'];
 
 /***/ }),
-/* 179 */,
-/* 180 */,
-/* 181 */
+/* 181 */,
+/* 182 */,
+/* 183 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -923,7 +1176,7 @@ var _propTypes = __webpack_require__(9);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
-var _classnames = __webpack_require__(42);
+var _classnames = __webpack_require__(43);
 
 var _classnames2 = _interopRequireDefault(_classnames);
 
@@ -931,7 +1184,7 @@ var _reactCssModules = __webpack_require__(1);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _WidthContainer = __webpack_require__(1147);
+var _WidthContainer = __webpack_require__(1150);
 
 var _WidthContainer2 = _interopRequireDefault(_WidthContainer);
 
@@ -988,7 +1241,7 @@ WidthContainer.propTypes = {
 exports.default = (0, _reactCssModules2.default)(WidthContainer, _WidthContainer2.default, { allowMultiple: true });
 
 /***/ }),
-/* 182 */
+/* 184 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -999,23 +1252,23 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = undefined;
 
-var _getPrototypeOf = __webpack_require__(4);
+var _getPrototypeOf = __webpack_require__(3);
 
 var _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);
 
-var _classCallCheck2 = __webpack_require__(5);
+var _classCallCheck2 = __webpack_require__(4);
 
 var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
 
-var _createClass2 = __webpack_require__(6);
+var _createClass2 = __webpack_require__(5);
 
 var _createClass3 = _interopRequireDefault(_createClass2);
 
-var _possibleConstructorReturn2 = __webpack_require__(7);
+var _possibleConstructorReturn2 = __webpack_require__(6);
 
 var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
 
-var _inherits2 = __webpack_require__(8);
+var _inherits2 = __webpack_require__(7);
 
 var _inherits3 = _interopRequireDefault(_inherits2);
 
@@ -1033,7 +1286,7 @@ var _propTypes = __webpack_require__(9);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
-var _classnames = __webpack_require__(42);
+var _classnames = __webpack_require__(43);
 
 var _classnames2 = _interopRequireDefault(_classnames);
 
@@ -1041,11 +1294,11 @@ var _reactCssModules = __webpack_require__(1);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _Modal = __webpack_require__(1177);
+var _Modal = __webpack_require__(1180);
 
 var _Modal2 = _interopRequireDefault(_Modal);
 
-var _WidthContainer = __webpack_require__(181);
+var _WidthContainer = __webpack_require__(183);
 
 var _WidthContainer2 = _interopRequireDefault(_WidthContainer);
 
@@ -1061,7 +1314,7 @@ var _Center = __webpack_require__(463);
 
 var _Center2 = _interopRequireDefault(_Center);
 
-var _CloseIcon = __webpack_require__(1180);
+var _CloseIcon = __webpack_require__(1183);
 
 var _CloseIcon2 = _interopRequireDefault(_CloseIcon);
 
@@ -1184,7 +1437,7 @@ var Modal = (_dec = (0, _reactCssModules2.default)(_Modal2.default, { allowMulti
 exports.default = Modal;
 
 /***/ }),
-/* 183 */
+/* 185 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1203,23 +1456,23 @@ var _objectWithoutProperties2 = __webpack_require__(53);
 
 var _objectWithoutProperties3 = _interopRequireDefault(_objectWithoutProperties2);
 
-var _getPrototypeOf = __webpack_require__(4);
+var _getPrototypeOf = __webpack_require__(3);
 
 var _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);
 
-var _classCallCheck2 = __webpack_require__(5);
+var _classCallCheck2 = __webpack_require__(4);
 
 var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
 
-var _createClass2 = __webpack_require__(6);
+var _createClass2 = __webpack_require__(5);
 
 var _createClass3 = _interopRequireDefault(_createClass2);
 
-var _possibleConstructorReturn2 = __webpack_require__(7);
+var _possibleConstructorReturn2 = __webpack_require__(6);
 
 var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
 
-var _inherits2 = __webpack_require__(8);
+var _inherits2 = __webpack_require__(7);
 
 var _inherits3 = _interopRequireDefault(_inherits2);
 
@@ -1233,9 +1486,9 @@ var _propTypes = __webpack_require__(9);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
-var _swValuelink = __webpack_require__(104);
+var _swValuelink = __webpack_require__(105);
 
-var _classnames = __webpack_require__(42);
+var _classnames = __webpack_require__(43);
 
 var _classnames2 = _interopRequireDefault(_classnames);
 
@@ -1245,7 +1498,7 @@ var _reactCssModules = __webpack_require__(1);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _Input = __webpack_require__(1203);
+var _Input = __webpack_require__(1206);
 
 var _Input2 = _interopRequireDefault(_Input);
 
@@ -1333,8 +1586,6 @@ var Input = (_dec = (0, _reactCssModules2.default)(_Input2.default, { allowMulti
 exports.default = Input;
 
 /***/ }),
-/* 184 */,
-/* 185 */,
 /* 186 */,
 /* 187 */,
 /* 188 */,
@@ -1375,7 +1626,9 @@ exports.default = Input;
 /* 223 */,
 /* 224 */,
 /* 225 */,
-/* 226 */
+/* 226 */,
+/* 227 */,
+/* 228 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1390,7 +1643,7 @@ var _assign = __webpack_require__(30);
 
 var _assign2 = _interopRequireDefault(_assign);
 
-var _reactRouterRedux = __webpack_require__(376);
+var _reactRouterRedux = __webpack_require__(378);
 
 var _history = __webpack_require__(56);
 
@@ -1398,7 +1651,7 @@ var _redaction = __webpack_require__(31);
 
 var _reduxLogger = __webpack_require__(804);
 
-var _reduErs = __webpack_require__(375);
+var _reduErs = __webpack_require__(377);
 
 var _reduErs2 = _interopRequireDefault(_reduErs);
 
@@ -1418,8 +1671,6 @@ var store = (0, _redaction.createStore)({
 exports.default = store;
 
 /***/ }),
-/* 227 */,
-/* 228 */,
 /* 229 */,
 /* 230 */,
 /* 231 */,
@@ -1436,7 +1687,9 @@ exports.default = store;
 /* 242 */,
 /* 243 */,
 /* 244 */,
-/* 245 */
+/* 245 */,
+/* 246 */,
+/* 247 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1473,9 +1726,9 @@ exports.default = {
 module.exports = exports['default'];
 
 /***/ }),
-/* 246 */,
-/* 247 */,
-/* 248 */
+/* 248 */,
+/* 249 */,
+/* 250 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1501,7 +1754,7 @@ var _Coin = __webpack_require__(1003);
 
 var _Coin2 = _interopRequireDefault(_Coin);
 
-var _CurrencyIcon = __webpack_require__(421);
+var _CurrencyIcon = __webpack_require__(423);
 
 var _CurrencyIcon2 = _interopRequireDefault(_CurrencyIcon);
 
@@ -1547,13 +1800,7 @@ var Coin = function Coin(_ref) {
 exports.default = (0, _reactCssModules2.default)(Coin, _Coin2.default);
 
 /***/ }),
-/* 249 */,
-/* 250 */,
-/* 251 */,
-/* 252 */,
-/* 253 */,
-/* 254 */,
-/* 255 */
+/* 251 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1562,126 +1809,54 @@ exports.default = (0, _reactCssModules2.default)(Coin, _Coin2.default);
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.default = undefined;
-
-var _getPrototypeOf = __webpack_require__(4);
-
-var _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);
-
-var _classCallCheck2 = __webpack_require__(5);
-
-var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
-
-var _createClass2 = __webpack_require__(6);
-
-var _createClass3 = _interopRequireDefault(_createClass2);
-
-var _possibleConstructorReturn2 = __webpack_require__(7);
-
-var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
-
-var _inherits2 = __webpack_require__(8);
-
-var _inherits3 = _interopRequireDefault(_inherits2);
-
-var _class, _temp, _initialiseProps;
 
 var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _propTypes = __webpack_require__(9);
+var _reactRouterDom = __webpack_require__(57);
 
-var _propTypes2 = _interopRequireDefault(_propTypes);
+var _reactCssModules = __webpack_require__(1);
 
-var _Button = __webpack_require__(45);
+var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _Button2 = _interopRequireDefault(_Button);
+var _Href = __webpack_require__(1044);
+
+var _Href2 = _interopRequireDefault(_Href);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var TimerButton = (_temp = _class = function (_Component) {
-  (0, _inherits3.default)(TimerButton, _Component);
+var Href = function Href(_ref) {
+  var children = _ref.children,
+      to = _ref.to,
+      redirect = _ref.redirect,
+      tab = _ref.tab;
 
-  function TimerButton(_ref) {
-    var timeLeft = _ref.timeLeft;
-    (0, _classCallCheck3.default)(this, TimerButton);
-
-    var _this = (0, _possibleConstructorReturn3.default)(this, (TimerButton.__proto__ || (0, _getPrototypeOf2.default)(TimerButton)).call(this));
-
-    _initialiseProps.call(_this);
-
-    _this.state = {
-      timeLeft: timeLeft
-    };
-    return _this;
+  if (to) {
+    return _react2.default.createElement(
+      _reactRouterDom.NavLink,
+      { styleName: 'link' },
+      children
+    );
   }
 
-  (0, _createClass3.default)(TimerButton, [{
-    key: 'componentDidMount',
-    value: function componentDidMount() {
-      this.tick();
-    }
-  }, {
-    key: 'componentWillUnmount',
-    value: function componentWillUnmount() {
-      clearTimeout(this.timer);
-    }
-  }, {
-    key: 'render',
-    value: function render() {
-      var timeLeft = this.state.timeLeft;
-      var children = this.props.children;
+  return _react2.default.createElement(
+    'a',
+    { styleName: 'link', href: redirect || tab, target: tab ? '_blank' : null },
+    children
+  );
+};
 
-
-      return _react2.default.createElement(
-        _Button2.default,
-        { brand: true, onClick: this.handleClick },
-        children,
-        ' ',
-        timeLeft,
-        's'
-      );
-    }
-  }]);
-  return TimerButton;
-}(_react.Component), _class.propTypes = {
-  timeLeft: _propTypes2.default.number, // seconds
-  onClick: _propTypes2.default.func.isRequired
-}, _class.defaultProps = {
-  timeLeft: 10
-}, _initialiseProps = function _initialiseProps() {
-  var _this2 = this;
-
-  this.timer = null;
-
-  this.tick = function () {
-    var timeLeft = _this2.state.timeLeft;
-
-    var newTimeLeft = timeLeft - 1;
-
-    if (newTimeLeft <= 0) {
-      _this2.handleClick();
-    } else {
-      _this2.timer = setTimeout(_this2.tick, 1000);
-      _this2.setState({
-        timeLeft: newTimeLeft
-      });
-    }
-  };
-
-  this.handleClick = function () {
-    var onClick = _this2.props.onClick;
-
-
-    clearTimeout(_this2.timer);
-    onClick();
-  };
-}, _temp);
-exports.default = TimerButton;
+exports.default = (0, _reactCssModules2.default)(Href, _Href2.default);
 
 /***/ }),
-/* 256 */
+/* 252 */,
+/* 253 */,
+/* 254 */,
+/* 255 */,
+/* 256 */,
+/* 257 */,
+/* 258 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1691,7 +1866,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _stringify = __webpack_require__(246);
+var _stringify = __webpack_require__(248);
 
 var _stringify2 = _interopRequireDefault(_stringify);
 
@@ -1699,7 +1874,7 @@ var _keys = __webpack_require__(75);
 
 var _keys2 = _interopRequireDefault(_keys);
 
-var _getPrototypeOf = __webpack_require__(43);
+var _getPrototypeOf = __webpack_require__(44);
 
 var _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);
 
@@ -1763,7 +1938,7 @@ var SwapAuth = function (_ServiceInterface) {
         }
 
         try {
-          var instance = __webpack_require__(1114)("./" + name);
+          var instance = __webpack_require__(1117)("./" + name);
           instance = instance.default || instance;
           var account = instance.login(_privateKeys[name]);
 
@@ -1797,10 +1972,10 @@ exports.default = SwapAuth;
 module.exports = exports['default'];
 
 /***/ }),
-/* 257 */,
-/* 258 */,
 /* 259 */,
-/* 260 */
+/* 260 */,
+/* 261 */,
+/* 262 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1818,7 +1993,7 @@ var _reactCssModules = __webpack_require__(1);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _Loader = __webpack_require__(1172);
+var _Loader = __webpack_require__(1175);
 
 var _Loader2 = _interopRequireDefault(_Loader);
 
@@ -1843,7 +2018,7 @@ var Loader = function Loader(_ref) {
 exports.default = (0, _reactCssModules2.default)(Loader, _Loader2.default, { allowMultiple: true });
 
 /***/ }),
-/* 261 */
+/* 263 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1861,7 +2036,7 @@ var _reactCssModules = __webpack_require__(1);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _Row = __webpack_require__(1187);
+var _Row = __webpack_require__(1190);
 
 var _Row2 = _interopRequireDefault(_Row);
 
@@ -1889,7 +2064,7 @@ var Row = function Row(_ref) {
 exports.default = (0, _reactCssModules2.default)(Row, _Row2.default);
 
 /***/ }),
-/* 262 */
+/* 264 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1907,7 +2082,7 @@ var _reactCssModules = __webpack_require__(1);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _Value = __webpack_require__(1188);
+var _Value = __webpack_require__(1191);
 
 var _Value2 = _interopRequireDefault(_Value);
 
@@ -1937,8 +2112,8 @@ var Value = function Value(_ref) {
 exports.default = (0, _reactCssModules2.default)(Value, _Value2.default);
 
 /***/ }),
-/* 263 */,
-/* 264 */
+/* 265 */,
+/* 266 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1952,7 +2127,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _classnames = __webpack_require__(42);
+var _classnames = __webpack_require__(43);
 
 var _classnames2 = _interopRequireDefault(_classnames);
 
@@ -1960,7 +2135,7 @@ var _reactCssModules = __webpack_require__(1);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _FieldLabel = __webpack_require__(1202);
+var _FieldLabel = __webpack_require__(1205);
 
 var _FieldLabel2 = _interopRequireDefault(_FieldLabel);
 
@@ -1979,8 +2154,6 @@ var FieldLabel = function FieldLabel(_ref) {
 exports.default = (0, _reactCssModules2.default)(FieldLabel, _FieldLabel2.default, { allowMultiple: true });
 
 /***/ }),
-/* 265 */,
-/* 266 */,
 /* 267 */,
 /* 268 */,
 /* 269 */,
@@ -2075,7 +2248,9 @@ exports.default = (0, _reactCssModules2.default)(FieldLabel, _FieldLabel2.defaul
 /* 358 */,
 /* 359 */,
 /* 360 */,
-/* 361 */
+/* 361 */,
+/* 362 */,
+/* 363 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2111,8 +2286,6 @@ exports.default = {
 };
 
 /***/ }),
-/* 362 */,
-/* 363 */,
 /* 364 */,
 /* 365 */,
 /* 366 */,
@@ -2124,7 +2297,9 @@ exports.default = {
 /* 372 */,
 /* 373 */,
 /* 374 */,
-/* 375 */
+/* 375 */,
+/* 376 */,
+/* 377 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2170,14 +2345,14 @@ exports.default = {
 };
 
 /***/ }),
-/* 376 */,
-/* 377 */,
 /* 378 */,
 /* 379 */,
 /* 380 */,
 /* 381 */,
 /* 382 */,
-/* 383 */
+/* 383 */,
+/* 384 */,
+/* 385 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2189,7 +2364,7 @@ Object.defineProperty(exports, "__esModule", {
 
 var _helpers = __webpack_require__(11);
 
-var _appConfig = __webpack_require__(23);
+var _appConfig = __webpack_require__(22);
 
 var _appConfig2 = _interopRequireDefault(_appConfig);
 
@@ -2212,8 +2387,6 @@ exports.default = {
 };
 
 /***/ }),
-/* 384 */,
-/* 385 */,
 /* 386 */,
 /* 387 */,
 /* 388 */,
@@ -2243,7 +2416,9 @@ exports.default = {
 /* 412 */,
 /* 413 */,
 /* 414 */,
-/* 415 */
+/* 415 */,
+/* 416 */,
+/* 417 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2279,7 +2454,7 @@ var Title = function Title(_ref) {
 exports.default = (0, _reactCssModules2.default)(Title, _Title2.default);
 
 /***/ }),
-/* 416 */
+/* 418 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2289,7 +2464,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _values = __webpack_require__(235);
+var _values = __webpack_require__(237);
 
 var _values2 = _interopRequireDefault(_values);
 
@@ -2305,7 +2480,7 @@ var _createClass2 = __webpack_require__(19);
 
 var _createClass3 = _interopRequireDefault(_createClass2);
 
-var _constants = __webpack_require__(245);
+var _constants = __webpack_require__(247);
 
 var _constants2 = _interopRequireDefault(_constants);
 
@@ -2465,11 +2640,11 @@ exports.default = new SwapApp();
 module.exports = exports['default'];
 
 /***/ }),
-/* 417 */,
-/* 418 */,
 /* 419 */,
 /* 420 */,
-/* 421 */
+/* 421 */,
+/* 422 */,
+/* 423 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2564,7 +2739,7 @@ var CurrencyIcon = function CurrencyIcon(_ref) {
 exports.default = (0, _reactCssModules2.default)(CurrencyIcon, _CurrencyIcon2.default);
 
 /***/ }),
-/* 422 */
+/* 424 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2575,23 +2750,23 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = undefined;
 
-var _getPrototypeOf = __webpack_require__(4);
+var _getPrototypeOf = __webpack_require__(3);
 
 var _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);
 
-var _classCallCheck2 = __webpack_require__(5);
+var _classCallCheck2 = __webpack_require__(4);
 
 var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
 
-var _createClass2 = __webpack_require__(6);
+var _createClass2 = __webpack_require__(5);
 
 var _createClass3 = _interopRequireDefault(_createClass2);
 
-var _possibleConstructorReturn2 = __webpack_require__(7);
+var _possibleConstructorReturn2 = __webpack_require__(6);
 
 var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
 
-var _inherits2 = __webpack_require__(8);
+var _inherits2 = __webpack_require__(7);
 
 var _inherits3 = _interopRequireDefault(_inherits2);
 
@@ -2633,7 +2808,7 @@ var RemoveButton = (_dec = (0, _reactCssModules2.default)(_RemoveButton2.default
 exports.default = RemoveButton;
 
 /***/ }),
-/* 423 */
+/* 425 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2671,7 +2846,7 @@ var CurrencySelect = function CurrencySelect(_ref) {
       onSelect = _ref.onSelect;
   return _react2.default.createElement(_DropDown2.default, {
     className: className,
-    items: [{ title: 'ETH', icon: 'eth', value: 'eth' }, { title: 'BTC', icon: 'btc', value: 'btc' }, { title: 'NOXON', icon: 'noxon', value: 'noxon' }],
+    items: [{ title: 'ETH', icon: 'eth', value: 'eth' }, { title: 'BTC', icon: 'btc', value: 'btc' }, { title: 'NOXON', icon: 'noxon', value: 'noxon' }, { title: 'SWAP', icon: 'swap', value: 'swap' }],
     selectedValue: selectedValue,
     selectedItemRender: function selectedItemRender(item) {
       return _react2.default.createElement(_Option2.default, item);
@@ -2686,7 +2861,7 @@ var CurrencySelect = function CurrencySelect(_ref) {
 exports.default = (0, _reactCssModules2.default)(CurrencySelect, _CurrencySelect2.default);
 
 /***/ }),
-/* 424 */
+/* 426 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2723,7 +2898,7 @@ function Flip(_ref) {
 exports.default = (0, _reactCssModules2.default)(Flip, _Flip2.default);
 
 /***/ }),
-/* 425 */
+/* 427 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2771,7 +2946,7 @@ var WithdrawButton = function WithdrawButton(_ref) {
 exports.default = (0, _reactCssModules2.default)(WithdrawButton, _WithdrawButton2.default);
 
 /***/ }),
-/* 426 */
+/* 428 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2812,7 +2987,7 @@ var ReloadButton = function ReloadButton(_ref) {
 exports.default = (0, _reactCssModules2.default)(ReloadButton, _ReloadButton2.default);
 
 /***/ }),
-/* 427 */
+/* 429 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2822,61 +2997,11 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _react = __webpack_require__(0);
-
-var _react2 = _interopRequireDefault(_react);
-
-var _reactRouterDom = __webpack_require__(57);
-
-var _reactCssModules = __webpack_require__(1);
-
-var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
-
-var _Href = __webpack_require__(1044);
-
-var _Href2 = _interopRequireDefault(_Href);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var Href = function Href(_ref) {
-  var children = _ref.children,
-      to = _ref.to,
-      redirect = _ref.redirect,
-      tab = _ref.tab;
-
-  if (to) {
-    return _react2.default.createElement(
-      _reactRouterDom.NavLink,
-      { styleName: 'link' },
-      children
-    );
-  }
-
-  return _react2.default.createElement(
-    'a',
-    { styleName: 'link', href: redirect || tab, target: tab ? '_blank' : null },
-    children
-  );
-};
-
-exports.default = (0, _reactCssModules2.default)(Href, _Href2.default);
-
-/***/ }),
-/* 428 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _extends2 = __webpack_require__(102);
+var _extends2 = __webpack_require__(103);
 
 var _extends3 = _interopRequireDefault(_extends2);
 
-var _objectWithoutProperties2 = __webpack_require__(250);
+var _objectWithoutProperties2 = __webpack_require__(253);
 
 var _objectWithoutProperties3 = _interopRequireDefault(_objectWithoutProperties2);
 
@@ -2981,7 +3106,6 @@ exports.default = Room;
 module.exports = exports['default'];
 
 /***/ }),
-/* 429 */,
 /* 430 */,
 /* 431 */,
 /* 432 */,
@@ -2997,131 +3121,7 @@ module.exports = exports['default'];
 /* 442 */,
 /* 443 */,
 /* 444 */,
-/* 445 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = undefined;
-
-var _getPrototypeOf = __webpack_require__(4);
-
-var _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);
-
-var _classCallCheck2 = __webpack_require__(5);
-
-var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
-
-var _createClass2 = __webpack_require__(6);
-
-var _createClass3 = _interopRequireDefault(_createClass2);
-
-var _possibleConstructorReturn2 = __webpack_require__(7);
-
-var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
-
-var _inherits2 = __webpack_require__(8);
-
-var _inherits3 = _interopRequireDefault(_inherits2);
-
-var _dec, _class, _class2, _temp;
-
-var _react = __webpack_require__(0);
-
-var _react2 = _interopRequireDefault(_react);
-
-var _propTypes = __webpack_require__(9);
-
-var _propTypes2 = _interopRequireDefault(_propTypes);
-
-var _reactCssModules = __webpack_require__(1);
-
-var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
-
-var _Timer = __webpack_require__(1076);
-
-var _Timer2 = _interopRequireDefault(_Timer);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var Timer = (_dec = (0, _reactCssModules2.default)(_Timer2.default), _dec(_class = (_temp = _class2 = function (_React$Component) {
-  (0, _inherits3.default)(Timer, _React$Component);
-
-  function Timer(_ref) {
-    var lockTime = _ref.lockTime;
-    (0, _classCallCheck3.default)(this, Timer);
-
-    var _this = (0, _possibleConstructorReturn3.default)(this, (Timer.__proto__ || (0, _getPrototypeOf2.default)(Timer)).call(this));
-
-    _this.timer = null;
-
-    _this.tick = function () {
-      var timeLeft = _this.state.timeLeft;
-
-      var newTimeLeft = timeLeft - 1000;
-
-      if (newTimeLeft <= 0) {
-        _this.props.enabledButton();
-      } else {
-        _this.timer = setTimeout(_this.tick, 1000);
-        _this.setState({
-          timeLeft: newTimeLeft
-        });
-      }
-    };
-
-    _this.state = {
-      lockTime: lockTime,
-      timeLeft: null
-    };
-    return _this;
-  }
-
-  (0, _createClass3.default)(Timer, [{
-    key: 'componentDidMount',
-    value: function componentDidMount() {
-      this.tick();
-    }
-  }, {
-    key: 'componentWillMount',
-    value: function componentWillMount() {
-      var lockTime = this.state.lockTime;
-
-      console.log(lockTime);
-
-      var dateNow = new Date().getTime();
-      var timeLeft = lockTime - dateNow;
-
-      this.setState({
-        timeLeft: timeLeft
-      });
-    }
-  }, {
-    key: 'render',
-    value: function render() {
-      var timeLeft = this.state.timeLeft;
-
-      var min = Math.ceil(timeLeft / 1000 / 60);
-
-      return _react2.default.createElement(
-        'div',
-        { styleName: 'timer' },
-        min,
-        ' minute left for refund'
-      );
-    }
-  }]);
-  return Timer;
-}(_react2.default.Component), _class2.propTypes = {
-  lockTime: _propTypes2.default.number
-}, _temp)) || _class);
-exports.default = Timer;
-
-/***/ }),
+/* 445 */,
 /* 446 */
 /***/ (function(module, exports) {
 
@@ -3249,7 +3249,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _SwapRoom = __webpack_require__(1115);
+var _SwapRoom = __webpack_require__(1118);
 
 var _SwapRoom2 = _interopRequireDefault(_SwapRoom);
 
@@ -3302,15 +3302,15 @@ var _reactCssModules = __webpack_require__(1);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _Logo = __webpack_require__(1148);
+var _Logo = __webpack_require__(1151);
 
 var _Logo2 = _interopRequireDefault(_Logo);
 
-var _logo = __webpack_require__(1149);
+var _logo = __webpack_require__(1152);
 
 var _logo2 = _interopRequireDefault(_logo);
 
-var _logoColored = __webpack_require__(1150);
+var _logoColored = __webpack_require__(1153);
 
 var _logoColored2 = _interopRequireDefault(_logoColored);
 
@@ -3361,23 +3361,23 @@ var _keys = __webpack_require__(60);
 
 var _keys2 = _interopRequireDefault(_keys);
 
-var _getPrototypeOf = __webpack_require__(4);
+var _getPrototypeOf = __webpack_require__(3);
 
 var _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);
 
-var _classCallCheck2 = __webpack_require__(5);
+var _classCallCheck2 = __webpack_require__(4);
 
 var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
 
-var _createClass2 = __webpack_require__(6);
+var _createClass2 = __webpack_require__(5);
 
 var _createClass3 = _interopRequireDefault(_createClass2);
 
-var _possibleConstructorReturn2 = __webpack_require__(7);
+var _possibleConstructorReturn2 = __webpack_require__(6);
 
 var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
 
-var _inherits2 = __webpack_require__(8);
+var _inherits2 = __webpack_require__(7);
 
 var _inherits3 = _interopRequireDefault(_inherits2);
 
@@ -3395,7 +3395,7 @@ var _redaction = __webpack_require__(31);
 
 var _helpers = __webpack_require__(11);
 
-var _modals = __webpack_require__(1174);
+var _modals = __webpack_require__(1177);
 
 var _modals2 = _interopRequireDefault(_modals);
 
@@ -3403,7 +3403,7 @@ var _reactCssModules = __webpack_require__(1);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _ModalConductor = __webpack_require__(1222);
+var _ModalConductor = __webpack_require__(1225);
 
 var _ModalConductor2 = _interopRequireDefault(_ModalConductor);
 
@@ -3532,7 +3532,7 @@ var _reactCssModules = __webpack_require__(1);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _Overlay = __webpack_require__(1178);
+var _Overlay = __webpack_require__(1181);
 
 var _Overlay2 = _interopRequireDefault(_Overlay);
 
@@ -3584,7 +3584,7 @@ var _propTypes = __webpack_require__(9);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
-var _classnames = __webpack_require__(42);
+var _classnames = __webpack_require__(43);
 
 var _classnames2 = _interopRequireDefault(_classnames);
 
@@ -3592,7 +3592,7 @@ var _reactCssModules = __webpack_require__(1);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _Center = __webpack_require__(1179);
+var _Center = __webpack_require__(1182);
 
 var _Center2 = _interopRequireDefault(_Center);
 
@@ -3657,7 +3657,7 @@ var _reactCssModules = __webpack_require__(1);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _ButtonsInRow = __webpack_require__(1184);
+var _ButtonsInRow = __webpack_require__(1187);
 
 var _ButtonsInRow2 = _interopRequireDefault(_ButtonsInRow);
 
@@ -3703,23 +3703,23 @@ var _objectWithoutProperties2 = __webpack_require__(53);
 
 var _objectWithoutProperties3 = _interopRequireDefault(_objectWithoutProperties2);
 
-var _getPrototypeOf = __webpack_require__(4);
+var _getPrototypeOf = __webpack_require__(3);
 
 var _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);
 
-var _classCallCheck2 = __webpack_require__(5);
+var _classCallCheck2 = __webpack_require__(4);
 
 var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
 
-var _createClass2 = __webpack_require__(6);
+var _createClass2 = __webpack_require__(5);
 
 var _createClass3 = _interopRequireDefault(_createClass2);
 
-var _possibleConstructorReturn2 = __webpack_require__(7);
+var _possibleConstructorReturn2 = __webpack_require__(6);
 
 var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
 
-var _inherits2 = __webpack_require__(8);
+var _inherits2 = __webpack_require__(7);
 
 var _inherits3 = _interopRequireDefault(_inherits2);
 
@@ -3733,7 +3733,7 @@ var _propTypes = __webpack_require__(9);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
-var _autosize = __webpack_require__(1204);
+var _autosize = __webpack_require__(1207);
 
 var _autosize2 = _interopRequireDefault(_autosize);
 
@@ -3846,23 +3846,23 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = undefined;
 
-var _getPrototypeOf = __webpack_require__(4);
+var _getPrototypeOf = __webpack_require__(3);
 
 var _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);
 
-var _classCallCheck2 = __webpack_require__(5);
+var _classCallCheck2 = __webpack_require__(4);
 
 var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
 
-var _createClass2 = __webpack_require__(6);
+var _createClass2 = __webpack_require__(5);
 
 var _createClass3 = _interopRequireDefault(_createClass2);
 
-var _possibleConstructorReturn2 = __webpack_require__(7);
+var _possibleConstructorReturn2 = __webpack_require__(6);
 
 var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
 
-var _inherits2 = __webpack_require__(8);
+var _inherits2 = __webpack_require__(7);
 
 var _inherits3 = _interopRequireDefault(_inherits2);
 
@@ -3876,7 +3876,7 @@ var _propTypes = __webpack_require__(9);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
-var _classnames = __webpack_require__(42);
+var _classnames = __webpack_require__(43);
 
 var _classnames2 = _interopRequireDefault(_classnames);
 
@@ -3888,7 +3888,7 @@ var _reactCssModules = __webpack_require__(1);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _Notification = __webpack_require__(1227);
+var _Notification = __webpack_require__(1230);
 
 var _Notification2 = _interopRequireDefault(_Notification);
 
@@ -4005,7 +4005,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactDom = __webpack_require__(272);
+var _reactDom = __webpack_require__(274);
 
 var _reactDom2 = _interopRequireDefault(_reactDom);
 
@@ -4013,15 +4013,15 @@ var _routes = __webpack_require__(477);
 
 var _routes2 = _interopRequireDefault(_routes);
 
-var _store = __webpack_require__(226);
+var _store = __webpack_require__(228);
 
 var _store2 = _interopRequireDefault(_store);
 
-var _Root = __webpack_require__(1091);
+var _Root = __webpack_require__(1094);
 
 var _Root2 = _interopRequireDefault(_Root);
 
-var _Loader = __webpack_require__(260);
+var _Loader = __webpack_require__(262);
 
 var _Loader2 = _interopRequireDefault(_Loader);
 
@@ -4058,7 +4058,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactRouter = __webpack_require__(136);
+var _reactRouter = __webpack_require__(138);
 
 var _reactRouterDom = __webpack_require__(57);
 
@@ -4088,6 +4088,10 @@ var _Affiliate = __webpack_require__(1090);
 
 var _Affiliate2 = _interopRequireDefault(_Affiliate);
 
+var _Listing = __webpack_require__(1091);
+
+var _Listing2 = _interopRequireDefault(_Listing);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var routes = _react2.default.createElement(
@@ -4096,6 +4100,7 @@ var routes = _react2.default.createElement(
   _react2.default.createElement(_reactRouter.Route, { path: _helpers.links.home + 'orders/:buy-:sell', component: _Home2.default }),
   _react2.default.createElement(_reactRouter.Route, { exact: true, path: _helpers.links.home, component: _Home2.default }),
   _react2.default.createElement(_reactRouter.Route, { exact: true, path: _helpers.links.affiliate, component: _Affiliate2.default }),
+  _react2.default.createElement(_reactRouter.Route, { path: _helpers.links.listing, component: _Listing2.default }),
   _react2.default.createElement(_reactRouter.Route, { path: _helpers.links.wallet, component: _Wallet2.default }),
   _react2.default.createElement(_reactRouter.Route, { path: _helpers.links.history, component: _History2.default }),
   _react2.default.createElement(_reactRouter.Route, { path: _helpers.links.swap + '/:buy-:sell/:orderId', component: _Swap2.default }),
@@ -4134,7 +4139,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _bitcoinjsLib = __webpack_require__(189);
+var _bitcoinjsLib = __webpack_require__(191);
 
 var _bitcoinjsLib2 = _interopRequireDefault(_bitcoinjsLib);
 
@@ -4380,7 +4385,9 @@ exports.default = {
   history: '/history',
   swap: '/swap',
   feed: '/feed',
-  affiliate: '/affiliate'
+  affiliate: '/affiliate',
+  listing: '/listing',
+  testnet: 'https:/testnet.swap.online'
 };
 
 /***/ }),
@@ -4620,7 +4627,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _stringify = __webpack_require__(362);
+var _stringify = __webpack_require__(364);
 
 var _stringify2 = _interopRequireDefault(_stringify);
 
@@ -4799,23 +4806,23 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = undefined;
 
-var _getPrototypeOf = __webpack_require__(4);
+var _getPrototypeOf = __webpack_require__(3);
 
 var _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);
 
-var _classCallCheck2 = __webpack_require__(5);
+var _classCallCheck2 = __webpack_require__(4);
 
 var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
 
-var _createClass2 = __webpack_require__(6);
+var _createClass2 = __webpack_require__(5);
 
 var _createClass3 = _interopRequireDefault(_createClass2);
 
-var _possibleConstructorReturn2 = __webpack_require__(7);
+var _possibleConstructorReturn2 = __webpack_require__(6);
 
 var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
 
-var _inherits2 = __webpack_require__(8);
+var _inherits2 = __webpack_require__(7);
 
 var _inherits3 = _interopRequireDefault(_inherits2);
 
@@ -4831,15 +4838,15 @@ var _actions2 = _interopRequireDefault(_actions);
 
 var _helpers = __webpack_require__(11);
 
-var _PageHeadline = __webpack_require__(161);
+var _PageHeadline = __webpack_require__(124);
 
 var _PageHeadline2 = _interopRequireDefault(_PageHeadline);
 
-var _Title = __webpack_require__(415);
+var _Title = __webpack_require__(417);
 
 var _Title2 = _interopRequireDefault(_Title);
 
-var _SubTitle = __webpack_require__(125);
+var _SubTitle = __webpack_require__(98);
 
 var _SubTitle2 = _interopRequireDefault(_SubTitle);
 
@@ -5077,7 +5084,7 @@ var _objectWithoutProperties2 = __webpack_require__(53);
 
 var _objectWithoutProperties3 = _interopRequireDefault(_objectWithoutProperties2);
 
-var _defineProperty2 = __webpack_require__(157);
+var _defineProperty2 = __webpack_require__(159);
 
 var _defineProperty3 = _interopRequireDefault(_defineProperty2);
 
@@ -5123,7 +5130,7 @@ var _objectWithoutProperties2 = __webpack_require__(53);
 
 var _objectWithoutProperties3 = _interopRequireDefault(_objectWithoutProperties2);
 
-var _defineProperty2 = __webpack_require__(157);
+var _defineProperty2 = __webpack_require__(159);
 
 var _defineProperty3 = _interopRequireDefault(_defineProperty2);
 
@@ -5172,7 +5179,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.setTransactions = exports.setFilter = exports.initialState = undefined;
 
-var _toConsumableArray2 = __webpack_require__(158);
+var _toConsumableArray2 = __webpack_require__(160);
 
 var _toConsumableArray3 = _interopRequireDefault(_toConsumableArray2);
 
@@ -5243,7 +5250,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.setTokenBalance = exports.setBalance = exports.setTokenAuthData = exports.setAuthData = exports.initialState = undefined;
 
-var _defineProperty2 = __webpack_require__(157);
+var _defineProperty2 = __webpack_require__(159);
 
 var _defineProperty3 = _interopRequireDefault(_defineProperty2);
 
@@ -5327,7 +5334,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.deleteItems = exports.addItems = exports.initialState = undefined;
 
-var _toConsumableArray2 = __webpack_require__(158);
+var _toConsumableArray2 = __webpack_require__(160);
 
 var _toConsumableArray3 = _interopRequireDefault(_toConsumableArray2);
 
@@ -5457,7 +5464,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _toConsumableArray2 = __webpack_require__(158);
+var _toConsumableArray2 = __webpack_require__(160);
 
 var _toConsumableArray3 = _interopRequireDefault(_toConsumableArray2);
 
@@ -5465,7 +5472,7 @@ var _promise = __webpack_require__(70);
 
 var _promise2 = _interopRequireDefault(_promise);
 
-var _regenerator = __webpack_require__(134);
+var _regenerator = __webpack_require__(136);
 
 var _regenerator2 = _interopRequireDefault(_regenerator);
 
@@ -5473,7 +5480,7 @@ var _keys = __webpack_require__(60);
 
 var _keys2 = _interopRequireDefault(_keys);
 
-var _asyncToGenerator2 = __webpack_require__(159);
+var _asyncToGenerator2 = __webpack_require__(161);
 
 var _asyncToGenerator3 = _interopRequireDefault(_asyncToGenerator2);
 
@@ -5489,7 +5496,7 @@ var _reducers = __webpack_require__(36);
 
 var _reducers2 = _interopRequireDefault(_reducers);
 
-var _appConfig = __webpack_require__(23);
+var _appConfig = __webpack_require__(22);
 
 var _appConfig2 = _interopRequireDefault(_appConfig);
 
@@ -5655,7 +5662,7 @@ var _assign = __webpack_require__(30);
 
 var _assign2 = _interopRequireDefault(_assign);
 
-var _stringify = __webpack_require__(362);
+var _stringify = __webpack_require__(364);
 
 var _stringify2 = _interopRequireDefault(_stringify);
 
@@ -5671,7 +5678,7 @@ var _helpers = __webpack_require__(11);
 
 var _core = __webpack_require__(97);
 
-var _bitcoinjsLib = __webpack_require__(189);
+var _bitcoinjsLib = __webpack_require__(191);
 
 var _bitcoinjsLib2 = _interopRequireDefault(_bitcoinjsLib);
 
@@ -5679,7 +5686,7 @@ var _reducers = __webpack_require__(36);
 
 var _reducers2 = _interopRequireDefault(_reducers);
 
-var _appConfig = __webpack_require__(23);
+var _appConfig = __webpack_require__(22);
 
 var _appConfig2 = _interopRequireDefault(_appConfig);
 
@@ -5852,7 +5859,7 @@ var _helpers = __webpack_require__(11);
 
 var _core = __webpack_require__(97);
 
-var _web = __webpack_require__(143);
+var _web = __webpack_require__(145);
 
 var _web2 = _interopRequireDefault(_web);
 
@@ -5860,11 +5867,11 @@ var _reducers = __webpack_require__(36);
 
 var _reducers2 = _interopRequireDefault(_reducers);
 
-var _appConfig = __webpack_require__(23);
+var _appConfig = __webpack_require__(22);
 
 var _appConfig2 = _interopRequireDefault(_appConfig);
 
-var _referral = __webpack_require__(383);
+var _referral = __webpack_require__(385);
 
 var _referral2 = _interopRequireDefault(_referral);
 
@@ -6018,7 +6025,7 @@ var _helpers = __webpack_require__(11);
 
 var _core = __webpack_require__(97);
 
-var _web = __webpack_require__(143);
+var _web = __webpack_require__(145);
 
 var _web2 = _interopRequireDefault(_web);
 
@@ -6026,11 +6033,11 @@ var _reducers = __webpack_require__(36);
 
 var _reducers2 = _interopRequireDefault(_reducers);
 
-var _appConfig = __webpack_require__(23);
+var _appConfig = __webpack_require__(22);
 
 var _appConfig2 = _interopRequireDefault(_appConfig);
 
-var _bignumber = __webpack_require__(384);
+var _bignumber = __webpack_require__(386);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -6108,18 +6115,17 @@ var getTransaction = function getTransaction(contractAddress) {
     var transactions = void 0;
 
     _helpers.request.get(url).then(function (res) {
-      console.log(res);
       if (res.status) {
         transactions = res.result.filter(function (item) {
           return item.value > 0;
         }).map(function (item) {
           return {
             confirmations: item.confirmations > 0 ? 'Confirmed' : 'Unconfirmed',
-            type: item.tokenName,
+            type: item.tokenSymbol,
             hash: item.hash,
             contractAddress: item.contractAddress,
             status: item.blockHash != null ? 1 : 0,
-            value: item.value,
+            value: new _bignumber.BigNumber(String(item.value)).dividedBy(new _bignumber.BigNumber(10).pow(Number(item.tokenDecimal))).toNumber(),
             address: item.to,
             date: item.timeStamp * 1000,
             direction: address.toLowerCase() === item.to.toLowerCase() ? 'in' : 'out'
@@ -6142,7 +6148,8 @@ var send = function send(from, to, amount, decimals) {
 
   var options = {
     from: address,
-    gas: '' + _appConfig2.default.services.web3.gas
+    gas: '' + _appConfig2.default.services.web3.gas,
+    gasPrice: '' + _appConfig2.default.services.web3.gasPrice
   };
 
   tokenContract = new _web2.default.eth.Contract(_humanStandardTokenAbi2.default, from, options);
@@ -6176,7 +6183,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _regenerator = __webpack_require__(134);
+var _regenerator = __webpack_require__(136);
 
 var _regenerator2 = _interopRequireDefault(_regenerator);
 
@@ -6184,7 +6191,7 @@ var _promise = __webpack_require__(70);
 
 var _promise2 = _interopRequireDefault(_promise);
 
-var _asyncToGenerator2 = __webpack_require__(159);
+var _asyncToGenerator2 = __webpack_require__(161);
 
 var _asyncToGenerator3 = _interopRequireDefault(_asyncToGenerator2);
 
@@ -6297,7 +6304,7 @@ var _reducers = __webpack_require__(36);
 
 var _reducers2 = _interopRequireDefault(_reducers);
 
-var _appConfig = __webpack_require__(23);
+var _appConfig = __webpack_require__(22);
 
 var _appConfig2 = _interopRequireDefault(_appConfig);
 
@@ -6568,17 +6575,17 @@ var _assign = __webpack_require__(30);
 
 var _assign2 = _interopRequireDefault(_assign);
 
-var _regenerator = __webpack_require__(134);
+var _regenerator = __webpack_require__(136);
 
 var _regenerator2 = _interopRequireDefault(_regenerator);
 
-var _asyncToGenerator2 = __webpack_require__(159);
+var _asyncToGenerator2 = __webpack_require__(161);
 
 var _asyncToGenerator3 = _interopRequireDefault(_asyncToGenerator2);
 
 var _core = __webpack_require__(97);
 
-var _appConfig = __webpack_require__(23);
+var _appConfig = __webpack_require__(22);
 
 var _appConfig2 = _interopRequireDefault(_appConfig);
 
@@ -6586,7 +6593,7 @@ var _reducers = __webpack_require__(36);
 
 var _reducers2 = _interopRequireDefault(_reducers);
 
-var _constants = __webpack_require__(361);
+var _constants = __webpack_require__(363);
 
 var _constants2 = _interopRequireDefault(_constants);
 
@@ -6627,7 +6634,7 @@ var init = function () {
             }
 
             _context.next = 3;
-            return __webpack_require__.e/* import() */(0).then(__webpack_require__.bind(null, 1231));
+            return __webpack_require__.e/* import() */(0).then(__webpack_require__.bind(null, 1234));
 
           case 3:
             EOSLibrary = _context.sent;
@@ -7148,23 +7155,23 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = undefined;
 
-var _getPrototypeOf = __webpack_require__(4);
+var _getPrototypeOf = __webpack_require__(3);
 
 var _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);
 
-var _classCallCheck2 = __webpack_require__(5);
+var _classCallCheck2 = __webpack_require__(4);
 
 var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
 
-var _createClass2 = __webpack_require__(6);
+var _createClass2 = __webpack_require__(5);
 
 var _createClass3 = _interopRequireDefault(_createClass2);
 
-var _possibleConstructorReturn2 = __webpack_require__(7);
+var _possibleConstructorReturn2 = __webpack_require__(6);
 
 var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
 
-var _inherits2 = __webpack_require__(8);
+var _inherits2 = __webpack_require__(7);
 
 var _inherits3 = _interopRequireDefault(_inherits2);
 
@@ -7184,7 +7191,7 @@ var _Row = __webpack_require__(1001);
 
 var _Row2 = _interopRequireDefault(_Row);
 
-var _Table = __webpack_require__(131);
+var _Table = __webpack_require__(132);
 
 var _Table2 = _interopRequireDefault(_Table);
 
@@ -7398,7 +7405,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _stringify = __webpack_require__(246);
+var _stringify = __webpack_require__(248);
 
 var _stringify2 = _interopRequireDefault(_stringify);
 
@@ -7483,7 +7490,7 @@ var _createClass2 = __webpack_require__(19);
 
 var _createClass3 = _interopRequireDefault(_createClass2);
 
-var _SwapApp = __webpack_require__(416);
+var _SwapApp = __webpack_require__(418);
 
 var _SwapApp2 = _interopRequireDefault(_SwapApp);
 
@@ -8102,7 +8109,7 @@ var _defineProperty2 = __webpack_require__(998);
 
 var _defineProperty3 = _interopRequireDefault(_defineProperty2);
 
-var _values = __webpack_require__(235);
+var _values = __webpack_require__(237);
 
 var _values2 = _interopRequireDefault(_values);
 
@@ -8112,7 +8119,7 @@ var _typeforce = __webpack_require__(999);
 
 var _typeforce2 = _interopRequireDefault(_typeforce);
 
-var _constants = __webpack_require__(245);
+var _constants = __webpack_require__(247);
 
 var _constants2 = _interopRequireDefault(_constants);
 
@@ -8178,23 +8185,23 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = undefined;
 
-var _getPrototypeOf = __webpack_require__(4);
+var _getPrototypeOf = __webpack_require__(3);
 
 var _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);
 
-var _classCallCheck2 = __webpack_require__(5);
+var _classCallCheck2 = __webpack_require__(4);
 
 var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
 
-var _createClass2 = __webpack_require__(6);
+var _createClass2 = __webpack_require__(5);
 
 var _createClass3 = _interopRequireDefault(_createClass2);
 
-var _possibleConstructorReturn2 = __webpack_require__(7);
+var _possibleConstructorReturn2 = __webpack_require__(6);
 
 var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
 
-var _inherits2 = __webpack_require__(8);
+var _inherits2 = __webpack_require__(7);
 
 var _inherits3 = _interopRequireDefault(_inherits2);
 
@@ -8204,7 +8211,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _appConfig = __webpack_require__(23);
+var _appConfig = __webpack_require__(22);
 
 var _appConfig2 = _interopRequireDefault(_appConfig);
 
@@ -8224,7 +8231,7 @@ var _helpers = __webpack_require__(11);
 
 var _reactRouterDom = __webpack_require__(57);
 
-var _Coins = __webpack_require__(175);
+var _Coins = __webpack_require__(176);
 
 var _Coins2 = _interopRequireDefault(_Coins);
 
@@ -8232,7 +8239,7 @@ var _RequestButton = __webpack_require__(1011);
 
 var _RequestButton2 = _interopRequireDefault(_RequestButton);
 
-var _RemoveButton = __webpack_require__(422);
+var _RemoveButton = __webpack_require__(424);
 
 var _RemoveButton2 = _interopRequireDefault(_RemoveButton);
 
@@ -8304,8 +8311,8 @@ var Row = (_temp2 = _class = function (_Component) {
           buyAmount = row.buyAmount,
           isMy = row.isMy;
 
-      var amount = isMy ? sellAmount : buyAmount;
-      var currency = isMy ? sellCurrency : buyCurrency;
+      var amount = isMy ? buyAmount : sellAmount;
+      var currency = isMy ? buyCurrency : sellCurrency;
       currency = currency.toLowerCase();
 
       if (currency === 'eth') {
@@ -8349,9 +8356,6 @@ var Row = (_temp2 = _class = function (_Component) {
       if (row === undefined) {
         return null;
       }
-
-      console.log(balance);
-      console.log(amount);
 
       var id = row.id,
           buyCurrency = row.buyCurrency,
@@ -8408,7 +8412,7 @@ var Row = (_temp2 = _class = function (_Component) {
                 { to: _helpers.links.swap + '/' + buyCurrency + '-' + sellCurrency + '/' + id },
                 ' Go to the swap'
               )
-            ) : balance > amount ? _react2.default.createElement(
+            ) : Boolean(true) ? _react2.default.createElement(
               _reactRouterDom.Link,
               { to: _helpers.links.swap + '/' + buyCurrency + '-' + sellCurrency + '/' + id },
               _react2.default.createElement(_RequestButton2.default, { sendRequest: function sendRequest() {
@@ -8499,23 +8503,23 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = undefined;
 
-var _getPrototypeOf = __webpack_require__(4);
+var _getPrototypeOf = __webpack_require__(3);
 
 var _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);
 
-var _classCallCheck2 = __webpack_require__(5);
+var _classCallCheck2 = __webpack_require__(4);
 
 var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
 
-var _createClass2 = __webpack_require__(6);
+var _createClass2 = __webpack_require__(5);
 
 var _createClass3 = _interopRequireDefault(_createClass2);
 
-var _possibleConstructorReturn2 = __webpack_require__(7);
+var _possibleConstructorReturn2 = __webpack_require__(6);
 
 var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
 
-var _inherits2 = __webpack_require__(8);
+var _inherits2 = __webpack_require__(7);
 
 var _inherits3 = _interopRequireDefault(_inherits2);
 
@@ -8600,11 +8604,11 @@ var _SearchSwap = __webpack_require__(1016);
 
 var _SearchSwap2 = _interopRequireDefault(_SearchSwap);
 
-var _CurrencySelect = __webpack_require__(423);
+var _CurrencySelect = __webpack_require__(425);
 
 var _CurrencySelect2 = _interopRequireDefault(_CurrencySelect);
 
-var _Flip = __webpack_require__(424);
+var _Flip = __webpack_require__(426);
 
 var _Flip2 = _interopRequireDefault(_Flip);
 
@@ -8677,23 +8681,23 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = undefined;
 
-var _getPrototypeOf = __webpack_require__(4);
+var _getPrototypeOf = __webpack_require__(3);
 
 var _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);
 
-var _classCallCheck2 = __webpack_require__(5);
+var _classCallCheck2 = __webpack_require__(4);
 
 var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
 
-var _createClass2 = __webpack_require__(6);
+var _createClass2 = __webpack_require__(5);
 
 var _createClass3 = _interopRequireDefault(_createClass2);
 
-var _possibleConstructorReturn2 = __webpack_require__(7);
+var _possibleConstructorReturn2 = __webpack_require__(6);
 
 var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
 
-var _inherits2 = __webpack_require__(8);
+var _inherits2 = __webpack_require__(7);
 
 var _inherits3 = _interopRequireDefault(_inherits2);
 
@@ -8707,7 +8711,7 @@ var _propTypes = __webpack_require__(9);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
-var _classnames = __webpack_require__(42);
+var _classnames = __webpack_require__(43);
 
 var _classnames2 = _interopRequireDefault(_classnames);
 
@@ -8894,23 +8898,23 @@ var _extends2 = __webpack_require__(65);
 
 var _extends3 = _interopRequireDefault(_extends2);
 
-var _getPrototypeOf = __webpack_require__(4);
+var _getPrototypeOf = __webpack_require__(3);
 
 var _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);
 
-var _classCallCheck2 = __webpack_require__(5);
+var _classCallCheck2 = __webpack_require__(4);
 
 var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
 
-var _createClass2 = __webpack_require__(6);
+var _createClass2 = __webpack_require__(5);
 
 var _createClass3 = _interopRequireDefault(_createClass2);
 
-var _possibleConstructorReturn2 = __webpack_require__(7);
+var _possibleConstructorReturn2 = __webpack_require__(6);
 
 var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
 
-var _inherits2 = __webpack_require__(8);
+var _inherits2 = __webpack_require__(7);
 
 var _inherits3 = _interopRequireDefault(_inherits2);
 
@@ -9007,7 +9011,7 @@ var _Option = __webpack_require__(1022);
 
 var _Option2 = _interopRequireDefault(_Option);
 
-var _CurrencyIcon = __webpack_require__(421);
+var _CurrencyIcon = __webpack_require__(423);
 
 var _CurrencyIcon2 = _interopRequireDefault(_CurrencyIcon);
 
@@ -9058,23 +9062,23 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = undefined;
 
-var _getPrototypeOf = __webpack_require__(4);
+var _getPrototypeOf = __webpack_require__(3);
 
 var _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);
 
-var _classCallCheck2 = __webpack_require__(5);
+var _classCallCheck2 = __webpack_require__(4);
 
 var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
 
-var _createClass2 = __webpack_require__(6);
+var _createClass2 = __webpack_require__(5);
 
 var _createClass3 = _interopRequireDefault(_createClass2);
 
-var _possibleConstructorReturn2 = __webpack_require__(7);
+var _possibleConstructorReturn2 = __webpack_require__(6);
 
 var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
 
-var _inherits2 = __webpack_require__(8);
+var _inherits2 = __webpack_require__(7);
 
 var _inherits3 = _interopRequireDefault(_inherits2);
 
@@ -9090,7 +9094,7 @@ var _actions = __webpack_require__(15);
 
 var _actions2 = _interopRequireDefault(_actions);
 
-var _Table = __webpack_require__(131);
+var _Table = __webpack_require__(132);
 
 var _Table2 = _interopRequireDefault(_Table);
 
@@ -9197,7 +9201,7 @@ var _propTypes = __webpack_require__(9);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
-var _appConfig = __webpack_require__(23);
+var _appConfig = __webpack_require__(22);
 
 var _appConfig2 = _interopRequireDefault(_appConfig);
 
@@ -9213,7 +9217,7 @@ var _RowFeeds = __webpack_require__(1027);
 
 var _RowFeeds2 = _interopRequireDefault(_RowFeeds);
 
-var _Coins = __webpack_require__(175);
+var _Coins = __webpack_require__(176);
 
 var _Coins2 = _interopRequireDefault(_Coins);
 
@@ -9348,23 +9352,23 @@ var _extends2 = __webpack_require__(65);
 
 var _extends3 = _interopRequireDefault(_extends2);
 
-var _getPrototypeOf = __webpack_require__(4);
+var _getPrototypeOf = __webpack_require__(3);
 
 var _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);
 
-var _classCallCheck2 = __webpack_require__(5);
+var _classCallCheck2 = __webpack_require__(4);
 
 var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
 
-var _createClass2 = __webpack_require__(6);
+var _createClass2 = __webpack_require__(5);
 
 var _createClass3 = _interopRequireDefault(_createClass2);
 
-var _possibleConstructorReturn2 = __webpack_require__(7);
+var _possibleConstructorReturn2 = __webpack_require__(6);
 
 var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
 
-var _inherits2 = __webpack_require__(8);
+var _inherits2 = __webpack_require__(7);
 
 var _inherits3 = _interopRequireDefault(_inherits2);
 
@@ -9386,11 +9390,11 @@ var _actions = __webpack_require__(15);
 
 var _actions2 = _interopRequireDefault(_actions);
 
-var _PageHeadline = __webpack_require__(161);
+var _PageHeadline = __webpack_require__(124);
 
 var _PageHeadline2 = _interopRequireDefault(_PageHeadline);
 
-var _SubTitle = __webpack_require__(125);
+var _SubTitle = __webpack_require__(98);
 
 var _SubTitle2 = _interopRequireDefault(_SubTitle);
 
@@ -9398,7 +9402,7 @@ var _SaveKeys = __webpack_require__(1029);
 
 var _SaveKeys2 = _interopRequireDefault(_SaveKeys);
 
-var _Table = __webpack_require__(131);
+var _Table = __webpack_require__(132);
 
 var _Table2 = _interopRequireDefault(_Table);
 
@@ -9547,23 +9551,23 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = undefined;
 
-var _getPrototypeOf = __webpack_require__(4);
+var _getPrototypeOf = __webpack_require__(3);
 
 var _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);
 
-var _classCallCheck2 = __webpack_require__(5);
+var _classCallCheck2 = __webpack_require__(4);
 
 var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
 
-var _createClass2 = __webpack_require__(6);
+var _createClass2 = __webpack_require__(5);
 
 var _createClass3 = _interopRequireDefault(_createClass2);
 
-var _possibleConstructorReturn2 = __webpack_require__(7);
+var _possibleConstructorReturn2 = __webpack_require__(6);
 
 var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
 
-var _inherits2 = __webpack_require__(8);
+var _inherits2 = __webpack_require__(7);
 
 var _inherits3 = _interopRequireDefault(_inherits2);
 
@@ -9587,7 +9591,7 @@ var _Field = __webpack_require__(1031);
 
 var _Field2 = _interopRequireDefault(_Field);
 
-var _Button = __webpack_require__(45);
+var _Button = __webpack_require__(37);
 
 var _Button2 = _interopRequireDefault(_Button);
 
@@ -9760,11 +9764,11 @@ var _Confirm = __webpack_require__(1035);
 
 var _Confirm2 = _interopRequireDefault(_Confirm);
 
-var _SubTitle = __webpack_require__(125);
+var _SubTitle = __webpack_require__(98);
 
 var _SubTitle2 = _interopRequireDefault(_SubTitle);
 
-var _Button = __webpack_require__(45);
+var _Button = __webpack_require__(37);
 
 var _Button2 = _interopRequireDefault(_Button);
 
@@ -9821,23 +9825,23 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = undefined;
 
-var _getPrototypeOf = __webpack_require__(4);
+var _getPrototypeOf = __webpack_require__(3);
 
 var _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);
 
-var _classCallCheck2 = __webpack_require__(5);
+var _classCallCheck2 = __webpack_require__(4);
 
 var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
 
-var _createClass2 = __webpack_require__(6);
+var _createClass2 = __webpack_require__(5);
 
 var _createClass3 = _interopRequireDefault(_createClass2);
 
-var _possibleConstructorReturn2 = __webpack_require__(7);
+var _possibleConstructorReturn2 = __webpack_require__(6);
 
 var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
 
-var _inherits2 = __webpack_require__(8);
+var _inherits2 = __webpack_require__(7);
 
 var _inherits3 = _interopRequireDefault(_inherits2);
 
@@ -9861,19 +9865,19 @@ var _Row = __webpack_require__(1037);
 
 var _Row2 = _interopRequireDefault(_Row);
 
-var _Coin = __webpack_require__(248);
+var _Coin = __webpack_require__(250);
 
 var _Coin2 = _interopRequireDefault(_Coin);
 
-var _WithdrawButton = __webpack_require__(425);
+var _WithdrawButton = __webpack_require__(427);
 
 var _WithdrawButton2 = _interopRequireDefault(_WithdrawButton);
 
-var _ReloadButton = __webpack_require__(426);
+var _ReloadButton = __webpack_require__(428);
 
 var _ReloadButton2 = _interopRequireDefault(_ReloadButton);
 
-var _InlineLoader = __webpack_require__(101);
+var _InlineLoader = __webpack_require__(102);
 
 var _InlineLoader2 = _interopRequireDefault(_InlineLoader);
 
@@ -10117,11 +10121,11 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _appConfig = __webpack_require__(23);
+var _appConfig = __webpack_require__(22);
 
 var _appConfig2 = _interopRequireDefault(_appConfig);
 
-var _Href = __webpack_require__(427);
+var _Href = __webpack_require__(251);
 
 var _Href2 = _interopRequireDefault(_Href);
 
@@ -10183,23 +10187,23 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = undefined;
 
-var _getPrototypeOf = __webpack_require__(4);
+var _getPrototypeOf = __webpack_require__(3);
 
 var _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);
 
-var _classCallCheck2 = __webpack_require__(5);
+var _classCallCheck2 = __webpack_require__(4);
 
 var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
 
-var _createClass2 = __webpack_require__(6);
+var _createClass2 = __webpack_require__(5);
 
 var _createClass3 = _interopRequireDefault(_createClass2);
 
-var _possibleConstructorReturn2 = __webpack_require__(7);
+var _possibleConstructorReturn2 = __webpack_require__(6);
 
 var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
 
-var _inherits2 = __webpack_require__(8);
+var _inherits2 = __webpack_require__(7);
 
 var _inherits3 = _interopRequireDefault(_inherits2);
 
@@ -10207,11 +10211,11 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _swap = __webpack_require__(132);
+var _swap = __webpack_require__(133);
 
 var _swap2 = _interopRequireDefault(_swap);
 
-var _InlineLoader = __webpack_require__(101);
+var _InlineLoader = __webpack_require__(102);
 
 var _InlineLoader2 = _interopRequireDefault(_InlineLoader);
 
@@ -10290,11 +10294,11 @@ var _keys = __webpack_require__(75);
 
 var _keys2 = _interopRequireDefault(_keys);
 
-var _extends2 = __webpack_require__(102);
+var _extends2 = __webpack_require__(103);
 
 var _extends3 = _interopRequireDefault(_extends2);
 
-var _objectWithoutProperties2 = __webpack_require__(250);
+var _objectWithoutProperties2 = __webpack_require__(253);
 
 var _objectWithoutProperties3 = _interopRequireDefault(_objectWithoutProperties2);
 
@@ -10306,7 +10310,7 @@ var _createClass2 = __webpack_require__(19);
 
 var _createClass3 = _interopRequireDefault(_createClass2);
 
-var _bignumber = __webpack_require__(251);
+var _bignumber = __webpack_require__(254);
 
 var _bignumber2 = _interopRequireDefault(_bignumber);
 
@@ -10314,7 +10318,7 @@ var _swap = __webpack_require__(12);
 
 var _swap2 = _interopRequireDefault(_swap);
 
-var _Room = __webpack_require__(428);
+var _Room = __webpack_require__(429);
 
 var _Room2 = _interopRequireDefault(_Room);
 
@@ -10455,11 +10459,11 @@ var _asyncToGenerator2 = __webpack_require__(77);
 
 var _asyncToGenerator3 = _interopRequireDefault(_asyncToGenerator2);
 
-var _toConsumableArray2 = __webpack_require__(444);
+var _toConsumableArray2 = __webpack_require__(445);
 
 var _toConsumableArray3 = _interopRequireDefault(_toConsumableArray2);
 
-var _extends2 = __webpack_require__(102);
+var _extends2 = __webpack_require__(103);
 
 var _extends3 = _interopRequireDefault(_extends2);
 
@@ -10475,7 +10479,7 @@ var _swap2 = __webpack_require__(12);
 
 var _swap3 = _interopRequireDefault(_swap2);
 
-var _Room = __webpack_require__(428);
+var _Room = __webpack_require__(429);
 
 var _Room2 = _interopRequireDefault(_Room);
 
@@ -10676,23 +10680,23 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = undefined;
 
-var _getPrototypeOf = __webpack_require__(4);
+var _getPrototypeOf = __webpack_require__(3);
 
 var _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);
 
-var _classCallCheck2 = __webpack_require__(5);
+var _classCallCheck2 = __webpack_require__(4);
 
 var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
 
-var _createClass2 = __webpack_require__(6);
+var _createClass2 = __webpack_require__(5);
 
 var _createClass3 = _interopRequireDefault(_createClass2);
 
-var _possibleConstructorReturn2 = __webpack_require__(7);
+var _possibleConstructorReturn2 = __webpack_require__(6);
 
 var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
 
-var _inherits2 = __webpack_require__(8);
+var _inherits2 = __webpack_require__(7);
 
 var _inherits3 = _interopRequireDefault(_inherits2);
 
@@ -10700,23 +10704,23 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _appConfig = __webpack_require__(23);
+var _appConfig = __webpack_require__(22);
 
 var _appConfig2 = _interopRequireDefault(_appConfig);
 
-var _InlineLoader = __webpack_require__(101);
+var _InlineLoader = __webpack_require__(102);
 
 var _InlineLoader2 = _interopRequireDefault(_InlineLoader);
 
-var _TimerButton = __webpack_require__(255);
+var _TimerButton = __webpack_require__(135);
 
 var _TimerButton2 = _interopRequireDefault(_TimerButton);
 
-var _Button = __webpack_require__(45);
+var _Button = __webpack_require__(37);
 
 var _Button2 = _interopRequireDefault(_Button);
 
-var _Timer = __webpack_require__(445);
+var _Timer = __webpack_require__(179);
 
 var _Timer2 = _interopRequireDefault(_Timer);
 
@@ -11105,23 +11109,23 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = undefined;
 
-var _getPrototypeOf = __webpack_require__(4);
+var _getPrototypeOf = __webpack_require__(3);
 
 var _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);
 
-var _classCallCheck2 = __webpack_require__(5);
+var _classCallCheck2 = __webpack_require__(4);
 
 var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
 
-var _createClass2 = __webpack_require__(6);
+var _createClass2 = __webpack_require__(5);
 
 var _createClass3 = _interopRequireDefault(_createClass2);
 
-var _possibleConstructorReturn2 = __webpack_require__(7);
+var _possibleConstructorReturn2 = __webpack_require__(6);
 
 var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
 
-var _inherits2 = __webpack_require__(8);
+var _inherits2 = __webpack_require__(7);
 
 var _inherits3 = _interopRequireDefault(_inherits2);
 
@@ -11129,23 +11133,23 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _appConfig = __webpack_require__(23);
+var _appConfig = __webpack_require__(22);
 
 var _appConfig2 = _interopRequireDefault(_appConfig);
 
-var _InlineLoader = __webpack_require__(101);
+var _InlineLoader = __webpack_require__(102);
 
 var _InlineLoader2 = _interopRequireDefault(_InlineLoader);
 
-var _TimerButton = __webpack_require__(255);
+var _TimerButton = __webpack_require__(135);
 
 var _TimerButton2 = _interopRequireDefault(_TimerButton);
 
-var _Button = __webpack_require__(45);
+var _Button = __webpack_require__(37);
 
 var _Button2 = _interopRequireDefault(_Button);
 
-var _Timer = __webpack_require__(445);
+var _Timer = __webpack_require__(179);
 
 var _Timer2 = _interopRequireDefault(_Timer);
 
@@ -11542,23 +11546,23 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = undefined;
 
-var _getPrototypeOf = __webpack_require__(4);
+var _getPrototypeOf = __webpack_require__(3);
 
 var _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);
 
-var _classCallCheck2 = __webpack_require__(5);
+var _classCallCheck2 = __webpack_require__(4);
 
 var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
 
-var _createClass2 = __webpack_require__(6);
+var _createClass2 = __webpack_require__(5);
 
 var _createClass3 = _interopRequireDefault(_createClass2);
 
-var _possibleConstructorReturn2 = __webpack_require__(7);
+var _possibleConstructorReturn2 = __webpack_require__(6);
 
 var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
 
-var _inherits2 = __webpack_require__(8);
+var _inherits2 = __webpack_require__(7);
 
 var _inherits3 = _interopRequireDefault(_inherits2);
 
@@ -11566,9 +11570,25 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _InlineLoader = __webpack_require__(101);
+var _appConfig = __webpack_require__(22);
+
+var _appConfig2 = _interopRequireDefault(_appConfig);
+
+var _InlineLoader = __webpack_require__(102);
 
 var _InlineLoader2 = _interopRequireDefault(_InlineLoader);
+
+var _TimerButton = __webpack_require__(135);
+
+var _TimerButton2 = _interopRequireDefault(_TimerButton);
+
+var _Button = __webpack_require__(37);
+
+var _Button2 = _interopRequireDefault(_Button);
+
+var _Timer = __webpack_require__(179);
+
+var _Timer2 = _interopRequireDefault(_Timer);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -11606,7 +11626,8 @@ var EthTokenToBtc = function (_Component) {
     _this.swap = swap;
 
     _this.state = {
-      flow: _this.swap.flow.state
+      flow: _this.swap.flow.state,
+      enabledButton: false
     };
     return _this;
   }
@@ -11624,37 +11645,16 @@ var EthTokenToBtc = function (_Component) {
   }, {
     key: 'render',
     value: function render() {
-      var flow = this.state.flow;
+      var _this2 = this;
+
+      var _state = this.state,
+          flow = _state.flow,
+          enabledButton = _state.enabledButton;
 
 
       return _react2.default.createElement(
         'div',
         null,
-        _react2.default.createElement(
-          'button',
-          { onClick: this.tryRefund },
-          'TRY REFUND'
-        ),
-        flow.refundTransactionHash && _react2.default.createElement(
-          'div',
-          null,
-          'Transaction:',
-          _react2.default.createElement(
-            'strong',
-            null,
-            _react2.default.createElement(
-              'a',
-              {
-                href: 'https://rinkeby.etherscan.io/tx/' + flow.refundTransactionHash,
-                target: '_blank',
-                rel: 'noopener noreferrer'
-              },
-              flow.refundTransactionHash
-            )
-          )
-        ),
-        _react2.default.createElement('br', null),
-        _react2.default.createElement('br', null),
         this.swap.id && _react2.default.createElement(
           'strong',
           null,
@@ -11694,8 +11694,8 @@ var EthTokenToBtc = function (_Component) {
             null,
             _react2.default.createElement('br', null),
             _react2.default.createElement(
-              'button',
-              { onClick: this.signSwap },
+              _TimerButton2.default,
+              { brand: true, onClick: this.signSwap },
               'Confirm'
             )
           ),
@@ -11717,7 +11717,7 @@ var EthTokenToBtc = function (_Component) {
                 _react2.default.createElement(
                   'a',
                   {
-                    href: 'https://rinkeby.etherscan.io/tx/' + flow.signTransactionHash,
+                    href: _appConfig2.default.link.etherscan + '/tx/' + flow.signTransactionHash,
                     target: '_blank',
                     rel: 'noopener noreferrer'
                   },
@@ -11762,14 +11762,14 @@ var EthTokenToBtc = function (_Component) {
               _react2.default.createElement(
                 'strong',
                 null,
-                _react2.default.createElement(
+                flow.btcScriptCreatingTransactionHash && _react2.default.createElement(
                   'a',
                   {
-                    href: 'https://www.blocktrail.com/tBTC/address/' + flow.btcScriptValues.address,
+                    href: _appConfig2.default.link.bitpay + '/tx/' + flow.btcScriptCreatingTransactionHash,
                     target: '_blank',
                     rel: 'noopener noreferrer'
                   },
-                  flow.btcScriptValues.address
+                  flow.btcScriptCreatingTransactionHash
                 )
               )
             ),
@@ -11788,8 +11788,8 @@ var EthTokenToBtc = function (_Component) {
               null,
               _react2.default.createElement('br', null),
               _react2.default.createElement(
-                'button',
-                { onClick: this.confirmBTCScriptChecked },
+                _TimerButton2.default,
+                { brand: true, onClick: this.confirmBTCScriptChecked },
                 'Everything is OK. Continue'
               )
             )
@@ -11838,8 +11838,8 @@ var EthTokenToBtc = function (_Component) {
             ),
             _react2.default.createElement('br', null),
             _react2.default.createElement(
-              'button',
-              { type: 'button', onClick: this.updateBalance },
+              _TimerButton2.default,
+              { brand: true, onClick: this.updateBalance },
               'Continue'
             )
           ),
@@ -11853,7 +11853,7 @@ var EthTokenToBtc = function (_Component) {
             ),
             _react2.default.createElement(_InlineLoader2.default, null)
           ),
-          (flow.step === 5 || flow.isEthContractFunded) && _react2.default.createElement(
+          (flow.step >= 5 || flow.isEthContractFunded) && _react2.default.createElement(
             'h3',
             null,
             '4. Creating Ethereum Contract. Please wait, it will take a while'
@@ -11868,7 +11868,7 @@ var EthTokenToBtc = function (_Component) {
               _react2.default.createElement(
                 'a',
                 {
-                  href: 'https://rinkeby.etherscan.io/tx/' + flow.ethSwapCreationTransactionHash,
+                  href: _appConfig2.default.link.etherscan + '/tx/' + flow.ethSwapCreationTransactionHash,
                   target: '_blank',
                   rel: 'noopener noreferrer'
                 },
@@ -11877,6 +11877,24 @@ var EthTokenToBtc = function (_Component) {
             )
           ),
           flow.step === 5 && _react2.default.createElement(_InlineLoader2.default, null),
+          flow.refundTransactionHash && _react2.default.createElement(
+            'div',
+            null,
+            'Transaction:',
+            _react2.default.createElement(
+              'strong',
+              null,
+              _react2.default.createElement(
+                'a',
+                {
+                  href: 'https://rinkeby.etherscan.io/tx/' + flow.refundTransactionHash,
+                  target: '_blank',
+                  rel: 'noopener noreferrer'
+                },
+                flow.refundTransactionHash
+              )
+            )
+          ),
           (flow.step === 6 || flow.isEthWithdrawn) && _react2.default.createElement(
             _react.Fragment,
             null,
@@ -11902,7 +11920,7 @@ var EthTokenToBtc = function (_Component) {
               _react2.default.createElement(
                 'a',
                 {
-                  href: 'https://www.blocktrail.com/tBTC/tx/' + flow.btcSwapWithdrawTransactionHash,
+                  href: _appConfig2.default.link.bitpay + '/tx/' + flow.btcSwapWithdrawTransactionHash,
                   target: '_blank',
                   rel: 'noopener noreferrer'
                 },
@@ -11924,6 +11942,21 @@ var EthTokenToBtc = function (_Component) {
               null,
               'Thank you for using Swap.Online!'
             )
+          ),
+          flow.step >= 6 && _react2.default.createElement(
+            'div',
+            { style: { display: 'flex', alignItems: 'center' } },
+            enabledButton && _react2.default.createElement(
+              _Button2.default,
+              { brand: true, onClick: this.tryRefund },
+              'TRY REFUND'
+            ),
+            _react2.default.createElement(_Timer2.default, {
+              lockTime: flow.btcScriptValues.lockTime * 1000,
+              enabledButton: function enabledButton() {
+                return _this2.setState({ enabledButton: true });
+              }
+            })
           )
         )
       );
@@ -11946,23 +11979,23 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = undefined;
 
-var _getPrototypeOf = __webpack_require__(4);
+var _getPrototypeOf = __webpack_require__(3);
 
 var _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);
 
-var _classCallCheck2 = __webpack_require__(5);
+var _classCallCheck2 = __webpack_require__(4);
 
 var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
 
-var _createClass2 = __webpack_require__(6);
+var _createClass2 = __webpack_require__(5);
 
 var _createClass3 = _interopRequireDefault(_createClass2);
 
-var _possibleConstructorReturn2 = __webpack_require__(7);
+var _possibleConstructorReturn2 = __webpack_require__(6);
 
 var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
 
-var _inherits2 = __webpack_require__(8);
+var _inherits2 = __webpack_require__(7);
 
 var _inherits3 = _interopRequireDefault(_inherits2);
 
@@ -11970,9 +12003,25 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _InlineLoader = __webpack_require__(101);
+var _appConfig = __webpack_require__(22);
+
+var _appConfig2 = _interopRequireDefault(_appConfig);
+
+var _InlineLoader = __webpack_require__(102);
 
 var _InlineLoader2 = _interopRequireDefault(_InlineLoader);
+
+var _TimerButton = __webpack_require__(135);
+
+var _TimerButton2 = _interopRequireDefault(_TimerButton);
+
+var _Button = __webpack_require__(37);
+
+var _Button2 = _interopRequireDefault(_Button);
+
+var _Timer = __webpack_require__(179);
+
+var _Timer2 = _interopRequireDefault(_Timer);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -12002,11 +12051,33 @@ var BtcToEthToken = function (_Component) {
       _this.swap.flow.syncBalance();
     };
 
+    _this.getRefundTxHex = function () {
+      var _this$state = _this.state,
+          refundTxHex = _this$state.refundTxHex,
+          flow = _this$state.flow,
+          secret = _this$state.secret;
+
+
+      if (refundTxHex) {
+        return refundTxHex;
+      } else if (flow.btcScriptValues) {
+        _this.swap.flow.btcSwap.getRefundHexTransaction({
+          scriptValues: flow.btcScriptValues,
+          secret: secret
+        }).then(function (txHex) {
+          _this.setState({
+            refundTxHex: txHex
+          });
+        });
+      }
+    };
+
     _this.swap = swap;
 
     _this.state = {
       flow: _this.swap.flow.state,
-      secret: 'c0809ce9f484fdcdfb2d5aabd609768ce0374ee97a1a5618ce4cd3f16c00a078'
+      secret: 'c0809ce9f484fdcdfb2d5aabd609768ce0374ee97a1a5618ce4cd3f16c00a078',
+      enabledButton: false
     };
     return _this;
   }
@@ -12024,10 +12095,14 @@ var BtcToEthToken = function (_Component) {
   }, {
     key: 'render',
     value: function render() {
+      var _this2 = this;
+
       var _state = this.state,
           secret = _state.secret,
-          flow = _state.flow;
+          flow = _state.flow,
+          enabledButton = _state.enabledButton;
 
+      var refundTxHex = this.getRefundTxHex();
 
       return _react2.default.createElement(
         'div',
@@ -12077,8 +12152,8 @@ var BtcToEthToken = function (_Component) {
             _react2.default.createElement('input', { type: 'text', placeholder: 'Secret Key', defaultValue: secret }),
             _react2.default.createElement('br', null),
             _react2.default.createElement(
-              'button',
-              { onClick: this.submitSecret },
+              _TimerButton2.default,
+              { brand: true, onClick: this.submitSecret },
               'Confirm'
             )
           ) : _react2.default.createElement(
@@ -12154,8 +12229,8 @@ var BtcToEthToken = function (_Component) {
             ),
             _react2.default.createElement('br', null),
             _react2.default.createElement(
-              'button',
-              { type: 'button', onClick: this.updateBalance },
+              _TimerButton2.default,
+              { brand: true, onClick: this.updateBalance },
               'Continue'
             )
           ),
@@ -12187,7 +12262,7 @@ var BtcToEthToken = function (_Component) {
                 _react2.default.createElement(
                   'a',
                   {
-                    href: 'https://www.blocktrail.com/tBTC/tx/' + flow.btcScriptCreatingTransactionHash,
+                    href: _appConfig2.default.link.bitpay + '/tx/' + flow.btcScriptCreatingTransactionHash,
                     target: '_blank',
                     rel: 'noopener noreferrer'
                   },
@@ -12196,6 +12271,34 @@ var BtcToEthToken = function (_Component) {
               )
             ),
             !flow.btcScriptValues && _react2.default.createElement(_InlineLoader2.default, null)
+          ),
+          refundTxHex && _react2.default.createElement(
+            'div',
+            null,
+            _react2.default.createElement(
+              'h3',
+              null,
+              'Refund hex transaction:'
+            ),
+            refundTxHex
+          ),
+          flow.refundTransactionHash && _react2.default.createElement(
+            'div',
+            null,
+            'Transaction:',
+            _react2.default.createElement(
+              'strong',
+              null,
+              _react2.default.createElement(
+                'a',
+                {
+                  href: _appConfig2.default.link.bitpay + '/tx/' + flow.refundTransactionHash,
+                  target: '_blank',
+                  rel: 'noopener noreferrer'
+                },
+                flow.refundTransactionHash
+              )
+            )
           ),
           (flow.step === 5 || flow.isEthContractFunded) && _react2.default.createElement(
             _react.Fragment,
@@ -12206,6 +12309,24 @@ var BtcToEthToken = function (_Component) {
               '4. ETH Owner received Bitcoin Script and Secret Hash. Waiting when he creates ETH Contract'
             ),
             !flow.isEthContractFunded && _react2.default.createElement(_InlineLoader2.default, null)
+          ),
+          flow.ethSwapCreationTransactionHash && _react2.default.createElement(
+            'div',
+            null,
+            'Transaction:',
+            _react2.default.createElement(
+              'strong',
+              null,
+              _react2.default.createElement(
+                'a',
+                {
+                  href: _appConfig2.default.link.etherscan + '/tx/' + flow.ethSwapCreationTransactionHash,
+                  target: '_blank',
+                  rel: 'noopener noreferrer'
+                },
+                flow.ethSwapCreationTransactionHash
+              )
+            )
           ),
           (flow.step === 6 || flow.isEthWithdrawn) && _react2.default.createElement(
             'h3',
@@ -12222,7 +12343,7 @@ var BtcToEthToken = function (_Component) {
               _react2.default.createElement(
                 'a',
                 {
-                  href: 'https://rinkeby.etherscan.io/tx/' + flow.ethSwapWithdrawTransactionHash,
+                  href: _appConfig2.default.link.etherscan + '/tx/' + flow.ethSwapWithdrawTransactionHash,
                   target: '_blank',
                   rel: 'noreferrer noopener'
                 },
@@ -12244,6 +12365,21 @@ var BtcToEthToken = function (_Component) {
               null,
               'Thank you for using Swap.Online!'
             )
+          ),
+          flow.step >= 5 && _react2.default.createElement(
+            'div',
+            { style: { display: 'flex', alignItems: 'center' } },
+            enabledButton && _react2.default.createElement(
+              _Button2.default,
+              { brand: true, onClick: this.tryRefund },
+              'TRY REFUND'
+            ),
+            _react2.default.createElement(_Timer2.default, {
+              lockTime: flow.btcScriptValues.lockTime * 1000,
+              enabledButton: function enabledButton() {
+                return _this2.setState({ enabledButton: true });
+              }
+            })
           )
         )
       );
@@ -12270,23 +12406,23 @@ var _extends2 = __webpack_require__(65);
 
 var _extends3 = _interopRequireDefault(_extends2);
 
-var _getPrototypeOf = __webpack_require__(4);
+var _getPrototypeOf = __webpack_require__(3);
 
 var _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);
 
-var _classCallCheck2 = __webpack_require__(5);
+var _classCallCheck2 = __webpack_require__(4);
 
 var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
 
-var _createClass2 = __webpack_require__(6);
+var _createClass2 = __webpack_require__(5);
 
 var _createClass3 = _interopRequireDefault(_createClass2);
 
-var _possibleConstructorReturn2 = __webpack_require__(7);
+var _possibleConstructorReturn2 = __webpack_require__(6);
 
 var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
 
-var _inherits2 = __webpack_require__(8);
+var _inherits2 = __webpack_require__(7);
 
 var _inherits3 = _interopRequireDefault(_inherits2);
 
@@ -12306,11 +12442,11 @@ var _swap = __webpack_require__(12);
 
 var _swap2 = _interopRequireDefault(_swap);
 
-var _PageHeadline = __webpack_require__(161);
+var _PageHeadline = __webpack_require__(124);
 
 var _PageHeadline2 = _interopRequireDefault(_PageHeadline);
 
-var _Table = __webpack_require__(131);
+var _Table = __webpack_require__(132);
 
 var _Table2 = _interopRequireDefault(_Table);
 
@@ -12448,23 +12584,23 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = undefined;
 
-var _getPrototypeOf = __webpack_require__(4);
+var _getPrototypeOf = __webpack_require__(3);
 
 var _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);
 
-var _classCallCheck2 = __webpack_require__(5);
+var _classCallCheck2 = __webpack_require__(4);
 
 var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
 
-var _createClass2 = __webpack_require__(6);
+var _createClass2 = __webpack_require__(5);
 
 var _createClass3 = _interopRequireDefault(_createClass2);
 
-var _possibleConstructorReturn2 = __webpack_require__(7);
+var _possibleConstructorReturn2 = __webpack_require__(6);
 
 var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
 
-var _inherits2 = __webpack_require__(8);
+var _inherits2 = __webpack_require__(7);
 
 var _inherits3 = _interopRequireDefault(_inherits2);
 
@@ -12622,7 +12758,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _classnames = __webpack_require__(42);
+var _classnames = __webpack_require__(43);
 
 var _classnames2 = _interopRequireDefault(_classnames);
 
@@ -12638,7 +12774,7 @@ var _Row = __webpack_require__(1084);
 
 var _Row2 = _interopRequireDefault(_Row);
 
-var _Coin = __webpack_require__(248);
+var _Coin = __webpack_require__(250);
 
 var _Coin2 = _interopRequireDefault(_Coin);
 
@@ -12703,7 +12839,9 @@ var Row = function Row(_ref) {
       _react2.default.createElement(
         'div',
         { styleName: 'amount' },
-        value
+        value,
+        ' ',
+        type.toUpperCase()
       )
     )
   );
@@ -12733,11 +12871,11 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _appConfig = __webpack_require__(23);
+var _appConfig = __webpack_require__(22);
 
 var _appConfig2 = _interopRequireDefault(_appConfig);
 
-var _Href = __webpack_require__(427);
+var _Href = __webpack_require__(251);
 
 var _Href2 = _interopRequireDefault(_Href);
 
@@ -12764,6 +12902,11 @@ var LinkTransaction = function LinkTransaction(_ref) {
       _Href2.default,
       { tab: _appConfig2.default.link.etherscan + '/tx/' + hash },
       children
+    ),
+    type.toLowerCase() === 'swap' && _react2.default.createElement(
+      _Href2.default,
+      { tab: _appConfig2.default.link.etherscan + '/tx/' + hash },
+      children
     )
   );
 };
@@ -12782,23 +12925,23 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = undefined;
 
-var _getPrototypeOf = __webpack_require__(4);
+var _getPrototypeOf = __webpack_require__(3);
 
 var _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);
 
-var _classCallCheck2 = __webpack_require__(5);
+var _classCallCheck2 = __webpack_require__(4);
 
 var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
 
-var _createClass2 = __webpack_require__(6);
+var _createClass2 = __webpack_require__(5);
 
 var _createClass3 = _interopRequireDefault(_createClass2);
 
-var _possibleConstructorReturn2 = __webpack_require__(7);
+var _possibleConstructorReturn2 = __webpack_require__(6);
 
 var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
 
-var _inherits2 = __webpack_require__(8);
+var _inherits2 = __webpack_require__(7);
 
 var _inherits3 = _interopRequireDefault(_inherits2);
 
@@ -12806,7 +12949,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _Table = __webpack_require__(131);
+var _Table = __webpack_require__(132);
 
 var _Table2 = _interopRequireDefault(_Table);
 
@@ -12880,7 +13023,7 @@ var _propTypes = __webpack_require__(9);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
-var _appConfig = __webpack_require__(23);
+var _appConfig = __webpack_require__(22);
 
 var _appConfig2 = _interopRequireDefault(_appConfig);
 
@@ -12896,7 +13039,7 @@ var _RowHistory = __webpack_require__(1088);
 
 var _RowHistory2 = _interopRequireDefault(_RowHistory);
 
-var _Coins = __webpack_require__(175);
+var _Coins = __webpack_require__(176);
 
 var _Coins2 = _interopRequireDefault(_Coins);
 
@@ -13018,23 +13161,23 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = undefined;
 
-var _getPrototypeOf = __webpack_require__(4);
+var _getPrototypeOf = __webpack_require__(3);
 
 var _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);
 
-var _classCallCheck2 = __webpack_require__(5);
+var _classCallCheck2 = __webpack_require__(4);
 
 var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
 
-var _createClass2 = __webpack_require__(6);
+var _createClass2 = __webpack_require__(5);
 
 var _createClass3 = _interopRequireDefault(_createClass2);
 
-var _possibleConstructorReturn2 = __webpack_require__(7);
+var _possibleConstructorReturn2 = __webpack_require__(6);
 
 var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
 
-var _inherits2 = __webpack_require__(8);
+var _inherits2 = __webpack_require__(7);
 
 var _inherits3 = _interopRequireDefault(_inherits2);
 
@@ -13046,11 +13189,11 @@ var _react2 = _interopRequireDefault(_react);
 
 var _redaction = __webpack_require__(31);
 
-var _PageHeadline = __webpack_require__(161);
+var _PageHeadline = __webpack_require__(124);
 
 var _PageHeadline2 = _interopRequireDefault(_PageHeadline);
 
-var _SubTitle = __webpack_require__(125);
+var _SubTitle = __webpack_require__(98);
 
 var _SubTitle2 = _interopRequireDefault(_SubTitle);
 
@@ -13107,23 +13250,248 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = undefined;
 
-var _getPrototypeOf = __webpack_require__(4);
+var _getPrototypeOf = __webpack_require__(3);
 
 var _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);
 
-var _classCallCheck2 = __webpack_require__(5);
+var _classCallCheck2 = __webpack_require__(4);
 
 var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
 
-var _createClass2 = __webpack_require__(6);
+var _createClass2 = __webpack_require__(5);
 
 var _createClass3 = _interopRequireDefault(_createClass2);
 
-var _possibleConstructorReturn2 = __webpack_require__(7);
+var _possibleConstructorReturn2 = __webpack_require__(6);
 
 var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
 
-var _inherits2 = __webpack_require__(8);
+var _inherits2 = __webpack_require__(7);
+
+var _inherits3 = _interopRequireDefault(_inherits2);
+
+var _dec, _class;
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _SubTitle = __webpack_require__(98);
+
+var _SubTitle2 = _interopRequireDefault(_SubTitle);
+
+var _PageHeadline = __webpack_require__(124);
+
+var _PageHeadline2 = _interopRequireDefault(_PageHeadline);
+
+var _Listing = __webpack_require__(1092);
+
+var _Listing2 = _interopRequireDefault(_Listing);
+
+var _reactCssModules = __webpack_require__(1);
+
+var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
+
+var _Href = __webpack_require__(251);
+
+var _Href2 = _interopRequireDefault(_Href);
+
+var _listingScreen = __webpack_require__(1093);
+
+var _listingScreen2 = _interopRequireDefault(_listingScreen);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var Listing = (_dec = (0, _reactCssModules2.default)(_Listing2.default), _dec(_class = function (_Component) {
+  (0, _inherits3.default)(Listing, _Component);
+
+  function Listing() {
+    (0, _classCallCheck3.default)(this, Listing);
+    return (0, _possibleConstructorReturn3.default)(this, (Listing.__proto__ || (0, _getPrototypeOf2.default)(Listing)).apply(this, arguments));
+  }
+
+  (0, _createClass3.default)(Listing, [{
+    key: 'render',
+    value: function render() {
+      // const { address } = this.props
+      // console.log(address)
+      return _react2.default.createElement(
+        'div',
+        { className: 'container' },
+        _react2.default.createElement(
+          _PageHeadline2.default,
+          null,
+          _react2.default.createElement(
+            _SubTitle2.default,
+            null,
+            'Listing'
+          )
+        ),
+        _react2.default.createElement(
+          'p',
+          null,
+          'Crypto Pink Sheets: ALL Coins Welcome To SWAP.Online!'
+        ),
+        _react2.default.createElement(
+          'p',
+          null,
+          'OTC-approach-crypto market to be opened in Aug, 2018.'
+        ),
+        _react2.default.createElement(
+          'p',
+          null,
+          'There was one company in the U.S. in the year of 1913, the National Quotation Bureau. They brought to life very simple idea - to provide every entity with the ability to be quoted freely, without complicated safety and control proceedings. The list of the bond orders was primarily published on the yellow paper and the stock orders were published on the pink paper. The Pink Sheets, as the lists were immediately called by the traders. rapidly became very popular among the market players. Every firm opened in the U.S. or abroad was able to publish its securities quotations in the list of Pink Sheets. With the increasing requirements of NYSE and NASDAQ and growing demands of the SEC to the information regarding the company applying the market, the interest to the Pink Sheets arose very fast. In September, 1990, the NQB introduced the real-time Electronic Quotation Service, so the over-the-counter trading entered the Internet. By the year 2010 the operators of the Pink Sheets trading were acquisited by the OTC Market Group, Inc. In 2014, two of five U.S. stock trades were over-the-counter.'
+        ),
+        _react2.default.createElement(
+          'p',
+          null,
+          'Wal-Mart was the Pink Sheet company in 1972 and earned there USD 1B.'
+        ),
+        _react2.default.createElement(
+          'p',
+          null,
+          'Navistar International, the 12-billion-dollar-corporation, came to the Pink Sheets Market in 2006 leaving the NYSE due to some issues with the auditor board.'
+        ),
+        _react2.default.createElement(
+          'p',
+          null,
+          'In SWAP.Online we have noticed that Pink Sheets principles are very close to the initial meaning of cryptocurrencies. Both of them are based on the faith in transparency, decentralization, bilateral responsibility of buyer and seller. As we decided to make the exchange of crypto really',
+          _react2.default.createElement(
+            _Href2.default,
+            { tab: 'https://wiki.swap.online/decentralised_exchanges_2018trends_eng/' },
+            ' safe, rapid and decentralized'
+          ),
+          ', we couldn\u2019t go about this another way.'
+        ),
+        _react2.default.createElement(
+          'p',
+          null,
+          'SWAP.Online will be cryptocurrency Pink Sheets market.'
+        ),
+        _react2.default.createElement(
+          'span',
+          { styleName: 'listingImg' },
+          _react2.default.createElement('img', { src: _listingScreen2.default, alt: '' })
+        ),
+        _react2.default.createElement(
+          'p',
+          null,
+          'It\u2019s well known that even in traditional stock market, one willing to be quoted must meet the requirements of SEC, or as far as the OTC Market Group Inc. markets (OTCQX and OTCQB) are concerned, must show the big income and seek the support of the influential consulting agencies. Moreover, the information about the company audit must be provided annually to the SEC or SEC-approved regulators.'
+        ),
+        _react2.default.createElement(
+          'p',
+          null,
+          'Some of the cryptocurrency \u2018fat cats\u2019 allow themselves to do the same. For example, Localbitcoins CEO said they would newer list a token of the project with less than USD1B capitalisation. Cryptobridge and some related centralized exchanges ask for the USD 23 thousand (in BTS equivalent) for the token owner to be listed.'
+        ),
+        _react2.default.createElement(
+          'p',
+          null,
+          'That is not about us. '
+        ),
+        _react2.default.createElement(
+          'p',
+          null,
+          'As our transactions is peer-to-peer, based on the Atomic Swaps technology, we can add to the balances every token corresponding some our criterias. Obviously, clearly fraudulent projects are to be rejected from the very beginning. But all other start-ups on the different stages of development are welcome. '
+        ),
+        _react2.default.createElement(
+          'p',
+          null,
+          'In contradiction to the widespread Ethereum-pegged exchanges, the main currency to be changed on tokens in our project is Bitcoin. It can be treated as our killer-feature: for the crypto-newbies and vast majority of small customers Bitcoin is much clearer and easy to buy via Localbitcoins etc.'
+        ),
+        _react2.default.createElement(
+          'p',
+          null,
+          'We offer two-level way of access to the balances. On the first stage, we analyze the level of project technical development, collect the basic information (name, ticker, logo) and add the token to trading balances.'
+        ),
+        _react2.default.createElement(
+          'p',
+          null,
+          'Then, to start trading with Bitcoin, the project should publish the information about the collaboration with SWAP.Online on every social platform and on the web-site forum. With this information published, our developers will release the final version of the exchange to client\u2019s token. This option is available for the first ten projects only. '
+        ),
+        _react2.default.createElement(
+          'p',
+          null,
+          'The conditions of delisting are discussed, but at the moment, we plan to expel twenty per cent worst tokens every month.'
+        ),
+        _react2.default.createElement(
+          'p',
+          null,
+          'Thus, you token can start to be quoted in free and decentralized manner as quickly as possible for your unlimited profit.'
+        ),
+        _react2.default.createElement(
+          'p',
+          null,
+          _react2.default.createElement(
+            'strong',
+            null,
+            'Stay with us.'
+          ),
+          ' ',
+          _react2.default.createElement('br', null),
+          _react2.default.createElement(
+            'strong',
+            null,
+            'Grow with us.'
+          ),
+          ' ',
+          _react2.default.createElement('br', null),
+          _react2.default.createElement(
+            'strong',
+            null,
+            'Earn with us.'
+          ),
+          ' ',
+          _react2.default.createElement('br', null)
+        )
+      );
+    }
+  }]);
+  return Listing;
+}(_react.Component)) || _class);
+exports.default = Listing;
+
+/***/ }),
+/* 1092 */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+module.exports = {"listingImg":"_11f0U6"};
+
+/***/ }),
+/* 1093 */
+/***/ (function(module, exports) {
+
+module.exports = "https://testnet.swap.online/images/listing-screen_fc16f6.png";
+
+/***/ }),
+/* 1094 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = undefined;
+
+var _getPrototypeOf = __webpack_require__(3);
+
+var _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);
+
+var _classCallCheck2 = __webpack_require__(4);
+
+var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
+
+var _createClass2 = __webpack_require__(5);
+
+var _createClass3 = _interopRequireDefault(_createClass2);
+
+var _possibleConstructorReturn2 = __webpack_require__(6);
+
+var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
+
+var _inherits2 = __webpack_require__(7);
 
 var _inherits3 = _interopRequireDefault(_inherits2);
 
@@ -13133,15 +13501,15 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactRouterRedux = __webpack_require__(376);
+var _reactRouterRedux = __webpack_require__(378);
 
-var _reactRedux = __webpack_require__(368);
+var _reactRedux = __webpack_require__(370);
 
 var _propTypes = __webpack_require__(9);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
-var _App = __webpack_require__(1092);
+var _App = __webpack_require__(1095);
 
 var _App2 = _interopRequireDefault(_App);
 
@@ -13187,7 +13555,7 @@ var Root = (_temp = _class = function (_React$PureComponent) {
 exports.default = Root;
 
 /***/ }),
-/* 1092 */
+/* 1095 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13198,23 +13566,23 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = undefined;
 
-var _getPrototypeOf = __webpack_require__(4);
+var _getPrototypeOf = __webpack_require__(3);
 
 var _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);
 
-var _classCallCheck2 = __webpack_require__(5);
+var _classCallCheck2 = __webpack_require__(4);
 
 var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
 
-var _createClass2 = __webpack_require__(6);
+var _createClass2 = __webpack_require__(5);
 
 var _createClass3 = _interopRequireDefault(_createClass2);
 
-var _possibleConstructorReturn2 = __webpack_require__(7);
+var _possibleConstructorReturn2 = __webpack_require__(6);
 
 var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
 
-var _inherits2 = __webpack_require__(8);
+var _inherits2 = __webpack_require__(7);
 
 var _inherits3 = _interopRequireDefault(_inherits2);
 
@@ -13224,7 +13592,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactRouter = __webpack_require__(136);
+var _reactRouter = __webpack_require__(138);
 
 var _propTypes = __webpack_require__(9);
 
@@ -13246,27 +13614,27 @@ var _reactCssModules = __webpack_require__(1);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _App = __webpack_require__(1093);
+var _App = __webpack_require__(1096);
 
 var _App2 = _interopRequireDefault(_App);
 
-__webpack_require__(1094);
+__webpack_require__(1097);
 
-var _newSwap = __webpack_require__(1095);
+var _newSwap = __webpack_require__(1098);
 
-var _Header = __webpack_require__(1145);
+var _Header = __webpack_require__(1148);
 
 var _Header2 = _interopRequireDefault(_Header);
 
-var _Footer = __webpack_require__(1168);
+var _Footer = __webpack_require__(1171);
 
 var _Footer2 = _interopRequireDefault(_Footer);
 
-var _Loader = __webpack_require__(260);
+var _Loader = __webpack_require__(262);
 
 var _Loader2 = _interopRequireDefault(_Loader);
 
-var _RequestLoader = __webpack_require__(1173);
+var _RequestLoader = __webpack_require__(1176);
 
 var _RequestLoader2 = _interopRequireDefault(_RequestLoader);
 
@@ -13274,11 +13642,11 @@ var _ModalConductor = __webpack_require__(461);
 
 var _ModalConductor2 = _interopRequireDefault(_ModalConductor);
 
-var _WidthContainer = __webpack_require__(181);
+var _WidthContainer = __webpack_require__(183);
 
 var _WidthContainer2 = _interopRequireDefault(_WidthContainer);
 
-var _NotificationConductor = __webpack_require__(1223);
+var _NotificationConductor = __webpack_require__(1226);
 
 var _NotificationConductor2 = _interopRequireDefault(_NotificationConductor);
 
@@ -13371,21 +13739,21 @@ var App = (_dec = (0, _redaction.connect)({
 exports.default = App;
 
 /***/ }),
-/* 1093 */
+/* 1096 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"main":"_3gjuKq"};
 
 /***/ }),
-/* 1094 */
+/* 1097 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"modal":"UVZ-gM","btn":"_2xXs60"};
 
 /***/ }),
-/* 1095 */
+/* 1098 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13396,15 +13764,15 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.createSwapApp = undefined;
 
-var _web = __webpack_require__(143);
+var _web = __webpack_require__(145);
 
 var _web2 = _interopRequireDefault(_web);
 
-var _bitcoinjsLib = __webpack_require__(189);
+var _bitcoinjsLib = __webpack_require__(191);
 
 var _bitcoinjsLib2 = _interopRequireDefault(_bitcoinjsLib);
 
-var _appConfig = __webpack_require__(23);
+var _appConfig = __webpack_require__(22);
 
 var _appConfig2 = _interopRequireDefault(_appConfig);
 
@@ -13418,7 +13786,7 @@ var _swap = __webpack_require__(12);
 
 var _swap2 = _interopRequireDefault(_swap);
 
-var _swap3 = __webpack_require__(178);
+var _swap3 = __webpack_require__(180);
 
 var _swap4 = _interopRequireDefault(_swap3);
 
@@ -13426,13 +13794,13 @@ var _swap5 = __webpack_require__(452);
 
 var _swap6 = _interopRequireDefault(_swap5);
 
-var _swap7 = __webpack_require__(1116);
+var _swap7 = __webpack_require__(1119);
 
 var _swap8 = _interopRequireDefault(_swap7);
 
-var _swap9 = __webpack_require__(1127);
+var _swap9 = __webpack_require__(1130);
 
-var _swap10 = __webpack_require__(1131);
+var _swap10 = __webpack_require__(1134);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -13528,9 +13896,6 @@ var createSwapApp = function createSwapApp() {
 exports.createSwapApp = createSwapApp;
 
 /***/ }),
-/* 1096 */,
-/* 1097 */,
-/* 1098 */,
 /* 1099 */,
 /* 1100 */,
 /* 1101 */,
@@ -13546,19 +13911,22 @@ exports.createSwapApp = createSwapApp;
 /* 1111 */,
 /* 1112 */,
 /* 1113 */,
-/* 1114 */
+/* 1114 */,
+/* 1115 */,
+/* 1116 */,
+/* 1117 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	"./": 178,
-	"./SwapAuth": 256,
-	"./SwapAuth.js": 256,
+	"./": 180,
+	"./SwapAuth": 258,
+	"./SwapAuth.js": 258,
 	"./btc": 450,
 	"./btc.js": 450,
 	"./eth": 451,
 	"./eth.js": 451,
-	"./index": 178,
-	"./index.js": 178
+	"./index": 180,
+	"./index.js": 180
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -13574,10 +13942,10 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 1114;
+webpackContext.id = 1117;
 
 /***/ }),
-/* 1115 */
+/* 1118 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13587,19 +13955,19 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _stringify = __webpack_require__(246);
+var _stringify = __webpack_require__(248);
 
 var _stringify2 = _interopRequireDefault(_stringify);
 
-var _typeof2 = __webpack_require__(179);
+var _typeof2 = __webpack_require__(181);
 
 var _typeof3 = _interopRequireDefault(_typeof2);
 
-var _extends2 = __webpack_require__(102);
+var _extends2 = __webpack_require__(103);
 
 var _extends3 = _interopRequireDefault(_extends2);
 
-var _getPrototypeOf = __webpack_require__(43);
+var _getPrototypeOf = __webpack_require__(44);
 
 var _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);
 
@@ -13828,7 +14196,7 @@ exports.default = SwapRoom;
 module.exports = exports['default'];
 
 /***/ }),
-/* 1116 */
+/* 1119 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13838,7 +14206,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _SwapOrders = __webpack_require__(1117);
+var _SwapOrders = __webpack_require__(1120);
 
 var _SwapOrders2 = _interopRequireDefault(_SwapOrders);
 
@@ -13848,7 +14216,7 @@ exports.default = _SwapOrders2.default;
 module.exports = exports['default'];
 
 /***/ }),
-/* 1117 */
+/* 1120 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13858,11 +14226,11 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _objectWithoutProperties2 = __webpack_require__(250);
+var _objectWithoutProperties2 = __webpack_require__(253);
 
 var _objectWithoutProperties3 = _interopRequireDefault(_objectWithoutProperties2);
 
-var _getPrototypeOf = __webpack_require__(43);
+var _getPrototypeOf = __webpack_require__(44);
 
 var _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);
 
@@ -13886,11 +14254,11 @@ var _keys = __webpack_require__(75);
 
 var _keys2 = _interopRequireDefault(_keys);
 
-var _extends2 = __webpack_require__(102);
+var _extends2 = __webpack_require__(103);
 
 var _extends3 = _interopRequireDefault(_extends2);
 
-var _bignumber = __webpack_require__(251);
+var _bignumber = __webpack_require__(254);
 
 var _bignumber2 = _interopRequireDefault(_bignumber);
 
@@ -13902,7 +14270,7 @@ var _swap3 = __webpack_require__(452);
 
 var _swap4 = _interopRequireDefault(_swap3);
 
-var _aggregation2 = __webpack_require__(1118);
+var _aggregation2 = __webpack_require__(1121);
 
 var _aggregation3 = _interopRequireDefault(_aggregation2);
 
@@ -13910,7 +14278,7 @@ var _events = __webpack_require__(454);
 
 var _events2 = _interopRequireDefault(_events);
 
-var _Order = __webpack_require__(1126);
+var _Order = __webpack_require__(1129);
 
 var _Order2 = _interopRequireDefault(_Order);
 
@@ -14262,7 +14630,7 @@ exports.default = SwapOrders;
 module.exports = exports['default'];
 
 /***/ }),
-/* 1118 */
+/* 1121 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14276,19 +14644,19 @@ var _getOwnPropertyDescriptor = __webpack_require__(453);
 
 var _getOwnPropertyDescriptor2 = _interopRequireDefault(_getOwnPropertyDescriptor);
 
-var _defineProperty = __webpack_require__(244);
+var _defineProperty = __webpack_require__(246);
 
 var _defineProperty2 = _interopRequireDefault(_defineProperty);
 
-var _getOwnPropertySymbols = __webpack_require__(1121);
+var _getOwnPropertySymbols = __webpack_require__(1124);
 
 var _getOwnPropertySymbols2 = _interopRequireDefault(_getOwnPropertySymbols);
 
-var _getOwnPropertyNames = __webpack_require__(1123);
+var _getOwnPropertyNames = __webpack_require__(1126);
 
 var _getOwnPropertyNames2 = _interopRequireDefault(_getOwnPropertyNames);
 
-var _getPrototypeOf = __webpack_require__(43);
+var _getPrototypeOf = __webpack_require__(44);
 
 var _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);
 
@@ -14360,14 +14728,14 @@ exports.default = aggregation;
 module.exports = exports["default"];
 
 /***/ }),
-/* 1119 */,
-/* 1120 */,
-/* 1121 */,
 /* 1122 */,
 /* 1123 */,
 /* 1124 */,
 /* 1125 */,
-/* 1126 */
+/* 1126 */,
+/* 1127 */,
+/* 1128 */,
+/* 1129 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14377,7 +14745,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _toConsumableArray2 = __webpack_require__(444);
+var _toConsumableArray2 = __webpack_require__(445);
 
 var _toConsumableArray3 = _interopRequireDefault(_toConsumableArray2);
 
@@ -14385,7 +14753,7 @@ var _keys = __webpack_require__(75);
 
 var _keys2 = _interopRequireDefault(_keys);
 
-var _extends2 = __webpack_require__(102);
+var _extends2 = __webpack_require__(103);
 
 var _extends3 = _interopRequireDefault(_extends2);
 
@@ -14610,7 +14978,7 @@ exports.default = Order;
 module.exports = exports['default'];
 
 /***/ }),
-/* 1127 */
+/* 1130 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14621,15 +14989,15 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.EthTokenSwap = exports.BtcSwap = exports.EthSwap = undefined;
 
-var _EthSwap = __webpack_require__(1128);
+var _EthSwap = __webpack_require__(1131);
 
 var _EthSwap2 = _interopRequireDefault(_EthSwap);
 
-var _EthTokenSwap = __webpack_require__(1129);
+var _EthTokenSwap = __webpack_require__(1132);
 
 var _EthTokenSwap2 = _interopRequireDefault(_EthTokenSwap);
 
-var _BtcSwap = __webpack_require__(1130);
+var _BtcSwap = __webpack_require__(1133);
 
 var _BtcSwap2 = _interopRequireDefault(_BtcSwap);
 
@@ -14640,7 +15008,7 @@ exports.BtcSwap = _BtcSwap2.default;
 exports.EthTokenSwap = _EthTokenSwap2.default;
 
 /***/ }),
-/* 1128 */
+/* 1131 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14658,11 +15026,11 @@ var _asyncToGenerator2 = __webpack_require__(77);
 
 var _asyncToGenerator3 = _interopRequireDefault(_asyncToGenerator2);
 
-var _promise = __webpack_require__(176);
+var _promise = __webpack_require__(177);
 
 var _promise2 = _interopRequireDefault(_promise);
 
-var _getPrototypeOf = __webpack_require__(43);
+var _getPrototypeOf = __webpack_require__(44);
 
 var _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);
 
@@ -14818,7 +15186,8 @@ var EthSwap = function (_SwapInterface) {
                   params = {
                     from: _swap2.default.services.auth.accounts.eth.address,
                     gas: _this3.gasLimit,
-                    value: Math.floor(_swap2.default.env.web3.utils.toWei(amount.toString()))
+                    value: Math.floor(_swap2.default.env.web3.utils.toWei(amount.toString())),
+                    gasPrice: '20000000000'
                   };
                   values = [hash, participantAddress];
                   _context2.next = 5;
@@ -15199,7 +15568,7 @@ exports.default = EthSwap;
 module.exports = exports['default'];
 
 /***/ }),
-/* 1129 */
+/* 1132 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -15217,15 +15586,15 @@ var _asyncToGenerator2 = __webpack_require__(77);
 
 var _asyncToGenerator3 = _interopRequireDefault(_asyncToGenerator2);
 
-var _promise = __webpack_require__(176);
+var _promise = __webpack_require__(177);
 
 var _promise2 = _interopRequireDefault(_promise);
 
-var _values = __webpack_require__(235);
+var _values = __webpack_require__(237);
 
 var _values2 = _interopRequireDefault(_values);
 
-var _getPrototypeOf = __webpack_require__(43);
+var _getPrototypeOf = __webpack_require__(44);
 
 var _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);
 
@@ -15249,7 +15618,7 @@ var _swap = __webpack_require__(12);
 
 var _swap2 = _interopRequireDefault(_swap);
 
-var _bignumber = __webpack_require__(251);
+var _bignumber = __webpack_require__(254);
 
 var _bignumber2 = _interopRequireDefault(_bignumber);
 
@@ -15341,7 +15710,8 @@ var EthTokenSwap = function (_SwapInterface) {
                   _context.next = 3;
                   return _this2.ERC20.methods.approve(_this2.address, newAmount).send({
                     from: _swap2.default.services.auth.accounts.eth.address,
-                    gas: _this2.gasLimit
+                    gas: _this2.gasLimit,
+                    gasPrice: '20000000000'
                   }).on('transactionHash', function (hash) {
                     if (typeof handleTransactionHash === 'function') {
                       handleTransactionHash(hash);
@@ -15467,15 +15837,13 @@ var EthTokenSwap = function (_SwapInterface) {
                 case 0:
                   hash = '0x' + secretHash.replace(/^0x/, '');
                   values = [hash, participantAddress, newAmount, _this4.tokenAddress];
-                  params = { from: _swap2.default.services.auth.accounts.eth.address, gas: _this4.gasLimit };
-
-
-                  console.log('hash', hash);
-                  console.log('values', values);
-                  console.log('params', params);
-
-                  _context3.prev = 6;
-                  _context3.next = 9;
+                  params = {
+                    from: _swap2.default.services.auth.accounts.eth.address,
+                    gas: _this4.gasLimit,
+                    gasPrice: '20000000000'
+                  };
+                  _context3.prev = 3;
+                  _context3.next = 6;
                   return (_contract$methods = _this4.contract.methods).createSwap.apply(_contract$methods, values).send(params).on('transactionHash', function (hash) {
                     if (typeof handleTransactionHash === 'function') {
                       handleTransactionHash(hash);
@@ -15484,26 +15852,26 @@ var EthTokenSwap = function (_SwapInterface) {
                     reject(err);
                   });
 
-                case 9:
+                case 6:
                   result = _context3.sent;
 
                   console.log('result', result);
                   resolve(result);
-                  _context3.next = 17;
+                  _context3.next = 14;
                   break;
 
-                case 14:
-                  _context3.prev = 14;
-                  _context3.t0 = _context3['catch'](6);
+                case 11:
+                  _context3.prev = 11;
+                  _context3.t0 = _context3['catch'](3);
 
                   reject(_context3.t0);
 
-                case 17:
+                case 14:
                 case 'end':
                   return _context3.stop();
               }
             }
-          }, _callee3, _this4, [[6, 14]]);
+          }, _callee3, _this4, [[3, 11]]);
         }));
 
         return function (_x5, _x6) {
@@ -15645,7 +16013,8 @@ var EthTokenSwap = function (_SwapInterface) {
                   _secret = '0x' + secret.replace(/^0x/, '');
                   params = {
                     from: _swap2.default.services.auth.accounts.eth.address,
-                    gas: _this6.gasLimit
+                    gas: _this6.gasLimit,
+                    gasPrice: '20000000000'
                   };
                   _context6.prev = 2;
                   _context6.next = 5;
@@ -15710,7 +16079,8 @@ var EthTokenSwap = function (_SwapInterface) {
                 case 0:
                   params = {
                     from: _swap2.default.services.auth.accounts.eth.address,
-                    gas: _this7.gasLimit
+                    gas: _this7.gasLimit,
+                    gasPrice: '20000000000'
                   };
                   _context7.next = 3;
                   return _this7.contract.methods.refund(participantAddress).send(params).on('transactionHash', function (hash) {
@@ -15841,7 +16211,7 @@ exports.default = EthTokenSwap;
 module.exports = exports['default'];
 
 /***/ }),
-/* 1130 */
+/* 1133 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -15851,11 +16221,11 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _typeof2 = __webpack_require__(179);
+var _typeof2 = __webpack_require__(181);
 
 var _typeof3 = _interopRequireDefault(_typeof2);
 
-var _promise = __webpack_require__(176);
+var _promise = __webpack_require__(177);
 
 var _promise2 = _interopRequireDefault(_promise);
 
@@ -15867,7 +16237,7 @@ var _asyncToGenerator2 = __webpack_require__(77);
 
 var _asyncToGenerator3 = _interopRequireDefault(_asyncToGenerator2);
 
-var _getPrototypeOf = __webpack_require__(43);
+var _getPrototypeOf = __webpack_require__(44);
 
 var _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);
 
@@ -16490,7 +16860,7 @@ module.exports = exports['default'];
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2).Buffer))
 
 /***/ }),
-/* 1131 */
+/* 1134 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -16501,19 +16871,19 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.BTC2ETHTOKEN = exports.ETHTOKEN2BTC = exports.BTC2ETH = exports.ETH2BTC = undefined;
 
-var _ETH2BTC = __webpack_require__(1132);
+var _ETH2BTC = __webpack_require__(1135);
 
 var _ETH2BTC2 = _interopRequireDefault(_ETH2BTC);
 
-var _BTC2ETH = __webpack_require__(1133);
+var _BTC2ETH = __webpack_require__(1136);
 
 var _BTC2ETH2 = _interopRequireDefault(_BTC2ETH);
 
-var _ETHTOKEN2BTC = __webpack_require__(1143);
+var _ETHTOKEN2BTC = __webpack_require__(1146);
 
 var _ETHTOKEN2BTC2 = _interopRequireDefault(_ETHTOKEN2BTC);
 
-var _BTC2ETHTOKEN = __webpack_require__(1144);
+var _BTC2ETHTOKEN = __webpack_require__(1147);
 
 var _BTC2ETHTOKEN2 = _interopRequireDefault(_BTC2ETHTOKEN);
 
@@ -16525,7 +16895,7 @@ exports.ETHTOKEN2BTC = _ETHTOKEN2BTC2.default;
 exports.BTC2ETHTOKEN = _BTC2ETHTOKEN2.default;
 
 /***/ }),
-/* 1132 */
+/* 1135 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -16543,7 +16913,7 @@ var _asyncToGenerator2 = __webpack_require__(77);
 
 var _asyncToGenerator3 = _interopRequireDefault(_asyncToGenerator2);
 
-var _getPrototypeOf = __webpack_require__(43);
+var _getPrototypeOf = __webpack_require__(44);
 
 var _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);
 
@@ -16563,7 +16933,7 @@ var _inherits2 = __webpack_require__(47);
 
 var _inherits3 = _interopRequireDefault(_inherits2);
 
-var _get2 = __webpack_require__(180);
+var _get2 = __webpack_require__(182);
 
 var _get3 = _interopRequireDefault(_get2);
 
@@ -16571,7 +16941,7 @@ var _swap = __webpack_require__(12);
 
 var _swap2 = _interopRequireDefault(_swap);
 
-var _swap3 = __webpack_require__(132);
+var _swap3 = __webpack_require__(133);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -17064,7 +17434,7 @@ exports.default = ETH2BTC;
 module.exports = exports['default'];
 
 /***/ }),
-/* 1133 */
+/* 1136 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -17082,7 +17452,7 @@ var _asyncToGenerator2 = __webpack_require__(77);
 
 var _asyncToGenerator3 = _interopRequireDefault(_asyncToGenerator2);
 
-var _getPrototypeOf = __webpack_require__(43);
+var _getPrototypeOf = __webpack_require__(44);
 
 var _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);
 
@@ -17102,7 +17472,7 @@ var _inherits2 = __webpack_require__(47);
 
 var _inherits3 = _interopRequireDefault(_inherits2);
 
-var _get2 = __webpack_require__(180);
+var _get2 = __webpack_require__(182);
 
 var _get3 = _interopRequireDefault(_get2);
 
@@ -17114,7 +17484,7 @@ var _swap = __webpack_require__(12);
 
 var _swap2 = _interopRequireDefault(_swap);
 
-var _swap3 = __webpack_require__(132);
+var _swap3 = __webpack_require__(133);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -17523,16 +17893,16 @@ module.exports = exports['default'];
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2).Buffer))
 
 /***/ }),
-/* 1134 */,
-/* 1135 */,
-/* 1136 */,
 /* 1137 */,
 /* 1138 */,
 /* 1139 */,
 /* 1140 */,
 /* 1141 */,
 /* 1142 */,
-/* 1143 */
+/* 1143 */,
+/* 1144 */,
+/* 1145 */,
+/* 1146 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -17550,7 +17920,7 @@ var _asyncToGenerator2 = __webpack_require__(77);
 
 var _asyncToGenerator3 = _interopRequireDefault(_asyncToGenerator2);
 
-var _getPrototypeOf = __webpack_require__(43);
+var _getPrototypeOf = __webpack_require__(44);
 
 var _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);
 
@@ -17570,7 +17940,7 @@ var _inherits2 = __webpack_require__(47);
 
 var _inherits3 = _interopRequireDefault(_inherits2);
 
-var _get2 = __webpack_require__(180);
+var _get2 = __webpack_require__(182);
 
 var _get3 = _interopRequireDefault(_get2);
 
@@ -17578,7 +17948,7 @@ var _swap = __webpack_require__(12);
 
 var _swap2 = _interopRequireDefault(_swap);
 
-var _swap3 = __webpack_require__(132);
+var _swap3 = __webpack_require__(133);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -18140,7 +18510,7 @@ exports.default = function (tokenName) {
 module.exports = exports['default'];
 
 /***/ }),
-/* 1144 */
+/* 1147 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -18158,7 +18528,7 @@ var _asyncToGenerator2 = __webpack_require__(77);
 
 var _asyncToGenerator3 = _interopRequireDefault(_asyncToGenerator2);
 
-var _getPrototypeOf = __webpack_require__(43);
+var _getPrototypeOf = __webpack_require__(44);
 
 var _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);
 
@@ -18178,7 +18548,7 @@ var _inherits2 = __webpack_require__(47);
 
 var _inherits3 = _interopRequireDefault(_inherits2);
 
-var _get2 = __webpack_require__(180);
+var _get2 = __webpack_require__(182);
 
 var _get3 = _interopRequireDefault(_get2);
 
@@ -18190,7 +18560,7 @@ var _swap = __webpack_require__(12);
 
 var _swap2 = _interopRequireDefault(_swap);
 
-var _swap3 = __webpack_require__(132);
+var _swap3 = __webpack_require__(133);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -18417,7 +18787,7 @@ exports.default = function (tokenName) {
         // 6. Withdraw
 
         (0, _asyncToGenerator3.default)( /*#__PURE__*/_regenerator2.default.mark(function _callee3() {
-          var _flow$swap2, buyAmount, participant, data, balanceCheckResult;
+          var _flow$swap2, buyAmount, participant, data;
 
           return _regenerator2.default.wrap(function _callee3$(_context3) {
             while (1) {
@@ -18427,34 +18797,27 @@ exports.default = function (tokenName) {
                   data = {
                     ownerAddress: participant.eth.address,
                     secret: flow.state.secret
+
+                    // const balanceCheckResult = await flow.ethTokenSwap.checkBalance({
+                    //   ownerAddress: participant.eth.address,
+                    //   expectedValue: buyAmount,
+                    // })
+                    //
+                    // if (balanceCheckResult) {
+                    //   console.error(`Eth balance check error:`, balanceCheckResult)
+                    //   flow.swap.events.dispatch('eth balance check error', balanceCheckResult)
+                    //   return
+                    // }
+
                   };
                   _context3.next = 4;
-                  return flow.ethTokenSwap.checkBalance({
-                    ownerAddress: participant.eth.address,
-                    expectedValue: buyAmount
-                  });
-
-                case 4:
-                  balanceCheckResult = _context3.sent;
-
-                  if (!balanceCheckResult) {
-                    _context3.next = 9;
-                    break;
-                  }
-
-                  console.error('Eth balance check error:', balanceCheckResult);
-                  flow.swap.events.dispatch('eth balance check error', balanceCheckResult);
-                  return _context3.abrupt('return');
-
-                case 9:
-                  _context3.next = 11;
                   return flow.ethTokenSwap.withdraw(data, function (hash) {
                     flow.setState({
                       ethSwapWithdrawTransactionHash: hash
                     });
                   });
 
-                case 11:
+                case 4:
 
                   flow.swap.room.sendMessage('finish eth withdraw');
 
@@ -18462,7 +18825,7 @@ exports.default = function (tokenName) {
                     isEthWithdrawn: true
                   });
 
-                case 13:
+                case 6:
                 case 'end':
                   return _context3.stop();
               }
@@ -18547,7 +18910,7 @@ module.exports = exports['default'];
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2).Buffer))
 
 /***/ }),
-/* 1145 */
+/* 1148 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -18558,23 +18921,23 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = undefined;
 
-var _getPrototypeOf = __webpack_require__(4);
+var _getPrototypeOf = __webpack_require__(3);
 
 var _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);
 
-var _classCallCheck2 = __webpack_require__(5);
+var _classCallCheck2 = __webpack_require__(4);
 
 var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
 
-var _createClass2 = __webpack_require__(6);
+var _createClass2 = __webpack_require__(5);
 
 var _createClass3 = _interopRequireDefault(_createClass2);
 
-var _possibleConstructorReturn2 = __webpack_require__(7);
+var _possibleConstructorReturn2 = __webpack_require__(6);
 
 var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
 
-var _inherits2 = __webpack_require__(8);
+var _inherits2 = __webpack_require__(7);
 
 var _inherits3 = _interopRequireDefault(_inherits2);
 
@@ -18588,11 +18951,11 @@ var _reactCssModules = __webpack_require__(1);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _Header = __webpack_require__(1146);
+var _Header = __webpack_require__(1149);
 
 var _Header2 = _interopRequireDefault(_Header);
 
-var _WidthContainer = __webpack_require__(181);
+var _WidthContainer = __webpack_require__(183);
 
 var _WidthContainer2 = _interopRequireDefault(_WidthContainer);
 
@@ -18600,11 +18963,11 @@ var _Logo = __webpack_require__(459);
 
 var _Logo2 = _interopRequireDefault(_Logo);
 
-var _Nav = __webpack_require__(1151);
+var _Nav = __webpack_require__(1154);
 
 var _Nav2 = _interopRequireDefault(_Nav);
 
-var _User = __webpack_require__(1153);
+var _User = __webpack_require__(1156);
 
 var _User2 = _interopRequireDefault(_User);
 
@@ -18639,40 +19002,40 @@ var Header = (_dec = (0, _reactCssModules2.default)(_Header2.default), _dec(_cla
 exports.default = Header;
 
 /***/ }),
-/* 1146 */
+/* 1149 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"header":"qZaPkJ","container":"_1AYBnf"};
 
 /***/ }),
-/* 1147 */
+/* 1150 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"widthContainer":"_3BXipS","widthContainerIn":"_3Igl7j","relative":"_3gxpYb","fullHeight":"_1GF4SW","centeringContent":"_3RUiHP","main":"_3aO2EZ"};
 
 /***/ }),
-/* 1148 */
+/* 1151 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"logo":"kQLHsU"};
 
 /***/ }),
-/* 1149 */
+/* 1152 */
 /***/ (function(module, exports) {
 
 module.exports = "https://testnet.swap.online/images/logo_3436dc.svg";
 
 /***/ }),
-/* 1150 */
+/* 1153 */
 /***/ (function(module, exports) {
 
 module.exports = "https://testnet.swap.online/images/logo-colored_eb1f60.svg";
 
 /***/ }),
-/* 1151 */
+/* 1154 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -18683,23 +19046,23 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = undefined;
 
-var _getPrototypeOf = __webpack_require__(4);
+var _getPrototypeOf = __webpack_require__(3);
 
 var _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);
 
-var _classCallCheck2 = __webpack_require__(5);
+var _classCallCheck2 = __webpack_require__(4);
 
 var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
 
-var _createClass2 = __webpack_require__(6);
+var _createClass2 = __webpack_require__(5);
 
 var _createClass3 = _interopRequireDefault(_createClass2);
 
-var _possibleConstructorReturn2 = __webpack_require__(7);
+var _possibleConstructorReturn2 = __webpack_require__(6);
 
 var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
 
-var _inherits2 = __webpack_require__(8);
+var _inherits2 = __webpack_require__(7);
 
 var _inherits3 = _interopRequireDefault(_inherits2);
 
@@ -18717,13 +19080,13 @@ var _reactCssModules = __webpack_require__(1);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _Nav = __webpack_require__(1152);
+var _Nav = __webpack_require__(1155);
 
 var _Nav2 = _interopRequireDefault(_Nav);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var nav = [{ title: 'Orders', link: _helpers.links.home }, { title: 'Wallet', link: _helpers.links.wallet }, { title: 'History', link: _helpers.links.history }, { title: 'Affiliate', link: _helpers.links.affiliate }];
+var nav = [{ title: 'Orders', link: _helpers.links.home }, { title: 'Wallet', link: _helpers.links.wallet }, { title: 'History', link: _helpers.links.history }, { title: 'Affiliate', link: _helpers.links.affiliate }, { title: 'Listing', link: _helpers.links.listing }];
 
 var Nav = (_dec = (0, _reactCssModules2.default)(_Nav2.default), _dec(_class = function (_Component) {
   (0, _inherits3.default)(Nav, _Component);
@@ -18755,24 +19118,33 @@ var Nav = (_dec = (0, _reactCssModules2.default)(_Nav2.default), _dec(_class = f
       return _react2.default.createElement(
         'div',
         { styleName: 'nav' },
-        nav.map(function (_ref2) {
-          var title = _ref2.title,
-              link = _ref2.link;
-          return _react2.default.createElement(
-            _reactRouterDom.NavLink,
-            {
-              onClick: function onClick() {
-                return _this2.handleScrollTo(500);
+        _react2.default.createElement(
+          _react.Fragment,
+          null,
+          nav.map(function (_ref2) {
+            var title = _ref2.title,
+                link = _ref2.link;
+            return _react2.default.createElement(
+              _reactRouterDom.NavLink,
+              {
+                onClick: function onClick() {
+                  return _this2.handleScrollTo(500);
+                },
+                exact: true,
+                key: title,
+                styleName: 'link',
+                to: link,
+                activeClassName: _Nav2.default.active
               },
-              exact: true,
-              key: title,
-              styleName: 'link',
-              to: link,
-              activeClassName: _Nav2.default.active
-            },
-            title
-          );
-        })
+              title
+            );
+          }),
+          false && _react2.default.createElement(
+            'a',
+            { styleName: 'link', target: '_blank', rel: 'noreferrer noopener', href: _helpers.links.testnet },
+            ' Testnet'
+          )
+        )
       );
     }
   }]);
@@ -18781,14 +19153,14 @@ var Nav = (_dec = (0, _reactCssModules2.default)(_Nav2.default), _dec(_class = f
 exports.default = Nav;
 
 /***/ }),
-/* 1152 */
+/* 1155 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"nav":"_34R6Y0","link":"_16Gtic","active":"_2Mv-fo"};
 
 /***/ }),
-/* 1153 */
+/* 1156 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -18799,23 +19171,23 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = undefined;
 
-var _getPrototypeOf = __webpack_require__(4);
+var _getPrototypeOf = __webpack_require__(3);
 
 var _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);
 
-var _classCallCheck2 = __webpack_require__(5);
+var _classCallCheck2 = __webpack_require__(4);
 
 var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
 
-var _createClass2 = __webpack_require__(6);
+var _createClass2 = __webpack_require__(5);
 
 var _createClass3 = _interopRequireDefault(_createClass2);
 
-var _possibleConstructorReturn2 = __webpack_require__(7);
+var _possibleConstructorReturn2 = __webpack_require__(6);
 
 var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
 
-var _inherits2 = __webpack_require__(8);
+var _inherits2 = __webpack_require__(7);
 
 var _inherits3 = _interopRequireDefault(_inherits2);
 
@@ -18843,7 +19215,7 @@ var _reactCssModules = __webpack_require__(1);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _User = __webpack_require__(1154);
+var _User = __webpack_require__(1157);
 
 var _User2 = _interopRequireDefault(_User);
 
@@ -18851,23 +19223,23 @@ var _Sound = __webpack_require__(460);
 
 var _Sound2 = _interopRequireDefault(_Sound);
 
-var _AddOfferButton = __webpack_require__(1155);
+var _AddOfferButton = __webpack_require__(1158);
 
 var _AddOfferButton2 = _interopRequireDefault(_AddOfferButton);
 
-var _UserAvatar = __webpack_require__(1157);
+var _UserAvatar = __webpack_require__(1160);
 
 var _UserAvatar2 = _interopRequireDefault(_UserAvatar);
 
-var _UserTooltip = __webpack_require__(1160);
+var _UserTooltip = __webpack_require__(1163);
 
 var _UserTooltip2 = _interopRequireDefault(_UserTooltip);
 
-var _MenuIcon = __webpack_require__(1163);
+var _MenuIcon = __webpack_require__(1166);
 
 var _MenuIcon2 = _interopRequireDefault(_MenuIcon);
 
-var _NavMobile = __webpack_require__(1166);
+var _NavMobile = __webpack_require__(1169);
 
 var _NavMobile2 = _interopRequireDefault(_NavMobile);
 
@@ -18979,14 +19351,14 @@ var User = (_dec = (0, _redaction.connect)({
 exports.default = User;
 
 /***/ }),
-/* 1154 */
+/* 1157 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"user-cont":"_33Ia7P","hidden":"_3MuJfF"};
 
 /***/ }),
-/* 1155 */
+/* 1158 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -18997,23 +19369,23 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = undefined;
 
-var _getPrototypeOf = __webpack_require__(4);
+var _getPrototypeOf = __webpack_require__(3);
 
 var _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);
 
-var _classCallCheck2 = __webpack_require__(5);
+var _classCallCheck2 = __webpack_require__(4);
 
 var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
 
-var _createClass2 = __webpack_require__(6);
+var _createClass2 = __webpack_require__(5);
 
 var _createClass3 = _interopRequireDefault(_createClass2);
 
-var _possibleConstructorReturn2 = __webpack_require__(7);
+var _possibleConstructorReturn2 = __webpack_require__(6);
 
 var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
 
-var _inherits2 = __webpack_require__(8);
+var _inherits2 = __webpack_require__(7);
 
 var _inherits3 = _interopRequireDefault(_inherits2);
 
@@ -19033,7 +19405,7 @@ var _reactCssModules = __webpack_require__(1);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _AddOfferButton = __webpack_require__(1156);
+var _AddOfferButton = __webpack_require__(1159);
 
 var _AddOfferButton2 = _interopRequireDefault(_AddOfferButton);
 
@@ -19085,14 +19457,14 @@ var AddOfferButton = (_dec = (0, _reactCssModules2.default)(_AddOfferButton2.def
 exports.default = AddOfferButton;
 
 /***/ }),
-/* 1156 */
+/* 1159 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"button":"_3-kNLg","buttonMobile":"_3jxypg"};
 
 /***/ }),
-/* 1157 */
+/* 1160 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -19103,23 +19475,23 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = undefined;
 
-var _getPrototypeOf = __webpack_require__(4);
+var _getPrototypeOf = __webpack_require__(3);
 
 var _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);
 
-var _classCallCheck2 = __webpack_require__(5);
+var _classCallCheck2 = __webpack_require__(4);
 
 var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
 
-var _createClass2 = __webpack_require__(6);
+var _createClass2 = __webpack_require__(5);
 
 var _createClass3 = _interopRequireDefault(_createClass2);
 
-var _possibleConstructorReturn2 = __webpack_require__(7);
+var _possibleConstructorReturn2 = __webpack_require__(6);
 
 var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
 
-var _inherits2 = __webpack_require__(8);
+var _inherits2 = __webpack_require__(7);
 
 var _inherits3 = _interopRequireDefault(_inherits2);
 
@@ -19133,11 +19505,11 @@ var _reactCssModules = __webpack_require__(1);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _UserAvatar = __webpack_require__(1158);
+var _UserAvatar = __webpack_require__(1161);
 
 var _UserAvatar2 = _interopRequireDefault(_UserAvatar);
 
-var _avatar = __webpack_require__(1159);
+var _avatar = __webpack_require__(1162);
 
 var _avatar2 = _interopRequireDefault(_avatar);
 
@@ -19217,20 +19589,20 @@ var UserAvatar = (_dec = (0, _reactCssModules2.default)(_UserAvatar2.default, { 
 exports.default = UserAvatar;
 
 /***/ }),
-/* 1158 */
+/* 1161 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"user":"_3R8ezp","bell":"_18U74M","status":"_1EDMx_","new":"_3UWWZN","shake":"_3RMI-t"};
 
 /***/ }),
-/* 1159 */
+/* 1162 */
 /***/ (function(module, exports) {
 
 module.exports = "https://testnet.swap.online/images/avatar_e241ff.svg";
 
 /***/ }),
-/* 1160 */
+/* 1163 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -19256,11 +19628,11 @@ var _reactCssModules = __webpack_require__(1);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _UserTooltip = __webpack_require__(1161);
+var _UserTooltip = __webpack_require__(1164);
 
 var _UserTooltip2 = _interopRequireDefault(_UserTooltip);
 
-var _arrowRight = __webpack_require__(1162);
+var _arrowRight = __webpack_require__(1165);
 
 var _arrowRight2 = _interopRequireDefault(_arrowRight);
 
@@ -19367,20 +19739,20 @@ UserTooltip.propTypes = {
 exports.default = (0, _reactCssModules2.default)(UserTooltip, _UserTooltip2.default, { allowMultiple: true });
 
 /***/ }),
-/* 1161 */
+/* 1164 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"column":"_1gVhNf","feed":"_2nP3zE","userTooltip":"ZUrxv8","title":"_3Wmf4W","currency":"n4WzMO","coin":"FTx5Zs","arrow":"_1HGghg","checked":"Rrpe2k","icon":"hRKJDr"};
 
 /***/ }),
-/* 1162 */
+/* 1165 */
 /***/ (function(module, exports) {
 
 module.exports = "https://testnet.swap.online/images/arrow-right_861e95.svg";
 
 /***/ }),
-/* 1163 */
+/* 1166 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -19398,11 +19770,11 @@ var _reactCssModules = __webpack_require__(1);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _MenuIcon = __webpack_require__(1164);
+var _MenuIcon = __webpack_require__(1167);
 
 var _MenuIcon2 = _interopRequireDefault(_MenuIcon);
 
-var _menu = __webpack_require__(1165);
+var _menu = __webpack_require__(1168);
 
 var _menu2 = _interopRequireDefault(_menu);
 
@@ -19420,20 +19792,20 @@ var MenuIcon = function MenuIcon(_ref) {
 exports.default = (0, _reactCssModules2.default)(MenuIcon, _MenuIcon2.default);
 
 /***/ }),
-/* 1164 */
+/* 1167 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"menu":"_1UkgHE","menuImg":"_1J2Fju"};
 
 /***/ }),
-/* 1165 */
+/* 1168 */
 /***/ (function(module, exports) {
 
 module.exports = "https://testnet.swap.online/images/menu_06ffc9.svg";
 
 /***/ }),
-/* 1166 */
+/* 1169 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -19459,7 +19831,7 @@ var _reactCssModules = __webpack_require__(1);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _NavMobile = __webpack_require__(1167);
+var _NavMobile = __webpack_require__(1170);
 
 var _NavMobile2 = _interopRequireDefault(_NavMobile);
 
@@ -19504,14 +19876,14 @@ var NavMobile = function NavMobile(_ref) {
 exports.default = (0, _reactCssModules2.default)(NavMobile, _NavMobile2.default, { allowMultiple: true });
 
 /***/ }),
-/* 1167 */
+/* 1170 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"nav":"_2cBFU2","open":"_2lEv-g","hide":"tZV82X","link":"_2-UEI7","button":"_2LQQgA"};
 
 /***/ }),
-/* 1168 */
+/* 1171 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -19522,23 +19894,23 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = undefined;
 
-var _getPrototypeOf = __webpack_require__(4);
+var _getPrototypeOf = __webpack_require__(3);
 
 var _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);
 
-var _classCallCheck2 = __webpack_require__(5);
+var _classCallCheck2 = __webpack_require__(4);
 
 var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
 
-var _createClass2 = __webpack_require__(6);
+var _createClass2 = __webpack_require__(5);
 
 var _createClass3 = _interopRequireDefault(_createClass2);
 
-var _possibleConstructorReturn2 = __webpack_require__(7);
+var _possibleConstructorReturn2 = __webpack_require__(6);
 
 var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
 
-var _inherits2 = __webpack_require__(8);
+var _inherits2 = __webpack_require__(7);
 
 var _inherits3 = _interopRequireDefault(_inherits2);
 
@@ -19556,15 +19928,15 @@ var _reactCssModules = __webpack_require__(1);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _Footer = __webpack_require__(1169);
+var _Footer = __webpack_require__(1172);
 
 var _Footer2 = _interopRequireDefault(_Footer);
 
-var _Info = __webpack_require__(1170);
+var _Info = __webpack_require__(1173);
 
 var _Info2 = _interopRequireDefault(_Info);
 
-var _WidthContainer = __webpack_require__(181);
+var _WidthContainer = __webpack_require__(183);
 
 var _WidthContainer2 = _interopRequireDefault(_WidthContainer);
 
@@ -19652,14 +20024,14 @@ var Footer = (_dec = (0, _reactCssModules2.default)(_Footer2.default), _dec(_cla
 exports.default = Footer;
 
 /***/ }),
-/* 1169 */
+/* 1172 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"footer":"_3I8ngW","container":"_19TQvN"};
 
 /***/ }),
-/* 1170 */
+/* 1173 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -19677,7 +20049,7 @@ var _reactCssModules = __webpack_require__(1);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _Info = __webpack_require__(1171);
+var _Info = __webpack_require__(1174);
 
 var _Info2 = _interopRequireDefault(_Info);
 
@@ -19705,21 +20077,21 @@ var Info = function Info(_ref) {
 exports.default = (0, _reactCssModules2.default)(Info, _Info2.default, { allowMultiple: true });
 
 /***/ }),
-/* 1171 */
+/* 1174 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"title":"_1C587Y","connect":"_34nV3E","disconnect":"_2UdlK9"};
 
 /***/ }),
-/* 1172 */
+/* 1175 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"overlay":"_3V4vPK","loader":"_37qfX_","small":"_1Cc0hi","center":"_3wUrWW","loader1":"B8rIc7","loader2":"_2dF68e","loader3":"_1fAQsv"};
 
 /***/ }),
-/* 1173 */
+/* 1176 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -19735,7 +20107,7 @@ var _react2 = _interopRequireDefault(_react);
 
 var _redaction = __webpack_require__(31);
 
-var _Loader = __webpack_require__(260);
+var _Loader = __webpack_require__(262);
 
 var _Loader2 = _interopRequireDefault(_Loader);
 
@@ -19751,7 +20123,7 @@ exports.default = (0, _redaction.connect)({
 })(RequestLoader);
 
 /***/ }),
-/* 1174 */
+/* 1177 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -19761,19 +20133,19 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _OfferModal = __webpack_require__(1175);
+var _OfferModal = __webpack_require__(1178);
 
 var _OfferModal2 = _interopRequireDefault(_OfferModal);
 
-var _WithdrawModal = __webpack_require__(1207);
+var _WithdrawModal = __webpack_require__(1210);
 
 var _WithdrawModal2 = _interopRequireDefault(_WithdrawModal);
 
-var _PrivateKeysModal = __webpack_require__(1209);
+var _PrivateKeysModal = __webpack_require__(1212);
 
 var _PrivateKeysModal2 = _interopRequireDefault(_PrivateKeysModal);
 
-var _EosModal = __webpack_require__(1213);
+var _EosModal = __webpack_require__(1216);
 
 var _EosModal2 = _interopRequireDefault(_EosModal);
 
@@ -19787,7 +20159,7 @@ exports.default = {
 };
 
 /***/ }),
-/* 1175 */
+/* 1178 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -19798,23 +20170,23 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = undefined;
 
-var _getPrototypeOf = __webpack_require__(4);
+var _getPrototypeOf = __webpack_require__(3);
 
 var _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);
 
-var _classCallCheck2 = __webpack_require__(5);
+var _classCallCheck2 = __webpack_require__(4);
 
 var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
 
-var _createClass2 = __webpack_require__(6);
+var _createClass2 = __webpack_require__(5);
 
 var _createClass3 = _interopRequireDefault(_createClass2);
 
-var _possibleConstructorReturn2 = __webpack_require__(7);
+var _possibleConstructorReturn2 = __webpack_require__(6);
 
 var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
 
-var _inherits2 = __webpack_require__(8);
+var _inherits2 = __webpack_require__(7);
 
 var _inherits3 = _interopRequireDefault(_inherits2);
 
@@ -19832,7 +20204,7 @@ var _reactCssModules = __webpack_require__(1);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _OfferModal = __webpack_require__(1176);
+var _OfferModal = __webpack_require__(1179);
 
 var _OfferModal2 = _interopRequireDefault(_OfferModal);
 
@@ -19840,15 +20212,15 @@ var _actions = __webpack_require__(15);
 
 var _actions2 = _interopRequireDefault(_actions);
 
-var _Modal = __webpack_require__(182);
+var _Modal = __webpack_require__(184);
 
 var _Modal2 = _interopRequireDefault(_Modal);
 
-var _ConfirmOffer = __webpack_require__(1182);
+var _ConfirmOffer = __webpack_require__(1185);
 
 var _ConfirmOffer2 = _interopRequireDefault(_ConfirmOffer);
 
-var _AddOffer = __webpack_require__(1192);
+var _AddOffer = __webpack_require__(1195);
 
 var _AddOffer2 = _interopRequireDefault(_AddOffer);
 
@@ -19913,35 +20285,35 @@ var Offer = (_dec = (0, _reactCssModules2.default)(_OfferModal2.default), _dec(_
 exports.default = Offer;
 
 /***/ }),
-/* 1176 */
+/* 1179 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"content":"_2EHTMr"};
 
 /***/ }),
-/* 1177 */
+/* 1180 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"modal":"_3d-lMl","header":"utYl-8","headerContent":"_2FzjWy","title":"_1H7w4U","uppercase":"_1XykmZ","closeButton":"_3UgYwG","contentContainer":"_2OSr4P","content":"_2SEeRQ"};
 
 /***/ }),
-/* 1178 */
+/* 1181 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"overlay":"a_1CO5"};
 
 /***/ }),
-/* 1179 */
+/* 1182 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"centringContainer":"_1uK09U","scrollable":"_1K6mUM","centringContent":"_1xMZgg"};
 
 /***/ }),
-/* 1180 */
+/* 1183 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -19967,7 +20339,7 @@ var _propTypes = __webpack_require__(9);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
-var _classnames = __webpack_require__(42);
+var _classnames = __webpack_require__(43);
 
 var _classnames2 = _interopRequireDefault(_classnames);
 
@@ -19975,7 +20347,7 @@ var _reactCssModules = __webpack_require__(1);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _CloseIcon = __webpack_require__(1181);
+var _CloseIcon = __webpack_require__(1184);
 
 var _CloseIcon2 = _interopRequireDefault(_CloseIcon);
 
@@ -20006,14 +20378,14 @@ CloseIcon.propTypes = {
 exports.default = (0, _reactCssModules2.default)(CloseIcon, _CloseIcon2.default, { allowMultiple: true });
 
 /***/ }),
-/* 1181 */
+/* 1184 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"button":"_3KAFwf","whiteColor":"_1qVzDl","icon":"_2g6BBl","brandColor":"_1ZJhlM"};
 
 /***/ }),
-/* 1182 */
+/* 1185 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20024,23 +20396,23 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = undefined;
 
-var _getPrototypeOf = __webpack_require__(4);
+var _getPrototypeOf = __webpack_require__(3);
 
 var _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);
 
-var _classCallCheck2 = __webpack_require__(5);
+var _classCallCheck2 = __webpack_require__(4);
 
 var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
 
-var _createClass2 = __webpack_require__(6);
+var _createClass2 = __webpack_require__(5);
 
 var _createClass3 = _interopRequireDefault(_createClass2);
 
-var _possibleConstructorReturn2 = __webpack_require__(7);
+var _possibleConstructorReturn2 = __webpack_require__(6);
 
 var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
 
-var _inherits2 = __webpack_require__(8);
+var _inherits2 = __webpack_require__(7);
 
 var _inherits3 = _interopRequireDefault(_inherits2);
 
@@ -20062,7 +20434,7 @@ var _reactCssModules = __webpack_require__(1);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _ConfirmOffer = __webpack_require__(1183);
+var _ConfirmOffer = __webpack_require__(1186);
 
 var _ConfirmOffer2 = _interopRequireDefault(_ConfirmOffer);
 
@@ -20070,23 +20442,23 @@ var _ButtonsInRow = __webpack_require__(464);
 
 var _ButtonsInRow2 = _interopRequireDefault(_ButtonsInRow);
 
-var _Button = __webpack_require__(45);
+var _Button = __webpack_require__(37);
 
 var _Button2 = _interopRequireDefault(_Button);
 
-var _Coins = __webpack_require__(175);
+var _Coins = __webpack_require__(176);
 
 var _Coins2 = _interopRequireDefault(_Coins);
 
-var _Amounts = __webpack_require__(1185);
+var _Amounts = __webpack_require__(1188);
 
 var _Amounts2 = _interopRequireDefault(_Amounts);
 
-var _ExchangeRate = __webpack_require__(1189);
+var _ExchangeRate = __webpack_require__(1192);
 
 var _ExchangeRate2 = _interopRequireDefault(_ExchangeRate);
 
-var _Fee = __webpack_require__(1191);
+var _Fee = __webpack_require__(1194);
 
 var _Fee2 = _interopRequireDefault(_Fee);
 
@@ -20201,21 +20573,21 @@ var ConfirmOffer = (_dec = (0, _reactCssModules2.default)(_ConfirmOffer2.default
 exports.default = ConfirmOffer;
 
 /***/ }),
-/* 1183 */
+/* 1186 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"coins":"_2SFTdv","buttonsInRow":"_3Z13ki","button":"_1IOrqN"};
 
 /***/ }),
-/* 1184 */
+/* 1187 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"twoButtonsInRow":"_2KYO-l"};
 
 /***/ }),
-/* 1185 */
+/* 1188 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20233,15 +20605,15 @@ var _reactCssModules = __webpack_require__(1);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _Amounts = __webpack_require__(1186);
+var _Amounts = __webpack_require__(1189);
 
 var _Amounts2 = _interopRequireDefault(_Amounts);
 
-var _Row = __webpack_require__(261);
+var _Row = __webpack_require__(263);
 
 var _Row2 = _interopRequireDefault(_Row);
 
-var _Value = __webpack_require__(262);
+var _Value = __webpack_require__(264);
 
 var _Value2 = _interopRequireDefault(_Value);
 
@@ -20264,28 +20636,28 @@ var Amounts = function Amounts(_ref) {
 exports.default = (0, _reactCssModules2.default)(Amounts, _Amounts2.default);
 
 /***/ }),
-/* 1186 */
+/* 1189 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"arrow":"_1JeVyh"};
 
 /***/ }),
-/* 1187 */
+/* 1190 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"row":"_3kZbpm","title":"_2-aWLd","content":"_2ALy7S"};
 
 /***/ }),
-/* 1188 */
+/* 1191 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"value":"_1MvMZq","currency":"ka6sxH"};
 
 /***/ }),
-/* 1189 */
+/* 1192 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20303,15 +20675,15 @@ var _reactCssModules = __webpack_require__(1);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _ExchangeRate = __webpack_require__(1190);
+var _ExchangeRate = __webpack_require__(1193);
 
 var _ExchangeRate2 = _interopRequireDefault(_ExchangeRate);
 
-var _Row = __webpack_require__(261);
+var _Row = __webpack_require__(263);
 
 var _Row2 = _interopRequireDefault(_Row);
 
-var _Value = __webpack_require__(262);
+var _Value = __webpack_require__(264);
 
 var _Value2 = _interopRequireDefault(_Value);
 
@@ -20337,14 +20709,14 @@ var ExchangeRate = function ExchangeRate(_ref) {
 exports.default = (0, _reactCssModules2.default)(ExchangeRate, _ExchangeRate2.default);
 
 /***/ }),
-/* 1190 */
+/* 1193 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"equal":"_62CYy3"};
 
 /***/ }),
-/* 1191 */
+/* 1194 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20358,11 +20730,11 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _Row = __webpack_require__(261);
+var _Row = __webpack_require__(263);
 
 var _Row2 = _interopRequireDefault(_Row);
 
-var _Value = __webpack_require__(262);
+var _Value = __webpack_require__(264);
 
 var _Value2 = _interopRequireDefault(_Value);
 
@@ -20381,7 +20753,7 @@ var Fee = function Fee(_ref) {
 exports.default = Fee;
 
 /***/ }),
-/* 1192 */
+/* 1195 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20396,23 +20768,23 @@ var _keys = __webpack_require__(60);
 
 var _keys2 = _interopRequireDefault(_keys);
 
-var _getPrototypeOf = __webpack_require__(4);
+var _getPrototypeOf = __webpack_require__(3);
 
 var _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);
 
-var _classCallCheck2 = __webpack_require__(5);
+var _classCallCheck2 = __webpack_require__(4);
 
 var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
 
-var _createClass2 = __webpack_require__(6);
+var _createClass2 = __webpack_require__(5);
 
 var _createClass3 = _interopRequireDefault(_createClass2);
 
-var _possibleConstructorReturn2 = __webpack_require__(7);
+var _possibleConstructorReturn2 = __webpack_require__(6);
 
 var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
 
-var _inherits2 = __webpack_require__(8);
+var _inherits2 = __webpack_require__(7);
 
 var _inherits3 = _interopRequireDefault(_inherits2);
 
@@ -20424,13 +20796,13 @@ var _react2 = _interopRequireDefault(_react);
 
 var _redaction = __webpack_require__(31);
 
-var _appConfig = __webpack_require__(23);
+var _appConfig = __webpack_require__(22);
 
 var _appConfig2 = _interopRequireDefault(_appConfig);
 
 var _helpers = __webpack_require__(11);
 
-var _swValuelink = __webpack_require__(104);
+var _swValuelink = __webpack_require__(105);
 
 var _swValuelink2 = _interopRequireDefault(_swValuelink);
 
@@ -20438,25 +20810,25 @@ var _actions = __webpack_require__(15);
 
 var _actions2 = _interopRequireDefault(_actions);
 
-var _bignumber = __webpack_require__(384);
+var _bignumber = __webpack_require__(386);
 
 var _reactCssModules = __webpack_require__(1);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _AddOffer = __webpack_require__(1199);
+var _AddOffer = __webpack_require__(1202);
 
 var _AddOffer2 = _interopRequireDefault(_AddOffer);
 
-var _Button = __webpack_require__(45);
+var _Button = __webpack_require__(37);
 
 var _Button2 = _interopRequireDefault(_Button);
 
-var _Group = __webpack_require__(1200);
+var _Group = __webpack_require__(1203);
 
 var _Group2 = _interopRequireDefault(_Group);
 
-var _Select = __webpack_require__(1205);
+var _Select = __webpack_require__(1208);
 
 var _Select2 = _interopRequireDefault(_Select);
 
@@ -20747,7 +21119,7 @@ var AddOffer = (_dec = (0, _redaction.connect)(function (_ref) {
 exports.default = AddOffer;
 
 /***/ }),
-/* 1193 */
+/* 1196 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20758,23 +21130,23 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.NumberInput = exports.Checkbox = exports.Radio = exports.Select = exports.TextArea = exports.Input = undefined;
 
-var _getPrototypeOf = __webpack_require__(4);
+var _getPrototypeOf = __webpack_require__(3);
 
 var _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);
 
-var _classCallCheck2 = __webpack_require__(5);
+var _classCallCheck2 = __webpack_require__(4);
 
 var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
 
-var _createClass2 = __webpack_require__(6);
+var _createClass2 = __webpack_require__(5);
 
 var _createClass3 = _interopRequireDefault(_createClass2);
 
-var _possibleConstructorReturn2 = __webpack_require__(7);
+var _possibleConstructorReturn2 = __webpack_require__(6);
 
 var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
 
-var _inherits2 = __webpack_require__(8);
+var _inherits2 = __webpack_require__(7);
 
 var _inherits3 = _interopRequireDefault(_inherits2);
 
@@ -20790,7 +21162,7 @@ var _objectWithoutProperties2 = __webpack_require__(53);
 
 var _objectWithoutProperties3 = _interopRequireDefault(_objectWithoutProperties2);
 
-var _defineProperty2 = __webpack_require__(157);
+var _defineProperty2 = __webpack_require__(159);
 
 var _defineProperty3 = _interopRequireDefault(_defineProperty2);
 
@@ -20798,11 +21170,11 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactInputMask = __webpack_require__(1194);
+var _reactInputMask = __webpack_require__(1197);
 
 var _reactInputMask2 = _interopRequireDefault(_reactInputMask);
 
-var _classnames = __webpack_require__(42);
+var _classnames = __webpack_require__(43);
 
 var _classnames2 = _interopRequireDefault(_classnames);
 
@@ -21087,19 +21459,19 @@ exports.Checkbox = Checkbox;
 exports.NumberInput = NumberInput;
 
 /***/ }),
-/* 1194 */,
-/* 1195 */,
-/* 1196 */,
 /* 1197 */,
 /* 1198 */,
-/* 1199 */
+/* 1199 */,
+/* 1200 */,
+/* 1201 */,
+/* 1202 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"sellGroup":"EElyaT","button":"_3riRsA"};
 
 /***/ }),
-/* 1200 */
+/* 1203 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -21117,19 +21489,19 @@ var _reactCssModules = __webpack_require__(1);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _Group = __webpack_require__(1201);
+var _Group = __webpack_require__(1204);
 
 var _Group2 = _interopRequireDefault(_Group);
 
-var _FieldLabel = __webpack_require__(264);
+var _FieldLabel = __webpack_require__(266);
 
 var _FieldLabel2 = _interopRequireDefault(_FieldLabel);
 
-var _Input = __webpack_require__(183);
+var _Input = __webpack_require__(185);
 
 var _Input2 = _interopRequireDefault(_Input);
 
-var _CurrencySelect = __webpack_require__(423);
+var _CurrencySelect = __webpack_require__(425);
 
 var _CurrencySelect2 = _interopRequireDefault(_CurrencySelect);
 
@@ -21174,29 +21546,29 @@ var Group = function Group(_ref) {
 exports.default = (0, _reactCssModules2.default)(Group, _Group2.default);
 
 /***/ }),
-/* 1201 */
+/* 1204 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"groupField":"_2QVvGM","inputRoot":"_2gYR9R","inputContainer":"zgZs0H","currencySelect":"_3zcmBj"};
 
 /***/ }),
-/* 1202 */
+/* 1205 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"label":"_1AbkiC","inRow":"_2Hoger"};
 
 /***/ }),
-/* 1203 */
+/* 1206 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"root":"_1aWblp","inputContainer":"_2di3Mb","disabled":"_3u8Uu2","withError":"_3RwSrH","input":"_3T0zd_","label":"_3xlNvF","error":"_3LmV0i"};
 
 /***/ }),
-/* 1204 */,
-/* 1205 */
+/* 1207 */,
+/* 1208 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -21214,7 +21586,7 @@ var _reactCssModules = __webpack_require__(1);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _Select = __webpack_require__(1206);
+var _Select = __webpack_require__(1209);
 
 var _Select2 = _interopRequireDefault(_Select);
 
@@ -21266,14 +21638,14 @@ var Select = function Select(_ref) {
 exports.default = (0, _reactCssModules2.default)(Select, _Select2.default);
 
 /***/ }),
-/* 1206 */
+/* 1209 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"groupField":"_1TBx4e","cell":"_1fGtMw"};
 
 /***/ }),
-/* 1207 */
+/* 1210 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -21284,23 +21656,23 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = undefined;
 
-var _getPrototypeOf = __webpack_require__(4);
+var _getPrototypeOf = __webpack_require__(3);
 
 var _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);
 
-var _classCallCheck2 = __webpack_require__(5);
+var _classCallCheck2 = __webpack_require__(4);
 
 var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
 
-var _createClass2 = __webpack_require__(6);
+var _createClass2 = __webpack_require__(5);
 
 var _createClass3 = _interopRequireDefault(_createClass2);
 
-var _possibleConstructorReturn2 = __webpack_require__(7);
+var _possibleConstructorReturn2 = __webpack_require__(6);
 
 var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
 
-var _inherits2 = __webpack_require__(8);
+var _inherits2 = __webpack_require__(7);
 
 var _inherits3 = _interopRequireDefault(_inherits2);
 
@@ -21320,7 +21692,7 @@ var _actions = __webpack_require__(15);
 
 var _actions2 = _interopRequireDefault(_actions);
 
-var _swValuelink = __webpack_require__(104);
+var _swValuelink = __webpack_require__(105);
 
 var _swValuelink2 = _interopRequireDefault(_swValuelink);
 
@@ -21328,23 +21700,23 @@ var _reactCssModules = __webpack_require__(1);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _WithdrawModal = __webpack_require__(1208);
+var _WithdrawModal = __webpack_require__(1211);
 
 var _WithdrawModal2 = _interopRequireDefault(_WithdrawModal);
 
-var _Modal = __webpack_require__(182);
+var _Modal = __webpack_require__(184);
 
 var _Modal2 = _interopRequireDefault(_Modal);
 
-var _FieldLabel = __webpack_require__(264);
+var _FieldLabel = __webpack_require__(266);
 
 var _FieldLabel2 = _interopRequireDefault(_FieldLabel);
 
-var _Input = __webpack_require__(183);
+var _Input = __webpack_require__(185);
 
 var _Input2 = _interopRequireDefault(_Input);
 
-var _Button = __webpack_require__(45);
+var _Button = __webpack_require__(37);
 
 var _Button2 = _interopRequireDefault(_Button);
 
@@ -21491,14 +21863,14 @@ var WithdrawModal = (_dec = (0, _reactCssModules2.default)(_WithdrawModal2.defau
 exports.default = WithdrawModal;
 
 /***/ }),
-/* 1208 */
+/* 1211 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"note":"_rh3p5","button":"_36O4pp"};
 
 /***/ }),
-/* 1209 */
+/* 1212 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -21509,23 +21881,23 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = undefined;
 
-var _getPrototypeOf = __webpack_require__(4);
+var _getPrototypeOf = __webpack_require__(3);
 
 var _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);
 
-var _classCallCheck2 = __webpack_require__(5);
+var _classCallCheck2 = __webpack_require__(4);
 
 var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
 
-var _createClass2 = __webpack_require__(6);
+var _createClass2 = __webpack_require__(5);
 
 var _createClass3 = _interopRequireDefault(_createClass2);
 
-var _possibleConstructorReturn2 = __webpack_require__(7);
+var _possibleConstructorReturn2 = __webpack_require__(6);
 
 var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
 
-var _inherits2 = __webpack_require__(8);
+var _inherits2 = __webpack_require__(7);
 
 var _inherits3 = _interopRequireDefault(_inherits2);
 
@@ -21549,7 +21921,7 @@ var _actions = __webpack_require__(15);
 
 var _actions2 = _interopRequireDefault(_actions);
 
-var _swValuelink = __webpack_require__(104);
+var _swValuelink = __webpack_require__(105);
 
 var _swValuelink2 = _interopRequireDefault(_swValuelink);
 
@@ -21559,19 +21931,19 @@ var _reactCssModules = __webpack_require__(1);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _PrivateKeysModal = __webpack_require__(1210);
+var _PrivateKeysModal = __webpack_require__(1213);
 
 var _PrivateKeysModal2 = _interopRequireDefault(_PrivateKeysModal);
 
-var _Field = __webpack_require__(1211);
+var _Field = __webpack_require__(1214);
 
 var _Field2 = _interopRequireDefault(_Field);
 
-var _Modal = __webpack_require__(182);
+var _Modal = __webpack_require__(184);
 
 var _Modal2 = _interopRequireDefault(_Modal);
 
-var _Button = __webpack_require__(45);
+var _Button = __webpack_require__(37);
 
 var _Button2 = _interopRequireDefault(_Button);
 
@@ -21727,14 +22099,14 @@ var PrivateKeysModal = (_dec = (0, _redaction.connect)({
 exports.default = PrivateKeysModal;
 
 /***/ }),
-/* 1210 */
+/* 1213 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"modal":"_3ixJuZ","content":"_3o3Tl_","title":"_1HvQwA","subTitle":"_2vKFTm","button":"_19cTFn"};
 
 /***/ }),
-/* 1211 */
+/* 1214 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -21745,23 +22117,23 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = undefined;
 
-var _getPrototypeOf = __webpack_require__(4);
+var _getPrototypeOf = __webpack_require__(3);
 
 var _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);
 
-var _classCallCheck2 = __webpack_require__(5);
+var _classCallCheck2 = __webpack_require__(4);
 
 var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
 
-var _createClass2 = __webpack_require__(6);
+var _createClass2 = __webpack_require__(5);
 
 var _createClass3 = _interopRequireDefault(_createClass2);
 
-var _possibleConstructorReturn2 = __webpack_require__(7);
+var _possibleConstructorReturn2 = __webpack_require__(6);
 
 var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
 
-var _inherits2 = __webpack_require__(8);
+var _inherits2 = __webpack_require__(7);
 
 var _inherits3 = _interopRequireDefault(_inherits2);
 
@@ -21775,7 +22147,7 @@ var _propTypes = __webpack_require__(9);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
-var _swValuelink = __webpack_require__(104);
+var _swValuelink = __webpack_require__(105);
 
 var _swValuelink2 = _interopRequireDefault(_swValuelink);
 
@@ -21783,15 +22155,15 @@ var _reactCssModules = __webpack_require__(1);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _Field = __webpack_require__(1212);
+var _Field = __webpack_require__(1215);
 
 var _Field2 = _interopRequireDefault(_Field);
 
-var _Input = __webpack_require__(183);
+var _Input = __webpack_require__(185);
 
 var _Input2 = _interopRequireDefault(_Input);
 
-var _Button = __webpack_require__(45);
+var _Button = __webpack_require__(37);
 
 var _Button2 = _interopRequireDefault(_Button);
 
@@ -21897,14 +22269,14 @@ var Field2 = (_dec = (0, _reactCssModules2.default)(_Field2.default), _dec(_clas
 exports.default = Field2;
 
 /***/ }),
-/* 1212 */
+/* 1215 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"container":"_2VJQBX","section":"_3kogcs","label":"_2soNit","input":"BtOAgk","button":"guRICj","error":"vB1kUx"};
 
 /***/ }),
-/* 1213 */
+/* 1216 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -21915,31 +22287,31 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = undefined;
 
-var _regenerator = __webpack_require__(134);
+var _regenerator = __webpack_require__(136);
 
 var _regenerator2 = _interopRequireDefault(_regenerator);
 
-var _asyncToGenerator2 = __webpack_require__(159);
+var _asyncToGenerator2 = __webpack_require__(161);
 
 var _asyncToGenerator3 = _interopRequireDefault(_asyncToGenerator2);
 
-var _getPrototypeOf = __webpack_require__(4);
+var _getPrototypeOf = __webpack_require__(3);
 
 var _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);
 
-var _classCallCheck2 = __webpack_require__(5);
+var _classCallCheck2 = __webpack_require__(4);
 
 var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
 
-var _createClass2 = __webpack_require__(6);
+var _createClass2 = __webpack_require__(5);
 
 var _createClass3 = _interopRequireDefault(_createClass2);
 
-var _possibleConstructorReturn2 = __webpack_require__(7);
+var _possibleConstructorReturn2 = __webpack_require__(6);
 
 var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
 
-var _inherits2 = __webpack_require__(8);
+var _inherits2 = __webpack_require__(7);
 
 var _inherits3 = _interopRequireDefault(_inherits2);
 
@@ -21949,13 +22321,13 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _modal = __webpack_require__(1214);
+var _modal = __webpack_require__(1217);
 
-var _controls = __webpack_require__(1217);
+var _controls = __webpack_require__(1220);
 
-var _forms = __webpack_require__(1220);
+var _forms = __webpack_require__(1223);
 
-var _swValuelink = __webpack_require__(104);
+var _swValuelink = __webpack_require__(105);
 
 var _swValuelink2 = _interopRequireDefault(_swValuelink);
 
@@ -21969,7 +22341,7 @@ var _reactCssModules = __webpack_require__(1);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _EosModal = __webpack_require__(1221);
+var _EosModal = __webpack_require__(1224);
 
 var _EosModal2 = _interopRequireDefault(_EosModal);
 
@@ -22096,7 +22468,7 @@ var EosModal = (_dec = (0, _reactCssModules2.default)(_EosModal2.default), _dec(
 exports.default = EosModal;
 
 /***/ }),
-/* 1214 */
+/* 1217 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -22107,7 +22479,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.ModalContainer = exports.ModalConductor = exports.Modal = undefined;
 
-var _Modal = __webpack_require__(182);
+var _Modal = __webpack_require__(184);
 
 var _Modal2 = _interopRequireDefault(_Modal);
 
@@ -22115,7 +22487,7 @@ var _ModalConductor = __webpack_require__(461);
 
 var _ModalConductor2 = _interopRequireDefault(_ModalConductor);
 
-var _ModalContainer = __webpack_require__(1215);
+var _ModalContainer = __webpack_require__(1218);
 
 var _ModalContainer2 = _interopRequireDefault(_ModalContainer);
 
@@ -22126,7 +22498,7 @@ exports.ModalConductor = _ModalConductor2.default;
 exports.ModalContainer = _ModalContainer2.default;
 
 /***/ }),
-/* 1215 */
+/* 1218 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -22137,23 +22509,23 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = undefined;
 
-var _getPrototypeOf = __webpack_require__(4);
+var _getPrototypeOf = __webpack_require__(3);
 
 var _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);
 
-var _classCallCheck2 = __webpack_require__(5);
+var _classCallCheck2 = __webpack_require__(4);
 
 var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
 
-var _createClass2 = __webpack_require__(6);
+var _createClass2 = __webpack_require__(5);
 
 var _createClass3 = _interopRequireDefault(_createClass2);
 
-var _possibleConstructorReturn2 = __webpack_require__(7);
+var _possibleConstructorReturn2 = __webpack_require__(6);
 
 var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
 
-var _inherits2 = __webpack_require__(8);
+var _inherits2 = __webpack_require__(7);
 
 var _inherits3 = _interopRequireDefault(_inherits2);
 
@@ -22169,7 +22541,7 @@ var _propTypes2 = _interopRequireDefault(_propTypes);
 
 var _helpers = __webpack_require__(11);
 
-var _classnames = __webpack_require__(42);
+var _classnames = __webpack_require__(43);
 
 var _classnames2 = _interopRequireDefault(_classnames);
 
@@ -22177,7 +22549,7 @@ var _reactCssModules = __webpack_require__(1);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _ModalContainer = __webpack_require__(1216);
+var _ModalContainer = __webpack_require__(1219);
 
 var _ModalContainer2 = _interopRequireDefault(_ModalContainer);
 
@@ -22267,14 +22639,14 @@ var ModalContainer = (_dec = (0, _reactCssModules2.default)(_ModalContainer2.def
 exports.default = ModalContainer;
 
 /***/ }),
-/* 1216 */
+/* 1219 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"modalContainer":"_5wv85l","fullWidth":"_3v15t0","mounted":"_2elaml"};
 
 /***/ }),
-/* 1217 */
+/* 1220 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -22285,7 +22657,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.WithdrawButton = exports.TimerButton = exports.Swap = exports.RemoveButton = exports.ReloadButton = exports.Flip = exports.ButtonInRow = exports.Button = undefined;
 
-var _Button = __webpack_require__(45);
+var _Button = __webpack_require__(37);
 
 var _Button2 = _interopRequireDefault(_Button);
 
@@ -22293,27 +22665,27 @@ var _ButtonsInRow = __webpack_require__(464);
 
 var _ButtonsInRow2 = _interopRequireDefault(_ButtonsInRow);
 
-var _Flip = __webpack_require__(424);
+var _Flip = __webpack_require__(426);
 
 var _Flip2 = _interopRequireDefault(_Flip);
 
-var _ReloadButton = __webpack_require__(426);
+var _ReloadButton = __webpack_require__(428);
 
 var _ReloadButton2 = _interopRequireDefault(_ReloadButton);
 
-var _RemoveButton = __webpack_require__(422);
+var _RemoveButton = __webpack_require__(424);
 
 var _RemoveButton2 = _interopRequireDefault(_RemoveButton);
 
-var _Swap = __webpack_require__(1218);
+var _Swap = __webpack_require__(1221);
 
 var _Swap2 = _interopRequireDefault(_Swap);
 
-var _TimerButton = __webpack_require__(255);
+var _TimerButton = __webpack_require__(135);
 
 var _TimerButton2 = _interopRequireDefault(_TimerButton);
 
-var _WithdrawButton = __webpack_require__(425);
+var _WithdrawButton = __webpack_require__(427);
 
 var _WithdrawButton2 = _interopRequireDefault(_WithdrawButton);
 
@@ -22329,7 +22701,7 @@ exports.TimerButton = _TimerButton2.default;
 exports.WithdrawButton = _WithdrawButton2.default;
 
 /***/ }),
-/* 1218 */
+/* 1221 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -22347,7 +22719,7 @@ var _reactCssModules = __webpack_require__(1);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _Swap = __webpack_require__(1219);
+var _Swap = __webpack_require__(1222);
 
 var _Swap2 = _interopRequireDefault(_Swap);
 
@@ -22375,14 +22747,14 @@ function Swap() {
 exports.default = (0, _reactCssModules2.default)(Swap, _Swap2.default);
 
 /***/ }),
-/* 1219 */
+/* 1222 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"table__link":"_3EGhOv","table__link-arrow":"_3XFEl9"};
 
 /***/ }),
-/* 1220 */
+/* 1223 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -22393,11 +22765,11 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.TextArea = exports.Input = exports.FieldLabel = undefined;
 
-var _FieldLabel = __webpack_require__(264);
+var _FieldLabel = __webpack_require__(266);
 
 var _FieldLabel2 = _interopRequireDefault(_FieldLabel);
 
-var _Input = __webpack_require__(183);
+var _Input = __webpack_require__(185);
 
 var _Input2 = _interopRequireDefault(_Input);
 
@@ -22412,21 +22784,21 @@ exports.Input = _Input2.default;
 exports.TextArea = _TextArea2.default;
 
 /***/ }),
-/* 1221 */
+/* 1224 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"button":"_3EXSN4","error":"vZrYLm"};
 
 /***/ }),
-/* 1222 */
+/* 1225 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"modalConductor":"qe8yZ6"};
 
 /***/ }),
-/* 1223 */
+/* 1226 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -22441,23 +22813,23 @@ var _keys = __webpack_require__(60);
 
 var _keys2 = _interopRequireDefault(_keys);
 
-var _getPrototypeOf = __webpack_require__(4);
+var _getPrototypeOf = __webpack_require__(3);
 
 var _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);
 
-var _classCallCheck2 = __webpack_require__(5);
+var _classCallCheck2 = __webpack_require__(4);
 
 var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
 
-var _createClass2 = __webpack_require__(6);
+var _createClass2 = __webpack_require__(5);
 
 var _createClass3 = _interopRequireDefault(_createClass2);
 
-var _possibleConstructorReturn2 = __webpack_require__(7);
+var _possibleConstructorReturn2 = __webpack_require__(6);
 
 var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
 
-var _inherits2 = __webpack_require__(8);
+var _inherits2 = __webpack_require__(7);
 
 var _inherits3 = _interopRequireDefault(_inherits2);
 
@@ -22473,7 +22845,7 @@ var _propTypes2 = _interopRequireDefault(_propTypes);
 
 var _redaction = __webpack_require__(31);
 
-var _notifications = __webpack_require__(1224);
+var _notifications = __webpack_require__(1227);
 
 var _notifications2 = _interopRequireDefault(_notifications);
 
@@ -22481,7 +22853,7 @@ var _reactCssModules = __webpack_require__(1);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _NotificationConductor = __webpack_require__(1230);
+var _NotificationConductor = __webpack_require__(1233);
 
 var _NotificationConductor2 = _interopRequireDefault(_NotificationConductor);
 
@@ -22532,7 +22904,7 @@ var NotificationConductor = (_dec = (0, _redaction.connect)({
 exports.default = NotificationConductor;
 
 /***/ }),
-/* 1224 */
+/* 1227 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -22542,11 +22914,11 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _SuccessWithdraw = __webpack_require__(1225);
+var _SuccessWithdraw = __webpack_require__(1228);
 
 var _SuccessWithdraw2 = _interopRequireDefault(_SuccessWithdraw);
 
-var _Message = __webpack_require__(1228);
+var _Message = __webpack_require__(1231);
 
 var _Message2 = _interopRequireDefault(_Message);
 
@@ -22558,7 +22930,7 @@ exports.default = {
 };
 
 /***/ }),
-/* 1225 */
+/* 1228 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -22569,23 +22941,23 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = undefined;
 
-var _getPrototypeOf = __webpack_require__(4);
+var _getPrototypeOf = __webpack_require__(3);
 
 var _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);
 
-var _classCallCheck2 = __webpack_require__(5);
+var _classCallCheck2 = __webpack_require__(4);
 
 var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
 
-var _createClass2 = __webpack_require__(6);
+var _createClass2 = __webpack_require__(5);
 
 var _createClass3 = _interopRequireDefault(_createClass2);
 
-var _possibleConstructorReturn2 = __webpack_require__(7);
+var _possibleConstructorReturn2 = __webpack_require__(6);
 
 var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
 
-var _inherits2 = __webpack_require__(8);
+var _inherits2 = __webpack_require__(7);
 
 var _inherits3 = _interopRequireDefault(_inherits2);
 
@@ -22599,7 +22971,7 @@ var _reactCssModules = __webpack_require__(1);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _SuccessWithdraw = __webpack_require__(1226);
+var _SuccessWithdraw = __webpack_require__(1229);
 
 var _SuccessWithdraw2 = _interopRequireDefault(_SuccessWithdraw);
 
@@ -22649,21 +23021,21 @@ var SuccessWithdraw = (_dec = (0, _reactCssModules2.default)(_SuccessWithdraw2.d
 exports.default = SuccessWithdraw;
 
 /***/ }),
-/* 1226 */
+/* 1229 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"value":"_3M190E"};
 
 /***/ }),
-/* 1227 */
+/* 1230 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"container":"_1rGs3i","mounted":"_3e2bwy","removed":"_359s7d","notification":"_2HVVjT","content":"_2sHyls"};
 
 /***/ }),
-/* 1228 */
+/* 1231 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -22674,23 +23046,23 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = undefined;
 
-var _getPrototypeOf = __webpack_require__(4);
+var _getPrototypeOf = __webpack_require__(3);
 
 var _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);
 
-var _classCallCheck2 = __webpack_require__(5);
+var _classCallCheck2 = __webpack_require__(4);
 
 var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
 
-var _createClass2 = __webpack_require__(6);
+var _createClass2 = __webpack_require__(5);
 
 var _createClass3 = _interopRequireDefault(_createClass2);
 
-var _possibleConstructorReturn2 = __webpack_require__(7);
+var _possibleConstructorReturn2 = __webpack_require__(6);
 
 var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
 
-var _inherits2 = __webpack_require__(8);
+var _inherits2 = __webpack_require__(7);
 
 var _inherits3 = _interopRequireDefault(_inherits2);
 
@@ -22704,7 +23076,7 @@ var _reactCssModules = __webpack_require__(1);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _Message = __webpack_require__(1229);
+var _Message = __webpack_require__(1232);
 
 var _Message2 = _interopRequireDefault(_Message);
 
@@ -22746,14 +23118,14 @@ var Message = (_dec = (0, _reactCssModules2.default)(_Message2.default), _dec(_c
 exports.default = Message;
 
 /***/ }),
-/* 1229 */
+/* 1232 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"value":"xt8YYA"};
 
 /***/ }),
-/* 1230 */
+/* 1233 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
