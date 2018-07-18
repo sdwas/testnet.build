@@ -222,7 +222,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 // resolve object in webpack
-exports.default = {"propENV":"testnet.prod","paths":{},"referral":{"url":"https://wiki.swap.online/affiliate.php"},"publicPath":"https://testnet.swap.online/","http":{"host":"localhost","port":9001},"i18nDate":{"month":"long","day":"numeric","hour":"numeric","minute":"numeric"},"exchangeRates":{"etheth":1,"ethbtc":0.07,"btceth":14,"ethnoxon":1,"noxoneth":1,"btcnoxon":14,"noxonbtc":0.07},"env":"production","entry":"testnet","base":"https://testnet.swap.online/","services":{"web3":{"provider":"https://rinkeby.infura.io/JCnK5ifEPH9qcQkX0Ahl","rate":0.1,"gas":2000000,"gasPrice":"20000000000"},"eos":{"chainId":"038f4b0fc8ff18a4f0842a8f0564611f6e96e8535901dd45e43ac8691a1c4dca","httpEndpoint":"https://jungle.eosio.cr"}},"token":{"contract":"0xc87C2668F05803F60EF75b176eea0CCE80D0009C"},"eth":{"contract":"0x830aef165b900fa7dc6b219f062c5784f6436d67"},"tokens":{"swap":{"address":"0xbaa3fa2ed111f3e8488c21861ea7b7dbb5a7b121","decimals":18},"noxon":{"address":"0x60c205722c6c797c725a996cf9cca11291f90749","decimals":0}},"link":{"bitpay":"https://test-insight.bitpay.com","etherscan":"https://rinkeby.etherscan.io","eos":"http://jungle.cryptolions.io/#accountInfo"},"api":{"blocktrail":"https://api.blocktrail.com/v1/tBTC","bitpay":"https://test-insight.bitpay.com/api","etherscan":"https://rinkeby.etherscan.io/api"},"apiKeys":{"etherscan":"RHHFPNMAZMD6I4ZWBZBF6FA11CMW9AXZNM","blocktrail":"1835368c0fa8e71907ca26f3c978ab742a7db42e"}};
+exports.default = {"propENV":"testnet.prod","paths":{},"referral":{"url":"https://wiki.swap.online/affiliate.php"},"publicPath":"https://testnet.swap.online/","http":{"host":"localhost","port":9001},"i18nDate":{"month":"long","day":"numeric","hour":"numeric","minute":"numeric"},"exchangeRates":{"swapeth":1,"ethswap":1,"swapnoxon":1,"noxonswap":1,"swapbtc":0.07,"btcswap":14,"etheth":1,"ethbtc":0.07,"btceth":14,"ethnoxon":1,"noxoneth":1,"btcnoxon":14,"noxonbtc":0.07},"env":"production","entry":"testnet","base":"https://testnet.swap.online/","services":{"web3":{"provider":"https://rinkeby.infura.io/JCnK5ifEPH9qcQkX0Ahl","rate":0.1,"gas":2000000,"gasPrice":"20000000000"},"eos":{"chainId":"038f4b0fc8ff18a4f0842a8f0564611f6e96e8535901dd45e43ac8691a1c4dca","httpEndpoint":"https://jungle.eosio.cr"}},"token":{"contract":"0xc87C2668F05803F60EF75b176eea0CCE80D0009C"},"eth":{"contract":"0x830aef165b900fa7dc6b219f062c5784f6436d67"},"tokens":{"swap":{"address":"0xbaa3fa2ed111f3e8488c21861ea7b7dbb5a7b121","decimals":18},"noxon":{"address":"0x60c205722c6c797c725a996cf9cca11291f90749","decimals":0}},"link":{"bitpay":"https://test-insight.bitpay.com","etherscan":"https://rinkeby.etherscan.io","eos":"http://jungle.cryptolions.io/#accountInfo"},"api":{"blocktrail":"https://api.blocktrail.com/v1/tBTC","bitpay":"https://test-insight.bitpay.com/api","etherscan":"https://rinkeby.etherscan.io/api"},"apiKeys":{"etherscan":"RHHFPNMAZMD6I4ZWBZBF6FA11CMW9AXZNM","blocktrail":"1835368c0fa8e71907ca26f3c978ab742a7db42e"}};
 
 /***/ }),
 /* 23 */,
@@ -5564,7 +5564,6 @@ var getBalances = function getBalances() {
   _actions2.default.eos.getBalance();
 
   (0, _keys2.default)(_appConfig2.default.tokens).forEach(function (name) {
-    console.log('USER', name);
     _actions2.default.token.getBalance(_appConfig2.default.tokens[name].address, name, _appConfig2.default.tokens[name].decimals);
   });
   // actions.nimiq.getBalance()
@@ -5579,18 +5578,15 @@ var getDemoMoney =  false ? function () {} : function () {
   });
 };
 
-var setExchangeRate = function setExchangeRate(buyCurrency, sellCurrency) {
-  var url = 'https://api.coinbase.com/v2/exchange-rates?currency=' + buyCurrency.toUpperCase();
-
+var setExchangeRate = function setExchangeRate(buyCurrency, sellCurrency, setState) {
+  var url = 'https://api.cryptonator.com/api/full/' + buyCurrency + '-' + sellCurrency;
+  console.log(url);
   return _helpers.request.get(url).then(function (_ref2) {
-    var rates = _ref2.data.rates;
-    return (0, _keys2.default)(rates).filter(function (k) {
-      return k === sellCurrency.toUpperCase();
-    }).map(function (k) {
-      return rates[k];
-    });
+    var exchangeRate = _ref2.ticker.price;
+
+    setState(exchangeRate);
   }).catch(function () {
-    return _appConfig2.default.exchangeRates['' + buyCurrency.toLowerCase() + sellCurrency.toLowerCase()];
+    return setState(_appConfig2.default.exchangeRates['' + buyCurrency.toLowerCase() + sellCurrency.toLowerCase()]);
   });
 };
 
@@ -7266,8 +7262,6 @@ var Orders = function (_Component) {
       var orders = this.state.orders;
 
 
-      console.log(orders);
-
       var filteredOrders = this.filterOrders(orders, filter);
       var mePeer = _swap2.default.services.room.peer;
       var myOrders = orders.filter(function (order) {
@@ -8259,24 +8253,7 @@ var Row = (_temp2 = _class = function (_Component) {
       args[_key] = arguments[_key];
     }
 
-    return _ret = (_temp = (_this = (0, _possibleConstructorReturn3.default)(this, (_ref = Row.__proto__ || (0, _getPrototypeOf2.default)(Row)).call.apply(_ref, [this].concat(args))), _this), _this.state = {
-      exchangeRate: null,
-      balance: null,
-      amount: null
-    }, _this.getExchangeRate = function (buyCurrency, sellCurrency) {
-
-      if (sellCurrency === 'noxon') {
-        sellCurrency = 'eth';
-      } else if (buyCurrency === 'noxon') {
-        buyCurrency = 'eth';
-      }
-
-      _actions2.default.user.setExchangeRate(buyCurrency, sellCurrency).then(function (exchangeRate) {
-        _this.setState({
-          exchangeRate: exchangeRate
-        });
-      });
-    }, _this.removeOrder = function (orderId) {
+    return _ret = (_temp = (_this = (0, _possibleConstructorReturn3.default)(this, (_ref = Row.__proto__ || (0, _getPrototypeOf2.default)(Row)).call.apply(_ref, [this].concat(args))), _this), _this.removeOrder = function (orderId) {
       _swap2.default.services.orders.remove(orderId);
       _actions2.default.feed.deleteItemToFeed(orderId);
 
@@ -8294,63 +8271,11 @@ var Row = (_temp2 = _class = function (_Component) {
   }
 
   (0, _createClass3.default)(Row, [{
-    key: 'componentWillMount',
-    value: function componentWillMount() {
+    key: 'render',
+    value: function render() {
       var _this2 = this;
 
       var row = this.props.row;
-
-
-      if (row === undefined) {
-        return null;
-      }
-
-      var buyCurrency = row.buyCurrency,
-          sellCurrency = row.sellCurrency,
-          sellAmount = row.sellAmount,
-          buyAmount = row.buyAmount,
-          isMy = row.isMy;
-
-      var amount = isMy ? buyAmount : sellAmount;
-      var currency = isMy ? buyCurrency : sellCurrency;
-      currency = currency.toLowerCase();
-
-      if (currency === 'eth') {
-        _actions2.default.ethereum.getBalance().then(function (balance) {
-          _this2.setState({
-            balance: balance
-          });
-        });
-      } else if (currency === 'btc') {
-        _actions2.default.bitcoin.getBalance().then(function (balance) {
-          _this2.setState({
-            balance: balance
-          });
-        });
-      } else if (currency !== undefined) {
-        _actions2.default.token.getBalance(_appConfig2.default.tokens[currency].address, currency, _appConfig2.default.tokens[currency].decimals).then(function (balance) {
-          _this2.setState({
-            balance: balance
-          });
-        });
-      }
-
-      this.setState({
-        amount: amount.toNumber()
-      });
-
-      this.getExchangeRate(buyCurrency, sellCurrency);
-    }
-  }, {
-    key: 'render',
-    value: function render() {
-      var _this3 = this;
-
-      var row = this.props.row;
-      var _state = this.state,
-          exchangeRate = _state.exchangeRate,
-          amount = _state.amount,
-          balance = _state.balance;
 
 
       if (row === undefined) {
@@ -8364,6 +8289,7 @@ var Row = (_temp2 = _class = function (_Component) {
           buyAmount = row.buyAmount,
           sellAmount = row.sellAmount,
           isRequested = row.isRequested,
+          exchangeRate = row.exchangeRate,
           ownerPeer = row.owner.peer;
 
       var mePeer = _swap2.default.services.room.peer;
@@ -8395,7 +8321,7 @@ var Row = (_temp2 = _class = function (_Component) {
           'td',
           null,
           mePeer === ownerPeer ? _react2.default.createElement(_RemoveButton2.default, { removeOrder: function removeOrder() {
-              return _this3.removeOrder(id);
+              return _this2.removeOrder(id);
             } }) : _react2.default.createElement(
             _react.Fragment,
             null,
@@ -8416,7 +8342,7 @@ var Row = (_temp2 = _class = function (_Component) {
               _reactRouterDom.Link,
               { to: _helpers.links.swap + '/' + buyCurrency + '-' + sellCurrency + '/' + id },
               _react2.default.createElement(_RequestButton2.default, { sendRequest: function sendRequest() {
-                  return _this3.sendRequest(id);
+                  return _this2.sendRequest(id);
                 } })
             ) : _react2.default.createElement(
               'span',
@@ -9240,6 +9166,7 @@ var RowFeeds = function RowFeeds(_ref) {
       buyCurrency = row.buyCurrency,
       sellAmount = row.sellAmount,
       sellCurrency = row.sellCurrency,
+      exchangeRate = row.exchangeRate,
       id = row.id;
 
 
@@ -9254,17 +9181,17 @@ var RowFeeds = function RowFeeds(_ref) {
     _react2.default.createElement(
       'td',
       null,
-      buyCurrency.toUpperCase() + ' ' + buyAmount.toNumber().toFixed(3)
+      buyCurrency + ' ' + buyAmount.toNumber()
     ),
     _react2.default.createElement(
       'td',
       null,
-      sellCurrency.toUpperCase() + ' ' + sellAmount.toNumber().toFixed(3)
+      sellCurrency + ' ' + sellAmount.toNumber()
     ),
     _react2.default.createElement(
       'td',
       null,
-      _appConfig2.default.exchangeRates['' + buyCurrency.toLowerCase() + sellCurrency.toLowerCase()]
+      exchangeRate
     ),
     _react2.default.createElement(
       'td',
@@ -14311,6 +14238,7 @@ var checkIncomeOrderFormat = function checkIncomeOrderFormat(order) {
     sellCurrency: _swap.util.typeforce.isCoinName,
     buyAmount: _swap.util.typeforce.isNumeric,
     sellAmount: _swap.util.typeforce.isNumeric,
+    exchangeRate: _swap.util.typeforce.isNumeric,
     isProcessing: '?Boolean',
     isRequested: '?Boolean'
   };
@@ -14360,7 +14288,7 @@ var SwapOrders = function (_aggregation) {
       if (myOrders.length) {
         // clean orders from other additional props
         myOrders = myOrders.map(function (item) {
-          return _swap.util.pullProps(item, 'id', 'owner', 'buyCurrency', 'sellCurrency', 'buyAmount', 'sellAmount', 'isRequested', 'isProcessing');
+          return _swap.util.pullProps(item, 'id', 'owner', 'buyCurrency', 'sellCurrency', 'buyAmount', 'exchangeRate', 'sellAmount', 'isRequested', 'isProcessing');
         });
 
         _swap2.default.services.room.sendMessage(peer, [{
@@ -14549,7 +14477,7 @@ var SwapOrders = function (_aggregation) {
       // but then user comes online need to change status. Ofc we can leave this bcs developers can do this themselves
       // with filters - skip requests where user is offline, but it looks like not very good
       myOrders = myOrders.map(function (item) {
-        return _swap.util.pullProps(item, 'id', 'owner', 'buyCurrency', 'sellCurrency', 'buyAmount', 'sellAmount', 'participant', 'requests', 'isRequested', 'isProcessing');
+        return _swap.util.pullProps(item, 'id', 'owner', 'buyCurrency', 'sellCurrency', 'buyAmount', 'sellAmount', 'exchangeRate', 'participant', 'requests', 'isRequested', 'isProcessing');
       });
 
       _swap2.default.env.storage.setItem('myOrders', myOrders);
@@ -14588,7 +14516,7 @@ var SwapOrders = function (_aggregation) {
       _swap2.default.services.room.sendMessage([{
         event: 'new order',
         data: {
-          order: _swap.util.pullProps(order, 'id', 'owner', 'buyCurrency', 'sellCurrency', 'buyAmount', 'sellAmount', 'isRequested', 'isProcessing')
+          order: _swap.util.pullProps(order, 'id', 'owner', 'buyCurrency', 'exchangeRate', 'sellCurrency', 'buyAmount', 'sellAmount', 'isRequested', 'isProcessing')
         }
       }]);
     }
@@ -14801,6 +14729,7 @@ var Order = function () {
     this.owner = null;
     this.participant = null;
     this.buyCurrency = null;
+    this.exchangeRate = null;
     this.sellCurrency = null;
     this.buyAmount = null;
     this.sellAmount = null;
@@ -20492,14 +20421,16 @@ var ConfirmOffer = (_dec = (0, _reactCssModules2.default)(_ConfirmOffer2.default
           buyAmount = _this$state.buyAmount,
           sellAmount = _this$state.sellAmount,
           buyCurrency = _this$state.buyCurrency,
-          sellCurrency = _this$state.sellCurrency;
+          sellCurrency = _this$state.sellCurrency,
+          exchangeRate = _this$state.exchangeRate;
 
 
       var data = {
         buyCurrency: '' + buyCurrency,
         sellCurrency: '' + sellCurrency,
         buyAmount: Number(buyAmount),
-        sellAmount: Number(sellAmount)
+        sellAmount: Number(sellAmount),
+        exchangeRate: Number(exchangeRate)
       };
       _actions2.default.analytics.dataEvent('orderbook-addoffer-click-confirm-button');
       _swap2.default.services.orders.create(data);
@@ -20764,10 +20695,6 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = undefined;
 
-var _keys = __webpack_require__(60);
-
-var _keys2 = _interopRequireDefault(_keys);
-
 var _getPrototypeOf = __webpack_require__(3);
 
 var _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);
@@ -20787,6 +20714,10 @@ var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorRet
 var _inherits2 = __webpack_require__(7);
 
 var _inherits3 = _interopRequireDefault(_inherits2);
+
+var _keys = __webpack_require__(60);
+
+var _keys2 = _interopRequireDefault(_keys);
 
 var _dec, _dec2, _class, _class2, _temp, _initialiseProps;
 
@@ -20843,7 +20774,9 @@ var AddOffer = (_dec = (0, _redaction.connect)(function (_ref) {
       tokensData = _ref$user.tokensData;
   return {
     items: [ethData, btcData],
-    tokensData: tokensData
+    tokens: (0, _keys2.default)(tokensData).map(function (k) {
+      return tokensData[k];
+    })
   };
 }), _dec2 = (0, _reactCssModules2.default)(_AddOffer2.default, { allowMultiple: true }), _dec(_class = _dec2(_class = (_temp = _class2 = function (_Component) {
   (0, _inherits3.default)(AddOffer, _Component);
@@ -20886,14 +20819,14 @@ var AddOffer = (_dec = (0, _redaction.connect)(function (_ref) {
           buyCurrency = _state.buyCurrency,
           sellCurrency = _state.sellCurrency;
 
-      this.getExchangeRate(buyCurrency, sellCurrency);
+      _actions2.default.user.setExchangeRate(buyCurrency, sellCurrency, this.changeExchangeRate);
     }
   }, {
     key: 'render',
     value: function render() {
       var _props = this.props,
           items = _props.items,
-          tokensData = _props.tokensData;
+          tokens = _props.tokens;
       var _state2 = this.state,
           exchangeRate = _state2.exchangeRate,
           buyAmount = _state2.buyAmount,
@@ -20901,21 +20834,11 @@ var AddOffer = (_dec = (0, _redaction.connect)(function (_ref) {
           buyCurrency = _state2.buyCurrency,
           sellCurrency = _state2.sellCurrency;
 
-      var blocked = true;
-
-      if (false) {
-        var noxoneth = '' + buyCurrency + sellCurrency === 'noxoneth' || '' + buyCurrency + sellCurrency === 'ethnoxon';
-        var btcnoxon = '' + buyCurrency + sellCurrency === 'noxonbtc' || '' + buyCurrency + sellCurrency === 'btcnoxon';
-        blocked = !noxoneth && !btcnoxon;
-      }
 
       var linked = _swValuelink2.default.all(this, 'exchangeRate', 'buyAmount', 'sellAmount');
-      var isDisabled = !exchangeRate || !blocked || !buyAmount && !sellAmount;
+      var isDisabled = !exchangeRate || !buyAmount && !sellAmount;
 
-      (0, _keys2.default)(tokensData).map(function (k) {
-        return items.push(tokensData[k]);
-      });
-      var item = items.filter(function (item) {
+      var data = [].concat(tokens, items).filter(function (item) {
         return item.currency.toLowerCase() === '' + sellCurrency;
       });
 
@@ -20930,8 +20853,8 @@ var AddOffer = (_dec = (0, _redaction.connect)(function (_ref) {
         }),
         _react2.default.createElement(_Select2.default, {
           changeBalance: this.changeBalance,
-          balance: item[0].balance,
-          currency: item[0].currency
+          balance: data[0].balance,
+          currency: data[0].currency
         }),
         _react2.default.createElement(_Group2.default, {
           styleName: 'sellGroup',
@@ -20966,19 +20889,14 @@ var AddOffer = (_dec = (0, _redaction.connect)(function (_ref) {
 }(_react.Component), _initialiseProps = function _initialiseProps() {
   var _this2 = this;
 
-  this.getExchangeRate = function (buyCurrency, sellCurrency) {
-
-    if (sellCurrency === 'noxon') {
-      sellCurrency = 'eth';
-    } else if (buyCurrency === 'noxon') {
-      buyCurrency = 'eth';
-    }
-
-    _actions2.default.user.setExchangeRate(buyCurrency, sellCurrency).then(function (exchangeRate) {
-      _this2.setState({
-        exchangeRate: exchangeRate
-      });
+  this.changeExchangeRate = function (value) {
+    _this2.setState({
+      exchangeRate: value
     });
+  };
+
+  this.getExchangeRate = function (buyCurrency, sellCurrency) {
+    _actions2.default.user.setExchangeRate(buyCurrency, sellCurrency, _this2.changeExchangeRate);
   };
 
   this.handleExchangeRateChange = function (value) {
@@ -21085,24 +21003,13 @@ var AddOffer = (_dec = (0, _redaction.connect)(function (_ref) {
     var _state6 = _this2.state,
         exchangeRate = _state6.exchangeRate,
         buyAmount = _state6.buyAmount,
-        sellAmount = _state6.sellAmount,
-        buyCurrency = _state6.buyCurrency,
-        sellCurrency = _state6.sellCurrency;
-
-    var blocked = true;
-
-    if (false) {
-      var noxoneth = '' + buyCurrency + sellCurrency === 'noxoneth' || '' + buyCurrency + sellCurrency === 'ethnoxon';
-      var btcnoxon = '' + buyCurrency + sellCurrency === 'noxonbtc' || '' + buyCurrency + sellCurrency === 'btcnoxon';
-      blocked = !noxoneth && !btcnoxon;
-    }
-
+        sellAmount = _state6.sellAmount;
     var onNext = _this2.props.onNext;
 
 
     _actions2.default.analytics.dataEvent('orderbook-addoffer-click-next-button');
 
-    var isDisabled = !exchangeRate || !buyAmount || !sellAmount || !blocked;
+    var isDisabled = !exchangeRate || !buyAmount || !sellAmount;
 
     if (!isDisabled) {
       onNext(_this2.state);
