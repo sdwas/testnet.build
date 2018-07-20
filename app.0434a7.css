@@ -1754,6 +1754,12 @@ input[type=number]::-webkit-outer-spin-button {
     left: 0;
     -webkit-transform: translate3d(-37%, -37%, 0) rotate(40deg);
             transform: translate3d(-37%, -37%, 0) rotate(40deg); }
+
+._2mdCx- {
+  position: absolute;
+  font-size: 16px;
+  left: calc(50% - 245.5px);
+  top: 65%; }
 ._2EHTMr {
   min-width: 400px; }
 ._3d-lMl {
@@ -2260,6 +2266,12 @@ textarea._3T0zd_ {
   margin-top: 6px;
   font-size: 14px;
   color: red; }
+._2sLZn8 {
+  margin-top: 40px; }
+
+._153K8d {
+  width: 400px;
+  text-align: center; }
 .qe8yZ6 {
   position: fixed;
   top: 0;
@@ -2309,8 +2321,7 @@ textarea._3T0zd_ {
   padding: 15px 25px;
   font-size: 18px; }
 .xt8YYA {
-  font-family: 'CerebriSans Bold';
-  font-weight: 700; }
+  font-weight: 600; }
 ._8T39zz {
   display: -webkit-box;
   display: -webkit-flex;
