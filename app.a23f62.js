@@ -17577,19 +17577,18 @@ var ETH2BTC = function (_Flow) {
       // 8. Finish
 
       function () {
-        flow.swap.room.once('swap finished', function (_ref5) {
-          var finishSwap = _ref5.finishSwap;
-
-          flow.setState({
-            finishSwap: finishSwap
-          });
+        flow.swap.room.sendMessage('swap finished', {
+          finishSwap: true
+        });
+        flow.setState({
+          finishSwap: true
         });
       }];
     }
   }, {
     key: 'sign',
     value: function () {
-      var _ref6 = (0, _asyncToGenerator3.default)( /*#__PURE__*/_regenerator2.default.mark(function _callee4() {
+      var _ref5 = (0, _asyncToGenerator3.default)( /*#__PURE__*/_regenerator2.default.mark(function _callee4() {
         return _regenerator2.default.wrap(function _callee4$(_context4) {
           while (1) {
             switch (_context4.prev = _context4.next) {
@@ -17622,7 +17621,7 @@ var ETH2BTC = function (_Flow) {
       }));
 
       function sign() {
-        return _ref6.apply(this, arguments);
+        return _ref5.apply(this, arguments);
       }
 
       return sign;
@@ -17639,7 +17638,7 @@ var ETH2BTC = function (_Flow) {
   }, {
     key: 'syncBalance',
     value: function () {
-      var _ref7 = (0, _asyncToGenerator3.default)( /*#__PURE__*/_regenerator2.default.mark(function _callee5() {
+      var _ref6 = (0, _asyncToGenerator3.default)( /*#__PURE__*/_regenerator2.default.mark(function _callee5() {
         var sellAmount, balance, isEnoughMoney;
         return _regenerator2.default.wrap(function _callee5$(_context5) {
           while (1) {
@@ -17683,7 +17682,7 @@ var ETH2BTC = function (_Flow) {
       }));
 
       function syncBalance() {
-        return _ref7.apply(this, arguments);
+        return _ref6.apply(this, arguments);
       }
 
       return syncBalance;
@@ -18070,8 +18069,12 @@ var BTC2ETH = function (_Flow) {
       // 7. Finish
 
       function () {
-        flow.swap.room.sendMessage('swap finished', {
-          finishSwap: true
+        flow.swap.room.once('swap finished', function (_ref5) {
+          var finishSwap = _ref5.finishSwap;
+
+          flow.setState({
+            finishSwap: finishSwap
+          });
         });
       }];
     }
@@ -18090,7 +18093,7 @@ var BTC2ETH = function (_Flow) {
   }, {
     key: 'syncBalance',
     value: function () {
-      var _ref5 = (0, _asyncToGenerator3.default)( /*#__PURE__*/_regenerator2.default.mark(function _callee4() {
+      var _ref6 = (0, _asyncToGenerator3.default)( /*#__PURE__*/_regenerator2.default.mark(function _callee4() {
         var sellAmount, balance, isEnoughMoney;
         return _regenerator2.default.wrap(function _callee4$(_context4) {
           while (1) {
@@ -18134,7 +18137,7 @@ var BTC2ETH = function (_Flow) {
       }));
 
       function syncBalance() {
-        return _ref5.apply(this, arguments);
+        return _ref6.apply(this, arguments);
       }
 
       return syncBalance;
