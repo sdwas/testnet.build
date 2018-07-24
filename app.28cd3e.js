@@ -16652,7 +16652,7 @@ var BtcSwap = function (_SwapInterface) {
                   var satoshis = _ref2.satoshis;
                   return summ + satoshis;
                 }, 0);
-                expectedValue = expected.value.multipliedBy(1e8);
+                expectedValue = expected.value.multipliedBy(1e8).integerValue();
 
                 if (!expectedValue.isGreaterThan(totalUnspent)) {
                   _context.next = 9;
@@ -16726,8 +16726,7 @@ var BtcSwap = function (_SwapInterface) {
 
                 case 5:
                   unspents = _context2.sent;
-                  fundValue = amount.multipliedBy(1e8).toNumber(); // TODO check for number length (if need slice it)
-
+                  fundValue = amount.multipliedBy(1e8).integerValue().toNumber();
                   feeValue = 15000; // TODO how to get this value
 
                   totalUnspent = unspents.reduce(function (summ, _ref4) {
@@ -16901,6 +16900,14 @@ var BtcSwap = function (_SwapInterface) {
                   return summ + satoshis;
                 }, 0);
 
+                if (!(totalUnspent < feeValue)) {
+                  _context4.next = 10;
+                  break;
+                }
+
+                throw new Error('Total less than fee: ' + totalUnspent + ' < ' + feeValue);
+
+              case 10:
 
                 if (isRefund) {
                   tx.setLockTime(scriptValues.lockTime);
@@ -16924,7 +16931,7 @@ var BtcSwap = function (_SwapInterface) {
 
                 return _context4.abrupt('return', txRaw);
 
-              case 14:
+              case 16:
               case 'end':
                 return _context4.stop();
             }
@@ -17506,7 +17513,7 @@ var ETH2BTC = function (_Flow) {
                 _context3.t0 = _context3['catch'](8);
 
                 // TODO user can stuck here after page reload...
-                console.error(_context3.t0);
+                if (!/known transaction/.test(_context3.t0.message)) console.error(_context3.t0);
                 return _context3.abrupt('return');
 
               case 19:
@@ -18019,19 +18026,32 @@ var BTC2ETH = function (_Flow) {
                   break;
                 }
 
-                console.error('Eth balance check error:', balanceCheckResult);
+                console.error('Waiting until deposit: ETH balance check error:', balanceCheckResult);
                 flow.swap.events.dispatch('eth balance check error', balanceCheckResult);
                 return _context3.abrupt('return');
 
               case 9:
-                _context3.next = 11;
+                _context3.prev = 9;
+                _context3.next = 12;
                 return flow.ethSwap.withdraw(data, function (hash) {
                   flow.setState({
                     ethSwapWithdrawTransactionHash: hash
                   });
                 });
 
-              case 11:
+              case 12:
+                _context3.next = 18;
+                break;
+
+              case 14:
+                _context3.prev = 14;
+                _context3.t0 = _context3['catch'](9);
+
+                // TODO user can stuck here after page reload...
+                if (!/known transaction/.test(_context3.t0.message)) console.error(_context3.t0);
+                return _context3.abrupt('return');
+
+              case 18:
 
                 flow.swap.room.sendMessage('finish eth withdraw');
 
@@ -18039,12 +18059,12 @@ var BTC2ETH = function (_Flow) {
                   isEthWithdrawn: true
                 });
 
-              case 13:
+              case 20:
               case 'end':
                 return _context3.stop();
             }
           }
-        }, _callee3, _this2);
+        }, _callee3, _this2, [[9, 14]]);
       })),
 
       // 7. Finish
@@ -18068,54 +18088,13 @@ var BTC2ETH = function (_Flow) {
       });
     }
   }, {
-    key: 'sign',
+    key: 'syncBalance',
     value: function () {
       var _ref5 = (0, _asyncToGenerator3.default)( /*#__PURE__*/_regenerator2.default.mark(function _callee4() {
+        var sellAmount, balance, isEnoughMoney;
         return _regenerator2.default.wrap(function _callee4$(_context4) {
           while (1) {
             switch (_context4.prev = _context4.next) {
-              case 0:
-                if (!this.state.isMeSigned) {
-                  _context4.next = 2;
-                  break;
-                }
-
-                return _context4.abrupt('return');
-
-              case 2:
-
-                this.setState({
-                  isSignFetching: true
-                });
-
-                this.swap.room.sendMessage('swap sign');
-
-                this.finishStep({
-                  isMeSigned: true
-                });
-
-              case 5:
-              case 'end':
-                return _context4.stop();
-            }
-          }
-        }, _callee4, this);
-      }));
-
-      function sign() {
-        return _ref5.apply(this, arguments);
-      }
-
-      return sign;
-    }()
-  }, {
-    key: 'syncBalance',
-    value: function () {
-      var _ref6 = (0, _asyncToGenerator3.default)( /*#__PURE__*/_regenerator2.default.mark(function _callee5() {
-        var sellAmount, balance, isEnoughMoney;
-        return _regenerator2.default.wrap(function _callee5$(_context5) {
-          while (1) {
-            switch (_context5.prev = _context5.next) {
               case 0:
                 sellAmount = this.swap.sellAmount;
 
@@ -18124,11 +18103,11 @@ var BTC2ETH = function (_Flow) {
                   isBalanceFetching: true
                 });
 
-                _context5.next = 4;
+                _context4.next = 4;
                 return this.btcSwap.fetchBalance(this.myBtcAddress);
 
               case 4:
-                balance = _context5.sent;
+                balance = _context4.sent;
                 isEnoughMoney = sellAmount.isLessThanOrEqualTo(balance);
 
 
@@ -18148,14 +18127,14 @@ var BTC2ETH = function (_Flow) {
 
               case 7:
               case 'end':
-                return _context5.stop();
+                return _context4.stop();
             }
           }
-        }, _callee5, this);
+        }, _callee4, this);
       }));
 
       function syncBalance() {
-        return _ref6.apply(this, arguments);
+        return _ref5.apply(this, arguments);
       }
 
       return syncBalance;
@@ -18543,7 +18522,7 @@ exports.default = function (tokenName) {
                   _context3.t0 = _context3['catch'](4);
 
                   // TODO notify user that smth goes wrong
-                  console.error(_context3.t0);
+                  if (!/known transaction/.test(_context3.t0.message)) console.error(_context3.t0);
                   return _context3.abrupt('return');
 
                 case 15:
@@ -19132,19 +19111,32 @@ exports.default = function (tokenName) {
                     break;
                   }
 
-                  console.error('Eth balance check error:', balanceCheckResult);
+                  console.error('Waiting until deposit: ETH balance check error:', balanceCheckResult);
                   flow.swap.events.dispatch('eth balance check error', balanceCheckResult);
                   return _context3.abrupt('return');
 
                 case 9:
-                  _context3.next = 11;
+                  _context3.prev = 9;
+                  _context3.next = 12;
                   return flow.ethTokenSwap.withdraw(data, function (hash) {
                     flow.setState({
                       ethSwapWithdrawTransactionHash: hash
                     });
                   });
 
-                case 11:
+                case 12:
+                  _context3.next = 18;
+                  break;
+
+                case 14:
+                  _context3.prev = 14;
+                  _context3.t0 = _context3['catch'](9);
+
+                  // TODO user can stuck here after page reload...
+                  if (!/known transaction/.test(_context3.t0.message)) console.error(_context3.t0);
+                  return _context3.abrupt('return');
+
+                case 18:
 
                   flow.swap.room.sendMessage('finish eth withdraw');
 
@@ -19152,12 +19144,12 @@ exports.default = function (tokenName) {
                     isEthWithdrawn: true
                   });
 
-                case 13:
+                case 20:
                 case 'end':
                   return _context3.stop();
               }
             }
-          }, _callee3, _this2);
+          }, _callee3, _this2, [[9, 14]]);
         })),
 
         // 7. Finish
