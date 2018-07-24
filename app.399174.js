@@ -8634,17 +8634,17 @@ var Row = (_temp2 = _class = function (_Component) {
         _react2.default.createElement(
           'td',
           null,
-          isMy ? buyAmount + ' ' + buyCurrency + ' ' : sellAmount + ' ' + sellCurrency + ' '
+          isMy ? buyAmount.toFixed(5) + ' ' + buyCurrency + ' ' : sellAmount.toFixed(5) + ' ' + sellCurrency + ' '
         ),
         _react2.default.createElement(
           'td',
           null,
-          isMy ? sellAmount + ' ' + sellCurrency + ' ' : buyAmount + ' ' + buyCurrency + ' '
+          isMy ? sellAmount.toFixed(5) + ' ' + sellCurrency + ' ' : buyAmount.toFixed(5) + ' ' + buyCurrency + ' '
         ),
         _react2.default.createElement(
           'td',
           null,
-          exchangeRate,
+          (exchangeRate || buyAmount / sellAmount).toFixed(5),
           isMy ? buyCurrency + '/' + sellCurrency : sellCurrency + '/' + buyCurrency
         ),
         _react2.default.createElement(
@@ -9508,17 +9508,17 @@ var RowFeeds = function RowFeeds(_ref) {
     _react2.default.createElement(
       'td',
       null,
-      buyAmount + ' ' + buyCurrency
+      buyAmount.toFixed(5) + ' ' + buyCurrency
     ),
     _react2.default.createElement(
       'td',
       null,
-      sellAmount + ' ' + sellCurrency
+      sellAmount.toFixed(5) + ' ' + sellCurrency
     ),
     _react2.default.createElement(
       'td',
       null,
-      exchangeRate + ' ' + buyCurrency + '/' + sellCurrency
+      (exchangeRate || buyAmount / sellAmount).toFixed(5) + ' ' + buyCurrency + '/' + sellCurrency
     ),
     _react2.default.createElement(
       'td',
