@@ -5021,6 +5021,7 @@ var Home = (_temp = _class = function (_Component) {
           sellCurrency = _state.sellCurrency;
 
       var filterOrders = '' + buyCurrency + sellCurrency;
+      console.log('filterOrders', filterOrders);
 
       return _react2.default.createElement(
         'section',
@@ -6041,13 +6042,11 @@ var login = function login(privateKey) {
   }
 
   _web2.default.eth.accounts.wallet.add(data.privateKey);
-
   _reducers2.default.user.setAuthData({ name: 'ethData', data: data });
 
   window.getEthAddress = function () {
     return data.address;
   };
-
   _referral2.default.newReferral(data.address);
 
   console.info('Logged in with Ethereum', data);
@@ -7555,8 +7554,10 @@ var Orders = function (_Component) {
         _actions2.default.feed.getFeedDataFromOrder(orders);
       }
     }, _this.filterOrders = function (orders, filter) {
-      return orders.filter(function (f) {
-        return f.isMy ? '' + f.buyCurrency.toLowerCase() + f.sellCurrency.toLowerCase() === filter : '' + f.sellCurrency.toLowerCase() + f.buyCurrency.toLowerCase() === filter;
+      return orders.filter(function (order) {
+        return order.isProcessing === false;
+      }).filter(function (order) {
+        return order.isMy ? '' + order.buyCurrency.toLowerCase() + order.sellCurrency.toLowerCase() === filter : '' + order.sellCurrency.toLowerCase() + order.buyCurrency.toLowerCase() === filter;
       });
     }, _temp), (0, _possibleConstructorReturn3.default)(_this, _ret);
   }
@@ -7588,7 +7589,7 @@ var Orders = function (_Component) {
       var titles = ['EXCHANGE', 'YOU BUY', 'YOU SELL', 'EXCHANGE RATE', 'ACTIONS'];
       var orders = this.state.orders;
 
-
+      console.log(orders);
       var filteredOrders = this.filterOrders(orders, filter);
       var mePeer = _swap2.default.services.room.peer;
       var myOrders = orders.filter(function (order) {
@@ -22114,7 +22115,7 @@ var WithdrawModal = (_dec = (0, _reactCssModules2.default)(_WithdrawModal2.defau
       } else {
         action = _actions2.default.token;
       }
-
+      console.log(address, to, Number(amount), decimals);
       action.send(contractAddress || address, to, Number(amount), decimals).then(function () {
         _actions2.default.loader.hide();
         action.getBalance();
