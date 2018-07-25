@@ -16,7 +16,7 @@ var _typeof3 = _interopRequireDefault(_typeof2);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var ecc = __webpack_require__(109);
+var ecc = __webpack_require__(108);
 var Fcbuffer = __webpack_require__(1237);
 var EosApi = __webpack_require__(1240);
 var assert = __webpack_require__(25);
@@ -607,7 +607,7 @@ var _typeof3 = _interopRequireDefault(_typeof2);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var _require = __webpack_require__(109),
+var _require = __webpack_require__(108),
     Signature = _require.Signature,
     PublicKey = _require.PublicKey;
 
@@ -4766,7 +4766,7 @@ module.exports = __webpack_require__(1264);
 
 var classof = __webpack_require__(269);
 var ITERATOR = __webpack_require__(33)('iterator');
-var Iterators = __webpack_require__(110);
+var Iterators = __webpack_require__(109);
 module.exports = __webpack_require__(20).isIterable = function (it) {
   var O = Object(it);
   return O[ITERATOR] !== undefined
@@ -4982,7 +4982,7 @@ var _typeof3 = _interopRequireDefault(_typeof2);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var assert = __webpack_require__(25);
-var ecc = __webpack_require__(109);
+var ecc = __webpack_require__(108);
 var Fcbuffer = __webpack_require__(1237);
 var createHash = __webpack_require__(54);
 
