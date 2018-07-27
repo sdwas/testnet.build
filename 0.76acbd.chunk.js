@@ -612,7 +612,7 @@ var _require = __webpack_require__(108),
     PublicKey = _require.PublicKey;
 
 var Fcbuffer = __webpack_require__(1240);
-var ByteBuffer = __webpack_require__(470);
+var ByteBuffer = __webpack_require__(471);
 var assert = __webpack_require__(25);
 
 var json = { schema: __webpack_require__(1245) };
@@ -1577,7 +1577,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 var assert = __webpack_require__(25);
 
-var _require = __webpack_require__(470),
+var _require = __webpack_require__(471),
     Long = _require.Long;
 
 module.exports = {
@@ -1975,7 +1975,7 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 
 var BN = __webpack_require__(17);
 
-var _require = __webpack_require__(470),
+var _require = __webpack_require__(471),
     Long = _require.Long;
 
 var assert = __webpack_require__(25);
@@ -3227,7 +3227,7 @@ function writeDouble( buf, v, offset, dirn ) {
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
 
-var ByteBuffer = __webpack_require__(470);
+var ByteBuffer = __webpack_require__(471);
 var Struct = __webpack_require__(1250);
 
 module.exports = {
@@ -3519,7 +3519,7 @@ function toByteBuffer(type, value) {
 "use strict";
 
 
-var ByteBuffer = __webpack_require__(470);
+var ByteBuffer = __webpack_require__(471);
 
 /**
   @class Struct
