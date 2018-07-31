@@ -927,7 +927,7 @@ textarea._3T0zd_ {
     line-height: 18px; }
 
 ._3LmV0i {
-  margin-top: 6px;
+  margin-top: 8px;
   font-size: 14px;
   color: #e32950; }
   ._3LmV0i [role="errorLink"] {
@@ -2144,12 +2144,15 @@ input[type=number]::-webkit-outer-spin-button {
   margin-top: 50px; }
 ._2QVvGM {
   width: 100%;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  height: 60px;
+  margin-bottom: 10px;
   box-shadow: rgba(0, 0, 0, 0.08) 0 3px 9px 0;
-  border-radius: 6px; }
+  border-radius: 6px;
+  text-align: center; }
 
 ._2gYR9R {
   min-width: 0;
