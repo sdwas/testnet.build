@@ -5093,11 +5093,6 @@ var Home = (_temp = _class = function (_Component) {
   }
 
   (0, _createClass3.default)(Home, [{
-    key: 'componentWillMount',
-    value: function componentWillMount() {
-      this.setFilter('ethbtc');
-    }
-  }, {
     key: 'componentWillReceiveProps',
     value: function componentWillReceiveProps(nextProps) {
       if (nextProps !== this.props) {
@@ -5195,7 +5190,7 @@ var Home = (_temp = _class = function (_Component) {
     var history = _this2.props.history;
 
 
-    _this2.setFilter('' + sellCurrency + buyCurrency);
+    _this2.setFilter('' + buyCurrency + sellCurrency);
     history.replace(_helpers.links.orders + '/' + buyCurrency + '-' + sellCurrency);
   };
 
@@ -5660,7 +5655,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 var initialState = exports.initialState = {
   orders: [],
-  filter: 'ALL'
+  filter: 'ethbtc'
 };
 
 var getOrders = exports.getOrders = function getOrders(state, _ref) {
@@ -21236,8 +21231,7 @@ var _WidthContainer2 = _interopRequireDefault(_WidthContainer);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var Header = function Header(_ref) {
-  var addCore = _ref.addCore;
+var Header = function Header() {
   return _react2.default.createElement(
     'div',
     { styleName: 'header' },
