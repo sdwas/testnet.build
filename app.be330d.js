@@ -5093,9 +5093,16 @@ var Home = (_temp = _class = function (_Component) {
   }
 
   (0, _createClass3.default)(Home, [{
+    key: 'componentWillMount',
+    value: function componentWillMount() {
+      this.setFilter('ethbtc');
+    }
+  }, {
     key: 'componentWillReceiveProps',
-    value: function componentWillReceiveProps() {
-      this.setState({});
+    value: function componentWillReceiveProps(nextProps) {
+      if (nextProps !== this.props) {
+        this.setState();
+      }
     }
   }, {
     key: 'render',
@@ -6950,22 +6957,16 @@ var acceptRequest = function acceptRequest(orderId, participantPeer) {
   setTimeout(function () {
     undefined.handleToggleTooltip();
   }, 800);
-
-  updateCore();
 };
 
 var declineRequest = function declineRequest(orderId, participantPeer) {
   var order = _swap2.default.services.orders.getByKey(orderId);
   order.declineRequest(participantPeer);
-
-  updateCore();
 };
 
 var removeOrder = function removeOrder(orderId) {
   _swap2.default.services.orders.remove(orderId);
   _actions2.default.feed.deleteItemToFeed(orderId);
-
-  updateCore();
 };
 
 var sendRequest = function sendRequest(orderId) {
@@ -6974,15 +6975,15 @@ var sendRequest = function sendRequest(orderId) {
   order.sendRequest(function (isAccepted) {
     console.log('user ' + order.owner.peer + ' ' + (isAccepted ? 'accepted' : 'declined') + ' your request');
   });
-
-  updateCore();
 };
 
 var createOrder = function createOrder(data) {
   _swap2.default.services.orders.create(data);
 };
 
-var updateCore = function updateCore(orders) {
+var updateCore = function updateCore() {
+  var orders = _swap2.default.services.orders.items;
+
   if (orders !== undefined && orders.length > 0) {
     getOrders(orders);
     getSwapHistory();
@@ -8816,6 +8817,13 @@ var Orders = (_dec = (0, _redaction.connect)(function (_ref) {
   }
 
   (0, _createClass3.default)(Orders, [{
+    key: 'componentWillReceiveProps',
+    value: function componentWillReceiveProps(nextProps) {
+      if (nextProps !== this.props) {
+        this.setState();
+      }
+    }
+  }, {
     key: 'render',
     value: function render() {
       var _props = this.props,
@@ -8835,7 +8843,7 @@ var Orders = (_dec = (0, _redaction.connect)(function (_ref) {
       return _react2.default.createElement(
         _react.Fragment,
         null,
-        _react2.default.createElement(_MyOrders2.default, { myOrders: myOrders }),
+        _react2.default.createElement(_MyOrders2.default, { myOrders: myOrders, update: this.updateState }),
         _react2.default.createElement(_SearchSwap2.default, {
           handleSellCurrencySelect: handleSellCurrencySelect,
           handleBuyCurrencySelect: handleBuyCurrencySelect,
@@ -8950,8 +8958,10 @@ var Row = (_dec = (0, _redaction.connect)({
 
     return _ret = (_temp = (_this = (0, _possibleConstructorReturn3.default)(this, (_ref = Row.__proto__ || (0, _getPrototypeOf2.default)(Row)).call.apply(_ref, [this].concat(args))), _this), _this.removeOrder = function (orderId) {
       _actions2.default.core.removeOrder(orderId);
+      _actions2.default.core.updateCore();
     }, _this.sendRequest = function (orderId) {
       _actions2.default.core.sendRequest(orderId);
+      _actions2.default.core.updateCore();
     }, _temp), (0, _possibleConstructorReturn3.default)(_this, _ret);
   }
 
@@ -9251,14 +9261,22 @@ var MyOrders = function (_PureComponent) {
 
     return _ret = (_temp = (_this = (0, _possibleConstructorReturn3.default)(this, (_ref = MyOrders.__proto__ || (0, _getPrototypeOf2.default)(MyOrders)).call.apply(_ref, [this].concat(args))), _this), _this.removeOrder = function (orderId) {
       _actions2.default.core.removeOrder(orderId);
+      _actions2.default.core.updateCore();
     }, _this.acceptRequest = function (orderId, peer) {
       _actions2.default.core.acceptRequest(orderId, peer);
+      _actions2.default.core.updateCore();
     }, _this.declineRequest = function (orderId, peer) {
       _actions2.default.core.declineRequest(orderId, peer);
+      _actions2.default.core.updateCore();
     }, _temp), (0, _possibleConstructorReturn3.default)(_this, _ret);
   }
 
   (0, _createClass3.default)(MyOrders, [{
+    key: 'componentWillReceiveProps',
+    value: function componentWillReceiveProps() {
+      this.setState();
+    }
+  }, {
     key: 'render',
     value: function render() {
       var _this2 = this;
@@ -9310,6 +9328,29 @@ exports.default = MyOrders;
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
+exports.default = undefined;
+
+var _getPrototypeOf = __webpack_require__(3);
+
+var _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);
+
+var _classCallCheck2 = __webpack_require__(4);
+
+var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
+
+var _createClass2 = __webpack_require__(5);
+
+var _createClass3 = _interopRequireDefault(_createClass2);
+
+var _possibleConstructorReturn2 = __webpack_require__(6);
+
+var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
+
+var _inherits2 = __webpack_require__(7);
+
+var _inherits3 = _interopRequireDefault(_inherits2);
+
+var _dec, _class, _class2, _temp;
 
 var _react = __webpack_require__(0);
 
@@ -9337,112 +9378,110 @@ var _Coins2 = _interopRequireDefault(_Coins);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var RowFeeds = function RowFeeds(_ref) {
-  var _ref$row = _ref.row,
-      requests = _ref$row.requests,
-      buyAmount = _ref$row.buyAmount,
-      buyCurrency = _ref$row.buyCurrency,
-      sellAmount = _ref$row.sellAmount,
-      sellCurrency = _ref$row.sellCurrency,
-      exchangeRate = _ref$row.exchangeRate,
-      id = _ref$row.id,
-      declineRequest = _ref.declineRequest,
-      acceptRequest = _ref.acceptRequest,
-      removeOrder = _ref.removeOrder;
-  return _react2.default.createElement(
-    'tr',
-    null,
-    _react2.default.createElement(
-      'td',
-      null,
-      _react2.default.createElement(_Coins2.default, { names: [buyCurrency, sellCurrency] })
-    ),
-    _react2.default.createElement(
-      'td',
-      null,
-      buyAmount.toFixed(5) + ' ' + buyCurrency
-    ),
-    _react2.default.createElement(
-      'td',
-      null,
-      sellAmount.toFixed(5) + ' ' + sellCurrency
-    ),
-    _react2.default.createElement(
-      'td',
-      null,
-      _react2.default.createElement(
-        'a',
-        { href: _helpers.links.swap + '/' + sellCurrency + '-' + buyCurrency + '/' + id },
-        'Link on swap'
-      )
-    ),
-    _react2.default.createElement(
-      'td',
-      null,
-      (exchangeRate || buyAmount / sellAmount).toFixed(5) + ' ' + buyCurrency + '/' + sellCurrency
-    ),
-    _react2.default.createElement(
-      'td',
-      null,
-      Boolean(requests && requests.length) ? _react2.default.createElement(
-        'div',
-        { styleName: 'buttons' },
+var RowFeeds = (_dec = (0, _reactCssModules2.default)(_RowFeeds2.default, { allowMultiple: true }), _dec(_class = (_temp = _class2 = function (_Component) {
+  (0, _inherits3.default)(RowFeeds, _Component);
+
+  function RowFeeds() {
+    (0, _classCallCheck3.default)(this, RowFeeds);
+    return (0, _possibleConstructorReturn3.default)(this, (RowFeeds.__proto__ || (0, _getPrototypeOf2.default)(RowFeeds)).apply(this, arguments));
+  }
+
+  (0, _createClass3.default)(RowFeeds, [{
+    key: 'componentWillReceiveProps',
+    value: function componentWillReceiveProps(nextProps) {
+      if (nextProps !== this.props) {
+        this.setState();
+      }
+    }
+  }, {
+    key: 'render',
+    value: function render() {
+      var _props = this.props,
+          _props$row = _props.row,
+          requests = _props$row.requests,
+          buyAmount = _props$row.buyAmount,
+          buyCurrency = _props$row.buyCurrency,
+          sellAmount = _props$row.sellAmount,
+          sellCurrency = _props$row.sellCurrency,
+          exchangeRate = _props$row.exchangeRate,
+          id = _props$row.id,
+          declineRequest = _props.declineRequest,
+          acceptRequest = _props.acceptRequest,
+          removeOrder = _props.removeOrder;
+
+
+      return _react2.default.createElement(
+        'tr',
+        null,
         _react2.default.createElement(
-          'div',
-          { styleName: 'delete', onClick: function onClick() {
-              return declineRequest(id, requests[0].peer);
-            } },
-          'Decline'
+          'td',
+          null,
+          _react2.default.createElement(_Coins2.default, { names: [buyCurrency, sellCurrency] })
         ),
         _react2.default.createElement(
-          _reactRouterDom.Link,
-          { to: _helpers.links.swap + '/' + sellCurrency + '-' + buyCurrency + '/' + id },
+          'td',
+          null,
+          buyAmount.toFixed(5) + ' ' + buyCurrency
+        ),
+        _react2.default.createElement(
+          'td',
+          null,
+          sellAmount.toFixed(5) + ' ' + sellCurrency
+        ),
+        _react2.default.createElement(
+          'td',
+          null,
           _react2.default.createElement(
+            'a',
+            { href: _helpers.links.swap + '/' + sellCurrency + '-' + buyCurrency + '/' + id },
+            'Link on swap'
+          )
+        ),
+        _react2.default.createElement(
+          'td',
+          null,
+          (exchangeRate || buyAmount / sellAmount).toFixed(5) + ' ' + buyCurrency + '/' + sellCurrency
+        ),
+        _react2.default.createElement(
+          'td',
+          null,
+          Boolean(requests && requests.length) ? _react2.default.createElement(
             'div',
-            { styleName: 'accept', onClick: function onClick() {
-                return acceptRequest(id, requests[0].peer);
+            { styleName: 'buttons' },
+            _react2.default.createElement(
+              'div',
+              { styleName: 'delete', onClick: function onClick() {
+                  return declineRequest(id, requests[0].peer);
+                } },
+              'Decline'
+            ),
+            _react2.default.createElement(
+              _reactRouterDom.Link,
+              { to: _helpers.links.swap + '/' + sellCurrency + '-' + buyCurrency + '/' + id },
+              _react2.default.createElement(
+                'div',
+                { styleName: 'accept', onClick: function onClick() {
+                    return acceptRequest(id, requests[0].peer);
+                  } },
+                'Accept'
+              )
+            )
+          ) : _react2.default.createElement(
+            'div',
+            { styleName: 'delete', onClick: function onClick() {
+                return removeOrder(id);
               } },
-            'Accept'
+            ' Delete order'
           )
         )
-      ) : _react2.default.createElement(
-        'div',
-        { styleName: 'delete', onClick: function onClick() {
-            return removeOrder(id);
-          } },
-        ' Delete order'
-      )
-    )
-  );
-};
-
-RowFeeds.propTypes = {
+      );
+    }
+  }]);
+  return RowFeeds;
+}(_react.Component), _class2.propTypes = {
   row: _propTypes2.default.object
-};
-
-exports.default = (0, _reactCssModules2.default)(RowFeeds, _RowFeeds2.default, { allowMultiple: true });
-
-// mePeer === ownerPeer && (
-//   <div styleName="userTooltip" key={id}>
-//     <div styleName="currency">
-//       <span><span styleName="coin">{buyCurrency}</span> {buyAmount.toNumber().toFixed(5)}</span>
-//       <span styleName="arrow"><img src={ArrowRightSvg} alt="" /></span>
-//       <span> <span styleName="coin">{sellCurrency}</span> {sellAmount.toNumber().toFixed(5)} </span>
-//     </div>
-//     {
-//       Boolean(requests && requests.length) ? (
-//         <div styleName="buttons">
-//           <div styleName="delete" onClick={() => declineRequest(id, requests[0].peer)} >Decline</div>
-//           <Link to={`${links.swap}/${sellCurrency}-${buyCurrency}/${id}`}>
-//             <div styleName="accept" onClick={() => acceptRequest(id, requests[0].peer)} >Accept</div>
-//           </Link>
-//         </div>
-//       ) : (
-//         <div styleName="delete" onClick={() => removeOrder(id)} > Delete order</div>
-//       )
-//     }
-//   </div>
-// )
+}, _temp)) || _class);
+exports.default = RowFeeds;
 
 /***/ }),
 /* 1028 */
@@ -11389,7 +11428,30 @@ var Flow = function () {
     }
   }, {
     key: 'finishStep',
-    value: function finishStep(data) {
+    value: function finishStep(data, constraints) {
+      console.log('on step ' + this.state.step + ', constraints =', constraints);
+
+      if (constraints) {
+        var step = constraints.step,
+            silentError = constraints.silentError;
+
+
+        var n_step = this.stepNumbers[step];
+        console.log('trying to finish step ' + step + ' = ' + n_step + ' when on step ' + this.state.step);
+
+        if (step && this.state.step < n_step) {
+          if (silentError) {
+            console.error('Cant finish step ' + step + ' = ' + n_step + ' when on step ' + this.state.step);
+            return;
+          } else {
+            throw new Error('Cant finish step ' + step + ' = ' + n_step + ' when on step ' + this.state.step);
+            return;
+          }
+        }
+      }
+
+      console.log('proceed to step ' + (this.state.step + 1) + ', data=', data);
+
       this.goNextStep(data);
     }
   }, {
@@ -12288,7 +12350,7 @@ var EthToBtc = function (_Component) {
               null,
               flow.btcScriptValues && _react2.default.createElement(
                 'span',
-                { styleName: 'button', onClick: this.toggleBitcoinScript },
+                { onClick: this.toggleBitcoinScript },
                 'Show bitcoin script'
               ),
               isShowingBitcoinScript && _react2.default.createElement(
@@ -12760,7 +12822,7 @@ var EthTokenToBtc = function (_Component) {
               null,
               flow.btcScriptValues && _react2.default.createElement(
                 'span',
-                { styleName: 'button', onClick: this.toggleBitcoinScript },
+                { onClick: this.toggleBitcoinScript },
                 'Show bitcoin script'
               ),
               isShowingBitcoinScript && _react2.default.createElement(
@@ -16731,9 +16793,6 @@ var EthSwap = function (_SwapInterface) {
                 return _context4.abrupt('return', 'Expected value: ' + expectedValue.toNumber() + ', got: ' + balance);
 
               case 6:
-                return _context4.abrupt('return', balance);
-
-              case 7:
               case 'end':
                 return _context4.stop();
             }
@@ -21090,6 +21149,8 @@ var Core = function (_Component) {
     }, _this.updateOrders = function () {
       var orders = _swap2.default.services.orders.items;
 
+      _this.setState({});
+
       if (orders.length > 0) {
         _actions2.default.core.updateCore(orders);
       }
@@ -21097,6 +21158,13 @@ var Core = function (_Component) {
   }
 
   (0, _createClass3.default)(Core, [{
+    key: 'componentWillReceiveProps',
+    value: function componentWillReceiveProps(nextState) {
+      if (nextState !== this.state) {
+        this.setState();
+      }
+    }
+  }, {
     key: 'componentWillMount',
     value: function componentWillMount() {
       _swap2.default.services.orders.on('new orders', this.updateOrders).on('new order', this.updateOrders).on('order update', this.updateOrders).on('remove order', this.updateOrders).on('new order request', this.updateOrders);
