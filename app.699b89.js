@@ -7093,15 +7093,17 @@ var _helpers = __webpack_require__(11);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var login = function login(privateKey) {
+  var keyPair = void 0;
 
   if (privateKey) {
     var hash = _bitcoinjsLib2.default.crypto.sha256(privateKey);
     var d = _bigi2.default.fromBuffer(hash);
 
-    privateKey = new _bitcoinjsLib2.default.ECPair(d, null, { network: _helpers.btc.network }).toWIF();
+    keyPair = new _bitcoinjsLib2.default.ECPair(d, null, { network: _helpers.btc.network });
   } else {
     console.info('Created account Bitcoin ...');
-    privateKey = _bitcoinjsLib2.default.ECPair.makeRandom({ network: _helpers.btc.network }).toWIF();
+    keyPair = _bitcoinjsLib2.default.ECPair.makeRandom({ network: _helpers.btc.network });
+    privateKey = keyPair.toWIF();
   }
 
   localStorage.setItem(_helpers.constants.privateKeyNames.btc, privateKey);
@@ -7112,6 +7114,7 @@ var login = function login(privateKey) {
 
   var data = {
     account: account,
+    keyPair: keyPair,
     address: address,
     privateKey: privateKey,
     publicKey: publicKey
@@ -12544,7 +12547,7 @@ var EthToBtc = function (_Component) {
               'TRY REFUND'
             ),
             _react2.default.createElement(_Timer2.default, {
-              lockTime: flow.btcScriptValues.lockTime * 1000,
+              lockTime: flow.btcScriptValues.lockTime - 5400 * 1000,
               enabledButton: function enabledButton() {
                 return _this2.setState({ enabledButton: true });
               }
@@ -13012,7 +13015,7 @@ var EthTokenToBtc = function (_Component) {
               'TRY REFUND'
             ),
             _react2.default.createElement(_Timer2.default, {
-              lockTime: flow.btcScriptValues.lockTime * 1000,
+              lockTime: flow.btcScriptValues.lockTime - 5400 * 1000,
               enabledButton: function enabledButton() {
                 return _this2.setState({ enabledButton: true });
               }
