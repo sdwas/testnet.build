@@ -543,7 +543,7 @@ var _ButtonsInRow = __webpack_require__(449);
 
 var _ButtonsInRow2 = _interopRequireDefault(_ButtonsInRow);
 
-var _Flip = __webpack_require__(448);
+var _Flip = __webpack_require__(447);
 
 var _Flip2 = _interopRequireDefault(_Flip);
 
@@ -3132,15 +3132,52 @@ var _reactCssModules = __webpack_require__(1);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _CurrencySelect = __webpack_require__(1073);
+var _Flip = __webpack_require__(1073);
+
+var _Flip2 = _interopRequireDefault(_Flip);
+
+var _flip = __webpack_require__(1074);
+
+var _flip2 = _interopRequireDefault(_flip);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function Flip(_ref) {
+  var onClick = _ref.onClick;
+
+  return _react2.default.createElement('img', { src: _flip2.default, alt: '', onClick: onClick, styleName: 'trade-panel__change' });
+}
+
+exports.default = (0, _reactCssModules2.default)(Flip, _Flip2.default);
+
+/***/ }),
+/* 448 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _reactCssModules = __webpack_require__(1);
+
+var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
+
+var _CurrencySelect = __webpack_require__(1075);
 
 var _CurrencySelect2 = _interopRequireDefault(_CurrencySelect);
 
-var _Option = __webpack_require__(1074);
+var _Option = __webpack_require__(1076);
 
 var _Option2 = _interopRequireDefault(_Option);
 
-var _DropDown = __webpack_require__(1076);
+var _DropDown = __webpack_require__(1078);
 
 var _DropDown2 = _interopRequireDefault(_DropDown);
 
@@ -3165,43 +3202,6 @@ var CurrencySelect = function CurrencySelect(_ref) {
 };
 
 exports.default = (0, _reactCssModules2.default)(CurrencySelect, _CurrencySelect2.default);
-
-/***/ }),
-/* 448 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _react = __webpack_require__(0);
-
-var _react2 = _interopRequireDefault(_react);
-
-var _reactCssModules = __webpack_require__(1);
-
-var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
-
-var _Flip = __webpack_require__(1079);
-
-var _Flip2 = _interopRequireDefault(_Flip);
-
-var _flip = __webpack_require__(1080);
-
-var _flip2 = _interopRequireDefault(_flip);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function Flip(_ref) {
-  var onClick = _ref.onClick;
-
-  return _react2.default.createElement('img', { src: _flip2.default, alt: '', onClick: onClick, styleName: 'trade-panel__change' });
-}
-
-exports.default = (0, _reactCssModules2.default)(Flip, _Flip2.default);
 
 /***/ }),
 /* 449 */
@@ -11286,7 +11286,6 @@ var Home = (_temp = _class = function (_Component) {
           sellCurrency = _state.sellCurrency,
           orderId = _state.orderId;
 
-      console.log('render');
 
       return _react2.default.createElement(
         'section',
@@ -12296,6 +12295,12 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
+var _actions = __webpack_require__(12);
+
+var _actions2 = _interopRequireDefault(_actions);
+
+var _helpers = __webpack_require__(11);
+
 var _reactCssModules = __webpack_require__(1);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
@@ -12304,11 +12309,7 @@ var _SearchSwap = __webpack_require__(1072);
 
 var _SearchSwap2 = _interopRequireDefault(_SearchSwap);
 
-var _CurrencySelect = __webpack_require__(447);
-
-var _CurrencySelect2 = _interopRequireDefault(_CurrencySelect);
-
-var _Flip = __webpack_require__(448);
+var _Flip = __webpack_require__(447);
 
 var _Flip2 = _interopRequireDefault(_Flip);
 
@@ -12316,11 +12317,9 @@ var _Button = __webpack_require__(33);
 
 var _Button2 = _interopRequireDefault(_Button);
 
-var _actions = __webpack_require__(12);
+var _CurrencySelect = __webpack_require__(448);
 
-var _actions2 = _interopRequireDefault(_actions);
-
-var _helpers = __webpack_require__(11);
+var _CurrencySelect2 = _interopRequireDefault(_CurrencySelect);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -12328,17 +12327,23 @@ var CreateOfferButton = (_dec = (0, _reactCssModules2.default)(_SearchSwap2.defa
   (0, _inherits3.default)(CreateOfferButton, _Component);
 
   function CreateOfferButton() {
+    var _ref;
+
+    var _temp, _this, _ret;
+
     (0, _classCallCheck3.default)(this, CreateOfferButton);
-    return (0, _possibleConstructorReturn3.default)(this, (CreateOfferButton.__proto__ || (0, _getPrototypeOf2.default)(CreateOfferButton)).apply(this, arguments));
+
+    for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {
+      args[_key] = arguments[_key];
+    }
+
+    return _ret = (_temp = (_this = (0, _possibleConstructorReturn3.default)(this, (_ref = CreateOfferButton.__proto__ || (0, _getPrototypeOf2.default)(CreateOfferButton)).call.apply(_ref, [this].concat(args))), _this), _this.createOffer = function () {
+      _actions2.default.modals.open(_helpers.constants.modals.Offer, {});
+      _actions2.default.analytics.dataEvent('orderbook-click-createoffer-button');
+    }, _temp), (0, _possibleConstructorReturn3.default)(_this, _ret);
   }
 
   (0, _createClass3.default)(CreateOfferButton, [{
-    key: 'createOffer',
-    value: function createOffer() {
-      _actions2.default.modals.open(_helpers.constants.modals.Offer, {});
-      _actions2.default.analytics.dataEvent('orderbook-click-createoffer-button');
-    }
-  }, {
     key: 'render',
     value: function render() {
       var _props = this.props,
@@ -12409,9 +12414,22 @@ module.exports = {"currencySelect":"_3zIboc","choice":"_1TXLKZ","row":"_2lapE0",
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
+module.exports = {"trade-panel__change":"_2LOdkU"};
 
 /***/ }),
 /* 1074 */
+/***/ (function(module, exports) {
+
+module.exports = "https://testnet.swap.online/images/flip_d738de.svg";
+
+/***/ }),
+/* 1075 */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+/* 1076 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12429,7 +12447,7 @@ var _reactCssModules = __webpack_require__(1);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _Option = __webpack_require__(1075);
+var _Option = __webpack_require__(1077);
 
 var _Option2 = _interopRequireDefault(_Option);
 
@@ -12453,14 +12471,14 @@ var Option = function Option(_ref) {
 exports.default = (0, _reactCssModules2.default)(Option, _Option2.default);
 
 /***/ }),
-/* 1075 */
+/* 1077 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"icon":"wo-HER"};
 
 /***/ }),
-/* 1076 */
+/* 1078 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12509,11 +12527,11 @@ var _reactCssModules = __webpack_require__(1);
 
 var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-var _DropDown = __webpack_require__(1077);
+var _DropDown = __webpack_require__(1079);
 
 var _DropDown2 = _interopRequireDefault(_DropDown);
 
-var _toggle = __webpack_require__(1078);
+var _toggle = __webpack_require__(1080);
 
 var _toggle2 = _interopRequireDefault(_toggle);
 
@@ -12667,14 +12685,14 @@ var DropDown = (_dec = (0, _toggle2.default)(), _dec2 = (0, _reactCssModules2.de
 exports.default = DropDown;
 
 /***/ }),
-/* 1077 */
+/* 1079 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"dropDown":"_3TGsDm","active":"_241k3D","arrow":"_4VDBhE","selectedItem":"_30-6Oj","select":"_2ukQw7","option":"_1fOZbQ"};
 
 /***/ }),
-/* 1078 */
+/* 1080 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12777,19 +12795,6 @@ exports.default = function () {
     }(_react.PureComponent);
   };
 };
-
-/***/ }),
-/* 1079 */
-/***/ (function(module, exports) {
-
-// removed by extract-text-webpack-plugin
-module.exports = {"trade-panel__change":"_2LOdkU"};
-
-/***/ }),
-/* 1080 */
-/***/ (function(module, exports) {
-
-module.exports = "https://testnet.swap.online/images/flip_d738de.svg";
 
 /***/ }),
 /* 1081 */
@@ -23744,7 +23749,7 @@ var _Group = __webpack_require__(470);
 
 var _Group2 = _interopRequireDefault(_Group);
 
-var _CurrencySelect = __webpack_require__(447);
+var _CurrencySelect = __webpack_require__(448);
 
 var _CurrencySelect2 = _interopRequireDefault(_CurrencySelect);
 
