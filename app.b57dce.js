@@ -11275,6 +11275,15 @@ var Home = (_temp = _class = function (_Component) {
   }
 
   (0, _createClass3.default)(Home, [{
+    key: 'componentWillReceiveProps',
+    value: function componentWillReceiveProps(_ref3) {
+      var nextState = _ref3.nextState;
+
+      if (nextState !== this.state) {
+        this.setState();
+      }
+    }
+  }, {
     key: 'render',
     value: function render() {
       var _state = this.state,
@@ -11322,8 +11331,8 @@ var Home = (_temp = _class = function (_Component) {
 }(_react.Component), _initialiseProps = function _initialiseProps() {
   var _this2 = this;
 
-  this.handleBuyCurrencySelect = function (_ref3) {
-    var value = _ref3.value;
+  this.handleBuyCurrencySelect = function (_ref4) {
+    var value = _ref4.value;
     var _state2 = _this2.state,
         sellCurrency = _state2.sellCurrency,
         buyCurrency = _state2.buyCurrency;
@@ -11334,15 +11343,15 @@ var Home = (_temp = _class = function (_Component) {
     }
 
     _this2.handelReplaceHistory(sellCurrency, value);
-    console.log('buy', value);
+
     _this2.setState({
       buyCurrency: value,
       sellCurrency: sellCurrency
     });
   };
 
-  this.handleSellCurrencySelect = function (_ref4) {
-    var value = _ref4.value;
+  this.handleSellCurrencySelect = function (_ref5) {
+    var value = _ref5.value;
     var _state3 = _this2.state,
         sellCurrency = _state3.sellCurrency,
         buyCurrency = _state3.buyCurrency;
@@ -11353,7 +11362,7 @@ var Home = (_temp = _class = function (_Component) {
     }
 
     _this2.handelReplaceHistory(value, buyCurrency);
-    console.log('sell', value);
+
     _this2.setState({
       buyCurrency: buyCurrency,
       sellCurrency: value
@@ -11363,7 +11372,7 @@ var Home = (_temp = _class = function (_Component) {
   this.handelReplaceHistory = function (sellCurrency, buyCurrency) {
     var history = _this2.props.history;
 
-    console.log('history', buyCurrency, sellCurrency);
+
     _this2.setFilter('' + buyCurrency + sellCurrency);
     history.replace(_helpers.links.exchange + '/' + buyCurrency + '-' + sellCurrency);
   };
@@ -11374,10 +11383,10 @@ var Home = (_temp = _class = function (_Component) {
         sellCurrency = _state4.sellCurrency;
 
     var value = sellCurrency;
-    console.log(buyCurrency, sellCurrency);
+
     sellCurrency = buyCurrency;
     buyCurrency = value;
-    console.log(buyCurrency, sellCurrency);
+
     _this2.handelReplaceHistory(sellCurrency, buyCurrency);
 
     _this2.setState({
