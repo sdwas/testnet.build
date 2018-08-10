@@ -613,7 +613,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 var SubTitle = function SubTitle(_ref) {
   var children = _ref.children;
   return _react2.default.createElement(
-    'div',
+    'h1',
     { styleName: 'subTitle' },
     children
   );
@@ -4322,8 +4322,8 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 var routes = _react2.default.createElement(
   _reactRouterDom.Switch,
   null,
-  _react2.default.createElement(_reactRouter.Route, { path: _helpers.links.exchange + '/:buy-:sell', component: _Home2.default }),
   _react2.default.createElement(_reactRouter.Route, { path: _helpers.links.exchange + '/:buy-:sell/:orderId', component: _Home2.default }),
+  _react2.default.createElement(_reactRouter.Route, { path: _helpers.links.exchange + '/:buy-:sell', component: _Home2.default }),
   _react2.default.createElement(_reactRouter.Route, { path: _helpers.links.exchange, component: _Home2.default }),
   _react2.default.createElement(_reactRouter.Route, { path: _helpers.links.affiliate, component: _Affiliate2.default }),
   _react2.default.createElement(_reactRouter.Route, { path: _helpers.links.listing, component: _Listing2.default }),
@@ -11255,8 +11255,7 @@ var Home = (_temp = _class = function (_Component) {
     var initialData = _ref.initialData,
         _ref$match$params = _ref.match.params,
         buy = _ref$match$params.buy,
-        sell = _ref$match$params.sell,
-        orderId = _ref$match$params.orderId;
+        sell = _ref$match$params.sell;
     (0, _classCallCheck3.default)(this, Home);
 
     var _this = (0, _possibleConstructorReturn3.default)(this, (Home.__proto__ || (0, _getPrototypeOf2.default)(Home)).call(this));
@@ -11269,8 +11268,7 @@ var Home = (_temp = _class = function (_Component) {
 
     _this.state = {
       buyCurrency: buy || buyCurrency || 'eth',
-      sellCurrency: sell || sellCurrency || 'btc',
-      orderId: orderId
+      sellCurrency: sell || sellCurrency || 'btc'
     };
     return _this;
   }
@@ -11278,11 +11276,13 @@ var Home = (_temp = _class = function (_Component) {
   (0, _createClass3.default)(Home, [{
     key: 'render',
     value: function render() {
+      var orderId = this.props.match.params.orderId;
       var _state = this.state,
           buyCurrency = _state.buyCurrency,
-          sellCurrency = _state.sellCurrency,
-          orderId = _state.orderId;
+          sellCurrency = _state.sellCurrency;
 
+
+      console.log(orderId);
 
       return _react2.default.createElement(
         'section',
@@ -11536,6 +11536,8 @@ var Orders = (_dec = (0, _redaction.connect)(function (_ref) {
           orderId = _props2.orderId;
 
 
+      console.log(orderId);
+
       return _react2.default.createElement(
         _react.Fragment,
         null,
@@ -11719,6 +11721,7 @@ var Row = (_dec = (0, _redaction.connect)({
 
       var balance = this.state.balance;
       var _props = this.props,
+          orderId = _props.orderId,
           _props$row2 = _props.row,
           id = _props$row2.id,
           buyCurrency = _props$row2.buyCurrency,
@@ -11729,10 +11732,12 @@ var Row = (_dec = (0, _redaction.connect)({
           isRequested = _props$row2.isRequested,
           exchangeRate = _props$row2.exchangeRate,
           ownerPeer = _props$row2.owner.peer,
-          peer = _props.peer,
-          orderId = _props.orderId;
+          peer = _props.peer;
 
       var amount = isMy ? sellAmount : buyAmount;
+
+      console.log(orderId);
+      console.log(id);
 
       return _react2.default.createElement(
         'tr',
@@ -11797,7 +11802,7 @@ var Row = (_dec = (0, _redaction.connect)({
           null,
           _react2.default.createElement(
             'a',
-            { href: _helpers.links.exchange + '/' + buyCurrency.toLowerCase() + '-' + sellCurrency.toLowerCase() + '/' + id },
+            { href: _helpers.links.exchange + '/' + sellCurrency.toLowerCase() + '-' + buyCurrency.toLowerCase() + '/' + id },
             ' link'
           )
         )
@@ -12957,20 +12962,9 @@ var Wallet = (_dec = (0, _redaction.connect)(function (_ref) {
           _PageHeadline2.default,
           null,
           _react2.default.createElement(
-            _Title2.default,
-            null,
-            'SWAP.ONLINE - CRYPTOCURRENCY WALLET WITH ATOMIC SWAP EXCHANGE'
-          ),
-          _react2.default.createElement(
             _SubTitle2.default,
             null,
-            'Check out our ',
-            _react2.default.createElement(
-              'a',
-              { href: 'https://wiki.swap.online/en.pdf', target: '_balnk', rel: 'noreferrer noopener' },
-              'project brief'
-            ),
-            ' and participate in smart airdrop.'
+            'Swap.Online - Cryptocurrency Wallet with Atomic Swap Exchange'
           )
         ),
         _react2.default.createElement(_Confirm2.default, {
