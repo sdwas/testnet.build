@@ -4767,7 +4767,7 @@ module.exports = __webpack_require__(1288);
 var classof = __webpack_require__(277);
 var ITERATOR = __webpack_require__(36)('iterator');
 var Iterators = __webpack_require__(112);
-module.exports = __webpack_require__(20).isIterable = function (it) {
+module.exports = __webpack_require__(19).isIterable = function (it) {
   var O = Object(it);
   return O[ITERATOR] !== undefined
     || '@@iterator' in O
@@ -4800,7 +4800,7 @@ module.exports = __webpack_require__(1291);
 
 var anObject = __webpack_require__(58);
 var get = __webpack_require__(278);
-module.exports = __webpack_require__(20).getIterator = function (it) {
+module.exports = __webpack_require__(19).getIterator = function (it) {
   var iterFn = get(it);
   if (typeof iterFn != 'function') throw TypeError(it + ' is not iterable!');
   return anObject(iterFn.call(it));

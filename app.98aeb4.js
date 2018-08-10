@@ -192,7 +192,9 @@ exports.default = {"propENV":"testnet.prod","paths":{},"referral":{"url":"https:
 
 /***/ }),
 /* 18 */,
-/* 19 */
+/* 19 */,
+/* 20 */,
+/* 21 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -242,8 +244,6 @@ exports.constants = _constants2.default;
 exports.util = _util2.default;
 
 /***/ }),
-/* 20 */,
-/* 21 */,
 /* 22 */,
 /* 23 */,
 /* 24 */,
@@ -2097,7 +2097,7 @@ var _possibleConstructorReturn2 = __webpack_require__(46);
 
 var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
 
-var _createClass2 = __webpack_require__(21);
+var _createClass2 = __webpack_require__(20);
 
 var _createClass3 = _interopRequireDefault(_createClass2);
 
@@ -2105,7 +2105,7 @@ var _inherits2 = __webpack_require__(47);
 
 var _inherits3 = _interopRequireDefault(_inherits2);
 
-var _swap = __webpack_require__(19);
+var _swap = __webpack_require__(21);
 
 var _swap2 = _interopRequireDefault(_swap);
 
@@ -2599,7 +2599,7 @@ var _classCallCheck2 = __webpack_require__(18);
 
 var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
 
-var _createClass2 = __webpack_require__(21);
+var _createClass2 = __webpack_require__(20);
 
 var _createClass3 = _interopRequireDefault(_createClass2);
 
@@ -2786,11 +2786,11 @@ var _classCallCheck2 = __webpack_require__(18);
 
 var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
 
-var _createClass2 = __webpack_require__(21);
+var _createClass2 = __webpack_require__(20);
 
 var _createClass3 = _interopRequireDefault(_createClass2);
 
-var _swap = __webpack_require__(19);
+var _swap = __webpack_require__(21);
 
 var _swap2 = _interopRequireDefault(_swap);
 
@@ -3506,7 +3506,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _swap = __webpack_require__(19);
+var _swap = __webpack_require__(21);
 
 var _swap2 = _interopRequireDefault(_swap);
 
@@ -3563,7 +3563,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _swap = __webpack_require__(19);
+var _swap = __webpack_require__(21);
 
 var _swap2 = _interopRequireDefault(_swap);
 
@@ -3634,7 +3634,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _swap = __webpack_require__(19);
+var _swap = __webpack_require__(21);
 
 exports.default = new _swap.Events();
 module.exports = exports['default'];
@@ -5773,7 +5773,7 @@ var _classCallCheck2 = __webpack_require__(18);
 
 var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
 
-var _createClass2 = __webpack_require__(21);
+var _createClass2 = __webpack_require__(20);
 
 var _createClass3 = _interopRequireDefault(_createClass2);
 
@@ -5781,7 +5781,7 @@ var _bignumber = __webpack_require__(169);
 
 var _bignumber2 = _interopRequireDefault(_bignumber);
 
-var _swap = __webpack_require__(19);
+var _swap = __webpack_require__(21);
 
 var _swap2 = _interopRequireDefault(_swap);
 
@@ -6011,7 +6011,7 @@ var _classCallCheck2 = __webpack_require__(18);
 
 var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
 
-var _createClass2 = __webpack_require__(21);
+var _createClass2 = __webpack_require__(20);
 
 var _createClass3 = _interopRequireDefault(_createClass2);
 
@@ -6084,7 +6084,7 @@ var _classCallCheck2 = __webpack_require__(18);
 
 var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
 
-var _createClass2 = __webpack_require__(21);
+var _createClass2 = __webpack_require__(20);
 
 var _createClass3 = _interopRequireDefault(_createClass2);
 
@@ -6184,7 +6184,7 @@ var _classCallCheck2 = __webpack_require__(18);
 
 var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
 
-var _createClass2 = __webpack_require__(21);
+var _createClass2 = __webpack_require__(20);
 
 var _createClass3 = _interopRequireDefault(_createClass2);
 
@@ -6229,7 +6229,7 @@ var _classCallCheck2 = __webpack_require__(18);
 
 var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
 
-var _createClass2 = __webpack_require__(21);
+var _createClass2 = __webpack_require__(20);
 
 var _createClass3 = _interopRequireDefault(_createClass2);
 
@@ -6405,7 +6405,7 @@ var _classCallCheck2 = __webpack_require__(18);
 
 var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
 
-var _createClass2 = __webpack_require__(21);
+var _createClass2 = __webpack_require__(20);
 
 var _createClass3 = _interopRequireDefault(_createClass2);
 
@@ -6802,11 +6802,11 @@ var _classCallCheck2 = __webpack_require__(18);
 
 var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
 
-var _createClass2 = __webpack_require__(21);
+var _createClass2 = __webpack_require__(20);
 
 var _createClass3 = _interopRequireDefault(_createClass2);
 
-var _swap2 = __webpack_require__(19);
+var _swap2 = __webpack_require__(21);
 
 var _swap3 = _interopRequireDefault(_swap2);
 
@@ -7165,10 +7165,6 @@ var _actions2 = _interopRequireDefault(_actions);
 
 var _core = __webpack_require__(73);
 
-var _swap = __webpack_require__(19);
-
-var _swap2 = _interopRequireDefault(_swap);
-
 var _reducers = __webpack_require__(27);
 
 var _reducers2 = _interopRequireDefault(_reducers);
@@ -7403,7 +7399,7 @@ var _actions2 = _interopRequireDefault(_actions);
 
 var _core = __webpack_require__(73);
 
-var _swap = __webpack_require__(19);
+var _swap = __webpack_require__(21);
 
 var _swap2 = _interopRequireDefault(_swap);
 
@@ -11367,7 +11363,7 @@ var Home = (_temp = _class = function (_Component) {
   this.handelReplaceHistory = function (sellCurrency, buyCurrency) {
     var history = _this2.props.history;
 
-    console.log('history', sellCurrency, buyCurrency);
+    console.log('history', buyCurrency, sellCurrency);
     _this2.setFilter('' + buyCurrency + sellCurrency);
     history.replace(_helpers.links.exchange + '/' + buyCurrency + '-' + sellCurrency);
   };
@@ -11378,10 +11374,10 @@ var Home = (_temp = _class = function (_Component) {
         sellCurrency = _state4.sellCurrency;
 
     var value = sellCurrency;
-
+    console.log(buyCurrency, sellCurrency);
     sellCurrency = buyCurrency;
     buyCurrency = value;
-
+    console.log(buyCurrency, sellCurrency);
     _this2.handelReplaceHistory(sellCurrency, buyCurrency);
 
     _this2.setState({
@@ -15487,7 +15483,7 @@ var _actions = __webpack_require__(12);
 
 var _actions2 = _interopRequireDefault(_actions);
 
-var _swap = __webpack_require__(19);
+var _swap = __webpack_require__(21);
 
 var _swap2 = _interopRequireDefault(_swap);
 
@@ -15685,7 +15681,7 @@ var _possibleConstructorReturn2 = __webpack_require__(46);
 
 var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
 
-var _createClass2 = __webpack_require__(21);
+var _createClass2 = __webpack_require__(20);
 
 var _createClass3 = _interopRequireDefault(_createClass2);
 
@@ -15693,7 +15689,7 @@ var _inherits2 = __webpack_require__(47);
 
 var _inherits3 = _interopRequireDefault(_inherits2);
 
-var _swap = __webpack_require__(19);
+var _swap = __webpack_require__(21);
 
 var _swap2 = _interopRequireDefault(_swap);
 
@@ -15948,7 +15944,7 @@ var _possibleConstructorReturn2 = __webpack_require__(46);
 
 var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
 
-var _createClass2 = __webpack_require__(21);
+var _createClass2 = __webpack_require__(20);
 
 var _createClass3 = _interopRequireDefault(_createClass2);
 
@@ -15968,7 +15964,7 @@ var _bignumber = __webpack_require__(169);
 
 var _bignumber2 = _interopRequireDefault(_bignumber);
 
-var _swap = __webpack_require__(19);
+var _swap = __webpack_require__(21);
 
 var _swap2 = _interopRequireDefault(_swap);
 
@@ -16468,11 +16464,11 @@ var _classCallCheck2 = __webpack_require__(18);
 
 var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
 
-var _createClass2 = __webpack_require__(21);
+var _createClass2 = __webpack_require__(20);
 
 var _createClass3 = _interopRequireDefault(_createClass2);
 
-var _swap = __webpack_require__(19);
+var _swap = __webpack_require__(21);
 
 var _swap2 = _interopRequireDefault(_swap);
 
@@ -16746,7 +16742,7 @@ var _classCallCheck2 = __webpack_require__(18);
 
 var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
 
-var _createClass2 = __webpack_require__(21);
+var _createClass2 = __webpack_require__(20);
 
 var _createClass3 = _interopRequireDefault(_createClass2);
 
@@ -16758,7 +16754,7 @@ var _inherits2 = __webpack_require__(47);
 
 var _inherits3 = _interopRequireDefault(_inherits2);
 
-var _swap = __webpack_require__(19);
+var _swap = __webpack_require__(21);
 
 var _swap2 = _interopRequireDefault(_swap);
 
@@ -17369,7 +17365,7 @@ var _classCallCheck2 = __webpack_require__(18);
 
 var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
 
-var _createClass2 = __webpack_require__(21);
+var _createClass2 = __webpack_require__(20);
 
 var _createClass3 = _interopRequireDefault(_createClass2);
 
@@ -17381,7 +17377,7 @@ var _inherits2 = __webpack_require__(47);
 
 var _inherits3 = _interopRequireDefault(_inherits2);
 
-var _swap = __webpack_require__(19);
+var _swap = __webpack_require__(21);
 
 var _swap2 = _interopRequireDefault(_swap);
 
@@ -18070,7 +18066,7 @@ var _classCallCheck2 = __webpack_require__(18);
 
 var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
 
-var _createClass2 = __webpack_require__(21);
+var _createClass2 = __webpack_require__(20);
 
 var _createClass3 = _interopRequireDefault(_createClass2);
 
@@ -18082,7 +18078,7 @@ var _inherits2 = __webpack_require__(47);
 
 var _inherits3 = _interopRequireDefault(_inherits2);
 
-var _swap = __webpack_require__(19);
+var _swap = __webpack_require__(21);
 
 var _swap2 = _interopRequireDefault(_swap);
 
@@ -18763,7 +18759,7 @@ var _possibleConstructorReturn2 = __webpack_require__(46);
 
 var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
 
-var _createClass2 = __webpack_require__(21);
+var _createClass2 = __webpack_require__(20);
 
 var _createClass3 = _interopRequireDefault(_createClass2);
 
@@ -18779,7 +18775,7 @@ var _crypto = __webpack_require__(190);
 
 var _crypto2 = _interopRequireDefault(_crypto);
 
-var _swap = __webpack_require__(19);
+var _swap = __webpack_require__(21);
 
 var _swap2 = _interopRequireDefault(_swap);
 
@@ -19526,7 +19522,7 @@ var _possibleConstructorReturn2 = __webpack_require__(46);
 
 var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
 
-var _createClass2 = __webpack_require__(21);
+var _createClass2 = __webpack_require__(20);
 
 var _createClass3 = _interopRequireDefault(_createClass2);
 
@@ -19542,7 +19538,7 @@ var _crypto = __webpack_require__(190);
 
 var _crypto2 = _interopRequireDefault(_crypto);
 
-var _swap = __webpack_require__(19);
+var _swap = __webpack_require__(21);
 
 var _swap2 = _interopRequireDefault(_swap);
 
@@ -20043,7 +20039,7 @@ var _possibleConstructorReturn2 = __webpack_require__(46);
 
 var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
 
-var _createClass2 = __webpack_require__(21);
+var _createClass2 = __webpack_require__(20);
 
 var _createClass3 = _interopRequireDefault(_createClass2);
 
@@ -20059,7 +20055,7 @@ var _crypto = __webpack_require__(190);
 
 var _crypto2 = _interopRequireDefault(_crypto);
 
-var _swap = __webpack_require__(19);
+var _swap = __webpack_require__(21);
 
 var _swap2 = _interopRequireDefault(_swap);
 
@@ -20838,7 +20834,7 @@ var _possibleConstructorReturn2 = __webpack_require__(46);
 
 var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
 
-var _createClass2 = __webpack_require__(21);
+var _createClass2 = __webpack_require__(20);
 
 var _createClass3 = _interopRequireDefault(_createClass2);
 
@@ -20854,7 +20850,7 @@ var _crypto = __webpack_require__(190);
 
 var _crypto2 = _interopRequireDefault(_crypto);
 
-var _swap = __webpack_require__(19);
+var _swap = __webpack_require__(21);
 
 var _swap2 = _interopRequireDefault(_swap);
 
@@ -21351,7 +21347,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _swap = __webpack_require__(19);
+var _swap = __webpack_require__(21);
 
 var _swap2 = _interopRequireDefault(_swap);
 
