@@ -4322,7 +4322,6 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 var routes = _react2.default.createElement(
   _reactRouterDom.Switch,
   null,
-  _react2.default.createElement(_reactRouter.Route, { path: _helpers.links.exchange + '/:buy-:sell', component: _Home2.default }),
   _react2.default.createElement(_reactRouter.Route, { path: _helpers.links.exchange + '/:buy-:sell/:orderId', component: _Home2.default }),
   _react2.default.createElement(_reactRouter.Route, { path: _helpers.links.exchange, component: _Home2.default }),
   _react2.default.createElement(_reactRouter.Route, { path: _helpers.links.affiliate, component: _Affiliate2.default }),
@@ -11268,8 +11267,8 @@ var Home = (_temp = _class = function (_Component) {
         sellCurrency = _ref2.sellCurrency;
 
     _this.state = {
-      buyCurrency: buy || buyCurrency,
-      sellCurrency: sell || sellCurrency,
+      buyCurrency: buy || buyCurrency || 'eth',
+      sellCurrency: sell || sellCurrency || 'btc',
       orderId: orderId
     };
     return _this;
@@ -11283,7 +11282,6 @@ var Home = (_temp = _class = function (_Component) {
           sellCurrency = _state.sellCurrency,
           orderId = _state.orderId;
 
-      console.log('render', this.state);
 
       return _react2.default.createElement(
         'section',
@@ -11340,7 +11338,7 @@ var Home = (_temp = _class = function (_Component) {
     _this2.setState({
       buyCurrency: value,
       sellCurrency: sellCurrency
-    }, console.log('handleBuyCurrencySelect', _this2.state));
+    });
   };
 
   this.handleSellCurrencySelect = function (_ref4) {
@@ -11359,14 +11357,12 @@ var Home = (_temp = _class = function (_Component) {
     _this2.setState({
       buyCurrency: buyCurrency,
       sellCurrency: value
-    }, console.log('handleSellCurrencySelect', _this2.state));
+    });
   };
 
   this.handelReplaceHistory = function (sellCurrency, buyCurrency) {
     var history = _this2.props.history;
 
-
-    console.log('handelReplaceHistory', _this2.state);
 
     _this2.setFilter('' + buyCurrency + sellCurrency);
     history.replace(_helpers.links.exchange + '/' + buyCurrency + '-' + sellCurrency);
@@ -11379,8 +11375,6 @@ var Home = (_temp = _class = function (_Component) {
 
     var value = sellCurrency;
 
-    console.log('flipCurrency 1', _this2.state);
-
     sellCurrency = buyCurrency;
     buyCurrency = value;
 
@@ -11389,7 +11383,7 @@ var Home = (_temp = _class = function (_Component) {
     _this2.setState({
       buyCurrency: buyCurrency,
       sellCurrency: sellCurrency
-    }, console.log('flipCurrency set state', _this2.state));
+    });
   };
 
   this.setFilter = function (filter) {
