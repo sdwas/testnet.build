@@ -11524,10 +11524,8 @@ var Orders = (_dec = (0, _redaction.connect)(function (_ref) {
 
   (0, _createClass3.default)(Orders, [{
     key: 'componentWillReceiveProps',
-    value: function componentWillReceiveProps(nextProps) {
-      if (nextProps !== this.props) {
-        this.setState();
-      }
+    value: function componentWillReceiveProps() {
+      this.setState();
     }
   }, {
     key: 'render',
@@ -11550,7 +11548,7 @@ var Orders = (_dec = (0, _redaction.connect)(function (_ref) {
       return _react2.default.createElement(
         _react.Fragment,
         null,
-        _react2.default.createElement(_MyOrders2.default, { myOrders: myOrders, update: this.updateState }),
+        _react2.default.createElement(_MyOrders2.default, { myOrders: myOrders }),
         _react2.default.createElement(_SearchSwap2.default, {
           handleSellCurrencySelect: handleSellCurrencySelect,
           handleBuyCurrencySelect: handleBuyCurrencySelect,
