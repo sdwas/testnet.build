@@ -11258,7 +11258,8 @@ var Home = (_temp = _class = function (_Component) {
     var initialData = _ref.initialData,
         _ref$match$params = _ref.match.params,
         buy = _ref$match$params.buy,
-        sell = _ref$match$params.sell;
+        sell = _ref$match$params.sell,
+        orderId = _ref$match$params.orderId;
     (0, _classCallCheck3.default)(this, Home);
 
     var _this = (0, _possibleConstructorReturn3.default)(this, (Home.__proto__ || (0, _getPrototypeOf2.default)(Home)).call(this));
@@ -11272,6 +11273,7 @@ var Home = (_temp = _class = function (_Component) {
     _this.state = {
       buyCurrency: buy || buyCurrency || 'eth',
       sellCurrency: sell || sellCurrency || 'btc',
+      orderId: orderId,
       view: 'saveKeys'
     };
     return _this;
@@ -11287,10 +11289,10 @@ var Home = (_temp = _class = function (_Component) {
   }, {
     key: 'render',
     value: function render() {
-      var orderId = this.props.match.params.orderId;
       var _state = this.state,
           buyCurrency = _state.buyCurrency,
-          sellCurrency = _state.sellCurrency;
+          sellCurrency = _state.sellCurrency,
+          orderId = _state.orderId;
 
 
       return _react2.default.createElement(
