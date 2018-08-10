@@ -5640,8 +5640,8 @@ var SwapComponent = function (_PureComponent) {
 
     return _ret = (_temp = (_this = (0, _possibleConstructorReturn3.default)(this, (_ref = SwapComponent.__proto__ || (0, _getPrototypeOf2.default)(SwapComponent)).call.apply(_ref, [this].concat(args))), _this), _this.state = {
       swap: null,
-      SwapComponent: null,
-      errors: false
+      SwapComponent: null
+      // errors: false,
     }, _this.setSaveSwapId = function (orderId) {
       var swapsId = JSON.parse(localStorage.getItem('swapId'));
 
@@ -5663,8 +5663,8 @@ var SwapComponent = function (_PureComponent) {
   }
 
   (0, _createClass3.default)(SwapComponent, [{
-    key: 'createSwap',
-    value: function createSwap() {
+    key: 'componentWillMount',
+    value: function componentWillMount() {
       var orderId = this.props.match.params.orderId;
 
 
@@ -5681,17 +5681,17 @@ var SwapComponent = function (_PureComponent) {
       // for debug and emergency save
       window.swap = swap;
     }
-  }, {
-    key: 'componentWillMount',
-    value: function componentWillMount() {
-      var _this2 = this;
 
-      _actions2.default.api.checkServers().then(function () {
-        _this2.createSwap();
-      }).catch(function (e) {
-        _this2.setState({ errors: true });
-      });
-    }
+    // componentWillMount() {
+    //   actions.api.checkServers()
+    //     .then(() => {
+    //       this.createSwap()
+    //     })
+    //     .catch(e => {
+    //       this.setState({ errors: true })
+    //     })
+    // }
+
   }, {
     key: 'render',
     value: function render() {
@@ -5701,23 +5701,17 @@ var SwapComponent = function (_PureComponent) {
           errors = _state.errors;
 
 
+      if (!swap || !SwapComponent) {
+        return null;
+      }
+
       return _react2.default.createElement(
         'div',
         { style: { paddingLeft: '30px', paddingTop: '30px' } },
-        swap && _react2.default.createElement(
+        _react2.default.createElement(
           SwapComponent,
           { swap: swap },
           _react2.default.createElement(_EmergencySave2.default, { flow: swap.flow })
-        ),
-        errors && _react2.default.createElement(
-          'div',
-          null,
-          _react2.default.createElement(
-            'h2',
-            null,
-            'Error!'
-          ),
-          'Can\'t reach payments provider server. Please, try again later'
         )
       );
     }
@@ -11282,8 +11276,6 @@ var Home = (_temp = _class = function (_Component) {
           sellCurrency = _state.sellCurrency;
 
 
-      console.log(orderId);
-
       return _react2.default.createElement(
         'section',
         { style: { position: 'relative' } },
@@ -11536,8 +11528,6 @@ var Orders = (_dec = (0, _redaction.connect)(function (_ref) {
           orderId = _props2.orderId;
 
 
-      console.log(orderId);
-
       return _react2.default.createElement(
         _react.Fragment,
         null,
@@ -11735,9 +11725,6 @@ var Row = (_dec = (0, _redaction.connect)({
           peer = _props.peer;
 
       var amount = isMy ? sellAmount : buyAmount;
-
-      console.log(orderId);
-      console.log(id);
 
       return _react2.default.createElement(
         'tr',
@@ -15361,11 +15348,7 @@ var App = (_dec = (0, _redaction.connect)({
     }
 
     return _ret = (_temp = (_this = (0, _possibleConstructorReturn3.default)(this, (_ref = App.__proto__ || (0, _getPrototypeOf2.default)(App)).call.apply(_ref, [this].concat(args))), _this), _this.state = {
-      fetching: false,
-      core: false
-    }, _this.addCore = function () {
-      (0, _newSwap.createSwapApp)();
-      _this.setState({ core: !_this.state.core });
+      fetching: false
     }, _temp), (0, _possibleConstructorReturn3.default)(_this, _ret);
   }
 
@@ -15384,9 +15367,7 @@ var App = (_dec = (0, _redaction.connect)({
       setTimeout(function () {
         _actions2.default.user.sign();
         (0, _newSwap.createSwapApp)();
-        _this2.setState({
-          fetching: true
-        });
+        _this2.setState({ fetching: true });
       }, 1000);
     }
   }, {
@@ -21370,7 +21351,10 @@ var Core = function (_Component) {
         var isOnline = _swap2.default.services.room.connection._ipfs.isOnline();
         var peer = _swap2.default.services.room.peer;
 
+        console.log(_swap2.default.services);
+
         _swap2.default.services.room.connection.on('peer joined', _actions2.default.ipfs.userJoined);
+        _swap2.default.services.room.connection.on('peer left', _actions2.default.ipfs.userLeft);
         setTimeout(function () {
           _actions2.default.ipfs.set({
             isOnline: isOnline,
@@ -21407,8 +21391,6 @@ var Core = function (_Component) {
     key: 'componentWillUnmount',
     value: function componentWillUnmount() {
       _swap2.default.services.orders.off('new orders', this.updateOrders).off('new order', this.updateOrders).off('order update', this.updateOrders).off('remove order', this.updateOrders).off('new order request', this.updateOrders);
-
-      _swap2.default.services.room.connection.off('peer joined', _actions2.default.ipfs.userLeft);
     }
   }, {
     key: 'render',
