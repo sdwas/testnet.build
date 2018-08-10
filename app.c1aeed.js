@@ -11291,6 +11291,7 @@ var Home = (_temp = _class = function (_Component) {
           sellCurrency = _state.sellCurrency,
           orderId = _state.orderId;
 
+      console.log('render', buyCurrency, sellCurrency);
 
       return _react2.default.createElement(
         'section',
@@ -11347,7 +11348,7 @@ var Home = (_temp = _class = function (_Component) {
     _this2.setState({
       buyCurrency: value,
       sellCurrency: sellCurrency
-    });
+    }, console.log('handleBuyCurrencySelect', _this2.state));
   };
 
   this.handleSellCurrencySelect = function (_ref5) {
@@ -11366,12 +11367,14 @@ var Home = (_temp = _class = function (_Component) {
     _this2.setState({
       buyCurrency: buyCurrency,
       sellCurrency: value
-    });
+    }, console.log('handleSellCurrencySelect', _this2.state));
   };
 
   this.handelReplaceHistory = function (sellCurrency, buyCurrency) {
     var history = _this2.props.history;
 
+
+    console.log('handelReplaceHistory', buyCurrency, sellCurrency);
 
     _this2.setFilter('' + buyCurrency + sellCurrency);
     history.replace(_helpers.links.exchange + '/' + buyCurrency + '-' + sellCurrency);
@@ -11384,6 +11387,8 @@ var Home = (_temp = _class = function (_Component) {
 
     var value = sellCurrency;
 
+    console.log('flipCurrency 1', sellCurrency, buyCurrency);
+
     sellCurrency = buyCurrency;
     buyCurrency = value;
 
@@ -11392,7 +11397,7 @@ var Home = (_temp = _class = function (_Component) {
     _this2.setState({
       buyCurrency: buyCurrency,
       sellCurrency: sellCurrency
-    });
+    }, console.log('flipCurrency set state', buyCurrency, sellCurrency));
   };
 
   this.setFilter = function (filter) {
@@ -11527,11 +11532,6 @@ var Orders = (_dec = (0, _redaction.connect)(function (_ref) {
   }
 
   (0, _createClass3.default)(Orders, [{
-    key: 'componentWillReceiveProps',
-    value: function componentWillReceiveProps() {
-      this.setState();
-    }
-  }, {
     key: 'render',
     value: function render() {
       var _props = this.props,
