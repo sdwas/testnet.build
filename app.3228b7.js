@@ -11280,13 +11280,6 @@ var Home = (_temp = _class = function (_Component) {
   }
 
   (0, _createClass3.default)(Home, [{
-    key: 'componentWillReceiveProps',
-    value: function componentWillReceiveProps(nextProps) {
-      if (nextProps !== this.props) {
-        this.setState();
-      }
-    }
-  }, {
     key: 'render',
     value: function render() {
       var _state = this.state,
@@ -11346,7 +11339,7 @@ var Home = (_temp = _class = function (_Component) {
     }
 
     _this2.handelReplaceHistory(sellCurrency, value);
-
+    console.log('buy', value);
     _this2.setState({
       buyCurrency: value,
       sellCurrency: sellCurrency
@@ -11365,7 +11358,7 @@ var Home = (_temp = _class = function (_Component) {
     }
 
     _this2.handelReplaceHistory(value, buyCurrency);
-
+    console.log('sell', value);
     _this2.setState({
       buyCurrency: buyCurrency,
       sellCurrency: value
@@ -11375,7 +11368,7 @@ var Home = (_temp = _class = function (_Component) {
   this.handelReplaceHistory = function (sellCurrency, buyCurrency) {
     var history = _this2.props.history;
 
-
+    console.log('history', sellCurrency, buyCurrency);
     _this2.setFilter('' + buyCurrency + sellCurrency);
     history.replace(_helpers.links.exchange + '/' + buyCurrency + '-' + sellCurrency);
   };
@@ -11800,7 +11793,7 @@ var Row = (_dec = (0, _redaction.connect)({
             ) : balance > amount.toNumber() ? _react2.default.createElement(
               _reactRouterDom.Link,
               { to: _helpers.links.swap + '/' + buyCurrency + '-' + sellCurrency + '/' + id },
-              _react2.default.createElement(_RequestButton2.default, { sendRequest: function sendRequest() {
+              _react2.default.createElement(_RequestButton2.default, { onClick: function onClick() {
                   return _this3.sendRequest(id);
                 } })
             ) : _react2.default.createElement(
@@ -11911,8 +11904,8 @@ var _RequestButton2 = _interopRequireDefault(_RequestButton);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var RequestButton = function RequestButton(_ref) {
-  var sendRequest = _ref.sendRequest;
-  return _react2.default.createElement('div', { styleName: 'button', onClick: sendRequest });
+  var onClick = _ref.onClick;
+  return _react2.default.createElement('div', { styleName: 'button', onClick: onClick });
 };
 
 exports.default = (0, _reactCssModules2.default)(RequestButton, _RequestButton2.default, { allowMultiple: true });
