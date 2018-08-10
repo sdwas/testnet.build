@@ -11273,8 +11273,7 @@ var Home = (_temp = _class = function (_Component) {
     _this.state = {
       buyCurrency: buy || buyCurrency || 'eth',
       sellCurrency: sell || sellCurrency || 'btc',
-      orderId: orderId,
-      view: 'saveKeys'
+      orderId: orderId
     };
     return _this;
   }
@@ -11287,6 +11286,7 @@ var Home = (_temp = _class = function (_Component) {
           sellCurrency = _state.sellCurrency,
           orderId = _state.orderId;
 
+      console.log('render');
 
       return _react2.default.createElement(
         'section',
