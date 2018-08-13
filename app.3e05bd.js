@@ -11807,7 +11807,7 @@ var Row = (_dec = (0, _redaction.connect)({
         _react2.default.createElement(
           'td',
           null,
-          exchangeRate || buyAmount.dividedBy(sellAmount).toNumber().toFixed(5),
+          exchangeRate.toFixed(5) || buyAmount.dividedBy(sellAmount).toFixed(5),
           isMy ? sellCurrency + '/' + buyCurrency : buyCurrency + '/' + sellCurrency
         ),
         _react2.default.createElement(
