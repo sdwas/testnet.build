@@ -8072,9 +8072,11 @@ var getTransaction = function getTransaction() {
           type: 'btc',
           hash: item.txid,
           confirmations: item.confirmations,
-          value: item.vout[0].value,
+          value: item.vout.filter(function (item) {
+            return item.scriptPubKey.addresses[0] === address;
+          })[0].value,
           date: item.time * 1000,
-          direction: address.toLocaleLowerCase() === item.vout[0].scriptPubKey.addresses[0].toLocaleLowerCase() ? 'in' : 'out'
+          direction: address === item.vout[0].scriptPubKey.addresses[0] ? 'in' : 'out'
         };
       });
       resolve(transactions);
@@ -9992,6 +9994,24 @@ var BtcToEth = function (_Component) {
                 return _this2.setState({ enabledButton: true });
               }
             })
+          ),
+          flow.refundTransactionHash && _react2.default.createElement(
+            'div',
+            null,
+            'Transaction:',
+            _react2.default.createElement(
+              'strong',
+              null,
+              _react2.default.createElement(
+                'a',
+                {
+                  href: _appConfig2.default.link.bitpay + '/tx/' + flow.refundTransactionHash,
+                  target: '_blank',
+                  rel: 'noreferrer noopener'
+                },
+                flow.refundTransactionHash
+              )
+            )
           )
         ),
         _react2.default.createElement('br', null),
@@ -10477,6 +10497,24 @@ var EthToBtc = function (_Component) {
                 return _this2.setState({ enabledButton: true });
               }
             })
+          ),
+          flow.refundTransactionHash && _react2.default.createElement(
+            'div',
+            null,
+            'Transaction:',
+            _react2.default.createElement(
+              'strong',
+              null,
+              _react2.default.createElement(
+                'a',
+                {
+                  href: _appConfig2.default.link.bitpay + '/tx/' + flow.refundTransactionHash,
+                  target: '_blank',
+                  rel: 'noreferrer noopener'
+                },
+                flow.refundTransactionHash
+              )
+            )
           )
         ),
         _react2.default.createElement('br', null),
@@ -11371,7 +11409,24 @@ var BtcToEthToken = function (_Component) {
               }
             })
           ),
-          flow.finishSwap && this.removeOrder(this.swap.id)
+          flow.refundTransactionHash && _react2.default.createElement(
+            'div',
+            null,
+            'Transaction:',
+            _react2.default.createElement(
+              'strong',
+              null,
+              _react2.default.createElement(
+                'a',
+                {
+                  href: _appConfig2.default.link.bitpay + '/tx/' + flow.refundTransactionHash,
+                  target: '_blank',
+                  rel: 'noreferrer noopener'
+                },
+                flow.refundTransactionHash
+              )
+            )
+          )
         ),
         _react2.default.createElement('br', null),
         children
@@ -11689,11 +11744,9 @@ var filterMyOrders = function filterMyOrders(orders, peer) {
 
 var filterOrders = function filterOrders(orders, filter) {
   return orders.filter(function (order) {
-    return order.isProcessing === false;
-  }).filter(function (order) {
     return order.isMy ? '' + order.buyCurrency.toLowerCase() + order.sellCurrency.toLowerCase() === filter : '' + order.sellCurrency.toLowerCase() + order.buyCurrency.toLowerCase() === filter;
   }).sort(function (a, b) {
-    return b.exchangeRate - a.exchangeRate;
+    return Number(b.exchangeRate) - Number(a.exchangeRate);
   });
 };
 
@@ -14934,8 +14987,8 @@ var SwapsHistory = function (_PureComponent) {
         ),
         _react2.default.createElement(_Table2.default, {
           titles: titles,
-          rows: (0, _values2.default)(orders).map(function (item) {
-            return item;
+          rows: (0, _values2.default)(orders).filter(function (item) {
+            return item.step >= 4;
           }),
           rowRender: function rowRender(row, index) {
             return _react2.default.createElement(_RowHistory2.default, {
