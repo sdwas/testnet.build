@@ -9960,7 +9960,7 @@ var filterMyOrders = function filterMyOrders(orders, peer) {
 
 var filterOrders = function filterOrders(orders, filter) {
   return orders.filter(function (order) {
-    return order.isProcessing === false;
+    return order.isParticipantSigned === false || order.isMeSigned === false;
   }).filter(function (order) {
     return order.isMy ? '' + order.buyCurrency.toLowerCase() + order.sellCurrency.toLowerCase() === filter : '' + order.sellCurrency.toLowerCase() + order.buyCurrency.toLowerCase() === filter;
   }).sort(function (a, b) {
