@@ -14107,7 +14107,7 @@ var Currency = (_dec = (0, _redaction.connect)(function (_ref) {
       var _this$props = _this.props,
           _this$props$match$par = _this$props.match.params,
           currency = _this$props$match$par.currency,
-          trade = _this$props$match$par.trade,
+          exchange = _this$props$match$par.exchange,
           currencies = _this$props.currencies;
 
 
@@ -14121,7 +14121,7 @@ var Currency = (_dec = (0, _redaction.connect)(function (_ref) {
         });
       }
 
-      if (trade === 'sell') {
+      if (exchange === 'sell') {
         currencies = currencies.reduce(function (previous, current) {
           return previous.concat({ from: current.value, to: currency });
         }, []);
@@ -14262,7 +14262,13 @@ var Row = (_dec = (0, _reactCssModules2.default)(_Row2.default), _dec(_class = (
         _react2.default.createElement(
           'td',
           null,
-          from.toUpperCase() + '-' + to.toUpperCase()
+          _react2.default.createElement(
+            'span',
+            null,
+            from.toUpperCase(),
+            '-',
+            to.toUpperCase()
+          )
         ),
         _react2.default.createElement(
           'td',
@@ -17304,20 +17310,9 @@ var AddOffer = (_dec = (0, _redaction.connect)(function (_ref) {
       this.getExchangeRate(sellCurrency, buyCurrency);
     }
   }, {
-    key: 'handleChangeCurrencies',
-    value: function handleChangeCurrencies(currency, currencies) {
-      return currency === 'btc' ? currencies.filter(function (c) {
-        return c.value !== currency;
-      }) : currencies.filter(function (c) {
-        return c.value === 'btc';
-      });
-    }
-  }, {
     key: 'render',
     value: function render() {
-      var _this2 = this;
-
-      var _currencies = this.props.currencies;
+      var currencies = this.props.currencies;
       var _state2 = this.state,
           exchangeRate = _state2.exchangeRate,
           buyAmount = _state2.buyAmount,
@@ -17360,9 +17355,7 @@ var AddOffer = (_dec = (0, _redaction.connect)(function (_ref) {
           selectedCurrencyValue: sellCurrency,
           onCurrencySelect: this.handleSellCurrencySelect,
           id: 'sellAmount',
-          currencies: function currencies() {
-            return _this2.handleChangeCurrencies(sellCurrency, _currencies);
-          },
+          currencies: currencies,
           placeholder: 'Enter sell amount'
         }),
         _react2.default.createElement(_SelectGroup2.default, {
@@ -17371,9 +17364,7 @@ var AddOffer = (_dec = (0, _redaction.connect)(function (_ref) {
           selectedCurrencyValue: buyCurrency,
           onCurrencySelect: this.handleBuyCurrencySelect,
           id: 'buyAmount',
-          currencies: function currencies() {
-            return _this2.handleChangeCurrencies(buyCurrency, _currencies);
-          },
+          currencies: currencies,
           placeholder: 'Enter buy amount'
         }),
         _react2.default.createElement(
@@ -17392,10 +17383,10 @@ var AddOffer = (_dec = (0, _redaction.connect)(function (_ref) {
   }]);
   return AddOffer;
 }(_react.Component), _initialiseProps = function _initialiseProps() {
-  var _this3 = this;
+  var _this2 = this;
 
   this.changeExchangeRate = function (value) {
-    _this3.setState({
+    _this2.setState({
       exchangeRate: value
     });
   };
@@ -17414,7 +17405,7 @@ var AddOffer = (_dec = (0, _redaction.connect)(function (_ref) {
               balance = _context.sent;
 
 
-              _this3.setState({
+              _this2.setState({
                 balance: balance
               });
 
@@ -17423,7 +17414,7 @@ var AddOffer = (_dec = (0, _redaction.connect)(function (_ref) {
               return _context.stop();
           }
         }
-      }, _callee, _this3);
+      }, _callee, _this2);
     }));
 
     return function (_x) {
@@ -17432,11 +17423,11 @@ var AddOffer = (_dec = (0, _redaction.connect)(function (_ref) {
   }();
 
   this.getExchangeRate = function (sellCurrency, buyCurrency) {
-    _actions2.default.user.setExchangeRate(sellCurrency, buyCurrency, _this3.changeExchangeRate);
+    _actions2.default.user.setExchangeRate(sellCurrency, buyCurrency, _this2.changeExchangeRate);
   };
 
   this.handleExchangeRateChange = function (value) {
-    var _state3 = _this3.state,
+    var _state3 = _this2.state,
         buyAmount = _state3.buyAmount,
         sellAmount = _state3.sellAmount;
 
@@ -17450,7 +17441,7 @@ var AddOffer = (_dec = (0, _redaction.connect)(function (_ref) {
       sellAmount = new _bignumber.BigNumber(String(buyAmount) || 0).dividedBy(value);
     }
 
-    _this3.setState({
+    _this2.setState({
       buyAmount: buyAmount,
       sellAmount: sellAmount
     });
@@ -17458,7 +17449,7 @@ var AddOffer = (_dec = (0, _redaction.connect)(function (_ref) {
 
   this.handleBuyCurrencySelect = function (_ref5) {
     var value = _ref5.value;
-    var _state4 = _this3.state,
+    var _state4 = _this2.state,
         buyCurrency = _state4.buyCurrency,
         sellCurrency = _state4.sellCurrency,
         buyAmount = _state4.buyAmount,
@@ -17471,14 +17462,14 @@ var AddOffer = (_dec = (0, _redaction.connect)(function (_ref) {
 
     buyCurrency = value;
 
-    _this3.checkBalance(sellCurrency);
-    _this3.getExchangeRate(sellCurrency, buyCurrency);
+    _this2.checkBalance(sellCurrency);
+    _this2.getExchangeRate(sellCurrency, buyCurrency);
 
-    var exchangeRate = _this3.state.exchangeRate;
+    var exchangeRate = _this2.state.exchangeRate;
 
     sellAmount = new _bignumber.BigNumber(String(buyAmount) || 0).multipliedBy(exchangeRate);
 
-    _this3.setState({
+    _this2.setState({
       buyCurrency: buyCurrency,
       sellCurrency: sellCurrency,
       sellAmount: sellAmount
@@ -17487,7 +17478,7 @@ var AddOffer = (_dec = (0, _redaction.connect)(function (_ref) {
 
   this.handleSellCurrencySelect = function (_ref6) {
     var value = _ref6.value;
-    var _state5 = _this3.state,
+    var _state5 = _this2.state,
         buyCurrency = _state5.buyCurrency,
         sellCurrency = _state5.sellCurrency,
         sellAmount = _state5.sellAmount,
@@ -17500,14 +17491,14 @@ var AddOffer = (_dec = (0, _redaction.connect)(function (_ref) {
 
     sellCurrency = value;
 
-    _this3.checkBalance(sellCurrency);
-    _this3.getExchangeRate(sellCurrency, buyCurrency);
+    _this2.checkBalance(sellCurrency);
+    _this2.getExchangeRate(sellCurrency, buyCurrency);
 
-    var exchangeRate = _this3.state.exchangeRate;
+    var exchangeRate = _this2.state.exchangeRate;
 
     buyAmount = new _bignumber.BigNumber(String(sellAmount) || 0).dividedBy(exchangeRate);
 
-    _this3.setState({
+    _this2.setState({
       buyCurrency: buyCurrency,
       sellCurrency: sellCurrency,
       buyAmount: buyAmount
@@ -17515,58 +17506,58 @@ var AddOffer = (_dec = (0, _redaction.connect)(function (_ref) {
   };
 
   this.handleBuyAmountChange = function (value) {
-    var exchangeRate = _this3.state.exchangeRate;
+    var exchangeRate = _this2.state.exchangeRate;
 
 
-    if (!_this3.isSending) {
+    if (!_this2.isSending) {
       _actions2.default.analytics.dataEvent('orderbook-addoffer-enter-ordervalue');
-      _this3.setState({ isSending: true });
+      _this2.setState({ isSending: true });
     }
 
-    _this3.setState({
+    _this2.setState({
       sellAmount: new _bignumber.BigNumber(String(value) || 0).dividedBy(exchangeRate || 0),
       buyAmount: new _bignumber.BigNumber(String(value))
     });
   };
 
   this.handleSellAmountChange = function (value) {
-    var exchangeRate = _this3.state.exchangeRate;
+    var exchangeRate = _this2.state.exchangeRate;
 
 
-    if (!_this3.isSending) {
+    if (!_this2.isSending) {
       _actions2.default.analytics.dataEvent('orderbook-addoffer-enter-ordervalue');
-      _this3.setState({ isSending: true });
+      _this2.setState({ isSending: true });
     }
 
-    _this3.setState({
+    _this2.setState({
       buyAmount: new _bignumber.BigNumber(String(value) || 0).multipliedBy(exchangeRate || 0),
       sellAmount: new _bignumber.BigNumber(String(value))
     });
   };
 
   this.handleNext = function () {
-    var _state6 = _this3.state,
+    var _state6 = _this2.state,
         exchangeRate = _state6.exchangeRate,
         buyAmount = _state6.buyAmount,
         sellAmount = _state6.sellAmount,
         balance = _state6.balance,
         sellCurrency = _state6.sellCurrency;
-    var onNext = _this3.props.onNext;
+    var onNext = _this2.props.onNext;
 
 
     var isDisabled = !exchangeRate || !buyAmount || !sellAmount || sellAmount > balance || sellAmount < minAmount[sellCurrency];
 
     if (!isDisabled) {
       _actions2.default.analytics.dataEvent('orderbook-addoffer-click-next-button');
-      onNext(_this3.state);
+      onNext(_this2.state);
     }
   };
 
   this.changeBalance = function (value) {
-    _this3.setState({
+    _this2.setState({
       sellAmount: value
     });
-    _this3.handleSellAmountChange(value);
+    _this2.handleSellAmountChange(value);
   };
 }, _temp)) || _class) || _class);
 exports.default = AddOffer;
