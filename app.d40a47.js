@@ -12050,12 +12050,6 @@ var Row = (_dec = (0, _reactCssModules2.default)(_Row2.default), (0, _reactRoute
       });
     }, _this.handleEosLogin = function () {
       _actions2.default.modals.open(_helpers.constants.modals.Eos, {});
-    }, _this.handleApproveToken = function (decimals, contractAddress, name) {
-      _actions2.default.modals.open(_helpers.constants.modals.Approve, {
-        contractAddress: contractAddress,
-        decimals: decimals,
-        name: name
-      });
     }, _this.handleWithdraw = function () {
       var _this$props = _this.props,
           currency = _this$props.currency,
@@ -12087,15 +12081,13 @@ var Row = (_dec = (0, _reactCssModules2.default)(_Row2.default), (0, _reactRoute
                 balance = _context.sent;
 
 
-                console.log(_this.props);
-
                 if (balance > 0) {
                   _this.props.history.push(link);
                 } else {
                   _actions2.default.modals.open(_helpers.constants.modals.EthChecker, {});
                 }
 
-              case 5:
+              case 4:
               case 'end':
                 return _context.stop();
             }
@@ -12123,18 +12115,23 @@ var Row = (_dec = (0, _reactCssModules2.default)(_Row2.default), (0, _reactRoute
         })
       });
     }
-  }, {
-    key: 'componentDidMount',
-    value: function componentDidMount() {
-      var _props2 = this.props,
-          contractAddress = _props2.contractAddress,
-          name = _props2.name;
 
+    // componentDidMount() {
+    //   const { contractAddress, name } = this.props
+    //
+    //   if (name !== undefined) {
+    //     actions.token.allowance(contractAddress, name)
+    //   }
+    // }
 
-      if (name !== undefined) {
-        _actions2.default.token.allowance(contractAddress, name);
-      }
-    }
+    // handleApproveToken = (decimals, contractAddress, name) => {
+    //   actions.modals.open(constants.modals.Approve, {
+    //     contractAddress,
+    //     decimals,
+    //     name,
+    //   })
+    // }
+
   }, {
     key: 'render',
     value: function render() {
@@ -12144,16 +12141,13 @@ var Row = (_dec = (0, _reactCssModules2.default)(_Row2.default), (0, _reactRoute
           isBalanceFetching = _state.isBalanceFetching,
           tradeAllowed = _state.tradeAllowed,
           isAddressCopied = _state.isAddressCopied;
-      var _props3 = this.props,
-          currency = _props3.currency,
-          name = _props3.name,
-          balance = _props3.balance,
-          isBalanceFetched = _props3.isBalanceFetched,
-          address = _props3.address,
-          contractAddress = _props3.contractAddress,
-          decimals = _props3.decimals,
-          approve = _props3.approve,
-          unconfirmedBalance = _props3.unconfirmedBalance;
+      var _props2 = this.props,
+          currency = _props2.currency,
+          balance = _props2.balance,
+          isBalanceFetched = _props2.isBalanceFetched,
+          address = _props2.address,
+          contractAddress = _props2.contractAddress,
+          unconfirmedBalance = _props2.unconfirmedBalance;
 
 
       return _react2.default.createElement(
@@ -12212,12 +12206,6 @@ var Row = (_dec = (0, _reactCssModules2.default)(_Row2.default), (0, _reactRoute
                 { type: currency, address: address },
                 address
               )
-            ) : !approve ? _react2.default.createElement(
-              'button',
-              { styleName: 'button', onClick: function onClick() {
-                  return _this3.handleApproveToken(decimals, contractAddress, name);
-                } },
-              'Approve'
             ) : _react2.default.createElement(
               _react.Fragment,
               null,
@@ -13445,7 +13433,7 @@ var SwapsHistory = function (_PureComponent) {
     value: function render() {
       var orders = this.props.orders;
 
-      var titles = ['Exchange', 'You buy', 'You sell', 'Exchange rate', 'Status', 'Link'];
+      var titles = ['Exchange', 'You buy', 'You sell', 'Exchange rate', 'Status refund', 'Status order', 'Link'];
 
       if (orders === null || orders.length === 0) {
         return null;
@@ -19314,10 +19302,6 @@ var _dec, _class;
 var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
-
-var _propTypes = __webpack_require__(8);
-
-var _propTypes2 = _interopRequireDefault(_propTypes);
 
 var _reactRouterDom = __webpack_require__(36);
 
