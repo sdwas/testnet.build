@@ -5584,9 +5584,8 @@ var SwapComponent = (_dec = (0, _redaction.connect)({
           orderId = _props.match.params.orderId,
           history = _props.history;
 
-      var data = _swap4.default.services.orders.getByKey(orderId);
 
-      if (!data || !orderId) {
+      if (!orderId) {
         history.push(_helpers.links.exchange);
       }
 
@@ -9958,9 +9957,9 @@ var filterMyOrders = function filterMyOrders(orders, peer) {
   });
 };
 
-var filterOrders = function filterOrders(orders, filter) {
+var filterOrders = function filterOrders(orders, filter, peer) {
   return orders.filter(function (order) {
-    return order.isParticipantSigned === false || order.isMeSigned === false;
+    return order.isProcessing === false;
   }).filter(function (order) {
     return order.isMy ? '' + order.buyCurrency.toLowerCase() + order.sellCurrency.toLowerCase() === filter : '' + order.sellCurrency.toLowerCase() + order.buyCurrency.toLowerCase() === filter;
   }).sort(function (a, b) {
@@ -9977,7 +9976,7 @@ var Orders = (_dec = (0, _redaction.connect)(function (_ref) {
       peer = _ref$ipfs.peer,
       currencies = _ref.currencies.items;
   return {
-    orders: filterOrders(orders, filter),
+    orders: filterOrders(orders, filter, peer),
     myOrders: filterMyOrders(orders, peer),
     isOnline: isOnline,
     currencies: currencies
