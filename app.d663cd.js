@@ -6342,10 +6342,12 @@ var SwapComponent = (_dec = (0, _redaction.connect)({
       }
 
       var boolean = swapsId.map(function (item) {
-        return item !== orderId;
+        return item === orderId;
       });
 
-      if (Boolean.apply(undefined, (0, _toConsumableArray3.default)(boolean))) {
+      console.log('boolean', boolean);
+
+      if (!Boolean.apply(undefined, (0, _toConsumableArray3.default)(boolean))) {
         swapsId.push(orderId);
       }
 
@@ -22849,6 +22851,7 @@ var Core = function (_Component) {
   }, {
     key: 'componentWillMount',
     value: function componentWillMount() {
+      _actions2.default.core.getSwapHistory();
       _swap2.default.services.orders.on('new orders', this.updateOrders).on('new order', this.updateOrders).on('order update', this.updateOrders).on('remove order', this.updateOrders).on('new order request', this.updateOrders);
       this.setIpfs();
     }
